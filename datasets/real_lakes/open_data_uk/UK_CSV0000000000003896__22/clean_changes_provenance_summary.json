@@ -1,0 +1,48 @@
+{
+  "total_changes": 4619,
+  "error_type_counts": {
+    "FD_VIOLATION": 4619
+  },
+  "columns_affected": [
+    "pre_opqeq_five_d_index_profile",
+    "post_opqeq_five_d_index_profile",
+    "post_opq_discomfort",
+    "post_opq_anxiety",
+    "varicose_veineq_five_d_index",
+    "pre_opq_discomfort"
+  ],
+  "configuration": {
+    "total_error_percentage": 25,
+    "fd_percentage": 25,
+    "outlier_percentage": 0,
+    "typo_percentage": 0,
+    "fd_violations": [
+      {
+        "determinant": "post_opqeq_five_d_index_profile",
+        "dependant": "varicose_veineq_five_d_index",
+        "percentage": 150.05076142131952
+      },
+      {
+        "determinant": "post_opqeq_five_d_index_profile",
+        "dependant": "post_opq_anxiety",
+        "percentage": 150.05076142131952
+      },
+      {
+        "determinant": "post_opqeq_five_d_index_profile",
+        "dependant": "post_opq_discomfort",
+        "percentage": 149.94923857867994
+      },
+      {
+        "determinant": "pre_opqeq_five_d_index_profile",
+        "dependant": "pre_opq_discomfort",
+        "percentage": 149.94923857867994
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [],
+    "num_fd_rules": 4,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 0
+  },
+  "used_bart_native_types": true
+}

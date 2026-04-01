@@ -1,0 +1,2 @@
+t1&t2&EQ(t1.agency_number,t2.agency_number)&IQ(t1.agency_name,t2.agency_name)
+t1&t2&EQ(t1.agency_name,t2.agency_name)&IQ(t1.agency_number,t2.agency_number)

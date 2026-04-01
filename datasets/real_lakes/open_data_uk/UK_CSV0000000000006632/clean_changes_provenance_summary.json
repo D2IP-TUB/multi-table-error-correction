@@ -1,0 +1,112 @@
+{
+  "total_changes": 3388,
+  "error_type_counts": {
+    "FD_VIOLATION": 2700,
+    "RANDOM_TYPO": 660,
+    "UNKNOWN": 28
+  },
+  "columns_affected": [
+    "date_type",
+    "species",
+    "aphia_id",
+    "start_date",
+    "questionnaire_title",
+    "end_date",
+    "projection",
+    "sample_comment,\"A gradual slope at the sublittoral fringe level was followed by a steep, mainly vertical, drop to -3m",
+    "sample_comment,\"Bryozoa has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "survey_key",
+    "sample_comment,\"Boulders in shallow water with cobbles amongst them",
+    "abundance_sacforn",
+    "sample_comment",
+    "sample_comment,\"Ascidiacea has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,\"Bedrock, boulders and pebbles with sand",
+    "sample_comment,\"Axinellidae has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"The substratum was predominantly shell gravel/sand, and some bedrock ridges about 2 metres high were encountered",
+    "sample_comment,The overhangs had typical fauna with an undergrowth of Crisiidae and Bugula spp with large patches of Clavelina lepadiformis",
+    "sample_comment,\"An area of bedrock outcrops with very steep gullies partially filled by clean sand",
+    "sample_comment,\"Bedrock, boulders and pebbles with sand, gravel and some silt",
+    "sample_comment,\"Several zones were included but not defined in this dive",
+    "sample_comment,\"This area was tide-swept but with much mud covering the rocks",
+    "sample_comment,Pagurus has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Nearshore there were boulders with some mud between them",
+    "sample_comment,\"A cliff of approximately 2 metres high",
+    "sample_comment,\"Isolated rock reefs with sand, gravel and small stones between",
+    "sample_comment,There were areas of broken rock and large boulders which were dominated by Flustra foliacea and large patches of an unidentified tunicate (probably Dendrodoa grossularia)",
+    "sample_comment,\"Areas of low lying bedrock reef, small boulders and pebbles/gravel",
+    "sample_comment,\"The seabed consisted of low bedrock ridges and gullies with kelp overall and about 60% cover of foliose red algae, and typical animal species",
+    "sample_comment,\"Areas of low lying bedrock reef",
+    "sample_comment,\"Isolated rock reefs with sand",
+    "sample_comment,\"Ascidiacea, Porifera has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,A muddy sand seabed with scattered cobbles",
+    "sample_comment,\"A broken plain of mixed, probably tideswept substrata",
+    "sample_comment,\"The bedrock area in shallow water was dominated on th upward inclined surfaces bu Flustra foliacea with some Tubularia indivisa and Halichondria panicea",
+    "sample_comment,A typical Lithothamnion dominated zone with many young Laminaria digitata",
+    "sample_comment,\"Steep rock pinnacles with a wide variety of animal species on vrtical surfaces, overhangs and in high, very narrow gullies",
+    "sample_comment,\"A quiet silty habitat with numerous axinellid sponges on the rocks and good sediment fauna",
+    "sample_comment,\"A kelp park with no very large specimens",
+    "sample_comment,\"A vertical wall with narrow ledges, where Laminaria hyperborea could not grow",
+    "sample_comment,\"Steep rock with about 50% cover of very small foliaceous algae down to -3",
+    "sample_comment,\"The algae on the boulders extended down to -3",
+    "sample_comment,\"The bedrock area in shallow water was dominated on the upward inclined surfaces bu Flustra foliacea with some Tubularia indivisa an dHalichondria panicea",
+    "sample_comment,\"Steep rock pinnacles with a wide variety of animal species on vertical surfaces, overhlangs and in high, very narrow gullies",
+    "sample_comment,\"Close to the shore was a steep, kelp covered cliff to about -3m with caves at the base",
+    "sample_comment,\"The seabed consisted of low bedrock ridges and gullies with kelp overall and abeout 60% cover of foliose red algae, and typical animal species",
+    "sample_comment,A bedrock substratum with gentle and steep slopes",
+    "sample_comment,Nearshore open and upward inclined rocks had Laminaria hyperborea forest and a 60% cover of foliaceous algae",
+    "sample_comment,\"Bedrock, bsoulders and pebbles with sand, gravel and some silt",
+    "sample_comment,\"Bedrock ridges and pebbles with an abundance of silt/mud on the rocks",
+    "sample_comment,\"Steep rock pinnacles with a wide variety of animal species on vertical surfaces, overhangs and in high, very narrow gullies",
+    "sample_comment,\"Boulders in shalloww ater with cobbles amongst them",
+    "sample_comment,\"Fairly steep rock with dense coralline algae and loclaly abundant Plocamium cartilagineum"
+  ],
+  "configuration": {
+    "total_error_percentage": 18,
+    "fd_percentage": 9,
+    "outlier_percentage": 0,
+    "typo_percentage": 9,
+    "fd_violations": [
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 35.999999999999886
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 35.999999999999886
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 35.999999999999886
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 35.999999999999886
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "date_type",
+        "percentage": 35.999999999999886
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "questionnaire_title",
+      "species",
+      "date_type",
+      "abundance_sacforn",
+      "end_date",
+      "sample_comment",
+      "survey_key",
+      "projection",
+      "start_date"
+    ],
+    "num_fd_rules": 5,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 9
+  },
+  "used_bart_native_types": true
+}

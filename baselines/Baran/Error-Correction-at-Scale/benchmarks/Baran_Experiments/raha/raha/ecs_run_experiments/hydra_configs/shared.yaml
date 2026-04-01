@@ -1,0 +1,6 @@
+shared:
+  clean_file_name: clean.csv
+  dirty_file_name: dirty.csv
+  repetitions: 3
+  results_path: /home/fatemeh/data/LakeCorrectionBench/results_mit_pm_runtime
+  sandbox_path: /home/fatemeh/data/cells-limit/LakeCorrectionBench/datasets/Real_Lake_Default_Datasets/merged_strings_default_set_union/mit_dwh/merged

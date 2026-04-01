@@ -1,0 +1,344 @@
+{
+  "total_changes": 6385,
+  "error_type_counts": {
+    "FD_VIOLATION": 4845,
+    "RANDOM_TYPO": 1535,
+    "UNKNOWN": 5
+  },
+  "columns_affected": [
+    "end_date",
+    "aphia_id",
+    "species",
+    "survey_name",
+    "sample_key",
+    "survey_key",
+    "date_type",
+    "record_key",
+    "location_name",
+    "data_type",
+    "abundance_sacforn",
+    "sample_comment,\"Splash zone yon broken bedrock",
+    "longitude",
+    "latitude",
+    "start_date",
+    "projection",
+    "sample_comment,\"Sulbittoral fringe mooring blocks and chains",
+    "sample_comment,\"Splash zone on broken bedrock",
+    "sample_comment,\"Mixture of coarse gravel, sand, stones uand quartzite granules with a few worms visible as macrofauna",
+    "sample_comment,\"Pools at 3m ACD, amongst steeply sloping broken slate bedorck",
+    "sample_comment,\"Lower shore steeply sloping slate at 0",
+    "sample_comment",
+    "sample_comment,\"Upper shore on steepish broken bedrock with fairly well developed lichens (shaded but not excessively so) and Pelvetia, Bostrychia and F",
+    "sample_comment,\"Very coarse sediment with broken slates and assorted stones, small cobbles and pebbles at 10",
+    "location_name,\"Cliff Pill,  SPoint (Fowey)\"",
+    "sample_comment,\"Pools at 3m ACD, amongst steeply sloping broken slate bedrock",
+    "sample_comment,\"Sublittoral fringe ledges and ovehrangs at 0",
+    "sample_comment,\"Stones of vrious sizes at 8",
+    "sample_comment,Thick silty mud with black anoxic layer and some small encrusted stones at 8 m bcd",
+    "location_name,\"Cliff Pill, S Ponit (Fowey)\"",
+    "sample_comment,\"Vertical and overhanging bedrock including gullies at 1",
+    "sample_comment,\"Splash zone on steep and vertical surfaces",
+    "sample_comment,Anoxic silty mud with clay lumps (fine clay particles compacted together) and occasional stones and pebbles at 5",
+    "sample_comment,\"Infralittoral rock spur at 0 to 2m BCD",
+    "sample_comment,\"Overhangs and vertical rock at 0",
+    "sample_comment,\"Lower shore dominated by Fucus serratus",
+    "sample_comment,\"Lower mid shore at 2 to 3m ACD",
+    "sample_comment,Anoxic silty mud with occasional stones and pebbles with lots of shell gravel at 2",
+    "sample_comment,\"Pools at ca",
+    "sample_comment,\"Sand, pebble and cobble plain at 4 to 6m BCD",
+    "sample_comment,\"Lower shore",
+    "location_name,\"Cliffc Pill, S Point (Fowey)\"",
+    "sample_comment,\"Clayey mud on steep slope at 1",
+    "location_name,\"Harbour Commisioner's harf, Polruan Pool (Fowey)\"",
+    "sample_comment,Clean coarse sand and gravel with Arenicola on the lower mid shore",
+    "sample_comment,\"Silty anoxic mud with some coarse gravel, quartzite granules and large twigs",
+    "sample_comment,\"Lower midshore and lower shore, small pools and damp areasv",
+    "location_name,\"Cliff Pizll, S Point (Fowey)\"",
+    "sample_comment,\"Anoxic silty mud at 6 m bcdw ith occasional stones and pebbles with detritus",
+    "sample_comment,\"Stones and small boulders on top of silt ta 0",
+    "sample_comment,\"Lower mid shore and lower shore bedrock, dominated by Fucus serratus",
+    "sample_comment,Coarse clean sand and gravel on the lower shore with Arenicola",
+    "sample_comment,\"Lower middle shore on broken bedrock with heavy Fucus serratus cover",
+    "sample_comment,\"Wide midshore band dominated by Ascophyllum on broken bedrock with many steep and overhanging surfacse",
+    "sample_comment,\"Wide midshore band dominated by Ascophyllum on broken bedrock with many steep and overhanging surfaces",
+    "sample_comment,\"Upper shore bedrock overhung by oakwood with Woodrush, Honeysuckle, Holly and ferns etc",
+    "location_name,\"liff Pill, S Point (Fowey)\"",
+    "location_name,\"Cliff Pill, S Point (Fowe)y\"",
+    "sample_comment,Splash zone",
+    "sample_comment,\"Upper shore including splash zone",
+    "sample_comment,\"Epiphytes on Zostera included abundant small Lacuna vincta, much Obelia geniculata and ac few algal species",
+    "sample_comment,\"Broken bedrock at +0",
+    "sample_comment,\"Stones and small bouldesr on top of silt at 0",
+    "sample_comment,\"Stones and small boluders on top of silt at 0",
+    "sample_comment,\"Upper hsore short zones of Pelvetia and Fucus spiralis from 4 to 4",
+    "sample_comment,Upper shore with a narrow band of Pelvetia caniculata and a wider band of Fucus spiralis over rock covered by Catenella caespitosa",
+    "sample_comment,\"ower midshore and lower shore, small pools and damp areas",
+    "sample_comment,\"Sediment was a silty grey mud with a smooth surface and diatom film (brown) covering",
+    "sample_comment,Splash zone above 4",
+    "sample_comment,\"Middle shore dominated by Alcyonium",
+    "sample_comment,\"Coarse sandy mud with gravel, strongly rippled surfacte with very shallow sink",
+    "location_name,\"Upper Channel, Pont Pill (Fowey)***\"",
+    "sample_comment,Upper shore at 5 to 6m ACD",
+    "sample_comment,\"Lower shore algae as substrate",
+    "sample_comment,\"Upper shore on steepish broken bedrock with fairly well developed licens (shaded but not excessively so) and Pelvetia, Bostrychia and F",
+    "location_name,\"Pont Pill, NE o Slipway (Fowey)\"",
+    "sample_comment,\"Quartz pebbles",
+    "sample_comment,\"Stones and small boulders on top of silt at 0",
+    "location_name,\"Cliff Pill, S Point (Foweym)\"",
+    "sample_comment,Splash zone 6m ACD",
+    "sample_comment,\"Middle shore broken bedrock with heavy cover of Ascophyllum",
+    "sample_comment,\"Lower midshore and lower shore, small pools and damp areas",
+    "sample_comment,\"Lower mid shore broken rock dominated by Fucus serratus, heavily epiphyteid with Alcyonidium gelatinosum",
+    "sample_comment,\"Lower shore dominated by Fucus serratus, and red and green algae",
+    "sample_comment,\"Circalittoral broken bedrock at 3 to 5",
+    "sample_comment,\"Lower midshore and lowejr shore, small pools and damp areas",
+    "sample_comment,\"Lowershore dominated by Fucus serratus, and red and green algae",
+    "sample_comment,\"Lower midshore and lower shore, small pools adn damp areas",
+    "sample_comment,\"Lower midshore and lower shore, small pools aind damp areas",
+    "sample_comment,\"Lower mid shore and mid shore, on and under stones and boulders",
+    "location_name,\"Harbour Commisioner's Wharf, Polruan Pool (Fowye)\"",
+    "location_name,\"Cliff ill, S Point (Fowey)\"",
+    "sample_comment,\"Steel jetty piles ca 1",
+    "location_name,\"Cliff Pill, S Proint (Fowey)\"",
+    "sample_comment,\"Dense algae on firm muddy sand",
+    "sample_comment,\"Pools at m3 ACD, amongst steeply sloping broken slate bedrock",
+    "location_name,\"Cliff Pill, S Poin (Fowey)\"",
+    "sample_comment,\"Steep very broken rock wit rockmills, crevices, steep slopes and horizontal tops with abundant Laminaria hyperborea and foliose algae undercover in places, Corallina sp was dominant but overall was common",
+    "sample_comment,\"Species present on algae, mainly Ascophyllum nodosum ad Fucus serratus",
+    "location_name,\"No",
+    "sample_comment,\"Sand plain with cobbles at 4m BCD",
+    "location_name,\"Cliff Pill, S oint (Fowey)\"",
+    "sample_comment,\"Steep very broken rock with rockmills, crevices, steep slopes and horizontal tops with abundant Laminaria hyperborea and foliose algae undercover in places, Corallina sp was dominant but overall was common",
+    "sample_comment,\"Lower mid shore broken rock dominated by Fucus serratus, heavily epiphyted with Alcyonidium gelatinosum",
+    "location_name,\"Cliff Pill, S Point (owey)\"",
+    "sample_comment,\"Lower midshorep and lower shore, small pools and damp areas",
+    "location_name,\"Cliff Pill, S Psoint (Fowey)\"",
+    "sample_comment,\"Pools at 3m ACD, amongst steeplwy sloping broken slate bedrock",
+    "location_name,\"Pont Pll, NE of Slipway (Fowey)\"",
+    "sample_comment,\"Upper circalittoral broken bedrock, not so many overhangs as habitats 2 and 3",
+    "location_name,\"Pont Pill, NE of Slipway (Fowye)\"",
+    "sample_comment,\"Lower shore dominated by Fucus seratus, and red and green algae",
+    "sample_comment,\"Anoxic silty mud at 6 m bcd with occasional stones and pebbles with detritus",
+    "location_name,\"Clif fPill, S Point (Fowey)\"",
+    "sample_comment,Midshore bedrock",
+    "sample_comment,\"Middle shore under stones and overhangs",
+    "sample_comment,\"Kelp holdfasts at 9m BCD, in Upper Infralittoral",
+    "sample_comment,\"Lower midshore on broken bedrock with Fucus serratus dominant, and a small variety of small red algae",
+    "sample_comment,\"Upper shore short bands of Pelvetia and Fucus sprialis on steep and broken bedrock, with Bostrychia and Catenella common and large cover of Hildenbrandia on rock surfaces",
+    "sample_comment,\"Middle shore",
+    "sample_comment,\"Wide midshore band dominated by Ascophyllum on broken bedrock wth many steep and overhanging surfaces",
+    "sample_comment,\"Lower shore asteeply sloping slate at 0",
+    "sample_comment,\"Upper shore bedrock",
+    "sample_comment,\"Upper shore broken bedrock, dominated by black lichens, scattered by Pelvetia and Chthamalus montagui, with abundant Littorina saxitilis in crevices",
+    "sample_comment,\"Sublittoral fringe ledges and overhangs at 0",
+    "sample_comment,\"Lower shore bedrock, including overhangs",
+    "sample_comment,\"Sublittoral fringe mooring blocks and chains",
+    "sample_comment,\"Lower migdshore and lower shore, small pools and damp areas",
+    "sample_comment,\"Lower midshore and lower shore, samll pools and damp areas",
+    "sample_comment,\"Mixture of coarse gravel, sand, stones and quartzite granules with a few worms visible as macrofauna",
+    "sample_comment,\"Lower midshore overhangs (animals only)",
+    "sample_comment,\"Lower midshore on broken bedrock with Fucus serratus dominant, and a small ariety of small red algae",
+    "sample_comment,\"Lower shore bedrock",
+    "sample_comment,\"Lower middle shore under stones",
+    "sample_comment,\"Lower midshore and lowe shore, small pools and damp areas",
+    "sample_comment,Overhangs on the lower shore with a wide variety of species present including large areas of Umbonula littoralis and common Grantia compressa",
+    "location_name,\"Cliff Pill, S Poitn (Fowey)\"",
+    "sample_comment,\"Lower midshore and lower shore, small pols and damp areas",
+    "sample_comment,\"Upper shore on steepish broken bedrock with fairly well developed lichens (shaded but not excessively so) and Pelvetia",
+    "sample_comment,\"Middle shore broken bedrock with many rock ridges and small rockpools",
+    "sample_comment,\"Pools at c",
+    "location_name,\"Cliff Pill, SP oint (Fowey)\"",
+    "sample_comment,\"Pools at 3m ACD, amongst steeply szloping broken slate bedrock",
+    "sample_comment,\"Patchy Zostera, dense in places, with much Laminaria saccharina mixed in particulary in shallow water",
+    "sample_comment,\"Upper shore short zones of Pelvetia and Fucus spiralis from 4 to 4",
+    "location_name,\"Cliff Pill, S Point (Foey)\"",
+    "sample_comment,\"Walls of Pneroll Bridge",
+    "sample_comment,\"Vertical and overhanginzg bedrock including gullies at 1",
+    "location_name,\"Cliffa Pill, S Point (Fowey)\"",
+    "sample_comment,\"Algae as substrate 0 to 2m",
+    "sample_comment,\"Sediment was a silty grey mud wiht a smooth surface and diatom film (brown) covering",
+    "sample_comment,\"Lower shore bedrock and concrete slip",
+    "sample_comment,\"Silty anoxic mud with some coarse gravel, quartzite granules and lagre twigs",
+    "sample_comment,\"Lower shore dominated by Fucus serratus, and rjed and green algae",
+    "sample_comment,\"Pools at 3m ACD, amnogst steeply sloping broken slate bedrock",
+    "sample_comment,\"Drift dive over sediment surface at 7m BCD",
+    "location_name,\"Pont Pill, NE of Sliway (Fowey)\"",
+    "sample_comment,\"Lower mid shore broken rock dominated by Fucus serratus, heavily epphyted with Alcyonidium gelatinosum",
+    "sample_comment,\"Mud plain and slope",
+    "sample_comment,\"Lower shore steeply sloping slate ta 0",
+    "sample_comment,\"Lower shore domiated by Fucus serratus, and red and green algae"
+  ],
+  "configuration": {
+    "total_error_percentage": 17,
+    "fd_percentage": 8,
+    "outlier_percentage": 0,
+    "typo_percentage": 8,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "aphia_id",
+        "percentage": 10.000000000000021
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_comment",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "location_name",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "abundance_sacforn",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "sample_comment",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "location_name",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "sample_key",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "latitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "longitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "location_name",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "start_date",
+        "dependant": "end_date",
+        "percentage": 9.930555555555577
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "start_date",
+        "percentage": 9.930555555555577
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "record_key",
+      "survey_key",
+      "survey_name",
+      "sample_key",
+      "start_date",
+      "end_date",
+      "date_type",
+      "location_name",
+      "data_type",
+      "projection",
+      "species",
+      "abundance_sacforn",
+      "sample_comment"
+    ],
+    "num_fd_rules": 29,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 13
+  },
+  "used_bart_native_types": true
+}

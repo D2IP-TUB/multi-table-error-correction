@@ -1,0 +1,1016 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+30.region_code,30,region_code,Y55,Y57,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+191.region_name,191,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,IDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+297.sourcevalue,297,sourcevalue,Repairs_report,Repairsreport,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+299.periodenddate,299,periodenddate,31/03/2016,1/03/2016,RANDOM_TYPO,,[]
+300.area_team_geography_code,300,area_team_geography_code,E39000009,E39000009***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e13, e12, e17, e16, e3]"
+109.country_name,109,country_name,England,nEgland,RANDOM_TYPO,,[]
+275.area_team_geography_code,275,area_team_geography_code,E39000003,E3900j0003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+246.sub_region_code,246,sub_region_code,Q72,Qd72,FD_VIOLATION,area_team_code -> sub_region_code,"[e30, e32, e21, e13, e37]"
+55.region_code,55,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16]"
+135.raw_value,135,raw_value,0.0,11.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+18.area_team_code,18,area_team_code,Q46,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+73.sub_region_code,73,sub_region_code,Q74,74,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+59.region_name,59,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENjGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+222.area_team_geography_code,222,area_team_geography_code,E39000003,E39000003***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+43.region_code,43,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e46, e34, e39, e16, e29]"
+152.sub_region_name,152,sub_region_name,NHS ENGLAND EAST,NHS ENGLAN EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+10.variablevalue,10,variablevalue,ESTtwoSmallESA,ESTthrLensHOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+340.area_team_geography_code,340,area_team_geography_code,E39000003,E3900003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+311.variablevalue,311,variablevalue,ESToneSightTestByPracOMP,ESToneSightTerstByPracOMP,RANDOM_TYPO,,[]
+260.region_name,260,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONIN REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+125.yearvalue,125,yearvalue,2015/16,2015/6,RANDOM_TYPO,,[]
+133.periodenddate,133,periodenddate,31/03/2016,31/03r/2016,RANDOM_TYPO,,[]
+262.region_geography_code,262,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e35, e45, e25, e17]"
+282.sub_region_geography_code,282,sub_region_geography_code,E39000034,E3h9000034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e27]"
+152.sub_region_code,152,sub_region_code,Q79,79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e28]"
+64.region_name,64,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLANDCOMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+130.sourcevalue,130,sourcevalue,Sight_test,Siht_test,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+262.country_code,262,country_code,E1,Ef1,RANDOM_TYPO,,[]
+115.region_code,115,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e39, e16, e29]"
+45.region_geography_code,45,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e35, e25, e47, e17]"
+216.region_geography_code,216,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e45, e25, e17]"
+83.variablevalue,83,variablevalue,ESTtwoASU19,ESTtwopASU19,RANDOM_TYPO,,[]
+45.yearvalue,45,yearvalue,2015/16,2015/6,RANDOM_TYPO,,[]
+97.yearvalue,97,yearvalue,2015/16,201/16,RANDOM_TYPO,,[]
+5.area_team_code,5,area_team_code,Q45,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+195.area_team_code,195,area_team_code,Q55,Q55***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e10, e4]"
+95.area_team_geography_code,95,area_team_geography_code,E39000017,E39000071,FD_VIOLATION,area_team_code -> area_team_geography_code,[e3]
+35.country_name,35,country_name,England,ngland,RANDOM_TYPO,,[]
+109.sub_region_name,109,sub_region_name,NHS ENGLAND YORKSHIRE AND HUMBER,NH ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+50.region_code,50,region_code,Y55,Y5,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16]"
+23.sub_region_geography_code,23,sub_region_geography_code,E39000018,E39000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+323.sub_region_name,323,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS eENGLAND SOUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+28.sub_region_geography_code,28,sub_region_geography_code,E39000018,E39000035,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+251.sub_region_code,251,sub_region_code,Q70,Q07,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+182.region_code,182,region_code,Y54,qY54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e24, e46, e34, e39, e16, e29]"
+206.sourcevalue,206,sourcevalue,Voucher_report,Vouchrer_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+194.sub_region_geography_code,194,sub_region_geography_code,E39000033,xE39000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+143.country_name,143,country_name,England,Englnad,RANDOM_TYPO,,[]
+197.region_code,197,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e16, e29]"
+332.sub_region_name,332,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLANcD CHESHIRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e15, e28]"
+225.sub_region_name,225,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBRIA AND NORTHt EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+110.sub_region_geography_code,110,sub_region_geography_code,E39000027,E39000027***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e35, e34, e14, e38, e27]"
+18.area_team_name,18,area_team_name,GREATER MANCHESTER AREA TEAM,ESSEX AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+30.region_geography_code,30,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+159.sub_region_geography_code,159,sub_region_geography_code,E39000028,E3900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e38, e27]"
+308.variablevalue,308,variablevalue,ESToneTotalCount,ESToneTotaloCunt,RANDOM_TYPO,,[]
+141.region_name,141,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMzISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+218.region_name,218,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGINO,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+28.area_team_geography_code,28,area_team_geography_code,E39000018,E39000020,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+135.region_code,135,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+165.region_code,165,region_code,Y54,Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e24, e46, e16, e29]"
+318.sourcevalue,318,sourcevalue,Sight_test,Sight_tet,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+12.region_code,12,region_code,Y57,Y55,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+205.region_code,205,region_code,Y55,Y5,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e46, e39, e16]"
+169.country_name,169,country_name,England,Engladn,RANDOM_TYPO,,[]
+71.country_name,71,country_name,England,Engladn,RANDOM_TYPO,,[]
+220.sub_region_name,220,sub_region_name,NHS ENGLAND NORTH MIDLANDS,NHS ENGLAND NORT MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e15, e28]"
+11.region_name,11,region_name,NORTH OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e46, e45, e26, e36, e47, e18]"
+221.sub_region_name,221,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CENTRAL MIhDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e15, e28]"
+44.region_geography_code,44,region_geography_code,E40000002,4E0000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e35, e25, e47, e17]"
+289.area_team_geography_code,289,area_team_geography_code,E39000003,E3000003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+200.region_code,200,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+311.sourcevalue,311,sourcevalue,Sight_test,Sighgt_test,RANDOM_TYPO,,[]
+"193.area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRzE AREA TEAM"",""BRISTOL",193,"area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRzE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+123.sub_region_geography_code,123,sub_region_geography_code,E39000034,39000034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e32, e34, e14, e36, e38, e27]"
+196.sourcevalue,196,sourcevalue,Repairs_report,Repairs_rpeort,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+315.area_team_code,315,area_team_code,Q64,6Q4,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+25.region_code,25,region_code,Y54,Y57,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e39, e16, e29]"
+287.sub_region_geography_code,287,sub_region_geography_code,E39000029,E9000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+273.sub_region_name,273,sub_region_name,NHS ENGLAND WEST MIDLANDS,NHS ENGLAND WEST MdIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e23, e15]"
+248.area_team_code,248,area_team_code,Q45,Qm45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+248.sub_region_geography_code,248,sub_region_geography_code,E39000027,E3900027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e33, e22, e35, e34, e14, e27]"
+5.sub_region_name,5,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+122.region_geography_code,122,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47]"
+223.yearvalue,223,yearvalue,2015/16,0215/16,RANDOM_TYPO,,[]
+257.periodenddate,257,periodenddate,31/03/2016,1/03/2016,RANDOM_TYPO,,[]
+269.sub_region_code,269,sub_region_code,Q79,Q7w9,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13]"
+261.sub_region_code,261,sub_region_code,Q70,7Q0,FD_VIOLATION,area_team_code -> sub_region_code,"[e30, e32, e21, e13, e37, e28]"
+"66.area_team_name,""ARDEN, bHEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""",66,"area_team_name,""ARDEN, bHEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+60.yearvalue,60,yearvalue,2015/16,201/516,RANDOM_TYPO,,[]
+262.region_code,262,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e34, e16, e29]"
+138.sub_region_geography_code,138,sub_region_geography_code,E39000034,E3900034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e34, e36]"
+199.sub_region_name,199,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGlLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+31.sub_region_name,31,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENGLAND SOUTHEAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+254.sub_region_geography_code,254,sub_region_geography_code,E39000027,E39000072,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e32, e35, e34, e14, e36, e38, e27]"
+131.periodenddate,131,periodenddate,31/03/2016,31/03/20u16,RANDOM_TYPO,,[]
+160.country_name,160,country_name,England,Enland,RANDOM_TYPO,,[]
+113.region_geography_code,113,region_geography_code,E40000001,E4000000h1,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e9, e35, e25, e47]"
+231.area_team_code,231,area_team_code,Q44,44,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e7, e8, e11, e9, e19]"
+143.area_team_code,143,area_team_code,Q55,Q55***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e10, e4]"
+255.region_geography_code,255,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e30, e44, e9, e35, e45, e25, e47, e17]"
+25.region_geography_code,25,region_geography_code,E40000001,E400g00001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+138.sub_region_code,138,sub_region_code,Q82,82,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21]"
+205.sub_region_geography_code,205,sub_region_geography_code,E39000030,E39000003,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e38]"
+161.periodenddate,161,periodenddate,31/03/2016,13/03/2016,RANDOM_TYPO,,[]
+10.area_team_geography_code,10,area_team_geography_code,E39000020,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+292.area_team_code,292,area_team_code,Q53,Qy53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+240.area_team_geography_code,240,area_team_geography_code,E39000003,nE39000003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+129.sub_region_code,129,sub_region_code,Q70,Q7g0,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+59.raw_value,59,raw_value,0.0,92.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+220.yearvalue,220,yearvalue,2015/16,015/16,RANDOM_TYPO,,[]
+267.area_team_name,267,area_team_name,WEST YORKSHIRE AREA TEAM,WEST YORKSHIRE AREA TEaAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+199.region_name,199,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF EGNLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+43.variablevalue,43,variablevalue,ESTtwoAUC,ESTtwAUC,RANDOM_TYPO,,[]
+32.area_team_code,32,area_team_code,Q50,Q45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+12.sub_region_geography_code,12,sub_region_geography_code,E39000035,E39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+270.country_name,270,country_name,England,Enlgand,RANDOM_TYPO,,[]
+23.sourcevalue,23,sourcevalue,Voucher_report,Voucher_reaport,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+326.region_geography_code,326,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e25, e47, e17]"
+22.area_team_code,22,area_team_code,Q50,Q53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+273.sub_region_geography_code,273,sub_region_geography_code,E39000033,E30900033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e14]"
+332.periodenddate,332,periodenddate,31/03/2016,3103/2016,RANDOM_TYPO,,[]
+334.sub_region_code,334,sub_region_code,Q72,72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e13, e37, e29]"
+127.sub_region_code,127,sub_region_code,Q70,7Q0,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e28]"
+131.region_geography_code,131,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e35, e45, e25, e47, e17]"
+137.sub_region_geography_code,137,sub_region_geography_code,E39000029,39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+111.area_team_code,111,area_team_code,Q45,Q54,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+17.area_team_geography_code,17,area_team_geography_code,E39000023,E39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+332.region_geography_code,332,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e30, e44, e9, e35, e45, e47, e17]"
+278.region_name,278,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONNG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+165.sourcevalue,165,sourcevalue,Voucher_report,Voucher_eport,RANDOM_TYPO,,[]
+49.sub_region_geography_code,49,sub_region_geography_code,E39000028,E3900002j8,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+220.area_team_name,220,area_team_name,DERBYSHIRE AND NOTTINGHAMSHIRE AREA TEAM,DERBYSHIRE AN NOTTINGHAMSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+82.region_geography_code,82,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+50.sub_region_code,50,sub_region_code,Q78,Qf78,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+307.sub_region_code,307,sub_region_code,Q72,Q27,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e28]"
+138.sub_region_name,138,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND SOUTH CENRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23]"
+85.periodenddate,85,periodenddate,31/03/2016,13/03/2016,RANDOM_TYPO,,[]
+244.region_code,244,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e16, e29]"
+120.sub_region_name,120,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND SOUTH ENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e41, e33, e23, e15, e39, e28, e38]"
+252.sub_region_code,252,sub_region_code,Q71,Q7p1,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+292.sub_region_code,292,sub_region_code,Q77,Q7,FD_VIOLATION,area_team_code -> sub_region_code,"[e31, e32, e21, e13, e28, e29]"
+128.sub_region_name,128,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND OSUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+33.area_team_geography_code,33,area_team_geography_code,E39000013,E390h00013,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+270.region_code,270,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e39, e16, e29]"
+208.sub_region_code,208,sub_region_code,Q80,80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e13, e37, e28, e27]"
+6.area_team_code,6,area_team_code,Q59,Q45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+234.sub_region_code,234,sub_region_code,Q78,78,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e28, e27, e29]"
+236.area_team_geography_code,236,area_team_geography_code,E39000004,E3900004,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+232.sub_region_geography_code,232,sub_region_geography_code,E39000032,E39000032***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+299.region_name,299,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND CMOMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e43, e45, e26, e36, e18]"
+144.sub_region_geography_code,144,sub_region_geography_code,E39000018,3E9000018,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+14.area_team_geography_code,14,area_team_geography_code,E39000018,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+265.region_geography_code,265,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47, e17]"
+216.region_name,216,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e43, e45, e26, e18]"
+31.region_code,31,region_code,Y57,Y56,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e16, e29]"
+152.region_name,152,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION***,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+259.region_geography_code,259,region_geography_code,E40000001,Et40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+226.region_geography_code,226,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+173.region_code,173,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e46, e39]"
+143.area_team_name,143,area_team_name,DERBYSHIRE AND NOTTINGHAMSHIRE AREA TEAM,DERBYSpHIRE AND NOTTINGHAMSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+280.region_name,280,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONING REGON,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e46, e45, e26, e36, e47, e18]"
+174.sub_region_geography_code,174,sub_region_geography_code,E39000026,E39000026***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e27]"
+124.region_name,124,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND OMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+43.country_code,43,country_code,E1,1,RANDOM_TYPO,,[]
+57.sub_region_code,57,sub_region_code,Q72,Qi72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+7.variablevalue,7,variablevalue,ESTtwoHPPV,ESTthrLensTintBoth,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+255.variablevalue,255,variablevalue,ESTtwoCUC,ESbTtwoCUC,RANDOM_TYPO,,[]
+159.area_team_geography_code,159,area_team_geography_code,E39000004,E39000004***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e15, e14, e17, e16, e18, e3]"
+53.region_code,53,region_code,Y54,Yr54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e39, e16, e29]"
+243.sub_region_name,243,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AND MRSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+250.region_code,250,region_code,Y54,Yp54,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e34, e39, e16, e29]"
+273.area_team_code,273,area_team_code,Q53,Qp53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+58.region_code,58,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+24.area_team_geography_code,24,area_team_geography_code,E39000015,E39000014,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+16.variablevalue,16,variablevalue,ESTtwoGSU19,ESTthrLensTotalOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+128.region_code,128,region_code,Y57,Y5v7,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e16, e29]"
+229.region_name,229,region_name,LONDON COMMISSIONING REGION,LONDON COMIMSSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+184.sub_region_name,184,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHSE NGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+326.sub_region_geography_code,326,sub_region_geography_code,E39000027,E3000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+159.region_code,159,region_code,Y54,Y5s4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+201.region_geography_code,201,region_geography_code,E40000001,E400j00001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e35, e25, e47, e17]"
+150.region_name,150,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMMISSIONINyG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+244.sub_region_name,244,sub_region_name,NHS ENGLAND EAST,NHS EqNGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+100.region_code,100,region_code,Y56,5Y6,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e34, e39, e16]"
+19.area_team_code,19,area_team_code,Q69,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+156.sub_region_code,156,sub_region_code,Q79,79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e37, e28]"
+204.country_name,204,country_name,England,Englcand,RANDOM_TYPO,,[]
+200.country_code,200,country_code,E1,1E,RANDOM_TYPO,,[]
+240.yearvalue,240,yearvalue,2015/16,205/16,RANDOM_TYPO,,[]
+209.sub_region_name,209,sub_region_name,NHS ENGLAND SOUTH WEST,NHS lENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+199.yearvalue,199,yearvalue,2015/16,2015/6,RANDOM_TYPO,,[]
+37.sub_region_code,37,sub_region_code,Q73,Q7e3,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+41.region_code,41,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e46, e34, e39, e16, e29]"
+45.area_team_code,45,area_team_code,Q46,4Q6,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+243.yearvalue,243,yearvalue,2015/16,2015k/16,RANDOM_TYPO,,[]
+162.periodenddate,162,periodenddate,31/03/2016,3/03/2016,RANDOM_TYPO,,[]
+9.sub_region_code,9,sub_region_code,Q77,Q80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+325.region_code,325,region_code,Y54,Yd54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+7.area_team_geography_code,7,area_team_geography_code,E39000022,E39000016,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+285.yearvalue,285,yearvalue,2015/16,2u015/16,RANDOM_TYPO,,[]
+241.region_name,241,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF EGNLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+172.region_name,172,region_name,LONDON COMMISSIONING REGION,ONDON COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e26, e36, e18]"
+"61.area_team_name,""RISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",61,"area_team_name,""RISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+280.region_geography_code,280,region_geography_code,E40000001,E04000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+133.sub_region_name,133,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AN MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+234.sub_region_name,234,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CENTRAL MIwDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+110.region_geography_code,110,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+95.variablevalue,95,variablevalue,ESTtwoTintPPV,EStTtwoTintPPV,RANDOM_TYPO,,[]
+265.yearvalue,265,yearvalue,2015/16,201e5/16,RANDOM_TYPO,,[]
+14.region_code,14,region_code,Y56,Y54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+204.sub_region_geography_code,204,sub_region_geography_code,E39000033,E39000303,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e38, e27]"
+137.region_code,137,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e39, e16, e29]"
+6.variablevalue,6,variablevalue,ESToneSightTestByPat16,ESTthrLensTintBoth,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+10.adjusted_value,10,adjusted_value,0.0,7.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+323.area_team_geography_code,323,area_team_geography_code,E39000019,E3000019,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e15, e14, e16, e18, e3]"
+"14.area_team_name,""DURHAM",14,"area_team_name,""DURHAM",LONDON AREA TEAM," DARLINGTON AND TEES AREA TEAM""",FD_VIOLATION,,"[e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+269.sub_region_name,269,sub_region_name,NHS ENGLAND EAST,NdHS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15]"
+112.yearvalue,112,yearvalue,2015/16,2015/61,RANDOM_TYPO,,[]
+248.region_geography_code,248,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e30, e44, e35, e25, e47, e17]"
+205.sub_region_code,205,sub_region_code,Q78,Qm78,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e13, e37]"
+216.sub_region_geography_code,216,sub_region_geography_code,E39000030,E3900030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e14, e38, e27]"
+216.yearvalue,216,yearvalue,2015/16,201/16,RANDOM_TYPO,,[]
+344.sourcevalue,344,sourcevalue,Voucher_report,Vouncher_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+16.sub_region_name,16,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+179.region_geography_code,179,region_geography_code,E40000001,E400m00001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e25, e47, e17]"
+215.sub_region_name,215,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBRIA AND NORTHE AST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+70.sub_region_geography_code,70,sub_region_geography_code,E39000029,E3a9000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+269.region_geography_code,269,region_geography_code,E40000002,4E0000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e9, e35, e25, e47, e17]"
+14.variablevalue,14,variablevalue,ESTthrFrameTotalSmall,ESTtwoFCU16,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+22.country_name,22,country_name,England,Enland,RANDOM_TYPO,,[]
+98.variablevalue,98,variablevalue,ESTtwoHFC,ESTtwoFC,RANDOM_TYPO,,[]
+143.region_name,143,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMSSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+89.raw_value,89,raw_value,0.0,40.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+268.sub_region_code,268,sub_region_code,Q78,Q7q8,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e21, e13, e37]"
+202.variablevalue,202,variablevalue,ESTtwoFFC,STtwoFFC,RANDOM_TYPO,,[]
+296.region_name,296,region_name,LONDON COMMISSIONING REGION,LONDON COMoMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e36, e18]"
+255.region_code,255,region_code,Y54,aY54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e16, e29]"
+42.country_name,42,country_name,England,Egland,RANDOM_TYPO,,[]
+332.area_team_name,332,area_team_name,MERSEYSIDE AREA TEAM,MERSEYSIDE ARAE TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+255.sub_region_geography_code,255,sub_region_geography_code,E39000027,E3900027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e35, e34, e14, e38, e27]"
+303.region_name,303,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGALND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+162.region_name,162,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COzMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+327.sub_region_geography_code,327,sub_region_geography_code,E39000034,39000034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e32, e34, e14, e36, e38]"
+282.sourcevalue,282,sourcevalue,Sight_test,Sight_tegst,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+238.raw_value,238,raw_value,0.0,68.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+305.sub_region_geography_code,305,sub_region_geography_code,E39000034,E3900034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e34, e14, e36, e38, e27]"
+"328.area_team_name,""BRISTOL, NORHT SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",328,"area_team_name,""BRISTOL, NORHT SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+18.yearvalue,18,yearvalue,2015/16,2015/61,RANDOM_TYPO,,[]
+126.raw_value,126,raw_value,0.0,65.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+333.sourcevalue,333,sourcevalue,Repairs_report,Repairsr_eport,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+224.yearvalue,224,yearvalue,2015/16,215/16,RANDOM_TYPO,,[]
+299.variablevalue,299,variablevalue,ESTthrLensABoth,ESTthrensABoth,RANDOM_TYPO,,[]
+181.region_geography_code,181,region_geography_code,E40000003,E40000003***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e25, e17]"
+21.country_code,21,country_code,E1,Et1,RANDOM_TYPO,,[]
+297.region_name,297,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANSD AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+268.sub_region_geography_code,268,sub_region_geography_code,E39000030,39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38]"
+211.periodenddate,211,periodenddate,31/03/2016,31q/03/2016,RANDOM_TYPO,,[]
+173.area_team_code,173,area_team_code,Q64,jQ64,FD_VIOLATION,area_team_code -> area_team_geography_code,[e19]
+11.area_team_code,11,area_team_code,Q52,Q68,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+12.adjusted_value,12,adjusted_value,435.0,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+306.variablevalue,306,variablevalue,ESTtwoFHC2,cESTtwoFHC2,RANDOM_TYPO,,[]
+46.sub_region_name,46,sub_region_name,NHS ENGLAND SOUTH WEST,NHSE NGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+337.sub_region_name,337,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND SOTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e28]"
+235.sub_region_code,235,sub_region_code,Q70,dQ70,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e13, e37]"
+92.region_geography_code,92,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+176.area_team_code,176,area_team_code,Q68,68,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+270.sourcevalue,270,sourcevalue,Voucher_report,Vouchere_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+245.sub_region_geography_code,245,sub_region_geography_code,E39000030,E3900000,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38]"
+256.region_geography_code,256,region_geography_code,E40000001,E4000000o1,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+29.variablevalue,29,variablevalue,ESTtwoTotalTotal,ESTtwoTotalTtal,RANDOM_TYPO,,[]
+337.area_team_geography_code,337,area_team_geography_code,E39000019,E39000019***,FD_VIOLATION,area_team_code -> area_team_geography_code,[e20]
+273.region_name,273,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLANDs COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e45, e26, e18]"
+250.region_name,250,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OFx ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e45, e26, e36, e18]"
+292.variablevalue,292,variablevalue,ESToneSightTestByPat60,ESToneSightTestByPat06,RANDOM_TYPO,,[]
+"281.area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTRSHIRE AREA TEAM""",281,"area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTRSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+171.yearvalue,171,yearvalue,2015/16,015/16,RANDOM_TYPO,,[]
+310.sub_region_name,310,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHSHIRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+11.area_team_geography_code,11,area_team_geography_code,E39000009,E39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+138.variablevalue,138,variablevalue,ESTtwoCESA,ESTtswoCESA,RANDOM_TYPO,,[]
+19.area_team_name,19,area_team_name,THAMES VALLEY AREA TEAM,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+277.sub_region_geography_code,277,sub_region_geography_code,E39000036,E39000063,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+274.yearvalue,274,yearvalue,2015/16,p2015/16,RANDOM_TYPO,,[]
+252.region_name,252,region_name,LONDON COMMISSIONING REGION,LONDON COMMISSIONyING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e26, e36, e18]"
+180.region_name,180,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,IDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+314.sub_region_name,314,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAdND SOUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+204.periodenddate,204,periodenddate,31/03/2016,3l1/03/2016,RANDOM_TYPO,,[]
+209.sourcevalue,209,sourcevalue,Voucher_report,Voucher_reort,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+310.region_code,310,region_code,Y54,Y5m4,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e16, e29]"
+240.periodenddate,240,periodenddate,31/03/2016,31/03/0216,RANDOM_TYPO,,[]
+238.sub_region_name,238,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENGLAND SOUTH EAT,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e28]"
+7.sub_region_code,7,sub_region_code,Q81,Q71,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+170.region_code,170,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+113.country_code,113,country_code,E1,1,RANDOM_TYPO,,[]
+29.sub_region_name,29,sub_region_name,NHS ENGLAND EAST,NHS ENGLAND ESAT,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+343.sub_region_name,343,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGALND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+254.region_geography_code,254,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e35, e45, e25, e47, e17]"
+329.sourcevalue,329,sourcevalue,Repairs_report,Rpeairs_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+306.sub_region_name,306,sub_region_name,NHS ENGLAND NORTH MIDLANDS,HNS ENGLAND NORTH MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+194.region_name,194,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS ND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e18]"
+116.region_name,116,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIOINNG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e46, e45, e26, e36, e18]"
+19.sub_region_name,19,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+20.area_team_geography_code,20,area_team_geography_code,E39000008,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+5.variablevalue,5,variablevalue,ESTtwoGDWA,ESTthrLensTintBoth,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+27.sub_region_geography_code,27,sub_region_geography_code,E39000031,E39000035,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+302.area_team_geography_code,302,area_team_geography_code,E39000003,E3900003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+125.sourcevalue,125,sourcevalue,Voucher_report,Vouhcer_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+72.variablevalue,72,variablevalue,ESTtwoHIS,ESTtwoIHS,RANDOM_TYPO,,[]
+92.country_code,92,country_code,E1,vE1,RANDOM_TYPO,,[]
+207.area_team_name,207,area_team_name,SOUTH YORKSHIRE AND BASSETLAW AREA TEAM,SOUTH YORKSHIRE ANpD BASSETLAW AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+"60.area_team_name,""BRISTLO, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",60,"area_team_name,""BRISTLO, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+144.region_name,144,region_name,LONDON COMMISSIONING REGION,LONDON COMMISSIONIG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+12.sub_region_name,12,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+241.country_code,241,country_code,E1,1E,RANDOM_TYPO,,[]
+242.region_code,242,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+306.region_name,306,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MmIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+267.region_code,267,region_code,Y54,Y5w4,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e46, e34, e39, e16]"
+136.sub_region_geography_code,136,sub_region_geography_code,E39000030,Eb39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+195.region_name,195,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLNADS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e47, e18]"
+125.area_team_geography_code,125,area_team_geography_code,E39000024,E3000024,FD_VIOLATION,area_team_code -> area_team_geography_code,[e20]
+135.yearvalue,135,yearvalue,2015/16,20151/6,RANDOM_TYPO,,[]
+30.sub_region_geography_code,30,sub_region_geography_code,E39000031,E39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+74.region_geography_code,74,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+18.area_team_geography_code,18,area_team_geography_code,E39000003,E39000016,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+26.sub_region_code,26,sub_region_code,Q79,Q72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+63.sub_region_geography_code,63,sub_region_geography_code,E39000027,E39000072,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e32, e35, e34, e14, e36, e38, e27]"
+228.region_code,228,region_code,Y56,Y65,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e46, e34, e39, e16, e29]"
+306.yearvalue,306,yearvalue,2015/16,201/516,RANDOM_TYPO,,[]
+200.yearvalue,200,yearvalue,2015/16,201/516,RANDOM_TYPO,,[]
+317.sub_region_code,317,sub_region_code,Q82,vQ82,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13]"
+206.periodenddate,206,periodenddate,31/03/2016,3103/2016,RANDOM_TYPO,,[]
+139.region_name,139,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLANoD COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+65.region_code,65,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e46, e34, e39, e16, e29]"
+319.sub_region_name,319,sub_region_name,NHS ENGLAND EAST,NHS ENGLAND EpAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e41, e33, e23, e15, e28, e38]"
+"192.area_team_name,""ARDEN, HEREFORDSHIRE AD WORCESTERSHIRE AREA TEAM""",192,"area_team_name,""ARDEN, HEREFORDSHIRE AD WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+254.area_team_code,254,area_team_code,Q45,Q4w5,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+321.region_name,321,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OFg ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+314.area_team_code,314,area_team_code,Q64,uQ64,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+30.area_team_name,30,area_team_name,EAST ANGLIA AREA TEAM,LEICESTERSHIRE AND LINCOLNSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+305.sub_region_name,305,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND SOUTH ENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e41, e33, e23, e15, e39, e28, e38]"
+272.region_code,272,region_code,Y54,Yn54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e16, e29]"
+49.sub_region_name,49,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHSz ENGLAND LANCASHIRE AND GREATER MANCHESTER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+107.sub_region_code,107,sub_region_code,Q78,Q87,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e37, e29]"
+254.region_code,254,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e46, e34, e39, e16, e29]"
+174.region_geography_code,174,region_geography_code,E40000001,E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e30, e44, e9, e45, e47, e17]"
+13.area_team_geography_code,13,area_team_geography_code,E39000016,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+317.region_code,317,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e34, e16]"
+27.area_team_name,27,area_team_name,EAST ANGLIA AREA TEAM,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+37.region_geography_code,37,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e35, e45, e25, e47, e17]"
+82.country_name,82,country_name,England,Egland,RANDOM_TYPO,,[]
+61.region_code,61,region_code,Y57,57,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e46, e34, e39, e16, e29]"
+165.area_team_code,165,area_team_code,Q45,Q54,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+227.yearvalue,227,yearvalue,2015/16,015/16,RANDOM_TYPO,,[]
+294.area_team_code,294,area_team_code,Q53,53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e10, e19]"
+18.sub_region_geography_code,18,sub_region_geography_code,E39000028,E39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+279.country_name,279,country_name,England,ngland,RANDOM_TYPO,,[]
+80.sub_region_code,80,sub_region_code,Q78,7Q8,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e21, e13, e37, e27]"
+316.sub_region_code,316,sub_region_code,Q79,Q9,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13]"
+58.country_name,58,country_name,England,ngland,RANDOM_TYPO,,[]
+101.region_code,101,region_code,Y54,Yf54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e16, e29]"
+132.sub_region_code,132,sub_region_code,Q77,7Q7,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+187.variablevalue,187,variablevalue,ESTthrFrameWholeSmall,ESTthFrrameWholeSmall,RANDOM_TYPO,,[]
+16.sub_region_geography_code,16,sub_region_geography_code,E39000034,E39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+274.region_name,274,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OeF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+190.raw_value,190,raw_value,0.0,78.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+308.sub_region_geography_code,308,sub_region_geography_code,E39000028,E3900002o8,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+332.region_code,332,region_code,Y54,Y5t4,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e46, e34, e16, e29]"
+195.country_name,195,country_name,England,Englad,RANDOM_TYPO,,[]
+239.region_code,239,region_code,Y57,Y7,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e34, e39, e16, e29]"
+10.sub_region_geography_code,10,sub_region_geography_code,E39000036,E39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+60.region_geography_code,60,region_geography_code,E40000004,E40000s004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e47, e17]"
+221.region_name,221,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS ADN EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e36, e18]"
+239.region_name,239,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH O ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e45, e26, e36, e18]"
+200.region_name,200,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH F ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+307.yearvalue,307,yearvalue,2015/16,2015/6,RANDOM_TYPO,,[]
+147.region_geography_code,147,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+161.region_geography_code,161,region_geography_code,E40000004,E4000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+20.area_team_code,20,area_team_code,Q51,Q57,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+282.sub_region_name,282,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGALND SOUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e28]"
+185.region_code,185,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+283.variablevalue,283,variablevalue,ESTthrLensHBoth,rESTthrLensHBoth,RANDOM_TYPO,,[]
+77.raw_value,77,raw_value,0.0,82.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+50.variablevalue,50,variablevalue,ESTtwoAPPV,ESvTtwoAPPV,RANDOM_TYPO,,[]
+209.sub_region_code,209,sub_region_code,Q80,80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e21, e13, e28, e27]"
+27.area_team_geography_code,27,area_team_geography_code,E39000013,E39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+74.sub_region_name,74,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHS ENGLAND LANCAySHIRE AND GREATER MANCHESTER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+159.sourcevalue,159,sourcevalue,Voucher_report,Vouchr_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+328.sub_region_code,328,sub_region_code,Q80,Q08,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e13, e37, e28]"
+250.region_geography_code,250,region_geography_code,E40000001,E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e30, e44, e35, e45, e25, e17]"
+264.sourcevalue,264,sourcevalue,Repairs_report,Regpairs_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+225.sub_region_geography_code,225,sub_region_geography_code,E39000027,E3900002l7,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+328.yearvalue,328,yearvalue,2015/16,20m15/16,RANDOM_TYPO,,[]
+136.sub_region_code,136,sub_region_code,Q78,7Q8,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e21, e13, e37, e27]"
+274.region_geography_code,274,region_geography_code,E40000004,40000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e45, e25, e17]"
+249.sub_region_name,249,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHS ENGLND LANCASHIRE AND GREATER MANCHESTER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+64.sub_region_code,64,sub_region_code,Q79,79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e37, e28]"
+121.sub_region_geography_code,121,sub_region_geography_code,E39000028,sE39000028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e38, e27]"
+336.area_team_geography_code,336,area_team_geography_code,E39000021,E39000201,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+19.country_code,19,country_code,E1,Ea1,RANDOM_TYPO,,[]
+309.area_team_code,309,area_team_code,Q52,uQ52,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+327.area_team_geography_code,327,area_team_geography_code,E39000019,E3000019,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e15, e14, e16, e18, e3]"
+70.region_geography_code,70,region_geography_code,E40000001,4E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e25, e47, e17]"
+303.sub_region_name,303,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CENTRA MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+294.sub_region_geography_code,294,sub_region_geography_code,E39000033,Ee39000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38]"
+333.region_geography_code,333,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e35, e45, e25, e47, e17]"
+230.area_team_name,230,area_team_name,BIRMINGHAM AND THE BLACK COUNTRY AREA TEAM,BIRMINcGHAM AND THE BLACK COUNTRY AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+88.region_geography_code,88,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e47, e17]"
+341.region_name,341,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND AEST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+123.region_name,123,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTHO F ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e43, e45, e26, e36, e18]"
+85.sourcevalue,85,sourcevalue,Voucher_report,Vuocher_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+225.yearvalue,225,yearvalue,2015/16,2015/61,RANDOM_TYPO,,[]
+329.sub_region_code,329,sub_region_code,Q72,7Q2,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e37]"
+21.sub_region_geography_code,21,sub_region_geography_code,E39000025,E39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+47.region_name,47,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDSA ND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+173.sub_region_code,173,sub_region_code,Q82,Q2,FD_VIOLATION,area_team_code -> sub_region_code,"[e21, e37]"
+235.yearvalue,235,yearvalue,2015/16,201o5/16,RANDOM_TYPO,,[]
+29.sub_region_geography_code,29,sub_region_geography_code,E39000031,E39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e27]"
+17.variablevalue,17,variablevalue,ESTthrLensTintBoth,ESTtwoFCU16,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+177.region_geography_code,177,region_geography_code,E40000001,E40000f001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47]"
+253.region_code,253,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e46, e34, e16, e29]"
+227.region_geography_code,227,region_geography_code,E40000001,E4000n0001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+71.periodenddate,71,periodenddate,31/03/2016,31/032/016,RANDOM_TYPO,,[]
+25.sub_region_geography_code,25,sub_region_geography_code,E39000029,E39000035,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+14.area_team_code,14,area_team_code,Q71,Q53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+297.sub_region_name,297,sub_region_name,NHS ENGLAND EAST,NHS ENGLAND EpAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e41, e23, e15, e28, e38]"
+322.sub_region_code,322,sub_region_code,Q82,Q28,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e28, e27, e29]"
+273.sub_region_code,273,sub_region_code,Q77,Qg77,FD_VIOLATION,area_team_code -> sub_region_code,"[e21, e13]"
+"290.area_team_name,""ARDEN, HEREFORDSHRIE AND WORCESTERSHIRE AREA TEAM""",290,"area_team_name,""ARDEN, HEREFORDSHRIE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e23, e26, e4]"
+183.country_name,183,country_name,England,Egnland,RANDOM_TYPO,,[]
+337.region_code,337,region_code,Y57,Y5u7,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e34, e29]"
+1.sub_region_geography_code,1,sub_region_geography_code,E39000031,E39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+341.sub_region_name,341,sub_region_name,NHS ENGLAND NORTH MIDLANDS,NHS ENGLAND NORTH MDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+35.variablevalue,35,variablevalue,ESTtwoDJSA,ESTtowDJSA,RANDOM_TYPO,,[]
+55.sub_region_code,55,sub_region_code,Q75,75,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+340.region_geography_code,340,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e35, e45, e25, e47, e17]"
+281.periodenddate,281,periodenddate,31/03/2016,1/03/2016,RANDOM_TYPO,,[]
+98.sub_region_name,98,sub_region_name,NHS ENGLAND WESSEX,NH SENGLAND WESSEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+301.sourcevalue,301,sourcevalue,Voucher_report,Voucher_repotr,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+134.region_name,134,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIOINNG REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e43, e46, e45, e26, e18]"
+99.area_team_geography_code,99,area_team_geography_code,E39000023,E3900023,FD_VIOLATION,area_team_code -> area_team_geography_code,[e3]
+322.sub_region_name,322,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NH SENGLAND SOUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+289.region_code,289,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39]"
+"208.area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUESTERSHIRE AREA TEAM"",""BRISTOL",208,"area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+32.sub_region_code,32,sub_region_code,Q72,Q82,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+"96.area_team_name,""BRSTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",96,"area_team_name,""BRSTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+164.region_geography_code,164,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e35, e45, e25, e47, e17]"
+174.region_code,174,region_code,Y54,Y5i4,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e46, e16, e29]"
+22.area_team_geography_code,22,area_team_geography_code,E39000007,E39000020,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+"174.area_team_name,""CHESHIRE, WARRINGTON AND WIRRAL ARE TEAM""",174,"area_team_name,""CHESHIRE, WARRINGTON AND WIRRAL ARE TEAM"""," WARRINGTON AND WIRRAL AREA TEAM""","""CHESHIRE",FD_VIOLATION,,"[e12, e4]"
+190.region_code,190,region_code,Y54,Y5s4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+41.area_team_geography_code,41,area_team_geography_code,E39000009,E39000009***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e13, e12, e17, e16, e3]"
+307.sub_region_name,307,sub_region_name,NHS ENGLAND YORKSHIRE AND HUMBER,NHS ENGLAND YOKRSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+"117.area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE ARE ATEAM""",117,"area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE ARE ATEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+160.sub_region_name,160,sub_region_name,NHS ENGLAND EAST,NHS ENGLANlD EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+169.region_name,169,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAN COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+204.area_team_geography_code,204,area_team_geography_code,E39000010,jE39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+24.region_geography_code,24,region_geography_code,E40000002,E40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+115.region_geography_code,115,region_geography_code,E40000001,E40000i001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e25, e47, e17]"
+85.country_code,85,country_code,E1,1E,RANDOM_TYPO,,[]
+222.country_code,222,country_code,E1,1,RANDOM_TYPO,,[]
+15.sub_region_name,15,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+84.region_geography_code,84,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e25, e47, e17]"
+130.sub_region_geography_code,130,sub_region_geography_code,E39000029,E390v00029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+305.region_code,305,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+344.region_code,344,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+172.sub_region_code,172,sub_region_code,Q71,7Q1,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+33.area_team_code,33,area_team_code,Q56,Q51,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e9, e10, e19, e3, e4]"
+275.region_code,275,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e29]"
+201.sub_region_name,201,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AND MERSEYSIED,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+61.variablevalue,61,variablevalue,ESTtwoPrismHC2,ESTwoPrismHC2,RANDOM_TYPO,,[]
+337.periodenddate,337,periodenddate,31/03/2016,31/0r3/2016,RANDOM_TYPO,,[]
+221.area_team_name,221,area_team_name,LEICESTERSHIRE AND LINCOLNSHIRE AREA TEAM,LEICESTERSHIRE AND LINCOLNSHIRE AREA TEMA,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+15.region_geography_code,15,region_geography_code,E40000001,E40000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+134.region_code,134,region_code,Y55,5Y5,FD_VIOLATION,area_team_code -> region_code,"[e44, e43, e24, e46, e39, e16]"
+279.sub_region_geography_code,279,sub_region_geography_code,E39000026,E3900006,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+327.sub_region_code,327,sub_region_code,Q82,Qg82,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+153.sub_region_code,153,sub_region_code,Q81,Q18,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+205.area_team_name,205,area_team_name,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,HERTFORDSHIRE AND THE SOUTH MIDANDS AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+173.sub_region_geography_code,173,sub_region_geography_code,E39000034,E3900004,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e38]"
+192.region_name,192,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MILDANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+177.area_team_geography_code,177,area_team_geography_code,E39000009,E3900009,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+170.periodenddate,170,periodenddate,31/03/2016,31/03/201n6,RANDOM_TYPO,,[]
+86.region_code,86,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+117.sub_region_geography_code,117,sub_region_geography_code,E39000033,tE39000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e38, e27]"
+315.region_name,315,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMMISSIONINGR EGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e45, e26, e36, e18]"
+335.yearvalue,335,yearvalue,2015/16,015/16,RANDOM_TYPO,,[]
+85.region_geography_code,85,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47, e17]"
+"166.area_team_name,""ARDENr, HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""",166,"area_team_name,""ARDENr, HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+248.sub_region_name,248,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBIA AND NORTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+29.area_team_geography_code,29,area_team_geography_code,E39000014,E39000008,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+"51.area_team_name,""BRISTOL,NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",51,"area_team_name,""BRISTOL,NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+258.region_name,258,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MILANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+316.region_geography_code,316,region_geography_code,E40000002,E4000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e44, e9, e35, e25, e47, e17]"
+298.sub_region_geography_code,298,sub_region_geography_code,E39000032,E30900032,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+20.sub_region_name,20,sub_region_name,NHS ENGLAND YORKSHIRE AND HUMBER,NHS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+333.area_team_code,333,area_team_code,Q44,4Q4,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+79.periodenddate,79,periodenddate,31/03/2016,31/30/2016,RANDOM_TYPO,,[]
+33.sub_region_name,33,sub_region_name,NHS ENGLAND EAST,HS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e28]"
+318.region_name,318,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AN EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36]"
+14.adjusted_value,14,adjusted_value,549.0,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+311.sub_region_name,311,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLANDCENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+241.area_team_name,241,area_team_name,BIRMINGHAM AND THE BLACK COUNTRY AREA TEAM,BIRMINGHAbM AND THE BLACK COUNTRY AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+167.sub_region_geography_code,167,sub_region_geography_code,E39000028,E39000028***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+219.sub_region_code,219,sub_region_code,Q72,Q7j2,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+226.sub_region_code,226,sub_region_code,Q72,Qd72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e37]"
+32.region_geography_code,32,region_geography_code,E40000001,E40b000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+109.sourcevalue,109,sourcevalue,Sight_test,Sightb_test,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+23.area_team_name,23,area_team_name,LONDON AREA TEAM,ESSEX AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+100.sub_region_code,100,sub_region_code,Q71,Q17,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+178.variablevalue,178,variablevalue,ESTthrLensBBoth,ESTthrLenBBoth,RANDOM_TYPO,,[]
+16.country_name,16,country_name,England,Enhgland,RANDOM_TYPO,,[]
+165.sub_region_geography_code,165,sub_region_geography_code,E39000027,E39000v027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+309.region_geography_code,309,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e35, e45, e25, e17]"
+121.region_code,121,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e46, e39, e16, e29]"
+235.periodenddate,235,periodenddate,31/03/2016,31/03/206,RANDOM_TYPO,,[]
+197.region_geography_code,197,region_geography_code,E40000001,E4000j0001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e35, e25, e47, e17]"
+273.region_code,273,region_code,Y55,Yd55,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e16]"
+312.sub_region_geography_code,312,sub_region_geography_code,E39000032,39000032,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+107.region_code,107,region_code,Y55,Yv55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e34, e39, e16, e29]"
+95.area_team_name,95,area_team_name,SHROPSHIRE AND STAFFORDSHIRE AREA TEAM,SHROPSHIRE AND STAFFORsDSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,[e4]
+16.sub_region_code,16,sub_region_code,Q82,Q79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+109.region_geography_code,109,region_geography_code,E40000001,E4000n0001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e35, e25, e47, e17]"
+278.sub_region_geography_code,278,sub_region_geography_code,E39000031,E3900031,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+214.region_name,214,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAN DCOMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e46, e45, e26, e36, e18]"
+17.region_geography_code,17,region_geography_code,E40000004,E40000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+333.region_code,333,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e46, e34, e39, e16, e29]"
+210.region_geography_code,210,region_geography_code,E40000002,E40000020,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e9, e25, e47, e17]"
+40.region_name,40,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONIG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+226.sourcevalue,226,sourcevalue,Repairs_report,Repairvs_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+256.sourcevalue,256,sourcevalue,Sight_test,Sigt_test,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+23.raw_value,23,raw_value,0.0,46.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+262.region_name,262,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIOING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e43, e45, e26, e36, e18]"
+327.area_team_code,327,area_team_code,Q64,64,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e10, e19, e3]"
+11.variablevalue,11,variablevalue,ESTtwoETotal,ESTthrLensHOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+136.country_name,136,country_name,England,Engand,RANDOM_TYPO,,[]
+335.region_geography_code,335,region_geography_code,E40000004,E0000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+121.area_team_name,121,area_team_name,GREATER MANCHESTER AREA TEAM,GREATER MACHESTER AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+8.area_team_code,8,area_team_code,Q46,Q66,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+15.area_team_code,15,area_team_code,Q49,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+232.region_name,232,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGqION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+23.sub_region_code,23,sub_region_code,Q71,Q80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+26.area_team_geography_code,26,area_team_geography_code,E39000013,E39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+235.area_team_name,235,area_team_name,WESSEX AREA TEAM,WESSEX AREA TEMA,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+90.raw_value,90,raw_value,0.0,80.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+243.sub_region_geography_code,243,sub_region_geography_code,E39000026,Ed39000026,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+185.area_team_geography_code,185,area_team_geography_code,E39000003,E3900003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+205.region_geography_code,205,region_geography_code,E40000002,E4000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e47, e17]"
+95.region_code,95,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e46, e34, e39, e29]"
+59.sub_region_geography_code,59,sub_region_geography_code,E39000027,E39000207,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+8.adjusted_value,8,adjusted_value,1.0,7.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+133.variablevalue,133,variablevalue,ESTtwoCDWA,EStTwoCDWA,RANDOM_TYPO,,[]
+9.variablevalue,9,variablevalue,ESTtwoTintHC2,ESTthrLensFOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+217.region_geography_code,217,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e47, e17]"
+12.area_team_geography_code,12,area_team_geography_code,E39000023,E39000010,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+294.region_name,294,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF EGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e26, e18]"
+151.sub_region_geography_code,151,sub_region_geography_code,E39000034,E3000034,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e27]"
+306.country_code,306,country_code,E1,1,RANDOM_TYPO,,[]
+290.region_name,290,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST gOF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+296.area_team_name,296,area_team_name,LONDON AREA TEAM,LONDON AREA TAEM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+114.sub_region_code,114,sub_region_code,Q72,72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e37, e29]"
+66.region_geography_code,66,region_geography_code,E40000002,E04000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e47, e17]"
+111.region_code,111,region_code,Y54,Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e24, e46, e34, e16, e29]"
+222.sub_region_code,222,sub_region_code,Q73,Q37,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e37]"
+168.sub_region_code,168,sub_region_code,Q79,79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e37, e28]"
+223.periodenddate,223,periodenddate,31/03/2016,31z/03/2016,RANDOM_TYPO,,[]
+281.region_name,281,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDeS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+77.region_geography_code,77,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e17]"
+260.country_name,260,country_name,England,Englad,RANDOM_TYPO,,[]
+284.sub_region_name,284,sub_region_name,NHS ENGLAND WESSEX,NSH ENGLAND WESSEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+294.region_code,294,region_code,Y55,Y5,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e39, e16]"
+334.region_geography_code,334,region_geography_code,E40000001,E4u0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e47, e17]"
+105.country_code,105,country_code,E1,1E,RANDOM_TYPO,,[]
+248.region_code,248,region_code,Y54,rY54,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e46, e34, e16, e29]"
+244.country_name,244,country_name,England,Englband,RANDOM_TYPO,,[]
+13.sub_region_name,13,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+302.region_code,302,region_code,Y54,Y5s4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e39, e16, e29]"
+157.region_geography_code,157,region_geography_code,E40000004,E4000p0004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+344.region_geography_code,344,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+317.region_name,317,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUThH OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e10, e43, e26, e36, e18]"
+247.sourcevalue,247,sourcevalue,Repairs_report,Repalirs_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+103.raw_value,103,raw_value,0.0,95.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+229.sub_region_geography_code,229,sub_region_geography_code,E39000018,E39000018***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+90.sourcevalue,90,sourcevalue,Voucher_report,Voucher_repofrt,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+145.sub_region_name,145,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CENTRAL IMDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+41.region_geography_code,41,region_geography_code,E40000001,E4g0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e47, e17]"
+317.region_geography_code,317,region_geography_code,E40000004,E400l00004,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e9, e35, e25, e17]"
+310.region_geography_code,310,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e30, e44, e9, e35, e45, e25, e47, e17]"
+31.sub_region_geography_code,31,sub_region_geography_code,E39000035,E39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e27]"
+149.region_name,149,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND tCOMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+30.area_team_geography_code,30,area_team_geography_code,E39000013,E39000016,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+330.sub_region_code,330,sub_region_code,Q74,sQ74,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+333.country_name,333,country_name,England,Engpland,RANDOM_TYPO,,[]
+166.region_name,166,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLNADS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e47, e18]"
+80.region_name,80,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF zENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+15.variablevalue,15,variablevalue,ESTtwoEFC,ESTthrLensHOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+80.sourcevalue,80,sourcevalue,Voucher_report,Voucher_reort,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+131.area_team_code,131,area_team_code,Q45,Q5,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+187.periodenddate,187,periodenddate,31/03/2016,1/03/2016,RANDOM_TYPO,,[]
+209.sub_region_geography_code,209,sub_region_geography_code,E39000036,E3j9000036,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e27]"
+322.region_name,322,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND CMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+82.sub_region_code,82,sub_region_code,Q72,Q27,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28]"
+203.region_name,203,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MDILANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+194.region_code,194,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e16, e29]"
+190.region_name,190,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTHOF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+15.sub_region_geography_code,15,sub_region_geography_code,E39000027,E39000018,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+72.country_name,72,country_name,England,Ejngland,RANDOM_TYPO,,[]
+18.sub_region_name,18,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHS ENGLAND WESSEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+270.region_geography_code,270,region_geography_code,E40000001,E4000s0001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+20.sub_region_geography_code,20,sub_region_geography_code,E39000029,E39000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+68.sourcevalue,68,sourcevalue,Voucher_report,Voucher_regport,RANDOM_TYPO,,[]
+8.area_team_geography_code,8,area_team_geography_code,E39000003,E39000016,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+207.sub_region_geography_code,207,sub_region_geography_code,E39000029,E3900029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e38, e27]"
+56.area_team_geography_code,56,area_team_geography_code,E39000023,E39000w023,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+327.region_name,327,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OFENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e46, e45, e26, e36, e18]"
+181.region_name,181,region_name,LONDON COMMISSIONING REGION,LNODON COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e26, e18]"
+126.region_geography_code,126,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47, e17]"
+199.periodenddate,199,periodenddate,31/03/2016,31/03/2106,RANDOM_TYPO,,[]
+30.area_team_code,30,area_team_code,Q56,Q45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+135.region_name,135,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMMISSIOING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+59.region_code,59,region_code,Y54,Yd54,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e39, e16, e29]"
+309.variablevalue,309,variablevalue,ESTtwoCPOL,ESTwoCPOL,RANDOM_TYPO,,[]
+23.area_team_geography_code,23,area_team_geography_code,E39000018,E39000021,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+238.area_team_geography_code,238,area_team_geography_code,E39000022,E3900d0022,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+12.region_geography_code,12,region_geography_code,E40000004,E40000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+"339.area_team_name,""CUMBRIA, NORTHUMBERLAND, kTYNE AND WEAR AREA TEAM"",""CUMBRIA",339,"area_team_name,""CUMBRIA, NORTHUMBERLAND, kTYNE AND WEAR AREA TEAM"",""CUMBRIA"," TYNE AND WEAR AREA TEAM""", NORTHUMBERLAND,FD_VIOLATION,,"[e12, e4]"
+236.region_code,236,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e29]"
+133.region_code,133,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e16, e29]"
+198.periodenddate,198,periodenddate,31/03/2016,310/3/2016,RANDOM_TYPO,,[]
+231.region_code,231,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+141.region_code,141,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e39, e16, e29]"
+10.country_name,10,country_name,England,hEngland,RANDOM_TYPO,,[]
+191.sub_region_name,191,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENlGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+176.sub_region_name,176,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENLGAND SOUTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+300.sub_region_code,300,sub_region_code,Q72,7Q2,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e37]"
+7.sub_region_name,7,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+91.region_name,91,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION***,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+90.sub_region_name,90,sub_region_name,NHS ENGLAND NORTH MIDLANDS,NHS ENGLAND NORT MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+183.region_name,183,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMiMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+17.sub_region_name,17,sub_region_name,NHS ENGLAND SOUTH EAST,NHS ENGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+322.country_name,322,country_name,England,Ecngland,RANDOM_TYPO,,[]
+15.country_code,15,country_code,E1,1E,RANDOM_TYPO,,[]
+149.yearvalue,149,yearvalue,2015/16,2105/16,RANDOM_TYPO,,[]
+257.region_geography_code,257,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+9.adjusted_value,9,adjusted_value,62.46460127,771.1109368,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+322.area_team_geography_code,322,area_team_geography_code,E39000019,E3000019,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e15, e14, e16, e18, e3]"
+167.sub_region_name,167,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHS NGLAND LANCASHIRE AND GREATER MANCHESTER,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+17.adjusted_value,17,adjusted_value,17.0,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+196.area_team_geography_code,196,area_team_geography_code,E39000020,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+309.yearvalue,309,yearvalue,2015/16,2015/61,RANDOM_TYPO,,[]
+138.area_team_geography_code,138,area_team_geography_code,E39000019,E3900001g9,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+"17.area_team_name,""DEVON",17,"area_team_name,""DEVON",SURREY AND SUSSEX AREA TEAM," CORNWALL AND ISLES OF SCILLY AREA TEAM""",FD_VIOLATION,,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+236.country_code,236,country_code,E1,1,RANDOM_TYPO,,[]
+90.area_team_geography_code,90,area_team_geography_code,E39000012,E39000021,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+114.region_geography_code,114,region_geography_code,E40000001,E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+223.region_code,223,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+157.area_team_code,157,area_team_code,Q70,Q07,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e11, e9, e19]"
+342.sub_region_code,342,sub_region_code,Q70,70,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37, e28]"
+282.area_team_geography_code,282,area_team_geography_code,E39000019,E390h00019,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+330.region_geography_code,330,region_geography_code,E40000001,E4000000q1,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e9, e35, e25, e47, e17]"
+146.region_name,146,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSINOING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+162.sub_region_code,162,sub_region_code,Q72,Q27,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28]"
+"88.area_team_name,""DURHAM, DARLIGNTON AND TEES AREA TEAM""",88,"area_team_name,""DURHAM, DARLIGNTON AND TEES AREA TEAM"""," DARLINGTON AND TEES AREA TEAM""","""DURHAM",FD_VIOLATION,,"[e12, e4]"
+179.sub_region_geography_code,179,sub_region_geography_code,E39000029,En39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+22.region_code,22,region_code,Y54,Y57,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+310.sourcevalue,310,sourcevalue,Sight_test,Sight_tets,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+245.sourcevalue,245,sourcevalue,Voucher_report,Voucher_repoert,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+133.area_team_code,133,area_team_code,Q44,44,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e7, e8, e11, e9, e19]"
+326.area_team_code,326,area_team_code,Q45,Q54,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+195.area_team_name,195,area_team_name,DERBYSHIRE AND NOTTINGHAMSHIRE AREA TEAM,DERBYSHIRE AND NOTINGHAMSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+338.area_team_name,338,area_team_name,DERBYSHIRE AND NOTTINGHAMSHIRE AREA TEAM,DERBYSHIRE AND ONTTINGHAMSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+139.sub_region_geography_code,139,sub_region_geography_code,E39000034,E39000034***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+193.region_name,193,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+298.variablevalue,298,variablevalue,ESTthrFrameTotalBasic,ESTthrrFameTotalBasic,RANDOM_TYPO,,[]
+46.sourcevalue,46,sourcevalue,Voucher_report,oucher_report,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+29.region_code,29,region_code,Y55,Y57,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e16, e29]"
+336.region_code,336,region_code,Y57,Y5j7,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e29]"
+127.periodenddate,127,periodenddate,31/03/2016,31/03/2061,RANDOM_TYPO,,[]
+134.sub_region_geography_code,134,sub_region_geography_code,E39000030,3E9000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e14, e38]"
+83.area_team_geography_code,83,area_team_geography_code,E39000020,E30900020,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+167.region_name,167,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISShIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e18]"
+216.region_code,216,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e39, e16, e29]"
+8.sub_region_name,8,sub_region_name,NHS ENGLAND LANCASHIRE AND GREATER MANCHESTER,NHS ENGLAND WESSEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+184.region_name,184,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OtF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+242.region_geography_code,242,region_geography_code,E40000001,E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+250.area_team_code,250,area_team_code,Q48,Q84,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+155.area_team_code,155,area_team_code,Q69,Q6y9,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+125.area_team_code,125,area_team_code,Q69,Q9,FD_VIOLATION,area_team_code -> area_team_geography_code,[e19]
+111.periodenddate,111,periodenddate,31/03/2016,13/03/2016,RANDOM_TYPO,,[]
+74.sub_region_geography_code,74,sub_region_geography_code,E39000028,E3900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e27]"
+22.sub_region_name,22,sub_region_name,NHS ENGLAND YORKSHIRE AND HUMBER,NHS ENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+"217.area_team_name,""ARDEN, HEREFORDSHRIE AND WORCESTERSHIRE AREA TEAM""",217,"area_team_name,""ARDEN, HEREFORDSHRIE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e23, e26, e4]"
+16.area_team_geography_code,16,area_team_geography_code,E39000024,E39000021,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+327.region_code,327,region_code,Y57,5Y7,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e46, e34, e39, e16]"
+115.sourcevalue,115,sourcevalue,Sight_test,Sight_tjest,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+291.sub_region_code,291,sub_region_code,Q70,70,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37, e28]"
+308.region_code,308,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e39, e16, e29]"
+147.periodenddate,147,periodenddate,31/03/2016,31/032016,RANDOM_TYPO,,[]
+4.sub_region_name,4,sub_region_name,NHS ENGLAND SOUTH WEST,NHS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+38.periodenddate,38,periodenddate,31/03/2016,31/0/2016,RANDOM_TYPO,,[]
+"171.area_team_name,""ARDEN, HEREFORDSHIRE AND WzORCESTERSHIRE AREA TEAM""",171,"area_team_name,""ARDEN, HEREFORDSHIRE AND WzORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+157.sub_region_code,157,sub_region_code,Q70,7Q0,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e30, e32, e21, e13, e37, e28]"
+13.variablevalue,13,variablevalue,ESTtwoCJSA,ESTthrLensTotalOne,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+256.sub_region_geography_code,256,sub_region_geography_code,E39000028,E3900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e38, e27]"
+84.country_name,84,country_name,England,Englnad,RANDOM_TYPO,,[]
+163.sourcevalue,163,sourcevalue,Repairs_report,Repairs_repoort,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+154.area_team_geography_code,154,area_team_geography_code,E39000023,E3900q0023,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+68.variablevalue,68,variablevalue,ESTtwoFDWA,ESTtowFDWA,RANDOM_TYPO,,[]
+26.sub_region_name,26,sub_region_name,NHS ENGLAND EAST,NHS ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+201.region_code,201,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e16, e29]"
+317.sub_region_name,317,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NHS ENGLAND SOUTH CENTRmAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15]"
+212.country_name,212,country_name,England,nEgland,RANDOM_TYPO,,[]
+136.region_name,136,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,IDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+7.area_team_code,7,area_team_code,Q67,Q57,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+29.area_team_name,29,area_team_name,ESSEX AREA TEAM,NORTH YORKSHIRE AND HUMBER AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+296.sub_region_code,296,sub_region_code,Q71,Q7m1,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e13, e37]"
+84.sub_region_name,84,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBRIA ADN NORTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+302.region_geography_code,302,region_geography_code,E40000001,E04000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e45, e25, e47, e17]"
+295.sub_region_geography_code,295,sub_region_geography_code,E39000025,E39000052,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+187.region_code,187,region_code,Y54,Y5e4,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e16, e29]"
+292.sub_region_name,292,sub_region_name,NHS ENGLAND WEST MIDLANDS,NHS ENGLAND WEST MIDLANSD,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+46.sub_region_code,46,sub_region_code,Q80,Q08,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e28]"
+87.region_code,87,region_code,Y55,55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e46, e34, e16, e29]"
+337.region_name,337,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH FO ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e45, e26, e36]"
+330.sub_region_geography_code,330,sub_region_geography_code,E39000027,E39000072,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e32, e35, e34, e14, e36, e38]"
+207.region_geography_code,207,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e45, e47, e17]"
+182.region_geography_code,182,region_geography_code,E40000001,E400y00001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+117.region_geography_code,117,region_geography_code,E40000002,E4000000v2,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e17]"
+15.region_code,15,region_code,Y54,Y55,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+133.region_geography_code,133,region_geography_code,E40000001,4E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e25, e47, e17]"
+309.region_name,309,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COmMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e43, e45, e26, e36, e18]"
+13.sub_region_code,13,sub_region_code,Q78,Q80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+211.country_code,211,country_code,E1,1,RANDOM_TYPO,,[]
+308.region_geography_code,308,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e25, e47, e17]"
+111.sub_region_name,111,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBRIA AND NORTHg EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+171.region_name,171,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONINGt REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+137.region_name,137,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF tENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e18]"
+57.region_geography_code,57,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e35, e45, e25, e47, e17]"
+285.region_name,285,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF iENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+107.country_code,107,country_code,E1,1E,RANDOM_TYPO,,[]
+43.area_team_code,43,area_team_code,Q45,zQ45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+267.sub_region_code,267,sub_region_code,Q72,Q7v2,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e13, e37]"
+132.region_code,132,region_code,Y55,Y5k5,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e34, e39, e16]"
+287.region_code,287,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e39, e16, e29]"
+268.region_code,268,region_code,Y55,Yc55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e39, e16]"
+166.region_geography_code,166,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e47, e17]"
+170.sub_region_code,170,sub_region_code,Q78,Q87,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e21, e13, e37, e29]"
+21.sub_region_code,21,sub_region_code,Q70,Q71,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+297.country_code,297,country_code,E1,1,RANDOM_TYPO,,[]
+237.region_name,237,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISqSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+49.region_geography_code,49,region_geography_code,E40000001,Ew40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e25, e17]"
+15.area_team_geography_code,15,area_team_geography_code,E39000006,E39000021,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+246.periodenddate,246,periodenddate,31/03/2016,31/0/32016,RANDOM_TYPO,,[]
+103.sub_region_name,103,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+164.sub_region_code,164,sub_region_code,Q72,Qf72,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+19.country_name,19,country_name,England,hEngland,RANDOM_TYPO,,[]
+324.region_geography_code,324,region_geography_code,E40000004,4E0000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+151.area_team_geography_code,151,area_team_geography_code,E39000019,E30900019,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+210.sub_region_code,210,sub_region_code,Q78,Q7h8,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e21, e13, e37]"
+189.region_name,189,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONINGREGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+140.region_geography_code,140,region_geography_code,E40000001,40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47, e17]"
+282.region_name,282,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMgMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26]"
+147.sub_region_name,147,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AND MhERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+264.region_code,264,region_code,Y54,qY54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e24, e46, e39, e29]"
+67.variablevalue,67,variablevalue,ESTtwoTintFC,ESTtwvoTintFC,RANDOM_TYPO,,[]
+215.country_code,215,country_code,E1,1,RANDOM_TYPO,,[]
+155.country_name,155,country_name,England,Englnad,RANDOM_TYPO,,[]
+31.area_team_code,31,area_team_code,Q67,Q51,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+247.sub_region_code,247,sub_region_code,Q72,Q27,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28]"
+211.region_code,211,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+27.sub_region_code,27,sub_region_code,Q79,Q82,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+288.sub_region_code,288,sub_region_code,Q70,eQ70,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+113.area_team_geography_code,113,area_team_geography_code,E39000004,E39000e004,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+294.sub_region_code,294,sub_region_code,Q77,mQ77,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e21, e13, e37]"
+223.region_name,223,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONINyG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+68.region_geography_code,68,region_geography_code,E40000002,E40y000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e25, e17]"
+79.region_code,79,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+87.sub_region_name,87,sub_region_name,NHS ENGLAND NORTH MIDLANDS,NHS ENGLAND NORTH MIDLNDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+230.region_code,230,region_code,Y55,5Y5,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e46, e34, e39, e16, e29]"
+279.region_geography_code,279,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e45, e25, e47, e17]"
+"169.area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE AREAr TEAM""",169,"area_team_name,""ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE AREAr TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+299.area_team_code,299,area_team_code,Q60,Q6i0,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+15.country_name,15,country_name,England,Engladn,RANDOM_TYPO,,[]
+4.region_code,4,region_code,Y57,Y55,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+10.area_team_code,10,area_team_code,Q65,Q53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+168.region_name,168,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF hENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+224.raw_value,224,raw_value,0.0,18.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+240.region_geography_code,240,region_geography_code,E40000001,E4y0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47]"
+187.region_geography_code,187,region_geography_code,E40000001,E04000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e30, e44, e9, e35, e45, e25, e47, e17]"
+198.region_geography_code,198,region_geography_code,E40000001,Ep40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e25, e47, e17]"
+315.region_code,315,region_code,Y57,Yt57,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e34, e39, e16, e29]"
+247.region_geography_code,247,region_geography_code,E40000001,E400000q01,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+301.yearvalue,301,yearvalue,2015/16,2015/61,RANDOM_TYPO,,[]
+156.country_name,156,country_name,England,nEgland,RANDOM_TYPO,,[]
+330.periodenddate,330,periodenddate,31/03/2016,31/3/2016,RANDOM_TYPO,,[]
+261.area_team_code,261,area_team_code,Q70,Q0,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+148.region_name,148,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OFENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e46, e45, e36, e18]"
+337.area_team_code,337,area_team_code,Q64,mQ64,FD_VIOLATION,area_team_code -> area_team_geography_code,[e19]
+122.area_team_geography_code,122,area_team_geography_code,E39000003,E390000v03,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+290.sub_region_name,290,sub_region_name,NHS ENGLAND WEST MIDLANDS,NHS ENGLAND WEST MIDLANkDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+329.country_name,329,country_name,England,Engladn,RANDOM_TYPO,,[]
+169.country_code,169,country_code,E1,1E,RANDOM_TYPO,,[]
+237.sourcevalue,237,sourcevalue,Voucher_report,Vocuher_report,RANDOM_TYPO,,[]
+268.region_name,268,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDSs AND EAST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e45, e26, e18]"
+141.sub_region_geography_code,141,sub_region_geography_code,E39000030,E390g00030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+6.sub_region_geography_code,6,sub_region_geography_code,E39000030,E39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+233.sub_region_code,233,sub_region_code,Q72,Q27,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28]"
+185.sub_region_geography_code,185,sub_region_geography_code,E39000028,E3900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e38, e27]"
+131.sub_region_name,131,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND CUMBRIA AND NORH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+241.sub_region_code,241,sub_region_code,Q77,Q7,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e32, e13, e37, e28, e29]"
+14.sub_region_name,14,sub_region_name,NHS ENGLAND LONDON,NHS ENGLAND YORKSHIRE AND HUMBER,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+115.sub_region_geography_code,115,sub_region_geography_code,E39000029,E39000029***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+167.region_code,167,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e16, e29]"
+161.country_name,161,country_name,England,Engladn,RANDOM_TYPO,,[]
+8.sub_region_code,8,sub_region_code,Q73,Q80,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+53.region_name,53,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONING REGON,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e46, e45, e26, e47, e18]"
+165.sub_region_name,165,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NH SENGLAND CUMBRIA AND NORTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+211.region_geography_code,211,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+23.sub_region_name,23,sub_region_name,NHS ENGLAND LONDON,NHS ENGLAND WESSEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+76.sub_region_geography_code,76,sub_region_geography_code,E39000029,E3900009,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+340.sub_region_code,340,sub_region_code,Q73,Q3,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+259.region_code,259,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e39, e16, e29]"
+76.region_geography_code,76,region_geography_code,E40000001,E04000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e45, e25, e47, e17]"
+132.region_geography_code,132,region_geography_code,E40000002,E04000002,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e44, e9, e35, e25, e47, e17]"
+272.region_geography_code,272,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e30, e44, e9, e35, e25, e47, e17]"
+225.region_geography_code,225,region_geography_code,E40000001,E400v00001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e25, e47, e17]"
+326.region_code,326,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e39, e16, e29]"
+338.country_name,338,country_name,England,Engladn,RANDOM_TYPO,,[]
+313.sub_region_code,313,sub_region_code,Q70,Q7e0,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+35.region_geography_code,35,region_geography_code,E40000001,E40000f001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e25, e47, e17]"
+10.region_code,10,region_code,Y57,Y55,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+105.raw_value,105,raw_value,0.0,12.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+279.sub_region_name,279,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AND MERSEYSIE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+16.periodenddate,16,periodenddate,31/03/2016,31/03/2061,RANDOM_TYPO,,[]
+"148.area_team_name,""BRISTOL, NORTH SOMERSEjT, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",148,"area_team_name,""BRISTOL, NORTH SOMERSEjT, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+146.periodenddate,146,periodenddate,31/03/2016,31/30/2016,RANDOM_TYPO,,[]
+130.region_geography_code,130,region_geography_code,E40000001,4E0000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e25, e47, e17]"
+163.region_name,163,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMIMSSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+"293.area_team_name,""BRISOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL",293,"area_team_name,""BRISOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+334.region_code,334,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e46, e34, e39, e16, e29]"
+24.area_team_code,24,area_team_code,Q58,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+222.region_geography_code,222,region_geography_code,E40000001,E40000010,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e44, e9, e35, e25, e47]"
+113.sub_region_code,113,sub_region_code,Q73,Q7s3,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e37]"
+67.periodenddate,67,periodenddate,31/03/2016,31/03/2061,RANDOM_TYPO,,[]
+297.sub_region_geography_code,297,sub_region_geography_code,E39000031,39000031,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+140.sourcevalue,140,sourcevalue,Voucher_report,Voucher_erport,RANDOM_TYPO,,[]
+41.area_team_name,41,area_team_name,WEST YORKSHIRE AREA TEAM,WbEST YORKSHIRE AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+107.region_name,107,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF EzNGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e45, e26, e36, e18]"
+204.region_code,204,region_code,Y55,kY55,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e24, e46, e39, e29]"
+15.adjusted_value,15,adjusted_value,12372.82025,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+28.sub_region_code,28,sub_region_code,Q71,Q79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+88.sub_region_geography_code,88,sub_region_geography_code,E39000027,Er39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e14, e38, e27]"
+25.sub_region_name,25,sub_region_name,NHS ENGLAND YORKSHIRE AND HUMBER,NHS ENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+"237.area_team_name,""ARDEN, HERwEFORDSHIRE AND WORCESTERSHIRE AREA TEAM""",237,"area_team_name,""ARDEN, HERwEFORDSHIRE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+259.country_name,259,country_name,England,Engluand,RANDOM_TYPO,,[]
+13.adjusted_value,13,adjusted_value,36.00775404,7.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+160.region_name,160,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EASnT OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+68.region_name,68,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e26, e18]"
+16.area_team_code,16,area_team_code,Q69,Q68,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+316.sub_region_name,316,sub_region_name,NHS ENGLAND EAST,HNS ENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15]"
+224.region_name,224,region_name,LONDON COMMISSIONING REGION,LONDON COMMISSIONrING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+340.region_code,340,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16]"
+218.sub_region_name,218,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CENTRAL MIDLNDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+4.area_team_code,4,area_team_code,Q65,Q59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+170.country_name,170,country_name,England,Enlgand,RANDOM_TYPO,,[]
+337.sub_region_code,337,sub_region_code,Q82,Q28,FD_VIOLATION,area_team_code -> sub_region_code,"[e31, e32, e21, e28, e27, e29]"
+70.region_code,70,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e39, e16, e29]"
+171.region_geography_code,171,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e17]"
+81.country_name,81,country_name,England,wEngland,RANDOM_TYPO,,[]
+142.sub_region_code,142,sub_region_code,Q70,Q07,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e37]"
+292.region_code,292,region_code,Y55,5Y5,FD_VIOLATION,area_team_code -> region_code,"[e44, e43, e24, e46, e34, e16, e29]"
+22.sub_region_geography_code,22,sub_region_geography_code,E39000029,E39000036,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+94.region_name,94,region_name,LONDON COMMISSIONING REGION,LONDON CMOMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+280.country_code,280,country_code,E1,1E,RANDOM_TYPO,,[]
+338.region_name,338,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLADN COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e36, e18]"
+99.area_team_name,99,area_team_name,SURREY AND SUSSEX AREA TEAM,SURRYE AND SUSSEX AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,[e4]
+275.region_geography_code,275,region_geography_code,E40000001,E04000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47]"
+100.region_name,100,region_name,LONDON COMMISSIONING REGION,LONDON COMMISSIONoING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e45, e26, e36, e18]"
+290.region_geography_code,290,region_geography_code,E40000002,E40000002***,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e17]"
+318.area_team_geography_code,318,area_team_geography_code,E39000011,E39000011***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+13.sub_region_geography_code,13,sub_region_geography_code,E39000030,E39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+293.periodenddate,293,periodenddate,31/03/2016,3r1/03/2016,RANDOM_TYPO,,[]
+63.region_code,63,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e39, e16, e29]"
+334.area_team_name,334,area_team_name,NORTH YORKSHIRE AND HUMBER AREA TEAM,ONRTH YORKSHIRE AND HUMBER AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e12, e4]"
+188.region_code,188,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+228.area_team_code,228,area_team_code,Q71,mQ71,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+117.region_name,117,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND AST OF ENGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e18]"
+231.region_geography_code,231,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+19.sub_region_geography_code,19,sub_region_geography_code,E39000034,E39000027,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+279.region_code,279,region_code,Y54,54,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e16, e29]"
+53.sub_region_geography_code,53,sub_region_geography_code,E39000029,E3900f0029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+2.sub_region_name,2,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+262.area_team_code,262,area_team_code,Q44,dQ44,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+"266.area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREAT EAM"",""BRISTOL",266,"area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREAT EAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+258.sub_region_name,258,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENGLAND CNETRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+253.sub_region_name,253,sub_region_name,NHS ENGLAND EAST,NHS ENGLND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+93.area_team_code,93,area_team_code,Q55,5Q5,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+219.region_geography_code,219,region_geography_code,E40000001,E40r000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e9, e35, e25, e47, e17]"
+44.sub_region_name,44,sub_region_name,NHS ENGLAND EAST,NHS ENGLNAD EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+94.variablevalue,94,variablevalue,ESTtwoSmallFC,ESTtwoSmallFC***,RANDOM_TYPO,,[]
+123.area_team_code,123,area_team_code,Q64,Q4,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+329.region_geography_code,329,region_geography_code,E40000001,E40000h001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+255.yearvalue,255,yearvalue,2015/16,2c015/16,RANDOM_TYPO,,[]
+249.region_geography_code,249,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+323.country_code,323,country_code,E1,1,RANDOM_TYPO,,[]
+49.region_name,49,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONING ERGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e26, e18]"
+2.periodenddate,2,periodenddate,31/03/2016,13/03/2016,RANDOM_TYPO,,[]
+7.adjusted_value,7,adjusted_value,0.0,13.237956,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+49.area_team_geography_code,49,area_team_geography_code,E39000004,E39000004***,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e15, e14, e17, e16, e18, e3]"
+24.sourcevalue,24,sourcevalue,Sight_test,Sigh_test,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+38.yearvalue,38,yearvalue,2015/16,20151/6,RANDOM_TYPO,,[]
+215.country_name,215,country_name,England,Engladn,RANDOM_TYPO,,[]
+178.area_team_code,178,area_team_code,Q70,Q07,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e11, e9, e19]"
+280.region_code,280,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+151.region_geography_code,151,region_geography_code,E40000004,4E0000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e25, e47]"
+321.region_code,321,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e34, e16, e29]"
+123.region_code,123,region_code,Y57,Y75,FD_VIOLATION,area_team_code -> region_code,"[e42, e44, e43, e24, e34, e39, e16, e29]"
+245.region_name,245,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMdMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e26, e18]"
+225.region_code,225,region_code,Y54,Y45,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e16, e29]"
+25.area_team_name,25,area_team_name,SOUTH YORKSHIRE AND BASSETLAW AREA TEAM,SURREY AND SUSSEX AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+210.sub_region_geography_code,210,sub_region_geography_code,E39000030,E9000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38]"
+91.sub_region_name,91,sub_region_name,NHS ENGLAND EAST,NH SENGLAND EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+323.region_code,323,region_code,Y57,5Y7,FD_VIOLATION,area_team_code -> region_code,"[e8, e44, e43, e24, e34, e16, e29]"
+30.yearvalue,30,yearvalue,2015/16,201/516,RANDOM_TYPO,,[]
+155.periodenddate,155,periodenddate,31/03/2016,1/03/2016,RANDOM_TYPO,,[]
+245.sub_region_code,245,sub_region_code,Q78,Qo78,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e21, e13, e37]"
+146.sub_region_name,146,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS ENsGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+284.sub_region_code,284,sub_region_code,Q70,70,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e13, e28]"
+18.variablevalue,18,variablevalue,ESTthrFrameFrontBasic,ESTtwoBJSA,FD_VIOLATION,variablevalue -> sourcevalue,[e2]
+68.sub_region_geography_code,68,sub_region_geography_code,E39000033,E3x9000033,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+138.area_team_code,138,area_team_code,Q64,64,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e10, e19, e3]"
+333.periodenddate,333,periodenddate,31/03/2016,31/03/216,RANDOM_TYPO,,[]
+26.area_team_code,26,area_team_code,Q56,Q53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+93.country_name,93,country_name,England,ngland,RANDOM_TYPO,,[]
+339.region_geography_code,339,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e44, e9, e35, e45, e47, e17]"
+34.country_name,34,country_name,England,Ecngland,RANDOM_TYPO,,[]
+26.sub_region_geography_code,26,sub_region_geography_code,E39000031,E39000035,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+18.sub_region_code,18,sub_region_code,Q73,Q71,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+330.region_code,330,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e43, e24, e46, e34, e39, e16]"
+194.area_team_code,194,area_team_code,Q53,53,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e10, e19]"
+4.sub_region_geography_code,4,sub_region_geography_code,E39000036,E39000029,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+243.region_geography_code,243,region_geography_code,E40000001,E4000c0001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e25, e47, e17]"
+283.country_name,283,country_name,England,Ecngland,RANDOM_TYPO,,[]
+43.sub_region_geography_code,43,sub_region_geography_code,E39000027,E39000027***,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e22, e35, e34, e14, e38, e27]"
+194.sub_region_name,194,sub_region_name,NHS ENGLAND WEST MIDLANDS,NHS ENLAND WEST MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e15, e28]"
+246.area_team_code,246,area_team_code,Q50,hQ50,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+306.periodenddate,306,periodenddate,31/03/2016,3103/2016,RANDOM_TYPO,,[]
+181.sub_region_geography_code,181,sub_region_geography_code,E39000018,E3900018,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+127.sub_region_name,127,sub_region_name,NHS ENGLAND WESSEX,NHS ENGLAND WSESEX,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+333.sub_region_name,333,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLNAD CHESHIRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e39, e28]"
+9.sub_region_name,9,sub_region_name,NHS ENGLAND WEST MIDLANDS,NHS ENGLAND SOUTH WEST,FD_VIOLATION,area_team_code -> sub_region_name,"[e40, e7, e41, e33, e23, e15, e37, e39, e28, e38]"
+8.sub_region_geography_code,8,sub_region_geography_code,E39000028,E39000036,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e14, e36, e38, e27]"
+80.sub_region_geography_code,80,sub_region_geography_code,E39000030,hE39000030,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+282.sub_region_code,282,sub_region_code,Q82,Q28,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e21, e28, e27, e29]"
+99.country_code,99,country_code,E1,1E,RANDOM_TYPO,,[]
+246.region_geography_code,246,region_geography_code,E40000001,jE40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e35, e25, e47, e17]"
+33.region_name,33,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAND COMMSSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36]"
+280.variablevalue,280,variablevalue,estoneDomVisitsLowerOMP,estoneDowmVisitsLowerOMP,RANDOM_TYPO,,[]
+165.region_geography_code,165,region_geography_code,E40000001,Ep40000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e25, e47, e17]"
+210.yearvalue,210,yearvalue,2015/16,205/16,RANDOM_TYPO,,[]
+63.region_name,63,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONING yREGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+151.sub_region_name,151,sub_region_name,NHS ENGLAND SOUTH CENTRAL,NwHS ENGLAND SOUTH CENTRAL,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e23, e28]"
+305.region_name,305,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF ENGLAND COMMISSIONINjG REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+50.region_name,50,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAD COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e41, e10, e43, e45, e26, e36, e18]"
+"65.area_team_name,""ARDEN, HEREFORDHSIRE AND WORCESTERSHIRE AREA TEAM""",65,"area_team_name,""ARDEN, HEREFORDHSIRE AND WORCESTERSHIRE AREA TEAM"""," HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM""","""ARDEN",FD_VIOLATION,,"[e12, e4]"
+21.area_team_code,21,area_team_code,Q70,Q45,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e5, e6, e7, e8, e11, e9, e10, e19, e3, e4]"
+77.region_name,77,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSOINING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+321.sub_region_name,321,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS ENGLND CUMBRIA AND NORTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+173.area_team_geography_code,173,area_team_geography_code,E39000019,39000019,FD_VIOLATION,area_team_code -> area_team_geography_code,[e20]
+110.region_code,110,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+302.sub_region_geography_code,302,sub_region_geography_code,E39000028,E30900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e14, e38, e27]"
+6.adjusted_value,6,adjusted_value,91149.54676,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+"102.area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREAT EAM"",""BRISTOL",102,"area_team_name,""BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREAT EAM"",""BRISTOL"," SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM""", NORTH SOMERSET,FD_VIOLATION,,"[e12, e4]"
+5.periodenddate,5,periodenddate,31/03/2016,31/03/0216,RANDOM_TYPO,,[]
+42.area_team_geography_code,42,area_team_geography_code,E39000020,E3900020,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+185.periodenddate,185,periodenddate,31/03/2016,3/103/2016,RANDOM_TYPO,,[]
+18.adjusted_value,18,adjusted_value,1998.0,0.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+106.yearvalue,106,yearvalue,2015/16,2015m/16,RANDOM_TYPO,,[]
+197.sub_region_name,197,sub_region_name,NHS ENGLAND CUMBRIA AND NORTH EAST,NHS NGLAND CUMBRIA AND NORTH EAST,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+215.region_geography_code,215,region_geography_code,E40000001,E4000001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+264.sub_region_geography_code,264,sub_region_geography_code,E39000028,39000028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e22, e38, e27]"
+126.region_code,126,region_code,Y54,5Y4,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e46, e34, e39, e16, e29]"
+64.area_team_geography_code,64,area_team_geography_code,E39000013,E3900003,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+21.area_team_geography_code,21,area_team_geography_code,E39000025,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+174.sub_region_name,174,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGAND CHESHIRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e15, e28]"
+78.region_name,78,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND COMMISSIONING REIGON,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+233.region_name,233,region_name,NORTH OF ENGLAND COMMISSIONING REGION,NORTH OF ENGLAND kCOMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e41, e10, e43, e45, e26, e36, e18]"
+216.area_team_code,216,area_team_code,Q59,oQ59,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"
+211.sub_region_name,211,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLNAD CHESHIRE AND MERSEYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e39, e28]"
+262.sub_region_name,262,sub_region_name,NHS ENGLAND CHESHIRE AND MERSEYSIDE,NHS ENGLAND CHESHIRE AND MERSEzYSIDE,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+259.sourcevalue,259,sourcevalue,Voucher_report,Voupcher_report,RANDOM_TYPO,,[]
+278.country_name,278,country_name,England,Engladn,RANDOM_TYPO,,[]
+264.area_team_geography_code,264,area_team_geography_code,E39000003,E390000j03,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e3]"
+289.sub_region_code,289,sub_region_code,Q73,7Q3,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e32, e21, e37]"
+93.sub_region_name,93,sub_region_name,NHS ENGLAND NORTH MIDLANDS,NHS ENGLAND NORTH MIDLAjNDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e33, e23, e15, e28]"
+210.region_code,210,region_code,Y55,Y5t5,FD_VIOLATION,area_team_code -> region_code,"[e8, e24, e46, e39, e16]"
+"15.area_team_name,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,""CUMBRIA",15,"area_team_name,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,""CUMBRIA"," TYNE AND WEAR AREA TEAM""", NORTHUMBERLAND,FD_VIOLATION,,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+245.region_code,245,region_code,Y55,Y55***,FD_VIOLATION,area_team_code -> region_code,"[e42, e8, e44, e43, e24, e39, e16]"
+16.adjusted_value,16,adjusted_value,0.0,7.0,FD_VIOLATION,adjusted_value -> raw_value,[e1]
+19.area_team_geography_code,19,area_team_geography_code,E39000024,E39000002,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e20, e11, e13, e12, e15, e14, e17, e16, e18, e3]"
+103.region_geography_code,103,region_geography_code,E40000001,E40000001***,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e47, e17]"
+141.sub_region_code,141,sub_region_code,Q78,78,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e21, e13, e37, e28, e27, e29]"
+20.sub_region_code,20,sub_region_code,Q72,Q79,FD_VIOLATION,area_team_code -> sub_region_code,"[e5, e31, e30, e32, e21, e13, e37, e28, e27, e29]"
+280.sourcevalue,280,sourcevalue,Sight_test,Sigh_ttest,RANDOM_TYPO,,[]
+71.region_geography_code,71,region_geography_code,E40000004,40000004,FD_VIOLATION,area_team_code -> region_geography_code,"[e40, e42, e30, e9, e35, e45, e25, e47, e17]"
+64.yearvalue,64,yearvalue,2015/16,201516,RANDOM_TYPO,,[]
+127.region_geography_code,127,region_geography_code,E40000004,E40000004***,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e9, e35, e25, e47, e17]"
+323.region_name,323,region_name,SOUTH OF ENGLAND COMMISSIONING REGION,SOUTH OF NGLAND COMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e10, e43, e45, e26, e36, e18]"
+21.area_team_name,21,area_team_name,WESSEX AREA TEAM,ESSEX AREA TEAM,FD_VIOLATION,area_team_code -> area_team_name,"[e20, e22, e21, e24, e12, e23, e26, e25, e19, e4]"
+134.sub_region_code,134,sub_region_code,Q78,Q8,FD_VIOLATION,area_team_code -> sub_region_code,"[e21, e13, e37]"
+289.sub_region_geography_code,289,sub_region_geography_code,E39000028,E3900028,FD_VIOLATION,area_team_code -> sub_region_geography_code,"[e6, e33, e22, e32, e35, e34, e38]"
+331.sub_region_name,331,sub_region_name,NHS ENGLAND CENTRAL MIDLANDS,NHS EnNGLAND CENTRAL MIDLANDS,FD_VIOLATION,area_team_code -> sub_region_name,"[e7, e33, e23, e15, e28]"
+321.region_geography_code,321,region_geography_code,E40000001,E40000h001,FD_VIOLATION,area_team_code -> region_geography_code,"[e42, e30, e44, e9, e35, e45, e25, e17]"
+314.region_code,314,region_code,Y57,57,FD_VIOLATION,area_team_code -> region_code,"[e44, e24, e46, e34, e16, e29]"
+292.region_name,292,region_name,MIDLANDS AND EAST OF ENGLAND COMMISSIONING REGION,MIDLANDS AND EAST OF ENGLAN DCOMMISSIONING REGION,FD_VIOLATION,area_team_code -> region_name,"[e31, e43, e46, e45, e26, e36, e18]"
+134.area_team_code,134,area_team_code,Q59,Q95,FD_VIOLATION,area_team_code -> area_team_geography_code,"[e11, e19]"

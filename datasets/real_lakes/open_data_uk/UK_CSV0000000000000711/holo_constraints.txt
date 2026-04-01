@@ -1,0 +1,4 @@
+t1&t2&EQ(t1.regional_office_code,t2.regional_office_code)&IQ(t1.geographical_indicator_code,t2.geographical_indicator_code)
+t1&t2&EQ(t1.regional_office_code,t2.regional_office_code)&IQ(t1.area_code,t2.area_code)
+t1&t2&EQ(t1.geographical_indicator_code,t2.geographical_indicator_code)&IQ(t1.regional_office_code,t2.regional_office_code)
+t1&t2&EQ(t1.geographical_indicator_code,t2.geographical_indicator_code)&IQ(t1.area_code,t2.area_code)

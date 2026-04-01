@@ -1,0 +1,12 @@
+row_idx,source_table,source_variant,source_row_idx,partition
+0,Impaired_Lake_2020,Typo,34,isolated_unique_a
+1,Impaired_Lake_2020,Typo,35,isolated_unique_a
+2,Impaired_Lake_2020,Typo,36,isolated_unique_a
+3,Impaired_Lake_2020,Typo,37,isolated_unique_a
+4,Impaired_Lake_2020,Typo,38,isolated_unique_a
+5,Impaired_Lake_2020,Typo,39,isolated_unique_a
+6,Impaired_Lake_2020,Typo,40,isolated_unique_a
+7,Impaired_Lake_2020,Typo,41,isolated_unique_a
+8,Impaired_Lake_2020,Typo,42,isolated_unique_a
+9,Impaired_Lake_2020,Typo,43,isolated_unique_a
+10,Impaired_Lake_2020,Typo,44,isolated_unique_a

@@ -1,0 +1,8 @@
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.latitude,t2.latitude)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.longitude,t2.longitude)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.locationvalue,t2.locationvalue)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.lsoacode,t2.lsoacode)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.lsoaname,t2.lsoaname)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.outcometype,t2.outcometype)
+t1&t2&EQ(t1.lsoacode,t2.lsoacode)&IQ(t1.lsoaname,t2.lsoaname)
+t1&t2&EQ(t1.lsoaname,t2.lsoaname)&IQ(t1.lsoacode,t2.lsoacode)

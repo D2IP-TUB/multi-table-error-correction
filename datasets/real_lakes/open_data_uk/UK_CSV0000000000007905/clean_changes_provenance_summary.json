@@ -1,0 +1,317 @@
+{
+  "total_changes": 1015,
+  "error_type_counts": {
+    "FD_VIOLATION": 846,
+    "RANDOM_TYPO": 169
+  },
+  "columns_affected": [
+    "region_code",
+    "region_name",
+    "sourcevalue",
+    "periodenddate",
+    "area_team_geography_code",
+    "country_name",
+    "sub_region_code",
+    "raw_value",
+    "area_team_code",
+    "sub_region_name",
+    "variablevalue",
+    "yearvalue",
+    "region_geography_code",
+    "sub_region_geography_code",
+    "country_code",
+    "area_team_name",
+    "area_team_name,\"BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRzE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"ARDEN, bHEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"RISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "adjusted_value",
+    "area_team_name,\"DURHAM",
+    "area_team_name,\"BRISTOL, NORHT SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"ARDEN, HEREFORDSHIRE AND WORCESTRSHIRE AREA TEAM\"",
+    "area_team_name,\"BRISTLO, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"ARDEN, HEREFORDSHIRE AD WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"ARDEN, HEREFORDSHRIE AND WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"BRSTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"CHESHIRE, WARRINGTON AND WIRRAL ARE TEAM\"",
+    "area_team_name,\"ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE ARE ATEAM\"",
+    "area_team_name,\"ARDENr, HEREFORDSHIRE AND WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"BRISTOL,NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"CUMBRIA, NORTHUMBERLAND, kTYNE AND WEAR AREA TEAM\",\"CUMBRIA",
+    "area_team_name,\"DEVON",
+    "area_team_name,\"DURHAM, DARLIGNTON AND TEES AREA TEAM\"",
+    "area_team_name,\"ARDEN, HEREFORDSHIRE AND WzORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"ARDEN, HEREFORDSHIRE AND WORCESTERSHIRE AREAr TEAM\"",
+    "area_team_name,\"BRISTOL, NORTH SOMERSEjT, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"BRISOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREA TEAM\",\"BRISTOL",
+    "area_team_name,\"ARDEN, HERwEFORDSHIRE AND WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,\"BRISTOL, NORTH SOMERSET, SOMERSET AND SOUTH GLOUCESTERSHIRE AREAT EAM\",\"BRISTOL",
+    "area_team_name,\"ARDEN, HEREFORDHSIRE AND WORCESTERSHIRE AREA TEAM\"",
+    "area_team_name,HERTFORDSHIRE AND THE SOUTH MIDLANDS AREA TEAM,\"CUMBRIA"
+  ],
+  "configuration": {
+    "total_error_percentage": 19,
+    "fd_percentage": 9,
+    "outlier_percentage": 0,
+    "typo_percentage": 9,
+    "fd_violations": [
+      {
+        "determinant": "adjusted_value",
+        "dependant": "raw_value",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "variablevalue",
+        "dependant": "sourcevalue",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "area_team_geography_code",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "area_team_name",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "sub_region_code",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "sub_region_geography_code",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "sub_region_name",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "region_code",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "region_geography_code",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_code",
+        "dependant": "region_name",
+        "percentage": 6.9767441860465125
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "area_team_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "area_team_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "sub_region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "sub_region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "sub_region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_geography_code",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "area_team_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "area_team_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "sub_region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "sub_region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "sub_region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "area_team_name",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_code",
+        "dependant": "sub_region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_code",
+        "dependant": "sub_region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_code",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_code",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_code",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_geography_code",
+        "dependant": "sub_region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_geography_code",
+        "dependant": "sub_region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_geography_code",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_geography_code",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_geography_code",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_name",
+        "dependant": "sub_region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_name",
+        "dependant": "sub_region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_name",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_name",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "sub_region_name",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_code",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_code",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_geography_code",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_geography_code",
+        "dependant": "region_name",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_name",
+        "dependant": "region_code",
+        "percentage": 6.395348837209303
+      },
+      {
+        "determinant": "region_name",
+        "dependant": "region_geography_code",
+        "percentage": 6.395348837209303
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "country_code",
+      "country_name",
+      "region_code",
+      "region_geography_code",
+      "region_name",
+      "sub_region_code",
+      "sub_region_geography_code",
+      "sub_region_name",
+      "area_team_code",
+      "area_team_geography_code",
+      "area_team_name",
+      "periodenddate",
+      "yearvalue",
+      "sourcevalue",
+      "variablevalue"
+    ],
+    "num_fd_rules": 47,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 15
+  },
+  "used_bart_native_types": true
+}

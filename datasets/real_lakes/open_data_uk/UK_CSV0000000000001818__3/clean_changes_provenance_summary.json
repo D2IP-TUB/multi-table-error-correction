@@ -1,0 +1,44 @@
+{
+  "total_changes": 15368,
+  "error_type_counts": {
+    "RANDOM_TYPO": 15368
+  },
+  "columns_affected": [
+    "daysofdelayeddischarge",
+    "peoplewithanopenldhospitalstay",
+    "peopleincontactwithmhservices",
+    "peopleoncpafor_one_twomonthswithreview",
+    "_one_sevenyearsoldbeddays",
+    "awolepisodes",
+    "peoplebeingtreatedby_early_intervention_teams",
+    "peoplewithaccommodationstatusrecorded",
+    "peoplesubjecttothe_mental_health_act",
+    "spellsstarting",
+    "peopleoncpafor_one_twomonths"
+  ],
+  "configuration": {
+    "total_error_percentage": 23,
+    "fd_percentage": 0,
+    "outlier_percentage": 0,
+    "typo_percentage": 23,
+    "fd_violations": [],
+    "outlier_columns": [],
+    "typo_columns": [
+      "peoplewithanopenldhospitalstay",
+      "peopleincontactwithmhservices",
+      "peoplesubjecttothe_mental_health_act",
+      "peoplebeingtreatedby_early_intervention_teams",
+      "peopleoncpafor_one_twomonths",
+      "spellsstarting",
+      "awolepisodes",
+      "peopleoncpafor_one_twomonthswithreview",
+      "daysofdelayeddischarge",
+      "_one_sevenyearsoldbeddays",
+      "peoplewithaccommodationstatusrecorded"
+    ],
+    "num_fd_rules": 0,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 11
+  },
+  "used_bart_native_types": true
+}

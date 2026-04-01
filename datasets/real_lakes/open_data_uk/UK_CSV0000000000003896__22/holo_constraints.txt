@@ -1,0 +1,4 @@
+t1&t2&EQ(t1.post_opqeq_five_d_index_profile,t2.post_opqeq_five_d_index_profile)&IQ(t1.varicose_veineq_five_d_index,t2.varicose_veineq_five_d_index)
+t1&t2&EQ(t1.post_opqeq_five_d_index_profile,t2.post_opqeq_five_d_index_profile)&IQ(t1.post_opq_anxiety,t2.post_opq_anxiety)
+t1&t2&EQ(t1.post_opqeq_five_d_index_profile,t2.post_opqeq_five_d_index_profile)&IQ(t1.post_opq_discomfort,t2.post_opq_discomfort)
+t1&t2&EQ(t1.pre_opqeq_five_d_index_profile,t2.pre_opqeq_five_d_index_profile)&IQ(t1.pre_opq_discomfort,t2.pre_opq_discomfort)

@@ -1,0 +1,199 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+311.pre_opq_mobility,311,pre_opq_mobility,2,16,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+42.pre_opqeq_five_d_index_profile,42,pre_opqeq_five_d_index_profile,21232,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+28.pre_opqeq_five_d_index_profile,28,pre_opqeq_five_d_index_profile,22222,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e15]
+355.pre_opq_mobility,355,pre_opq_mobility,1,15,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+365.procedurevalue,365,procedurevalue,Knee Arthroscopy,Knee Arthhroscopy,RANDOM_TYPO,,[]
+33.pre_opqeq_five_d_index_profile,33,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+37.pre_opqeq_five_d_index_profile,37,pre_opqeq_five_d_index_profile,22232,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+40.hip_replacementeq_five_d_index_post_opq_predicted,40,hip_replacementeq_five_d_index_post_opq_predicted,0.802373246,0.55755374,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+22.procedurevalue,22,procedurevalue,Knee Arthroscopy,Knee Arthroscpy,RANDOM_TYPO,,[]
+189.pre_opq_mobility,189,pre_opq_mobility,2,98,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+32.hip_replacementeq_five_d_index_post_opq_predicted,32,hip_replacementeq_five_d_index_post_opq_predicted,0.83591875,0.528520012,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e1, e2, e3, e4]"
+371.procedurevalue,371,procedurevalue,Knee Arthroscopy,lKnee Arthroscopy,RANDOM_TYPO,,[]
+11.pre_opqeq_five_d_index_profile,11,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+179.procedurevalue,179,procedurevalue,Knee Arthroscopy,Knee Arthroscoyp,RANDOM_TYPO,,[]
+29.pre_opqeq_five_d_index_profile,29,pre_opqeq_five_d_index_profile,22232,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e15]
+286.pre_opq_mobility,286,pre_opq_mobility,2,35,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+22.hip_replacementeq_five_d_index_post_opq_predicted,22,hip_replacementeq_five_d_index_post_opq_predicted,0.698173388,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+317.procedurevalue,317,procedurevalue,Knee Arthroscopy,Knee Arthroscpy,RANDOM_TYPO,,[]
+207.procedurevalue,207,procedurevalue,Knee Arthroscopy,Kene Arthroscopy,RANDOM_TYPO,,[]
+335.procedurevalue,335,procedurevalue,Knee Arthroscopy,Knee Atrhroscopy,RANDOM_TYPO,,[]
+52.hip_replacementeq_five_d_index_post_opq_predicted,52,hip_replacementeq_five_d_index_post_opq_predicted,0.817333718,0.734578402,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e9, e10, e1, e2, e3, e4]"
+17.hip_replacementeq_five_d_index_post_opq_predicted,17,hip_replacementeq_five_d_index_post_opq_predicted,0.79227633,0.662857174,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e4]"
+323.pre_opq_mobility,323,pre_opq_mobility,2,44,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+282.procedurevalue,282,procedurevalue,Knee Arthroscopy,Knee rthroscopy,RANDOM_TYPO,,[]
+84.hip_replacementeq_five_d_index_post_opq_predicted,84,hip_replacementeq_five_d_index_post_opq_predicted,0.682768152,0.872243954,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+258.pre_opq_mobility,258,pre_opq_mobility,2,68,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+85.pre_opq_mobility,85,pre_opq_mobility,2,90,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+69.hip_replacementeq_five_d_index_post_opq_predicted,69,hip_replacementeq_five_d_index_post_opq_predicted,0.846339978,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+10.procedurevalue,10,procedurevalue,Knee Arthroscopy,Knee Arthrosocpy,RANDOM_TYPO,,[]
+6.hip_replacementeq_five_d_index_post_opq_predicted,6,hip_replacementeq_five_d_index_post_opq_predicted,0.629215736,0.72617558,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+131.pre_opq_mobility,131,pre_opq_mobility,2,98,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+72.pre_opqeq_five_d_index_profile,72,pre_opqeq_five_d_index_profile,22222,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+58.pre_opqeq_five_d_index_profile,58,pre_opqeq_five_d_index_profile,22231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+55.procedurevalue,55,procedurevalue,Knee Arthroscopy,Knee Arthrosopy,RANDOM_TYPO,,[]
+44.hip_replacementeq_five_d_index_post_opq_predicted,44,hip_replacementeq_five_d_index_post_opq_predicted,0.83649973,0.55755374,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+313.pre_opq_mobility,313,pre_opq_mobility,2,86,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+254.procedurevalue,254,procedurevalue,Knee Arthroscopy,Knee Arthroscpy,RANDOM_TYPO,,[]
+24.hip_replacementeq_five_d_index_post_opq_predicted,24,hip_replacementeq_five_d_index_post_opq_predicted,0.90157814,0.846802574,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+361.pre_opq_mobility,361,pre_opq_mobility,2,81,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+39.hip_replacementeq_five_d_index_post_opq_predicted,39,hip_replacementeq_five_d_index_post_opq_predicted,0.81156911,0.596022068,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e1, e2, e3, e4]"
+43.pre_opqeq_five_d_index_profile,43,pre_opqeq_five_d_index_profile,21231,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+20.hip_replacementeq_five_d_index_post_opq_predicted,20,hip_replacementeq_five_d_index_post_opq_predicted,0.788855434,0.69895532,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+225.procedurevalue,225,procedurevalue,Knee Arthroscopy,Kne Arthroscopy,RANDOM_TYPO,,[]
+153.procedurevalue,153,procedurevalue,Knee Arthroscopy,Knee Arthrscopy,RANDOM_TYPO,,[]
+79.hip_replacementeq_five_d_index_post_opq_predicted,79,hip_replacementeq_five_d_index_post_opq_predicted,0.791768048,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+78.hip_replacementeq_five_d_index_post_opq_predicted,78,hip_replacementeq_five_d_index_post_opq_predicted,0.65317181,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+61.hip_replacementeq_five_d_index_post_opq_predicted,61,hip_replacementeq_five_d_index_post_opq_predicted,0.803610552,0.69895532,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+65.hip_replacementeq_five_d_index_post_opq_predicted,65,hip_replacementeq_five_d_index_post_opq_predicted,0.791745459,0.846802574,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+48.pre_opqeq_five_d_index_profile,48,pre_opqeq_five_d_index_profile,11122,21232.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+372.pre_opq_mobility,372,pre_opq_mobility,2,74,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+91.procedurevalue,91,procedurevalue,Knee Arthroscopy,Knee Arthfroscopy,RANDOM_TYPO,,[]
+203.procedurevalue,203,procedurevalue,Knee Arthroscopy,Knee Arthroscoyp,RANDOM_TYPO,,[]
+110.procedurevalue,110,procedurevalue,Knee Arthroscopy,Knee Arthroscoyp,RANDOM_TYPO,,[]
+49.hip_replacementeq_five_d_index_post_opq_predicted,49,hip_replacementeq_five_d_index_post_opq_predicted,0.75345715,0.83023833,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+66.pre_opqeq_five_d_index_profile,66,pre_opqeq_five_d_index_profile,32331,21221.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+37.hip_replacementeq_five_d_index_post_opq_predicted,37,hip_replacementeq_five_d_index_post_opq_predicted,0.801216264,0.69895532,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+76.pre_opqeq_five_d_index_profile,76,pre_opqeq_five_d_index_profile,22332,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+182.procedurevalue,182,procedurevalue,Knee Arthroscopy,Kneei Arthroscopy,RANDOM_TYPO,,[]
+374.procedurevalue,374,procedurevalue,Knee Arthroscopy,Knee Arthroscoy,RANDOM_TYPO,,[]
+46.pre_opqeq_five_d_index_profile,46,pre_opqeq_five_d_index_profile,22312,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+52.pre_opqeq_five_d_index_profile,52,pre_opqeq_five_d_index_profile,21231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+230.pre_opq_mobility,230,pre_opq_mobility,2,4,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+288.pre_opq_mobility,288,pre_opq_mobility,2,60,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+38.hip_replacementeq_five_d_index_post_opq_predicted,38,hip_replacementeq_five_d_index_post_opq_predicted,0.725366336,0.55755374,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+77.procedurevalue,77,procedurevalue,Knee Arthroscopy,Knee rthroscopy,RANDOM_TYPO,,[]
+53.hip_replacementeq_five_d_index_post_opq_predicted,53,hip_replacementeq_five_d_index_post_opq_predicted,0.695076604,0.723858486,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e11, e9, e10, e14, e1, e2, e3, e4]"
+62.hip_replacementeq_five_d_index_post_opq_predicted,62,hip_replacementeq_five_d_index_post_opq_predicted,0.67310073,0.831398846,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e13, e1, e2, e3, e4]"
+2.pre_opqeq_five_d_index_profile,2,pre_opqeq_five_d_index_profile,21232,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+287.pre_opq_mobility,287,pre_opq_mobility,2,55,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+66.hip_replacementeq_five_d_index_post_opq_predicted,66,hip_replacementeq_five_d_index_post_opq_predicted,0.48098377,0.723858486,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e11, e9, e10, e14, e1, e2, e3, e4]"
+242.procedurevalue,242,procedurevalue,Knee Arthroscopy,nee Arthroscopy,RANDOM_TYPO,,[]
+75.hip_replacementeq_five_d_index_post_opq_predicted,75,hip_replacementeq_five_d_index_post_opq_predicted,0.771756794,0.887822562,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e8, e11, e9, e10, e1, e2, e3, e4]"
+36.pre_opqeq_five_d_index_profile,36,pre_opqeq_five_d_index_profile,21232,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+285.procedurevalue,285,procedurevalue,Knee Arthroscopy,Knee Arthrsocopy,RANDOM_TYPO,,[]
+27.hip_replacementeq_five_d_index_post_opq_predicted,27,hip_replacementeq_five_d_index_post_opq_predicted,0.444543386,0.55755374,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+80.hip_replacementeq_five_d_index_post_opq_predicted,80,hip_replacementeq_five_d_index_post_opq_predicted,0.686219752,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+158.pre_opq_mobility,158,pre_opq_mobility,2,79,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+76.hip_replacementeq_five_d_index_post_opq_predicted,76,hip_replacementeq_five_d_index_post_opq_predicted,0.786935924,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+51.pre_opqeq_five_d_index_profile,51,pre_opqeq_five_d_index_profile,21231,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+57.hip_replacementeq_five_d_index_post_opq_predicted,57,hip_replacementeq_five_d_index_post_opq_predicted,0.478312234,0.849860014,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e8, e10, e1, e2, e3, e4]"
+48.hip_replacementeq_five_d_index_post_opq_predicted,48,hip_replacementeq_five_d_index_post_opq_predicted,0.906493634,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+41.hip_replacementeq_five_d_index_post_opq_predicted,41,hip_replacementeq_five_d_index_post_opq_predicted,0.804036646,0.886540942,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e9, e10, e1, e2, e4]"
+185.pre_opq_mobility,185,pre_opq_mobility,2,44,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+1.hip_replacementeq_five_d_index_post_opq_predicted,1,hip_replacementeq_five_d_index_post_opq_predicted,0.69990273,0.831398846,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e13, e1, e2, e3, e4]"
+27.pre_opqeq_five_d_index_profile,27,pre_opqeq_five_d_index_profile,23331,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+54.pre_opqeq_five_d_index_profile,54,pre_opqeq_five_d_index_profile,22231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+13.pre_opqeq_five_d_index_profile,13,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+34.hip_replacementeq_five_d_index_post_opq_predicted,34,hip_replacementeq_five_d_index_post_opq_predicted,0.732973456,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+64.hip_replacementeq_five_d_index_post_opq_predicted,64,hip_replacementeq_five_d_index_post_opq_predicted,0.636233518,0.674682762,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e1, e2, e3, e4]"
+39.pre_opqeq_five_d_index_profile,39,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+59.hip_replacementeq_five_d_index_post_opq_predicted,59,hip_replacementeq_five_d_index_post_opq_predicted,0.769925102,0.831398846,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e13, e1, e2, e3, e4]"
+26.hip_replacementeq_five_d_index_post_opq_predicted,26,hip_replacementeq_five_d_index_post_opq_predicted,0.635321158,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+154.pre_opq_mobility,154,pre_opq_mobility,2,89,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+10.hip_replacementeq_five_d_index_post_opq_predicted,10,hip_replacementeq_five_d_index_post_opq_predicted,0.798279906,0.662857174,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e4]"
+29.hip_replacementeq_five_d_index_post_opq_predicted,29,hip_replacementeq_five_d_index_post_opq_predicted,0.71696864,0.76793728,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e10, e2, e3]"
+277.pre_opq_mobility,277,pre_opq_mobility,2,31,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+68.hip_replacementeq_five_d_index_post_opq_predicted,68,hip_replacementeq_five_d_index_post_opq_predicted,0.684680984,0.872243954,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+207.pre_opq_mobility,207,pre_opq_mobility,2,8,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+320.procedurevalue,320,procedurevalue,Knee Arthroscopy,Knee Arthroscoyp,RANDOM_TYPO,,[]
+188.procedurevalue,188,procedurevalue,Knee Arthroscopy,nKee Arthroscopy,RANDOM_TYPO,,[]
+73.pre_opqeq_five_d_index_profile,73,pre_opqeq_five_d_index_profile,11211,21232.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+72.procedurevalue,72,procedurevalue,Knee Arthroscopy,Knee Arthroscoypy,RANDOM_TYPO,,[]
+23.hip_replacementeq_five_d_index_post_opq_predicted,23,hip_replacementeq_five_d_index_post_opq_predicted,0.670696618,0.831398846,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e13, e1, e2, e3, e4]"
+50.pre_opqeq_five_d_index_profile,50,pre_opqeq_five_d_index_profile,22231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+71.hip_replacementeq_five_d_index_post_opq_predicted,71,hip_replacementeq_five_d_index_post_opq_predicted,0.740063172,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+45.pre_opqeq_five_d_index_profile,45,pre_opqeq_five_d_index_profile,22221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+77.pre_opqeq_five_d_index_profile,77,pre_opqeq_five_d_index_profile,22322,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+55.hip_replacementeq_five_d_index_post_opq_predicted,55,hip_replacementeq_five_d_index_post_opq_predicted,0.843784286,0.821349872,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e8, e9, e10, e1, e2, e3]"
+93.pre_opq_mobility,93,pre_opq_mobility,2,69,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+97.procedurevalue,97,procedurevalue,Knee Arthroscopy,Knee Arthrosocpy,RANDOM_TYPO,,[]
+115.procedurevalue,115,procedurevalue,Knee Arthroscopy,nee Arthroscopy,RANDOM_TYPO,,[]
+134.procedurevalue,134,procedurevalue,Knee Arthroscopy,Knee Arthroscpy,RANDOM_TYPO,,[]
+224.procedurevalue,224,procedurevalue,Knee Arthroscopy,Knee Argthroscopy,RANDOM_TYPO,,[]
+82.hip_replacementeq_five_d_index_post_opq_predicted,82,hip_replacementeq_five_d_index_post_opq_predicted,0.647889956,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+300.pre_opq_mobility,300,pre_opq_mobility,2,83,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+290.pre_opq_mobility,290,pre_opq_mobility,2,98,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+44.pre_opqeq_five_d_index_profile,44,pre_opqeq_five_d_index_profile,21231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+195.pre_opq_mobility,195,pre_opq_mobility,2,97,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+32.pre_opqeq_five_d_index_profile,32,pre_opqeq_five_d_index_profile,21221,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+227.procedurevalue,227,procedurevalue,Knee Arthroscopy,Knee rthroscopy,RANDOM_TYPO,,[]
+74.hip_replacementeq_five_d_index_post_opq_predicted,74,hip_replacementeq_five_d_index_post_opq_predicted,0.749062904,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+149.pre_opq_mobility,149,pre_opq_mobility,2,53,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+15.hip_replacementeq_five_d_index_post_opq_predicted,15,hip_replacementeq_five_d_index_post_opq_predicted,0.637349754,0.846802574,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+26.procedurevalue,26,procedurevalue,Knee Arthroscopy,Knee xArthroscopy,RANDOM_TYPO,,[]
+315.procedurevalue,315,procedurevalue,Knee Arthroscopy,Knee Artrhoscopy,RANDOM_TYPO,,[]
+314.pre_opq_mobility,314,pre_opq_mobility,2,3,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+5.pre_opqeq_five_d_index_profile,5,pre_opqeq_five_d_index_profile,22331,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+348.procedurevalue,348,procedurevalue,Knee Arthroscopy,Knee rAthroscopy,RANDOM_TYPO,,[]
+304.pre_opq_mobility,304,pre_opq_mobility,2,93,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+69.pre_opqeq_five_d_index_profile,69,pre_opqeq_five_d_index_profile,22221,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+8.pre_opqeq_five_d_index_profile,8,pre_opqeq_five_d_index_profile,22331,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+6.pre_opqeq_five_d_index_profile,6,pre_opqeq_five_d_index_profile,22232,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+194.pre_opq_mobility,194,pre_opq_mobility,2,75,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+11.hip_replacementeq_five_d_index_post_opq_predicted,11,hip_replacementeq_five_d_index_post_opq_predicted,0.84424019,0.831398846,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e13, e1, e2, e3, e4]"
+50.hip_replacementeq_five_d_index_post_opq_predicted,50,hip_replacementeq_five_d_index_post_opq_predicted,0.664634578,0.83023833,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e13, e1, e2, e3, e4]"
+9.procedurevalue,9,procedurevalue,Knee Arthroscopy,Knede Arthroscopy,RANDOM_TYPO,,[]
+60.hip_replacementeq_five_d_index_post_opq_predicted,60,hip_replacementeq_five_d_index_post_opq_predicted,0.658337672,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+109.procedurevalue,109,procedurevalue,Knee Arthroscopy,Knee Arthroscopwy,RANDOM_TYPO,,[]
+173.procedurevalue,173,procedurevalue,Knee Arthroscopy,Knee Arthrboscopy,RANDOM_TYPO,,[]
+327.pre_opq_mobility,327,pre_opq_mobility,2,35,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+7.pre_opqeq_five_d_index_profile,7,pre_opqeq_five_d_index_profile,22332,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+33.hip_replacementeq_five_d_index_post_opq_predicted,33,hip_replacementeq_five_d_index_post_opq_predicted,0.918862554,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+75.pre_opqeq_five_d_index_profile,75,pre_opqeq_five_d_index_profile,12222,22231.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+19.hip_replacementeq_five_d_index_post_opq_predicted,19,hip_replacementeq_five_d_index_post_opq_predicted,0.799248716,0.723858486,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e11, e9, e10, e14, e1, e2, e3, e4]"
+263.pre_opq_mobility,263,pre_opq_mobility,2,19,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+157.pre_opq_mobility,157,pre_opq_mobility,2,19,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+62.pre_opqeq_five_d_index_profile,62,pre_opqeq_five_d_index_profile,22231,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+63.hip_replacementeq_five_d_index_post_opq_predicted,63,hip_replacementeq_five_d_index_post_opq_predicted,0.857391782,0.72617558,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+128.pre_opq_mobility,128,pre_opq_mobility,2,38,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+249.pre_opq_mobility,249,pre_opq_mobility,1,56,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+231.procedurevalue,231,procedurevalue,Knee Arthroscopy,Kene Arthroscopy,RANDOM_TYPO,,[]
+245.pre_opq_mobility,245,pre_opq_mobility,1,36,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+77.hip_replacementeq_five_d_index_post_opq_predicted,77,hip_replacementeq_five_d_index_post_opq_predicted,0.84832403,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+234.pre_opq_mobility,234,pre_opq_mobility,2,33,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+260.procedurevalue,260,procedurevalue,Knee Arthroscopy,Knee Arthroscpy,RANDOM_TYPO,,[]
+170.pre_opq_mobility,170,pre_opq_mobility,2,26,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+54.hip_replacementeq_five_d_index_post_opq_predicted,54,hip_replacementeq_five_d_index_post_opq_predicted,0.73884607,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+358.procedurevalue,358,procedurevalue,Knee Arthroscopy,Kene Arthroscopy,RANDOM_TYPO,,[]
+3.pre_opqeq_five_d_index_profile,3,pre_opqeq_five_d_index_profile,22231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+197.pre_opq_mobility,197,pre_opq_mobility,2,78,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+144.pre_opq_mobility,144,pre_opq_mobility,2,19,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+35.hip_replacementeq_five_d_index_post_opq_predicted,35,hip_replacementeq_five_d_index_post_opq_predicted,0.851088678,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+65.pre_opqeq_five_d_index_profile,65,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+40.pre_opqeq_five_d_index_profile,40,pre_opqeq_five_d_index_profile,22231,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+272.procedurevalue,272,procedurevalue,Knee Arthroscopy,KneeArthroscopy,RANDOM_TYPO,,[]
+31.pre_opqeq_five_d_index_profile,31,pre_opqeq_five_d_index_profile,21222,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+18.hip_replacementeq_five_d_index_post_opq_predicted,18,hip_replacementeq_five_d_index_post_opq_predicted,0.846526,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+30.hip_replacementeq_five_d_index_post_opq_predicted,30,hip_replacementeq_five_d_index_post_opq_predicted,0.689603394,0.723858486,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e11, e9, e10, e14, e1, e2, e3, e4]"
+329.pre_opq_mobility,329,pre_opq_mobility,2,42,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+47.hip_replacementeq_five_d_index_post_opq_predicted,47,hip_replacementeq_five_d_index_post_opq_predicted,0.912574732,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+45.procedurevalue,45,procedurevalue,Knee Arthroscopy,Knee Artroscopy,RANDOM_TYPO,,[]
+56.hip_replacementeq_five_d_index_post_opq_predicted,56,hip_replacementeq_five_d_index_post_opq_predicted,0.856488448,0.61059821,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e11, e9, e10, e1, e2, e3, e4]"
+38.pre_opqeq_five_d_index_profile,38,pre_opqeq_five_d_index_profile,22232,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+350.procedurevalue,350,procedurevalue,Knee Arthroscopy,Kneel Arthroscopy,RANDOM_TYPO,,[]
+154.procedurevalue,154,procedurevalue,Knee Arthroscopy,Knee Arhroscopy,RANDOM_TYPO,,[]
+83.hip_replacementeq_five_d_index_post_opq_predicted,83,hip_replacementeq_five_d_index_post_opq_predicted,0.74725438,0.69895532,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e9, e10, e1, e2, e3, e4]"
+103.pre_opq_mobility,103,pre_opq_mobility,2,80,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+118.procedurevalue,118,procedurevalue,Knee Arthroscopy,Knee rthroscopy,RANDOM_TYPO,,[]
+20.procedurevalue,20,procedurevalue,Knee Arthroscopy,Kneze Arthroscopy,RANDOM_TYPO,,[]
+46.procedurevalue,46,procedurevalue,Knee Arthroscopy,Knee Arthroscoy,RANDOM_TYPO,,[]
+349.procedurevalue,349,procedurevalue,Knee Arthroscopy,Knee Arthrocopy,RANDOM_TYPO,,[]
+12.pre_opqeq_five_d_index_profile,12,pre_opqeq_five_d_index_profile,22232,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+42.hip_replacementeq_five_d_index_post_opq_predicted,42,hip_replacementeq_five_d_index_post_opq_predicted,0.817495832,0.886540942,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e7, e8, e9, e10, e1, e2, e4]"
+64.procedurevalue,64,procedurevalue,Knee Arthroscopy,Kne Arthroscopy,RANDOM_TYPO,,[]
+72.hip_replacementeq_five_d_index_post_opq_predicted,72,hip_replacementeq_five_d_index_post_opq_predicted,0.871314652,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+86.pre_opq_mobility,86,pre_opq_mobility,2,40,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+67.hip_replacementeq_five_d_index_post_opq_predicted,67,hip_replacementeq_five_d_index_post_opq_predicted,0.588828108,0.734578402,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e9, e10, e1, e2, e3, e4]"
+81.hip_replacementeq_five_d_index_post_opq_predicted,81,hip_replacementeq_five_d_index_post_opq_predicted,0.725138552,0.92663109,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e11, e9, e10, e13, e1, e2, e3, e4]"
+107.pre_opq_mobility,107,pre_opq_mobility,2,70,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+14.pre_opqeq_five_d_index_profile,14,pre_opqeq_five_d_index_profile,21222,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+1.pre_opqeq_five_d_index_profile,1,pre_opqeq_five_d_index_profile,22231,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+256.pre_opq_mobility,256,pre_opq_mobility,2,23,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+51.hip_replacementeq_five_d_index_post_opq_predicted,51,hip_replacementeq_five_d_index_post_opq_predicted,0.634894694,0.596022068,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e7, e8, e10, e1, e2, e3, e4]"
+246.pre_opq_mobility,246,pre_opq_mobility,2,36,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+333.pre_opq_mobility,333,pre_opq_mobility,1,89,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opq_mobility,[e15]
+36.hip_replacementeq_five_d_index_post_opq_predicted,36,hip_replacementeq_five_d_index_post_opq_predicted,0.591861668,0.813574014,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e5, e6, e8, e10, e1, e2, e3, e4]"
+41.pre_opqeq_five_d_index_profile,41,pre_opqeq_five_d_index_profile,22221,11121.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"
+35.pre_opqeq_five_d_index_profile,35,pre_opqeq_five_d_index_profile,21221,11112.0,FD_VIOLATION,hip_replacementeq_five_d_index_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e15, e1]"

@@ -1,0 +1,331 @@
+cell_id,table_id,column_id,row_number,column_name,old_value,new_value,error_type,source_table,source_row,source_column
+29.2.1,29,2,1,company_code,03R,02F,FD_VIOLATION,UK_CSV0000000000000916,1,company_code
+29.4.1,29,4,1,branch_code,B87021,N81050,FD_VIOLATION,UK_CSV0000000000000916,1,branch_code
+29.5.2,29,5,2,branch_name,South Axholme Practice,The Jenner Practice (Dr Rowland),FD_VIOLATION,UK_CSV0000000000000916,2,branch_name
+29.2.3,29,2,3,company_code,03Y,08E,FD_VIOLATION,UK_CSV0000000000000916,3,company_code
+29.4.3,29,4,3,branch_code,G82730,E84014,FD_VIOLATION,UK_CSV0000000000000916,3,branch_code
+29.6.3,29,6,3,branch_address,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port,11 Bacon Lane Edgware Middlesex,FD_VIOLATION,UK_CSV0000000000000916,3,branch_address
+29.2.4,29,2,4,company_code,03R,03K,FD_VIOLATION,UK_CSV0000000000000916,4,company_code
+29.4.4,29,4,4,branch_code,B87021,B81043,FD_VIOLATION,UK_CSV0000000000000916,4,branch_code
+29.6.4,29,6,4,branch_address,Jenner Health Centre 201 Stanstead Road London,60-62 High Street Epworth Doncaster,FD_VIOLATION,UK_CSV0000000000000916,4,branch_address
+29.6.5,29,6,5,branch_address,Ashton Clinic Queens Road Ashton In Makerfield Wigan,Hallfield Lane Wetherby,FD_VIOLATION,UK_CSV0000000000000916,5,branch_address
+29.6.6,29,6,6,branch_address,Ashton Clinic Queens Road Ashton In Makerfield Wigan,Ash Grove Medical Centre England Lane Knottingley,FD_VIOLATION,UK_CSV0000000000000916,6,branch_address
+29.7.6,29,7,6,branch_post_code,B17 8LG,WF110JA,FD_VIOLATION,UK_CSV0000000000000916,6,branch_post_code
+29.4.7,29,4,7,branch_code,G82730,M85048,FD_VIOLATION,UK_CSV0000000000000916,7,branch_code
+29.7.7,29,7,7,branch_post_code,LS226JS,B33 0LU,FD_VIOLATION,UK_CSV0000000000000916,7,branch_post_code
+29.2.8,29,2,8,company_code,08L,10Q,FD_VIOLATION,UK_CSV0000000000000916,8,company_code
+29.4.8,29,4,8,branch_code,B87021,K84021,FD_VIOLATION,UK_CSV0000000000000916,8,branch_code
+29.6.8,29,6,8,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,172 Banbury Road Oxford,FD_VIOLATION,UK_CSV0000000000000916,8,branch_address
+29.4.9,29,4,9,branch_code,G82730,C81056,FD_VIOLATION,UK_CSV0000000000000916,9,branch_code
+29.6.9,29,6,9,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,117 High Street Clay Cross Chesterfield Derbyshire,FD_VIOLATION,UK_CSV0000000000000916,9,branch_address
+29.4.10,29,4,10,branch_code,B86625,Y02378,FD_VIOLATION,UK_CSV0000000000000916,10,branch_code
+29.7.10,29,7,10,branch_post_code,LS226JS,WN4 8LB,FD_VIOLATION,UK_CSV0000000000000916,10,branch_post_code
+29.0.11,29,0,11,region_code,Q68,Q54,FD_VIOLATION,UK_CSV0000000000000916,11,region_code
+29.4.11,29,4,11,branch_code,G82730,M85711,FD_VIOLATION,UK_CSV0000000000000916,11,branch_code
+29.6.11,29,6,11,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,City Health Centre 449 City Road Edgbaston Birmingham,FD_VIOLATION,UK_CSV0000000000000916,11,branch_address
+29.12.11,29,12,11,transaction_value,745.2,745.22,RANDOM_TYPO,UK_CSV0000000000000916,11,transaction_value
+29.5.12,29,5,12,branch_name,Kingsnorth Medical Practice,Filey Surgery,FD_VIOLATION,UK_CSV0000000000000916,12,branch_name
+29.6.12,29,6,12,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,The Filey Surgery Station Avenue Filey,FD_VIOLATION,UK_CSV0000000000000916,12,branch_address
+29.7.12,29,7,12,branch_post_code,SE231HU,YO149AE,FD_VIOLATION,UK_CSV0000000000000916,12,branch_post_code
+29.4.13,29,4,13,branch_code,G82730,P81181,FD_VIOLATION,UK_CSV0000000000000916,13,branch_code
+29.6.13,29,6,13,branch_address,Ashton Clinic Queens Road Ashton In Makerfield Wigan,Woodcroft Close Penwortham Preston,FD_VIOLATION,UK_CSV0000000000000916,13,branch_address
+29.7.13,29,7,13,branch_post_code,S45 9DZ,PR1 9BX,FD_VIOLATION,UK_CSV0000000000000916,13,branch_post_code
+29.8.13,29,8,13,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,13,branch_start_date
+29.12.13,29,12,13,transaction_value,436219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,13,transaction_value
+29.4.14,29,4,14,branch_code,G85004,M85677,FD_VIOLATION,UK_CSV0000000000000916,14,branch_code
+29.5.14,29,5,14,branch_name,South Axholme Practice,Dr Bangash N H & Partners,FD_VIOLATION,UK_CSV0000000000000916,14,branch_name
+29.7.14,29,7,14,branch_post_code,SE231HU,B8 3HX,FD_VIOLATION,UK_CSV0000000000000916,14,branch_post_code
+29.5.15,29,5,15,branch_name,Wetherby Surgery,Bird In Eye Surgery,FD_VIOLATION,UK_CSV0000000000000916,15,branch_name
+29.6.15,29,6,15,branch_address,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham,Bird-In-Eye Surgery Uckfield Community Hospital Framfield Road Uckfield,FD_VIOLATION,UK_CSV0000000000000916,15,branch_address
+29.7.15,29,7,15,branch_post_code,NW4 4QR,TN225AW,FD_VIOLATION,UK_CSV0000000000000916,15,branch_post_code
+29.1.16,29,1,16,region_name,Aisa,Asia,FD_VIOLATION,UK_CSV0000000000000916,16,region_name
+29.4.16,29,4,16,branch_code,B82037,F86058,FD_VIOLATION,UK_CSV0000000000000916,16,branch_code
+29.5.16,29,5,16,branch_name,Wetherby Surgery,St James Medical Practice Ltd,FD_VIOLATION,UK_CSV0000000000000916,16,branch_name
+29.6.16,29,6,16,branch_address,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham,St James Health Centre St James Street Walthamstow London,FD_VIOLATION,UK_CSV0000000000000916,16,branch_address
+29.7.16,29,7,16,branch_post_code,SE231HU,E17 7NH,FD_VIOLATION,UK_CSV0000000000000916,16,branch_post_code
+29.4.17,29,4,17,branch_code,G81086,K83069,FD_VIOLATION,UK_CSV0000000000000916,17,branch_code
+29.5.17,29,5,17,branch_name,Dr Machin P & Partners,Marshalls Road Surgery,FD_VIOLATION,UK_CSV0000000000000916,17,branch_name
+29.6.17,29,6,17,branch_address,Tile Cross Surgery 144 Tile Cross Road Tile Cross Birmingham,7 Marshalls Road Raunds Wellingborough Northants,FD_VIOLATION,UK_CSV0000000000000916,17,branch_address
+29.7.17,29,7,17,branch_post_code,TN233ED,NN9 6ET,FD_VIOLATION,UK_CSV0000000000000916,17,branch_post_code
+29.9.17,29,9,17,branch_end_date,***,-,FD_VIOLATION,UK_CSV0000000000000916,17,branch_end_date
+29.4.18,29,4,18,branch_code,B86625,E83020,FD_VIOLATION,UK_CSV0000000000000916,18,branch_code
+29.5.18,29,5,18,branch_name,Wetherby Surgery,St Georges Medical Centre,FD_VIOLATION,UK_CSV0000000000000916,18,branch_name
+29.6.18,29,6,18,branch_address,Jenner Health Centre 201 Stanstead Road London,7 Sunningfields Road Hendon London,FD_VIOLATION,UK_CSV0000000000000916,18,branch_address
+29.8.18,29,8,18,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,18,branch_start_date
+29.4.19,29,4,19,branch_code,B86625,K81015,FD_VIOLATION,UK_CSV0000000000000916,19,branch_code
+29.5.19,29,5,19,branch_name,Clay Cross Medical Centre,Woodlands Park Surgery,FD_VIOLATION,UK_CSV0000000000000916,19,branch_name
+29.6.19,29,6,19,branch_address,Jenner Health Centre 201 Stanstead Road London,Woodlands Park Surgery 15 Woodlands Park Road Woodlands Park Maidenhead,FD_VIOLATION,UK_CSV0000000000000916,19,branch_address
+29.3.20,29,3,20,company_name,Pfizegr,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,20,company_name
+29.4.20,29,4,20,branch_code,G85004,E86029,FD_VIOLATION,UK_CSV0000000000000916,20,branch_code
+29.5.20,29,5,20,branch_name,Clay Cross Medical Centre,The Cedar Brook Practice,FD_VIOLATION,UK_CSV0000000000000916,20,branch_name
+29.6.20,29,6,20,branch_address,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port,11 Kingshill Close Hayes Middlesex,FD_VIOLATION,UK_CSV0000000000000916,20,branch_address
+29.4.21,29,4,21,branch_code,G82730,A89026,FD_VIOLATION,UK_CSV0000000000000916,21,branch_code
+29.6.21,29,6,21,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,The Health Centre Victoria Road Washington Tyne And Wear,FD_VIOLATION,UK_CSV0000000000000916,21,branch_address
+29.4.22,29,4,22,branch_code,G85004,P81008,FD_VIOLATION,UK_CSV0000000000000916,22,branch_code
+29.6.22,29,6,22,branch_address,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,80 Yorkshire Street Burnley Lancashire,FD_VIOLATION,UK_CSV0000000000000916,22,branch_address
+29.4.23,29,4,23,branch_code,B86625,K81034,FD_VIOLATION,UK_CSV0000000000000916,23,branch_code
+29.10.23,29,10,23,contract_type,MS,PMS,FD_VIOLATION,UK_CSV0000000000000916,23,contract_type
+29.0.24,29,0,24,region_code,47,Q47,FD_VIOLATION,UK_CSV0000000000000916,24,region_code
+29.7.25,29,7,25,branch_post_code,NN416JQ,NN146JQ,RANDOM_TYPO,UK_CSV0000000000000916,25,branch_post_code
+29.5.28,29,5,28,branch_name,Clfiton Court Practice,Clifton Court Practice,RANDOM_TYPO,UK_CSV0000000000000916,28,branch_name
+29.3.29,29,3,29,company_name,iCsco,Cisco,RANDOM_TYPO,UK_CSV0000000000000916,29,company_name
+29.4.29,29,4,29,branch_code,B3604,B83604,RANDOM_TYPO,UK_CSV0000000000000916,29,branch_code
+29.8.30,29,8,30,branch_start_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,30,branch_start_date
+29.0.32,29,0,32,region_code,cQ58,Q58,FD_VIOLATION,UK_CSV0000000000000916,32,region_code
+29.9.34,29,9,34,branch_end_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,34,branch_end_date
+29.11.34,29,11,34,inventory_facility,cYes,Yes,RANDOM_TYPO,UK_CSV0000000000000916,34,inventory_facility
+29.6.35,29,6,35,branch_address,Endurance Huse Clarence Street Stockton-On-Tees,Endurance House Clarence Street Stockton-On-Tees,RANDOM_TYPO,UK_CSV0000000000000916,35,branch_address
+29.6.37,29,6,37,branch_address,Lees Medical Practice Athes Way Lees Oldham,Lees Medical Practice Athens Way Lees Oldham,RANDOM_TYPO,UK_CSV0000000000000916,37,branch_address
+29.8.40,29,8,40,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,40,branch_start_date
+29.13.41,29,13,41,transaction_description,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Lcoums,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums,RANDOM_TYPO,UK_CSV0000000000000916,41,transaction_description
+29.6.42,29,6,42,branch_address,314 Soudthbourne Grove Westcliff-On-Sea Essex,314 Southbourne Grove Westcliff-On-Sea Essex,RANDOM_TYPO,UK_CSV0000000000000916,42,branch_address
+29.12.42,29,12,42,transaction_value,4a5.89,45.89,RANDOM_TYPO,UK_CSV0000000000000916,42,transaction_value
+29.4.43,29,4,43,branch_code,A8602,A81602,RANDOM_TYPO,UK_CSV0000000000000916,43,branch_code
+29.12.43,29,12,43,transaction_value,8634.i25,8634.25,RANDOM_TYPO,UK_CSV0000000000000916,43,transaction_value
+29.0.44,29,0,44,region_code,jQ70,Q70,RANDOM_TYPO,UK_CSV0000000000000916,44,region_code
+29.3.44,29,3,44,company_name,rPfizer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,44,company_name
+29.4.46,29,4,46,branch_code,D8104,D81064,RANDOM_TYPO,UK_CSV0000000000000916,46,branch_code
+29.1.49,29,1,49,region_name,sAia,Asia,FD_VIOLATION,UK_CSV0000000000000916,49,region_name
+29.7.49,29,7,49,branch_post_code,MR3 9PD,RM3 9PD,RANDOM_TYPO,UK_CSV0000000000000916,49,branch_post_code
+29.12.49,29,12,49,transaction_value,436219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,49,transaction_value
+29.1.53,29,1,53,region_name,Midlans,Midlands,FD_VIOLATION,UK_CSV0000000000000916,53,region_name
+29.0.56,29,0,56,region_code,65,Q65,FD_VIOLATION,UK_CSV0000000000000916,56,region_code
+29.11.56,29,11,56,inventory_facility,Nho,No,RANDOM_TYPO,UK_CSV0000000000000916,56,inventory_facility
+29.0.57,29,0,57,region_code,Q54,Q45,FD_VIOLATION,UK_CSV0000000000000916,57,region_code
+29.5.58,29,5,58,branch_name,Bremner And aPrtners,Bremner And Partners,RANDOM_TYPO,UK_CSV0000000000000916,58,branch_name
+29.5.59,29,5,59,branch_name,Welbeck Suragery,Welbeck Surgery,RANDOM_TYPO,UK_CSV0000000000000916,59,branch_name
+29.12.59,29,12,59,transaction_value,4536219x.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,59,transaction_value
+29.6.62,29,6,62,branch_address,Little Hulton iDstrict Centre Haysbrook Avenue Little Hulton Manchester,Little Hulton District Centre Haysbrook Avenue Little Hulton Manchester,RANDOM_TYPO,UK_CSV0000000000000916,62,branch_address
+29.2.63,29,2,63,company_code,s00C,00C,RANDOM_TYPO,UK_CSV0000000000000916,63,company_code
+29.0.67,29,0,67,region_code,5Q7,Q57,FD_VIOLATION,UK_CSV0000000000000916,67,region_code
+29.13.67,29,13,67,transaction_description,0_PCO_Administered_-_Seniority,08_PCO_Administered_-_Seniority,RANDOM_TYPO,UK_CSV0000000000000916,67,transaction_description
+29.13.68,29,13,68,transaction_description,29_Total_Loacl_Enhanced_Services,29_Total_Local_Enhanced_Services,RANDOM_TYPO,UK_CSV0000000000000916,68,transaction_description
+29.4.71,29,4,71,branch_code,82017,M82017,RANDOM_TYPO,UK_CSV0000000000000916,71,branch_code
+29.1.72,29,1,72,region_name,Conrwall,Cornwall,FD_VIOLATION,UK_CSV0000000000000916,72,region_name
+29.0.73,29,0,73,region_code,fQ60,Q60,RANDOM_TYPO,UK_CSV0000000000000916,73,region_code
+29.1.75,29,1,75,region_name,Asai,Asia,FD_VIOLATION,UK_CSV0000000000000916,75,region_name
+29.3.77,29,3,77,company_name,Samysung,Samsung,RANDOM_TYPO,UK_CSV0000000000000916,77,company_name
+29.10.77,29,10,77,contract_type,PtMS,PMS,RANDOM_TYPO,UK_CSV0000000000000916,77,contract_type
+29.4.78,29,4,78,branch_code,B8s6037,B86037,RANDOM_TYPO,UK_CSV0000000000000916,78,branch_code
+29.13.78,29,13,78,transaction_description,23_Directed_Enhanced_Services_-_Patint_Participation,23_Directed_Enhanced_Services_-_Patient_Participation,RANDOM_TYPO,UK_CSV0000000000000916,78,transaction_description
+29.1.80,29,1,80,region_name,Asa,Asia,FD_VIOLATION,UK_CSV0000000000000916,80,region_name
+29.11.81,29,11,81,inventory_facility,oN,No,RANDOM_TYPO,UK_CSV0000000000000916,81,inventory_facility
+29.11.82,29,11,82,inventory_facility,oN,No,RANDOM_TYPO,UK_CSV0000000000000916,82,inventory_facility
+29.0.83,29,0,83,region_code,Q17,Q71,FD_VIOLATION,UK_CSV0000000000000916,83,region_code
+29.11.83,29,11,83,inventory_facility,o,No,RANDOM_TYPO,UK_CSV0000000000000916,83,inventory_facility
+29.1.85,29,1,85,region_name,Asa,Asia,FD_VIOLATION,UK_CSV0000000000000916,85,region_name
+29.7.85,29,7,85,branch_post_code,NW1c 1TN,NW1 1TN,RANDOM_TYPO,UK_CSV0000000000000916,85,branch_post_code
+29.13.85,29,13,85,transaction_description,02_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,RANDOM_TYPO,UK_CSV0000000000000916,85,transaction_description
+29.11.87,29,11,87,inventory_facility,Yse,Yes,RANDOM_TYPO,UK_CSV0000000000000916,87,inventory_facility
+29.3.88,29,3,88,company_name,Pizer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,88,company_name
+29.4.90,29,4,90,branch_code,A8m2015,A82015,RANDOM_TYPO,UK_CSV0000000000000916,90,branch_code
+29.10.91,29,10,91,contract_type,GS,GMS,RANDOM_TYPO,UK_CSV0000000000000916,91,contract_type
+29.7.92,29,7,92,branch_post_code,L254QY,PL254QY,RANDOM_TYPO,UK_CSV0000000000000916,92,branch_post_code
+29.0.93,29,0,93,region_code,Q0,Q60,FD_VIOLATION,UK_CSV0000000000000916,93,region_code
+29.5.93,29,5,93,branch_name,Dr Pr J Gregory & Partners,Dr P J Gregory & Partners,RANDOM_TYPO,UK_CSV0000000000000916,93,branch_name
+29.5.96,29,5,96,branch_name,Dalton Terrace uSrgery,Dalton Terrace Surgery,RANDOM_TYPO,UK_CSV0000000000000916,96,branch_name
+29.3.98,29,3,98,company_name,fizer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,98,company_name
+29.2.99,29,2,99,company_code,0P,06P,RANDOM_TYPO,UK_CSV0000000000000916,99,company_code
+29.1.100,29,1,100,region_name,Asiia,Asia,FD_VIOLATION,UK_CSV0000000000000916,100,region_name
+29.10.100,29,10,100,contract_type,PMdS,PMS,RANDOM_TYPO,UK_CSV0000000000000916,100,contract_type
+29.9.101,29,9,101,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,101,branch_end_date
+29.9.103,29,9,103,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,103,branch_end_date
+29.12.103,29,12,103,transaction_value,12499.50***,12499.50,RANDOM_TYPO,UK_CSV0000000000000916,103,transaction_value
+29.7.104,29,7,104,branch_post_code,NR302sHW,NR302HW,RANDOM_TYPO,UK_CSV0000000000000916,104,branch_post_code
+29.2.105,29,2,105,company_code,1L0,10L,RANDOM_TYPO,UK_CSV0000000000000916,105,company_code
+29.9.106,29,9,106,branch_end_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,106,branch_end_date
+29.6.107,29,6,107,branch_address,Health Centre 53 Gell Street heffield,Health Centre 53 Gell Street Sheffield,RANDOM_TYPO,UK_CSV0000000000000916,107,branch_address
+29.8.107,29,8,107,branch_start_date,l-,-,RANDOM_TYPO,UK_CSV0000000000000916,107,branch_start_date
+29.3.109,29,3,109,company_name,fPizer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,109,company_name
+29.11.109,29,11,109,inventory_facility,sNo,No,RANDOM_TYPO,UK_CSV0000000000000916,109,inventory_facility
+29.0.110,29,0,110,region_code,50,Q50,FD_VIOLATION,UK_CSV0000000000000916,110,region_code
+29.0.111,29,0,111,region_code,Qf68,Q68,RANDOM_TYPO,UK_CSV0000000000000916,111,region_code
+29.2.111,29,2,111,company_code,90G,09G,RANDOM_TYPO,UK_CSV0000000000000916,111,company_code
+29.3.111,29,3,111,company_name,Siemenas,Siemens,RANDOM_TYPO,UK_CSV0000000000000916,111,company_name
+29.8.111,29,8,111,branch_start_date,i-,-,RANDOM_TYPO,UK_CSV0000000000000916,111,branch_start_date
+29.11.112,29,11,112,inventory_facility,o,No,RANDOM_TYPO,UK_CSV0000000000000916,112,inventory_facility
+29.0.113,29,0,113,region_code,58,Q58,FD_VIOLATION,UK_CSV0000000000000916,113,region_code
+29.5.113,29,5,113,branch_name,King Edward Road Surgrey,King Edward Road Surgery,RANDOM_TYPO,UK_CSV0000000000000916,113,branch_name
+29.6.113,29,6,113,branch_address,King Edward Road Surgery Christchurch Medicatl Centre King Edward Road Northampton,King Edward Road Surgery Christchurch Medical Centre King Edward Road Northampton,RANDOM_TYPO,UK_CSV0000000000000916,113,branch_address
+29.1.114,29,1,114,region_name,Tuuscany,Tuscany,FD_VIOLATION,UK_CSV0000000000000916,114,region_name
+29.7.114,29,7,114,branch_post_code,CM7 x2AE,CM7 2AE,RANDOM_TYPO,UK_CSV0000000000000916,114,branch_post_code
+29.1.115,29,1,115,region_name,Baaria,Bavaria,FD_VIOLATION,UK_CSV0000000000000916,115,region_name
+29.8.115,29,8,115,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,115,branch_start_date
+29.2.117,29,2,117,company_code,k07W,07W,RANDOM_TYPO,UK_CSV0000000000000916,117,company_code
+29.5.117,29,5,117,branch_name,The Guru aNnak Medical Centre,The Guru Nanak Medical Centre,RANDOM_TYPO,UK_CSV0000000000000916,117,branch_name
+29.13.117,29,13,117,transaction_description,27_Directed_Enhanced_Services_-_Services_for_Violent_Patietns,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients,RANDOM_TYPO,UK_CSV0000000000000916,117,transaction_description
+29.12.118,29,12,118,transaction_value,4536219k.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,118,transaction_value
+29.1.119,29,1,119,region_name,Asai,Asia,FD_VIOLATION,UK_CSV0000000000000916,119,region_name
+29.12.119,29,12,119,transaction_value,536219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,119,transaction_value
+29.9.120,29,9,120,branch_end_date,c-,-,RANDOM_TYPO,UK_CSV0000000000000916,120,branch_end_date
+29.10.120,29,10,120,contract_type,MPS,PMS,RANDOM_TYPO,UK_CSV0000000000000916,120,contract_type
+29.6.121,29,6,121,branch_address,200 Newport Roadz Cowes Isle Of Wight,200 Newport Road Cowes Isle Of Wight,RANDOM_TYPO,UK_CSV0000000000000916,121,branch_address
+29.10.121,29,10,121,contract_type,MGS,GMS,RANDOM_TYPO,UK_CSV0000000000000916,121,contract_type
+29.13.123,29,13,123,transaction_description,07_PremisesPayments,07_Premises_Payments,RANDOM_TYPO,UK_CSV0000000000000916,123,transaction_description
+29.3.125,29,3,125,company_name,GoldmanSacsh,GoldmanSachs,RANDOM_TYPO,UK_CSV0000000000000916,125,company_name
+29.5.126,29,5,126,branch_name,r A M Goodwin & Partners,Dr A M Goodwin & Partners,RANDOM_TYPO,UK_CSV0000000000000916,126,branch_name
+29.10.126,29,10,126,contract_type,GSM,GMS,RANDOM_TYPO,UK_CSV0000000000000916,126,contract_type
+29.0.127,29,0,127,region_code,Ql49,Q49,FD_VIOLATION,UK_CSV0000000000000916,127,region_code
+29.1.127,29,1,127,region_name,Yorkshre,Yorkshire,FD_VIOLATION,UK_CSV0000000000000916,127,region_name
+29.2.127,29,2,127,company_code,0z0P,00P,FD_VIOLATION,UK_CSV0000000000000916,127,company_code
+29.4.127,29,4,127,branch_code,A8010,A89010,RANDOM_TYPO,UK_CSV0000000000000916,127,branch_code
+29.9.127,29,9,127,branch_end_date,o-,-,FD_VIOLATION,UK_CSV0000000000000916,127,branch_end_date
+29.10.127,29,10,127,contract_type,PSM,PMS,FD_VIOLATION,UK_CSV0000000000000916,127,contract_type
+29.11.127,29,11,127,inventory_facility,oN,No,FD_VIOLATION,UK_CSV0000000000000916,127,inventory_facility
+29.1.128,29,1,128,region_name,bAsia,Asia,FD_VIOLATION,UK_CSV0000000000000916,128,region_name
+29.1.129,29,1,129,region_name,Flanderas,Flanders,FD_VIOLATION,UK_CSV0000000000000916,129,region_name
+29.7.129,29,7,129,branch_post_code,AD1 1HP,DA1 1HP,RANDOM_TYPO,UK_CSV0000000000000916,129,branch_post_code
+29.1.130,29,1,130,region_name,Wessx,Wessex,FD_VIOLATION,UK_CSV0000000000000916,130,region_name
+29.0.133,29,0,133,region_code,wQ46,Q46,FD_VIOLATION,UK_CSV0000000000000916,133,region_code
+29.12.134,29,12,134,transaction_value,5f47244.77,547244.77,RANDOM_TYPO,UK_CSV0000000000000916,134,transaction_value
+29.6.135,29,6,135,branch_address,152 Plashet Road Plaistow xLondon,152 Plashet Road Plaistow London,RANDOM_TYPO,UK_CSV0000000000000916,135,branch_address
+29.2.137,29,2,137,company_code,0v4X,04X,RANDOM_TYPO,UK_CSV0000000000000916,137,company_code
+29.4.138,29,4,138,branch_code,H81022***,H81022,RANDOM_TYPO,UK_CSV0000000000000916,138,branch_code
+29.0.139,29,0,139,region_code,Q76,Q67,FD_VIOLATION,UK_CSV0000000000000916,139,region_code
+29.12.139,29,12,139,transaction_value,12499.05,12499.50,RANDOM_TYPO,UK_CSV0000000000000916,139,transaction_value
+29.13.139,29,13,139,transaction_description,28_Total_Ntaional_Enhanced_Services,28_Total_National_Enhanced_Services,RANDOM_TYPO,UK_CSV0000000000000916,139,transaction_description
+29.4.140,29,4,140,branch_code,81017,E81017,RANDOM_TYPO,UK_CSV0000000000000916,140,branch_code
+29.1.141,29,1,141,region_name,Asai,Asia,FD_VIOLATION,UK_CSV0000000000000916,141,region_name
+29.0.143,29,0,143,region_code,7Q1,Q71,FD_VIOLATION,UK_CSV0000000000000916,143,region_code
+29.10.144,29,10,144,contract_type,GS,GMS,RANDOM_TYPO,UK_CSV0000000000000916,144,contract_type
+29.12.144,29,12,144,transaction_value,45b36219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,144,transaction_value
+29.7.145,29,7,145,branch_post_code,SP5u 2SU,SP5 2SU,RANDOM_TYPO,UK_CSV0000000000000916,145,branch_post_code
+29.12.145,29,12,145,transaction_value,48275.,4827.5,RANDOM_TYPO,UK_CSV0000000000000916,145,transaction_value
+29.0.148,29,0,148,region_code,67,Q67,FD_VIOLATION,UK_CSV0000000000000916,148,region_code
+29.3.148,29,3,148,company_name,oGldmanSachs,GoldmanSachs,RANDOM_TYPO,UK_CSV0000000000000916,148,company_name
+29.6.149,29,6,149,branch_address,The Waterfront Surgery Brierley Hill Health And Social Care Centre Venutre Way Brierley Hill,The Waterfront Surgery Brierley Hill Health And Social Care Centre Venture Way Brierley Hill,RANDOM_TYPO,UK_CSV0000000000000916,149,branch_address
+29.0.150,29,0,150,region_code,Qo71,Q71,FD_VIOLATION,UK_CSV0000000000000916,150,region_code
+29.1.150,29,1,150,region_name,Ausia,Asia,FD_VIOLATION,UK_CSV0000000000000916,150,region_name
+29.1.153,29,1,153,region_name,South Esat England,South East England,FD_VIOLATION,UK_CSV0000000000000916,153,region_name
+29.6.153,29,6,153,branch_address,Darlaston Health Centre Pinfold Street nDarlaston West Midlands,Darlaston Health Centre Pinfold Street Darlaston West Midlands,RANDOM_TYPO,UK_CSV0000000000000916,153,branch_address
+29.13.153,29,13,153,transaction_description,13_PCO_Administered_-_PCOAdmin_Other,13_PCO_Administered_-_PCO_Admin_Other,RANDOM_TYPO,UK_CSV0000000000000916,153,transaction_description
+29.1.154,29,1,154,region_name,Crnwall,Cornwall,FD_VIOLATION,UK_CSV0000000000000916,154,region_name
+29.11.154,29,11,154,inventory_facility,o,No,RANDOM_TYPO,UK_CSV0000000000000916,154,inventory_facility
+29.1.155,29,1,155,region_name,Midlansd,Midlands,FD_VIOLATION,UK_CSV0000000000000916,155,region_name
+29.0.156,29,0,156,region_code,Qx55,Q55,FD_VIOLATION,UK_CSV0000000000000916,156,region_code
+29.0.159,29,0,159,region_code,50,Q50,FD_VIOLATION,UK_CSV0000000000000916,159,region_code
+29.1.159,29,1,159,region_name,Midlrands,Midlands,FD_VIOLATION,UK_CSV0000000000000916,159,region_name
+29.13.159,29,13,159,transaction_description,24_Directed_Enhaced_Services_-_Remote_Care_Monitoring,24_Directed_Enhanced_Services_-_Remote_Care_Monitoring,RANDOM_TYPO,UK_CSV0000000000000916,159,transaction_description
+29.1.161,29,1,161,region_name,Mdlands,Midlands,FD_VIOLATION,UK_CSV0000000000000916,161,region_name
+29.6.162,29,6,162,branch_address,Family Medical Centre 56A Lomwoor Road Kirkby In Ashfield Nottinghamshire,Family Medical Centre 56A Lowmoor Road Kirkby In Ashfield Nottinghamshire,RANDOM_TYPO,UK_CSV0000000000000916,162,branch_address
+29.9.163,29,9,163,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,163,branch_end_date
+29.9.164,29,9,164,branch_end_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,164,branch_end_date
+29.3.165,29,3,165,company_name,Pfzer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,165,company_name
+29.1.169,29,1,169,region_name,West Midlzands,West Midlands,FD_VIOLATION,UK_CSV0000000000000916,169,region_name
+29.9.169,29,9,169,branch_end_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,169,branch_end_date
+29.1.170,29,1,170,region_name,Adsia,Asia,FD_VIOLATION,UK_CSV0000000000000916,170,region_name
+29.6.170,29,6,170,branch_address,Harold Wood Polyclinic St Clements Avenue OffG ubbins Lane Harold Wood Essex,Harold Wood Polyclinic St Clements Avenue Off Gubbins Lane Harold Wood Essex,RANDOM_TYPO,UK_CSV0000000000000916,170,branch_address
+29.0.171,29,0,171,region_code,Q6x5,Q65,RANDOM_TYPO,UK_CSV0000000000000916,171,region_code
+29.12.171,29,12,171,transaction_value,932.50,9832.50,RANDOM_TYPO,UK_CSV0000000000000916,171,transaction_value
+29.6.172,29,6,172,branch_address,Clipstone Health Centre First Avenue Clipstone Mansfield Nottinghamshire,Clipstone Health Centre First Avenue Clipstone Mansfield Nottinghamshire,RANDOM_TYPO,UK_CSV0000000000000916,172,branch_address
+29.10.172,29,10,172,contract_type,PpMS,PMS,RANDOM_TYPO,UK_CSV0000000000000916,172,contract_type
+29.1.174,29,1,174,region_name,Asiba,Asia,FD_VIOLATION,UK_CSV0000000000000916,174,region_name
+29.13.174,29,13,174,transaction_description,37_Total_NHS_Paymzents_to_General_Practice_Minus_Deductions,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions,RANDOM_TYPO,UK_CSV0000000000000916,174,transaction_description
+29.13.175,29,13,175,transaction_description,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immnisation_Scheme,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme,RANDOM_TYPO,UK_CSV0000000000000916,175,transaction_description
+29.5.176,29,5,176,branch_name,K Worthigton,K Worthington,RANDOM_TYPO,UK_CSV0000000000000916,176,branch_name
+29.7.176,29,7,176,branch_post_code,SW165F,SW165HF,RANDOM_TYPO,UK_CSV0000000000000916,176,branch_post_code
+29.2.177,29,2,177,company_code,0h9F,09F,RANDOM_TYPO,UK_CSV0000000000000916,177,company_code
+29.13.178,29,13,178,transaction_description,29T_otal_Local_Enhanced_Services,29_Total_Local_Enhanced_Services,RANDOM_TYPO,UK_CSV0000000000000916,178,transaction_description
+29.4.180,29,4,180,branch_code,83609,P83609,RANDOM_TYPO,UK_CSV0000000000000916,180,branch_code
+29.5.180,29,5,180,branch_name,Thze Birches Medical Centre,The Birches Medical Centre,RANDOM_TYPO,UK_CSV0000000000000916,180,branch_name
+29.8.180,29,8,180,branch_start_date,v-,-,RANDOM_TYPO,UK_CSV0000000000000916,180,branch_start_date
+29.9.181,29,9,181,branch_end_date,q-,-,RANDOM_TYPO,UK_CSV0000000000000916,181,branch_end_date
+29.1.182,29,1,182,region_name,West Midalnds,West Midlands,FD_VIOLATION,UK_CSV0000000000000916,182,region_name
+29.7.182,29,7,182,branch_post_code,DN121DJ,DN121JD,RANDOM_TYPO,UK_CSV0000000000000916,182,branch_post_code
+29.8.183,29,8,183,branch_start_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,183,branch_start_date
+29.12.183,29,12,183,transaction_value,453219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,183,transaction_value
+29.0.184,29,0,184,region_code,zQ45,Q45,FD_VIOLATION,UK_CSV0000000000000916,184,region_code
+29.1.184,29,1,184,region_name,Sutheast,Southeast,FD_VIOLATION,UK_CSV0000000000000916,184,region_name
+29.2.184,29,2,184,company_code,0K0,00K,FD_VIOLATION,UK_CSV0000000000000916,184,company_code
+29.9.184,29,9,184,branch_end_date,***,-,FD_VIOLATION,UK_CSV0000000000000916,184,branch_end_date
+29.10.184,29,10,184,contract_type,GsMS,GMS,FD_VIOLATION,UK_CSV0000000000000916,184,contract_type
+29.11.184,29,11,184,inventory_facility,o,No,FD_VIOLATION,UK_CSV0000000000000916,184,inventory_facility
+29.13.184,29,13,184,transaction_description,01_Number_of_Registeed_Patients_Last_Known_Figure,01_Number_of_Registered_Patients_Last_Known_Figure,RANDOM_TYPO,UK_CSV0000000000000916,184,transaction_description
+29.10.185,29,10,185,contract_type,MPS,PMS,RANDOM_TYPO,UK_CSV0000000000000916,185,contract_type
+29.13.185,29,13,185,transaction_description,12_PCO_Administered_-_Appraisal_Appraiser_Costsin_Respect_of_Locums,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums,RANDOM_TYPO,UK_CSV0000000000000916,185,transaction_description
+29.0.186,29,0,186,region_code,58,Q58,FD_VIOLATION,UK_CSV0000000000000916,186,region_code
+29.1.187,29,1,187,region_name,Pacific Cohast,Pacific Coast,FD_VIOLATION,UK_CSV0000000000000916,187,region_name
+29.9.188,29,9,188,branch_end_date,p-,-,RANDOM_TYPO,UK_CSV0000000000000916,188,branch_end_date
+29.8.189,29,8,189,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,189,branch_start_date
+29.4.190,29,4,190,branch_code,8G2715,G82715,RANDOM_TYPO,UK_CSV0000000000000916,190,branch_code
+29.3.191,29,3,191,company_name,Samsugn,Samsung,RANDOM_TYPO,UK_CSV0000000000000916,191,company_name
+29.5.191,29,5,191,branch_name,Kingsythorpe Medical Centre,Kingsthorpe Medical Centre,RANDOM_TYPO,UK_CSV0000000000000916,191,branch_name
+29.1.193,29,1,193,region_name,Yorskhire,Yorkshire,FD_VIOLATION,UK_CSV0000000000000916,193,region_name
+29.2.196,29,2,196,company_code,7P,07P,RANDOM_TYPO,UK_CSV0000000000000916,196,company_code
+29.9.196,29,9,196,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,196,branch_end_date
+29.3.198,29,3,198,company_name,iemens,Siemens,RANDOM_TYPO,UK_CSV0000000000000916,198,company_name
+29.8.198,29,8,198,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,198,branch_start_date
+29.0.200,29,0,200,region_code,57,Q57,FD_VIOLATION,UK_CSV0000000000000916,200,region_code
+29.7.200,29,7,200,branch_post_code,RMq155GN,RM155GN,RANDOM_TYPO,UK_CSV0000000000000916,200,branch_post_code
+29.1.201,29,1,201,region_name,Aia,Asia,FD_VIOLATION,UK_CSV0000000000000916,201,region_name
+29.3.201,29,3,201,company_name,Siehmens,Siemens,RANDOM_TYPO,UK_CSV0000000000000916,201,company_name
+29.13.201,29,13,201,transaction_description,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immuisations,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,RANDOM_TYPO,UK_CSV0000000000000916,201,transaction_description
+29.11.204,29,11,204,inventory_facility,Ymes,Yes,RANDOM_TYPO,UK_CSV0000000000000916,204,inventory_facility
+29.13.204,29,13,204,transaction_description,14_Tyotal_QOF_Payments,14_Total_QOF_Payments,RANDOM_TYPO,UK_CSV0000000000000916,204,transaction_description
+29.8.205,29,8,205,branch_start_date,n-,-,RANDOM_TYPO,UK_CSV0000000000000916,205,branch_start_date
+29.11.205,29,11,205,inventory_facility,o,No,RANDOM_TYPO,UK_CSV0000000000000916,205,inventory_facility
+29.6.207,29,6,207,branch_address,Martonside Medical Centr e1A Martonside Way Middlesbrough,Martonside Medical Centre 1A Martonside Way Middlesbrough,RANDOM_TYPO,UK_CSV0000000000000916,207,branch_address
+29.1.208,29,1,208,region_name,Conrwall,Cornwall,FD_VIOLATION,UK_CSV0000000000000916,208,region_name
+29.8.208,29,8,208,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,208,branch_start_date
+29.1.210,29,1,210,region_name,sia,Asia,FD_VIOLATION,UK_CSV0000000000000916,210,region_name
+29.8.210,29,8,210,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,210,branch_start_date
+29.9.211,29,9,211,branch_end_date,***,-,FD_VIOLATION,UK_CSV0000000000000916,211,branch_end_date
+29.11.211,29,11,211,inventory_facility,o,No,FD_VIOLATION,UK_CSV0000000000000916,211,inventory_facility
+29.0.213,29,0,213,region_code,5Q0,Q50,FD_VIOLATION,UK_CSV0000000000000916,213,region_code
+29.9.213,29,9,213,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,213,branch_end_date
+29.2.214,29,2,214,company_code,s10H,10H,RANDOM_TYPO,UK_CSV0000000000000916,214,company_code
+29.0.215,29,0,215,region_code,7Q1,Q71,RANDOM_TYPO,UK_CSV0000000000000916,215,region_code
+29.1.216,29,1,216,region_name,South aEst England,South East England,FD_VIOLATION,UK_CSV0000000000000916,216,region_name
+29.3.216,29,3,216,company_name,Pfizre,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,216,company_name
+29.5.216,29,5,216,branch_name,Coombswood Srgery,Coombswood Surgery,RANDOM_TYPO,UK_CSV0000000000000916,216,branch_name
+29.6.216,29,6,216,branch_address,Coombswood Surgery 146-14 Coombs Road Halesowen West Midlands,Coombswood Surgery 146-148 Coombs Road Halesowen West Midlands,RANDOM_TYPO,UK_CSV0000000000000916,216,branch_address
+29.13.216,29,13,216,transaction_description,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingle_Immunisation,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation,RANDOM_TYPO,UK_CSV0000000000000916,216,transaction_description
+29.6.218,29,6,218,branch_address,138 London Road Hackbridge Carshatlton Surrey,138 London Road Hackbridge Carshalton Surrey,RANDOM_TYPO,UK_CSV0000000000000916,218,branch_address
+29.0.219,29,0,219,region_code,Qn66,Q66,FD_VIOLATION,UK_CSV0000000000000916,219,region_code
+29.1.219,29,1,219,region_name,Ysorkshire,Yorkshire,FD_VIOLATION,UK_CSV0000000000000916,219,region_name
+29.2.219,29,2,219,company_code,9l9P,99P,FD_VIOLATION,UK_CSV0000000000000916,219,company_code
+29.7.219,29,7,219,branch_post_code,EX142YN,EX142NY,FD_VIOLATION,UK_CSV0000000000000916,219,branch_post_code
+29.9.219,29,9,219,branch_end_date,***,-,FD_VIOLATION,UK_CSV0000000000000916,219,branch_end_date
+29.10.219,29,10,219,contract_type,MGS,GMS,FD_VIOLATION,UK_CSV0000000000000916,219,contract_type
+29.11.219,29,11,219,inventory_facility,zNo,No,FD_VIOLATION,UK_CSV0000000000000916,219,inventory_facility
+29.7.221,29,7,221,branch_post_code,L6 4EW***,L6 4EW,RANDOM_TYPO,UK_CSV0000000000000916,221,branch_post_code
+29.10.223,29,10,223,contract_type,sGMS,GMS,RANDOM_TYPO,UK_CSV0000000000000916,223,contract_type
+29.2.224,29,2,224,company_code,9A9,99A,RANDOM_TYPO,UK_CSV0000000000000916,224,company_code
+29.12.224,29,12,224,transaction_value,$150.5,$150.75,RANDOM_TYPO,UK_CSV0000000000000916,224,transaction_value
+29.10.225,29,10,225,contract_type,GSM,GMS,RANDOM_TYPO,UK_CSV0000000000000916,225,contract_type
+29.12.226,29,12,226,transaction_value,456219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,226,transaction_value
+29.13.226,29,13,226,transaction_description,32_Non_DES_Itwem_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme,RANDOM_TYPO,UK_CSV0000000000000916,226,transaction_description
+29.6.227,29,6,227,branch_address,The Derby Medical Centre 8 The Derby Square Epom Surrey,The Derby Medical Centre 8 The Derby Square Epsom Surrey,RANDOM_TYPO,UK_CSV0000000000000916,227,branch_address
+29.9.228,29,9,228,branch_end_date,c-,-,RANDOM_TYPO,UK_CSV0000000000000916,228,branch_end_date
+29.13.228,29,13,228,transaction_description,6_Global_Sum_and_MPIG_-_MPIG_Correction_Factor,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor,RANDOM_TYPO,UK_CSV0000000000000916,228,transaction_description
+29.1.229,29,1,229,region_name,pAsia,Asia,FD_VIOLATION,UK_CSV0000000000000916,229,region_name
+29.3.234,29,3,234,company_name,Pifzer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,234,company_name
+29.0.235,29,0,235,region_code,49,Q49,FD_VIOLATION,UK_CSV0000000000000916,235,region_code
+29.13.235,29,13,235,transaction_description,22_Directed_Enhanced_Serviyces_-_Minor_Surgery,22_Directed_Enhanced_Services_-_Minor_Surgery,RANDOM_TYPO,UK_CSV0000000000000916,235,transaction_description
+29.9.236,29,9,236,branch_end_date,,-,RANDOM_TYPO,UK_CSV0000000000000916,236,branch_end_date
+29.1.237,29,1,237,region_name,Pcific Coast,Pacific Coast,FD_VIOLATION,UK_CSV0000000000000916,237,region_name
+29.5.237,29,5,237,branch_name,Kennington Health zCentre,Kennington Health Centre,RANDOM_TYPO,UK_CSV0000000000000916,237,branch_name
+29.3.238,29,3,238,company_name,Pfiezr,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,238,company_name
+29.7.241,29,7,241,branch_post_code,NB1 3XE,BN1 3XE,RANDOM_TYPO,UK_CSV0000000000000916,241,branch_post_code
+29.1.242,29,1,242,region_name,Axsia,Asia,FD_VIOLATION,UK_CSV0000000000000916,242,region_name
+29.6.242,29,6,242,branch_address,19-21 Oldhil lStreet London,19-21 Oldhill Street London,RANDOM_TYPO,UK_CSV0000000000000916,242,branch_address
+29.1.246,29,1,246,region_name,ornwall,Cornwall,FD_VIOLATION,UK_CSV0000000000000916,246,region_name
+29.5.246,29,5,246,branch_name,Verwood Pracltice,Verwood Practice,RANDOM_TYPO,UK_CSV0000000000000916,246,branch_name
+29.3.247,29,3,247,company_name,Pfier,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,247,company_name
+29.9.247,29,9,247,branch_end_date,a-,-,RANDOM_TYPO,UK_CSV0000000000000916,247,branch_end_date
+29.8.248,29,8,248,branch_start_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,248,branch_start_date
+29.6.249,29,6,249,branch_address,The Surgery 162 Long Strebet Dordon Tamworth,The Surgery 162 Long Street Dordon Tamworth,RANDOM_TYPO,UK_CSV0000000000000916,249,branch_address
+29.8.249,29,8,249,branch_start_date,k-,-,RANDOM_TYPO,UK_CSV0000000000000916,249,branch_start_date
+29.9.250,29,9,250,branch_end_date,***,-,RANDOM_TYPO,UK_CSV0000000000000916,250,branch_end_date
+29.3.251,29,3,251,company_name,fPizer,Pfizer,RANDOM_TYPO,UK_CSV0000000000000916,251,company_name
+29.9.251,29,9,251,branch_end_date,f-,-,RANDOM_TYPO,UK_CSV0000000000000916,251,branch_end_date
+29.1.252,29,1,252,region_name,Asai,Asia,FD_VIOLATION,UK_CSV0000000000000916,252,region_name
+29.4.252,29,4,252,branch_code,83020,H83020,RANDOM_TYPO,UK_CSV0000000000000916,252,branch_code
+29.0.253,29,0,253,region_code,Qz71,Q71,FD_VIOLATION,UK_CSV0000000000000916,253,region_code
+29.7.253,29,7,253,branch_post_code,W3 R9B,W3 9RB,RANDOM_TYPO,UK_CSV0000000000000916,253,branch_post_code
+29.12.253,29,12,253,transaction_value,5436219.57,4536219.57,RANDOM_TYPO,UK_CSV0000000000000916,253,transaction_value
+29.0.254,29,0,254,region_code,71,Q71,FD_VIOLATION,UK_CSV0000000000000916,254,region_code
+29.4.254,29,4,254,branch_code,G85904,G85094,RANDOM_TYPO,UK_CSV0000000000000916,254,branch_code
+29.11.254,29,11,254,inventory_facility,o,No,RANDOM_TYPO,UK_CSV0000000000000916,254,inventory_facility
+29.13.255,29,13,255,transaction_description,34_Other_Ptayments,34_Other_Payments,RANDOM_TYPO,UK_CSV0000000000000916,255,transaction_description
+29.5.256,29,5,256,branch_name,The Fens Medical Cuentre,The Fens Medical Centre,RANDOM_TYPO,UK_CSV0000000000000916,256,branch_name

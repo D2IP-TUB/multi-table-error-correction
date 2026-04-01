@@ -1,0 +1,108 @@
+{
+  "total_changes": 5545,
+  "error_type_counts": {
+    "FD_VIOLATION": 4346,
+    "RANDOM_TYPO": 1199
+  },
+  "columns_affected": [
+    "netflix_sd_peak",
+    "packet_loss_two_fourh",
+    "webloading_two_fourh",
+    "netflix_failed_two_fourhr",
+    "download_two_one_two_twopm",
+    "downloadpeakave",
+    "netflix_startup_delay_peak",
+    "netflix_startup_delay_two_fourhr",
+    "i_player_sd_two_fourhr",
+    "dns_failurepeak",
+    "download_two_fourminave",
+    "i_player_uhd_peak",
+    "you_tube_failed_two_fourhr",
+    "netflix_failed_peak",
+    "country"
+  ],
+  "configuration": {
+    "total_error_percentage": 21,
+    "fd_percentage": 10,
+    "outlier_percentage": 0,
+    "typo_percentage": 10,
+    "fd_violations": [
+      {
+        "determinant": "download_two_fourminave",
+        "dependant": "netflix_failed_peak",
+        "percentage": 50.087976539589405
+      },
+      {
+        "determinant": "downloadpeakave",
+        "dependant": "netflix_failed_two_fourhr",
+        "percentage": 50.087976539589405
+      },
+      {
+        "determinant": "downloadpeakave",
+        "dependant": "netflix_failed_peak",
+        "percentage": 50.087976539589405
+      },
+      {
+        "determinant": "download_two_one_two_twopm",
+        "dependant": "netflix_failed_peak",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "webloading_two_fourh",
+        "dependant": "netflix_failed_two_fourhr",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "webloading_two_fourh",
+        "dependant": "netflix_failed_peak",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_two_fourhr",
+        "dependant": "i_player_sd_two_fourhr",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_two_fourhr",
+        "dependant": "netflix_sd_peak",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_two_fourhr",
+        "dependant": "netflix_failed_two_fourhr",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_two_fourhr",
+        "dependant": "netflix_failed_peak",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_peak",
+        "dependant": "netflix_sd_peak",
+        "percentage": 49.97067448680348
+      },
+      {
+        "determinant": "netflix_startup_delay_peak",
+        "dependant": "netflix_failed_peak",
+        "percentage": 49.97067448680348
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "netflix_failed_two_fourhr",
+      "packet_loss_two_fourh",
+      "dns_failurepeak",
+      "i_player_sd_two_fourhr",
+      "netflix_sd_peak",
+      "netflix_failed_peak",
+      "country",
+      "you_tube_failed_two_fourhr",
+      "i_player_uhd_peak"
+    ],
+    "num_fd_rules": 12,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 9
+  },
+  "used_bart_native_types": true
+}

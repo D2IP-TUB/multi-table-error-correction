@@ -1,0 +1,12 @@
+defaults:
+- _self_
+- shared
+
+experiment:
+  labeling_budgets: [1, 10]                                                  # labeling budgets used in Baran
+  # labeling_budgets_cells_limit:                             # cell-based labeling budgets limits (Baran standard exec)
+  sampling: 1
+  predefined_samples_path: ""
+
+logs:
+  path_to_log_file: "./logs/raha-Standard.log" # path pointing to the location where the logs should be stored

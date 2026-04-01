@@ -1,0 +1,580 @@
+{
+  "source": "/raid0_ssd2/fatemeh/data/Unionable_Tables/generated_union_datasets/partial_overlap_25_without_duplicates",
+  "overlap_pct": "25",
+  "partitions": [
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_union",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "union"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_a_from_var_b_p1",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_a_from_var_b_p1"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_a_from_var_b_p6",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_a_from_var_b_p6"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_b_from_var_a_p2",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_b_from_var_a_p2"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_b_from_var_a_p3",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_b_from_var_a_p3"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "305b_Assessed_2008_Estuary__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "305b_Assessed_2008_Estuary",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_union",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "union"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_a_from_var_b_p0",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_a_from_var_b_p0"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_a_from_var_b_p1",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_a_from_var_b_p1"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_b_from_var_a_p4",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p4"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "305b_Assessed_Lake_2020__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "305b_Assessed_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_union",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "union"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p0",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p0"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p5",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p5"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p3",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p3"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p8",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p8"
+    },
+    {
+      "dir": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_union",
+      "table": "Impaired_Estuary_2008",
+      "type": "union"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_a_from_var_b_p0",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_a_from_var_b_p0"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_a_from_var_b_p5",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_a_from_var_b_p5"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_b_from_var_a_p4",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_b_from_var_a_p4"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "Impaired_Estuary_2008__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Impaired_Estuary_2008",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Impaired_Lake_2020__partial25_union",
+      "table": "Impaired_Lake_2020",
+      "type": "union"
+    },
+    {
+      "dir": "Impaired_Lake_2020__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "Impaired_Lake_2020",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "Impaired_Lake_2020__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "Impaired_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "Impaired_Lake_2020__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "Impaired_Lake_2020",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_union",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "union"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_a_from_var_b_p6",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p6"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_a_from_var_b_p9",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p9"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_b_from_var_a_p2",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p2"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_union",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "union"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_a_from_var_b_p6",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p6"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_a_from_var_b_p7",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p7"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_b_from_var_a_p2",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p2"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_b_from_var_a_p4",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p4"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_union",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "union"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_a_from_var_b_p1",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_a_from_var_b_p1"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_union",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "union"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_a_from_var_b_p0",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_a_from_var_b_p0"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_a_from_var_b_p6",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_a_from_var_b_p6"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_b_from_var_a_p8",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_b_from_var_a_p8"
+    },
+    {
+      "dir": "Louisville_Metro_KY_-_Permitted_Swimming_Areas__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_union",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "union"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p1",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p1"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p3",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p3"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p4",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p4"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_union",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "union"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_a_from_var_b_p6",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_a_from_var_b_p6"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_a_from_var_b_p9",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_a_from_var_b_p9"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_b_from_var_a_p1",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_b_from_var_a_p1"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_b_from_var_a_p3",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_b_from_var_a_p3"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2011__partial25_isolated_unique_b_from_var_a_p8",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "type": "isolated_unique_b_from_var_a_p8"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_union",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "union"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_a_from_var_b_p1",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_a_from_var_b_p1"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_a_from_var_b_p2",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_a_from_var_b_p2"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_a_from_var_b_p4",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_a_from_var_b_p4"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_a_from_var_b_p8",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_a_from_var_b_p8"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_b_from_var_a_p0",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_b_from_var_a_p0"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_b_from_var_a_p5",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_b_from_var_a_p5"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_b_from_var_a_p6",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_b_from_var_a_p6"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_b_from_var_a_p7",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_b_from_var_a_p7"
+    },
+    {
+      "dir": "State_of_Oklahoma_Revolving_Funds_-_2012__partial25_isolated_unique_b_from_var_a_p9",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "type": "isolated_unique_b_from_var_a_p9"
+    },
+    {
+      "dir": "(+27 missing table-variants from input)",
+      "type": "include_missing"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "total_changes": 4878,
+  "error_type_counts": {
+    "FD_VIOLATION": 3732,
+    "RANDOM_TYPO": 1142,
+    "UNKNOWN": 4
+  },
+  "columns_affected": [
+    "sample_comment,\"Lower circalittoral muddy bedrock and boulders with Eunicella verrucosa of various sizes",
+    "longitude",
+    "start_date",
+    "sample_comment,\"Tied-swept, wave exposed bedrock plain with nearby coarse, clean sediment",
+    "sample_key",
+    "data_type",
+    "sample_comment",
+    "record_key",
+    "end_date",
+    "location_name",
+    "species",
+    "date_type",
+    "aphia_id",
+    "latitude",
+    "projection",
+    "sample_comment,\"Upper infralittoral bedrock outcrops dominated by Laminaria hyperborea with red algae and scoured by adjacent sand",
+    "survey_name",
+    "abundance_sacforn",
+    "sample_comment,\"Rugged, steep and vertical bedrock outcrops to 3 or 4 m high with silty shell gravel pockets becoming steep pinnacles up to 14",
+    "survey_key",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Aglaozonia (asexual cutleria), Bryozoa indet crusts, Scinaia trigona has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Jangye-ryn, WN of Poldhu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove (Mllion)\"",
+    "sample_comment,\"Bryozoa indet crusts, Foliose red algae has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Upper infralittoral extensive flat bedrock with sandy gullies 2 m deep and vertical faces with crevices",
+    "sample_comment,Antithamnion has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Inclined broken slate reef, silted with loose slates and patches of pebbles and coarse sand",
+    "sample_comment,Upper infralittoral bedrock forming gullies and tunnels",
+    "sample_comment,Upper circalittoral bedrock that was exposed to tidal movement and charcterised by a dense hydroid turf with bryozoans and Alcyonium digitatum",
+    "location_name,\"Wagland Reef, E of The Mtanacles (Coverack)\"",
+    "sample_comment,\"Upper infralittoral extensive flat bedrock with sandy gullies 2 m deep and vertical fzaces with crevices",
+    "sample_comment,\"Diplosoma has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Wagland Reef, E of he Manacles (Coverack)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu oCve (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Pfoldhu Cove (Mullion)\"",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upwrd facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brow algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Tide-swept, wave exposed bedrock plain with nearby coarse, clean sediment",
+    "sample_comment,Upper circalittoral silted bedrock and boulders along with cobbles",
+    "location_name,\"Jangyje-ryn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Stepped bedrock and boulders in the lower infralittoral were characterised by Dictyopteris membranacea, Dictyota dichotoma and Alcyonium digitatum",
+    "location_name,\"Wagland Reef",
+    "sample_comment,\"Low lying sand covered bedrock with foliose algae and some kelp",
+    "location_name,\"Jangye-ryn, NW of Poldh Cove (Mullion)\"",
+    "location_name,\"Jangye-rn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and bron algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Small humps of bedrock and boulders outcropping from shell gravel between 19 and 22 m bcd",
+    "location_name,\"Jangye-ryn, NW o fPoldhu Cove (Mullion)\"",
+    "sample_comment,\"Bryozoa indet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Lower infralittoral large boulders and some bedrock with cobbles and pebbles",
+    "sample_comment,\"Steep bedrock in the lower infralittoral was characterised by Metridium senile and Corynactis viridis with Alcyonium digitatum",
+    "sample_comment,\"Upper circalittoral bedrock outcrops, large boulders and cobbles with a thick layer of covering silt",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heteosiphonia plumosa",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove (Mullio)n\"",
+    "sample_comment,\"Foliose red algae has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,Pebbles with thin film of sandy silt with a sparse fauna and flora",
+    "location_name,\"Wagland Reef, E of Thev Manacles (Coverack)\"",
+    "location_name,\"Jangye-ry,n NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Lower ifnralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Rhodophycota has been removed from the species list for this record as more specific related taxa were also present, these are now marked as charactersiing",
+    "sample_comment,\"Scoured lower infraltitoral bedrock with Laminaria hyperborea, foliose red algae including Delesseria sanguinea, Hypoglossum hypoglossoides, Cryptopleura ramosa, Dilsea carnosa along with the bryozoans Bugula plumosa and B",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on al upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "location_name,\"Jangye-yn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoide and dense Heterosiphonia plumosa",
+    "sample_comment,\"Rugged reef with vertical faces up to 2 m high and highly fissured in places",
+    "location_name,\"Jangye-ryn, NW of Poldu Cove (Mullion)\"",
+    "location_name,\"Pigeon Ogo, SW of Kynnce Farm (Mullion)\"",
+    "location_name,1 mile E of Nare Head (Coverack)",
+    "sample_comment,\"Lower infralittoral bedrock outcrops with vertical and very steep sides with a dense algal turf dominated by Dictyota dichotoma, Delesseria sanguinea, Cryptopleura ramosa and Plocamium cartilagineum",
+    "sample_comment,\"Lower infralittoral bedrock rjidges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyoptris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "location_name,\"Jangye-ryn, NWof Poldhu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Plodhu Cove (Mullion)\"",
+    "sample_comment,\"Cellaria sinuosa has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Lowre infralittoral large boulders and some bedrock with cobbles and pebbles",
+    "sample_comment,\"Silty large square bedrock blocks with vertical faces and flat tops forming a reef which was dominated by Eunicella verrucosa, Raspailia ramosa, Cellaria spp",
+    "sample_comment,\"Upper circalittoral bedrock outcrops with deep gullies",
+    "sample_comment,\"Cellaria sinuosa has been given a nominal abundance value of Present for this record as in Arev it had noa bundance value",
+    "location_name,\"WaglandReef, E of The Manacles (Coverack)\"",
+    "sample_comment,\"Rhodophycota has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Waglad Reef, E of The Manacles (Coverack)\"",
+    "sample_comment,\"Scoured lower infralittoral bedrock with Laminaria hyperborea, foliose red algae including Delesseria sanguinea, Hypoglossum hypoglossoides, Cryptopleura ramosa, Dilsea carnosa along with the bryoozans Bugula plumosa and B",
+    "sample_comment,\"Diplosoma has been remnoved from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,\"Aglaophenia tubulifera has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Celaria sinuosa has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Pgieon Ogo, SW of Kynance Farm (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW lof Poldhu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhku Cove (Mullion)\"",
+    "location_name,\"Wagland Reef, E oyf The Manacles (Coverack)\"",
+    "location_name,\"Jangye-ryn, NW of Pqoldhu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove (pMullion)\"",
+    "sample_comment,\"Tdie-swept, wave exposed bedrock plain with nearby coarse, clean sediment",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and ednse Heterosiphonia plumosa",
+    "location_name,\"Maen Voes, The Mancales (Coverack)\"",
+    "location_name,\"Men Voes, The Manacles (Coverack)\"",
+    "sample_comment,\"Cellaria has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,\"Small humps of bedrock and bouldeirs outcropping from shell gravel between 19 and 22 m bcd",
+    "sample_comment,\"Lower infbralittoral large boulders and some bedrock with cobbles and pebbles",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membraacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Rhodophycota has been removed from the species list for this record as more specific related taxa were also presnet, these are now marked as characterising",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense ocvering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,Bryozoa indet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Upper circalittoral bedrock outcrops, large boulders and cobbles with a thick layer of covering slt",
+    "location_name,\"Wagand Reef, E of The Manacles (Coverack)\"",
+    "location_name,\"Wgaland Reef, E of The Manacles (Coverack)\"",
+    "location_name,\"WaglandR eef, E of The Manacles (Coverack)\"",
+    "location_name,\"Wagland Reef, E of The Manacles (Cvoerack)\"",
+    "location_name,\"Jangye-ryn,g NW of Poldhu Cove (Mullion)\"",
+    "location_name,\"angye-ryn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Foliose brown algae, Foliose red algae has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Jangye-ryn, NW of Poldhu ove (Mullion)\"",
+    "location_name,\"Jangye-dryn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Tide-swept, wae exposed bedrock plain with nearby coarse, clean sediment",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cve (Mullion)\"",
+    "location_name,\"Jangye-ryn, qNW of Poldhu Cove (Mullion)\"",
+    "location_name,\"Maen oes, The Manacles (Coverack)\"",
+    "sample_comment,\"Stdeep bedrock in the lower infralittoral was characterised by Metridium senile and Corynactis viridis with Alcyonium digitatum, hydroids and algal turf on the flatter areas",
+    "location_name,\"Jangye-ryhn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,\"Setep bedrock in the lower infralittoral was characterised by Metridium senile and Corynactis viridis with Alcyonium digitatum, hydroids and algal turf on the flatter areas",
+    "sample_comment,\"Rugged, steep and vertical bedrock outcrops to 3 or 4 m high with silty shell grave lpockets becoming steep pinnacles up to 14",
+    "location_name,Jangye-ryn NW of Poldhu Cove (Mullion)",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heetrosiphonia plumosa",
+    "location_name,\"Jangye-ryn, NW of Poldhu Covse (Mullion)\"",
+    "location_name,\"Pigeon Ogo, SW of Kynance arm (Mullion)\"",
+    "sample_comment,\"Steep bedrock in the lower infralittoral was characterised by Metridium senile and Corynactis viridis with Alcyonium digitatum, hydroids and algal turf on the flatter areas",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove (Mulion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove M(ullion)\"",
+    "location_name,\"Wagland Reef, E of TheM anacles (Coverack)\"",
+    "location_name,\"Janfgye-ryn, NW of Poldhu Cove (Mullion)\"",
+    "sample_comment,Foliose red algae has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Jangye-ryn, NW of Poldhqu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cov e(Mullion)\"",
+    "sample_comment,Tide-swept circalittoral reef forming ledges incised with deep vertical sided gullies",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown alga eon all upward facing surfaces with Dictyopteris membranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "location_name,\"Maen Vose, The Manacles (Coverack)\"",
+    "location_name,\"Jangye-ryn, NW of oldhu Cove (Mullion)\"",
+    "location_name,\"Pigeon Ogo, SW of Kynanec Farm (Mullion)\"",
+    "location_name,\"Wagland Reef, E of Thze Manacles (Coverack)\"",
+    "sample_comment,\"Lower infralittoral bedrock ridges with dense covering of red and brown algae on all upward facing surfaces with Dictyopteris embranacea, Bonnemaisonia asparagoides and dense Heterosiphonia plumosa",
+    "sample_comment,\"Steep bedrock in the lower infralittoral was characterised by Metridium senile and Corynactis viridis with Alcyonium digitatum, hydroids and algal turf on the yflatter areas",
+    "location_name,\"Jangye-ryn, NW of Polhdu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove(Mullion)\"",
+    "location_name,\"Wagland Ref, E of The Manacles (Coverack)\"",
+    "sample_comment,\"Foliose red algae has been given a nominal abundance value of Present fort his record as in Arev it had no abundance value",
+    "location_name,\"Jangye-rynv, NW of Poldhu Cove (Mullion)\"",
+    "location_name,\"Jazngye-ryn, NW of Poldhu Cove (Mullion)\"",
+    "location_name,\"Jangye-ryn, NWo f Poldhu Cove (Mullion)\"",
+    "location_name,\"Wangland Reef, E of The Manacles (Coverack)\"",
+    "location_name,\"Jangye-ryn, NW of Poldhu Cove (Mullin)\""
+  ],
+  "configuration": {
+    "total_error_percentage": 16,
+    "fd_percentage": 8,
+    "outlier_percentage": 0,
+    "typo_percentage": 8,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "aphia_id",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_comment",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "location_name",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "abundance_sacforn",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "sample_comment",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "location_name",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 7.4391988555078585
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "sample_key",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "location_name",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "latitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "longitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "latitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "longitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "location_name",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "location_name",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "start_date",
+        "dependant": "end_date",
+        "percentage": 7.343824511206476
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "start_date",
+        "percentage": 7.343824511206476
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "record_key",
+      "survey_key",
+      "survey_name",
+      "sample_key",
+      "start_date",
+      "end_date",
+      "date_type",
+      "location_name",
+      "data_type",
+      "projection",
+      "species",
+      "abundance_sacforn",
+      "sample_comment"
+    ],
+    "num_fd_rules": 39,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 13
+  },
+  "used_bart_native_types": true
+}

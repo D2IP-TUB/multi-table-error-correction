@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - shared
+
+experiment:
+  labeling_budgets: [0.10, 0.25, 0.5, 0.75] # Number of cells in total 
+  labels_per_column: [1, 10] # determines the maximum amount of labels per column -> if changed, for example to [19] then Raha - 19LPC would be executed
+
+logs:
+  path_to_log_file: "./logs/baran-1LPC-10LPC.log" # path pointing to the location where the logs should be stored

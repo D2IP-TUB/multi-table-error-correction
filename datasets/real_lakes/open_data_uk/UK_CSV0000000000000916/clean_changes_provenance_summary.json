@@ -1,0 +1,187 @@
+{
+  "total_changes": 330,
+  "error_type_counts": {
+    "RANDOM_TYPO": 191,
+    "FD_VIOLATION": 139
+  },
+  "columns_affected": [
+    "company_code",
+    "branch_post_code",
+    "region_code",
+    "branch_address",
+    "branch_name",
+    "inventory_facility",
+    "company_name",
+    "branch_end_date",
+    "contract_type",
+    "transaction_value",
+    "region_name",
+    "branch_code",
+    "transaction_description",
+    "branch_start_date"
+  ],
+  "configuration": {
+    "total_error_percentage": 15,
+    "fd_percentage": 7,
+    "outlier_percentage": 0,
+    "typo_percentage": 7,
+    "fd_violations": [
+      {
+        "determinant": "branch_code",
+        "dependant": "branch_name",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "branch_address",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "branch_post_code",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "company_code",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "region_code",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "region_name",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "branch_end_date",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "contract_type",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_code",
+        "dependant": "inventory_facility",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_name",
+        "dependant": "branch_end_date",
+        "percentage": 7.751937984496124
+      },
+      {
+        "determinant": "branch_name",
+        "dependant": "inventory_facility",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "branch_post_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "company_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "region_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "region_name",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "branch_end_date",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "contract_type",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_address",
+        "dependant": "inventory_facility",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "company_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "region_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "region_name",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "branch_end_date",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "contract_type",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "branch_post_code",
+        "dependant": "inventory_facility",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "company_code",
+        "dependant": "region_code",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "company_code",
+        "dependant": "region_name",
+        "percentage": 6.976744186046512
+      },
+      {
+        "determinant": "region_code",
+        "dependant": "region_name",
+        "percentage": 6.976744186046512
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "region_code",
+      "region_name",
+      "company_code",
+      "company_name",
+      "branch_code",
+      "branch_name",
+      "branch_address",
+      "branch_post_code",
+      "branch_start_date",
+      "branch_end_date",
+      "contract_type",
+      "inventory_facility",
+      "transaction_value",
+      "transaction_description"
+    ],
+    "num_fd_rules": 27,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 14
+  },
+  "used_bart_native_types": true
+}

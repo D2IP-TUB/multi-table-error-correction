@@ -1,0 +1,393 @@
+{
+  "total_changes": 4703,
+  "error_type_counts": {
+    "FD_VIOLATION": 3565,
+    "RANDOM_TYPO": 1131,
+    "UNKNOWN": 7
+  },
+  "columns_affected": [
+    "location_name",
+    "start_date",
+    "longitude",
+    "latitude",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Heda to The Bull)\"",
+    "record_key",
+    "species",
+    "survey_name",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundancev alue of Present for this record as in Arev it had no abundance value",
+    "aphia_id",
+    "sample_key",
+    "sample_comment,\"Ramalina siliquosa, Caloplaca has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "end_date",
+    "data_type",
+    "date_type",
+    "location_name,\"Black Stone",
+    "survey_key",
+    "projection",
+    "location_name,\"Gara oRck Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "abundance_sacforn",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammno Head to The Bull)\"",
+    "sample_comment,\"Porifera indet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Rhodophycota indet",
+    "location_name,Gorah Rocks (Little Sleadon Rock to Langerstone Point)",
+    "location_name,\"Black Stone, Sxtart Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, Esat Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,Exposed flat rocky shelf with many fissures and gullies",
+    "sample_comment,\"Rugged infralittoral slates on a nearshore islet frequented by seabirds",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon vHead to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sledaon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gmamon Head to The Bull)\"",
+    "sample_comment,\"Lithophyllum has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Gara Rock Bay",
+    "location_name,\"Black Stone, Start Point (Start Pint to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rjock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Shallow pools in a series of steps with occasional runs of water from one level to the next",
+    "sample_comment,\"Supralittoral, predominatly upward facing bedrock, dominated by Caloplaca sp",
+    "sample_comment,\"Mid-eulittoral pools in bedrock with afew loose boulders in the bottom",
+    "sample_comment,\"Ramalina siliquosa has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"The shore cconsisted of a rocky platform with many gullies, rockpools, fissures and crevices",
+    "location_name,\"Gara Rcok Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,Barler Rock (Little Sleadon Rock to Langerstone Point)",
+    "sample_comment,Patella ulyssiponensis has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Porifera has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sleadon oRck)\"",
+    "sample_comment,\"Pools dominated by corallinaceae with abundant Ceramium spp",
+    "location_name,\"Gara Rock ay, East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Cirripedia has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,\"The shore consisted of a rocky platform with many gullies, rockpools, fissuresj and crevices",
+    "sample_comment,\"Decapoda, Porifera has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "sample_comment,\"Slate and bojulder filled gully just below shingle, running down the shore with through flowing water",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to The Bul)\"",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundance value of Presnt for this record as in Arev it had no abundance value",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sledadon Rock)\"",
+    "sample_comment,\"Slate and boulder filled gully ujst below shingle, running down the shore with through flowing water",
+    "location_name,\"Gara Rock eBay, East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Semibalanus balanoides dominated rock with frequent Balanus perforatus and abundant Patella vulgata",
+    "location_name,\"Black Stone, Start Point (Start Point to Little uSleadon Rock)\"",
+    "sample_comment,\"A rugged bedrock plateau with numerous pools, gullies, overhangs and fissures",
+    "location_name,\"Gara Rock Bay, ast Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to The Buxll)\"",
+    "sample_comment,\"Slate and boulder filled gully just below shingle, running down the shore with through flowing water",
+    "location_name,\"aGra Rock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Porphyra has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to The uBll)\"",
+    "location_name,\"Black Stnoe, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gamon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to The Bll)\"",
+    "location_name,\"Black Stone, Start Point (Start oPint to Little Sleadon Rock)\"",
+    "sample_comment,\"Porifera indet crusts has been given a nominal abundance value of Prsent for this record as in Arev it had no abundance value",
+    "sample_comment,\"The shore consisted of a rocky platform with many gullies, rockpools, fissures and crevices",
+    "location_name,\"kBlack Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "sample_comment,Rugged slate bedrock at the top of an islet",
+    "sample_comment,\"Codium tomentosum has been given  anominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Gara Rock Bay, East ortlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Sart Point to Little Sleadon Rock)\"",
+    "location_name,Great Sleaden Rock (Start Point to Little Sleadon Rock)",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Heead to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Starth Point to Little Sleadon Rock)\"",
+    "sample_comment,\"Lower eulittoral exposed slates dominated by coralline algae, Patella ulyssiponensis and Mastocarpus stellatus",
+    "location_name,\"Gara Rock Bay, East Portlemouth (GammonHead to The Bull)\"",
+    "location_name,\"Black Stone, Start Point( Start Point to Little Sleadon Rock)\"",
+    "sample_comment,\"Rugged lower eulittoral bedrock with dense Mastocarpus stellatus interspersed with himanthalia elongata",
+    "sample_comment,\"Shallow pools in a series of steps with occasional runs of watre from one level to the next",
+    "location_name,\"Black Stone, Strat Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Blackk Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, Est Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Porutlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundance value of Present for this record as in Arev it had no abundance alue",
+    "location_name,\"Gara Rock Bay, East Protlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouthk (Gammon Head to The Bull)\"",
+    "location_name,Langerstone Point (Langerstone Point to Prawle Point)",
+    "location_name,\"Gara Rock Bay, East Portlemuth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon zHead to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth(Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Strt Point (Start Point to Little Sleadon Rock)\"",
+    "sample_comment,\"Lower eulittoral exposde slates dominated by coralline algae, Patella ulyssiponensis and Mastocarpus stellatus",
+    "sample_comment,\"Mid-eulittoral pools in bedrock with afew loose boulders in the botom",
+    "location_name,\"Gara Rok Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point t oLittle Sleadon Rock)\"",
+    "sample_comment,\"Codium tomentosum haqs been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Gara Rock Bay,t East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Lower eulittoral exposed slates dominated by coralline algae, Patella ulyssiponensis adn Mastocarpus stellatus",
+    "location_name,\"Garoa Rock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, aEst Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlmeouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouthh (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Abundant vertical faces and overhangs of scoured surge gullies and rockmills were dominated by nearly 100% cover of Balanus perforatus",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Headto The Bull)\"",
+    "location_name,\"Gara Rock Bay, Eaist Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to Th Bull)\"",
+    "location_name,\"Blazck Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Hpead to The Bull)\"",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundance value of Persent for this record as in Arev it had no abundance value",
+    "sample_comment,\"The shore consisted of a rocky platform with many gullies, rockpools",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Headt o The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sleadon Roc)k\"",
+    "sample_comment,\"The shore consisted of a rocky platform with many gullies, crockpools, fissures and crevices",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gmmon Head to The Bull)\"",
+    "sample_comment,\"Fissured rock with superabundant Littorina saxatilis",
+    "sample_comment,Predominatly upward facing bedrock with Chthamalus spp",
+    "location_name,\"Gara Rck Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Ba,y East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Litotle Sleadon Rock)\"",
+    "sample_comment,\"Ramalina siliquosa, Caloplaca has been given a nominal abundvance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Gar aRock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Littleg Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Hea dto The Bull)\"",
+    "sample_comment,\"The shore consisted of a rocky pllatform with many gullies, rockpools, fissures and crevices",
+    "location_name,\"Black Stone, Start Point (Star Point to Little Sleadon Rock)\"",
+    "sample_comment,\"Porifera induet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Gara Rock Bay, East Portlemouth (ammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to The Bullu)\"",
+    "sample_comment,\"Corallina has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Black hStone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East uPortlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Lttle Sleadon Rock)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to iLttle Sleadon Rock)\"",
+    "location_name,\"Black Stone, Start Point (Start oint to Little Sleadon Rock)\"",
+    "sample_comment,\"Codium tomentosum has been given a nominal abuyndance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sleadon rRock)\"",
+    "sample_comment,\"Fucaceae, Nucella, Patella, Trochidae has been removed from the species list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"GaraR ock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth Gammon Head to The Bull)\"",
+    "sample_comment,\"Ramalina siliquosa, Caloplaca has been given a nominal abundqance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Decapoda, Porifera has been removed from the species list for this record as more specificz related taxa were also present, these are now marked as characterising",
+    "location_name,\"lBack Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "sample_comment,\"Decapoda, Porifera has been removed from the psecies list for this record as more specific related taxa were also present, these are now marked as characterising",
+    "location_name,\"Gara gRock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "sample_comment,\"Codium tomentosum has been given a nominal abundance value of Present for this record as in Arev it had noabundance value",
+    "location_name,\"Black Stone, Start Point (Start Point to Littqle Sleadon Rock)\"",
+    "location_name,\"Blck Stone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Black Stoneo, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rohck Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Stadrt Point to Little Sleadon Rock)\"",
+    "location_name,\"Black Stone, Start Point (Start Pont to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to he Bull)\"",
+    "location_name,\"Gara Rock Bay, EastPortlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Slaedon Rock)\"",
+    "sample_comment,\"Porifea indet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Headd to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammont Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Point (Start Point to Little Sleadon Rok)\"",
+    "sample_comment,\"The shore consisted of  arocky platform with many gullies, rockpools, fissures and crevices",
+    "location_name,\"Gara RockB ay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon eHad to The Bull)\"",
+    "location_name,\"Black Shtone, Start Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Black Stone, Satrt Point (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, Eas tPortlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Black Stone, Start Pont (Start Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemuoth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head toThe Bull)\"",
+    "sample_comment,\"Porifera indet crusts has been given a nominal abundance value of hPresent for this record as in Arev it had no abundance value",
+    "location_name,\"Garaq Rock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gaa Rock Bay, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,Lannacombe Bay (west) (Little Sleadon Rock to Langerstone Point)",
+    "location_name,\"Gara Rock Bay ,East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock By, East Portlemouth (Gammon Head to The Bull)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head to TheBull)\"",
+    "location_name,\"Black Stone, Start Point (tSart Point to Little Sleadon Rock)\"",
+    "location_name,\"Gara Rock Bay, East Portlemouth (Gammon Head ot The Bull)\""
+  ],
+  "configuration": {
+    "total_error_percentage": 24,
+    "fd_percentage": 12,
+    "outlier_percentage": 0,
+    "typo_percentage": 12,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "aphia_id",
+        "percentage": 12.8415300546448
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_comment",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "location_name",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "abundance_sacforn",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "date_type",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "sample_comment",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "location_name",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "date_type",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "latitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "longitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "location_name",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "date_type",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "end_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "start_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "date_type",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "start_date",
+        "percentage": 12.704918032786876
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "date_type",
+        "percentage": 12.704918032786876
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "record_key",
+      "survey_key",
+      "survey_name",
+      "sample_key",
+      "start_date",
+      "end_date",
+      "date_type",
+      "location_name",
+      "data_type",
+      "projection",
+      "species",
+      "abundance_sacforn",
+      "sample_comment"
+    ],
+    "num_fd_rules": 34,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 13
+  },
+  "used_bart_native_types": true
+}

@@ -1,0 +1,104 @@
+{
+  "total_changes": 198,
+  "error_type_counts": {
+    "FD_VIOLATION": 151,
+    "RANDOM_TYPO": 47
+  },
+  "columns_affected": [
+    "pre_opq_mobility",
+    "pre_opqeq_five_d_index_profile",
+    "procedurevalue",
+    "hip_replacementeq_five_d_index_post_opq_predicted"
+  ],
+  "configuration": {
+    "total_error_percentage": 22,
+    "fd_percentage": 11,
+    "outlier_percentage": 0,
+    "typo_percentage": 11,
+    "fd_violations": [
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "pre_opqeq_five_d_index_profile",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "post_opqeq_five_d_index",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_pre_opq_stairs",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_post_opq_pain",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_post_opq_limping",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_post_opq_washing",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_pre_opq_night_pain",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "hip_replacement_post_opq_transport",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "pre_opq_disability",
+        "percentage": 23.68421052631581
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "post_opq_activity",
+        "percentage": 23.157894736842124
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "pre_opq_mobility",
+        "percentage": 23.157894736842124
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "kidney_disease",
+        "percentage": 23.157894736842124
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "heart_disease",
+        "percentage": 23.157894736842124
+      },
+      {
+        "determinant": "hip_replacementeq_five_d_index_post_opq_predicted",
+        "dependant": "stroke",
+        "percentage": 23.157894736842124
+      },
+      {
+        "determinant": "pre_opqeq_five_d_index_profile",
+        "dependant": "pre_opq_mobility",
+        "percentage": 23.157894736842124
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "procedurevalue"
+    ],
+    "num_fd_rules": 15,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 1
+  },
+  "used_bart_native_types": true
+}

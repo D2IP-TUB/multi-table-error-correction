@@ -1,0 +1,5 @@
+t1&t2&EQ(t1.species,t2.species)&IQ(t1.aphia_id,t2.aphia_id)
+t1&t2&EQ(t1.aphia_id,t2.aphia_id)&IQ(t1.species,t2.species)
+t1&t2&EQ(t1.sample_comment,t2.sample_comment)&IQ(t1.end_date,t2.end_date)
+t1&t2&EQ(t1.sample_comment,t2.sample_comment)&IQ(t1.start_date,t2.start_date)
+t1&t2&EQ(t1.sample_comment,t2.sample_comment)&IQ(t1.date_type,t2.date_type)

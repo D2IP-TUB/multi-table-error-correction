@@ -1,0 +1,2546 @@
+{
+  "source": "/raid0_ssd2/fatemeh/data/Unionable_Tables/partitioned_union_base",
+  "partitions": [
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_000",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_001",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_002",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_003",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_004",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_005",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_006",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_007",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_008",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_2008_Estuary_partition_009",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_000",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_001",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_002",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_003",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_004",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_005",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_006",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_007",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_008",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_2008_Estuary_partition_009",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_000",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_001",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_002",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_003",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_004",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_005",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_006",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_007",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_008",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_2008_Estuary_partition_009",
+      "table": "305b_Assessed_2008_Estuary",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 21
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_000",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_001",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_002",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_003",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_004",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_005",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_006",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_007",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_008",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_305b_Assessed_Lake_2020_partition_009",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_000",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_001",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_002",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_003",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_004",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_005",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_006",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_007",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_008",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_305b_Assessed_Lake_2020_partition_009",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_000",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_001",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 19
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_002",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_003",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_004",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_005",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_006",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_007",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_008",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_305b_Assessed_Lake_2020_partition_009",
+      "table": "305b_Assessed_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Emergency_Operating_Center_Tools_partition_000",
+      "table": "Emergency_Operating_Center_Tools",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_NO_Emergency_Operating_Center_Tools_partition_000",
+      "table": "Emergency_Operating_Center_Tools",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_Typo_Emergency_Operating_Center_Tools_partition_000",
+      "table": "Emergency_Operating_Center_Tools",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_000",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_001",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_002",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_003",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_004",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_005",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_006",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_007",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_008",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_009",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_000",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_001",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_002",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_003",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_004",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_005",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_006",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_007",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_008",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_NO_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_009",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_000",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_001",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_002",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_003",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 275
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_004",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_005",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_006",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_007",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_008",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_Typo_Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States_partition_009",
+      "table": "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 274
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_000",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_001",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_002",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_003",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_004",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_005",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_006",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_007",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_008",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_FD_Impaired_Estuary_2008_partition_009",
+      "table": "Impaired_Estuary_2008",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 17
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_000",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_001",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_002",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_003",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_004",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_005",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_006",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_007",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_008",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_NO_Impaired_Estuary_2008_partition_009",
+      "table": "Impaired_Estuary_2008",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 17
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_000",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_001",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_002",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_003",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_004",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_005",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_006",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_007",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_008",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 18
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Estuary_2008_partition_009",
+      "table": "Impaired_Estuary_2008",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 17
+    },
+    {
+      "dir": "DGov_FD_Impaired_Lake_2020_partition_000",
+      "table": "Impaired_Lake_2020",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 12
+    },
+    {
+      "dir": "DGov_FD_Impaired_Lake_2020_partition_001",
+      "table": "Impaired_Lake_2020",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_FD_Impaired_Lake_2020_partition_002",
+      "table": "Impaired_Lake_2020",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_FD_Impaired_Lake_2020_partition_003",
+      "table": "Impaired_Lake_2020",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_NO_Impaired_Lake_2020_partition_000",
+      "table": "Impaired_Lake_2020",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 12
+    },
+    {
+      "dir": "DGov_NO_Impaired_Lake_2020_partition_001",
+      "table": "Impaired_Lake_2020",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_NO_Impaired_Lake_2020_partition_002",
+      "table": "Impaired_Lake_2020",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_NO_Impaired_Lake_2020_partition_003",
+      "table": "Impaired_Lake_2020",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Lake_2020_partition_000",
+      "table": "Impaired_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 12
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Lake_2020_partition_001",
+      "table": "Impaired_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Lake_2020_partition_002",
+      "table": "Impaired_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_Typo_Impaired_Lake_2020_partition_003",
+      "table": "Impaired_Lake_2020",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 11
+    },
+    {
+      "dir": "DGov_FD_Louisville_KY_Metro_Council_Districts_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_KY_Metro_Council_Districts_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_KY_Metro_Council_Districts_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_KY_Metro_Council_Districts_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_KY_Metro_Council_Districts_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_KY_Metro_Council_Districts_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_000",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_KY_Metro_Council_Districts_-_Former_from_2011_partition_001",
+      "table": "Louisville_KY_Metro_Council_Districts_-_Former_from_2011",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 473
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 472
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_000",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_001",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 301
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_002",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_003",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_004",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_005",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_006",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_007",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_008",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations_partition_009",
+      "table": "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 300
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 14
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 14
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 14
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Hotels_and_Motels_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 13
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_FD_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_NO_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_000",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_001",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_002",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_003",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_004",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_005",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_006",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_007",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 54
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_008",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_Typo_Louisville_Metro_KY_-_Permitted_Swimming_Areas_partition_009",
+      "table": "Louisville_Metro_KY_-_Permitted_Swimming_Areas",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 53
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_000",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_001",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_002",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_003",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_004",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_005",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_006",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_007",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_008",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_009",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_000",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_001",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_002",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_003",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_004",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_005",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_006",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_007",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_008",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_NO_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_009",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_000",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_001",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_002",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_003",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_004",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_005",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_006",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_007",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_008",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_Typo_Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States_partition_009",
+      "table": "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 84
+    },
+    {
+      "dir": "DGov_FD_Regional_Tier_Graduation_Rate_partition_000",
+      "table": "Regional_Tier_Graduation_Rate",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 8
+    },
+    {
+      "dir": "DGov_NO_Regional_Tier_Graduation_Rate_partition_000",
+      "table": "Regional_Tier_Graduation_Rate",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 8
+    },
+    {
+      "dir": "DGov_Typo_Regional_Tier_Graduation_Rate_partition_000",
+      "table": "Regional_Tier_Graduation_Rate",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 8
+    },
+    {
+      "dir": "DGov_FD_Shared_IT_Support_Services_partition_000",
+      "table": "Shared_IT_Support_Services",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_NO_Shared_IT_Support_Services_partition_000",
+      "table": "Shared_IT_Support_Services",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_Typo_Shared_IT_Support_Services_partition_000",
+      "table": "Shared_IT_Support_Services",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 7
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2011_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2011_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 108
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2011_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2011",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 107
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 0,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 1,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 2,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 3,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 4,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 5,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 6,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 7,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 8,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_FD_State_of_Oklahoma_Revolving_Funds_-_2012_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "FD",
+      "partition_id": 9,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 0,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 1,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 2,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 3,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 4,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 5,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 6,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 7,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 8,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_NO_State_of_Oklahoma_Revolving_Funds_-_2012_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "NO",
+      "partition_id": 9,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_000",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 0,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_001",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 1,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_002",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 2,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_003",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 3,
+      "row_count": 110
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_004",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 4,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_005",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 5,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_006",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 6,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_007",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 7,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_008",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 8,
+      "row_count": 109
+    },
+    {
+      "dir": "DGov_Typo_State_of_Oklahoma_Revolving_Funds_-_2012_partition_009",
+      "table": "State_of_Oklahoma_Revolving_Funds_-_2012",
+      "variant": "Typo",
+      "partition_id": 9,
+      "row_count": 109
+    }
+  ]
+}

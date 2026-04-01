@@ -1,0 +1,13 @@
+row_idx,source_table,source_variant,source_row_idx,partition
+0,Impaired_Lake_2020,NO,0,isolated_unique_b
+1,Impaired_Lake_2020,NO,1,isolated_unique_b
+2,Impaired_Lake_2020,NO,2,isolated_unique_b
+3,Impaired_Lake_2020,NO,3,isolated_unique_b
+4,Impaired_Lake_2020,NO,4,isolated_unique_b
+5,Impaired_Lake_2020,NO,5,isolated_unique_b
+6,Impaired_Lake_2020,NO,6,isolated_unique_b
+7,Impaired_Lake_2020,NO,7,isolated_unique_b
+8,Impaired_Lake_2020,NO,8,isolated_unique_b
+9,Impaired_Lake_2020,NO,9,isolated_unique_b
+10,Impaired_Lake_2020,NO,10,isolated_unique_b
+11,Impaired_Lake_2020,NO,11,isolated_unique_b

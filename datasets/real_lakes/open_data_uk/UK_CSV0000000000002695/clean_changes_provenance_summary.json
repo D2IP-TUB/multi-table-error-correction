@@ -1,0 +1,426 @@
+{
+  "total_changes": 7064,
+  "error_type_counts": {
+    "FD_VIOLATION": 5391,
+    "RANDOM_TYPO": 1664,
+    "UNKNOWN": 9
+  },
+  "columns_affected": [
+    "location_name",
+    "start_date",
+    "record_key",
+    "species",
+    "data_type",
+    "latitude",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanusc renatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "survey_key",
+    "end_date",
+    "sample_key",
+    "longitude",
+    "projection",
+    "sample_comment,\"Tentorium semisuberites has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "date_type",
+    "sample_comment,\"Small cave (4 m long, 1 m high) with abundant Caryophyllia smithii on the roof and walls",
+    "abundance_sacforn",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "survey_name",
+    "sample_comment,\"Overhang/boulder slide with very dense brown Corynactis viridis, long Halecium beanii and Bugula turbinata",
+    "aphia_id",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella cilaita and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Veryf tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Overhang in a 8 m long tunnel formed by boulders, big enough to swim through",
+    "sample_comment,\"Vertical wall beneath the kelp park, 2 m high and smaller verticals slightly deeper were dominated by bryozoans, particularly Chartella papyracea, Bugula plumosa, Crisia eburnea, sponges especially Dysidea fragilis nd colonial ascidians",
+    "sample_comment",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Upper circalittoral bedrock, boulders and cobbles with a covering of sand in some areas",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertuaria argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"A mixed substratum characterised by boulders of various sizes with a rich fauna and some red algae",
+    "sample_comment,\"Boulder overhang with Pachymatisma johnnstonia and a variety of encrusting sponges including Dercitus bucklandi",
+    "sample_comment,\"Exposed upper circalittoral bedrock and boulders with Alcyonidium diaphanum",
+    "sample_comment,\"Partially recorded kelp forest on a bedrock shelf above a wall with red algae, spnoges and colonial ascidians",
+    "sample_comment,\"An exposed vertical limestone wall dominated by a dense bryozoan turf including Bugula turbinata, Scrupocellaria spp",
+    "sample_comment,\"Small boulder overhang with little fauna",
+    "sample_comment,\"Lower infralittoral bedrock and boulders with sparse kelp and foliose red algae",
+    "sample_comment,\"Silty boulders and cobbles in the uplper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,Exposed lower infralittoral bedrock with a Laminaria hyperborea park",
+    "sample_comment,An exposed lower infralittoral Laminaria hyperborea park on large stable boulders",
+    "sample_comment,\"Partially recroded kelp forest on a bedrock shelf above a wall with red algae, sponges and colonial ascidians",
+    "sample_comment,\"Silty boulders and cobble sin the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Flustra foliacea, Nemertesia antennina, Alcyonium digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tid-swept, rugged upper circalittoral bedrock",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantlyf Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse asnd matrix with Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Lower infralittoral bedrock",
+    "sample_comment,\"Upper circalittoral bedrock with superaundant Tubularia indivisa forming a dense blanket over the rock",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertlaria argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Vertical wall beneath the kelp park, 2 m high and smaller verticals slightly deeper were dominated by bryozoans, particularly Chartella papyracea, Bugula plumosa, Crisia eburnea, sponges especially Dysidea fragilis and colonial ascidians",
+    "sample_comment,\"Lower circalittoral boulnders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with bajrnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, rpedominantly Bugula spp",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Tideswept circalittoral bedrock pinnacle with a dense short turf of a imxture of Tubularia spp",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Deleasseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Tideswept circalittoral bedrock pinnacle with a dense short oturf of a mixture of Tubularia spp",
+    "sample_comment,\"Boulders and cobbles in the infralittoral were surrounded by and scoured by coarse sand",
+    "sample_comment,\"Bedrock gullies and ridges with kelp park with an understory of sparse sponge- Polymastia boletifromis and Hemimycale columella, coralline crusts and sparse red algae",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittorl with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,Vertical wall of 2m height with a dense turf of Chartella papyracea and Crisia spp",
+    "sample_comment,\"A large limestone outcrop",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspaila ramosa",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinpum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea",
+    "sample_comment,\"Gully sides and floors of tide-swept, exposed circalittoral",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigia and Raspailia ramosa",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoralwith dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Blanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Vertical rock faces and gully walls with dense Tubularia indivisa, and patches of Corynactis viridis",
+    "sample_comment,\"Boulder slope",
+    "sample_comment,\"Exposed upper circalittoral bedrock and boulders with Alcyonidium dkiaphanum, hydroids (mainly Diphasia rosacea and Sertularia argentea) and bryozoans (Crisia eburnea and Alcyonidium diaphanum)",
+    "sample_comment,\"Exposed upper circalittoral bedrock and boulders with Alcyonidium diaphanum, hydroids (matinly Diphasia rosacea and Sertularia argentea) and bryozoans (Crisia eburnea and Alcyonidium diaphanum)",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitautm and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata ith barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelliera rigida and Raspailia ramosa",
+    "sample_comment,\"Very tide-sweptcircalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morcellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles in the uper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nuclela lapillus and abundant Urticina felina",
+    "sample_comment,\"Dense turf of Tubularia indivisa also with patches of aBlanus crenatus",
+    "sample_comment,\"A turf of bryozoans Flustra foliacea adn Crisia spp",
+    "sample_comment,\"Porifera indet crusts has been given a nominal abundance value of Present for this record as in Arev it had no abundance value",
+    "sample_comment,\"Kelp forest on bedrock",
+    "sample_comment,\"Overhang/boulder slide with very densebrown Corynactis viridis, long Halecium beanii and Bugula turbinata",
+    "sample_comment,\"Vertical rock faces and gully walls with dense Tubularia indivisa, and patches of Corynactis viridis, sponges and hydroids",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patchesof Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"A turf of bryozoans Flustra foliacea and Crisia spp",
+    "sample_comment,Overhang in the lower infralittoral formed by boulders",
+    "sample_comment,\"Silty boulders and cobbles in the upper ciraclittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Diphasia rosacea, alanus crenatus, sparse bryozoans, small tufts of red algae and coralline crusts characterised areas of bedrock where tidal streams were turbulent and accelerated",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabudnant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digiqtatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Hydroids, ascidians and sparse algae on silty boulders in the upper circalittoral",
+    "sample_comment,\"Exposed upper circalittoral stepped bedrock with abundant Diphasia rosacea and Nemertesia antennina",
+    "sample_comment,\"Silty lower infralittoral boulders",
+    "sample_comment,\"Flustra foliacea, Nemertesia antennina, Alcyonum digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tide-swept, rugged upper circalittoral bedrock",
+    "sample_comment,\"Flustra foliacea, Nemertesia antennina, Alcyonium digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tide-qswept, rugged upper circalittoral bedrock",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges",
+    "sample_comment,\"Flustra foliacea, Nemertesia antennina, Alcyonium digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tide-swept, rugged upper circalittoral bedrock",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus,M orchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Exposed lower infralittoral Laminaria hyperborea park with a mixed understory turf of bryozoans (mainly Bicellariella ciliata and Crisia denticulata), sponges (predominantly Esperiopsis fucorum and red algae(abundant Plocamium cartilagineum)",
+    "sample_comment,\"Upward facing scoured upper circalittoral bedrock with a short turf of Tubularia indivisa, foliose red algae and sparse sponges, other hydroids and bryozoans",
+    "sample_comment,\"Tideswept circalittoral bedrock pinnacle with a dense short turf of a mixture of Tubularia spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abndant Urticina felina",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium ddensum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Lower infralittoral boulders and cobbles with Laminaria hyperborea on the larger boulders and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halecium spp",
+    "sample_comment,\"Lower infralittoral boulders and cobbles with Laminaria hyperborea on the larger boulderjs and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halecium spp",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroi dand bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dnese Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Kelp forest on undulating bedrock",
+    "sample_comment,\"Silty oulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Lower infralittoral boulders and cobbles with aLminaria hyperborea on the larger boulders and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halecium spp",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyoniu digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,Lower circalittoral bedrock and boulders",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus ,Chartella papyracea, Bugula spp",
+    "sample_comment,\"Exposed lower infralittoral Laminaria hyperborea park on bedrock with a dense understory turf of red algae (mainly Plocamium cartilagineum and Delesseria sanguinea), bryozaons (mainly Bugula flabellata, Crisia eburnea and Scrupocellaria spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillusand abundant Urticina felina",
+    "sample_comment,\"Silty boulders and cobblies in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Diphasia rosacea, Balanus crenatus, sparse bryozoans, small tufts of red algae and coraline crusts characterised areas of bedrock where tidal streams were turbulent and accelerated",
+    "sample_comment,\"Bedrock gullies and ridges with kelp park with an understory of sparse sponge- Polymastia boletiformis and Hemimycale columella, coralline crusts and sparse red algae",
+    "sample_comment,\"Overhanging bedrorck",
+    "sample_comment,\"Lower infralittoral boulders and cobbles with Laminaria hyperbora on the larger boulders and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halecium spp",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata adn Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus cenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Boulder overhang with Pachymatisma johnnstoniaa nd a variety of encrusting sponges including Dercitus bucklandi",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bqugula spp",
+    "sample_comment,Areas of overhang on a wall and large boulder holes were extensive throughout the site with dense Corynactis viridis and Caryophyllia inornata",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantlyBugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densmu, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral wih dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty bosulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillu sand abundant Urticina felina",
+    "sample_comment,\"Partially recorded kelp forest on a bedrock shelf above a wall with red algae",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pbbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Alpidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Lower infralittoral silty boulders with a dense covering of Balanus crenatus and with Halidrys siliquosa, Dictyota dichotoma and foliose red algae",
+    "sample_comment,\"Silty boulders and cobblesin the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Laminaria hyperborea forest with a dense understory of Ploamium cartilagineum, coralline crusts, Phycodrys rubens on the kelp stipes, colonial ascidians and bryozoans",
+    "sample_comment,\"Tideswept circalittoral bedrock pinnacle with a dense short turf of a mixtuer of Tubularia spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patcheso f Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Upper circalittoral bedrock, boulders and cobbles with a coering of sand in some areas",
+    "sample_comment,\"Boulder overhang with Pachymatisma johnnstonia and a variety of encrusting spongesl including Dercitus bucklandi",
+    "sample_comment,\"Lower infralittoral silty boulders with a dense covering of Balanaus crenatus and with Halidrys siliquosa, Dictyota dichotoma and foliose red algae",
+    "sample_comment,\"Very tide-swept circalitotral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand martix with Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral wyith dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Lower infralittoral boulders and cobbles with Laminaria hyperborea on the larger boulders and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halceium spp",
+    "sample_comment,\"Diphasia rosacea, Balanus crenatus, sparse bryozoans, small tufts of red algae and coralline crusts characterised area of bedrock where tidal streams were turbulent and accelerated",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bcellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral wtih dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchelliuma rgus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty bouldersand cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Diphasia rosacea, Balanus crenatus, sparse bryozoans, small tufts of red algae and coralline crusts characterised areas of bedrock where tidal streams ere turbulent and accelerated",
+    "sample_comment,\"Lower circalittoral boulers, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapllus and abundant Urticina felina",
+    "sample_comment,\"Bedrock gullies and ridges with kelp park with an understory of sparse sponge- Polymastia boletiformis and Hemimycale columella, coralline crusts and sparsqe red algae",
+    "sample_comment,\"Flugstra foliacea, Nemertesia antennina, Alcyonium digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tide-swept, rugged upper circalittoral bedrock",
+    "sample_comment,\"Dense ryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascidians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Lowers infralittoral bedrock and boulders with sparse kelp and foliose red algae",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium denbsum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Exposed circalittoral bedrock with a scour fauna of Sertularia argentea, Balanus crenatus and lots of Alcyonidium diaphanum colonies",
+    "sample_comment,\"Dense bryozoans especially Crisia denticulata, Bicellariella ciliata and Bugula turbinata with barnacles, colonial ascdiians and Dendrodoa grossularia and sponges, especially Stelligera rigida and Raspailia ramosa",
+    "sample_comment,\"Bedrock sloping ssteadily upwards dominated by a mixture of young, in the season, foliose algae and mixed hydroid species",
+    "sample_comment,\"Vlery tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predoimnantly Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles i nthe upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus creantus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Vertical wall beneath the kelp park, 2 m high and smaller verticals slightly deeper were dominated by bryozoans, particularly Chartella papyracea, Bugula plumosa, Crisia eburnea, sponges especially Dysieda fragilis and colonial ascidians",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chatrella papyracea, Bugula spp",
+    "sample_comment,\"Bedrock gullies and ridges with kelp park with anunderstory of sparse sponge- Polymastia boletiformis and Hemimycale columella, coralline crusts and sparse red algae",
+    "sample_comment,\"Lower circalittoral bouledrs, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"Silty boulders and cobbmles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix iwth Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Lower infralittoral boulders and cobbles wth Laminaria hyperborea on the larger boulders and a dense turf of red algae including Plocamium cartilagineum and Heterosiphonia plumosa, hydroids including Sertularia argentea, Halecium spp",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and corallkine crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium, Aplidium densum",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanu screnatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Overhang in a 8 m long tunnel rformed by boulders, big enough to swim through",
+    "sample_comment,\"Laminaria whyperborea forest with a dense understory of Plocamium cartilagineum, coralline crusts, Phycodrys rubens on the kelp stipes, colonial ascidians and bryozoans",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argenatea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebbles with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly qBugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argenea, patches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Overhang/boulder slide with very dense brgown Corynactis viridis, long Halecium beanii and Bugula turbinata",
+    "sample_comment,\"Silty boulders and cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, hCartella papyracea, Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, ptches of Polyclinum aurantium, Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and coralline crusts throughout,e Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Silty boulders and cobbles in the upper cirvcalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and coralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with redalgae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Silty boulders and cobbles in the uxpper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Very tide-swept circalittoral cobbles with Sertularia argentea, patches of Polyclinum aurantium,d Aplidium densum, Nucella lapillus and abundant Urticina felina",
+    "sample_comment,\"Exposed upper circalittoral bedrock and boulders with Alcyonidium diaphanum, hydroids mainly Diphasia rosacea and Sertularia argentea) and bryozoans (Crisia eburnea and Alcyonidium diaphanum)",
+    "sample_comment,\"Dense turf of Tubuaria indivisa also with patches of Balanus crenatus",
+    "sample_comment,\"Vertical wall beneath thev kelp park, 2 m high and smaller verticals slightly deeper were dominated by bryozoans, particularly Chartella papyracea, Bugula plumosa, Crisia eburnea, sponges especially Dysidea fragilis and colonial ascidians",
+    "sample_comment,A single bedrock/large boulder outcrop was studied",
+    "sample_comment,\"Exposed upper circalittoral bedrock and boulders with Alcyoidium diaphanum, hydroids (mainly Diphasia rosacea and Sertularia argentea) and bryozoans (Crisia eburnea and Alcyonidium diaphanum)",
+    "sample_comment,\"Silty boulders and icobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Lower circalittoral boulders, cobbles and pebblse with superabundant Alcyonium digitatum and a hydroid and bryozoan turf, predominantly Bugula spp",
+    "sample_comment,\"A large plain of mobile coarse sand with shell gravel forming dunes nd ripples",
+    "sample_comment,\"Ovrhang/boulder slide with very dense brown Corynactis viridis, long Halecium beanii and Bugula turbinata",
+    "sample_comment,\"Silty boulders andx cobbles in the upper circalittoral with dense Balanus crenatus, Morchellium argus, Chartella papyracea, Bugula spp",
+    "sample_comment,\"Vertical wall beneath the kelp park, 2 m high and maller verticals slightly deeper were dominated by bryozoans, particularly Chartella papyracea, Bugula plumosa, Crisia eburnea, sponges especially Dysidea fragilis and colonial ascidians",
+    "sample_comment,\"Boulders, cobbles and pebbles in a coarse sand matrix with Balanus crenatus and qcoralline crusts throughout, Sertularia argentea, other hydroids and short bryozoans on larger boulders with red algae including Plocamium cartilagineum, Delesseria sanguinea and Corallina officinalis",
+    "sample_comment,\"Flustra foliacea, Nemertesia antennina, kAlcyonium digitatum, erect bryozoans, colonial ascidians and Raspailia ramosa covered tide-swept, rugged upper circalittoral bedrock"
+  ],
+  "configuration": {
+    "total_error_percentage": 20,
+    "fd_percentage": 10,
+    "outlier_percentage": 0,
+    "typo_percentage": 10,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "aphia_id",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_comment",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "location_name",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "abundance_sacforn",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "sample_comment",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "location_name",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "sample_key",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "latitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "longitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "location_name",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "location_name",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "start_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "end_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "location_name",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "start_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "end_date",
+        "percentage": 9.740259740259756
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "start_date",
+        "percentage": 9.659090909090924
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "end_date",
+        "percentage": 9.659090909090924
+      },
+      {
+        "determinant": "start_date",
+        "dependant": "end_date",
+        "percentage": 9.659090909090924
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "start_date",
+        "percentage": 9.659090909090924
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "record_key",
+      "survey_key",
+      "survey_name",
+      "sample_key",
+      "start_date",
+      "end_date",
+      "date_type",
+      "location_name",
+      "data_type",
+      "projection",
+      "species",
+      "abundance_sacforn",
+      "sample_comment"
+    ],
+    "num_fd_rules": 37,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 13
+  },
+  "used_bart_native_types": true
+}

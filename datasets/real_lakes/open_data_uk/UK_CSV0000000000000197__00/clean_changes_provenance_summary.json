@@ -1,0 +1,32 @@
+{
+  "total_changes": 748,
+  "error_type_counts": {
+    "RANDOM_TYPO": 748
+  },
+  "columns_affected": [
+    "market_class",
+    "region",
+    "geography",
+    "you_tube_hd_two_fourhr",
+    "technology"
+  ],
+  "configuration": {
+    "total_error_percentage": 15,
+    "fd_percentage": 0,
+    "outlier_percentage": 0,
+    "typo_percentage": 15,
+    "fd_violations": [],
+    "outlier_columns": [],
+    "typo_columns": [
+      "market_class",
+      "geography",
+      "technology",
+      "you_tube_hd_two_fourhr",
+      "region"
+    ],
+    "num_fd_rules": 0,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 5
+  },
+  "used_bart_native_types": true
+}

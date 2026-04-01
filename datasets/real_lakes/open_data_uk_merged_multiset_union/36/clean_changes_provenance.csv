@@ -1,0 +1,636 @@
+cell_id,table_id,column_id,row_number,column_name,old_value,new_value,error_type,source_table,source_row,source_column
+36.7.0,36,7,0,selfdefined_ethnicity,White - English/Welsh/Scottish/Northern Irish/Britissh,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,0,selfdefined_ethnicity
+36.8.0,36,8,0,officially_recorded_ethnicity,hite,White,RANDOM_TYPO,UK_CSV0000000000002536,0,officially_recorded_ethnicity
+36.0.4,36,0,4,expense_type,Travl,Travel,RANDOM_TYPO,UK_CSV0000000000002536,4,expense_type
+36.8.4,36,8,4,officially_recorded_ethnicity,lack,Black,RANDOM_TYPO,UK_CSV0000000000002536,4,officially_recorded_ethnicity
+36.1.5,36,1,5,transaction_date,2022-05-15T14:45:00+0e0:00,2022-05-15T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,5,transaction_date
+36.0.9,36,0,9,expense_type,Trmavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,9,expense_type
+36.0.10,36,0,10,expense_type,Traovel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,10,expense_type
+36.6.11,36,6,11,employee_age_range,1824,18-24,RANDOM_TYPO,UK_CSV0000000000002536,11,employee_age_range
+36.6.13,36,6,13,employee_age_range,g18-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,13,employee_age_range
+36.7.14,36,7,14,selfdefined_ethnicity,Other ethnic group -N ot stated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,14,selfdefined_ethnicity
+36.10.19,36,10,19,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,19,search_target
+36.5.23,36,5,23,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,23,employee_gender
+36.5.24,36,5,24,employee_gender,Mle,Male,RANDOM_TYPO,UK_CSV0000000000002536,24,employee_gender
+36.0.25,36,0,25,expense_type,uel,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,25,expense_type
+36.7.25,36,7,25,selfdefined_ethnicity,Mixed/Multiple ethnic groups - Any other Mifxed/Multiple ethnic background,Mixed/Multiple ethnic groups - Any other Mixed/Multiple ethnic background,RANDOM_TYPO,UK_CSV0000000000002536,25,selfdefined_ethnicity
+36.5.26,36,5,26,employee_gender,Meale,Male,RANDOM_TYPO,UK_CSV0000000000002536,26,employee_gender
+36.10.27,36,10,27,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,27,search_target
+36.1.28,36,1,28,transaction_date,2020-f07-14T13:30:00+00:00,2020-07-14T13:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,28,transaction_date
+36.8.31,36,8,31,officially_recorded_ethnicity,Wite,White,RANDOM_TYPO,UK_CSV0000000000002536,31,officially_recorded_ethnicity
+36.10.31,36,10,31,search_target,Offensive weapons,Anything to threaten or harm anyone,FD_VIOLATION,UK_CSV0000000000002536,31,search_target
+36.10.32,36,10,32,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,32,search_target
+36.1.33,36,1,33,transaction_date,2022-07-15T08:45:00+00:0,2022-07-15T08:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,33,transaction_date
+36.7.33,36,7,33,selfdefined_ethnicity,White - English/Weslh/Scottish/Northern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,33,selfdefined_ethnicity
+36.10.33,36,10,33,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,33,search_target
+36.10.34,36,10,34,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,34,search_target
+36.0.35,36,0,35,expense_type,Fbuel,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,35,expense_type
+36.6.36,36,6,36,employee_age_range,1824,18-24,RANDOM_TYPO,UK_CSV0000000000002536,36,employee_age_range
+36.10.36,36,10,36,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,36,search_target
+36.10.37,36,10,37,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,37,search_target
+36.6.38,36,6,38,employee_age_range,18f-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,38,employee_age_range
+36.7.39,36,7,39,selfdefined_ethnicity,Oter ethnic group - Not stated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,39,selfdefined_ethnicity
+36.10.39,36,10,39,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,39,search_target
+36.10.40,36,10,40,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,40,search_target
+36.8.42,36,8,42,officially_recorded_ethnicity,Asain,Asian,RANDOM_TYPO,UK_CSV0000000000002536,42,officially_recorded_ethnicity
+36.7.44,36,7,44,selfdefined_ethnicity,White - English/Welsh/cSottish/Northern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,44,selfdefined_ethnicity
+36.10.44,36,10,44,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,44,search_target
+36.7.45,36,7,45,selfdefined_ethnicity,Aisan/Asian British - Any other Asian background,Asian/Asian British - Any other Asian background,RANDOM_TYPO,UK_CSV0000000000002536,45,selfdefined_ethnicity
+36.10.46,36,10,46,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,46,search_target
+36.8.47,36,8,47,officially_recorded_ethnicity,Wihte,White,RANDOM_TYPO,UK_CSV0000000000002536,47,officially_recorded_ethnicity
+36.10.47,36,10,47,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,47,search_target
+36.10.48,36,10,48,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,48,search_target
+36.10.49,36,10,49,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,49,search_target
+36.10.50,36,10,50,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,50,search_target
+36.11.50,36,11,50,resultof_search,Prosecutino,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,50,resultof_search
+36.10.51,36,10,51,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,51,search_target
+36.1.53,36,1,53,transaction_date,0222-11-15T08:30:00+00:00,2022-11-15T08:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,53,transaction_date
+36.6.53,36,6,53,employee_age_range,25-43,25-34,RANDOM_TYPO,UK_CSV0000000000002536,53,employee_age_range
+36.10.53,36,10,53,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,53,search_target
+36.8.54,36,8,54,officially_recorded_ethnicity,Asisan,Asian,RANDOM_TYPO,UK_CSV0000000000002536,54,officially_recorded_ethnicity
+36.10.55,36,10,55,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,55,search_target
+36.7.57,36,7,57,selfdefined_ethnicity,Black/African/Caribbean/Black British - Any other Black/African/Caribbean bacqkground,Black/African/Caribbean/Black British - Any other Black/African/Caribbean background,RANDOM_TYPO,UK_CSV0000000000002536,57,selfdefined_ethnicity
+36.11.57,36,11,57,resultof_search,Prosfecution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,57,resultof_search
+36.11.58,36,11,58,resultof_search,Investigation reprot,Investigation report,RANDOM_TYPO,UK_CSV0000000000002536,58,resultof_search
+36.10.59,36,10,59,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,59,search_target
+36.10.62,36,10,62,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,62,search_target
+36.10.63,36,10,63,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,63,search_target
+36.11.64,36,11,64,resultof_search,Prosecutin,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,64,resultof_search
+36.1.65,36,1,65,transaction_date,2022-01-15T08:45:00k+00:00,2022-01-15T08:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,65,transaction_date
+36.7.65,36,7,65,selfdefined_ethnicity,Asian/Asian British - Balngladeshi,Asian/Asian British - Bangladeshi,RANDOM_TYPO,UK_CSV0000000000002536,65,selfdefined_ethnicity
+36.10.65,36,10,65,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,65,search_target
+36.1.66,36,1,66,transaction_date,2022-11-10T09:0:00+00:00,2022-11-10T09:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,66,transaction_date
+36.10.66,36,10,66,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,66,search_target
+36.10.67,36,10,67,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,67,search_target
+36.10.68,36,10,68,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,68,search_target
+36.5.69,36,5,69,employee_gender,Malze,Male,RANDOM_TYPO,UK_CSV0000000000002536,69,employee_gender
+36.10.69,36,10,69,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,69,search_target
+36.1.70,36,1,70,transaction_date,2020-07-14T13:30:00+00:0,2020-07-14T13:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,70,transaction_date
+36.11.70,36,11,70,resultof_search,Proseuction,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,70,resultof_search
+36.10.71,36,10,71,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,71,search_target
+36.7.72,36,7,72,selfdefined_ethnicity,Black/African/Caribbean/Black British - Any other Blacvk/African/Caribbean background,Black/African/Caribbean/Black British - Any other Black/African/Caribbean background,RANDOM_TYPO,UK_CSV0000000000002536,72,selfdefined_ethnicity
+36.10.72,36,10,72,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,72,search_target
+36.10.73,36,10,73,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,73,search_target
+36.0.74,36,0,74,expense_type,Tarvel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,74,expense_type
+36.10.74,36,10,74,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,74,search_target
+36.6.75,36,6,75,employee_age_range,5-34,25-34,RANDOM_TYPO,UK_CSV0000000000002536,75,employee_age_range
+36.8.75,36,8,75,officially_recorded_ethnicity,sian,Asian,RANDOM_TYPO,UK_CSV0000000000002536,75,officially_recorded_ethnicity
+36.10.75,36,10,75,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,75,search_target
+36.11.75,36,11,75,resultof_search,Discoveyr,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,75,resultof_search
+36.10.76,36,10,76,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,76,search_target
+36.10.78,36,10,78,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,78,search_target
+36.1.79,36,1,79,transaction_date,2022-01-15T10:00:0f0+00:00,2022-01-15T10:00:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,79,transaction_date
+36.6.79,36,6,79,employee_age_range,5-34,25-34,RANDOM_TYPO,UK_CSV0000000000002536,79,employee_age_range
+36.10.79,36,10,79,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,79,search_target
+36.10.80,36,10,80,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,80,search_target
+36.5.81,36,5,81,employee_gender,aMle,Male,RANDOM_TYPO,UK_CSV0000000000002536,81,employee_gender
+36.10.81,36,10,81,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,81,search_target
+36.11.82,36,11,82,resultof_search,Prosceution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,82,resultof_search
+36.10.83,36,10,83,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,83,search_target
+36.10.84,36,10,84,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,84,search_target
+36.1.85,36,1,85,transaction_date,202-05-14T13:25:00+00:00,2022-05-14T13:25:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,85,transaction_date
+36.10.85,36,10,85,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,85,search_target
+36.10.86,36,10,86,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,86,search_target
+36.6.87,36,6,87,employee_age_range,18-4,18-24,RANDOM_TYPO,UK_CSV0000000000002536,87,employee_age_range
+36.10.87,36,10,87,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,87,search_target
+36.10.89,36,10,89,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,89,search_target
+36.10.90,36,10,90,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,90,search_target
+36.10.91,36,10,91,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,91,search_target
+36.10.92,36,10,92,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,92,search_target
+36.10.93,36,10,93,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,93,search_target
+36.10.94,36,10,94,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,94,search_target
+36.6.95,36,6,95,employee_age_range,18-a24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,95,employee_age_range
+36.10.95,36,10,95,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,95,search_target
+36.5.96,36,5,96,employee_gender,Mle,Male,RANDOM_TYPO,UK_CSV0000000000002536,96,employee_gender
+36.10.96,36,10,96,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,96,search_target
+36.10.98,36,10,98,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,98,search_target
+36.1.99,36,1,99,transaction_date,2022-05-10T81:45:00+00:00,2022-05-10T18:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,99,transaction_date
+36.10.99,36,10,99,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,99,search_target
+36.8.100,36,8,100,officially_recorded_ethnicity,Whkite,White,RANDOM_TYPO,UK_CSV0000000000002536,100,officially_recorded_ethnicity
+36.11.100,36,11,100,resultof_search,Investaigation report,Investigation report,RANDOM_TYPO,UK_CSV0000000000002536,100,resultof_search
+36.10.101,36,10,101,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,101,search_target
+36.11.101,36,11,101,resultof_search,Investigtion report,Investigation report,RANDOM_TYPO,UK_CSV0000000000002536,101,resultof_search
+36.0.102,36,0,102,expense_type,Traevl,Travel,RANDOM_TYPO,UK_CSV0000000000002536,102,expense_type
+36.10.102,36,10,102,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,102,search_target
+36.10.103,36,10,103,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,103,search_target
+36.7.104,36,7,104,selfdefined_ethnicity,Whtie - English/Welsh/Scottish/Northern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,104,selfdefined_ethnicity
+36.10.105,36,10,105,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,105,search_target
+36.10.106,36,10,106,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,106,search_target
+36.10.107,36,10,107,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,107,search_target
+36.10.109,36,10,109,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,109,search_target
+36.1.110,36,1,110,transaction_date,2022-01-15T08:4:500+00:00,2022-01-15T08:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,110,transaction_date
+36.10.110,36,10,110,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,110,search_target
+36.10.111,36,10,111,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,111,search_target
+36.10.112,36,10,112,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,112,search_target
+36.7.113,36,7,113,selfdefined_ethnicity,White - English/Welbsh/Scottish/Northern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,113,selfdefined_ethnicity
+36.10.113,36,10,113,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,113,search_target
+36.10.114,36,10,114,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,114,search_target
+36.6.115,36,6,115,employee_age_range,1824,18-24,RANDOM_TYPO,UK_CSV0000000000002536,115,employee_age_range
+36.10.115,36,10,115,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,115,search_target
+36.6.116,36,6,116,employee_age_range,182-4,18-24,RANDOM_TYPO,UK_CSV0000000000002536,116,employee_age_range
+36.10.116,36,10,116,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,116,search_target
+36.10.117,36,10,117,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,117,search_target
+36.10.118,36,10,118,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,118,search_target
+36.10.119,36,10,119,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,119,search_target
+36.0.120,36,0,120,expense_type,Traevl,Travel,RANDOM_TYPO,UK_CSV0000000000002536,120,expense_type
+36.1.120,36,1,120,transaction_date,2020-07-15T0945:00+01:00,2020-07-15T09:45:00+01:00,RANDOM_TYPO,UK_CSV0000000000002536,120,transaction_date
+36.10.120,36,10,120,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,120,search_target
+36.10.121,36,10,121,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,121,search_target
+36.0.122,36,0,122,expense_type,Travl,Travel,RANDOM_TYPO,UK_CSV0000000000002536,122,expense_type
+36.5.122,36,5,122,employee_gender,Mkale,Male,RANDOM_TYPO,UK_CSV0000000000002536,122,employee_gender
+36.6.122,36,6,122,employee_age_range,tover 34,over 34,RANDOM_TYPO,UK_CSV0000000000002536,122,employee_age_range
+36.10.122,36,10,122,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,122,search_target
+36.10.123,36,10,123,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,123,search_target
+36.10.124,36,10,124,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,124,search_target
+36.10.125,36,10,125,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,125,search_target
+36.10.126,36,10,126,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,126,search_target
+36.5.127,36,5,127,employee_gender,Mlae,Male,RANDOM_TYPO,UK_CSV0000000000002536,127,employee_gender
+36.10.127,36,10,127,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,127,search_target
+36.10.128,36,10,128,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,128,search_target
+36.10.129,36,10,129,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,129,search_target
+36.10.130,36,10,130,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,130,search_target
+36.0.131,36,0,131,expense_type,Trzavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,131,expense_type
+36.10.132,36,10,132,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,132,search_target
+36.1.134,36,1,134,transaction_date,2022-11-15T08:30:00+00:00***,2022-11-15T08:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,134,transaction_date
+36.10.134,36,10,134,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,134,search_target
+36.10.135,36,10,135,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,135,search_target
+36.11.135,36,11,135,resultof_search,Porsecution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,135,resultof_search
+36.1.136,36,1,136,transaction_date,2020-07-11T09:30:00+o00:00,2020-07-11T09:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,136,transaction_date
+36.10.136,36,10,136,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,136,search_target
+36.10.137,36,10,137,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,137,search_target
+36.10.138,36,10,138,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,138,search_target
+36.10.139,36,10,139,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,139,search_target
+36.8.140,36,8,140,officially_recorded_ethnicity,Wheite,White,RANDOM_TYPO,UK_CSV0000000000002536,140,officially_recorded_ethnicity
+36.10.140,36,10,140,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,140,search_target
+36.1.141,36,1,141,transaction_date,2l022-04-28T09:45:00+00:00,2022-04-28T09:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,141,transaction_date
+36.10.141,36,10,141,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,141,search_target
+36.11.141,36,11,141,resultof_search,Discovrey,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,141,resultof_search
+36.10.143,36,10,143,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,143,search_target
+36.10.144,36,10,144,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,144,search_target
+36.10.147,36,10,147,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,147,search_target
+36.11.147,36,11,147,resultof_search,Prosecuion,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,147,resultof_search
+36.6.148,36,6,148,employee_age_range,01-17,10-17,RANDOM_TYPO,UK_CSV0000000000002536,148,employee_age_range
+36.10.148,36,10,148,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,148,search_target
+36.10.149,36,10,149,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,149,search_target
+36.10.150,36,10,150,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,150,search_target
+36.10.152,36,10,152,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,152,search_target
+36.0.153,36,0,153,expense_type,Tfravel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,153,expense_type
+36.5.153,36,5,153,employee_gender,Maxle,Male,RANDOM_TYPO,UK_CSV0000000000002536,153,employee_gender
+36.10.153,36,10,153,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,153,search_target
+36.10.154,36,10,154,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,154,search_target
+36.8.155,36,8,155,officially_recorded_ethnicity,Whitye,White,RANDOM_TYPO,UK_CSV0000000000002536,155,officially_recorded_ethnicity
+36.10.155,36,10,155,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,155,search_target
+36.10.156,36,10,156,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,156,search_target
+36.10.157,36,10,157,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,157,search_target
+36.10.158,36,10,158,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,158,search_target
+36.1.159,36,1,159,transaction_date,222-11-10T09:30:00+00:00,2022-11-10T09:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,159,transaction_date
+36.10.159,36,10,159,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,159,search_target
+36.0.160,36,0,160,expense_type,Trvael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,160,expense_type
+36.10.160,36,10,160,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,160,search_target
+36.10.161,36,10,161,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,161,search_target
+36.7.162,36,7,162,selfdefined_ethnicity,White - Ayn other White background,White - Any other White background,RANDOM_TYPO,UK_CSV0000000000002536,162,selfdefined_ethnicity
+36.10.162,36,10,162,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,162,search_target
+36.10.163,36,10,163,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,163,search_target
+36.5.164,36,5,164,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,164,employee_gender
+36.7.164,36,7,164,selfdefined_ethnicity,Black/African/Caribbean/Black British - Any other Black/Afrfican/Caribbean background,Black/African/Caribbean/Black British - Any other Black/African/Caribbean background,RANDOM_TYPO,UK_CSV0000000000002536,164,selfdefined_ethnicity
+36.10.164,36,10,164,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,164,search_target
+36.10.165,36,10,165,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,165,search_target
+36.5.166,36,5,166,employee_gender,eFmale,Female,RANDOM_TYPO,UK_CSV0000000000002536,166,employee_gender
+36.10.167,36,10,167,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,167,search_target
+36.10.168,36,10,168,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,168,search_target
+36.7.169,36,7,169,selfdefined_ethnicity,Asian/Asian British- Any other Asian background,Asian/Asian British - Any other Asian background,RANDOM_TYPO,UK_CSV0000000000002536,169,selfdefined_ethnicity
+36.10.169,36,10,169,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,169,search_target
+36.1.170,36,1,170,transaction_date,2022-0515T14:45:00+00:00,2022-05-15T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,170,transaction_date
+36.10.170,36,10,170,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,170,search_target
+36.10.171,36,10,171,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,171,search_target
+36.10.172,36,10,172,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,172,search_target
+36.10.173,36,10,173,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,173,search_target
+36.8.174,36,8,174,officially_recorded_ethnicity,Asican,Asian,RANDOM_TYPO,UK_CSV0000000000002536,174,officially_recorded_ethnicity
+36.10.174,36,10,174,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,174,search_target
+36.10.175,36,10,175,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,175,search_target
+36.1.176,36,1,176,transaction_date,2020-7-15T09:45:00+01:00,2020-07-15T09:45:00+01:00,RANDOM_TYPO,UK_CSV0000000000002536,176,transaction_date
+36.6.176,36,6,176,employee_age_range,2-34,25-34,RANDOM_TYPO,UK_CSV0000000000002536,176,employee_age_range
+36.10.176,36,10,176,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,176,search_target
+36.10.177,36,10,177,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,177,search_target
+36.11.177,36,11,177,resultof_search,Prosecutin,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,177,resultof_search
+36.10.178,36,10,178,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,178,search_target
+36.10.179,36,10,179,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,179,search_target
+36.10.180,36,10,180,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,180,search_target
+36.0.181,36,0,181,expense_type,Trael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,181,expense_type
+36.10.181,36,10,181,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,181,search_target
+36.11.181,36,11,181,resultof_search,Prosecuton,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,181,resultof_search
+36.5.182,36,5,182,employee_gender,Mle,Male,RANDOM_TYPO,UK_CSV0000000000002536,182,employee_gender
+36.10.182,36,10,182,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,182,search_target
+36.10.183,36,10,183,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,183,search_target
+36.10.184,36,10,184,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,184,search_target
+36.5.185,36,5,185,employee_gender,Mae,Male,RANDOM_TYPO,UK_CSV0000000000002536,185,employee_gender
+36.6.185,36,6,185,employee_age_range,b25-34,25-34,RANDOM_TYPO,UK_CSV0000000000002536,185,employee_age_range
+36.10.185,36,10,185,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,185,search_target
+36.10.186,36,10,186,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,186,search_target
+36.10.187,36,10,187,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,187,search_target
+36.8.188,36,8,188,officially_recorded_ethnicity,Whijte,White,RANDOM_TYPO,UK_CSV0000000000002536,188,officially_recorded_ethnicity
+36.10.188,36,10,188,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,188,search_target
+36.8.189,36,8,189,officially_recorded_ethnicity,ther,Other,RANDOM_TYPO,UK_CSV0000000000002536,189,officially_recorded_ethnicity
+36.10.189,36,10,189,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,189,search_target
+36.1.190,36,1,190,transaction_date,2022-04-12T14:2:000+00:00,2022-04-12T14:20:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,190,transaction_date
+36.10.190,36,10,190,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,190,search_target
+36.10.191,36,10,191,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,191,search_target
+36.10.192,36,10,192,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,192,search_target
+36.10.193,36,10,193,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,193,search_target
+36.10.194,36,10,194,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,194,search_target
+36.10.195,36,10,195,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,195,search_target
+36.1.196,36,1,196,transaction_date,2022-04-12T14:20:00+000:0,2022-04-12T14:20:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,196,transaction_date
+36.10.196,36,10,196,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,196,search_target
+36.6.197,36,6,197,employee_age_range,1x8-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,197,employee_age_range
+36.10.197,36,10,197,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,197,search_target
+36.10.198,36,10,198,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,198,search_target
+36.7.199,36,7,199,selfdefined_ethnicity,Whtie - English/Welsh/Scottish/Northern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,199,selfdefined_ethnicity
+36.10.199,36,10,199,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,199,search_target
+36.10.200,36,10,200,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,200,search_target
+36.10.201,36,10,201,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,201,search_target
+36.10.202,36,10,202,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,202,search_target
+36.8.203,36,8,203,officially_recorded_ethnicity,pWhite,White,RANDOM_TYPO,UK_CSV0000000000002536,203,officially_recorded_ethnicity
+36.10.203,36,10,203,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,203,search_target
+36.5.204,36,5,204,employee_gender,Mael,Male,RANDOM_TYPO,UK_CSV0000000000002536,204,employee_gender
+36.10.204,36,10,204,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,204,search_target
+36.10.205,36,10,205,search_target,Controlled drugs,Anything to threaten or harm anyone,FD_VIOLATION,UK_CSV0000000000002536,205,search_target
+36.11.205,36,11,205,resultof_search,Prosecuiton,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,205,resultof_search
+36.10.206,36,10,206,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,206,search_target
+36.6.207,36,6,207,employee_age_range,25-43,25-34,RANDOM_TYPO,UK_CSV0000000000002536,207,employee_age_range
+36.10.207,36,10,207,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,207,search_target
+36.5.208,36,5,208,employee_gender,Muale,Male,RANDOM_TYPO,UK_CSV0000000000002536,208,employee_gender
+36.10.208,36,10,208,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,208,search_target
+36.11.208,36,11,208,resultof_search,Proescution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,208,resultof_search
+36.7.209,36,7,209,selfdefined_ethnicity,White - Any otehr White background,White - Any other White background,RANDOM_TYPO,UK_CSV0000000000002536,209,selfdefined_ethnicity
+36.10.209,36,10,209,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,209,search_target
+36.6.210,36,6,210,employee_age_range,18-42,18-24,RANDOM_TYPO,UK_CSV0000000000002536,210,employee_age_range
+36.10.210,36,10,210,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,210,search_target
+36.1.211,36,1,211,transaction_date,2022-11-15T0830:00+00:00,2022-11-15T08:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,211,transaction_date
+36.10.211,36,10,211,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,211,search_target
+36.10.213,36,10,213,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,213,search_target
+36.7.214,36,7,214,selfdefined_ethnicity,Blacko/African/Caribbean/Black British - African,Black/African/Caribbean/Black British - African,RANDOM_TYPO,UK_CSV0000000000002536,214,selfdefined_ethnicity
+36.10.214,36,10,214,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,214,search_target
+36.1.215,36,1,215,transaction_date,022-11-15T08:30:00+00:00,2022-11-15T08:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,215,transaction_date
+36.10.215,36,10,215,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,215,search_target
+36.10.216,36,10,216,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,216,search_target
+36.10.217,36,10,217,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,217,search_target
+36.11.217,36,11,217,resultof_search,Prosecutin,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,217,resultof_search
+36.10.218,36,10,218,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,218,search_target
+36.7.219,36,7,219,selfdefined_ethnicity,Othere thnic group - Not stated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,219,selfdefined_ethnicity
+36.8.219,36,8,219,officially_recorded_ethnicity,Whiet,White,RANDOM_TYPO,UK_CSV0000000000002536,219,officially_recorded_ethnicity
+36.10.219,36,10,219,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,219,search_target
+36.8.220,36,8,220,officially_recorded_ethnicity,Blalck,Black,RANDOM_TYPO,UK_CSV0000000000002536,220,officially_recorded_ethnicity
+36.10.220,36,10,220,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,220,search_target
+36.10.221,36,10,221,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,221,search_target
+36.10.222,36,10,222,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,222,search_target
+36.0.223,36,0,223,expense_type,Trahvel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,223,expense_type
+36.10.223,36,10,223,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,223,search_target
+36.10.224,36,10,224,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,224,search_target
+36.5.225,36,5,225,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,225,employee_gender
+36.10.225,36,10,225,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,225,search_target
+36.10.226,36,10,226,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,226,search_target
+36.10.227,36,10,227,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,227,search_target
+36.10.228,36,10,228,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,228,search_target
+36.10.229,36,10,229,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,229,search_target
+36.10.230,36,10,230,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,230,search_target
+36.10.231,36,10,231,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,231,search_target
+36.6.232,36,6,232,employee_age_range,8-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,232,employee_age_range
+36.10.232,36,10,232,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,232,search_target
+36.1.233,36,1,233,transaction_date,2022-06-25T14:30:00+00y:00,2022-06-25T14:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,233,transaction_date
+36.10.233,36,10,233,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,233,search_target
+36.8.234,36,8,234,officially_recorded_ethnicity,Blakc,Black,RANDOM_TYPO,UK_CSV0000000000002536,234,officially_recorded_ethnicity
+36.10.234,36,10,234,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,234,search_target
+36.10.235,36,10,235,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,235,search_target
+36.10.236,36,10,236,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,236,search_target
+36.10.237,36,10,237,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,237,search_target
+36.1.238,36,1,238,transaction_date,2022-08-21T14:45:00+0000,2022-08-21T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,238,transaction_date
+36.10.238,36,10,238,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,238,search_target
+36.0.239,36,0,239,expense_type,rTavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,239,expense_type
+36.10.239,36,10,239,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,239,search_target
+36.10.240,36,10,240,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,240,search_target
+36.1.241,36,1,241,transaction_date,2022-08-21Tr14:45:00+00:00,2022-08-21T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,241,transaction_date
+36.7.241,36,7,241,selfdefined_ethnicity,Black/African/Caribbean/Black Brtish - Caribbean,Black/African/Caribbean/Black British - Caribbean,RANDOM_TYPO,UK_CSV0000000000002536,241,selfdefined_ethnicity
+36.10.241,36,10,241,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,241,search_target
+36.10.242,36,10,242,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,242,search_target
+36.8.243,36,8,243,officially_recorded_ethnicity,Aisan,Asian,RANDOM_TYPO,UK_CSV0000000000002536,243,officially_recorded_ethnicity
+36.8.244,36,8,244,officially_recorded_ethnicity,Whxite,White,RANDOM_TYPO,UK_CSV0000000000002536,244,officially_recorded_ethnicity
+36.10.244,36,10,244,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,244,search_target
+36.8.245,36,8,245,officially_recorded_ethnicity,Asjian,Asian,RANDOM_TYPO,UK_CSV0000000000002536,245,officially_recorded_ethnicity
+36.10.245,36,10,245,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,245,search_target
+36.7.246,36,7,246,selfdefined_ethnicity,Blck/African/Caribbean/Black British - Any other Black/African/Caribbean background,Black/African/Caribbean/Black British - Any other Black/African/Caribbean background,RANDOM_TYPO,UK_CSV0000000000002536,246,selfdefined_ethnicity
+36.10.246,36,10,246,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,246,search_target
+36.11.246,36,11,246,resultof_search,Fie Receipt,Fine Receipt,RANDOM_TYPO,UK_CSV0000000000002536,246,resultof_search
+36.10.247,36,10,247,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,247,search_target
+36.5.248,36,5,248,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,248,employee_gender
+36.10.248,36,10,248,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,248,search_target
+36.10.249,36,10,249,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,249,search_target
+36.0.250,36,0,250,expense_type,Trael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,250,expense_type
+36.6.250,36,6,250,employee_age_range,1824,18-24,RANDOM_TYPO,UK_CSV0000000000002536,250,employee_age_range
+36.10.250,36,10,250,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,250,search_target
+36.10.251,36,10,251,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,251,search_target
+36.10.252,36,10,252,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,252,search_target
+36.1.253,36,1,253,transaction_date,2022-04-28T09:45:00+w00:00,2022-04-28T09:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,253,transaction_date
+36.10.253,36,10,253,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,253,search_target
+36.11.253,36,11,253,resultof_search,Proscution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,253,resultof_search
+36.0.254,36,0,254,expense_type,Fel,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,254,expense_type
+36.1.254,36,1,254,transaction_date,2022-07-15T09:45:00+00:00***,2022-07-15T09:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,254,transaction_date
+36.10.254,36,10,254,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,254,search_target
+36.8.255,36,8,255,officially_recorded_ethnicity,Whiet,White,RANDOM_TYPO,UK_CSV0000000000002536,255,officially_recorded_ethnicity
+36.10.255,36,10,255,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,255,search_target
+36.10.256,36,10,256,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,256,search_target
+36.0.257,36,0,257,expense_type,zTravel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,257,expense_type
+36.6.257,36,6,257,employee_age_range,18-y24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,257,employee_age_range
+36.7.257,36,7,257,selfdefined_ethnicity,Black/African/Caribbelan/Black British - African,Black/African/Caribbean/Black British - African,RANDOM_TYPO,UK_CSV0000000000002536,257,selfdefined_ethnicity
+36.8.257,36,8,257,officially_recorded_ethnicity,Blacyk,Black,RANDOM_TYPO,UK_CSV0000000000002536,257,officially_recorded_ethnicity
+36.10.257,36,10,257,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,257,search_target
+36.10.258,36,10,258,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,258,search_target
+36.10.259,36,10,259,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,259,search_target
+36.10.260,36,10,260,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,260,search_target
+36.7.261,36,7,261,selfdefined_ethnicity,Other dethnic group - Any other ethnic group,Other ethnic group - Any other ethnic group,RANDOM_TYPO,UK_CSV0000000000002536,261,selfdefined_ethnicity
+36.10.261,36,10,261,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,261,search_target
+36.10.262,36,10,262,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,262,search_target
+36.10.263,36,10,263,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,263,search_target
+36.8.264,36,8,264,officially_recorded_ethnicity,Blak,Black,RANDOM_TYPO,UK_CSV0000000000002536,264,officially_recorded_ethnicity
+36.10.264,36,10,264,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,264,search_target
+36.10.265,36,10,265,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,265,search_target
+36.10.266,36,10,266,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,266,search_target
+36.8.267,36,8,267,officially_recorded_ethnicity,Whie,White,RANDOM_TYPO,UK_CSV0000000000002536,267,officially_recorded_ethnicity
+36.10.267,36,10,267,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,267,search_target
+36.10.268,36,10,268,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,268,search_target
+36.10.269,36,10,269,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,269,search_target
+36.7.270,36,7,270,selfdefined_ethnicity,White - English/Welsh/Scottish/Northern Irish/Britiseh,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,270,selfdefined_ethnicity
+36.10.270,36,10,270,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,270,search_target
+36.10.271,36,10,271,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,271,search_target
+36.10.272,36,10,272,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,272,search_target
+36.10.273,36,10,273,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,273,search_target
+36.10.274,36,10,274,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,274,search_target
+36.10.275,36,10,275,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,275,search_target
+36.10.276,36,10,276,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,276,search_target
+36.11.276,36,11,276,resultof_search,Discovey,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,276,resultof_search
+36.10.277,36,10,277,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,277,search_target
+36.8.278,36,8,278,officially_recorded_ethnicity,Wite,White,RANDOM_TYPO,UK_CSV0000000000002536,278,officially_recorded_ethnicity
+36.10.278,36,10,278,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,278,search_target
+36.10.279,36,10,279,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,279,search_target
+36.10.280,36,10,280,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,280,search_target
+36.7.281,36,7,281,selfdefined_ethnicity,Other etxhnic group - Not stated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,281,selfdefined_ethnicity
+36.10.281,36,10,281,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,281,search_target
+36.10.282,36,10,282,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,282,search_target
+36.10.283,36,10,283,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,283,search_target
+36.10.284,36,10,284,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,284,search_target
+36.10.285,36,10,285,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,285,search_target
+36.5.286,36,5,286,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,286,employee_gender
+36.10.286,36,10,286,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,286,search_target
+36.10.287,36,10,287,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,287,search_target
+36.10.288,36,10,288,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,288,search_target
+36.10.289,36,10,289,search_target,Controlled drugs,Anything to threaten or harm anyone,FD_VIOLATION,UK_CSV0000000000002536,289,search_target
+36.10.290,36,10,290,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,290,search_target
+36.0.291,36,0,291,expense_type,Trael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,291,expense_type
+36.10.291,36,10,291,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,291,search_target
+36.6.292,36,6,292,employee_age_range,ovre 34,over 34,RANDOM_TYPO,UK_CSV0000000000002536,292,employee_age_range
+36.10.292,36,10,292,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,292,search_target
+36.10.293,36,10,293,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,293,search_target
+36.10.294,36,10,294,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,294,search_target
+36.10.295,36,10,295,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,295,search_target
+36.10.297,36,10,297,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,297,search_target
+36.8.298,36,8,298,officially_recorded_ethnicity,uWhite,White,RANDOM_TYPO,UK_CSV0000000000002536,298,officially_recorded_ethnicity
+36.10.298,36,10,298,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,298,search_target
+36.10.299,36,10,299,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,299,search_target
+36.7.300,36,7,300,selfdefined_ethnicity,Black/African/Caribbean/Black British - Arfican,Black/African/Caribbean/Black British - African,RANDOM_TYPO,UK_CSV0000000000002536,300,selfdefined_ethnicity
+36.10.300,36,10,300,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,300,search_target
+36.10.301,36,10,301,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,301,search_target
+36.10.302,36,10,302,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,302,search_target
+36.10.303,36,10,303,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,303,search_target
+36.10.304,36,10,304,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,304,search_target
+36.10.305,36,10,305,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,305,search_target
+36.0.306,36,0,306,expense_type,Trael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,306,expense_type
+36.1.306,36,1,306,transaction_date,2022-05-15T10:30:00+000:0,2022-05-15T10:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,306,transaction_date
+36.10.306,36,10,306,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,306,search_target
+36.10.307,36,10,307,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,307,search_target
+36.10.308,36,10,308,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,308,search_target
+36.0.309,36,0,309,expense_type,Fuzel,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,309,expense_type
+36.10.309,36,10,309,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,309,search_target
+36.10.310,36,10,310,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,310,search_target
+36.11.310,36,11,310,resultof_search,Prhosecution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,310,resultof_search
+36.0.311,36,0,311,expense_type,Travle,Travel,RANDOM_TYPO,UK_CSV0000000000002536,311,expense_type
+36.10.311,36,10,311,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,311,search_target
+36.10.312,36,10,312,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,312,search_target
+36.8.313,36,8,313,officially_recorded_ethnicity,Blck,Black,RANDOM_TYPO,UK_CSV0000000000002536,313,officially_recorded_ethnicity
+36.10.313,36,10,313,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,313,search_target
+36.11.313,36,11,313,resultof_search,Discoveyr,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,313,resultof_search
+36.10.314,36,10,314,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,314,search_target
+36.5.315,36,5,315,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,315,employee_gender
+36.7.315,36,7,315,selfdefined_ethnicity,White -Any other White background,White - Any other White background,RANDOM_TYPO,UK_CSV0000000000002536,315,selfdefined_ethnicity
+36.10.315,36,10,315,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,315,search_target
+36.10.316,36,10,316,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,316,search_target
+36.10.317,36,10,317,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,317,search_target
+36.1.318,36,1,318,transaction_date,2020-07-15T09:45:00+0100,2020-07-15T09:45:00+01:00,RANDOM_TYPO,UK_CSV0000000000002536,318,transaction_date
+36.10.318,36,10,318,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,318,search_target
+36.10.319,36,10,319,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,319,search_target
+36.10.320,36,10,320,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,320,search_target
+36.11.320,36,11,320,resultof_search,Proescution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,320,resultof_search
+36.10.321,36,10,321,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,321,search_target
+36.10.322,36,10,322,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,322,search_target
+36.10.323,36,10,323,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,323,search_target
+36.11.323,36,11,323,resultof_search,Prosectuion,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,323,resultof_search
+36.10.324,36,10,324,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,324,search_target
+36.1.325,36,1,325,transaction_date,2020-07-11T09:300:0+00:00,2020-07-11T09:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,325,transaction_date
+36.7.325,36,7,325,selfdefined_ethnicity,Asijan/Asian British - Any other Asian background,Asian/Asian British - Any other Asian background,RANDOM_TYPO,UK_CSV0000000000002536,325,selfdefined_ethnicity
+36.10.325,36,10,325,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,325,search_target
+36.6.326,36,6,326,employee_age_range,10-n17,10-17,RANDOM_TYPO,UK_CSV0000000000002536,326,employee_age_range
+36.8.326,36,8,326,officially_recorded_ethnicity,lBack,Black,RANDOM_TYPO,UK_CSV0000000000002536,326,officially_recorded_ethnicity
+36.10.326,36,10,326,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,326,search_target
+36.10.327,36,10,327,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,327,search_target
+36.10.328,36,10,328,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,328,search_target
+36.6.329,36,6,329,employee_age_range,2534,25-34,RANDOM_TYPO,UK_CSV0000000000002536,329,employee_age_range
+36.10.329,36,10,329,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,329,search_target
+36.10.330,36,10,330,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,330,search_target
+36.10.331,36,10,331,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,331,search_target
+36.11.331,36,11,331,resultof_search,Proseution,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,331,resultof_search
+36.10.332,36,10,332,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,332,search_target
+36.10.333,36,10,333,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,333,search_target
+36.0.334,36,0,334,expense_type,Trael,Travel,RANDOM_TYPO,UK_CSV0000000000002536,334,expense_type
+36.5.334,36,5,334,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,334,employee_gender
+36.10.334,36,10,334,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,334,search_target
+36.10.335,36,10,335,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,335,search_target
+36.8.336,36,8,336,officially_recorded_ethnicity,Wihte,White,RANDOM_TYPO,UK_CSV0000000000002536,336,officially_recorded_ethnicity
+36.10.336,36,10,336,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,336,search_target
+36.5.337,36,5,337,employee_gender,Mle,Male,RANDOM_TYPO,UK_CSV0000000000002536,337,employee_gender
+36.7.337,36,7,337,selfdefined_ethnicity,Other ethnic group - Not tated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,337,selfdefined_ethnicity
+36.10.337,36,10,337,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,337,search_target
+36.10.338,36,10,338,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,338,search_target
+36.0.339,36,0,339,expense_type,Ful,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,339,expense_type
+36.10.339,36,10,339,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,339,search_target
+36.0.340,36,0,340,expense_type,Fule,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,340,expense_type
+36.6.340,36,6,340,employee_age_range,dover 34,over 34,RANDOM_TYPO,UK_CSV0000000000002536,340,employee_age_range
+36.10.340,36,10,340,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,340,search_target
+36.6.341,36,6,341,employee_age_range,18m-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,341,employee_age_range
+36.10.341,36,10,341,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,341,search_target
+36.0.342,36,0,342,expense_type,Traveil,Travel,RANDOM_TYPO,UK_CSV0000000000002536,342,expense_type
+36.10.342,36,10,342,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,342,search_target
+36.5.343,36,5,343,employee_gender,Maole,Male,RANDOM_TYPO,UK_CSV0000000000002536,343,employee_gender
+36.10.343,36,10,343,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,343,search_target
+36.10.344,36,10,344,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,344,search_target
+36.1.345,36,1,345,transaction_date,202-205-15T14:45:00+00:00,2022-05-15T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,345,transaction_date
+36.10.345,36,10,345,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,345,search_target
+36.1.346,36,1,346,transaction_date,2022-05-14T1325:00+00:00,2022-05-14T13:25:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,346,transaction_date
+36.8.346,36,8,346,officially_recorded_ethnicity,Ahsian,Asian,RANDOM_TYPO,UK_CSV0000000000002536,346,officially_recorded_ethnicity
+36.10.346,36,10,346,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,346,search_target
+36.10.347,36,10,347,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,347,search_target
+36.10.348,36,10,348,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,348,search_target
+36.6.349,36,6,349,employee_age_range,25-4,25-34,RANDOM_TYPO,UK_CSV0000000000002536,349,employee_age_range
+36.10.349,36,10,349,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,349,search_target
+36.10.350,36,10,350,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,350,search_target
+36.0.351,36,0,351,expense_type,Fel,Fuel,RANDOM_TYPO,UK_CSV0000000000002536,351,expense_type
+36.10.351,36,10,351,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,351,search_target
+36.6.352,36,6,352,employee_age_range,10-1y7,10-17,RANDOM_TYPO,UK_CSV0000000000002536,352,employee_age_range
+36.10.352,36,10,352,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,352,search_target
+36.10.353,36,10,353,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,353,search_target
+36.10.354,36,10,354,search_target,Controlled drugs,Anything to threaten or harm anyone,FD_VIOLATION,UK_CSV0000000000002536,354,search_target
+36.10.355,36,10,355,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,355,search_target
+36.6.356,36,6,356,employee_age_range,k18-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,356,employee_age_range
+36.10.356,36,10,356,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,356,search_target
+36.5.357,36,5,357,employee_gender,Mae,Male,RANDOM_TYPO,UK_CSV0000000000002536,357,employee_gender
+36.10.357,36,10,357,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,357,search_target
+36.6.358,36,6,358,employee_age_range,ver 34,over 34,RANDOM_TYPO,UK_CSV0000000000002536,358,employee_age_range
+36.10.358,36,10,358,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,358,search_target
+36.7.359,36,7,359,selfdefined_ethnicity,lBack/African/Caribbean/Black British - Any other Black/African/Caribbean background,Black/African/Caribbean/Black British - Any other Black/African/Caribbean background,RANDOM_TYPO,UK_CSV0000000000002536,359,selfdefined_ethnicity
+36.8.359,36,8,359,officially_recorded_ethnicity,lack,Black,RANDOM_TYPO,UK_CSV0000000000002536,359,officially_recorded_ethnicity
+36.10.359,36,10,359,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,359,search_target
+36.10.360,36,10,360,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,360,search_target
+36.10.361,36,10,361,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,361,search_target
+36.10.362,36,10,362,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,362,search_target
+36.10.363,36,10,363,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,363,search_target
+36.7.364,36,7,364,selfdefined_ethnicity,Blazck/African/Caribbean/Black British - African,Black/African/Caribbean/Black British - African,RANDOM_TYPO,UK_CSV0000000000002536,364,selfdefined_ethnicity
+36.10.364,36,10,364,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,364,search_target
+36.10.365,36,10,365,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,365,search_target
+36.10.366,36,10,366,search_target,Anything to threaten or harm anyone,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,366,search_target
+36.10.367,36,10,367,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,367,search_target
+36.1.368,36,1,368,transaction_date,2022-0515T14:45:00+00:00,2022-05-15T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,368,transaction_date
+36.10.368,36,10,368,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,368,search_target
+36.7.369,36,7,369,selfdefined_ethnicity,Asian/Asian British - Any other sAian background,Asian/Asian British - Any other Asian background,RANDOM_TYPO,UK_CSV0000000000002536,369,selfdefined_ethnicity
+36.10.369,36,10,369,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,369,search_target
+36.10.370,36,10,370,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,370,search_target
+36.10.371,36,10,371,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,371,search_target
+36.10.372,36,10,372,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,372,search_target
+36.10.373,36,10,373,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,373,search_target
+36.0.374,36,0,374,expense_type,rTavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,374,expense_type
+36.10.374,36,10,374,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,374,search_target
+36.10.375,36,10,375,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,375,search_target
+36.10.376,36,10,376,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,376,search_target
+36.10.377,36,10,377,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,377,search_target
+36.10.378,36,10,378,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,378,search_target
+36.10.379,36,10,379,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,379,search_target
+36.11.379,36,11,379,resultof_search,Discovrey,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,379,resultof_search
+36.1.380,36,1,380,transaction_date,2020-07u-14T13:30:00+00:00,2020-07-14T13:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,380,transaction_date
+36.10.380,36,10,380,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,380,search_target
+36.1.381,36,1,381,transaction_date,2022-07-15T10:30:00+00:0,2022-07-15T10:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,381,transaction_date
+36.10.381,36,10,381,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,381,search_target
+36.7.382,36,7,382,selfdefined_ethnicity,White - English/Welsh/Scottish/Northrn Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,382,selfdefined_ethnicity
+36.10.382,36,10,382,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,382,search_target
+36.10.383,36,10,383,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,383,search_target
+36.6.384,36,6,384,employee_age_range,18-4,18-24,RANDOM_TYPO,UK_CSV0000000000002536,384,employee_age_range
+36.10.384,36,10,384,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,384,search_target
+36.10.385,36,10,385,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,385,search_target
+36.6.386,36,6,386,employee_age_range,2534,25-34,RANDOM_TYPO,UK_CSV0000000000002536,386,employee_age_range
+36.10.386,36,10,386,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,386,search_target
+36.7.387,36,7,387,selfdefined_ethnicity,White - English/Welsh/Scottish/Nothern Irish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,387,selfdefined_ethnicity
+36.8.387,36,8,387,officially_recorded_ethnicity,Whte,White,RANDOM_TYPO,UK_CSV0000000000002536,387,officially_recorded_ethnicity
+36.10.387,36,10,387,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,387,search_target
+36.11.387,36,11,387,resultof_search,Prosecultion,Prosecution,RANDOM_TYPO,UK_CSV0000000000002536,387,resultof_search
+36.7.388,36,7,388,selfdefined_ethnicity,Other epthnic group - Not stated,Other ethnic group - Not stated,RANDOM_TYPO,UK_CSV0000000000002536,388,selfdefined_ethnicity
+36.10.388,36,10,388,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,388,search_target
+36.10.389,36,10,389,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,389,search_target
+36.10.390,36,10,390,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,390,search_target
+36.6.391,36,6,391,employee_age_range,over 43,over 34,RANDOM_TYPO,UK_CSV0000000000002536,391,employee_age_range
+36.10.391,36,10,391,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,391,search_target
+36.0.392,36,0,392,expense_type,rTavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,392,expense_type
+36.1.392,36,1,392,transaction_date,2022-01-m15T14:00:00+00:00,2022-01-15T14:00:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,392,transaction_date
+36.5.392,36,5,392,employee_gender,Mae,Male,RANDOM_TYPO,UK_CSV0000000000002536,392,employee_gender
+36.10.392,36,10,392,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,392,search_target
+36.10.393,36,10,393,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,393,search_target
+36.11.393,36,11,393,resultof_search,Dicsovery,Discovery,RANDOM_TYPO,UK_CSV0000000000002536,393,resultof_search
+36.1.394,36,1,394,transaction_date,2022-05-15T14:03:00+00:00,2022-05-15T14:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,394,transaction_date
+36.5.394,36,5,394,employee_gender,xMale,Male,RANDOM_TYPO,UK_CSV0000000000002536,394,employee_gender
+36.10.394,36,10,394,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,394,search_target
+36.10.395,36,10,395,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,395,search_target
+36.1.396,36,1,396,transaction_date,2022-07-15T08:45:00+0:00,2022-07-15T08:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,396,transaction_date
+36.10.396,36,10,396,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,396,search_target
+36.10.397,36,10,397,search_target,Controlled drugs,Firearms,FD_VIOLATION,UK_CSV0000000000002536,397,search_target
+36.10.398,36,10,398,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,398,search_target
+36.10.399,36,10,399,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,399,search_target
+36.10.400,36,10,400,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,400,search_target
+36.6.401,36,6,401,employee_age_range,oer 34,over 34,RANDOM_TYPO,UK_CSV0000000000002536,401,employee_age_range
+36.8.401,36,8,401,officially_recorded_ethnicity,Whitie,White,RANDOM_TYPO,UK_CSV0000000000002536,401,officially_recorded_ethnicity
+36.10.401,36,10,401,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,401,search_target
+36.10.402,36,10,402,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,402,search_target
+36.5.403,36,5,403,employee_gender,Mlae,Male,RANDOM_TYPO,UK_CSV0000000000002536,403,employee_gender
+36.10.403,36,10,403,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,403,search_target
+36.10.404,36,10,404,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,404,search_target
+36.10.405,36,10,405,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,405,search_target
+36.10.406,36,10,406,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,406,search_target
+36.10.407,36,10,407,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,407,search_target
+36.11.407,36,11,407,resultof_search,Fie Receipt,Fine Receipt,RANDOM_TYPO,UK_CSV0000000000002536,407,resultof_search
+36.10.408,36,10,408,search_target,Anything to threaten or harm anyone,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,408,search_target
+36.10.409,36,10,409,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,409,search_target
+36.7.410,36,7,410,selfdefined_ethnicity,Balck/African/Caribbean/Black British - African,Black/African/Caribbean/Black British - African,RANDOM_TYPO,UK_CSV0000000000002536,410,selfdefined_ethnicity
+36.10.410,36,10,410,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,410,search_target
+36.8.411,36,8,411,officially_recorded_ethnicity,Asipan,Asian,RANDOM_TYPO,UK_CSV0000000000002536,411,officially_recorded_ethnicity
+36.10.411,36,10,411,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,411,search_target
+36.10.412,36,10,412,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,412,search_target
+36.10.413,36,10,413,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,413,search_target
+36.10.414,36,10,414,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,414,search_target
+36.10.415,36,10,415,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,415,search_target
+36.5.416,36,5,416,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,416,employee_gender
+36.10.416,36,10,416,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,416,search_target
+36.6.417,36,6,417,employee_age_range,1-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,417,employee_age_range
+36.7.417,36,7,417,selfdefined_ethnicity,White - English/Welsh/Scottish/NorthernI rish/British,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,417,selfdefined_ethnicity
+36.10.417,36,10,417,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,417,search_target
+36.10.418,36,10,418,search_target,Evidence of offences under the Act,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,418,search_target
+36.1.419,36,1,419,transaction_date,2022-80-15T10:20:00+00:00,2022-08-15T10:20:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,419,transaction_date
+36.10.419,36,10,419,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,419,search_target
+36.10.420,36,10,420,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,420,search_target
+36.10.421,36,10,421,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,421,search_target
+36.5.422,36,5,422,employee_gender,Femlae,Female,RANDOM_TYPO,UK_CSV0000000000002536,422,employee_gender
+36.8.422,36,8,422,officially_recorded_ethnicity,Whtie,White,RANDOM_TYPO,UK_CSV0000000000002536,422,officially_recorded_ethnicity
+36.10.422,36,10,422,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,422,search_target
+36.10.423,36,10,423,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,423,search_target
+36.5.424,36,5,424,employee_gender,sMale,Male,RANDOM_TYPO,UK_CSV0000000000002536,424,employee_gender
+36.10.424,36,10,424,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,424,search_target
+36.10.425,36,10,425,search_target,Controlled drugs,Articles for use in criminal damage,FD_VIOLATION,UK_CSV0000000000002536,425,search_target
+36.1.426,36,1,426,transaction_date,2022-07-21T14:4y5:00+00:00,2022-07-21T14:45:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,426,transaction_date
+36.6.426,36,6,426,employee_age_range,1-24,18-24,RANDOM_TYPO,UK_CSV0000000000002536,426,employee_age_range
+36.10.426,36,10,426,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,426,search_target
+36.10.427,36,10,427,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,427,search_target
+36.10.428,36,10,428,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,428,search_target
+36.5.429,36,5,429,employee_gender,Fmale,Female,RANDOM_TYPO,UK_CSV0000000000002536,429,employee_gender
+36.10.429,36,10,429,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,429,search_target
+36.10.430,36,10,430,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,430,search_target
+36.0.431,36,0,431,expense_type,Trvel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,431,expense_type
+36.10.431,36,10,431,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,431,search_target
+36.0.432,36,0,432,expense_type,Trgavel,Travel,RANDOM_TYPO,UK_CSV0000000000002536,432,expense_type
+36.10.432,36,10,432,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,432,search_target
+36.10.433,36,10,433,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,433,search_target
+36.1.434,36,1,434,transaction_date,2023-08-15T09:30:00+00:00***,2023-08-15T09:30:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,434,transaction_date
+36.10.434,36,10,434,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,434,search_target
+36.10.435,36,10,435,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,435,search_target
+36.1.436,36,1,436,transaction_date,20t22-01-15T10:00:00+00:00,2022-01-15T10:00:00+00:00,RANDOM_TYPO,UK_CSV0000000000002536,436,transaction_date
+36.10.436,36,10,436,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,436,search_target
+36.5.437,36,5,437,employee_gender,ale,Male,RANDOM_TYPO,UK_CSV0000000000002536,437,employee_gender
+36.10.437,36,10,437,search_target,Controlled drugs,Anything to threaten or harm anyone,FD_VIOLATION,UK_CSV0000000000002536,437,search_target
+36.10.438,36,10,438,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,438,search_target
+36.7.439,36,7,439,selfdefined_ethnicity,White - English/Welsh/Scottish/Northern Iris/hBritish,White - English/Welsh/Scottish/Northern Irish/British,RANDOM_TYPO,UK_CSV0000000000002536,439,selfdefined_ethnicity
+36.10.439,36,10,439,search_target,Controlled drugs,Evidence of offences under the Act,FD_VIOLATION,UK_CSV0000000000002536,439,search_target
+36.10.440,36,10,440,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,440,search_target
+36.10.441,36,10,441,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,441,search_target
+36.10.442,36,10,442,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,442,search_target
+36.10.443,36,10,443,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,443,search_target
+36.10.444,36,10,444,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,444,search_target
+36.10.445,36,10,445,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,445,search_target
+36.10.446,36,10,446,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,446,search_target
+36.10.447,36,10,447,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,447,search_target
+36.10.448,36,10,448,search_target,Controlled drugs,Stolen goods,FD_VIOLATION,UK_CSV0000000000002536,448,search_target
+36.10.449,36,10,449,search_target,Offensive weapons,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,449,search_target
+36.8.450,36,8,450,officially_recorded_ethnicity,hWite,White,RANDOM_TYPO,UK_CSV0000000000002536,450,officially_recorded_ethnicity
+36.10.450,36,10,450,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,450,search_target
+36.10.451,36,10,451,search_target,Controlled drugs,Offensive weapons,FD_VIOLATION,UK_CSV0000000000002536,451,search_target
+36.10.452,36,10,452,search_target,Stolen goods,Controlled drugs,FD_VIOLATION,UK_CSV0000000000002536,452,search_target

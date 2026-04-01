@@ -1,0 +1,301 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+12.unitid,12,unitid,159822,1012014.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+29.download_two_zero_two_onepm,29,download_two_zero_two_onepm,12.44,14.19,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+28.unitid,28,unitid,939762,1012014.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+171.packet_losspeak,171,packet_losspeak,0.00%,.000%,RANDOM_TYPO,,[]
+28.downloadpeakminave,28,downloadpeakminave,36.89,218.16,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+4.download_one_two_one_eightpm,4,download_one_two_one_eightpm,356.43,15.05,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+45.i_player_uhd_two_fourhr,45,i_player_uhd_two_fourhr,0.00%,00.0%,RANDOM_TYPO,,[]
+15.webloading_two_fourh,15,webloading_two_fourh,244.46,373.36,FD_VIOLATION,unitid -> webloading_two_fourh,"[e19, e1, e18]"
+42.i_player_uhd_two_fourhr,42,i_player_uhd_two_fourhr,0.00%,.00%,RANDOM_TYPO,,[]
+64.i_player_uhd_two_fourhr,64,i_player_uhd_two_fourhr,0.00%,.000%,RANDOM_TYPO,,[]
+118.i_player_uhd_two_fourhr,118,i_player_uhd_two_fourhr,0.00%,0.0q0%,RANDOM_TYPO,,[]
+24.webloading_two_fourh,24,webloading_two_fourh,168.47,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+20.download_one_two_one_eightpm,20,download_one_two_one_eightpm,64.91,15.05,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+162.i_player_sd_two_fourhr,162,i_player_sd_two_fourhr,0.00%,0.0%,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e25]
+37.i_player_sd_two_fourhr,37,i_player_sd_two_fourhr,0.00%,p0.00%,RANDOM_TYPO,,[]
+28.download_two_zero_two_onepm,28,download_two_zero_two_onepm,37.78,217.04,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+74.isp,74,isp,Verizon,Vrizon,RANDOM_TYPO,,[]
+11.download_one_two_one_eightpm,11,download_one_two_one_eightpm,37.12,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+12.you_tube_startup_delay_peak,12,you_tube_startup_delay_peak,1888.99,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+19.download_two_zero_two_onepm,19,download_two_zero_two_onepm,22.21,359.54,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+244.region,244,region,Yorkshire & Humberside,Yorkshire & Humberide,RANDOM_TYPO,,[]
+59.isp,59,isp,Comcast,Cmocast,RANDOM_TYPO,,[]
+165.region,165,region,East,kEast,RANDOM_TYPO,,[]
+27.unitid,27,unitid,939948,814223.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+186.i_player_uhd_two_fourhr,186,i_player_uhd_two_fourhr,0.00%,.000%,RANDOM_TYPO,,[]
+213.you_tube_sd_two_fourhr,213,you_tube_sd_two_fourhr,6.69%,.69%,RANDOM_TYPO,,[]
+22.download_two_zero_two_onepm,22,download_two_zero_two_onepm,107.46,67.22,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+204.isp,204,isp,Verizon,erizon,RANDOM_TYPO,,[]
+29.unitid,29,unitid,942378,812782.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+94.i_player_uhd_two_fourhr,94,i_player_uhd_two_fourhr,0.00%,0.o00%,RANDOM_TYPO,,[]
+33.you_tube_startup_delay_peak,33,you_tube_startup_delay_peak,456.92,491.03,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e2]"
+27.download_two_zero_two_onepm,27,download_two_zero_two_onepm,53.17,359.54,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+171.dns_failurepeak,171,dns_failurepeak,0.00%,0.0%0,FD_VIOLATION,unitid -> dns_failurepeak,[e23]
+10.download_one_two_one_eightpm,10,download_one_two_one_eightpm,214.41,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+26.download_one_two_one_eightpm,26,download_one_two_one_eightpm,18.29,109.78,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+19.you_tube_startup_delay_peak,19,you_tube_startup_delay_peak,1086.36,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+15.you_tube_startup_delay_peak,15,you_tube_startup_delay_peak,743.21,592.47,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21]"
+195.you_tube_sd_two_fourhr,195,you_tube_sd_two_fourhr,3.46%,.46%,RANDOM_TYPO,,[]
+3.download_one_two_one_eightpm,3,download_one_two_one_eightpm,217.8,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+34.you_tube_sd_two_fourhr,34,you_tube_sd_two_fourhr,3.52%,.52%,FD_VIOLATION,unitid -> you_tube_sd_two_fourhr,[e10]
+118.dns_failurepeak,118,dns_failurepeak,0.28%,0.82%,RANDOM_TYPO,,[]
+227.packet_losspeak,227,packet_losspeak,0.03%,.03%,RANDOM_TYPO,,[]
+24.unitid,24,unitid,949754,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+30.isp,30,isp,Comcast,Comcagst,FD_VIOLATION,unitid -> isp,[e15]
+34.packet_losspeak,34,packet_losspeak,0.03%,00.3%,FD_VIOLATION,unitid -> packet_losspeak,[e11]
+41.region,41,region,Wales,aWles,RANDOM_TYPO,,[]
+97.region,97,region,South East,South Eats,RANDOM_TYPO,,[]
+12.downloadpeakminave,12,downloadpeakminave,4.15,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+31.download_two_zero_two_onepm,31,download_two_zero_two_onepm,7.69,361.41,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+154.technology,154,technology,FTTC,hFTTC,RANDOM_TYPO,,[]
+159.region,159,region,South West,South Westt,RANDOM_TYPO,,[]
+140.i_player_sd_two_fourhr,140,i_player_sd_two_fourhr,0.00%,0.0%0,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e20]
+18.download_one_two_one_eightpm,18,download_one_two_one_eightpm,35.76,69.93,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+133.i_player_sd_two_fourhr,133,i_player_sd_two_fourhr,0.00%,0.0t0%,RANDOM_TYPO,,[]
+34.i_player_sd_two_fourhr,34,i_player_sd_two_fourhr,0.00%,00.0%,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e12]
+8.download_one_two_one_eightpm,8,download_one_two_one_eightpm,210.15,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+216.technology,216,technology,FTTC,TFTC,RANDOM_TYPO,,[]
+202.you_tube_sd_two_fourhr,202,you_tube_sd_two_fourhr,2.38%,2.3%8,RANDOM_TYPO,,[]
+26.you_tube_startup_delay_peak,26,you_tube_startup_delay_peak,1146.45,1069.65,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+53.region,53,region,West Midlands,West Midalnds,RANDOM_TYPO,,[]
+53.i_player_sd_two_fourhr,53,i_player_sd_two_fourhr,0.00%,0k.00%,RANDOM_TYPO,,[]
+121.isp,121,isp,Virgin,irgin,RANDOM_TYPO,,[]
+18.you_tube_startup_delay_peak,18,you_tube_startup_delay_peak,1024.8,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+26.unitid,26,unitid,362322,662360.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+58.technology,58,technology,FTTC,FTqTC,RANDOM_TYPO,,[]
+29.downloadpeakminave,29,downloadpeakminave,12.12,212.64,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+181.technology,181,technology,FTTC,FTCT,FD_VIOLATION,unitid -> technology,[e22]
+1.download_one_two_one_eightpm,1,download_one_two_one_eightpm,26.26,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+54.i_player_sd_two_fourhr,54,i_player_sd_two_fourhr,0.00%,0.00%***,RANDOM_TYPO,,[]
+49.packet_losspeak,49,packet_losspeak,0.01%,0.10%,RANDOM_TYPO,,[]
+238.i_player_uhd_two_fourhr,238,i_player_uhd_two_fourhr,0.00%,0.v00%,RANDOM_TYPO,,[]
+134.dns_failurepeak,134,dns_failurepeak,0.00%,.000%,RANDOM_TYPO,,[]
+172.i_player_uhd_two_fourhr,172,i_player_uhd_two_fourhr,0.00%,.000%,RANDOM_TYPO,,[]
+14.download_one_two_one_eightpm,14,download_one_two_one_eightpm,376.43,15.05,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+11.you_tube_startup_delay_peak,11,you_tube_startup_delay_peak,1081.13,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+124.region,124,region,South West,Sout hWest,RANDOM_TYPO,,[]
+35.you_tube_sd_two_fourhr,35,you_tube_sd_two_fourhr,2.70%,2.7%,RANDOM_TYPO,,[]
+25.downloadpeakminave,25,downloadpeakminave,31.27,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+240.region,240,region,South East,Sotuh East,RANDOM_TYPO,,[]
+32.isp,32,isp,Verizon,erizon,FD_VIOLATION,unitid -> isp,[e15]
+22.unitid,22,unitid,996917,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+30.unitid,30,unitid,882955,813909.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+6.webloading_two_fourh,6,webloading_two_fourh,110.42,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+224.dns_failurepeak,224,dns_failurepeak,0.00%,0.00%***,FD_VIOLATION,unitid -> dns_failurepeak,[e23]
+30.you_tube_startup_delay_peak,30,you_tube_startup_delay_peak,969.63,722.51,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e2]"
+17.download_two_zero_two_onepm,17,download_two_zero_two_onepm,70.18,217.04,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+14.you_tube_startup_delay_peak,14,you_tube_startup_delay_peak,640.23,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+28.webloading_two_fourh,28,webloading_two_fourh,193.51,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+200.region,200,region,Scotland,Scotand,RANDOM_TYPO,,[]
+13.downloadpeakminave,13,downloadpeakminave,65.45,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23]"
+242.packet_losspeak,242,packet_losspeak,0.02%,0.02y%,RANDOM_TYPO,,[]
+245.you_tube_sd_two_fourhr,245,you_tube_sd_two_fourhr,3.75%,3.7d5%,RANDOM_TYPO,,[]
+10.unitid,10,unitid,148460,814223.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+6.download_one_two_one_eightpm,6,download_one_two_one_eightpm,74.01,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+9.downloadpeakminave,9,downloadpeakminave,66.45,212.64,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+14.downloadpeakminave,14,downloadpeakminave,353.04,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+25.unitid,25,unitid,30048373,662360.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+21.unitid,21,unitid,148890,148264.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+33.downloadpeakminave,33,downloadpeakminave,67.52,212.64,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+78.i_player_uhd_two_fourhr,78,i_player_uhd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+119.i_player_sd_two_fourhr,119,i_player_sd_two_fourhr,0.00%,.00%,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e20]
+28.i_player_sd_two_fourhr,28,i_player_sd_two_fourhr,0.00%,0.0%0,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,"[e12, e25, e17]"
+9.unitid,9,unitid,143966,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+69.dns_failurepeak,69,dns_failurepeak,1.23%,1.2%3,RANDOM_TYPO,,[]
+242.i_player_sd_two_fourhr,242,i_player_sd_two_fourhr,0.00%,0.00%***,RANDOM_TYPO,,[]
+123.technology,123,technology,FTTP,FTTP***,FD_VIOLATION,unitid -> technology,[e24]
+11.downloadpeakminave,11,downloadpeakminave,36.57,211.99,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e4]"
+18.webloading_two_fourh,18,webloading_two_fourh,267.47,144.97,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1]"
+204.technology,204,technology,FTTC,FTgTC,FD_VIOLATION,unitid -> technology,[e22]
+81.you_tube_sd_two_fourhr,81,you_tube_sd_two_fourhr,4.76%,4.67%,RANDOM_TYPO,,[]
+2.you_tube_startup_delay_peak,2,you_tube_startup_delay_peak,1374.94,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+111.region,111,region,Scotland,Scotalnd,RANDOM_TYPO,,[]
+15.downloadpeakminave,15,downloadpeakminave,64.24,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23]"
+9.you_tube_startup_delay_peak,9,you_tube_startup_delay_peak,985.03,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+16.unitid,16,unitid,849751,947286.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e5, e6, e7, e8, e11, e9, e10, e12, e15, e14, e16, e2]"
+23.webloading_two_fourh,23,webloading_two_fourh,261.8,125.16,FD_VIOLATION,unitid -> webloading_two_fourh,"[e19, e1, e18]"
+9.i_player_uhd_two_fourhr,9,i_player_uhd_two_fourhr,0.00%,0.0%,RANDOM_TYPO,,[]
+7.download_one_two_one_eightpm,7,download_one_two_one_eightpm,50.94,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+79.packet_losspeak,79,packet_losspeak,0.01%,0.0%1,RANDOM_TYPO,,[]
+26.downloadpeakminave,26,downloadpeakminave,15.99,218.16,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+76.dns_failurepeak,76,dns_failurepeak,0.00%,o0.00%,RANDOM_TYPO,,[]
+56.i_player_sd_two_fourhr,56,i_player_sd_two_fourhr,0.00%,00.0%,RANDOM_TYPO,,[]
+34.unitid,34,unitid,147726,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+148.i_player_sd_two_fourhr,148,i_player_sd_two_fourhr,0.00%,00.0%,RANDOM_TYPO,,[]
+32.download_two_zero_two_onepm,32,download_two_zero_two_onepm,72.88,71.98,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+23.unitid,23,unitid,571684,532372.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e10, e13, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+25.download_two_zero_two_onepm,25,download_two_zero_two_onepm,32.04,4.21,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+32.unitid,32,unitid,662446,812782.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+43.i_player_uhd_two_fourhr,43,i_player_uhd_two_fourhr,0.00%,.000%,RANDOM_TYPO,,[]
+12.webloading_two_fourh,12,webloading_two_fourh,1024.94,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+200.i_player_uhd_two_fourhr,200,i_player_uhd_two_fourhr,0.00%,0.00g%,RANDOM_TYPO,,[]
+147.i_player_sd_two_fourhr,147,i_player_sd_two_fourhr,0.00%,0.0%,RANDOM_TYPO,,[]
+8.webloading_two_fourh,8,webloading_two_fourh,277.21,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e18]"
+119.i_player_uhd_two_fourhr,119,i_player_uhd_two_fourhr,0.00%,0.0%,RANDOM_TYPO,,[]
+147.dns_failurepeak,147,dns_failurepeak,0.00%,000%,RANDOM_TYPO,,[]
+117.dns_failurepeak,117,dns_failurepeak,0.00%,0.0v0%,RANDOM_TYPO,,[]
+215.you_tube_sd_two_fourhr,215,you_tube_sd_two_fourhr,3.23%,323%,RANDOM_TYPO,,[]
+19.downloadpeakminave,19,downloadpeakminave,21.87,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+16.download_two_zero_two_onepm,16,download_two_zero_two_onepm,4.83,212.02,FD_VIOLATION,unitid -> download_two_zero_two_onepm,[e22]
+43.region,43,region,East,Elast,RANDOM_TYPO,,[]
+202.technology,202,technology,FTTC,FTTC***,RANDOM_TYPO,,[]
+240.i_player_sd_two_fourhr,240,i_player_sd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+186.dns_failurepeak,186,dns_failurepeak,0.00%,0.0%0,FD_VIOLATION,unitid -> dns_failurepeak,[e23]
+32.downloadpeakminave,32,downloadpeakminave,71.38,218.16,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+184.you_tube_sd_two_fourhr,184,you_tube_sd_two_fourhr,5.83%,.83%,RANDOM_TYPO,,[]
+92.dns_failurepeak,92,dns_failurepeak,0.00%,.00%,FD_VIOLATION,unitid -> dns_failurepeak,[e23]
+222.i_player_sd_two_fourhr,222,i_player_sd_two_fourhr,100.00%,100.00x%,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e25]
+154.region,154,region,Yorkshire & Humberside,Yorkshire & Humbefrside,RANDOM_TYPO,,[]
+20.download_two_zero_two_onepm,20,download_two_zero_two_onepm,65.47,218.51,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+186.technology,186,technology,FTTC,TTC,FD_VIOLATION,unitid -> technology,[e24]
+1.you_tube_startup_delay_peak,1,you_tube_startup_delay_peak,710.0,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+5.download_one_two_one_eightpm,5,download_one_two_one_eightpm,35.48,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+188.technology,188,technology,FTTC,TTC,RANDOM_TYPO,,[]
+17.downloadpeakminave,17,downloadpeakminave,70.13,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+38.dns_failurepeak,38,dns_failurepeak,0.00%,00.0%,FD_VIOLATION,unitid -> dns_failurepeak,[e23]
+30.region,30,region,Yorkshire & Humberside,Yorkshire & Humberjside,FD_VIOLATION,unitid -> region,"[e14, e19]"
+140.region,140,region,Wales,ales,RANDOM_TYPO,,[]
+3.webloading_two_fourh,3,webloading_two_fourh,282.2,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+97.isp,97,isp,Verizon,Verzion,RANDOM_TYPO,,[]
+6.downloadpeakminave,6,downloadpeakminave,73.54,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+156.dns_failurepeak,156,dns_failurepeak,0.00%,00.0%,RANDOM_TYPO,,[]
+170.packet_losspeak,170,packet_losspeak,0.07%,.07%,RANDOM_TYPO,,[]
+29.webloading_two_fourh,29,webloading_two_fourh,489.74,382.39,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+1.download_two_zero_two_onepm,1,download_two_zero_two_onepm,25.67,217.04,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+18.unitid,18,unitid,143866,813909.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+5.unitid,5,unitid,182566,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+1.webloading_two_fourh,1,webloading_two_fourh,328.26,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e18]"
+238.i_player_sd_two_fourhr,238,i_player_sd_two_fourhr,0.00%,0.0%,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e25]
+24.you_tube_startup_delay_peak,24,you_tube_startup_delay_peak,416.24,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+30.downloadpeakminave,30,downloadpeakminave,33.07,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+184.region,184,region,Scotland,cSotland,RANDOM_TYPO,,[]
+130.dns_failurepeak,130,dns_failurepeak,0.00%,0.00d%,RANDOM_TYPO,,[]
+4.isp,4,isp,Comcast,Comcst,FD_VIOLATION,unitid -> isp,[e15]
+23.download_two_zero_two_onepm,23,download_two_zero_two_onepm,209.63,69.32,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+97.i_player_sd_two_fourhr,97,i_player_sd_two_fourhr,0.00%,0.00%***,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e25]
+27.downloadpeakminave,27,downloadpeakminave,53.14,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+142.technology,142,technology,FTTC,kFTTC,FD_VIOLATION,unitid -> technology,[e22]
+196.dns_failurepeak,196,dns_failurepeak,0.00%,v0.00%,RANDOM_TYPO,,[]
+84.region,84,region,North West,North Wekst,RANDOM_TYPO,,[]
+234.isp,234,isp,AT&T,T&T,RANDOM_TYPO,,[]
+230.region,230,region,South West,South Wesrt,RANDOM_TYPO,,[]
+239.technology,239,technology,FTTC,TTC,FD_VIOLATION,unitid -> technology,[e22]
+17.you_tube_startup_delay_peak,17,you_tube_startup_delay_peak,928.0,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+87.technology,87,technology,Cable,Cble,RANDOM_TYPO,,[]
+104.you_tube_sd_two_fourhr,104,you_tube_sd_two_fourhr,3.05%,3.05d%,RANDOM_TYPO,,[]
+210.region,210,region,Scotland,cotland,RANDOM_TYPO,,[]
+159.you_tube_sd_two_fourhr,159,you_tube_sd_two_fourhr,3.48%,3.8%,RANDOM_TYPO,,[]
+160.isp,160,isp,Verizon,Verzion,RANDOM_TYPO,,[]
+175.packet_losspeak,175,packet_losspeak,0.05%,p0.05%,RANDOM_TYPO,,[]
+189.isp,189,isp,Sky,ky,RANDOM_TYPO,,[]
+13.you_tube_startup_delay_peak,13,you_tube_startup_delay_peak,1037.16,592.47,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21]"
+119.dns_failurepeak,119,dns_failurepeak,0.00%,.000%,FD_VIOLATION,unitid -> dns_failurepeak,[e21]
+167.dns_failurepeak,167,dns_failurepeak,0.00%,0.0m0%,FD_VIOLATION,unitid -> dns_failurepeak,[e18]
+33.unitid,33,unitid,5220517,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+136.you_tube_sd_two_fourhr,136,you_tube_sd_two_fourhr,2.79%,2.7%9,RANDOM_TYPO,,[]
+144.packet_losspeak,144,packet_losspeak,0.00%,p0.00%,RANDOM_TYPO,,[]
+217.i_player_sd_two_fourhr,217,i_player_sd_two_fourhr,1.94%,1.9%,RANDOM_TYPO,,[]
+15.download_two_zero_two_onepm,15,download_two_zero_two_onepm,66.38,217.04,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+92.technology,92,technology,FTTC,TTC,FD_VIOLATION,unitid -> technology,[e24]
+10.you_tube_startup_delay_peak,10,you_tube_startup_delay_peak,663.88,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+17.webloading_two_fourh,17,webloading_two_fourh,288.3,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+21.you_tube_startup_delay_peak,21,you_tube_startup_delay_peak,977.63,592.47,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+194.packet_losspeak,194,packet_losspeak,0.13%,0.31%,RANDOM_TYPO,,[]
+52.technology,52,technology,FTTC,FtTTC,RANDOM_TYPO,,[]
+205.i_player_sd_two_fourhr,205,i_player_sd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+30.webloading_two_fourh,30,webloading_two_fourh,193.53,144.97,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1]"
+25.download_one_two_one_eightpm,25,download_one_two_one_eightpm,32.81,4.24,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+26.webloading_two_fourh,26,webloading_two_fourh,315.19,183.89,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+140.dns_failurepeak,140,dns_failurepeak,0.00%,0.0x0%,FD_VIOLATION,unitid -> dns_failurepeak,[e21]
+220.i_player_sd_two_fourhr,220,i_player_sd_two_fourhr,0.00%,0.0z0%,RANDOM_TYPO,,[]
+73.you_tube_sd_two_fourhr,73,you_tube_sd_two_fourhr,3.09%,3.0q9%,RANDOM_TYPO,,[]
+234.region,234,region,Scotland,Scotalnd,RANDOM_TYPO,,[]
+141.region,141,region,Scotland,Sotland,RANDOM_TYPO,,[]
+206.region,206,region,Northern Ireland,Northesrn Ireland,RANDOM_TYPO,,[]
+49.i_player_uhd_two_fourhr,49,i_player_uhd_two_fourhr,0.00%,0.00y%,RANDOM_TYPO,,[]
+224.technology,224,technology,ADSL2,ADS2L,FD_VIOLATION,unitid -> technology,[e24]
+223.you_tube_sd_two_fourhr,223,you_tube_sd_two_fourhr,3.52%,m3.52%,RANDOM_TYPO,,[]
+204.dns_failurepeak,204,dns_failurepeak,0.00%,0.0%,RANDOM_TYPO,,[]
+107.you_tube_sd_two_fourhr,107,you_tube_sd_two_fourhr,3.64%,364%,RANDOM_TYPO,,[]
+22.downloadpeakminave,22,downloadpeakminave,107.41,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+9.webloading_two_fourh,9,webloading_two_fourh,152.44,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+22.webloading_two_fourh,22,webloading_two_fourh,268.21,125.16,FD_VIOLATION,unitid -> webloading_two_fourh,"[e19, e1, e18]"
+171.technology,171,technology,FTTC,TTC,FD_VIOLATION,unitid -> technology,[e24]
+163.region,163,region,Scotland,Scotalnd,RANDOM_TYPO,,[]
+15.unitid,15,unitid,950400,473242.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e5, e6, e7, e8, e11, e9, e10, e13, e15, e14, e1, e3]"
+25.webloading_two_fourh,25,webloading_two_fourh,606.33,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+60.technology,60,technology,Cable,Cbale,RANDOM_TYPO,,[]
+235.dns_failurepeak,235,dns_failurepeak,0.00%,0.00%***,RANDOM_TYPO,,[]
+110.technology,110,technology,FTTC,FTTnC,RANDOM_TYPO,,[]
+202.isp,202,isp,Virgin,Vrgin,RANDOM_TYPO,,[]
+21.webloading_two_fourh,21,webloading_two_fourh,85.07,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+167.region,167,region,South West,Suth West,FD_VIOLATION,unitid -> region,[e19]
+10.webloading_two_fourh,10,webloading_two_fourh,182.52,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+123.you_tube_sd_two_fourhr,123,you_tube_sd_two_fourhr,3.79%,3z.79%,RANDOM_TYPO,,[]
+136.i_player_sd_two_fourhr,136,i_player_sd_two_fourhr,0.00%,0.00%***,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e25]
+68.region,68,region,East,lEast,RANDOM_TYPO,,[]
+37.isp,37,isp,Sky,kSy,RANDOM_TYPO,,[]
+103.technology,103,technology,FTTC,TTC,RANDOM_TYPO,,[]
+20.downloadpeakminave,20,downloadpeakminave,64.39,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+183.technology,183,technology,Cable,able,RANDOM_TYPO,,[]
+180.dns_failurepeak,180,dns_failurepeak,0.00%,0.00p%,RANDOM_TYPO,,[]
+31.unitid,31,unitid,800276,633038.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e5, e6, e7, e8, e11, e9, e10, e15, e14, e2, e3, e4]"
+168.dns_failurepeak,168,dns_failurepeak,0.00%,000%,RANDOM_TYPO,,[]
+230.packet_losspeak,230,packet_losspeak,0.00%,0.0%,RANDOM_TYPO,,[]
+19.download_one_two_one_eightpm,19,download_one_two_one_eightpm,22.56,69.71,FD_VIOLATION,unitid -> download_one_two_one_eightpm,"[e5, e25]"
+100.dns_failurepeak,100,dns_failurepeak,0.00%,0.0r0%,RANDOM_TYPO,,[]
+52.dns_failurepeak,52,dns_failurepeak,0.00%,.000%,RANDOM_TYPO,,[]
+224.isp,224,isp,Virgin,Vigrin,RANDOM_TYPO,,[]
+173.packet_losspeak,173,packet_losspeak,0.03%,.03%,RANDOM_TYPO,,[]
+11.download_two_zero_two_onepm,11,download_two_zero_two_onepm,36.92,359.54,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+90.you_tube_sd_two_fourhr,90,you_tube_sd_two_fourhr,4.14%,4.1%4,RANDOM_TYPO,,[]
+84.isp,84,isp,Comcast,Comvcast,RANDOM_TYPO,,[]
+5.downloadpeakminave,5,downloadpeakminave,35.35,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+65.i_player_sd_two_fourhr,65,i_player_sd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+231.packet_losspeak,231,packet_losspeak,1.36%,1.3%6,RANDOM_TYPO,,[]
+163.i_player_uhd_two_fourhr,163,i_player_uhd_two_fourhr,0.00%,0.0%,RANDOM_TYPO,,[]
+18.download_two_zero_two_onepm,18,download_two_zero_two_onepm,33.34,359.54,FD_VIOLATION,unitid -> download_two_zero_two_onepm,"[e22, e3]"
+195.technology,195,technology,FTTC,FTCT,RANDOM_TYPO,,[]
+31.webloading_two_fourh,31,webloading_two_fourh,668.98,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e18]"
+32.webloading_two_fourh,32,webloading_two_fourh,212.11,382.39,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+3.you_tube_startup_delay_peak,3,you_tube_startup_delay_peak,504.48,628.56,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+3.packet_losspeak,3,packet_losspeak,0.02%,0.20%,FD_VIOLATION,unitid -> packet_losspeak,[e11]
+29.dns_failurepeak,29,dns_failurepeak,0.00%,0.0%0,FD_VIOLATION,unitid -> dns_failurepeak,"[e13, e23, e18]"
+60.i_player_sd_two_fourhr,60,i_player_sd_two_fourhr,0.00%,z0.00%,RANDOM_TYPO,,[]
+14.webloading_two_fourh,14,webloading_two_fourh,273.23,382.39,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+4.downloadpeakminave,4,downloadpeakminave,313.78,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+31.downloadpeakminave,31,downloadpeakminave,7.37,12.01,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+24.downloadpeakminave,24,downloadpeakminave,33.61,211.99,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e4]"
+33.webloading_two_fourh,33,webloading_two_fourh,124.43,225.02,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1]"
+156.i_player_uhd_two_fourhr,156,i_player_uhd_two_fourhr,0.00%,0o.00%,RANDOM_TYPO,,[]
+200.dns_failurepeak,200,dns_failurepeak,0.00%,0.0%,RANDOM_TYPO,,[]
+229.i_player_sd_two_fourhr,229,i_player_sd_two_fourhr,0.00%,.000%,RANDOM_TYPO,,[]
+16.downloadpeakminave,16,downloadpeakminave,4.52,198.04,FD_VIOLATION,unitid -> downloadpeakminave,[e24]
+77.i_player_uhd_two_fourhr,77,i_player_uhd_two_fourhr,0.00%,00.0%,RANDOM_TYPO,,[]
+226.i_player_sd_two_fourhr,226,i_player_sd_two_fourhr,1.83%,1.8%3,RANDOM_TYPO,,[]
+3.unitid,3,unitid,941352,34083.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+17.unitid,17,unitid,660012,1012014.0,FD_VIOLATION,unitid -> webloading_two_fourh,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+72.i_player_uhd_two_fourhr,72,i_player_uhd_two_fourhr,0.00%,0.00o%,RANDOM_TYPO,,[]
+132.region,132,region,Northern Ireland,Northen Ireland,RANDOM_TYPO,,[]
+69.i_player_uhd_two_fourhr,69,i_player_uhd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+200.i_player_sd_two_fourhr,200,i_player_sd_two_fourhr,1.71%,1.71f%,RANDOM_TYPO,,[]
+36.technology,36,technology,ADSL1,DASL1,RANDOM_TYPO,,[]
+179.packet_losspeak,179,packet_losspeak,0.01%,.01%,RANDOM_TYPO,,[]
+1.downloadpeakminave,1,downloadpeakminave,24.13,50.44,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+18.downloadpeakminave,18,downloadpeakminave,30.4,212.64,FD_VIOLATION,unitid -> downloadpeakminave,"[e24, e23, e4]"
+219.i_player_sd_two_fourhr,219,i_player_sd_two_fourhr,0.00%,.00%,RANDOM_TYPO,,[]
+140.technology,140,technology,FTTC,TTC,RANDOM_TYPO,,[]
+138.isp,138,isp,Comcast,Comcat,RANDOM_TYPO,,[]
+131.isp,131,isp,Comcast,Comcats,RANDOM_TYPO,,[]
+41.i_player_uhd_two_fourhr,41,i_player_uhd_two_fourhr,0.00%,0.0%0,RANDOM_TYPO,,[]
+16.you_tube_startup_delay_peak,16,you_tube_startup_delay_peak,2468.35,592.47,FD_VIOLATION,unitid -> you_tube_startup_delay_peak,"[e20, e21, e2]"
+4.webloading_two_fourh,4,webloading_two_fourh,255.66,110.64,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e1, e18]"
+181.you_tube_sd_two_fourhr,181,you_tube_sd_two_fourhr,3.49%,3.49c%,RANDOM_TYPO,,[]
+16.webloading_two_fourh,16,webloading_two_fourh,822.48,421.33,FD_VIOLATION,unitid -> webloading_two_fourh,"[e17, e19, e18]"
+167.i_player_sd_two_fourhr,167,i_player_sd_two_fourhr,0.00%,0.0%0,FD_VIOLATION,unitid -> i_player_sd_two_fourhr,[e17]
+135.isp,135,isp,Virgin,Vigin,RANDOM_TYPO,,[]
+228.technology,228,technology,FTTP,TTP,RANDOM_TYPO,,[]
+63.you_tube_sd_two_fourhr,63,you_tube_sd_two_fourhr,3.56%,3.5%,RANDOM_TYPO,,[]
+209.technology,209,technology,FTTC,FaTTC,RANDOM_TYPO,,[]
+43.packet_losspeak,43,packet_losspeak,0.00%,.000%,RANDOM_TYPO,,[]

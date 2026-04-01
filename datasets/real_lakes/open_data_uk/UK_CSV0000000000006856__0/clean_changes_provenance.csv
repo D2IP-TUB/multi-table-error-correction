@@ -1,0 +1,550 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+210.varicose_veinavvq_post_opq_predicted,210,varicose_veinavvq_post_opq_predicted,10.09954992,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+111.varicose_veinavvq_post_opq_predicted,111,varicose_veinavvq_post_opq_predicted,15.79639466,17.87053473,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e11, e9, e10, e14, e17, e1, e2, e3, e4]"
+770.datevalue,770,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+109.pre_opqeq_five_d_index_profile,109,pre_opqeq_five_d_index_profile,11111,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+97.varicose_veinavvq_post_opq_predicted,97,varicose_veinavvq_post_opq_predicted,14.36455753,10.38799804,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+960.pre_opqeq_five_d_index,960,pre_opqeq_five_d_index,1.0,87.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+273.datevalue,273,datevalue,2012-2013,2f012-2013,RANDOM_TYPO,,[]
+780.datevalue,780,datevalue,2012-2013,012-2013,RANDOM_TYPO,,[]
+137.varicose_veinavvq_post_opq_predicted,137,varicose_veinavvq_post_opq_predicted,11.998946,13.37393196,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e9, e10, e12, e15, e16, e1, e2, e3, e4]"
+57.pre_opqeq_five_d_index_profile,57,pre_opqeq_five_d_index_profile,21231,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+910.datevalue,910,datevalue,2012-2013,2012-203,RANDOM_TYPO,,[]
+1055.pre_opqeq_five_d_index,1055,pre_opqeq_five_d_index,1.0,85.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+119.varicose_veinavvq_post_opq_predicted,119,varicose_veinavvq_post_opq_predicted,7.493316104,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+6.pre_opqeq_five_d_index_profile,6,pre_opqeq_five_d_index_profile,11111,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+226.varicose_veinavvq_post_opq_predicted,226,varicose_veinavvq_post_opq_predicted,29.01715908,10.38799804,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+688.pre_opqeq_five_d_index,688,pre_opqeq_five_d_index,1.0,75.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+191.varicose_veinavvq_post_opq_predicted,191,varicose_veinavvq_post_opq_predicted,8.680334338,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+65.varicose_veinavvq_post_opq_predicted,65,varicose_veinavvq_post_opq_predicted,13.22202847,9.36371113,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e6, e11, e10, e12, e15, e14, e1, e2, e3, e4]"
+188.varicose_veinavvq_post_opq_predicted,188,varicose_veinavvq_post_opq_predicted,9.195756072,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+143.varicose_veinavvq_post_opq_predicted,143,varicose_veinavvq_post_opq_predicted,26.61570682,5.468141616,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+981.datevalue,981,datevalue,2012-2013,0212-2013,RANDOM_TYPO,,[]
+160.varicose_veinavvq_post_opq_predicted,160,varicose_veinavvq_post_opq_predicted,11.00940813,16.828262,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+849.pre_opqeq_five_d_index,849,pre_opqeq_five_d_index,1.0,64.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+183.pre_opqeq_five_d_index,183,pre_opqeq_five_d_index,1.0,30.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+744.datevalue,744,datevalue,2012-2013,0212-2013,RANDOM_TYPO,,[]
+300.pre_opqeq_five_d_index,300,pre_opqeq_five_d_index,1.0,65.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+5.varicose_veinavvq_post_opq_predicted,5,varicose_veinavvq_post_opq_predicted,15.68085182,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+149.varicose_veinavvq_post_opq_predicted,149,varicose_veinavvq_post_opq_predicted,10.69538778,11.56038682,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+642.pre_opqeq_five_d_index,642,pre_opqeq_five_d_index,1.0,49.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+840.datevalue,840,datevalue,2012-2013,2012-201b3,RANDOM_TYPO,,[]
+311.pre_opqeq_five_d_index,311,pre_opqeq_five_d_index,1.0,22.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+24.pre_opqeq_five_d_index_profile,24,pre_opqeq_five_d_index_profile,11111,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+105.pre_opqeq_five_d_index_profile,105,pre_opqeq_five_d_index_profile,11121,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+943.pre_opqeq_five_d_index,943,pre_opqeq_five_d_index,1.0,81.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+144.varicose_veinavvq_post_opq_predicted,144,varicose_veinavvq_post_opq_predicted,18.4517655,14.34029776,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+761.pre_opqeq_five_d_index,761,pre_opqeq_five_d_index,1.0,24.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+166.varicose_veinavvq_post_opq_predicted,166,varicose_veinavvq_post_opq_predicted,20.17809774,14.52974837,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+876.pre_opqeq_five_d_index,876,pre_opqeq_five_d_index,1.0,47.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+341.pre_opqeq_five_d_index,341,pre_opqeq_five_d_index,1.0,35.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+122.varicose_veinavvq_post_opq_predicted,122,varicose_veinavvq_post_opq_predicted,15.81811662,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+22.varicose_veinavvq_post_opq_predicted,22,varicose_veinavvq_post_opq_predicted,12.69278962,24.99655545,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e6, e11, e9, e10, e12, e15, e14, e1, e2, e3, e4]"
+499.pre_opqeq_five_d_index,499,pre_opqeq_five_d_index,1.0,59.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+136.varicose_veinavvq_post_opq_predicted,136,varicose_veinavvq_post_opq_predicted,3.702286591,25.67364933,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+114.varicose_veinavvq_post_opq_predicted,114,varicose_veinavvq_post_opq_predicted,13.09124188,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+453.datevalue,453,datevalue,2012-2013,20i12-2013,RANDOM_TYPO,,[]
+90.datevalue,90,datevalue,2012-2013,201-22013,RANDOM_TYPO,,[]
+91.pre_opqeq_five_d_index_profile,91,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+157.varicose_veinavvq_post_opq_predicted,157,varicose_veinavvq_post_opq_predicted,10.53686551,9.227974601,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+195.varicose_veinavvq_post_opq_predicted,195,varicose_veinavvq_post_opq_predicted,13.20507735,5.468141616,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+126.datevalue,126,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+35.pre_opqeq_five_d_index_profile,35,pre_opqeq_five_d_index_profile,22332,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+826.pre_opqeq_five_d_index,826,pre_opqeq_five_d_index,1.0,46.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+173.varicose_veinavvq_post_opq_predicted,173,varicose_veinavvq_post_opq_predicted,10.48834836,11.56038682,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+705.datevalue,705,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+231.varicose_veinavvq_post_opq_predicted,231,varicose_veinavvq_post_opq_predicted,26.93900898,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+98.datevalue,98,datevalue,2012-2013,2012-203,RANDOM_TYPO,,[]
+90.pre_opqeq_five_d_index_profile,90,pre_opqeq_five_d_index_profile,11122,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+94.pre_opqeq_five_d_index_profile,94,pre_opqeq_five_d_index_profile,22221,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+840.pre_opqeq_five_d_index,840,pre_opqeq_five_d_index,1.0,40.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+46.varicose_veinavvq_post_opq_predicted,46,varicose_veinavvq_post_opq_predicted,27.37219928,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+68.varicose_veinavvq_post_opq_predicted,68,varicose_veinavvq_post_opq_predicted,4.014717017,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+268.pre_opqeq_five_d_index,268,pre_opqeq_five_d_index,1.0,98.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+142.pre_opqeq_five_d_index_profile,142,pre_opqeq_five_d_index_profile,22221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+568.pre_opqeq_five_d_index,568,pre_opqeq_five_d_index,1.0,54.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+16.varicose_veinavvq_post_opq_predicted,16,varicose_veinavvq_post_opq_predicted,18.09976453,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+232.varicose_veinavvq_post_opq_predicted,232,varicose_veinavvq_post_opq_predicted,8.588613723,9.769664174,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e6, e8, e11, e9, e10, e12, e15, e16, e1, e2, e4]"
+679.datevalue,679,datevalue,2012-2013,2102-2013,RANDOM_TYPO,,[]
+93.varicose_veinavvq_post_opq_predicted,93,varicose_veinavvq_post_opq_predicted,10.65948856,21.80492619,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+1004.pre_opqeq_five_d_index,1004,pre_opqeq_five_d_index,1.0,92.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+911.pre_opqeq_five_d_index,911,pre_opqeq_five_d_index,1.0,63.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+865.datevalue,865,datevalue,2012-2013,2012-20y13,RANDOM_TYPO,,[]
+717.datevalue,717,datevalue,2012-2013,2102-2013,RANDOM_TYPO,,[]
+35.varicose_veinavvq_post_opq_predicted,35,varicose_veinavvq_post_opq_predicted,37.51253792,12.46365358,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+773.datevalue,773,datevalue,2012-2013,2012-213,RANDOM_TYPO,,[]
+60.varicose_veinavvq_post_opq_predicted,60,varicose_veinavvq_post_opq_predicted,11.5998349,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+101.varicose_veinavvq_post_opq_predicted,101,varicose_veinavvq_post_opq_predicted,12.55115857,32.44093044,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+139.varicose_veinavvq_post_opq_predicted,139,varicose_veinavvq_post_opq_predicted,9.169345412,6.007933171,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e9, e10, e12, e15, e14, e1, e2, e3, e4]"
+7.varicose_veinavvq_post_opq_predicted,7,varicose_veinavvq_post_opq_predicted,4.889941272,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+134.pre_opqeq_five_d_index_profile,134,pre_opqeq_five_d_index_profile,21222,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+220.varicose_veinavvq_post_opq_predicted,220,varicose_veinavvq_post_opq_predicted,10.13539354,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+442.datevalue,442,datevalue,2012-2013,2f012-2013,RANDOM_TYPO,,[]
+484.datevalue,484,datevalue,2012-2013,20122-013,RANDOM_TYPO,,[]
+812.datevalue,812,datevalue,2012-2013,2012-201c3,RANDOM_TYPO,,[]
+15.pre_opqeq_five_d_index_profile,15,pre_opqeq_five_d_index_profile,21222,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+76.pre_opqeq_five_d_index_profile,76,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+82.datevalue,82,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+436.datevalue,436,datevalue,2012-2013,2012-w2013,RANDOM_TYPO,,[]
+362.datevalue,362,datevalue,2012-2013,2012-2s013,RANDOM_TYPO,,[]
+448.pre_opqeq_five_d_index,448,pre_opqeq_five_d_index,1.0,76.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+228.varicose_veinavvq_post_opq_predicted,228,varicose_veinavvq_post_opq_predicted,8.582370414,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+26.varicose_veinavvq_post_opq_predicted,26,varicose_veinavvq_post_opq_predicted,10.03210707,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+157.pre_opqeq_five_d_index_profile,157,pre_opqeq_five_d_index_profile,21221,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+294.pre_opqeq_five_d_index,294,pre_opqeq_five_d_index,1.0,20.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1046.pre_opqeq_five_d_index,1046,pre_opqeq_five_d_index,1.0,51.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+118.varicose_veinavvq_post_opq_predicted,118,varicose_veinavvq_post_opq_predicted,4.77337753,16.3911342,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+894.datevalue,894,datevalue,2012-2013,2012-213,RANDOM_TYPO,,[]
+434.datevalue,434,datevalue,2012-2013,202-2013,RANDOM_TYPO,,[]
+148.varicose_veinavvq_post_opq_predicted,148,varicose_veinavvq_post_opq_predicted,7.125215443,24.99655545,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e6, e11, e9, e10, e12, e15, e14, e1, e2, e3, e4]"
+448.datevalue,448,datevalue,2012-2013,2012-203,RANDOM_TYPO,,[]
+975.datevalue,975,datevalue,2012-2013,2l012-2013,RANDOM_TYPO,,[]
+841.datevalue,841,datevalue,2012-2013,0212-2013,RANDOM_TYPO,,[]
+71.pre_opqeq_five_d_index_profile,71,pre_opqeq_five_d_index_profile,11111,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+148.pre_opqeq_five_d_index_profile,148,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+725.pre_opqeq_five_d_index,725,pre_opqeq_five_d_index,1.0,100.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+2.pre_opqeq_five_d_index_profile,2,pre_opqeq_five_d_index_profile,21121,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+814.datevalue,814,datevalue,2012-2013,h2012-2013,RANDOM_TYPO,,[]
+63.datevalue,63,datevalue,2012-2013,2l012-2013,RANDOM_TYPO,,[]
+380.pre_opqeq_five_d_index,380,pre_opqeq_five_d_index,1.0,33.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1052.datevalue,1052,datevalue,2012-2013,2012-013,RANDOM_TYPO,,[]
+81.varicose_veinavvq_post_opq_predicted,81,varicose_veinavvq_post_opq_predicted,4.572846225,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+505.pre_opqeq_five_d_index,505,pre_opqeq_five_d_index,1.0,46.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+187.varicose_veinavvq_post_opq_predicted,187,varicose_veinavvq_post_opq_predicted,14.14035394,2.104950912,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e9]"
+40.pre_opqeq_five_d_index_profile,40,pre_opqeq_five_d_index_profile,11122,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+697.pre_opqeq_five_d_index,697,pre_opqeq_five_d_index,1.0,3.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+933.pre_opqeq_five_d_index,933,pre_opqeq_five_d_index,1.0,81.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+605.pre_opqeq_five_d_index,605,pre_opqeq_five_d_index,1.0,78.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+863.pre_opqeq_five_d_index,863,pre_opqeq_five_d_index,1.0,61.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+529.datevalue,529,datevalue,2012-2013,2012-2103,RANDOM_TYPO,,[]
+665.pre_opqeq_five_d_index,665,pre_opqeq_five_d_index,1.0,53.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+733.pre_opqeq_five_d_index,733,pre_opqeq_five_d_index,1.0,80.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+71.varicose_veinavvq_post_opq_predicted,71,varicose_veinavvq_post_opq_predicted,17.87640394,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+526.pre_opqeq_five_d_index,526,pre_opqeq_five_d_index,1.0,69.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+36.varicose_veinavvq_post_opq_predicted,36,varicose_veinavvq_post_opq_predicted,8.942127862,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+69.varicose_veinavvq_post_opq_predicted,69,varicose_veinavvq_post_opq_predicted,12.66259361,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+32.varicose_veinavvq_post_opq_predicted,32,varicose_veinavvq_post_opq_predicted,25.86251885,32.44093044,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+932.pre_opqeq_five_d_index,932,pre_opqeq_five_d_index,1.0,38.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+311.datevalue,311,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+236.varicose_veinavvq_post_opq_predicted,236,varicose_veinavvq_post_opq_predicted,8.66040087,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+823.pre_opqeq_five_d_index,823,pre_opqeq_five_d_index,1.0,18.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+203.varicose_veinavvq_post_opq_predicted,203,varicose_veinavvq_post_opq_predicted,7.748538525,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+87.pre_opqeq_five_d_index_profile,87,pre_opqeq_five_d_index_profile,21221,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+230.varicose_veinavvq_post_opq_predicted,230,varicose_veinavvq_post_opq_predicted,12.48917804,11.56038682,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+99.varicose_veinavvq_post_opq_predicted,99,varicose_veinavvq_post_opq_predicted,12.01381753,8.045866132,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e10, e1, e2, e3, e4]"
+130.pre_opqeq_five_d_index_profile,130,pre_opqeq_five_d_index_profile,11121,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1011.datevalue,1011,datevalue,2012-2013,2012-2s013,RANDOM_TYPO,,[]
+757.datevalue,757,datevalue,2012-2013,212-2013,RANDOM_TYPO,,[]
+194.varicose_veinavvq_post_opq_predicted,194,varicose_veinavvq_post_opq_predicted,9.919040761,14.52974837,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+56.pre_opqeq_five_d_index_profile,56,pre_opqeq_five_d_index_profile,11121,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+624.pre_opqeq_five_d_index,624,pre_opqeq_five_d_index,1.0,72.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+825.datevalue,825,datevalue,2012-2013,212-2013,RANDOM_TYPO,,[]
+819.datevalue,819,datevalue,2012-2013,2012-e2013,RANDOM_TYPO,,[]
+1005.datevalue,1005,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+131.pre_opqeq_five_d_index_profile,131,pre_opqeq_five_d_index_profile,21221,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+428.datevalue,428,datevalue,2012-2013,201-2013,RANDOM_TYPO,,[]
+8.pre_opqeq_five_d_index_profile,8,pre_opqeq_five_d_index_profile,11122,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+45.pre_opqeq_five_d_index_profile,45,pre_opqeq_five_d_index_profile,11121,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+14.pre_opqeq_five_d_index_profile,14,pre_opqeq_five_d_index_profile,11121,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+67.varicose_veinavvq_post_opq_predicted,67,varicose_veinavvq_post_opq_predicted,18.84193904,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+113.datevalue,113,datevalue,2012-2013,2102-2013,RANDOM_TYPO,,[]
+25.pre_opqeq_five_d_index_profile,25,pre_opqeq_five_d_index_profile,11121,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+721.datevalue,721,datevalue,2012-2013,2012-20k13,RANDOM_TYPO,,[]
+314.pre_opqeq_five_d_index,314,pre_opqeq_five_d_index,1.0,10.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+108.varicose_veinavvq_post_opq_predicted,108,varicose_veinavvq_post_opq_predicted,14.79788432,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+367.datevalue,367,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+174.varicose_veinavvq_post_opq_predicted,174,varicose_veinavvq_post_opq_predicted,8.859090378,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+645.pre_opqeq_five_d_index,645,pre_opqeq_five_d_index,1.0,14.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+186.varicose_veinavvq_post_opq_predicted,186,varicose_veinavvq_post_opq_predicted,7.511138137,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+576.pre_opqeq_five_d_index,576,pre_opqeq_five_d_index,1.0,72.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+4.pre_opqeq_five_d_index_profile,4,pre_opqeq_five_d_index_profile,21232,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+117.varicose_veinavvq_post_opq_predicted,117,varicose_veinavvq_post_opq_predicted,5.22252443,25.67364933,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+69.pre_opqeq_five_d_index_profile,69,pre_opqeq_five_d_index_profile,21131,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+151.pre_opqeq_five_d_index_profile,151,pre_opqeq_five_d_index_profile,11112,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+685.pre_opqeq_five_d_index,685,pre_opqeq_five_d_index,1.0,76.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+444.datevalue,444,datevalue,2012-2013,201c2-2013,RANDOM_TYPO,,[]
+379.datevalue,379,datevalue,2012-2013,2012-y2013,RANDOM_TYPO,,[]
+57.varicose_veinavvq_post_opq_predicted,57,varicose_veinavvq_post_opq_predicted,16.70846801,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+834.pre_opqeq_five_d_index,834,pre_opqeq_five_d_index,1.0,54.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+213.varicose_veinavvq_post_opq_predicted,213,varicose_veinavvq_post_opq_predicted,13.36982626,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+55.varicose_veinavvq_post_opq_predicted,55,varicose_veinavvq_post_opq_predicted,4.359108882,5.468141616,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+79.varicose_veinavvq_post_opq_predicted,79,varicose_veinavvq_post_opq_predicted,10.11990864,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+211.varicose_veinavvq_post_opq_predicted,211,varicose_veinavvq_post_opq_predicted,18.17350221,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+272.pre_opqeq_five_d_index,272,pre_opqeq_five_d_index,1.0,53.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+238.varicose_veinavvq_post_opq_predicted,238,varicose_veinavvq_post_opq_predicted,10.06184454,21.80492619,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+832.pre_opqeq_five_d_index,832,pre_opqeq_five_d_index,1.0,32.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+31.pre_opqeq_five_d_index_profile,31,pre_opqeq_five_d_index_profile,11121,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+145.pre_opqeq_five_d_index_profile,145,pre_opqeq_five_d_index_profile,11221,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+144.datevalue,144,datevalue,2012-2013,2021-2013,RANDOM_TYPO,,[]
+5.pre_opqeq_five_d_index_profile,5,pre_opqeq_five_d_index_profile,11121,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+588.datevalue,588,datevalue,2012-2013,2012-013,RANDOM_TYPO,,[]
+141.varicose_veinavvq_post_opq_predicted,141,varicose_veinavvq_post_opq_predicted,8.612962626,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+520.pre_opqeq_five_d_index,520,pre_opqeq_five_d_index,1.0,10.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+26.pre_opqeq_five_d_index_profile,26,pre_opqeq_five_d_index_profile,11121,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+143.pre_opqeq_five_d_index_profile,143,pre_opqeq_five_d_index_profile,11111,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+37.varicose_veinavvq_post_opq_predicted,37,varicose_veinavvq_post_opq_predicted,9.293658028,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+171.varicose_veinavvq_post_opq_predicted,171,varicose_veinavvq_post_opq_predicted,7.97912275,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+1025.pre_opqeq_five_d_index,1025,pre_opqeq_five_d_index,1.0,31.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+209.varicose_veinavvq_post_opq_predicted,209,varicose_veinavvq_post_opq_predicted,9.051286127,2.104950912,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e9]"
+990.datevalue,990,datevalue,2012-2013,c2012-2013,RANDOM_TYPO,,[]
+218.varicose_veinavvq_post_opq_predicted,218,varicose_veinavvq_post_opq_predicted,8.741990855,32.19118649,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e11, e9, e10, e12, e15, e1, e2, e3, e4]"
+811.pre_opqeq_five_d_index,811,pre_opqeq_five_d_index,1.0,74.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+283.pre_opqeq_five_d_index,283,pre_opqeq_five_d_index,1.0,84.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+222.varicose_veinavvq_post_opq_predicted,222,varicose_veinavvq_post_opq_predicted,16.9444713,16.3911342,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+234.varicose_veinavvq_post_opq_predicted,234,varicose_veinavvq_post_opq_predicted,8.505599682,13.37393196,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e9, e10, e12, e15, e16, e1, e2, e3, e4]"
+59.varicose_veinavvq_post_opq_predicted,59,varicose_veinavvq_post_opq_predicted,12.67575926,5.212871321,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e13, e12, e15, e14, e1, e2, e3, e4]"
+115.pre_opqeq_five_d_index_profile,115,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+212.varicose_veinavvq_post_opq_predicted,212,varicose_veinavvq_post_opq_predicted,9.132185895,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+756.pre_opqeq_five_d_index,756,pre_opqeq_five_d_index,1.0,9.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+961.datevalue,961,datevalue,2012-2013,y2012-2013,RANDOM_TYPO,,[]
+103.varicose_veinavvq_post_opq_predicted,103,varicose_veinavvq_post_opq_predicted,3.21083719,32.44093044,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+150.varicose_veinavvq_post_opq_predicted,150,varicose_veinavvq_post_opq_predicted,12.95184361,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+542.datevalue,542,datevalue,2012-2013,212-2013,RANDOM_TYPO,,[]
+708.pre_opqeq_five_d_index,708,pre_opqeq_five_d_index,1.0,26.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+214.pre_opqeq_five_d_index,214,pre_opqeq_five_d_index,1.0,47.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+145.varicose_veinavvq_post_opq_predicted,145,varicose_veinavvq_post_opq_predicted,11.76211647,12.46365358,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+579.pre_opqeq_five_d_index,579,pre_opqeq_five_d_index,1.0,85.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+229.varicose_veinavvq_post_opq_predicted,229,varicose_veinavvq_post_opq_predicted,7.786529116,11.9249758,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e14, e16, e1, e2, e3, e4]"
+252.pre_opqeq_five_d_index,252,pre_opqeq_five_d_index,1.0,59.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+54.pre_opqeq_five_d_index_profile,54,pre_opqeq_five_d_index_profile,12221,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+908.datevalue,908,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+193.varicose_veinavvq_post_opq_predicted,193,varicose_veinavvq_post_opq_predicted,11.21771871,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+190.varicose_veinavvq_post_opq_predicted,190,varicose_veinavvq_post_opq_predicted,12.77658235,5.212871321,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e13, e12, e15, e14, e1, e2, e3, e4]"
+777.datevalue,777,datevalue,2012-2013,q2012-2013,RANDOM_TYPO,,[]
+326.datevalue,326,datevalue,2012-2013,2012-u2013,RANDOM_TYPO,,[]
+214.varicose_veinavvq_post_opq_predicted,214,varicose_veinavvq_post_opq_predicted,2.111913138,31.66490098,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e13, e12, e15, e1, e2, e3, e4]"
+96.varicose_veinavvq_post_opq_predicted,96,varicose_veinavvq_post_opq_predicted,42.83574355,14.34029776,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+702.datevalue,702,datevalue,2012-2013,20l12-2013,RANDOM_TYPO,,[]
+208.varicose_veinavvq_post_opq_predicted,208,varicose_veinavvq_post_opq_predicted,10.02113602,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+219.varicose_veinavvq_post_opq_predicted,219,varicose_veinavvq_post_opq_predicted,7.421037985,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+382.pre_opqeq_five_d_index,382,pre_opqeq_five_d_index,1.0,62.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+111.pre_opqeq_five_d_index_profile,111,pre_opqeq_five_d_index_profile,22223,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+175.datevalue,175,datevalue,2012-2013,201u2-2013,RANDOM_TYPO,,[]
+639.pre_opqeq_five_d_index,639,pre_opqeq_five_d_index,1.0,101.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+84.varicose_veinavvq_post_opq_predicted,84,varicose_veinavvq_post_opq_predicted,7.755801842,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+223.varicose_veinavvq_post_opq_predicted,223,varicose_veinavvq_post_opq_predicted,9.720722952,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+29.varicose_veinavvq_post_opq_predicted,29,varicose_veinavvq_post_opq_predicted,8.815933727,13.37393196,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e9, e10, e12, e15, e16, e1, e2, e3, e4]"
+56.varicose_veinavvq_post_opq_predicted,56,varicose_veinavvq_post_opq_predicted,13.53668265,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+53.varicose_veinavvq_post_opq_predicted,53,varicose_veinavvq_post_opq_predicted,12.51644421,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+59.pre_opqeq_five_d_index_profile,59,pre_opqeq_five_d_index_profile,11111,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+44.varicose_veinavvq_post_opq_predicted,44,varicose_veinavvq_post_opq_predicted,12.70702598,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+16.pre_opqeq_five_d_index_profile,16,pre_opqeq_five_d_index_profile,11221,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+121.pre_opqeq_five_d_index_profile,121,pre_opqeq_five_d_index_profile,11122,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+28.varicose_veinavvq_post_opq_predicted,28,varicose_veinavvq_post_opq_predicted,4.811809196,11.9249758,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e14, e16, e1, e2, e3, e4]"
+61.pre_opqeq_five_d_index_profile,61,pre_opqeq_five_d_index_profile,11221,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+144.pre_opqeq_five_d_index_profile,144,pre_opqeq_five_d_index_profile,21221,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+40.varicose_veinavvq_post_opq_predicted,40,varicose_veinavvq_post_opq_predicted,10.69058263,9.227974601,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+54.varicose_veinavvq_post_opq_predicted,54,varicose_veinavvq_post_opq_predicted,25.13765911,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+991.datevalue,991,datevalue,2012-2013,201-2013,RANDOM_TYPO,,[]
+232.pre_opqeq_five_d_index,232,pre_opqeq_five_d_index,1.0,57.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+967.datevalue,967,datevalue,2012-2013,2021-2013,RANDOM_TYPO,,[]
+77.datevalue,77,datevalue,2012-2013,2q012-2013,RANDOM_TYPO,,[]
+901.datevalue,901,datevalue,2012-2013,201-2013,RANDOM_TYPO,,[]
+184.varicose_veinavvq_post_opq_predicted,184,varicose_veinavvq_post_opq_predicted,12.22452085,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+1023.datevalue,1023,datevalue,2012-2013,202-2013,RANDOM_TYPO,,[]
+731.pre_opqeq_five_d_index,731,pre_opqeq_five_d_index,1.0,92.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+617.datevalue,617,datevalue,2012-2013,201u2-2013,RANDOM_TYPO,,[]
+911.datevalue,911,datevalue,2012-2013,2012-213,RANDOM_TYPO,,[]
+150.pre_opqeq_five_d_index_profile,150,pre_opqeq_five_d_index_profile,11121,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+842.pre_opqeq_five_d_index,842,pre_opqeq_five_d_index,1.0,88.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+160.pre_opqeq_five_d_index_profile,160,pre_opqeq_five_d_index_profile,11221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1012.datevalue,1012,datevalue,2012-2013,20y12-2013,RANDOM_TYPO,,[]
+625.datevalue,625,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+43.pre_opqeq_five_d_index_profile,43,pre_opqeq_five_d_index_profile,11131,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+867.pre_opqeq_five_d_index,867,pre_opqeq_five_d_index,1.0,82.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+694.datevalue,694,datevalue,2012-2013,2012-201q3,RANDOM_TYPO,,[]
+125.pre_opqeq_five_d_index_profile,125,pre_opqeq_five_d_index_profile,11111,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1067.pre_opqeq_five_d_index,1067,pre_opqeq_five_d_index,1.0,32.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+34.varicose_veinavvq_post_opq_predicted,34,varicose_veinavvq_post_opq_predicted,7.980074234,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+74.pre_opqeq_five_d_index_profile,74,pre_opqeq_five_d_index_profile,11111,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+164.pre_opqeq_five_d_index_profile,164,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+12.varicose_veinavvq_post_opq_predicted,12,varicose_veinavvq_post_opq_predicted,11.89992037,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+116.varicose_veinavvq_post_opq_predicted,116,varicose_veinavvq_post_opq_predicted,22.91061878,7.263841842,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e6, e7, e8, e11, e10, e12, e14, e1, e2, e3, e4]"
+770.pre_opqeq_five_d_index,770,pre_opqeq_five_d_index,1.0,38.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+18.varicose_veinavvq_post_opq_predicted,18,varicose_veinavvq_post_opq_predicted,27.28874132,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+12.pre_opqeq_five_d_index_profile,12,pre_opqeq_five_d_index_profile,11123,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+129.varicose_veinavvq_post_opq_predicted,129,varicose_veinavvq_post_opq_predicted,19.89124,7.131685979,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e7, e8, e9, e10, e15, e14, e1, e2, e3, e4]"
+70.pre_opqeq_five_d_index_profile,70,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+129.pre_opqeq_five_d_index_profile,129,pre_opqeq_five_d_index_profile,21222,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+178.varicose_veinavvq_post_opq_predicted,178,varicose_veinavvq_post_opq_predicted,15.31224853,10.32768812,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+21.pre_opqeq_five_d_index_profile,21,pre_opqeq_five_d_index_profile,11121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+154.pre_opqeq_five_d_index_profile,154,pre_opqeq_five_d_index_profile,11121,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+55.pre_opqeq_five_d_index_profile,55,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+10.varicose_veinavvq_post_opq_predicted,10,varicose_veinavvq_post_opq_predicted,12.14591425,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+757.pre_opqeq_five_d_index,757,pre_opqeq_five_d_index,1.0,71.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+683.datevalue,683,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+928.pre_opqeq_five_d_index,928,pre_opqeq_five_d_index,1.0,49.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+301.datevalue,301,datevalue,2012-2013,201h2-2013,RANDOM_TYPO,,[]
+197.varicose_veinavvq_post_opq_predicted,197,varicose_veinavvq_post_opq_predicted,9.31531579,25.67364933,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+662.pre_opqeq_five_d_index,662,pre_opqeq_five_d_index,1.0,50.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+239.pre_opqeq_five_d_index,239,pre_opqeq_five_d_index,1.0,72.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+102.pre_opqeq_five_d_index_profile,102,pre_opqeq_five_d_index_profile,11111,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+101.pre_opqeq_five_d_index_profile,101,pre_opqeq_five_d_index_profile,11121,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+139.pre_opqeq_five_d_index_profile,139,pre_opqeq_five_d_index_profile,11122,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+134.varicose_veinavvq_post_opq_predicted,134,varicose_veinavvq_post_opq_predicted,17.1858748,10.38799804,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+640.pre_opqeq_five_d_index,640,pre_opqeq_five_d_index,1.0,27.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+763.datevalue,763,datevalue,2012-2013,2012p-2013,RANDOM_TYPO,,[]
+742.pre_opqeq_five_d_index,742,pre_opqeq_five_d_index,1.0,52.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+106.pre_opqeq_five_d_index_profile,106,pre_opqeq_five_d_index_profile,11211,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+752.datevalue,752,datevalue,2012-2013,2021-2013,RANDOM_TYPO,,[]
+1047.pre_opqeq_five_d_index,1047,pre_opqeq_five_d_index,1.0,95.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1.pre_opqeq_five_d_index_profile,1,pre_opqeq_five_d_index_profile,11222,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+151.varicose_veinavvq_post_opq_predicted,151,varicose_veinavvq_post_opq_predicted,9.540245453,11.56038682,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+48.pre_opqeq_five_d_index_profile,48,pre_opqeq_five_d_index_profile,11121,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+146.varicose_veinavvq_post_opq_predicted,146,varicose_veinavvq_post_opq_predicted,7.017735568,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+986.pre_opqeq_five_d_index,986,pre_opqeq_five_d_index,1.0,74.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+165.varicose_veinavvq_post_opq_predicted,165,varicose_veinavvq_post_opq_predicted,21.85411867,5.468141616,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+233.pre_opqeq_five_d_index,233,pre_opqeq_five_d_index,1.0,58.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+167.varicose_veinavvq_post_opq_predicted,167,varicose_veinavvq_post_opq_predicted,12.40337703,5.428798916,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e10, e12, e15, e1, e2, e3, e4]"
+127.varicose_veinavvq_post_opq_predicted,127,varicose_veinavvq_post_opq_predicted,8.478879703,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+123.varicose_veinavvq_post_opq_predicted,123,varicose_veinavvq_post_opq_predicted,12.50750223,22.77585062,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e1, e2, e4]"
+3.pre_opqeq_five_d_index_profile,3,pre_opqeq_five_d_index_profile,11221,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+364.datevalue,364,datevalue,2012-2013,2012-2m013,RANDOM_TYPO,,[]
+215.varicose_veinavvq_post_opq_predicted,215,varicose_veinavvq_post_opq_predicted,10.3073234,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+175.varicose_veinavvq_post_opq_predicted,175,varicose_veinavvq_post_opq_predicted,6.105617007,32.44093044,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+47.pre_opqeq_five_d_index_profile,47,pre_opqeq_five_d_index_profile,11121,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+130.varicose_veinavvq_post_opq_predicted,130,varicose_veinavvq_post_opq_predicted,12.22966588,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+70.varicose_veinavvq_post_opq_predicted,70,varicose_veinavvq_post_opq_predicted,3.803253505,14.52974837,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+176.varicose_veinavvq_post_opq_predicted,176,varicose_veinavvq_post_opq_predicted,6.194716817,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+1025.datevalue,1025,datevalue,2012-2013,2b012-2013,RANDOM_TYPO,,[]
+163.datevalue,163,datevalue,2012-2013,2012-2p013,RANDOM_TYPO,,[]
+103.pre_opqeq_five_d_index_profile,103,pre_opqeq_five_d_index_profile,11111,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+522.pre_opqeq_five_d_index,522,pre_opqeq_five_d_index,1.0,87.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+48.varicose_veinavvq_post_opq_predicted,48,varicose_veinavvq_post_opq_predicted,17.72903811,32.19118649,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e11, e9, e10, e12, e15, e1, e2, e3, e4]"
+997.datevalue,997,datevalue,2012-2013,012-2013,RANDOM_TYPO,,[]
+63.pre_opqeq_five_d_index_profile,63,pre_opqeq_five_d_index_profile,21232,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+92.pre_opqeq_five_d_index_profile,92,pre_opqeq_five_d_index_profile,11122,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1015.pre_opqeq_five_d_index,1015,pre_opqeq_five_d_index,1.0,11.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+104.varicose_veinavvq_post_opq_predicted,104,varicose_veinavvq_post_opq_predicted,9.494708921,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+122.pre_opqeq_five_d_index_profile,122,pre_opqeq_five_d_index_profile,11121,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+358.pre_opqeq_five_d_index,358,pre_opqeq_five_d_index,1.0,91.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+54.datevalue,54,datevalue,2012-2013,2012-0213,RANDOM_TYPO,,[]
+143.datevalue,143,datevalue,2012-2013,2102-2013,RANDOM_TYPO,,[]
+4.varicose_veinavvq_post_opq_predicted,4,varicose_veinavvq_post_opq_predicted,27.80220139,2.372903104,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+36.pre_opqeq_five_d_index_profile,36,pre_opqeq_five_d_index_profile,11111,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+939.datevalue,939,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+155.pre_opqeq_five_d_index_profile,155,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+284.datevalue,284,datevalue,2012-2013,201-2013,RANDOM_TYPO,,[]
+38.varicose_veinavvq_post_opq_predicted,38,varicose_veinavvq_post_opq_predicted,5.963147928,14.52974837,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+116.pre_opqeq_five_d_index_profile,116,pre_opqeq_five_d_index_profile,21232,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+140.datevalue,140,datevalue,2012-2013,2012-213,RANDOM_TYPO,,[]
+10.pre_opqeq_five_d_index_profile,10,pre_opqeq_five_d_index_profile,11121,11122.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1082.pre_opqeq_five_d_index,1082,pre_opqeq_five_d_index,1.0,84.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+788.pre_opqeq_five_d_index,788,pre_opqeq_five_d_index,1.0,38.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+762.pre_opqeq_five_d_index,762,pre_opqeq_five_d_index,1.0,52.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+133.pre_opqeq_five_d_index_profile,133,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+112.pre_opqeq_five_d_index_profile,112,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+233.varicose_veinavvq_post_opq_predicted,233,varicose_veinavvq_post_opq_predicted,2.677542221,10.32768812,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+47.varicose_veinavvq_post_opq_predicted,47,varicose_veinavvq_post_opq_predicted,7.862429057,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+17.datevalue,17,datevalue,2012-2013,20122-013,RANDOM_TYPO,,[]
+974.datevalue,974,datevalue,2012-2013,20122-013,RANDOM_TYPO,,[]
+154.varicose_veinavvq_post_opq_predicted,154,varicose_veinavvq_post_opq_predicted,2.323796758,32.19118649,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e11, e9, e10, e12, e15, e1, e2, e3, e4]"
+1016.pre_opqeq_five_d_index,1016,pre_opqeq_five_d_index,1.0,36.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+27.varicose_veinavvq_post_opq_predicted,27,varicose_veinavvq_post_opq_predicted,18.89382018,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+467.datevalue,467,datevalue,2012-2013,d2012-2013,RANDOM_TYPO,,[]
+60.pre_opqeq_five_d_index_profile,60,pre_opqeq_five_d_index_profile,11111,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+334.pre_opqeq_five_d_index,334,pre_opqeq_five_d_index,1.0,90.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+921.pre_opqeq_five_d_index,921,pre_opqeq_five_d_index,1.0,80.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+62.pre_opqeq_five_d_index_profile,62,pre_opqeq_five_d_index_profile,11221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+227.varicose_veinavvq_post_opq_predicted,227,varicose_veinavvq_post_opq_predicted,2.772552613,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+185.varicose_veinavvq_post_opq_predicted,185,varicose_veinavvq_post_opq_predicted,7.82131873,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+4.datevalue,4,datevalue,2012-2013,0212-2013,RANDOM_TYPO,,[]
+133.varicose_veinavvq_post_opq_predicted,133,varicose_veinavvq_post_opq_predicted,6.656276994,16.69770248,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e6, e11, e10, e14, e16, e1, e2, e3, e4]"
+586.pre_opqeq_five_d_index,586,pre_opqeq_five_d_index,1.0,54.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+153.varicose_veinavvq_post_opq_predicted,153,varicose_veinavvq_post_opq_predicted,12.00521354,10.32768812,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+216.varicose_veinavvq_post_opq_predicted,216,varicose_veinavvq_post_opq_predicted,15.46234741,6.007933171,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e9, e10, e12, e15, e14, e1, e2, e3, e4]"
+872.pre_opqeq_five_d_index,872,pre_opqeq_five_d_index,1.0,98.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+78.pre_opqeq_five_d_index_profile,78,pre_opqeq_five_d_index_profile,21131,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1038.datevalue,1038,datevalue,2012-2013,201s2-2013,RANDOM_TYPO,,[]
+275.pre_opqeq_five_d_index,275,pre_opqeq_five_d_index,1.0,88.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+126.pre_opqeq_five_d_index_profile,126,pre_opqeq_five_d_index_profile,11111,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+745.pre_opqeq_five_d_index,745,pre_opqeq_five_d_index,1.0,38.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1.varicose_veinavvq_post_opq_predicted,1,varicose_veinavvq_post_opq_predicted,16.17334238,12.66954733,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e1, e2, e3, e4]"
+85.pre_opqeq_five_d_index_profile,85,pre_opqeq_five_d_index_profile,21221,21121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+715.datevalue,715,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+286.datevalue,286,datevalue,2012-2013,012-2013,RANDOM_TYPO,,[]
+138.pre_opqeq_five_d_index_profile,138,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+237.pre_opqeq_five_d_index,237,pre_opqeq_five_d_index,1.0,66.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+183.varicose_veinavvq_post_opq_predicted,183,varicose_veinavvq_post_opq_predicted,3.495192872,13.37393196,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e9, e10, e12, e15, e16, e1, e2, e3, e4]"
+162.pre_opqeq_five_d_index_profile,162,pre_opqeq_five_d_index_profile,11121,11112.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+68.pre_opqeq_five_d_index_profile,68,pre_opqeq_five_d_index_profile,11121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+936.pre_opqeq_five_d_index,936,pre_opqeq_five_d_index,1.0,6.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+23.datevalue,23,datevalue,2012-2013,2012-20b13,RANDOM_TYPO,,[]
+91.varicose_veinavvq_post_opq_predicted,91,varicose_veinavvq_post_opq_predicted,9.524901417,2.104950912,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e9]"
+9.varicose_veinavvq_post_opq_predicted,9,varicose_veinavvq_post_opq_predicted,9.092359546,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+205.datevalue,205,datevalue,2012-2013,t2012-2013,RANDOM_TYPO,,[]
+917.pre_opqeq_five_d_index,917,pre_opqeq_five_d_index,1.0,53.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+177.varicose_veinavvq_post_opq_predicted,177,varicose_veinavvq_post_opq_predicted,12.76007775,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+108.pre_opqeq_five_d_index_profile,108,pre_opqeq_five_d_index_profile,11121,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+172.varicose_veinavvq_post_opq_predicted,172,varicose_veinavvq_post_opq_predicted,10.08851752,2.372903104,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+643.pre_opqeq_five_d_index,643,pre_opqeq_five_d_index,1.0,59.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+89.pre_opqeq_five_d_index_profile,89,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+594.pre_opqeq_five_d_index,594,pre_opqeq_five_d_index,1.0,49.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+86.varicose_veinavvq_post_opq_predicted,86,varicose_veinavvq_post_opq_predicted,15.4639994,23.44378206,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e11, e10, e1, e2, e4]"
+362.pre_opqeq_five_d_index,362,pre_opqeq_five_d_index,1.0,34.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+100.pre_opqeq_five_d_index_profile,100,pre_opqeq_five_d_index_profile,11111,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+114.pre_opqeq_five_d_index_profile,114,pre_opqeq_five_d_index_profile,11111,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+198.varicose_veinavvq_post_opq_predicted,198,varicose_veinavvq_post_opq_predicted,6.666564818,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+110.pre_opqeq_five_d_index_profile,110,pre_opqeq_five_d_index_profile,11111,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+773.pre_opqeq_five_d_index,773,pre_opqeq_five_d_index,1.0,20.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+113.varicose_veinavvq_post_opq_predicted,113,varicose_veinavvq_post_opq_predicted,19.68149199,12.56755729,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e8, e9]"
+100.varicose_veinavvq_post_opq_predicted,100,varicose_veinavvq_post_opq_predicted,10.02888946,14.28094678,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+89.varicose_veinavvq_post_opq_predicted,89,varicose_veinavvq_post_opq_predicted,11.70514722,9.227974601,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+248.pre_opqeq_five_d_index,248,pre_opqeq_five_d_index,1.0,39.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+169.varicose_veinavvq_post_opq_predicted,169,varicose_veinavvq_post_opq_predicted,12.16102853,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+634.pre_opqeq_five_d_index,634,pre_opqeq_five_d_index,1.0,49.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+132.varicose_veinavvq_post_opq_predicted,132,varicose_veinavvq_post_opq_predicted,10.27466944,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+230.datevalue,230,datevalue,2012-2013,2012-2103,RANDOM_TYPO,,[]
+51.pre_opqeq_five_d_index_profile,51,pre_opqeq_five_d_index_profile,21121,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+705.pre_opqeq_five_d_index,705,pre_opqeq_five_d_index,1.0,37.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1018.datevalue,1018,datevalue,2012-2013,202-2013,RANDOM_TYPO,,[]
+158.pre_opqeq_five_d_index_profile,158,pre_opqeq_five_d_index_profile,21121,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+994.datevalue,994,datevalue,2012-2013,201-22013,RANDOM_TYPO,,[]
+620.pre_opqeq_five_d_index,620,pre_opqeq_five_d_index,1.0,93.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+373.pre_opqeq_five_d_index,373,pre_opqeq_five_d_index,1.0,3.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+146.pre_opqeq_five_d_index_profile,146,pre_opqeq_five_d_index_profile,11111,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+287.pre_opqeq_five_d_index,287,pre_opqeq_five_d_index,1.0,101.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+66.pre_opqeq_five_d_index_profile,66,pre_opqeq_five_d_index_profile,11233,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+383.datevalue,383,datevalue,2012-2013,2012-013,RANDOM_TYPO,,[]
+124.datevalue,124,datevalue,2012-2013,2012y-2013,RANDOM_TYPO,,[]
+958.pre_opqeq_five_d_index,958,pre_opqeq_five_d_index,1.0,68.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+163.pre_opqeq_five_d_index_profile,163,pre_opqeq_five_d_index_profile,11123,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+504.pre_opqeq_five_d_index,504,pre_opqeq_five_d_index,1.0,10.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+201.varicose_veinavvq_post_opq_predicted,201,varicose_veinavvq_post_opq_predicted,4.62731988,19.65810639,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e14, e16, e1, e2, e3, e4]"
+92.varicose_veinavvq_post_opq_predicted,92,varicose_veinavvq_post_opq_predicted,6.489860439,21.80492619,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+461.datevalue,461,datevalue,2012-2013,2012-2103,RANDOM_TYPO,,[]
+179.pre_opqeq_five_d_index,179,pre_opqeq_five_d_index,1.0,73.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+310.pre_opqeq_five_d_index,310,pre_opqeq_five_d_index,1.0,29.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+168.varicose_veinavvq_post_opq_predicted,168,varicose_veinavvq_post_opq_predicted,20.51784667,5.516386862,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8]"
+792.pre_opqeq_five_d_index,792,pre_opqeq_five_d_index,1.0,35.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1043.pre_opqeq_five_d_index,1043,pre_opqeq_five_d_index,1.0,30.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+781.pre_opqeq_five_d_index,781,pre_opqeq_five_d_index,1.0,53.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+82.varicose_veinavvq_post_opq_predicted,82,varicose_veinavvq_post_opq_predicted,8.958800138,31.66490098,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e13, e12, e15, e1, e2, e3, e4]"
+112.varicose_veinavvq_post_opq_predicted,112,varicose_veinavvq_post_opq_predicted,6.471926315,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+494.pre_opqeq_five_d_index,494,pre_opqeq_five_d_index,1.0,19.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+30.pre_opqeq_five_d_index_profile,30,pre_opqeq_five_d_index_profile,11111,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+17.pre_opqeq_five_d_index_profile,17,pre_opqeq_five_d_index_profile,21231,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+80.varicose_veinavvq_post_opq_predicted,80,varicose_veinavvq_post_opq_predicted,14.25320404,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+44.pre_opqeq_five_d_index_profile,44,pre_opqeq_five_d_index_profile,21111,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+789.pre_opqeq_five_d_index,789,pre_opqeq_five_d_index,1.0,60.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+20.varicose_veinavvq_post_opq_predicted,20,varicose_veinavvq_post_opq_predicted,8.179889641,10.77311082,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+136.pre_opqeq_five_d_index_profile,136,pre_opqeq_five_d_index_profile,11121,21232.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+571.pre_opqeq_five_d_index,571,pre_opqeq_five_d_index,1.0,84.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+483.datevalue,483,datevalue,2012-2013,k2012-2013,RANDOM_TYPO,,[]
+65.pre_opqeq_five_d_index_profile,65,pre_opqeq_five_d_index_profile,11121,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+196.varicose_veinavvq_post_opq_predicted,196,varicose_veinavvq_post_opq_predicted,4.242166579,5.212871321,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e13, e12, e15, e14, e1, e2, e3, e4]"
+181.varicose_veinavvq_post_opq_predicted,181,varicose_veinavvq_post_opq_predicted,13.42373671,6.772507038,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+3.varicose_veinavvq_post_opq_predicted,3,varicose_veinavvq_post_opq_predicted,9.381877205,25.67364933,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+217.varicose_veinavvq_post_opq_predicted,217,varicose_veinavvq_post_opq_predicted,22.21143909,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+41.pre_opqeq_five_d_index_profile,41,pre_opqeq_five_d_index_profile,11121,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1030.datevalue,1030,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+51.varicose_veinavvq_post_opq_predicted,51,varicose_veinavvq_post_opq_predicted,16.32545662,8.701336572,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+248.datevalue,248,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+199.varicose_veinavvq_post_opq_predicted,199,varicose_veinavvq_post_opq_predicted,12.8936551,11.9249758,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e14, e16, e1, e2, e3, e4]"
+788.datevalue,788,datevalue,2012-2013,s2012-2013,RANDOM_TYPO,,[]
+73.varicose_veinavvq_post_opq_predicted,73,varicose_veinavvq_post_opq_predicted,12.89712214,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+193.datevalue,193,datevalue,2012-2013,2012-201a3,RANDOM_TYPO,,[]
+600.datevalue,600,datevalue,2012-2013,2012-2103,RANDOM_TYPO,,[]
+8.varicose_veinavvq_post_opq_predicted,8,varicose_veinavvq_post_opq_predicted,18.2819564,3.970079184,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+948.pre_opqeq_five_d_index,948,pre_opqeq_five_d_index,1.0,38.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1035.pre_opqeq_five_d_index,1035,pre_opqeq_five_d_index,1.0,88.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+545.datevalue,545,datevalue,2012-2013,202-2013,RANDOM_TYPO,,[]
+239.varicose_veinavvq_post_opq_predicted,239,varicose_veinavvq_post_opq_predicted,1.794415361,14.34029776,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+82.pre_opqeq_five_d_index_profile,82,pre_opqeq_five_d_index_profile,21121,11112.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+155.varicose_veinavvq_post_opq_predicted,155,varicose_veinavvq_post_opq_predicted,8.016930905,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+19.varicose_veinavvq_post_opq_predicted,19,varicose_veinavvq_post_opq_predicted,12.80904753,10.90128817,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+117.datevalue,117,datevalue,2012-2013,012-2013,RANDOM_TYPO,,[]
+77.varicose_veinavvq_post_opq_predicted,77,varicose_veinavvq_post_opq_predicted,11.07005425,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+106.varicose_veinavvq_post_opq_predicted,106,varicose_veinavvq_post_opq_predicted,4.224413322,5.468141616,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+480.datevalue,480,datevalue,2012-2013,2012-013,RANDOM_TYPO,,[]
+180.datevalue,180,datevalue,2012-2013,2012-203,RANDOM_TYPO,,[]
+534.pre_opqeq_five_d_index,534,pre_opqeq_five_d_index,1.0,79.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+20.pre_opqeq_five_d_index_profile,20,pre_opqeq_five_d_index_profile,11122,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+518.datevalue,518,datevalue,2012-2013,2102-2013,RANDOM_TYPO,,[]
+124.pre_opqeq_five_d_index_profile,124,pre_opqeq_five_d_index_profile,21221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+200.varicose_veinavvq_post_opq_predicted,200,varicose_veinavvq_post_opq_predicted,15.88464886,14.28094678,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+913.pre_opqeq_five_d_index,913,pre_opqeq_five_d_index,1.0,2.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+163.varicose_veinavvq_post_opq_predicted,163,varicose_veinavvq_post_opq_predicted,12.54859328,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+132.pre_opqeq_five_d_index_profile,132,pre_opqeq_five_d_index_profile,11122,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+95.varicose_veinavvq_post_opq_predicted,95,varicose_veinavvq_post_opq_predicted,9.746945708,1.973332882,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e1, e2, e3, e4]"
+202.varicose_veinavvq_post_opq_predicted,202,varicose_veinavvq_post_opq_predicted,14.04891123,10.57778279,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+298.pre_opqeq_five_d_index,298,pre_opqeq_five_d_index,1.0,90.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+495.datevalue,495,datevalue,2012-2013,2012-2l013,RANDOM_TYPO,,[]
+39.varicose_veinavvq_post_opq_predicted,39,varicose_veinavvq_post_opq_predicted,25.28801328,14.38172811,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+812.pre_opqeq_five_d_index,812,pre_opqeq_five_d_index,1.0,64.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+524.pre_opqeq_five_d_index,524,pre_opqeq_five_d_index,1.0,78.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+219.datevalue,219,datevalue,2012-2013,201-22013,RANDOM_TYPO,,[]
+785.pre_opqeq_five_d_index,785,pre_opqeq_five_d_index,1.0,49.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+52.pre_opqeq_five_d_index_profile,52,pre_opqeq_five_d_index_profile,11121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+555.datevalue,555,datevalue,2012-2013,2u012-2013,RANDOM_TYPO,,[]
+185.pre_opqeq_five_d_index,185,pre_opqeq_five_d_index,1.0,72.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,"[e18, e4]"
+235.varicose_veinavvq_post_opq_predicted,235,varicose_veinavvq_post_opq_predicted,11.87285328,10.32768812,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+164.varicose_veinavvq_post_opq_predicted,164,varicose_veinavvq_post_opq_predicted,8.898217819,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+126.varicose_veinavvq_post_opq_predicted,126,varicose_veinavvq_post_opq_predicted,1.61816381,5.516386862,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8]"
+74.varicose_veinavvq_post_opq_predicted,74,varicose_veinavvq_post_opq_predicted,4.946081865,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+221.varicose_veinavvq_post_opq_predicted,221,varicose_veinavvq_post_opq_predicted,6.738920209,32.19118649,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e11, e9, e10, e12, e15, e1, e2, e3, e4]"
+866.pre_opqeq_five_d_index,866,pre_opqeq_five_d_index,1.0,29.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+81.pre_opqeq_five_d_index_profile,81,pre_opqeq_five_d_index_profile,11121,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+75.varicose_veinavvq_post_opq_predicted,75,varicose_veinavvq_post_opq_predicted,9.572844243,10.32768812,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+161.pre_opqeq_five_d_index_profile,161,pre_opqeq_five_d_index_profile,21122,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+1006.pre_opqeq_five_d_index,1006,pre_opqeq_five_d_index,1.0,10.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+297.pre_opqeq_five_d_index,297,pre_opqeq_five_d_index,1.0,95.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+970.pre_opqeq_five_d_index,970,pre_opqeq_five_d_index,1.0,93.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+104.pre_opqeq_five_d_index_profile,104,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+2.varicose_veinavvq_post_opq_predicted,2,varicose_veinavvq_post_opq_predicted,15.31392798,13.37393196,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e8, e9, e10, e12, e15, e16, e1, e2, e3, e4]"
+280.pre_opqeq_five_d_index,280,pre_opqeq_five_d_index,1.0,9.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+918.pre_opqeq_five_d_index,918,pre_opqeq_five_d_index,1.0,95.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+624.datevalue,624,datevalue,2012-2013,20d12-2013,RANDOM_TYPO,,[]
+95.pre_opqeq_five_d_index_profile,95,pre_opqeq_five_d_index_profile,11221,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+107.varicose_veinavvq_post_opq_predicted,107,varicose_veinavvq_post_opq_predicted,5.972382859,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+88.varicose_veinavvq_post_opq_predicted,88,varicose_veinavvq_post_opq_predicted,14.11576849,8.028986428,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+207.varicose_veinavvq_post_opq_predicted,207,varicose_veinavvq_post_opq_predicted,0.450668707,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+206.varicose_veinavvq_post_opq_predicted,206,varicose_veinavvq_post_opq_predicted,10.28492595,17.92714893,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e17, e1, e2, e3, e4, e5, e7, e8, e9]"
+642.datevalue,642,datevalue,2012-2013,x2012-2013,RANDOM_TYPO,,[]
+997.pre_opqeq_five_d_index,997,pre_opqeq_five_d_index,1.0,12.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+1073.datevalue,1073,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+41.varicose_veinavvq_post_opq_predicted,41,varicose_veinavvq_post_opq_predicted,18.27050541,14.34029776,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+72.pre_opqeq_five_d_index_profile,72,pre_opqeq_five_d_index_profile,21221,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+225.varicose_veinavvq_post_opq_predicted,225,varicose_veinavvq_post_opq_predicted,12.77379738,25.67364933,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+156.pre_opqeq_five_d_index_profile,156,pre_opqeq_five_d_index_profile,21121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+140.pre_opqeq_five_d_index_profile,140,pre_opqeq_five_d_index_profile,11111,22222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+123.pre_opqeq_five_d_index_profile,123,pre_opqeq_five_d_index_profile,11122,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+11.varicose_veinavvq_post_opq_predicted,11,varicose_veinavvq_post_opq_predicted,24.29377356,10.57778279,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+28.pre_opqeq_five_d_index_profile,28,pre_opqeq_five_d_index_profile,11121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+77.pre_opqeq_five_d_index_profile,77,pre_opqeq_five_d_index_profile,11221,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+58.pre_opqeq_five_d_index_profile,58,pre_opqeq_five_d_index_profile,11121,11131.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+478.datevalue,478,datevalue,2012-2013,2012-201v3,RANDOM_TYPO,,[]
+9.pre_opqeq_five_d_index_profile,9,pre_opqeq_five_d_index_profile,11121,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+38.pre_opqeq_five_d_index_profile,38,pre_opqeq_five_d_index_profile,21121,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+50.varicose_veinavvq_post_opq_predicted,50,varicose_veinavvq_post_opq_predicted,12.63317035,11.56038682,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+224.varicose_veinavvq_post_opq_predicted,224,varicose_veinavvq_post_opq_predicted,36.06461043,2.372903104,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+86.pre_opqeq_five_d_index_profile,86,pre_opqeq_five_d_index_profile,11111,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,[e18]
+135.pre_opqeq_five_d_index_profile,135,pre_opqeq_five_d_index_profile,11121,22331.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+94.varicose_veinavvq_post_opq_predicted,94,varicose_veinavvq_post_opq_predicted,21.46118081,6.365961088,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7]"
+182.varicose_veinavvq_post_opq_predicted,182,varicose_veinavvq_post_opq_predicted,11.69628004,14.28094678,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+649.pre_opqeq_five_d_index,649,pre_opqeq_five_d_index,1.0,27.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+204.varicose_veinavvq_post_opq_predicted,204,varicose_veinavvq_post_opq_predicted,15.23486788,13.3410708,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+33.pre_opqeq_five_d_index_profile,33,pre_opqeq_five_d_index_profile,11121,21221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+192.varicose_veinavvq_post_opq_predicted,192,varicose_veinavvq_post_opq_predicted,9.837152035,12.65357541,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+217.datevalue,217,datevalue,2012-2013,20q12-2013,RANDOM_TYPO,,[]
+23.pre_opqeq_five_d_index_profile,23,pre_opqeq_five_d_index_profile,21221,11211.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+587.pre_opqeq_five_d_index,587,pre_opqeq_five_d_index,1.0,54.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+648.datevalue,648,datevalue,2012-2013,2b012-2013,RANDOM_TYPO,,[]
+370.datevalue,370,datevalue,2012-2013,2012-013,RANDOM_TYPO,,[]
+137.pre_opqeq_five_d_index_profile,137,pre_opqeq_five_d_index_profile,11121,11111.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+971.datevalue,971,datevalue,2012-2013,20122013,RANDOM_TYPO,,[]
+32.datevalue,32,datevalue,2012-2013,2012-2031,RANDOM_TYPO,,[]
+17.varicose_veinavvq_post_opq_predicted,17,varicose_veinavvq_post_opq_predicted,15.64622677,3.054478287,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+42.varicose_veinavvq_post_opq_predicted,42,varicose_veinavvq_post_opq_predicted,8.103131096,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+440.datevalue,440,datevalue,2012-2013,2021-2013,RANDOM_TYPO,,[]
+76.varicose_veinavvq_post_opq_predicted,76,varicose_veinavvq_post_opq_predicted,5.390420444,12.76593245,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e16, e1, e2, e3, e4]"
+354.pre_opqeq_five_d_index,354,pre_opqeq_five_d_index,1.0,66.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+592.pre_opqeq_five_d_index,592,pre_opqeq_five_d_index,1.0,99.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index,[e18]
+83.varicose_veinavvq_post_opq_predicted,83,varicose_veinavvq_post_opq_predicted,4.785141271,14.52974837,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e13, e12, e15, e14, e16, e1, e2, e3, e4, e5, e7, e8, e9]"
+67.pre_opqeq_five_d_index_profile,67,pre_opqeq_five_d_index_profile,21222,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+180.varicose_veinavvq_post_opq_predicted,180,varicose_veinavvq_post_opq_predicted,6.618905504,10.57778279,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e11, e10, e12, e15, e14, e17, e16, e1, e2, e3, e4, e5, e6, e7, e8, e9]"
+118.pre_opqeq_five_d_index_profile,118,pre_opqeq_five_d_index_profile,11121,21121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+127.pre_opqeq_five_d_index_profile,127,pre_opqeq_five_d_index_profile,11122,21222.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+90.varicose_veinavvq_post_opq_predicted,90,varicose_veinavvq_post_opq_predicted,11.13148242,14.8622233,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> varicose_vein_pre_opq_score,"[e5, e7, e9, e10, e12, e15, e14, e17, e1, e2, e4]"
+147.pre_opqeq_five_d_index_profile,147,pre_opqeq_five_d_index_profile,21223,11121.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"
+113.pre_opqeq_five_d_index_profile,113,pre_opqeq_five_d_index_profile,21222,11221.0,FD_VIOLATION,varicose_veinavvq_post_opq_predicted -> pre_opqeq_five_d_index_profile,"[e18, e3]"

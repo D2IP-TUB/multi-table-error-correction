@@ -1,0 +1,2 @@
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.latitude,t2.latitude)
+t1&t2&EQ(t1.crimeid,t2.crimeid)&IQ(t1.locationvalue,t2.locationvalue)

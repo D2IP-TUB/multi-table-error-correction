@@ -1,0 +1,141 @@
+<task>
+    <!-- ****************************************************
+                      DATABASES
+    **************************************************** -->
+    <target> 
+        <type>DBMS</type>
+        <access-configuration>
+            <driver>org.postgresql.Driver</driver>
+            <uri>jdbc:postgresql://localhost:5434/bartdb</uri>
+            <schema>target</schema>
+            <login>postgres</login>
+            <password>postgres</password>
+        </access-configuration>
+    </target>
+
+    <!-- ****************************************************
+                    DEPENDENCIES
+    **************************************************** -->
+    <dependencies><![CDATA[DCs: 
+
+            e1: clean(post_opq_mobility: $post_opq_mobility1, varicose_veineq_five_d_index: $varicose_veineq_five_d_index1, yearvalue: $yearvalue1, age_band: $age_band1, varicose_vein_post_opq_left_itch: $varicose_vein_post_opq_left_itch1, post_opq_discomfort: $post_opq_discomfort1, varicose_vein_pre_opq_left_ulcer: $varicose_vein_pre_opq_left_ulcer1, post_opq_self_care: $post_opq_self_care1, varicose_vein_pre_opq_left_rash: $varicose_vein_pre_opq_left_rash1, varicose_vein_post_opq_right_pain_days: $varicose_vein_post_opq_right_pain_days1, varicose_vein_pre_opq_right_ulcer: $varicose_vein_pre_opq_right_ulcer1, varicose_vein_pre_opq_right_rash: $varicose_vein_pre_opq_right_rash1, varicose_veinavvq_post_opq_predicted: $varicose_veinavvq_post_opq_predicted1, varicose_vein_post_opq_leisure: $varicose_vein_post_opq_leisure1, varicose_vein_pre_opq_right_itch: $varicose_vein_pre_opq_right_itch1, varicose_vein_post_opq_painkiller_days: $varicose_vein_post_opq_painkiller_days1, post_opq_anxiety: $post_opq_anxiety1, post_opq_bleeding: $post_opq_bleeding1, pre_opqeqvas: $pre_opqeqvas1, varicose_vein_pre_opq_right_discolour: $varicose_vein_pre_opq_right_discolour1, varicose_vein_pre_opq_left_itch: $varicose_vein_pre_opq_left_itch1, varicose_vein_pre_opq_left_discolour: $varicose_vein_pre_opq_left_discolour1, varicose_vein_post_opq_left_rash: $varicose_vein_post_opq_left_rash1, varicose_vein_pre_opq_right_pain_days: $varicose_vein_pre_opq_right_pain_days1, post_opq_wound: $post_opq_wound1, pre_opqeq_five_d_index: $pre_opqeq_five_d_index1, varicose_vein_pre_opq_left_front_count: $varicose_vein_pre_opq_left_front_count1, pre_opqeq_five_d_index_profile: $pre_opqeq_five_d_index_profile1, varicose_vein_pre_opq_leisure: $varicose_vein_pre_opq_leisure1, varicose_vein_pre_opq_swelling: $varicose_vein_pre_opq_swelling1, varicose_vein_post_opq_right_ulcer: $varicose_vein_post_opq_right_ulcer1, post_opq_readmitted: $post_opq_readmitted1, varicose_vein_post_opq_work: $varicose_vein_post_opq_work1, post_opq_further_surgery: $post_opq_further_surgery1, varicose_vein_pre_opq_clothing: $varicose_vein_pre_opq_clothing1, varicose_vein_pre_opq_score: $varicose_vein_pre_opq_score1),
+            clean(post_opq_mobility: $post_opq_mobility2, varicose_veineq_five_d_index: $varicose_veineq_five_d_index2, yearvalue: $yearvalue2, age_band: $age_band2, varicose_vein_post_opq_left_itch: $varicose_vein_post_opq_left_itch2, post_opq_discomfort: $post_opq_discomfort2, varicose_vein_pre_opq_left_ulcer: $varicose_vein_pre_opq_left_ulcer2, post_opq_self_care: $post_opq_self_care2, varicose_vein_pre_opq_left_rash: $varicose_vein_pre_opq_left_rash2, varicose_vein_post_opq_right_pain_days: $varicose_vein_post_opq_right_pain_days2, varicose_vein_pre_opq_right_ulcer: $varicose_vein_pre_opq_right_ulcer2, varicose_vein_pre_opq_right_rash: $varicose_vein_pre_opq_right_rash2, varicose_veinavvq_post_opq_predicted: $varicose_veinavvq_post_opq_predicted2, varicose_vein_post_opq_leisure: $varicose_vein_post_opq_leisure2, varicose_vein_pre_opq_right_itch: $varicose_vein_pre_opq_right_itch2, varicose_vein_post_opq_painkiller_days: $varicose_vein_post_opq_painkiller_days2, post_opq_anxiety: $post_opq_anxiety2, post_opq_bleeding: $post_opq_bleeding2, pre_opqeqvas: $pre_opqeqvas2, varicose_vein_pre_opq_right_discolour: $varicose_vein_pre_opq_right_discolour2, varicose_vein_pre_opq_left_itch: $varicose_vein_pre_opq_left_itch2, varicose_vein_pre_opq_left_discolour: $varicose_vein_pre_opq_left_discolour2, varicose_vein_post_opq_left_rash: $varicose_vein_post_opq_left_rash2, varicose_vein_pre_opq_right_pain_days: $varicose_vein_pre_opq_right_pain_days2, post_opq_wound: $post_opq_wound2, pre_opqeq_five_d_index: $pre_opqeq_five_d_index2, varicose_vein_pre_opq_left_front_count: $varicose_vein_pre_opq_left_front_count2, pre_opqeq_five_d_index_profile: $pre_opqeq_five_d_index_profile2, varicose_vein_pre_opq_leisure: $varicose_vein_pre_opq_leisure2, varicose_vein_pre_opq_swelling: $varicose_vein_pre_opq_swelling2, varicose_vein_post_opq_right_ulcer: $varicose_vein_post_opq_right_ulcer2, post_opq_readmitted: $post_opq_readmitted2, varicose_vein_post_opq_work: $varicose_vein_post_opq_work2, post_opq_further_surgery: $post_opq_further_surgery2, varicose_vein_pre_opq_clothing: $varicose_vein_pre_opq_clothing2, varicose_vein_pre_opq_score: $varicose_vein_pre_opq_score2),
+                $pre_opqeq_five_d_index_profile1 == $pre_opqeq_five_d_index_profile2, $pre_opqeq_five_d_index1 != $pre_opqeq_five_d_index2 -> #fail. 
+
+        ]]></dependencies>
+
+    <!-- ****************************************************
+                      CONFIGURATION
+    **************************************************** -->
+    <configuration>
+        <!-- To print extra information in the ouput (default = false) -->
+        <printLog>true</printLog>
+
+        <!-- To load DB every time on start (default = false) -->
+        <recreateDBOnStart>false</recreateDBOnStart>
+
+        <!-- To apply the changes (default = false) -->
+        <applyCellChanges>true</applyCellChanges>
+
+        <!-- To  apply cell changes on a copy of the original target, with a custom suffix (default = true) -->
+        <cloneTargetSchema>true</cloneTargetSchema>
+        <cloneSuffix>_dirty</cloneSuffix>
+
+        <!-- To export the dirty db -->
+        <exportDirtyDB>true</exportDirtyDB>
+        <exportDirtyDBPath>/home/fatemeh/RealLake-OpenData/Data-Lake-Error-Generator/output_lake_uk/UK_CSV0000000000003896__7</exportDirtyDBPath>
+        <exportDirtyDBType>CSV</exportDirtyDBType>
+
+        <!-- To export the changes -->
+        <exportCellChanges full="true">true</exportCellChanges>
+        <exportCellChangesPath>clean_changes.csv</exportCellChangesPath>
+
+        <!-- To compute an estimate of the reparability (default = false) -->
+        <estimateRepairability>true</estimateRepairability>
+
+        <!-- To generate all possible changes (default = false - slow, only for toy examples)-->
+        <generateAllChanges>false</generateAllChanges>
+
+        <!-- To avoid interactions among changes. (default = true) -->
+        <avoidInteractions>true</avoidInteractions>
+
+        <!-- To check, at the end of the process, if changes are detectable. (default = false) -->
+        <checkChanges>true</checkChanges>
+
+        <!-- To compute an estimate of the repairability. Requires checkChanges = true. (default = false) -->
+        <estimateRepairability>true</estimateRepairability>
+
+        <!-- To use an optimized strategy for updates. (default = true) -->
+        <useDeltaDBForChanges>true</useDeltaDBForChanges>
+
+        <!-- Error percentages for dependencies and comparisons 
+        All percentages are wrt table sizes (# tuples) -->
+        <errorPercentages>
+            <defaultPercentage>0.0</defaultPercentage>
+            <vioGenQueries>
+            <vioGenQuery id="e1"><comparison>(pre_opqeq_five_d_index_profile1 == pre_opqeq_five_d_index_profile2)</comparison><percentage>395.99999999998107</percentage></vioGenQuery><vioGenQuery id="e1"><comparison>(pre_opqeq_five_d_index1 != pre_opqeq_five_d_index2)</comparison><percentage>395.99999999998107</percentage></vioGenQuery></vioGenQueries>
+        </errorPercentages>
+
+        <!-- To control the way in which changing the value -->
+        <dirtyStrategies>
+            <defaultStrategy>
+                <strategy> TypoRandom </strategy>
+            </defaultStrategy> 
+            <!-- possible strategies
+                <strategy chars="*" charsToAdd="3">TypoAddString</strategy>
+                <strategy chars="*" charsToAdd="3">TypoAppendString</strategy>
+                <strategy charsToRemove="3">TypoRemoveString</strategy>
+                <strategy charsToSwitch="3">TypoSwitchValue</strategy>
+                <strategy>TypoActiveDomain</strategy>
+                <strategy>TypoRandom</strategy>
+            -->
+        </dirtyStrategies>
+
+        <randomErrors>
+            <tables>
+                <table name="clean"> 
+                    <percentage>11</percentage> <!-- Percentage is wrt attributes to dirty in the table -->
+                    <attributes>
+                    <attribute>yearvalue</attribute><attribute>age_band</attribute></attributes>
+                </table>
+            </tables>
+        </randomErrors>
+    
+        <outlierErrors>
+            <tables>
+                <table name="clean">
+                    <attributes>
+                    </attributes>
+                </table>
+            </tables>
+        </outlierErrors>
+        
+        <!-- The following parameters are used to control the sampling process.
+            All the fields are optional, but they may be crucial to obtain a good random sample.
+            In order to choose the cells to modify, BART will scan the result of a viogen query
+            using the following sampling algorithm:
+            1) First, a number of tuples are skipped. This is a random number choosed btw 
+                0 and (offsetFactor * tableSize)
+            2) Then BART will scan the result and will pickup tuples 
+            with a probability p = probabilityFactor.
+            
+            BART uses three kinds of queries
+            - Symmetric queries: for symmetric viogen queries (see paper)
+            - Inequality queries: for viogen queries without equalities (i.e. inequalities only)
+            - Standard queries: for all other viogen queries
+        -->
+        <vioGenQueriesConfiguration>
+            <!-- STANDARD QUERIES -->
+            <probabilityFactorForStandardQueries>0.25</probabilityFactorForStandardQueries>
+            <offsetFactorForStandardQueries>0.05</offsetFactorForStandardQueries>
+            <!-- SYMMETRIC QUERIES -->
+            <probabilityFactorForSymmetricQueries>0.25</probabilityFactorForSymmetricQueries>
+            <offsetFactorForSymmetricQueries>0.05</offsetFactorForSymmetricQueries>
+            <!-- INEQUALITY QUERIES -->
+            <probabilityFactorForInequalityQueries>0.05</probabilityFactorForInequalityQueries>
+            <offsetFactorForInequalityQueries>0.05</offsetFactorForInequalityQueries>
+            <windowSizeFactorForInequalityQueries>1.5</windowSizeFactorForInequalityQueries>
+        </vioGenQueriesConfiguration>
+
+    </configuration>
+</task>

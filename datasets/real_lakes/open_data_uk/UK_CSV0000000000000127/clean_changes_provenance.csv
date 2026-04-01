@@ -1,0 +1,227 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+22.package_area,22,package_area,9.73555137201656E-6,7.87030674503228E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e34, e36, e28, e29, e3]"
+198.region_code,198,region_code,D1,wD1,FD_VIOLATION,location_code -> region_code,[e38]
+53.total_cost,53,total_cost,378194.367092,37814.367092,RANDOM_TYPO,,[]
+193.region_code,193,region_code,A1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+125.customer_id,125,customer_id,A2B-673849,2AB-673849,RANDOM_TYPO,,[]
+69.total_cost,69,total_cost,256789.997432,256789.997432***,RANDOM_TYPO,,[]
+"36.total_cost,""$3,500.00""",36,"total_cost,""$3,500","500.00""","""$31",UNKNOWN,,[]
+19.region_code,19,region_code,F1,qF1,FD_VIOLATION,location_code -> region_code,"[e8, e35, e17, e38]"
+164.order_id,164,order_id,A97853,A79853,RANDOM_TYPO,,[]
+170.region_code,170,region_code,C1,Cb1,FD_VIOLATION,location_code -> region_code,[e38]
+24.order_id,24,order_id,95031,9531,RANDOM_TYPO,,[]
+244.total_cost,244,total_cost,15876.459120,d15876.459120,RANDOM_TYPO,,[]
+17.region_code,17,region_code,E2,F1,FD_VIOLATION,location_code -> region_code,"[e35, e37, e17]"
+214.location_code,214,location_code,E00061684,E0006684,RANDOM_TYPO,,[]
+22.package_length,22,package_length,0.0206676881435337,0.0245846353463522,FD_VIOLATION,location_code -> package_length,"[e20, e30, e22, e21, e24, e23, e26, e25, e27, e19, e2]"
+262.customer_id,262,customer_id,312B57,x312B57,RANDOM_TYPO,,[]
+77.location_id,77,location_id,E08000006,E0800006,RANDOM_TYPO,,[]
+42.location_id,42,location_id,E08000022,E080000m22,RANDOM_TYPO,,[]
+20.shipping_length,20,shipping_length,847.893079228275,1505.44118164,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+201.region_name,201,region_name,Urban city and town,Urban city an town,FD_VIOLATION,location_code -> region_name,[e37]
+5.package_length,5,package_length,0.0506240434983344,0.0099578741420903,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19]"
+250.region_code,250,region_code,E1,1,FD_VIOLATION,location_code -> region_code,[e37]
+217.customer_id,217,customer_id,528401BXT,528401XBT,RANDOM_TYPO,,[]
+187.total_cost,187,total_cost,15005000.75,1505000.75,RANDOM_TYPO,,[]
+221.location_code,221,location_code,E00152055,E00152055***,RANDOM_TYPO,,[]
+97.order_id,97,order_id,ORD12345,ORD1f2345,RANDOM_TYPO,,[]
+222.total_cost,222,total_cost,18746.493281,8746.493281,RANDOM_TYPO,,[]
+88.region_code,88,region_code,A1,1A,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+9.package_area,9,package_area,1.39305685406201E-5,1.74668369814278E-5,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e12, e34, e36, e28, e29, e3]"
+43.region_name,43,region_name,Urban city and town,Urcban city and town,FD_VIOLATION,location_code -> region_name,[e37]
+91.location_id,91,location_id,E09000010,E0900010,RANDOM_TYPO,,[]
+98.region_name,98,region_name,Urban major conurbation,Urbn major conurbation,RANDOM_TYPO,,[]
+45.region_code,45,region_code,A1,1A,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+219.region_code,219,region_code,A1,1A,FD_VIOLATION,location_code -> region_code,[e37]
+21.shipping_length,21,shipping_length,3415.64651194,1505.44118164,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e1, e18, e29]"
+3.package_area,3,package_area,2.42717160218527E-6,1.74668369814278E-5,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e12, e34, e36, e28, e29]"
+"196.total_cost,""2$52,894.07""",196,"total_cost,""2$52,894","894.07""","""$252",UNKNOWN,,[]
+"16.total_cost,""$,1800,719.56"",""$1",16,"total_cost,""$,1800,719","719.56""",800,FD_VIOLATION,,"[e6, e33, e24, e15]"
+46.region_code,46,region_code,C1,vC1,FD_VIOLATION,location_code -> region_code,[e38]
+44.region_name,44,region_name,Urban city and town,Urbn city and town,FD_VIOLATION,location_code -> region_name,[e37]
+236.region_name,236,region_name,Urban city and town,Urban cit yand town,FD_VIOLATION,location_code -> region_name,[e37]
+132.region_name,132,region_name,Urban major conurbation,Urbanm ajor conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+205.location_code,205,location_code,E00140238,0E0140238,RANDOM_TYPO,,[]
+139.total_cost,139,total_cost,89420.15,89420.1x5,RANDOM_TYPO,,[]
+16.package_length,16,package_length,0.0933638360679225,0.0245846353463522,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19, e2]"
+27.location_id,27,location_id,E07000088,E0700008,RANDOM_TYPO,,[]
+246.location_code,246,location_code,E00060431,E00060d431,RANDOM_TYPO,,[]
+10.region_name,10,region_name,Rural hamlets and isolated dwellings,Rural village,FD_VIOLATION,location_code -> region_name,"[e37, e36, e38, e27, e18]"
+249.location_id,249,location_id,E07000171,E07000117,RANDOM_TYPO,,[]
+100.region_name,100,region_name,Urban city and town,Urban city anzd town,FD_VIOLATION,location_code -> region_name,[e37]
+98.location_id,98,location_id,E08000014,E00800014,RANDOM_TYPO,,[]
+13.region_code,13,region_code,A1,F1,FD_VIOLATION,location_code -> region_code,"[e8, e37, e38]"
+8.region_name,8,region_name,Urban major conurbation,Rural town and fringe,FD_VIOLATION,location_code -> region_name,"[e37, e36, e38, e27, e18]"
+3.package_length,3,package_length,0.0083087649569711,0.0069299473333058,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19]"
+192.location_id,192,location_id,E09000033,E09000303,RANDOM_TYPO,,[]
+212.location_id,212,location_id,E09000020,E90000020,RANDOM_TYPO,,[]
+180.customer_id,180,customer_id,345XYZ999,345XY9Z99,RANDOM_TYPO,,[]
+18.order_id,18,order_id,ODR102948,OD1R02948,FD_VIOLATION,location_code -> order_id,"[e34, e16]"
+8.order_id,8,order_id,ORD19859,RD19859,FD_VIOLATION,location_code -> order_id,"[e34, e25, e16]"
+21.package_length,21,package_length,0.0422852834698914,0.151583572066403,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19, e2]"
+80.region_name,80,region_name,Urban city and town,Urban city apnd town,FD_VIOLATION,location_code -> region_name,[e37]
+227.customer_id,227,customer_id,CST574839,ST574839,RANDOM_TYPO,,[]
+114.region_name,114,region_name,Rural town and fringe,Rural towna nd fringe,FD_VIOLATION,location_code -> region_name,[e37]
+250.location_id,250,location_id,E07000177,E0700017,RANDOM_TYPO,,[]
+13.package_area,13,package_area,9.02561245187459E-6,0.0010123163821635,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e12, e34, e36, e28, e29, e3]"
+159.region_code,159,region_code,C1,1C,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+252.location_id,252,location_id,E07000093,E07000093***,RANDOM_TYPO,,[]
+32.region_name,32,region_name,Urban major conurbation,Urba major conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+259.location_id,259,location_id,E06000047,E0600t0047,RANDOM_TYPO,,[]
+12.region_name,12,region_name,Urban major conurbation,Urban city and town,FD_VIOLATION,location_code -> region_name,"[e9, e37, e36, e38, e27, e18]"
+192.region_code,192,region_code,A1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+9.region_name,9,region_name,Urban city and town,Rural village,FD_VIOLATION,location_code -> region_name,"[e9, e37, e36, e38, e27, e18]"
+109.total_cost,109,total_cost,378194.367092,378194.36092,RANDOM_TYPO,,[]
+"235.total_cost,""252,894.07""",235,"total_cost,""252,894","894.07""","""$252",UNKNOWN,,[]
+213.region_code,213,region_code,C1,1C,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+198.customer_id,198,customer_id,CSTMR-123456,CSTMjR-123456,RANDOM_TYPO,,[]
+185.customer_id,185,customer_id,45678,456w78,RANDOM_TYPO,,[]
+209.customer_id,209,customer_id,312874,3d12874,RANDOM_TYPO,,[]
+190.region_code,190,region_code,C1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+243.customer_id,243,customer_id,A693X47B,A93X47B,RANDOM_TYPO,,[]
+55.customer_id,55,customer_id,A839BX,A8c39BX,RANDOM_TYPO,,[]
+42.region_name,42,region_name,Urban major conurbation,Urban major conrubation,FD_VIOLATION,location_code -> region_name,[e37]
+2.region_code,2,region_code,A1,C1,FD_VIOLATION,location_code -> region_code,"[e35, e37, e17, e38]"
+13.total_cost,13,total_cost,179.99,19.99,FD_VIOLATION,location_code -> total_cost,"[e6, e33, e15]"
+151.location_code,151,location_code,E00045112,E0005112,RANDOM_TYPO,,[]
+250.region_name,250,region_name,Rural village,Rural vilglage,FD_VIOLATION,location_code -> region_name,[e37]
+261.location_id,261,location_id,E06000052,E00600052,RANDOM_TYPO,,[]
+51.total_cost,51,total_cost,72340.50,72j340.50,RANDOM_TYPO,,[]
+149.region_name,149,region_name,Rural hamlets and isolated dwellings in a sparse setting,Rural hamlets and isolatd dwellings in a sparse setting,FD_VIOLATION,location_code -> region_name,[e37]
+86.location_code,86,location_code,E00060541,E00060514,RANDOM_TYPO,,[]
+118.region_name,118,region_name,Urban major conurbation,Ubran major conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+240.order_id,240,order_id,#96585,t#96585,RANDOM_TYPO,,[]
+24.location_id,24,location_id,E06000039,cE06000039,RANDOM_TYPO,,[]
+10.package_length,10,package_length,0.234169601262688,0.0099578741420903,FD_VIOLATION,location_code -> package_length,"[e20, e30, e22, e21, e24, e23, e26, e25, e27, e19]"
+"15.total_cost,""$3,500.00""",15,"total_cost,""$3,500","500.00""","""$31",FD_VIOLATION,,"[e6, e33, e15]"
+29.total_cost,29,total_cost,25489.7593209,2548.7593209,RANDOM_TYPO,,[]
+115.region_name,115,region_name,Urban city and town,Urbaun city and town,FD_VIOLATION,location_code -> region_name,[e37]
+129.location_id,129,location_id,E09000030,E09000030***,RANDOM_TYPO,,[]
+8.shipping_length,8,shipping_length,582.134519928754,1283.51738979,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+147.location_code,147,location_code,E00028152,E000e28152,RANDOM_TYPO,,[]
+87.total_cost,87,total_cost,8547312.62,547312.62,RANDOM_TYPO,,[]
+110.location_id,110,location_id,E07000193,E7000193,RANDOM_TYPO,,[]
+215.total_cost,215,total_cost,78534.67321,78534z.67321,RANDOM_TYPO,,[]
+44.location_id,44,location_id,E07000066,lE07000066,RANDOM_TYPO,,[]
+17.total_cost,17,total_cost,892463.212980,89463.212980,FD_VIOLATION,location_code -> total_cost,"[e33, e15]"
+260.location_code,260,location_code,E00075513,E00075153,RANDOM_TYPO,,[]
+16.region_code,16,region_code,D1,F1,FD_VIOLATION,location_code -> region_code,"[e8, e35, e37, e26, e17, e38]"
+43.customer_id,43,customer_id,CUST20231234,CuUST20231234,RANDOM_TYPO,,[]
+132.order_id,132,order_id,ORD12345,ORD1245,RANDOM_TYPO,,[]
+10.shipping_length,10,shipping_length,19976.8860011,902.812727852285,FD_VIOLATION,location_code -> shipping_length,"[e20, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+13.location_code,13,location_code,E00026995,E00156688,FD_VIOLATION,location_code -> shipping_length,"[e5, e6, e7, e8, e9, e10, e28, e1, e2, e3, e4]"
+4.region_name,4,region_name,Urban major conurbation,Urban city and town,FD_VIOLATION,location_code -> region_name,"[e37, e36, e38, e27, e18]"
+60.location_code,60,location_code,E00027074,E00072074,RANDOM_TYPO,,[]
+187.location_id,187,location_id,E08000003,E0800003,RANDOM_TYPO,,[]
+262.location_code,262,location_code,E00062719,00062719,RANDOM_TYPO,,[]
+143.region_name,143,region_name,Urban city and town,Urban city and tonw,FD_VIOLATION,location_code -> region_name,[e37]
+179.region_code,179,region_code,C1,Ct1,FD_VIOLATION,location_code -> region_code,[e38]
+154.region_code,154,region_code,A1,Ak1,FD_VIOLATION,location_code -> region_code,[e38]
+18.shipping_length,18,shipping_length,1391.07043052,1985.12886161,FD_VIOLATION,location_code -> shipping_length,"[e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+167.total_cost,167,total_cost,$48320.57,$483u20.57,RANDOM_TYPO,,[]
+194.region_code,194,region_code,E1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+233.customer_id,233,customer_id,50439,0439,RANDOM_TYPO,,[]
+248.order_id,248,order_id,B374785,B37475,RANDOM_TYPO,,[]
+162.location_code,162,location_code,E00131794,E0k0131794,RANDOM_TYPO,,[]
+204.region_name,204,region_name,Rural town and fringe,Rural town and ringe,FD_VIOLATION,location_code -> region_name,[e37]
+159.order_id,159,order_id,ORD-9857,ODR-9857,RANDOM_TYPO,,[]
+240.region_code,240,region_code,C1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+21.location_code,21,location_code,E00068717,E00016532,FD_VIOLATION,location_code -> shipping_length,"[e5, e6, e7, e8, e10, e28, e19, e1, e2, e4]"
+42.location_code,42,location_code,E00043053,E00043035,RANDOM_TYPO,,[]
+15.package_area,15,package_area,3.27507382900688E-6,7.87030674503228E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e35, e12, e34, e36, e28, e29, e3]"
+174.region_code,174,region_code,C1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+111.location_id,111,location_id,E07000128,07000128,RANDOM_TYPO,,[]
+150.customer_id,150,customer_id,A38265,Al38265,RANDOM_TYPO,,[]
+176.region_name,176,region_name,Rural town and fringe,Ruryal town and fringe,FD_VIOLATION,location_code -> region_name,[e37]
+1.package_area,1,package_area,1.35267719840107E-5,6.963066411923E-4,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e36, e28, e29, e3]"
+103.region_name,103,region_name,Urban major conurbation,Urabn major conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+107.region_code,107,region_code,D1,1D,FD_VIOLATION,location_code -> region_code,[e38]
+193.location_code,193,location_code,E00049335,0E0049335,RANDOM_TYPO,,[]
+232.customer_id,232,customer_id,48392,84392,RANDOM_TYPO,,[]
+15.shipping_length,15,shipping_length,751.097385716357,2031.27785484,FD_VIOLATION,location_code -> shipping_length,"[e11, e10, e13, e12, e15, e14, e16, e1, e29]"
+199.customer_id,199,customer_id,CUSTID12345,CUSTID1f2345,RANDOM_TYPO,,[]
+24.customer_id,24,customer_id,ID23597,ID2j3597,RANDOM_TYPO,,[]
+205.location_id,205,location_id,E06000048,06000048,RANDOM_TYPO,,[]
+103.location_code,103,location_code,E00004089,E00004089***,RANDOM_TYPO,,[]
+146.region_name,146,region_name,Urban city and town,Urban cityj and town,FD_VIOLATION,location_code -> region_name,[e37]
+11.region_name,11,region_name,Rural hamlets and isolated dwellings,Urban major conurbation,FD_VIOLATION,location_code -> region_name,"[e37, e36, e38]"
+194.location_id,194,location_id,E07000225,E07000j225,RANDOM_TYPO,,[]
+6.shipping_length,6,shipping_length,1977.49244332,1283.51738979,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+98.region_code,98,region_code,A1,oA1,RANDOM_TYPO,,[]
+60.region_name,60,region_name,Urban major conurbation,Urbanl major conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+12.package_area,12,package_area,1.41541004702362E-5,6.963066411923E-4,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e36, e28, e29, e3]"
+27.total_cost,27,total_cost,$48320.57,4$8320.57,RANDOM_TYPO,,[]
+166.customer_id,166,customer_id,8923746258361,892374625836h1,RANDOM_TYPO,,[]
+196.location_id,196,location_id,E07000082,E070n00082,RANDOM_TYPO,,[]
+2.order_id,2,order_id,ORD002314,ORD00314,FD_VIOLATION,location_code -> order_id,"[e34, e16]"
+263.total_cost,263,total_cost,89420.15,894j20.15,RANDOM_TYPO,,[]
+29.location_id,29,location_id,E06000044,E060000v44,RANDOM_TYPO,,[]
+172.customer_id,172,customer_id,ID23597,ID2597,RANDOM_TYPO,,[]
+145.region_name,145,region_name,Urban city and town,Urbawn city and town,FD_VIOLATION,location_code -> region_name,[e37]
+45.customer_id,45,customer_id,48392,4839v2,RANDOM_TYPO,,[]
+150.location_id,150,location_id,E07000033,E0000033,RANDOM_TYPO,,[]
+95.region_code,95,region_code,F1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+17.shipping_length,17,shipping_length,5687.06037183,4090.90270669,FD_VIOLATION,location_code -> shipping_length,"[e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+16.shipping_length,16,shipping_length,7995.57177616,1985.12886161,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e1, e18, e29]"
+195.region_name,195,region_name,Rural town and fringe,Rurl town and fringe,FD_VIOLATION,location_code -> region_name,[e37]
+11.package_area,11,package_area,0.0020428757420847,3.54866252301778E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e35, e12, e34, e36, e28, e29]"
+22.location_code,22,location_code,E00143132,E00101744,FD_VIOLATION,location_code -> shipping_length,"[e5, e6, e7, e8, e9, e28, e19, e1, e2, e3, e4]"
+92.region_code,92,region_code,D1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+30.customer_id,30,customer_id,AB123456C,AB1a23456C,RANDOM_TYPO,,[]
+19.package_area,19,package_area,0.002589775245494,3.54866252301778E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e35, e12, e34, e36, e28, e29, e3]"
+211.location_code,211,location_code,E00063253,E000632o53,RANDOM_TYPO,,[]
+191.region_name,191,region_name,Rural town and fringe,Rural town ad fringe,FD_VIOLATION,location_code -> region_name,[e37]
+19.shipping_length,19,shipping_length,35122.9593421,719.321638761213,FD_VIOLATION,location_code -> shipping_length,"[e11, e10, e13, e12, e15, e14, e17, e16, e1, e18, e29]"
+5.package_area,5,package_area,1.117591949861E-4,1.18286533187165E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e36, e28, e29]"
+20.package_area,20,package_area,5.19869904637426E-6,1.18286533187165E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e36, e28, e29]"
+12.package_length,12,package_length,0.0160689517859658,0.0099578741420903,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19, e2]"
+249.total_cost,249,total_cost,8547312.62,a8547312.62,RANDOM_TYPO,,[]
+234.total_cost,234,total_cost,18273.450912,81273.450912,RANDOM_TYPO,,[]
+16.location_code,16,location_code,W00001753,E00138306,FD_VIOLATION,location_code -> shipping_length,"[e5, e6, e7, e8, e9, e10, e28, e19, e1, e2, e3, e4]"
+183.order_id,183,order_id,ORD-965374,ORhD-965374,RANDOM_TYPO,,[]
+"40.total_cost,""$31,50000""",40,"total_cost,""$31,50000""","500.00""","""$31",UNKNOWN,,[]
+134.region_code,134,region_code,D1,wD1,FD_VIOLATION,location_code -> region_code,[e38]
+68.customer_id,68,customer_id,AB123456C,AB12345l6C,RANDOM_TYPO,,[]
+14.shipping_length,14,shipping_length,12469.4524335,719.321638761213,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e18, e29]"
+255.region_code,255,region_code,C1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+143.customer_id,143,customer_id,CUSTID12345,CUSTID2345,RANDOM_TYPO,,[]
+229.location_code,229,location_code,E00168953,E00x168953,RANDOM_TYPO,,[]
+219.location_code,219,location_code,E00176707,bE00176707,RANDOM_TYPO,,[]
+108.order_id,108,order_id,845927,84597,RANDOM_TYPO,,[]
+66.region_code,66,region_code,A1,1A,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+39.location_code,39,location_code,E00048791,E00o048791,RANDOM_TYPO,,[]
+122.total_cost,122,total_cost,303145.759214,303145.75924,RANDOM_TYPO,,[]
+56.location_id,56,location_id,E08000025,E08000025***,RANDOM_TYPO,,[]
+72.order_id,72,order_id,ORD-9857,ORD-9875,RANDOM_TYPO,,[]
+135.order_id,135,order_id,ORD19859,ORD19895,RANDOM_TYPO,,[]
+18.package_area,18,package_area,9.79192005009942E-6,1.18286533187165E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e35, e12, e34, e36, e28, e29]"
+23.region_code,23,region_code,C1,1C,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+80.region_code,80,region_code,C1,1C,FD_VIOLATION,location_code -> region_code,[e37]
+17.package_area,17,package_area,7.928292891405E-5,6.963066411923E-4,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e35, e12, e34, e36, e28, e29]"
+242.total_cost,242,total_cost,15005000.75,15005000.75***,RANDOM_TYPO,,[]
+235.order_id,235,order_id,ORD789321,ORD789231,RANDOM_TYPO,,[]
+67.total_cost,67,total_cost,303145.759214,03145.759214,RANDOM_TYPO,,[]
+16.package_area,16,package_area,1.402293092374E-4,2.46550754931593E-5,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e28, e29, e3]"
+57.location_id,57,location_id,E08000020,0E8000020,RANDOM_TYPO,,[]
+20.package_length,20,package_length,0.0095664328879661,0.0228272085898441,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19]"
+55.region_code,55,region_code,D1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+251.order_id,251,order_id,ORD-75931,RD-75931,RANDOM_TYPO,,[]
+254.region_code,254,region_code,C1,oC1,FD_VIOLATION,location_code -> region_code,[e38]
+65.location_id,65,location_id,E08000031,E0000031,RANDOM_TYPO,,[]
+53.location_code,53,location_code,E00031342,E00013342,RANDOM_TYPO,,[]
+6.package_length,6,package_length,0.0225782956741365,0.0228272085898441,FD_VIOLATION,location_code -> package_length,"[e20, e30, e11, e22, e21, e24, e23, e26, e25, e27, e19]"
+210.location_id,210,location_id,E07000211,E07000211***,RANDOM_TYPO,,[]
+15.location_code,15,location_code,E00110459,E00003876,FD_VIOLATION,location_code -> shipping_length,"[e5, e6, e7, e8, e10, e28, e1, e2, e3, e4]"
+15.region_code,15,region_code,A1,F1,FD_VIOLATION,location_code -> region_code,"[e8, e35, e37, e38]"
+9.shipping_length,9,shipping_length,1783.17385368,1283.51738979,FD_VIOLATION,location_code -> shipping_length,"[e20, e11, e10, e13, e12, e15, e14, e17, e16, e1, e18, e29]"
+21.package_area,21,package_area,6.21377773737265E-5,3.54866252301778E-6,FD_VIOLATION,location_code -> package_area,"[e31, e30, e33, e32, e21, e35, e12, e34, e36, e28, e29]"
+218.region_code,218,region_code,E1,1,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+80.total_cost,80,total_cost,8547312.62,85n47312.62,RANDOM_TYPO,,[]
+230.region_name,230,region_name,Urban city and town,Urban city adn town,FD_VIOLATION,location_code -> region_name,[e37]
+205.region_code,205,region_code,D1,Dr1,FD_VIOLATION,location_code -> region_code,[e38]
+77.order_id,77,order_id,48219,8219,RANDOM_TYPO,,[]
+78.location_id,78,location_id,E07000111,07000111,RANDOM_TYPO,,[]
+219.region_name,219,region_name,Urban major conurbation,Urbna major conurbation,FD_VIOLATION,location_code -> region_name,[e37]
+11.shipping_length,11,shipping_length,19737.1028364,2009.34164701,FD_VIOLATION,location_code -> shipping_length,"[e11, e10, e13, e12, e15, e14, e17, e16, e29]"
+110.region_code,110,region_code,C1,1C,FD_VIOLATION,location_code -> region_code,"[e37, e38]"
+84.region_name,84,region_name,Urban major conurbation,Urban major conufrbation,FD_VIOLATION,location_code -> region_name,[e37]

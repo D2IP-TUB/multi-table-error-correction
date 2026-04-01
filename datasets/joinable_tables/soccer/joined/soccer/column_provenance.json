@@ -1,0 +1,30 @@
+{
+  "join_key": "team",
+  "column_provenance": {
+    "name": "split_a",
+    "surname": "split_a",
+    "team": "split_a",
+    "season": "split_b",
+    "manager": "split_b"
+  },
+  "split_a_columns": [
+    "name",
+    "surname",
+    "team"
+  ],
+  "split_b_columns": [
+    "team",
+    "season",
+    "manager"
+  ],
+  "final_columns": [
+    "name",
+    "surname",
+    "team",
+    "season",
+    "manager"
+  ],
+  "split_a_rows": 200000,
+  "split_b_rows": 562,
+  "joined_rows": 3650278
+}

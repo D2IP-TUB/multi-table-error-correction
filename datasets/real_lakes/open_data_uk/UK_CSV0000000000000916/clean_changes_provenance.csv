@@ -1,0 +1,331 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+5.company_code,5,company_code,03K,03R,FD_VIOLATION,branch_code -> company_code,"[e13, e26, e25, e4]"
+11.branch_post_code,11,branch_post_code,WN4 8LB,LS226JS,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e23, e19, e3]"
+220.region_code,220,region_code,Q66,Qn66,FD_VIOLATION,branch_code -> region_code,"[e5, e14]"
+173.branch_address,173,branch_address,Clipstone Health Centre First Avenue Clipstone  Mansfield Nottinghamshire ,Clipstone Health Centre First Avenue Clipstone Mansfield Nottinghamshire ,RANDOM_TYPO,,[]
+13.branch_name,13,branch_name,Filey Surgery,Kingsnorth Medical Practice,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+206.inventory_facility,206,inventory_facility,No,o,RANDOM_TYPO,,[]
+45.company_name,45,company_name,Pfizer,rPfizer,RANDOM_TYPO,,[]
+197.company_code,197,company_code,07P,7P,RANDOM_TYPO,,[]
+248.branch_end_date,248,branch_end_date,-,a-,RANDOM_TYPO,,[]
+9.company_code,9,company_code,10Q,08L,FD_VIOLATION,branch_code -> company_code,"[e13, e26, e25, e4]"
+92.contract_type,92,contract_type,GMS,GS,RANDOM_TYPO,,[]
+43.transaction_value,43,transaction_value,45.89,4a5.89,RANDOM_TYPO,,[]
+54.region_name,54,region_name,Midlands,Midlans,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+151.region_name,151,region_name,Asia,Ausia,FD_VIOLATION,branch_code -> region_name,[e26]
+3.branch_name,3,branch_name,The Jenner Practice (Dr Rowland),South Axholme Practice,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+99.company_name,99,company_name,Pfizer,fizer,RANDOM_TYPO,,[]
+141.branch_code,141,branch_code,E81017,81017,RANDOM_TYPO,,[]
+8.branch_code,8,branch_code,M85048,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+138.company_code,138,company_code,04X,0v4X,RANDOM_TYPO,,[]
+181.branch_name,181,branch_name,The Birches Medical Centre,Thze Birches Medical Centre,RANDOM_TYPO,,[]
+131.region_name,131,region_name,Wessex,Wessx,FD_VIOLATION,branch_code -> region_name,[e27]
+17.region_name,17,region_name,Asia,Aisa,FD_VIOLATION,branch_code -> region_name,"[e6, e21, e15, e26, e27]"
+8.branch_post_code,8,branch_post_code,B33 0LU,LS226JS,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e23, e19, e3]"
+220.inventory_facility,220,inventory_facility,No,zNo,FD_VIOLATION,branch_code -> inventory_facility,"[e11, e9, e18]"
+114.region_code,114,region_code,Q58,58,FD_VIOLATION,branch_code -> region_code,[e25]
+236.transaction_description,236,transaction_description,22_Directed_Enhanced_Services_-_Minor_Surgery,22_Directed_Enhanced_Serviyces_-_Minor_Surgery,RANDOM_TYPO,,[]
+127.branch_name,127,branch_name,Dr A M Goodwin & Partners,r A M Goodwin & Partners,RANDOM_TYPO,,[]
+202.company_name,202,company_name,Siemens,Siehmens,RANDOM_TYPO,,[]
+118.transaction_description,118,transaction_description,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients,27_Directed_Enhanced_Services_-_Services_for_Violent_Patietns,RANDOM_TYPO,,[]
+63.branch_address,63,branch_address,Little Hulton District Centre Haysbrook Avenue Little Hulton Manchester ,Little Hulton iDstrict Centre Haysbrook Avenue Little Hulton Manchester ,RANDOM_TYPO,,[]
+7.branch_post_code,7,branch_post_code,WF110JA,B17 8LG,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e12, e19, e3]"
+187.region_code,187,region_code,Q58,58,FD_VIOLATION,branch_code -> region_code,[e25]
+151.region_code,151,region_code,Q71,Qo71,FD_VIOLATION,branch_code -> region_code,[e25]
+107.branch_end_date,107,branch_end_date,-,,RANDOM_TYPO,,[]
+217.branch_name,217,branch_name,Coombswood Surgery,Coombswood Srgery,RANDOM_TYPO,,[]
+112.branch_start_date,112,branch_start_date,-,i-,RANDOM_TYPO,,[]
+254.transaction_value,254,transaction_value,4536219.57,5436219.57,RANDOM_TYPO,,[]
+177.branch_post_code,177,branch_post_code,SW165HF,SW165F,RANDOM_TYPO,,[]
+190.branch_start_date,190,branch_start_date,-,***,RANDOM_TYPO,,[]
+242.branch_post_code,242,branch_post_code,BN1 3XE,NB1 3XE,RANDOM_TYPO,,[]
+119.transaction_value,119,transaction_value,4536219.57,4536219k.57,RANDOM_TYPO,,[]
+9.branch_code,9,branch_code,K84021,B87021,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+21.branch_name,21,branch_name,The Cedar Brook Practice,Clay Cross Medical Centre,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+15.branch_post_code,15,branch_post_code,B8  3HX,SE231HU,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e23, e19, e3]"
+243.region_name,243,region_name,Asia,Axsia,FD_VIOLATION,branch_code -> region_name,[e27]
+237.branch_end_date,237,branch_end_date,-,,RANDOM_TYPO,,[]
+128.branch_code,128,branch_code,A89010,A8010,RANDOM_TYPO,,[]
+18.branch_address,18,branch_address,7 Marshalls Road Raunds Wellingborough Northants ,Tile Cross Surgery 144 Tile Cross Road Tile Cross Birmingham ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e16, e18, e2]"
+150.branch_address,150,branch_address,The Waterfront Surgery Brierley Hill Health And Social Care Centre Venture Way Brierley Hill,The Waterfront Surgery Brierley Hill Health And Social Care Centre Venutre Way Brierley Hill,RANDOM_TYPO,,[]
+19.branch_name,19,branch_name,St Georges Medical Centre,Wetherby Surgery,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+184.transaction_value,184,transaction_value,4536219.57,453219.57,RANDOM_TYPO,,[]
+202.transaction_description,202,transaction_description,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immuisations,RANDOM_TYPO,,[]
+189.branch_end_date,189,branch_end_date,-,p-,RANDOM_TYPO,,[]
+146.transaction_value,146,transaction_value,4827.5,48275.,RANDOM_TYPO,,[]
+9.branch_address,9,branch_address,172 Banbury Road Oxford   ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+22.branch_code,22,branch_code,A89026,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+10.branch_code,10,branch_code,C81056,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+170.branch_end_date,170,branch_end_date,-,,RANDOM_TYPO,,[]
+192.branch_name,192,branch_name,Kingsthorpe Medical Centre,Kingsythorpe Medical Centre,RANDOM_TYPO,,[]
+229.branch_end_date,229,branch_end_date,-,c-,RANDOM_TYPO,,[]
+30.company_name,30,company_name,Cisco,iCsco,RANDOM_TYPO,,[]
+160.region_name,160,region_name,Midlands,Midlrands,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+36.branch_address,36,branch_address,Endurance House Clarence Street Stockton-On-Tees  ,Endurance Huse Clarence Street Stockton-On-Tees  ,RANDOM_TYPO,,[]
+224.contract_type,224,contract_type,GMS,sGMS,RANDOM_TYPO,,[]
+146.branch_post_code,146,branch_post_code,SP5 2SU,SP5u 2SU,RANDOM_TYPO,,[]
+91.branch_code,91,branch_code,A82015,A8m2015,RANDOM_TYPO,,[]
+238.region_name,238,region_name,Pacific Coast,Pcific Coast,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+211.region_name,211,region_name,Asia,sia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+68.region_code,68,region_code,Q57,5Q7,FD_VIOLATION,branch_code -> region_code,[e25]
+163.branch_address,163,branch_address,Family Medical Centre 56A Lowmoor Road Kirkby In Ashfield Nottinghamshire ,Family Medical Centre 56A Lomwoor Road Kirkby In Ashfield Nottinghamshire ,RANDOM_TYPO,,[]
+185.transaction_description,185,transaction_description,01_Number_of_Registered_Patients_Last_Known_Figure,01_Number_of_Registeed_Patients_Last_Known_Figure,RANDOM_TYPO,,[]
+170.region_name,170,region_name,West Midlands,West Midlzands,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+24.branch_code,24,branch_code,K81034,B86625,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+183.region_name,183,region_name,West Midlands,West Midalnds,FD_VIOLATION,branch_code -> region_name,[e27]
+181.branch_code,181,branch_code,P83609,83609,RANDOM_TYPO,,[]
+58.region_code,58,region_code,Q45,Q54,FD_VIOLATION,branch_code -> region_code,"[e25, e27]"
+134.region_code,134,region_code,Q46,wQ46,FD_VIOLATION,branch_code -> region_code,[e25]
+121.contract_type,121,contract_type,PMS,MPS,RANDOM_TYPO,,[]
+110.company_name,110,company_name,Pfizer,fPizer,RANDOM_TYPO,,[]
+128.contract_type,128,contract_type,PMS,PSM,FD_VIOLATION,branch_code -> contract_type,[e23]
+212.inventory_facility,212,inventory_facility,No,o,FD_VIOLATION,branch_code -> inventory_facility,[e11]
+35.inventory_facility,35,inventory_facility,Yes,cYes,RANDOM_TYPO,,[]
+145.contract_type,145,contract_type,GMS,GS,RANDOM_TYPO,,[]
+255.region_code,255,region_code,Q71,71,FD_VIOLATION,branch_code -> region_code,[e25]
+185.region_code,185,region_code,Q45,zQ45,FD_VIOLATION,branch_code -> region_code,[e20]
+205.inventory_facility,205,inventory_facility,Yes,Ymes,RANDOM_TYPO,,[]
+17.branch_code,17,branch_code,F86058,B82037,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e4]"
+12.region_code,12,region_code,Q54,Q68,FD_VIOLATION,branch_code -> region_code,"[e5, e20, e14, e25, e27]"
+43.branch_address,43,branch_address,314 Southbourne Grove Westcliff-On-Sea Essex  ,314 Soudthbourne Grove Westcliff-On-Sea Essex  ,RANDOM_TYPO,,[]
+249.branch_start_date,249,branch_start_date,-,***,RANDOM_TYPO,,[]
+257.branch_name,257,branch_name,The Fens Medical Centre,The Fens Medical Cuentre,RANDOM_TYPO,,[]
+118.branch_name,118,branch_name,The Guru Nanak Medical Centre,The Guru aNnak Medical Centre,RANDOM_TYPO,,[]
+38.branch_address,38,branch_address,Lees Medical Practice Athens Way Lees Oldham ,Lees Medical Practice Athes Way Lees Oldham ,RANDOM_TYPO,,[]
+110.inventory_facility,110,inventory_facility,No,sNo,RANDOM_TYPO,,[]
+18.branch_post_code,18,branch_post_code,NN9 6ET,TN233ED,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e22, e21, e24, e12, e23, e19, e3]"
+217.company_name,217,company_name,Pfizer,Pfizre,RANDOM_TYPO,,[]
+220.branch_post_code,220,branch_post_code,EX142NY,EX142YN,FD_VIOLATION,branch_code -> branch_post_code,"[e12, e3]"
+29.branch_name,29,branch_name,Clifton Court Practice,Clfiton Court Practice,RANDOM_TYPO,,[]
+171.branch_address,171,branch_address,Harold Wood Polyclinic St Clements Avenue Off Gubbins Lane Harold Wood Essex,Harold Wood Polyclinic St Clements Avenue OffG ubbins Lane Harold Wood Essex,RANDOM_TYPO,,[]
+182.branch_end_date,182,branch_end_date,-,q-,RANDOM_TYPO,,[]
+160.transaction_description,160,transaction_description,24_Directed_Enhanced_Services_-_Remote_Care_Monitoring,24_Directed_Enhaced_Services_-_Remote_Care_Monitoring,RANDOM_TYPO,,[]
+215.company_code,215,company_code,10H,s10H,RANDOM_TYPO,,[]
+254.region_code,254,region_code,Q71,Qz71,FD_VIOLATION,branch_code -> region_code,[e25]
+120.region_name,120,region_name,Asia,Asai,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+156.region_name,156,region_name,Midlands,Midlansd,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+94.branch_name,94,branch_name,Dr P J Gregory & Partners,Dr Pr J Gregory & Partners,RANDOM_TYPO,,[]
+220.contract_type,220,contract_type,GMS,MGS,FD_VIOLATION,branch_code -> contract_type,"[e8, e17]"
+247.branch_name,247,branch_name,Verwood Practice,Verwood Pracltice,RANDOM_TYPO,,[]
+60.branch_name,60,branch_name,Welbeck Surgery,Welbeck Suragery,RANDOM_TYPO,,[]
+21.company_name,21,company_name,Pfizer,Pfizegr,RANDOM_TYPO,,[]
+208.branch_address,208,branch_address,Martonside Medical Centre 1A Martonside Way Middlesbrough  ,Martonside Medical Centr e1A Martonside Way Middlesbrough  ,RANDOM_TYPO,,[]
+225.transaction_value,225,transaction_value,$150.75,$150.5,RANDOM_TYPO,,[]
+216.region_code,216,region_code,Q71,7Q1,RANDOM_TYPO,,[]
+57.inventory_facility,57,inventory_facility,No,Nho,RANDOM_TYPO,,[]
+219.branch_address,219,branch_address,138 London Road Hackbridge Carshalton Surrey ,138 London Road Hackbridge Carshatlton Surrey ,RANDOM_TYPO,,[]
+82.inventory_facility,82,inventory_facility,No,oN,RANDOM_TYPO,,[]
+118.company_code,118,company_code,07W,k07W,RANDOM_TYPO,,[]
+12.branch_address,12,branch_address,City Health Centre 449 City Road Edgbaston Birmingham ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+154.branch_address,154,branch_address,Darlaston Health Centre Pinfold Street Darlaston West Midlands ,Darlaston Health Centre Pinfold Street nDarlaston West Midlands ,RANDOM_TYPO,,[]
+50.transaction_value,50,transaction_value,4536219.57,436219.57,RANDOM_TYPO,,[]
+19.branch_address,19,branch_address,7 Sunningfields Road Hendon London  ,Jenner Health Centre 201 Stanstead Road London  ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+50.region_name,50,region_name,Asia,sAia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+166.company_name,166,company_name,Pfizer,Pfzer,RANDOM_TYPO,,[]
+113.inventory_facility,113,inventory_facility,No,o,RANDOM_TYPO,,[]
+25.region_code,25,region_code,Q47,47,FD_VIOLATION,branch_code -> region_code,[e25]
+72.branch_code,72,branch_code,M82017,82017,RANDOM_TYPO,,[]
+114.branch_name,114,branch_name,King Edward Road Surgery,King Edward Road Surgrey,RANDOM_TYPO,,[]
+201.region_code,201,region_code,Q57,57,FD_VIOLATION,branch_code -> region_code,[e25]
+102.branch_end_date,102,branch_end_date,-,***,RANDOM_TYPO,,[]
+186.contract_type,186,contract_type,PMS,MPS,RANDOM_TYPO,,[]
+238.branch_name,238,branch_name,Kennington Health Centre,Kennington Health zCentre,RANDOM_TYPO,,[]
+59.branch_name,59,branch_name,Bremner And Partners,Bremner And aPrtners,RANDOM_TYPO,,[]
+12.transaction_value,12,transaction_value,745.22,745.2,RANDOM_TYPO,,[]
+211.branch_start_date,211,branch_start_date,-,***,RANDOM_TYPO,,[]
+2.branch_code,2,branch_code,N81050,B87021,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+253.branch_code,253,branch_code,H83020,83020,RANDOM_TYPO,,[]
+128.inventory_facility,128,inventory_facility,No,oN,FD_VIOLATION,branch_code -> inventory_facility,[e24]
+88.inventory_facility,88,inventory_facility,Yes,Yse,RANDOM_TYPO,,[]
+89.company_name,89,company_name,Pfizer,Pizer,RANDOM_TYPO,,[]
+220.region_name,220,region_name,Yorkshire,Ysorkshire,FD_VIOLATION,branch_code -> region_name,"[e6, e15]"
+44.transaction_value,44,transaction_value,8634.25,8634.i25,RANDOM_TYPO,,[]
+217.branch_address,217,branch_address,Coombswood Surgery 146-148 Coombs Road Halesowen West Midlands ,Coombswood Surgery 146-14 Coombs Road Halesowen West Midlands ,RANDOM_TYPO,,[]
+175.region_name,175,region_name,Asia,Asiba,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+101.contract_type,101,contract_type,PMS,PMdS,RANDOM_TYPO,,[]
+227.transaction_value,227,transaction_value,4536219.57,456219.57,RANDOM_TYPO,,[]
+243.branch_address,243,branch_address,19-21 Oldhill Street London   ,19-21 Oldhil lStreet London   ,RANDOM_TYPO,,[]
+155.region_name,155,region_name,Cornwall,Crnwall,FD_VIOLATION,branch_code -> region_name,[e27]
+127.contract_type,127,contract_type,GMS,GSM,RANDOM_TYPO,,[]
+135.transaction_value,135,transaction_value,547244.77,5f47244.77,RANDOM_TYPO,,[]
+6.branch_address,6,branch_address,Hallfield Lane Wetherby   ,Ashton Clinic Queens Road Ashton In Makerfield Wigan ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+128.region_code,128,region_code,Q49,Ql49,FD_VIOLATION,branch_code -> region_code,[e20]
+176.transaction_description,176,transaction_description,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immnisation_Scheme,RANDOM_TYPO,,[]
+229.transaction_description,229,transaction_description,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor,6_Global_Sum_and_MPIG_-_MPIG_Correction_Factor,RANDOM_TYPO,,[]
+60.transaction_value,60,transaction_value,4536219.57,4536219x.57,RANDOM_TYPO,,[]
+4.branch_address,4,branch_address,11 Bacon Lane Edgware Middlesex  ,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e2]"
+157.region_code,157,region_code,Q55,Qx55,FD_VIOLATION,branch_code -> region_code,[e25]
+104.branch_end_date,104,branch_end_date,-,***,RANDOM_TYPO,,[]
+140.transaction_description,140,transaction_description,28_Total_National_Enhanced_Services,28_Total_Ntaional_Enhanced_Services,RANDOM_TYPO,,[]
+13.branch_address,13,branch_address,The Filey Surgery Station Avenue Filey  ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+111.region_code,111,region_code,Q50,50,FD_VIOLATION,branch_code -> region_code,"[e25, e27]"
+122.branch_address,122,branch_address,200 Newport Road Cowes Isle Of Wight  ,200 Newport Roadz Cowes Isle Of Wight  ,RANDOM_TYPO,,[]
+199.branch_start_date,199,branch_start_date,-,***,RANDOM_TYPO,,[]
+171.region_name,171,region_name,Asia,Adsia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+84.region_code,84,region_code,Q71,Q17,FD_VIOLATION,branch_code -> region_code,[e25]
+142.region_name,142,region_name,Asia,Asai,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+205.transaction_description,205,transaction_description,14_Total_QOF_Payments,14_Tyotal_QOF_Payments,RANDOM_TYPO,,[]
+18.branch_name,18,branch_name,Marshalls Road Surgery,Dr Machin P & Partners,FD_VIOLATION,branch_code -> branch_name,"[e11, e10, e1]"
+239.company_name,239,company_name,Pfizer,Pfiezr,RANDOM_TYPO,,[]
+185.inventory_facility,185,inventory_facility,No,o,FD_VIOLATION,branch_code -> inventory_facility,[e24]
+4.branch_code,4,branch_code,E84014,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+247.region_name,247,region_name,Cornwall,ornwall,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+201.branch_post_code,201,branch_post_code,RM155GN,RMq155GN,RANDOM_TYPO,,[]
+84.inventory_facility,84,inventory_facility,No,o,RANDOM_TYPO,,[]
+112.region_code,112,region_code,Q68,Qf68,RANDOM_TYPO,,[]
+160.region_code,160,region_code,Q50,50,FD_VIOLATION,branch_code -> region_code,"[e25, e27]"
+250.branch_start_date,250,branch_start_date,-,k-,RANDOM_TYPO,,[]
+94.region_code,94,region_code,Q60,Q0,FD_VIOLATION,branch_code -> region_code,[e25]
+15.branch_name,15,branch_name,Dr Bangash N H & Partners,South Axholme Practice,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+120.transaction_value,120,transaction_value,4536219.57,536219.57,RANDOM_TYPO,,[]
+5.branch_address,5,branch_address,60-62 High Street Epworth Doncaster  ,Jenner Health Centre 201 Stanstead Road London  ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+136.branch_address,136,branch_address,152 Plashet Road Plaistow London  ,152 Plashet Road Plaistow xLondon  ,RANDOM_TYPO,,[]
+217.region_name,217,region_name,South East England,South aEst England,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+184.branch_start_date,184,branch_start_date,-,,RANDOM_TYPO,,[]
+78.company_name,78,company_name,Samsung,Samysung,RANDOM_TYPO,,[]
+235.company_name,235,company_name,Pfizer,Pifzer,RANDOM_TYPO,,[]
+74.region_code,74,region_code,Q60,fQ60,RANDOM_TYPO,,[]
+209.branch_start_date,209,branch_start_date,-,***,RANDOM_TYPO,,[]
+251.branch_end_date,251,branch_end_date,-,***,RANDOM_TYPO,,[]
+185.branch_end_date,185,branch_end_date,-,***,FD_VIOLATION,branch_code -> branch_end_date,[e22]
+5.branch_code,5,branch_code,B81043,B87021,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+19.branch_code,19,branch_code,E83020,B86625,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+188.region_name,188,region_name,Pacific Coast,Pacific Cohast,FD_VIOLATION,branch_code -> region_name,[e27]
+172.transaction_value,172,transaction_value,9832.50,932.50,RANDOM_TYPO,,[]
+128.company_code,128,company_code,00P,0z0P,FD_VIOLATION,branch_code -> company_code,[e19]
+78.contract_type,78,contract_type,PMS,PtMS,RANDOM_TYPO,,[]
+10.branch_address,10,branch_address,117 High Street Clay Cross Chesterfield Derbyshire ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+250.branch_address,250,branch_address,The Surgery 162 Long Street Dordon Tamworth ,The Surgery 162 Long Strebet Dordon Tamworth ,RANDOM_TYPO,,[]
+86.branch_post_code,86,branch_post_code,NW1 1TN,NW1c 1TN,RANDOM_TYPO,,[]
+47.branch_code,47,branch_code,D81064,D8104,RANDOM_TYPO,,[]
+225.company_code,225,company_code,99A,9A9,RANDOM_TYPO,,[]
+256.transaction_description,256,transaction_description,34_Other_Payments,34_Other_Ptayments,RANDOM_TYPO,,[]
+185.region_name,185,region_name,Southeast,Sutheast,FD_VIOLATION,branch_code -> region_name,[e21]
+230.region_name,230,region_name,Asia,pAsia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+81.region_name,81,region_name,Asia,Asa,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+130.branch_post_code,130,branch_post_code,DA1 1HP,AD1 1HP,RANDOM_TYPO,,[]
+185.company_code,185,company_code,00K,0K0,FD_VIOLATION,branch_code -> company_code,[e19]
+57.region_code,57,region_code,Q65,65,FD_VIOLATION,branch_code -> region_code,[e25]
+149.company_name,149,company_name,GoldmanSachs,oGldmanSachs,RANDOM_TYPO,,[]
+68.transaction_description,68,transaction_description,08_PCO_Administered_-_Seniority,0_PCO_Administered_-_Seniority,RANDOM_TYPO,,[]
+50.branch_post_code,50,branch_post_code,RM3 9PD,MR3 9PD,RANDOM_TYPO,,[]
+236.region_code,236,region_code,Q49,49,FD_VIOLATION,branch_code -> region_code,[e25]
+209.region_name,209,region_name,Cornwall,Conrwall,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+73.region_name,73,region_name,Cornwall,Conrwall,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+31.branch_start_date,31,branch_start_date,-,,RANDOM_TYPO,,[]
+20.branch_code,20,branch_code,K81015,B86625,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+128.region_name,128,region_name,Yorkshire,Yorkshre,FD_VIOLATION,branch_code -> region_name,[e21]
+202.region_name,202,region_name,Asia,Aia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+179.transaction_description,179,transaction_description,29_Total_Local_Enhanced_Services,29T_otal_Local_Enhanced_Services,RANDOM_TYPO,,[]
+206.branch_start_date,206,branch_start_date,-,n-,RANDOM_TYPO,,[]
+172.region_code,172,region_code,Q65,Q6x5,RANDOM_TYPO,,[]
+4.company_code,4,company_code,08E,03Y,FD_VIOLATION,branch_code -> company_code,"[e13, e26, e25, e4]"
+149.region_code,149,region_code,Q67,67,FD_VIOLATION,branch_code -> region_code,[e25]
+165.branch_end_date,165,branch_end_date,-,,RANDOM_TYPO,,[]
+35.branch_end_date,35,branch_end_date,-,,RANDOM_TYPO,,[]
+69.transaction_description,69,transaction_description,29_Total_Local_Enhanced_Services,29_Total_Loacl_Enhanced_Services,RANDOM_TYPO,,[]
+22.branch_address,22,branch_address,The Health Centre Victoria Road Washington Tyne And Wear ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+144.region_code,144,region_code,Q71,7Q1,FD_VIOLATION,branch_code -> region_code,[e25]
+44.branch_code,44,branch_code,A81602,A8602,RANDOM_TYPO,,[]
+217.transaction_description,217,transaction_description,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingle_Immunisation,RANDOM_TYPO,,[]
+17.branch_post_code,17,branch_post_code,E17 7NH,SE231HU,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e23, e19]"
+177.branch_name,177,branch_name,K Worthington,K Worthigton,RANDOM_TYPO,,[]
+12.branch_code,12,branch_code,M85711,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+7.branch_address,7,branch_address,Ash Grove Medical Centre England Lane Knottingley  ,Ashton Clinic Queens Road Ashton In Makerfield Wigan ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+76.region_name,76,region_name,Asia,Asai,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+116.branch_start_date,116,branch_start_date,-,***,RANDOM_TYPO,,[]
+2.company_code,2,company_code,02F,03R,FD_VIOLATION,branch_code -> company_code,"[e13, e26, e25, e4]"
+114.branch_address,114,branch_address,King Edward Road Surgery Christchurch Medical Centre King Edward Road Northampton ,King Edward Road Surgery Christchurch Medicatl Centre King Edward Road Northampton ,RANDOM_TYPO,,[]
+108.branch_address,108,branch_address,Health Centre 53 Gell Street Sheffield  ,Health Centre 53 Gell Street heffield  ,RANDOM_TYPO,,[]
+16.branch_name,16,branch_name,Bird In Eye Surgery,Wetherby Surgery,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+11.branch_code,11,branch_code,Y02378,B86625,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+17.branch_address,17,branch_address,St James Health Centre St James Street Walthamstow London ,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e2]"
+115.branch_post_code,115,branch_post_code,CM7 2AE,CM7 x2AE,RANDOM_TYPO,,[]
+222.branch_post_code,222,branch_post_code,L6  4EW,L6  4EW***,RANDOM_TYPO,,[]
+14.branch_code,14,branch_code,P81181,G82730,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e9, e1, e2, e3, e4]"
+145.transaction_value,145,transaction_value,4536219.57,45b36219.57,RANDOM_TYPO,,[]
+79.branch_code,79,branch_code,B86037,B8s6037,RANDOM_TYPO,,[]
+79.transaction_description,79,transaction_description,23_Directed_Enhanced_Services_-_Patient_Participation,23_Directed_Enhanced_Services_-_Patint_Participation,RANDOM_TYPO,,[]
+124.transaction_description,124,transaction_description,07_Premises_Payments,07_PremisesPayments,RANDOM_TYPO,,[]
+108.branch_start_date,108,branch_start_date,-,l-,RANDOM_TYPO,,[]
+18.branch_code,18,branch_code,K83069,G81086,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e7, e8, e9, e1, e2, e3, e4]"
+255.inventory_facility,255,inventory_facility,No,o,RANDOM_TYPO,,[]
+93.branch_post_code,93,branch_post_code,PL254QY,L254QY,RANDOM_TYPO,,[]
+175.transaction_description,175,transaction_description,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions,37_Total_NHS_Paymzents_to_General_Practice_Minus_Deductions,RANDOM_TYPO,,[]
+214.region_code,214,region_code,Q50,5Q0,FD_VIOLATION,branch_code -> region_code,[e25]
+126.company_name,126,company_name,GoldmanSachs,GoldmanSacsh,RANDOM_TYPO,,[]
+227.transaction_description,227,transaction_description,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme,32_Non_DES_Itwem_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme,RANDOM_TYPO,,[]
+106.company_code,106,company_code,10L,1L0,RANDOM_TYPO,,[]
+17.branch_name,17,branch_name,St James Medical Practice Ltd,Wetherby Surgery,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+33.region_code,33,region_code,Q58,cQ58,FD_VIOLATION,branch_code -> region_code,[e25]
+14.branch_post_code,14,branch_post_code,PR1 9BX,S45 9DZ,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e19, e3]"
+178.company_code,178,company_code,09F,0h9F,RANDOM_TYPO,,[]
+19.branch_start_date,19,branch_start_date,-,***,RANDOM_TYPO,,[]
+183.branch_post_code,183,branch_post_code,DN121JD,DN121DJ,RANDOM_TYPO,,[]
+220.branch_end_date,220,branch_end_date,-,***,FD_VIOLATION,branch_code -> branch_end_date,"[e7, e10, e16]"
+228.branch_address,228,branch_address,The Derby Medical Centre 8 The Derby Square Epsom Surrey ,The Derby Medical Centre 8 The Derby Square Epom Surrey ,RANDOM_TYPO,,[]
+21.branch_address,21,branch_address,11 Kingshill Close Hayes Middlesex  ,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e2]"
+83.inventory_facility,83,inventory_facility,No,oN,RANDOM_TYPO,,[]
+21.branch_code,21,branch_code,E86029,G85004,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e1, e2, e3, e4]"
+115.region_name,115,region_name,Tuscany,Tuuscany,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+185.contract_type,185,contract_type,GMS,GsMS,FD_VIOLATION,branch_code -> contract_type,[e23]
+154.region_name,154,region_name,South East England,South Esat England,FD_VIOLATION,branch_code -> region_name,[e27]
+197.branch_end_date,197,branch_end_date,-,***,RANDOM_TYPO,,[]
+20.branch_name,20,branch_name,Woodlands Park Surgery,Clay Cross Medical Centre,FD_VIOLATION,branch_code -> branch_name,"[e11, e1]"
+16.branch_post_code,16,branch_post_code,TN225AW,NW4 4QR,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e12, e19, e3]"
+26.branch_post_code,26,branch_post_code,NN146JQ,NN416JQ,RANDOM_TYPO,,[]
+121.branch_end_date,121,branch_end_date,-,c-,RANDOM_TYPO,,[]
+112.company_code,112,company_code,09G,90G,RANDOM_TYPO,,[]
+13.branch_post_code,13,branch_post_code,YO149AE,SE231HU,FD_VIOLATION,branch_code -> branch_post_code,"[e20, e21, e24, e12, e23, e19]"
+14.branch_start_date,14,branch_start_date,-,***,RANDOM_TYPO,,[]
+20.branch_address,20,branch_address,Woodlands Park Surgery 15 Woodlands Park Road Woodlands Park Maidenhead ,Jenner Health Centre 201 Stanstead Road London  ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+155.inventory_facility,155,inventory_facility,No,o,RANDOM_TYPO,,[]
+194.region_name,194,region_name,Yorkshire,Yorskhire,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+199.company_name,199,company_name,Siemens,iemens,RANDOM_TYPO,,[]
+45.region_code,45,region_code,Q70,jQ70,RANDOM_TYPO,,[]
+139.branch_code,139,branch_code,H81022,H81022***,RANDOM_TYPO,,[]
+41.branch_start_date,41,branch_start_date,-,***,RANDOM_TYPO,,[]
+181.branch_start_date,181,branch_start_date,-,v-,RANDOM_TYPO,,[]
+112.company_name,112,company_name,Siemens,Siemenas,RANDOM_TYPO,,[]
+14.branch_address,14,branch_address,Woodcroft Close Penwortham Preston  ,Ashton Clinic Queens Road Ashton In Makerfield Wigan ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+186.transaction_description,186,transaction_description,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums,12_PCO_Administered_-_Appraisal_Appraiser_Costsin_Respect_of_Locums,RANDOM_TYPO,,[]
+42.transaction_description,42,transaction_description,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Lcoums,RANDOM_TYPO,,[]
+130.region_name,130,region_name,Flanders,Flanderas,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+97.branch_name,97,branch_name,Dalton Terrace Surgery,Dalton Terrace uSrgery,RANDOM_TYPO,,[]
+101.region_name,101,region_name,Asia,Asiia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+100.company_code,100,company_code,06P,0P,RANDOM_TYPO,,[]
+23.branch_address,23,branch_address,80 Yorkshire Street Burnley Lancashire  ,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e18, e2]"
+254.branch_post_code,254,branch_post_code,W3  9RB,W3  R9B,RANDOM_TYPO,,[]
+122.contract_type,122,contract_type,GMS,MGS,RANDOM_TYPO,,[]
+129.region_name,129,region_name,Asia,bAsia,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+252.branch_end_date,252,branch_end_date,-,f-,RANDOM_TYPO,,[]
+253.region_name,253,region_name,Asia,Asai,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+14.transaction_value,14,transaction_value,4536219.57,436219.57,RANDOM_TYPO,,[]
+140.region_code,140,region_code,Q67,Q76,FD_VIOLATION,branch_code -> region_code,[e25]
+140.transaction_value,140,transaction_value,12499.50,12499.05,RANDOM_TYPO,,[]
+162.region_name,162,region_name,Midlands,Mdlands,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+128.branch_end_date,128,branch_end_date,-,o-,FD_VIOLATION,branch_code -> branch_end_date,[e22]
+252.company_name,252,company_name,Pfizer,fPizer,RANDOM_TYPO,,[]
+116.region_name,116,region_name,Bavaria,Baaria,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+248.company_name,248,company_name,Pfizer,Pfier,RANDOM_TYPO,,[]
+86.transaction_description,86,transaction_description,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,02_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations,RANDOM_TYPO,,[]
+24.contract_type,24,contract_type,PMS,MS,FD_VIOLATION,branch_code -> contract_type,[e8]
+226.contract_type,226,contract_type,GMS,GSM,RANDOM_TYPO,,[]
+192.company_name,192,company_name,Samsung,Samsugn,RANDOM_TYPO,,[]
+154.transaction_description,154,transaction_description,13_PCO_Administered_-_PCO_Admin_Other,13_PCO_Administered_-_PCOAdmin_Other,RANDOM_TYPO,,[]
+220.company_code,220,company_code,99P,9l9P,FD_VIOLATION,branch_code -> company_code,"[e13, e4]"
+212.branch_end_date,212,branch_end_date,-,***,FD_VIOLATION,branch_code -> branch_end_date,[e10]
+23.branch_code,23,branch_code,P81008,G85004,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e1, e2, e3, e4]"
+15.branch_code,15,branch_code,M85677,G85004,FD_VIOLATION,branch_code -> branch_name,"[e5, e6, e8, e1, e2, e3, e4]"
+86.region_name,86,region_name,Asia,Asa,FD_VIOLATION,branch_code -> region_name,"[e26, e27]"
+105.branch_post_code,105,branch_post_code,NR302HW,NR302sHW,RANDOM_TYPO,,[]
+16.branch_address,16,branch_address,Bird-In-Eye Surgery Uckfield Community Hospital Framfield Road Uckfield ,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham ,FD_VIOLATION,branch_code -> branch_address,"[e13, e12, e15, e14, e17, e2]"
+214.branch_end_date,214,branch_end_date,-,***,RANDOM_TYPO,,[]
+30.branch_code,30,branch_code,B83604,B3604,RANDOM_TYPO,,[]
+64.company_code,64,company_code,00C,s00C,RANDOM_TYPO,,[]
+191.branch_code,191,branch_code,G82715,8G2715,RANDOM_TYPO,,[]
+164.branch_end_date,164,branch_end_date,-,***,RANDOM_TYPO,,[]
+104.transaction_value,104,transaction_value,12499.50,12499.50***,RANDOM_TYPO,,[]
+18.branch_end_date,18,branch_end_date,-,***,FD_VIOLATION,branch_code -> branch_end_date,"[e7, e22, e10, e16]"
+173.contract_type,173,contract_type,PMS,PpMS,RANDOM_TYPO,,[]
+255.branch_code,255,branch_code,G85094,G85904,RANDOM_TYPO,,[]

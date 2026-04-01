@@ -1,0 +1,34 @@
+{
+  "total_changes": 1391,
+  "error_type_counts": {
+    "FD_VIOLATION": 1124,
+    "RANDOM_TYPO": 267
+  },
+  "columns_affected": [
+    "pre_opqeq_five_d_index_profile",
+    "age_band",
+    "yearvalue"
+  ],
+  "configuration": {
+    "total_error_percentage": 23,
+    "fd_percentage": 11,
+    "outlier_percentage": 0,
+    "typo_percentage": 11,
+    "fd_violations": [
+      {
+        "determinant": "pre_opqeq_five_d_index_profile",
+        "dependant": "pre_opqeq_five_d_index",
+        "percentage": 791.9999999999621
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "yearvalue",
+      "age_band"
+    ],
+    "num_fd_rules": 1,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 2
+  },
+  "used_bart_native_types": true
+}

@@ -1,0 +1,46 @@
+{
+  "total_changes": 635,
+  "error_type_counts": {
+    "FD_VIOLATION": 392,
+    "RANDOM_TYPO": 243
+  },
+  "columns_affected": [
+    "search_target",
+    "expense_type",
+    "selfdefined_ethnicity",
+    "resultof_search",
+    "transaction_date",
+    "employee_gender",
+    "officially_recorded_ethnicity",
+    "employee_age_range"
+  ],
+  "configuration": {
+    "total_error_percentage": 17,
+    "fd_percentage": 8,
+    "outlier_percentage": 0,
+    "typo_percentage": 8,
+    "fd_violations": [
+      {
+        "determinant": "search_target",
+        "dependant": "regulation",
+        "percentage": 192.05298013244925
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "expense_type",
+      "transaction_date",
+      "employee_gender",
+      "employee_age_range",
+      "selfdefined_ethnicity",
+      "officially_recorded_ethnicity",
+      "regulation",
+      "search_target",
+      "resultof_search"
+    ],
+    "num_fd_rules": 1,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 9
+  },
+  "used_bart_native_types": true
+}

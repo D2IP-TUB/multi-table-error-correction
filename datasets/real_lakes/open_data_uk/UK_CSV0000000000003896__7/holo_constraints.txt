@@ -1,0 +1,1 @@
+t1&t2&EQ(t1.pre_opqeq_five_d_index_profile,t2.pre_opqeq_five_d_index_profile)&IQ(t1.pre_opqeq_five_d_index,t2.pre_opqeq_five_d_index)

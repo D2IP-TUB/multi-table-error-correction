@@ -1,0 +1,1342 @@
+cell_id,table_id,column_id,row_number,column_name,old_value,new_value,error_type,source_table,source_row,source_column
+67.5.0,67,5,0,legislationtype,Aqll,All,RANDOM_TYPO,UK_CSV0000000000026508,0,legislationtype
+67.7.0,67,7,0,geographytype,Police Foce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,0,geographytype
+67.11.0,67,11,0,rateper_one_zero_zero_zeropopulationbyethnicity,x18.66,18.66,RANDOM_TYPO,UK_CSV0000000000026508,0,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.1,67,2,1,timetype,iFnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,1,timetype
+67.9.1,67,9,1,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,1256,47","1,125,647",RANDOM_TYPO,UK_CSV0000000000026508,1,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.1,67,10,1,populationbyethnicity,"45,134,866","45,134,686",RANDOM_TYPO,UK_CSV0000000000026508,1,populationbyethnicity
+67.0.2,67,0,2,measure,Number of stops and searches carried out (excluidng vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,2,measure
+67.10.2,67,10,2,populationbyethnicity,"6v,489","6,489",RANDOM_TYPO,UK_CSV0000000000026508,2,populationbyethnicity
+67.11.2,67,11,2,rateper_one_zero_zero_zeropopulationbyethnicity,6.03,16.03,RANDOM_TYPO,UK_CSV0000000000026508,2,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.3,67,5,3,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,3,legislationtype
+67.7.3,67,7,3,geographytype,Police Forcek Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,3,geographytype
+67.8.3,67,8,3,numberofstopandsearches,k43,43,RANDOM_TYPO,UK_CSV0000000000026508,3,numberofstopandsearches
+67.0.4,67,0,4,measure,Number of stops and searches cyarried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,4,measure
+67.5.4,67,5,4,legislationtype,tAll,All,RANDOM_TYPO,UK_CSV0000000000026508,4,legislationtype
+67.8.4,67,8,4,numberofstopandsearches,51,15,RANDOM_TYPO,UK_CSV0000000000026508,4,numberofstopandsearches
+67.3.5,67,3,5,ethnicity,Mzixed White And Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,5,ethnicity
+67.5.5,67,5,5,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,5,legislationtype
+67.11.5,67,11,5,rateper_one_zero_zero_zeropopulationbyethnicity,12.s5,12.5,RANDOM_TYPO,UK_CSV0000000000026508,5,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.6,67,0,6,measure,Number of stops and searches carried out (excluding vehicl only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,6,measure
+67.0.7,67,0,7,measure,Number of stops and seuarches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,7,measure
+67.2.7,67,2,7,timetype,Financia year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,7,timetype
+67.7.7,67,7,7,geographytype,Police Foce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,7,geographytype
+67.9.7,67,9,7,totalnumberofstopandsearchcarriedoutinthisyearinth,"27,33y0","27,330",RANDOM_TYPO,UK_CSV0000000000026508,7,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.8,67,1,8,timevalue,208/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,8,timevalue
+67.4.8,67,4,8,ethnicitytype,OSN 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,8,ethnicitytype
+67.11.9,67,11,9,rateper_one_zero_zero_zeropopulationbyethnicity,58.3,5.83,RANDOM_TYPO,UK_CSV0000000000026508,9,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.10,67,2,10,timetype,Financiatl year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,10,timetype
+67.10.10,67,10,10,populationbyethnicity,"1k,718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,10,populationbyethnicity
+67.1.11,67,1,11,timevalue,2019/u20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,11,timevalue
+67.2.11,67,2,11,timetype,Financila year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,11,timetype
+67.4.11,67,4,11,ethnicitytype,OS 2011 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,11,ethnicitytype
+67.8.11,67,8,11,numberofstopandsearches,11***,11,RANDOM_TYPO,UK_CSV0000000000026508,11,numberofstopandsearches
+67.10.11,67,10,11,populationbyethnicity,51t44,5144,RANDOM_TYPO,UK_CSV0000000000026508,11,populationbyethnicity
+67.11.11,67,11,11,rateper_one_zero_zero_zeropopulationbyethnicity,.214,2.14,RANDOM_TYPO,UK_CSV0000000000026508,11,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.12,67,1,12,timevalue,2014/51,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,12,timevalue
+67.7.12,67,7,12,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,12,geographytype
+67.8.12,67,8,12,numberofstopandsearches,"13,73","1,373",RANDOM_TYPO,UK_CSV0000000000026508,12,numberofstopandsearches
+67.2.13,67,2,13,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,13,timetype
+67.5.13,67,5,13,legislationtype,Sectio n1,Section 1,RANDOM_TYPO,UK_CSV0000000000026508,13,legislationtype
+67.7.13,67,7,13,geographytype,Pojlice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,13,geographytype
+67.11.13,67,11,13,rateper_one_zero_zero_zeropopulationbyethnicity,28.j68,28.68,RANDOM_TYPO,UK_CSV0000000000026508,13,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.14,67,1,14,timevalue,2011/2,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,14,timevalue
+67.7.14,67,7,14,geographytype,Police Forec Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,14,geographytype
+67.8.14,67,8,14,numberofstopandsearches,i5,5,RANDOM_TYPO,UK_CSV0000000000026508,14,numberofstopandsearches
+67.9.14,67,9,14,totalnumberofstopandsearchcarriedoutinthisyearinth,"0,340","10,340",RANDOM_TYPO,UK_CSV0000000000026508,14,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.15,67,1,15,timevalue,20091/0,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,15,timevalue
+67.4.15,67,4,15,ethnicitytype,ONS 2001f 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,15,ethnicitytype
+67.6.15,67,6,15,geography,Cubria,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,15,geography
+67.7.15,67,7,15,geographytype,Polibce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,15,geographytype
+67.8.15,67,8,15,numberofstopandsearches,"0,142","10,142",RANDOM_TYPO,UK_CSV0000000000026508,15,numberofstopandsearches
+67.8.16,67,8,16,numberofstopandsearches,***,2,RANDOM_TYPO,UK_CSV0000000000026508,16,numberofstopandsearches
+67.9.16,67,9,16,totalnumberofstopandsearchcarriedoutinthisyearinth,",521","1,521",RANDOM_TYPO,UK_CSV0000000000026508,16,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.17,67,3,17,ethnicity,Othegr Inc Chinese,Other Inc Chinese,RANDOM_TYPO,UK_CSV0000000000026508,17,ethnicity
+67.8.17,67,8,17,numberofstopandsearches,1,71,RANDOM_TYPO,UK_CSV0000000000026508,17,numberofstopandsearches
+67.9.17,67,9,17,totalnumberofstopandsearchcarriedoutinthisyearinth,"19,i042","19,042",RANDOM_TYPO,UK_CSV0000000000026508,17,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.17,67,11,17,rateper_one_zero_zero_zeropopulationbyethnicity,a2.87,2.87,RANDOM_TYPO,UK_CSV0000000000026508,17,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.18,67,0,18,measure,Number of stops and searches caryried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,18,measure
+67.1.18,67,1,18,timevalue,010/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,18,timevalue
+67.3.18,67,3,18,ethnicity,White Irih,White Irish,RANDOM_TYPO,UK_CSV0000000000026508,18,ethnicity
+67.8.18,67,8,18,numberofstopandsearches,44***,44,RANDOM_TYPO,UK_CSV0000000000026508,18,numberofstopandsearches
+67.10.18,67,10,18,populationbyethnicity,"6,7q04","6,704",RANDOM_TYPO,UK_CSV0000000000026508,18,populationbyethnicity
+67.6.19,67,6,19,geography,All - including BTP and excluding Greater Manchestr,All - including BTP and excluding Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,19,geography
+67.9.19,67,9,19,totalnumberofstopandsearchcarriedoutinthisyearinth,930841,930481,RANDOM_TYPO,UK_CSV0000000000026508,19,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.19,67,11,19,rateper_one_zero_zero_zeropopulationbyethnicity,1.56,41.56,RANDOM_TYPO,UK_CSV0000000000026508,19,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.20,67,2,20,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,20,timetype
+67.3.20,67,3,20,ethnicity,Chnese,Chinese,RANDOM_TYPO,UK_CSV0000000000026508,20,ethnicity
+67.6.20,67,6,20,geography,Drebyshire,Derbyshire,RANDOM_TYPO,UK_CSV0000000000026508,20,geography
+67.10.20,67,10,20,populationbyethnicity,"3,109","3,019",RANDOM_TYPO,UK_CSV0000000000026508,20,populationbyethnicity
+67.0.21,67,0,21,measure,Numberof stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,21,measure
+67.1.21,67,1,21,timevalue,2016/7,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,21,timevalue
+67.2.21,67,2,21,timetype,inancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,21,timetype
+67.10.21,67,10,21,populationbyethnicity,"1,608,f308","1,608,308",RANDOM_TYPO,UK_CSV0000000000026508,21,populationbyethnicity
+67.11.21,67,11,21,rateper_one_zero_zero_zeropopulationbyethnicity,.53,1.53,RANDOM_TYPO,UK_CSV0000000000026508,21,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.22,67,5,22,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,22,legislationtype
+67.8.22,67,8,22,numberofstopandsearches,9,29,RANDOM_TYPO,UK_CSV0000000000026508,22,numberofstopandsearches
+67.0.23,67,0,23,measure,Number of stops and searcheks carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,23,measure
+67.1.23,67,1,23,timevalue,2c007/08,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,23,timevalue
+67.2.23,67,2,23,timetype,Fnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,23,timetype
+67.5.23,67,5,23,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,23,legislationtype
+67.8.23,67,8,23,numberofstopandsearches,"14l,620","14,620",RANDOM_TYPO,UK_CSV0000000000026508,23,numberofstopandsearches
+67.9.23,67,9,23,totalnumberofstopandsearchcarriedoutinthisyearinth,"27,o826","27,826",RANDOM_TYPO,UK_CSV0000000000026508,23,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.24,67,1,24,timevalue,200708,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,24,timevalue
+67.6.24,67,6,24,geography,Susstex,Sussex,RANDOM_TYPO,UK_CSV0000000000026508,24,geography
+67.8.24,67,8,24,numberofstopandsearches,"2q1,817","21,817",RANDOM_TYPO,UK_CSV0000000000026508,24,numberofstopandsearches
+67.1.25,67,1,25,timevalue,2016/71,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,25,timevalue
+67.6.25,67,6,25,geography,Metropolitan Poilce,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,25,geography
+67.8.25,67,8,25,numberofstopandsearches,",136","2,136",RANDOM_TYPO,UK_CSV0000000000026508,25,numberofstopandsearches
+67.5.26,67,5,26,legislationtype,Alnl,All,RANDOM_TYPO,UK_CSV0000000000026508,26,legislationtype
+67.6.26,67,6,26,geography,uffolk,Suffolk,RANDOM_TYPO,UK_CSV0000000000026508,26,geography
+67.7.26,67,7,26,geographytype,Police sForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,26,geographytype
+67.8.26,67,8,26,numberofstopandsearches,***,9,RANDOM_TYPO,UK_CSV0000000000026508,26,numberofstopandsearches
+67.10.26,67,10,26,populationbyethnicity,"3,99","3,999",RANDOM_TYPO,UK_CSV0000000000026508,26,populationbyethnicity
+67.3.27,67,3,27,ethnicity,lack,Black,RANDOM_TYPO,UK_CSV0000000000026508,27,ethnicity
+67.8.27,67,8,27,numberofstopandsearches,3n61,361,RANDOM_TYPO,UK_CSV0000000000026508,27,numberofstopandsearches
+67.1.28,67,1,28,timevalue,200b9/10,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,28,timevalue
+67.2.28,67,2,28,timetype,Financialyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,28,timetype
+67.11.28,67,11,28,rateper_one_zero_zero_zeropopulationbyethnicity,b13.82,13.82,RANDOM_TYPO,UK_CSV0000000000026508,28,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.29,67,5,29,legislationtype,uAll,All,RANDOM_TYPO,UK_CSV0000000000026508,29,legislationtype
+67.1.30,67,1,30,timevalue,2010/1,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,30,timevalue
+67.6.30,67,6,30,geography,British Tranport Police,British Transport Police,RANDOM_TYPO,UK_CSV0000000000026508,30,geography
+67.11.30,67,11,30,rateper_one_zero_zero_zeropopulationbyethnicity,***,-,RANDOM_TYPO,UK_CSV0000000000026508,30,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.31,67,4,31,ethnicitytype,ONS 2010 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,31,ethnicitytype
+67.5.31,67,5,31,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,31,legislationtype
+67.8.31,67,8,31,numberofstopandsearches,c3,3,RANDOM_TYPO,UK_CSV0000000000026508,31,numberofstopandsearches
+67.10.31,67,10,31,populationbyethnicity,"1,434","1,443",RANDOM_TYPO,UK_CSV0000000000026508,31,populationbyethnicity
+67.3.32,67,3,32,ethnicity,Any Othenr Mixed/Multiple Ethnic Background,Any Other Mixed/Multiple Ethnic Background,RANDOM_TYPO,UK_CSV0000000000026508,32,ethnicity
+67.4.32,67,4,32,ethnicitytype,ONS 2001 161+,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,32,ethnicitytype
+67.6.32,67,6,32,geography,West Yorkshwire,West Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,32,geography
+67.7.32,67,7,32,geographytype,Polie Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,32,geographytype
+67.9.32,67,9,32,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,3184","13,184",RANDOM_TYPO,UK_CSV0000000000026508,32,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.33,67,0,33,measure,Number of stops and searches carried out (exwcluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,33,measure
+67.1.33,67,1,33,timevalue,209/10,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,33,timevalue
+67.3.33,67,3,33,ethnicity,Aney Other White Background,Any Other White Background,RANDOM_TYPO,UK_CSV0000000000026508,33,ethnicity
+67.4.33,67,4,33,ethnicitytype,ONS 200t1 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,33,ethnicitytype
+67.7.33,67,7,33,geographytype,kPolice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,33,geographytype
+67.3.34,67,3,34,ethnicity,Black Africn,Black African,RANDOM_TYPO,UK_CSV0000000000026508,34,ethnicity
+67.4.34,67,4,34,ethnicitytype,ONS 2011 1u8+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,34,ethnicitytype
+67.8.34,67,8,34,numberofstopandsearches,5,15,RANDOM_TYPO,UK_CSV0000000000026508,34,numberofstopandsearches
+67.11.34,67,11,34,rateper_one_zero_zero_zeropopulationbyethnicity,.78,4.78,RANDOM_TYPO,UK_CSV0000000000026508,34,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.35,67,3,35,ethnicity,Pakisani,Pakistani,RANDOM_TYPO,UK_CSV0000000000026508,35,ethnicity
+67.5.35,67,5,35,legislationtype,oAll,All,RANDOM_TYPO,UK_CSV0000000000026508,35,legislationtype
+67.6.35,67,6,35,geography,Lincolnsihre,Lincolnshire,RANDOM_TYPO,UK_CSV0000000000026508,35,geography
+67.2.36,67,2,36,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,36,timetype
+67.7.36,67,7,36,geographytype,Police Force Aera,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,36,geographytype
+67.11.36,67,11,36,rateper_one_zero_zero_zeropopulationbyethnicity,m2.3,2.3,RANDOM_TYPO,UK_CSV0000000000026508,36,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.37,67,1,37,timevalue,211/12,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,37,timevalue
+67.2.37,67,2,37,timetype,Financial yyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,37,timetype
+67.6.37,67,6,37,geography,Durhma,Durham,RANDOM_TYPO,UK_CSV0000000000026508,37,geography
+67.7.37,67,7,37,geographytype,Police Force Aera,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,37,geographytype
+67.4.38,67,4,38,ethnicitytype,ON 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,38,ethnicitytype
+67.6.38,67,6,38,geography,Metopolitan Police,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,38,geography
+67.3.39,67,3,39,ethnicity,Any Other White Bakcground,Any Other White Background,RANDOM_TYPO,UK_CSV0000000000026508,39,ethnicity
+67.6.39,67,6,39,geography,Drham,Durham,RANDOM_TYPO,UK_CSV0000000000026508,39,geography
+67.10.39,67,10,39,populationbyethnicity,"9,24a5","9,245",RANDOM_TYPO,UK_CSV0000000000026508,39,populationbyethnicity
+67.0.40,67,0,40,measure,Number of stops and searches carried out (excluding vehicl only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,40,measure
+67.3.40,67,3,40,ethnicity,ndian,Indian,RANDOM_TYPO,UK_CSV0000000000026508,40,ethnicity
+67.6.40,67,6,40,geography,Knt,Kent,RANDOM_TYPO,UK_CSV0000000000026508,40,geography
+67.9.40,67,9,40,totalnumberofstopandsearchcarriedoutinthisyearinth,11p822,11822,RANDOM_TYPO,UK_CSV0000000000026508,40,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.40,67,11,40,rateper_one_zero_zero_zeropopulationbyethnicity,41,4.1,RANDOM_TYPO,UK_CSV0000000000026508,40,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.41,67,0,41,measure,Number of stops and searches carried out (excluding veicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,41,measure
+67.2.41,67,2,41,timetype,Filnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,41,timetype
+67.10.41,67,10,41,populationbyethnicity,"1,i864,890","1,864,890",RANDOM_TYPO,UK_CSV0000000000026508,41,populationbyethnicity
+67.5.42,67,5,42,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,42,legislationtype
+67.6.42,67,6,42,geography,ll - including BTP,All - including BTP,RANDOM_TYPO,UK_CSV0000000000026508,42,geography
+67.7.42,67,7,42,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,42,geographytype
+67.0.43,67,0,43,measure,Number of stops and searche carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,43,measure
+67.6.43,67,6,43,geography,SouthYorkshire,South Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,43,geography
+67.5.44,67,5,44,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,44,legislationtype
+67.2.45,67,2,45,timetype,Financial ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,45,timetype
+67.3.45,67,3,45,ethnicity,Bangladesih,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,45,ethnicity
+67.6.45,67,6,45,geography,Sufolk,Suffolk,RANDOM_TYPO,UK_CSV0000000000026508,45,geography
+67.7.45,67,7,45,geographytype,Police Forc Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,45,geographytype
+67.8.45,67,8,45,numberofstopandsearches,2e3,23,RANDOM_TYPO,UK_CSV0000000000026508,45,numberofstopandsearches
+67.9.45,67,9,45,totalnumberofstopandsearchcarriedoutinthisyearinth,",628","4,628",RANDOM_TYPO,UK_CSV0000000000026508,45,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.45,67,11,45,rateper_one_zero_zero_zeropopulationbyethnicity,10.12,10.21,RANDOM_TYPO,UK_CSV0000000000026508,45,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.46,67,4,46,ethnicitytype,ONS 2001 16+l1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,46,ethnicitytype
+67.5.46,67,5,46,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,46,legislationtype
+67.10.46,67,10,46,populationbyethnicity,"7,01","7,101",RANDOM_TYPO,UK_CSV0000000000026508,46,populationbyethnicity
+67.0.48,67,0,48,measure,Number of stops and searhes carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,48,measure
+67.1.48,67,1,48,timevalue,201/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,48,timevalue
+67.2.48,67,2,48,timetype,Financia lyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,48,timetype
+67.9.48,67,9,48,totalnumberofstopandsearchcarriedoutinthisyearinth,"11s,336","11,336",RANDOM_TYPO,UK_CSV0000000000026508,48,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.49,67,2,49,timetype,Finacnial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,49,timetype
+67.8.49,67,8,49,numberofstopandsearches,02,20,RANDOM_TYPO,UK_CSV0000000000026508,49,numberofstopandsearches
+67.9.49,67,9,49,totalnumberofstopandsearchcarriedoutinthisyearinth,"3,269","3,629",RANDOM_TYPO,UK_CSV0000000000026508,49,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.50,67,10,50,populationbyethnicity,"53p,461","53,461",RANDOM_TYPO,UK_CSV0000000000026508,50,populationbyethnicity
+67.11.50,67,11,50,rateper_one_zero_zero_zeropopulationbyethnicity,907,9.07,RANDOM_TYPO,UK_CSV0000000000026508,50,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.51,67,1,51,timevalue,200/10,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,51,timevalue
+67.4.51,67,4,51,ethnicitytype,ONoS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,51,ethnicitytype
+67.6.51,67,6,51,geography,West Merzcia,West Mercia,RANDOM_TYPO,UK_CSV0000000000026508,51,geography
+67.7.51,67,7,51,geographytype,Police Force Arwea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,51,geographytype
+67.10.51,67,10,51,populationbyethnicity,"1,781","1,718",RANDOM_TYPO,UK_CSV0000000000026508,51,populationbyethnicity
+67.4.52,67,4,52,ethnicitytype,ONS 2001 161+,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,52,ethnicitytype
+67.6.52,67,6,52,geography,Humbersde,Humberside,RANDOM_TYPO,UK_CSV0000000000026508,52,geography
+67.7.52,67,7,52,geographytype,Police Fvorce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,52,geographytype
+67.9.52,67,9,52,totalnumberofstopandsearchcarriedoutinthisyearinth,761,716,RANDOM_TYPO,UK_CSV0000000000026508,52,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.53,67,2,53,timetype,Financikal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,53,timetype
+67.7.53,67,7,53,geographytype,Police Fotrce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,53,geographytype
+67.10.53,67,10,53,populationbyethnicity,"k48,209,395","48,209,395",RANDOM_TYPO,UK_CSV0000000000026508,53,populationbyethnicity
+67.11.53,67,11,53,rateper_one_zero_zero_zeropopulationbyethnicity,0.21,0.12,RANDOM_TYPO,UK_CSV0000000000026508,53,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.54,67,2,54,timetype,Financial yezar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,54,timetype
+67.3.54,67,3,54,ethnicity,Mixed White And Asain,Mixed White And Asian,RANDOM_TYPO,UK_CSV0000000000026508,54,ethnicity
+67.5.54,67,5,54,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,54,legislationtype
+67.2.55,67,2,55,timetype,Financiael year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,55,timetype
+67.4.55,67,4,55,ethnicitytype,ONS2 011 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,55,ethnicitytype
+67.6.55,67,6,55,geography,All - includin BTP,All - including BTP,RANDOM_TYPO,UK_CSV0000000000026508,55,geography
+67.7.55,67,7,55,geographytype,Police Force Arewa,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,55,geographytype
+67.8.55,67,8,55,numberofstopandsearches,1620,31620,RANDOM_TYPO,UK_CSV0000000000026508,55,numberofstopandsearches
+67.10.55,67,10,55,populationbyethnicity,35720,835720,RANDOM_TYPO,UK_CSV0000000000026508,55,populationbyethnicity
+67.3.56,67,3,56,ethnicity,Unreporgted,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,56,ethnicity
+67.9.56,67,9,56,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,121,1d23","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,56,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.57,67,1,57,timevalue,o2008/09,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,57,timevalue
+67.4.57,67,4,57,ethnicitytype,ONS 2001 6+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,57,ethnicitytype
+67.7.57,67,7,57,geographytype,Police Forfce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,57,geographytype
+67.8.57,67,8,57,numberofstopandsearches,6,86,RANDOM_TYPO,UK_CSV0000000000026508,57,numberofstopandsearches
+67.1.58,67,1,58,timevalue,2015/61,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,58,timevalue
+67.5.58,67,5,58,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,58,legislationtype
+67.7.58,67,7,58,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,58,geographytype
+67.8.58,67,8,58,numberofstopandsearches,***,4,RANDOM_TYPO,UK_CSV0000000000026508,58,numberofstopandsearches
+67.9.58,67,9,58,totalnumberofstopandsearchcarriedoutinthisyearinth,",847","3,847",RANDOM_TYPO,UK_CSV0000000000026508,58,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.59,67,1,59,timevalue,201/314,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,59,timevalue
+67.2.59,67,2,59,timetype,Fnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,59,timetype
+67.3.59,67,3,59,ethnicity,Ubnreported,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,59,ethnicity
+67.5.59,67,5,59,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,59,legislationtype
+67.11.59,67,11,59,rateper_one_zero_zero_zeropopulationbyethnicity,,-,RANDOM_TYPO,UK_CSV0000000000026508,59,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.60,67,4,60,ethnicitytype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,60,ethnicitytype
+67.10.60,67,10,60,populationbyethnicity,1n599555,1599555,RANDOM_TYPO,UK_CSV0000000000026508,60,populationbyethnicity
+67.2.61,67,2,61,timetype,Financia year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,61,timetype
+67.4.61,67,4,61,ethnicitytype,ONS 2001 16+q1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,61,ethnicitytype
+67.0.62,67,0,62,measure,Number of stops and searches carried out (excluding vehicleo nly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,62,measure
+67.3.62,67,3,62,ethnicity,Mxed,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,62,ethnicity
+67.9.62,67,9,62,totalnumberofstopandsearchcarriedoutinthisyearinth,"5,83v5","5,835",RANDOM_TYPO,UK_CSV0000000000026508,62,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.63,67,3,63,ethnicity,Bangladeshhi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,63,ethnicity
+67.4.63,67,4,63,ethnicitytype,ONS 011 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,63,ethnicitytype
+67.6.63,67,6,63,geography,Hampshre,Hampshire,RANDOM_TYPO,UK_CSV0000000000026508,63,geography
+67.8.63,67,8,63,numberofstopandsearches,2,62,RANDOM_TYPO,UK_CSV0000000000026508,63,numberofstopandsearches
+67.2.64,67,2,64,timetype,Finanical year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,64,timetype
+67.3.64,67,3,64,ethnicity,oOther Inc Chinese,Other Inc Chinese,RANDOM_TYPO,UK_CSV0000000000026508,64,ethnicity
+67.9.64,67,9,64,totalnumberofstopandsearchcarriedoutinthisyearinth,"93,59","9,359",RANDOM_TYPO,UK_CSV0000000000026508,64,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.65,67,0,65,measure,Number of stops and searches carried out (excluding ehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,65,measure
+67.5.65,67,5,65,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,65,legislationtype
+67.7.65,67,7,65,geographytype,Police Force Akrea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,65,geographytype
+67.10.65,67,10,65,populationbyethnicity,244,6244,RANDOM_TYPO,UK_CSV0000000000026508,65,populationbyethnicity
+67.11.65,67,11,65,rateper_one_zero_zero_zeropopulationbyethnicity,13.54,13.45,RANDOM_TYPO,UK_CSV0000000000026508,65,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.66,67,1,66,timevalue,201/18,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,66,timevalue
+67.6.66,67,6,66,geography,Hampbshire,Hampshire,RANDOM_TYPO,UK_CSV0000000000026508,66,geography
+67.10.66,67,10,66,populationbyethnicity,"11,697***","11,697",RANDOM_TYPO,UK_CSV0000000000026508,66,populationbyethnicity
+67.0.67,67,0,67,measure,Number of stwops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,67,measure
+67.1.67,67,1,67,timevalue,2k010/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,67,timevalue
+67.3.67,67,3,67,ethnicity,Any Other dBlack Background,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,67,ethnicity
+67.4.67,67,4,67,ethnicitytype,ONS 2001 6+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,67,ethnicitytype
+67.0.68,67,0,68,measure,Number of stops and searches carried out (xecluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,68,measure
+67.1.68,67,1,68,timevalue,006/07,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,68,timevalue
+67.3.68,67,3,68,ethnicity,Unrepored,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,68,ethnicity
+67.4.68,67,4,68,ethnicitytype,ONS 201 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,68,ethnicitytype
+67.7.69,67,7,69,geographytype,Police ForceA rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,69,geographytype
+67.9.69,67,9,69,totalnumberofstopandsearchcarriedoutinthisyearinth,"8j,411","8,411",RANDOM_TYPO,UK_CSV0000000000026508,69,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.69,67,11,69,rateper_one_zero_zero_zeropopulationbyethnicity,5.4l6,5.46,RANDOM_TYPO,UK_CSV0000000000026508,69,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.70,67,2,70,timetype,Finacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,70,timetype
+67.5.70,67,5,70,legislationtype,jAll,All,RANDOM_TYPO,UK_CSV0000000000026508,70,legislationtype
+67.6.70,67,6,70,geography,urham,Durham,RANDOM_TYPO,UK_CSV0000000000026508,70,geography
+67.7.70,67,7,70,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,70,geographytype
+67.9.70,67,9,70,totalnumberofstopandsearchcarriedoutinthisyearinth,"z1,705","1,705",RANDOM_TYPO,UK_CSV0000000000026508,70,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.71,67,4,71,ethnicitytype,OSN 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,71,ethnicitytype
+67.5.71,67,5,71,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,71,legislationtype
+67.9.71,67,9,71,totalnumberofstopandsearchcarriedoutinthisyearinth,",1894","1,894",RANDOM_TYPO,UK_CSV0000000000026508,71,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.72,67,3,72,ethnicity,Any Othe rBlack Background,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,72,ethnicity
+67.6.72,67,6,72,geography,Northamptonshier,Northamptonshire,RANDOM_TYPO,UK_CSV0000000000026508,72,geography
+67.9.72,67,9,72,totalnumberofstopandsearchcarriedoutinthisyearinth,960,1960,RANDOM_TYPO,UK_CSV0000000000026508,72,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.73,67,0,73,measure,Number of stops and searches carried out (excluding vehicle onaly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,73,measure
+67.3.73,67,3,73,ethnicity,Mixd,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,73,ethnicity
+67.4.73,67,4,73,ethnicitytype,ONS 0201 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,73,ethnicitytype
+67.5.73,67,5,73,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,73,legislationtype
+67.6.73,67,6,73,geography,cSouth Yorkshire,South Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,73,geography
+67.7.73,67,7,73,geographytype,Police Foce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,73,geographytype
+67.8.73,67,8,73,numberofstopandsearches,3,43,RANDOM_TYPO,UK_CSV0000000000026508,73,numberofstopandsearches
+67.9.73,67,9,73,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,52r9","1,529",RANDOM_TYPO,UK_CSV0000000000026508,73,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.74,67,10,74,populationbyethnicity,"28,45","28,435",RANDOM_TYPO,UK_CSV0000000000026508,74,populationbyethnicity
+67.0.75,67,0,75,measure,Number of stops and senarches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,75,measure
+67.1.75,67,1,75,timevalue,2018x/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,75,timevalue
+67.3.76,67,3,76,ethnicity,Chinetse,Chinese,RANDOM_TYPO,UK_CSV0000000000026508,76,ethnicity
+67.7.76,67,7,76,geographytype,Police Forec Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,76,geographytype
+67.9.76,67,9,76,totalnumberofstopandsearchcarriedoutinthisyearinth,"12,8s47","12,847",RANDOM_TYPO,UK_CSV0000000000026508,76,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.77,67,1,77,timevalue,011/12,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,77,timevalue
+67.3.77,67,3,77,ethnicity,Unreportd,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,77,ethnicity
+67.5.77,67,5,77,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,77,legislationtype
+67.6.77,67,6,77,geography,British Transoprt Police,British Transport Police,RANDOM_TYPO,UK_CSV0000000000026508,77,geography
+67.10.77,67,10,77,populationbyethnicity,"1,q718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,77,populationbyethnicity
+67.0.78,67,0,78,measure,Number of stops and searches carried out (excluding vehicle oly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,78,measure
+67.7.78,67,7,78,geographytype,zPolice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,78,geographytype
+67.1.79,67,1,79,timevalue,017/18,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,79,timevalue
+67.9.79,67,9,79,totalnumberofstopandsearchcarriedoutinthisyearinth,"z1,084","1,084",RANDOM_TYPO,UK_CSV0000000000026508,79,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.79,67,11,79,rateper_one_zero_zero_zeropopulationbyethnicity,.95,0.95,RANDOM_TYPO,UK_CSV0000000000026508,79,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.80,67,4,80,ethnicitytype,ONS 2001 5+1***,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,80,ethnicitytype
+67.0.81,67,0,81,measure,Number of stops and searches carried oust (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,81,measure
+67.2.81,67,2,81,timetype,inancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,81,timetype
+67.5.81,67,5,81,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,81,legislationtype
+67.0.82,67,0,82,measure,Number of stops and searches carried out (xecluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,82,measure
+67.1.82,67,1,82,timevalue,2091/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,82,timevalue
+67.9.82,67,9,82,totalnumberofstopandsearchcarriedoutinthisyearinth,1221,2121,RANDOM_TYPO,UK_CSV0000000000026508,82,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.83,67,0,83,measure,Number of stops and searches carried out (ecluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,83,measure
+67.5.83,67,5,83,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,83,legislationtype
+67.7.83,67,7,83,geographytype,Poilice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,83,geographytype
+67.8.83,67,8,83,numberofstopandsearches,3a7,37,RANDOM_TYPO,UK_CSV0000000000026508,83,numberofstopandsearches
+67.10.83,67,10,83,populationbyethnicity,12284,12248,RANDOM_TYPO,UK_CSV0000000000026508,83,populationbyethnicity
+67.6.84,67,6,84,geography,Linconlshire,Lincolnshire,RANDOM_TYPO,UK_CSV0000000000026508,84,geography
+67.8.84,67,8,84,numberofstopandsearches,2597,"2,597",RANDOM_TYPO,UK_CSV0000000000026508,84,numberofstopandsearches
+67.10.84,67,10,84,populationbyethnicity,"13,653","713,653",RANDOM_TYPO,UK_CSV0000000000026508,84,populationbyethnicity
+67.8.85,67,8,85,numberofstopandsearches,i28,28,RANDOM_TYPO,UK_CSV0000000000026508,85,numberofstopandsearches
+67.0.86,67,0,86,measure,Number of stops and searches carried out (excluding vehicle only saerches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,86,measure
+67.4.86,67,4,86,ethnicitytype,ONS 2001 16+b1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,86,ethnicitytype
+67.6.86,67,6,86,geography,Clevealnd,Cleveland,RANDOM_TYPO,UK_CSV0000000000026508,86,geography
+67.8.86,67,8,86,numberofstopandsearches,,2,RANDOM_TYPO,UK_CSV0000000000026508,86,numberofstopandsearches
+67.9.86,67,9,86,totalnumberofstopandsearchcarriedoutinthisyearinth,94,794,RANDOM_TYPO,UK_CSV0000000000026508,86,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.86,67,10,86,populationbyethnicity,46,246,RANDOM_TYPO,UK_CSV0000000000026508,86,populationbyethnicity
+67.1.87,67,1,87,timevalue,2006/7,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,87,timevalue
+67.2.87,67,2,87,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,87,timetype
+67.4.87,67,4,87,ethnicitytype,ONS 2001 161+,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,87,ethnicitytype
+67.6.87,67,6,87,geography,Heurtfordshire,Hertfordshire,RANDOM_TYPO,UK_CSV0000000000026508,87,geography
+67.8.87,67,8,87,numberofstopandsearches,316,361,RANDOM_TYPO,UK_CSV0000000000026508,87,numberofstopandsearches
+67.9.87,67,9,87,totalnumberofstopandsearchcarriedoutinthisyearinth,"0,276","10,276",RANDOM_TYPO,UK_CSV0000000000026508,87,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.87,67,10,87,populationbyethnicity,"8,13","8,713",RANDOM_TYPO,UK_CSV0000000000026508,87,populationbyethnicity
+67.0.88,67,0,88,measure,Number of stops and searches carried out (excluding ehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,88,measure
+67.2.88,67,2,88,timetype,Finnacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,88,timetype
+67.6.88,67,6,88,geography,Hapmshire,Hampshire,RANDOM_TYPO,UK_CSV0000000000026508,88,geography
+67.7.88,67,7,88,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,88,geographytype
+67.11.88,67,11,88,rateper_one_zero_zero_zeropopulationbyethnicity,.77,3.77,RANDOM_TYPO,UK_CSV0000000000026508,88,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.89,67,1,89,timevalue,2041/15,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,89,timevalue
+67.5.89,67,5,89,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,89,legislationtype
+67.6.89,67,6,89,geography,West Mdlands,West Midlands,RANDOM_TYPO,UK_CSV0000000000026508,89,geography
+67.9.89,67,9,89,totalnumberofstopandsearchcarriedoutinthisyearinth,"149,28","14,928",RANDOM_TYPO,UK_CSV0000000000026508,89,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.90,67,5,90,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,90,legislationtype
+67.6.90,67,6,90,geography,Kenut,Kent,RANDOM_TYPO,UK_CSV0000000000026508,90,geography
+67.8.90,67,8,90,numberofstopandsearches,13n3,133,RANDOM_TYPO,UK_CSV0000000000026508,90,numberofstopandsearches
+67.9.90,67,9,90,totalnumberofstopandsearchcarriedoutinthisyearinth,"11,55","11,595",RANDOM_TYPO,UK_CSV0000000000026508,90,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.90,67,10,90,populationbyethnicity,",893","1,893",RANDOM_TYPO,UK_CSV0000000000026508,90,populationbyethnicity
+67.1.91,67,1,91,timevalue,018/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,91,timevalue
+67.9.91,67,9,91,totalnumberofstopandsearchcarriedoutinthisyearinth,361353,316353,RANDOM_TYPO,UK_CSV0000000000026508,91,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.92,67,2,92,timetype,Financial myear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,92,timetype
+67.3.92,67,3,92,ethnicity,Asina,Asian,RANDOM_TYPO,UK_CSV0000000000026508,92,ethnicity
+67.1.93,67,1,93,timevalue,2031/14,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,93,timevalue
+67.3.93,67,3,93,ethnicity,Any ther Asian Background,Any Other Asian Background,RANDOM_TYPO,UK_CSV0000000000026508,93,ethnicity
+67.6.93,67,6,93,geography,wGent,Gwent,RANDOM_TYPO,UK_CSV0000000000026508,93,geography
+67.10.93,67,10,93,populationbyethnicity,"2,587","2,578",RANDOM_TYPO,UK_CSV0000000000026508,93,populationbyethnicity
+67.0.94,67,0,94,measure,gNumber of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,94,measure
+67.7.94,67,7,94,geographytype,Police Force Aera,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,94,geographytype
+67.4.95,67,4,95,ethnicitytype,ONS 0201 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,95,ethnicitytype
+67.7.95,67,7,95,geographytype,Police Force rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,95,geographytype
+67.2.96,67,2,96,timetype,Fianncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,96,timetype
+67.5.96,67,5,96,legislationtype,kAll,All,RANDOM_TYPO,UK_CSV0000000000026508,96,legislationtype
+67.11.96,67,11,96,rateper_one_zero_zero_zeropopulationbyethnicity,15.18,15.81,RANDOM_TYPO,UK_CSV0000000000026508,96,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.97,67,0,97,measure,Number of stops and searches carried out (excluding vehicle only searcehs),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,97,measure
+67.1.97,67,1,97,timevalue,013/14,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,97,timevalue
+67.6.97,67,6,97,geography,Bedforsdhire,Bedfordshire,RANDOM_TYPO,UK_CSV0000000000026508,97,geography
+67.9.97,67,9,97,totalnumberofstopandsearchcarriedoutinthisyearinth,"5d,515","5,515",RANDOM_TYPO,UK_CSV0000000000026508,97,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.98,67,1,98,timevalue,215/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,98,timevalue
+67.6.98,67,6,98,geography,Humbelrside,Humberside,RANDOM_TYPO,UK_CSV0000000000026508,98,geography
+67.8.98,67,8,98,numberofstopandsearches,***,2,RANDOM_TYPO,UK_CSV0000000000026508,98,numberofstopandsearches
+67.0.99,67,0,99,measure,Number of stops and searches carried out (excluding vehicle only searchs),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,99,measure
+67.5.99,67,5,99,legislationtype,Alal,All,RANDOM_TYPO,UK_CSV0000000000026508,99,legislationtype
+67.8.99,67,8,99,numberofstopandsearches,e24,24,RANDOM_TYPO,UK_CSV0000000000026508,99,numberofstopandsearches
+67.0.100,67,0,100,measure,Number of stops an searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,100,measure
+67.1.100,67,1,100,timevalue,200708,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,100,timevalue
+67.7.100,67,7,100,geographytype,Police orce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,100,geographytype
+67.9.100,67,9,100,totalnumberofstopandsearchcarriedoutinthisyearinth,",811","9,811",RANDOM_TYPO,UK_CSV0000000000026508,100,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.100,67,10,100,populationbyethnicity,"6,156","6,165",RANDOM_TYPO,UK_CSV0000000000026508,100,populationbyethnicity
+67.2.101,67,2,101,timetype,Financia lyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,101,timetype
+67.3.102,67,3,102,ethnicity,Whitce,White,RANDOM_TYPO,UK_CSV0000000000026508,102,ethnicity
+67.6.102,67,6,102,geography,All - includig BTP,All - including BTP,RANDOM_TYPO,UK_CSV0000000000026508,102,geography
+67.9.102,67,9,102,totalnumberofstopandsearchcarriedoutinthisyearinth,20808,320808,RANDOM_TYPO,UK_CSV0000000000026508,102,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.103,67,0,103,measure,Number of stops and searches carried out (vexcluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,103,measure
+67.2.103,67,2,103,timetype,Finacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,103,timetype
+67.5.103,67,5,103,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,103,legislationtype
+67.9.103,67,9,103,totalnumberofstopandsearchcarriedoutinthisyearinth,1747,17647,RANDOM_TYPO,UK_CSV0000000000026508,103,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.103,67,11,103,rateper_one_zero_zero_zeropopulationbyethnicity,1b1,11,RANDOM_TYPO,UK_CSV0000000000026508,103,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.104,67,3,104,ethnicity,Mixed White And Black Afrcian,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,104,ethnicity
+67.4.104,67,4,104,ethnicitytype,ONS 2001 1+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,104,ethnicitytype
+67.5.104,67,5,104,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,104,legislationtype
+67.3.105,67,3,105,ethnicity,Any OtherAsian Background,Any Other Asian Background,RANDOM_TYPO,UK_CSV0000000000026508,105,ethnicity
+67.5.105,67,5,105,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,105,legislationtype
+67.10.105,67,10,105,populationbyethnicity,17582,17528,RANDOM_TYPO,UK_CSV0000000000026508,105,populationbyethnicity
+67.2.106,67,2,106,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,106,timetype
+67.3.106,67,3,106,ethnicity,Mxed,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,106,ethnicity
+67.6.106,67,6,106,geography,ampshire,Hampshire,RANDOM_TYPO,UK_CSV0000000000026508,106,geography
+67.7.106,67,7,106,geographytype,Poilce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,106,geographytype
+67.9.106,67,9,106,totalnumberofstopandsearchcarriedoutinthisyearinth,"7,76e2","7,762",RANDOM_TYPO,UK_CSV0000000000026508,106,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.107,67,0,107,measure,Number of stops and searches carreid out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,107,measure
+67.2.107,67,2,107,timetype,Financail year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,107,timetype
+67.5.107,67,5,107,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,107,legislationtype
+67.9.107,67,9,107,totalnumberofstopandsearchcarriedoutinthisyearinth,"6,334","6,343",RANDOM_TYPO,UK_CSV0000000000026508,107,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.108,67,1,108,timevalue,2010/1a1,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,108,timevalue
+67.5.108,67,5,108,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,108,legislationtype
+67.7.108,67,7,108,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,108,geographytype
+67.10.108,67,10,108,populationbyethnicity,"1,781","1,718",RANDOM_TYPO,UK_CSV0000000000026508,108,populationbyethnicity
+67.1.109,67,1,109,timevalue,2i008/09,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,109,timevalue
+67.2.109,67,2,109,timetype,Financidal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,109,timetype
+67.4.109,67,4,109,ethnicitytype,ONS 2001y 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,109,ethnicitytype
+67.6.109,67,6,109,geography,Bedforndshire,Bedfordshire,RANDOM_TYPO,UK_CSV0000000000026508,109,geography
+67.11.109,67,11,109,rateper_one_zero_zero_zeropopulationbyethnicity,81.8,8.18,RANDOM_TYPO,UK_CSV0000000000026508,109,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.110,67,4,110,ethnicitytype,ONS 2001c 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,110,ethnicitytype
+67.5.110,67,5,110,legislationtype,Alll,All,RANDOM_TYPO,UK_CSV0000000000026508,110,legislationtype
+67.8.110,67,8,110,numberofstopandsearches,e130,130,RANDOM_TYPO,UK_CSV0000000000026508,110,numberofstopandsearches
+67.9.110,67,9,110,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,674","18,674",RANDOM_TYPO,UK_CSV0000000000026508,110,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.7.111,67,7,111,geographytype,Police Force Aea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,111,geographytype
+67.8.111,67,8,111,numberofstopandsearches,"1,287","1,827",RANDOM_TYPO,UK_CSV0000000000026508,111,numberofstopandsearches
+67.9.111,67,9,111,totalnumberofstopandsearchcarriedoutinthisyearinth,35196,305196,RANDOM_TYPO,UK_CSV0000000000026508,111,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.111,67,10,111,populationbyethnicity,",3820,390","3,820,390",RANDOM_TYPO,UK_CSV0000000000026508,111,populationbyethnicity
+67.0.112,67,0,112,measure,Number of stops and searches carried out (ecluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,112,measure
+67.2.112,67,2,112,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,112,timetype
+67.4.112,67,4,112,ethnicitytype,ONS 2010 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,112,ethnicitytype
+67.9.112,67,9,112,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,104","31,104",RANDOM_TYPO,UK_CSV0000000000026508,112,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.113,67,2,113,timetype,inancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,113,timetype
+67.4.113,67,4,113,ethnicitytype,ON 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,113,ethnicitytype
+67.9.113,67,9,113,totalnumberofstopandsearchcarriedoutinthisyearinth,",695","3,695",RANDOM_TYPO,UK_CSV0000000000026508,113,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.114,67,5,114,legislationtype,Aljl,All,RANDOM_TYPO,UK_CSV0000000000026508,114,legislationtype
+67.6.114,67,6,114,geography,All - excludign BTP and Greater Manchester,All - excluding BTP and Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,114,geography
+67.8.114,67,8,114,numberofstopandsearches,1855***,1855,RANDOM_TYPO,UK_CSV0000000000026508,114,numberofstopandsearches
+67.1.115,67,1,115,timevalue,2011/21,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,115,timevalue
+67.2.115,67,2,115,timetype,Financial yar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,115,timetype
+67.7.115,67,7,115,geographytype,Police Foce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,115,geographytype
+67.11.115,67,11,115,rateper_one_zero_zero_zeropopulationbyethnicity,3f8.4,38.4,RANDOM_TYPO,UK_CSV0000000000026508,115,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.116,67,1,116,timevalue,020/21,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,116,timevalue
+67.2.116,67,2,116,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,116,timetype
+67.4.116,67,4,116,ethnicitytype,ONS 201 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,116,ethnicitytype
+67.5.116,67,5,116,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,116,legislationtype
+67.7.116,67,7,116,geographytype,Police Force Aera,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,116,geographytype
+67.1.117,67,1,117,timevalue,2i020/21,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,117,timevalue
+67.1.118,67,1,118,timevalue,2007/0p8,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,118,timevalue
+67.8.118,67,8,118,numberofstopandsearches,"i9,578","9,578",RANDOM_TYPO,UK_CSV0000000000026508,118,numberofstopandsearches
+67.7.119,67,7,119,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,119,geographytype
+67.8.119,67,8,119,numberofstopandsearches,206,260,RANDOM_TYPO,UK_CSV0000000000026508,119,numberofstopandsearches
+67.0.120,67,0,120,measure,Number of stops and searches carried out (excluding vhicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,120,measure
+67.4.120,67,4,120,ethnicitytype,ONtS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,120,ethnicitytype
+67.6.120,67,6,120,geography,West eMrcia,West Mercia,RANDOM_TYPO,UK_CSV0000000000026508,120,geography
+67.7.120,67,7,120,geographytype,Police Force gArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,120,geographytype
+67.8.120,67,8,120,numberofstopandsearches,3,33,RANDOM_TYPO,UK_CSV0000000000026508,120,numberofstopandsearches
+67.0.121,67,0,121,measure,Number of stops and searches carried out (excluding vehicle only searcehs),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,121,measure
+67.9.121,67,9,121,totalnumberofstopandsearchcarriedoutinthisyearinth,7971,7917,RANDOM_TYPO,UK_CSV0000000000026508,121,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.121,67,10,121,populationbyethnicity,21331,23131,RANDOM_TYPO,UK_CSV0000000000026508,121,populationbyethnicity
+67.0.122,67,0,122,measure,Number of stops and searches carried ut (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,122,measure
+67.6.122,67,6,122,geography,Cumbrida,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,122,geography
+67.7.122,67,7,122,geographytype,Plice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,122,geographytype
+67.10.122,67,10,122,populationbyethnicity,"1,18","1,718",RANDOM_TYPO,UK_CSV0000000000026508,122,populationbyethnicity
+67.6.123,67,6,123,geography,Alil - excluding BTP,All - excluding BTP,RANDOM_TYPO,UK_CSV0000000000026508,123,geography
+67.8.123,67,8,123,numberofstopandsearches,"28,6q01","28,601",RANDOM_TYPO,UK_CSV0000000000026508,123,numberofstopandsearches
+67.1.124,67,1,124,timevalue,2018q/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,124,timevalue
+67.7.124,67,7,124,geographytype,Polikce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,124,geographytype
+67.9.124,67,9,124,totalnumberofstopandsearchcarriedoutinthisyearinth,o1142,1142,RANDOM_TYPO,UK_CSV0000000000026508,124,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.7.125,67,7,125,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,125,geographytype
+67.9.125,67,9,125,totalnumberofstopandsearchcarriedoutinthisyearinth,"1u7,442","17,442",RANDOM_TYPO,UK_CSV0000000000026508,125,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.126,67,2,126,timetype,Fifnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,126,timetype
+67.6.126,67,6,126,geography,West Yorskhire,West Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,126,geography
+67.7.126,67,7,126,geographytype,Police Forice Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,126,geographytype
+67.9.126,67,9,126,totalnumberofstopandsearchcarriedoutinthisyearinth,"36,349","36,439",RANDOM_TYPO,UK_CSV0000000000026508,126,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.126,67,11,126,rateper_one_zero_zero_zeropopulationbyethnicity,6a.77,6.77,RANDOM_TYPO,UK_CSV0000000000026508,126,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.127,67,2,127,timetype,Fnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,127,timetype
+67.7.127,67,7,127,geographytype,Ploice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,127,geographytype
+67.9.127,67,9,127,totalnumberofstopandsearchcarriedoutinthisyearinth,196q7,1967,RANDOM_TYPO,UK_CSV0000000000026508,127,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.127,67,10,127,populationbyethnicity,462869,642869,RANDOM_TYPO,UK_CSV0000000000026508,127,populationbyethnicity
+67.11.127,67,11,127,rateper_one_zero_zero_zeropopulationbyethnicity,27.,2.7,RANDOM_TYPO,UK_CSV0000000000026508,127,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.128,67,6,128,geography,Hmberside,Humberside,RANDOM_TYPO,UK_CSV0000000000026508,128,geography
+67.7.128,67,7,128,geographytype,Police Frce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,128,geographytype
+67.6.129,67,6,129,geography,Gloucestersihre,Gloucestershire,RANDOM_TYPO,UK_CSV0000000000026508,129,geography
+67.11.129,67,11,129,rateper_one_zero_zero_zeropopulationbyethnicity,9.18,9.81,RANDOM_TYPO,UK_CSV0000000000026508,129,rateper_one_zero_zero_zeropopulationbyethnicity
+67.7.130,67,7,130,geographytype,PoliceForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,130,geographytype
+67.8.130,67,8,130,numberofstopandsearches,3,93,RANDOM_TYPO,UK_CSV0000000000026508,130,numberofstopandsearches
+67.1.131,67,1,131,timevalue,201l5/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,131,timevalue
+67.3.131,67,3,131,ethnicity,Unreproted,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,131,ethnicity
+67.11.131,67,11,131,rateper_one_zero_zero_zeropopulationbyethnicity,s-,-,RANDOM_TYPO,UK_CSV0000000000026508,131,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.132,67,0,132,measure,Number of stos and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,132,measure
+67.1.132,67,1,132,timevalue,2019/02,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,132,timevalue
+67.2.132,67,2,132,timetype,Financial yeair,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,132,timetype
+67.7.132,67,7,132,geographytype,Police Forcpe Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,132,geographytype
+67.11.132,67,11,132,rateper_one_zero_zero_zeropopulationbyethnicity,3.88,13.88,RANDOM_TYPO,UK_CSV0000000000026508,132,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.133,67,0,133,measure,Number of stops and searches carried out (excluding vehicle only seatrches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,133,measure
+67.1.133,67,1,133,timevalue,2017/81,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,133,timevalue
+67.3.133,67,3,133,ethnicity,Bagnladeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,133,ethnicity
+67.10.135,67,10,135,populationbyethnicity,"9,t066","9,066",RANDOM_TYPO,UK_CSV0000000000026508,135,populationbyethnicity
+67.11.135,67,11,135,rateper_one_zero_zero_zeropopulationbyethnicity,1.6e5,1.65,RANDOM_TYPO,UK_CSV0000000000026508,135,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.136,67,0,136,measure,Number of stops and searches carkried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,136,measure
+67.3.136,67,3,136,ethnicity,Blck,Black,RANDOM_TYPO,UK_CSV0000000000026508,136,ethnicity
+67.5.136,67,5,136,legislationtype,Ahll,All,RANDOM_TYPO,UK_CSV0000000000026508,136,legislationtype
+67.4.137,67,4,137,ethnicitytype,ONS 201 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,137,ethnicitytype
+67.5.138,67,5,138,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,138,legislationtype
+67.6.138,67,6,138,geography,Northamptonshre,Northamptonshire,RANDOM_TYPO,UK_CSV0000000000026508,138,geography
+67.11.138,67,11,138,rateper_one_zero_zero_zeropopulationbyethnicity,29.1e4,29.14,RANDOM_TYPO,UK_CSV0000000000026508,138,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.139,67,2,139,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,139,timetype
+67.4.139,67,4,139,ethnicitytype,ONS 20011 6+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,139,ethnicitytype
+67.7.139,67,7,139,geographytype,oPlice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,139,geographytype
+67.0.140,67,0,140,measure,Number of stops and searches carried out (excluding vehicle only searchse),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,140,measure
+67.6.140,67,6,140,geography,All - includin BTP and excluding Greater Manchester,All - including BTP and excluding Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,140,geography
+67.7.140,67,7,140,geographytype,PoliceForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,140,geographytype
+67.11.140,67,11,140,rateper_one_zero_zero_zeropopulationbyethnicity,18.8l2,18.82,RANDOM_TYPO,UK_CSV0000000000026508,140,rateper_one_zero_zero_zeropopulationbyethnicity
+67.8.141,67,8,141,numberofstopandsearches,"1,c259","1,259",RANDOM_TYPO,UK_CSV0000000000026508,141,numberofstopandsearches
+67.11.141,67,11,141,rateper_one_zero_zero_zeropopulationbyethnicity,1.69,1.96,RANDOM_TYPO,UK_CSV0000000000026508,141,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.142,67,3,142,ethnicity,Chinees,Chinese,RANDOM_TYPO,UK_CSV0000000000026508,142,ethnicity
+67.6.142,67,6,142,geography,Cumbrai,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,142,geography
+67.7.142,67,7,142,geographytype,Policem Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,142,geographytype
+67.8.142,67,8,142,numberofstopandsearches,u0,0,RANDOM_TYPO,UK_CSV0000000000026508,142,numberofstopandsearches
+67.10.142,67,10,142,populationbyethnicity,"1,135","1,153",RANDOM_TYPO,UK_CSV0000000000026508,142,populationbyethnicity
+67.11.142,67,11,142,rateper_one_zero_zero_zeropopulationbyethnicity,l-,-,RANDOM_TYPO,UK_CSV0000000000026508,142,rateper_one_zero_zero_zeropopulationbyethnicity
+67.9.143,67,9,143,totalnumberofstopandsearchcarriedoutinthisyearinth,0586,5086,RANDOM_TYPO,UK_CSV0000000000026508,143,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.144,67,2,144,timetype,Financial yar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,144,timetype
+67.7.144,67,7,144,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,144,geographytype
+67.8.144,67,8,144,numberofstopandsearches,***,5,RANDOM_TYPO,UK_CSV0000000000026508,144,numberofstopandsearches
+67.10.145,67,10,145,populationbyethnicity,"544,508","544,580",RANDOM_TYPO,UK_CSV0000000000026508,145,populationbyethnicity
+67.1.146,67,1,146,timevalue,2017/81,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,146,timevalue
+67.11.146,67,11,146,rateper_one_zero_zero_zeropopulationbyethnicity,,-,RANDOM_TYPO,UK_CSV0000000000026508,146,rateper_one_zero_zero_zeropopulationbyethnicity
+67.8.147,67,8,147,numberofstopandsearches,150,105,RANDOM_TYPO,UK_CSV0000000000026508,147,numberofstopandsearches
+67.0.148,67,0,148,measure,Number of stops and searches carried out (exclding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,148,measure
+67.8.148,67,8,148,numberofstopandsearches,8,38,RANDOM_TYPO,UK_CSV0000000000026508,148,numberofstopandsearches
+67.4.149,67,4,149,ethnicitytype,ONS 2101 5+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,149,ethnicitytype
+67.5.149,67,5,149,legislationtype,Akll,All,RANDOM_TYPO,UK_CSV0000000000026508,149,legislationtype
+67.1.150,67,1,150,timevalue,2v018/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,150,timevalue
+67.5.150,67,5,150,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,150,legislationtype
+67.6.150,67,6,150,geography,Ciumbria,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,150,geography
+67.9.150,67,9,150,totalnumberofstopandsearchcarriedoutinthisyearinth,158,1558,RANDOM_TYPO,UK_CSV0000000000026508,150,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.151,67,0,151,measure,Number ofk stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,151,measure
+67.7.151,67,7,151,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,151,geographytype
+67.9.151,67,9,151,totalnumberofstopandsearchcarriedoutinthisyearinth,"25,34","25,364",RANDOM_TYPO,UK_CSV0000000000026508,151,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.152,67,5,152,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,152,legislationtype
+67.7.152,67,7,152,geographytype,Police Force kArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,152,geographytype
+67.0.153,67,0,153,measure,Number of stops and searches carried out (excludign vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,153,measure
+67.8.153,67,8,153,numberofstopandsearches,41,14,RANDOM_TYPO,UK_CSV0000000000026508,153,numberofstopandsearches
+67.10.153,67,10,153,populationbyethnicity,"7,g477","7,477",RANDOM_TYPO,UK_CSV0000000000026508,153,populationbyethnicity
+67.11.153,67,11,153,rateper_one_zero_zero_zeropopulationbyethnicity,1.7,1.87,RANDOM_TYPO,UK_CSV0000000000026508,153,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.154,67,6,154,geography,Sfufolk,Suffolk,RANDOM_TYPO,UK_CSV0000000000026508,154,geography
+67.8.154,67,8,154,numberofstopandsearches,07,70,RANDOM_TYPO,UK_CSV0000000000026508,154,numberofstopandsearches
+67.1.155,67,1,155,timevalue,201/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,155,timevalue
+67.0.156,67,0,156,measure,Number of stops and searches carreid out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,156,measure
+67.0.157,67,0,157,measure,Numbr of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,157,measure
+67.5.157,67,5,157,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,157,legislationtype
+67.7.157,67,7,157,geographytype,Police Force rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,157,geographytype
+67.9.157,67,9,157,totalnumberofstopandsearchcarriedoutinthisyearinth,"4,73i4","4,734",RANDOM_TYPO,UK_CSV0000000000026508,157,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.157,67,11,157,rateper_one_zero_zero_zeropopulationbyethnicity,2.35,2.53,RANDOM_TYPO,UK_CSV0000000000026508,157,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.158,67,4,158,ethnicitytype,ONS 0201 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,158,ethnicitytype
+67.6.158,67,6,158,geography,umbria,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,158,geography
+67.1.159,67,1,159,timevalue,203/14,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,159,timevalue
+67.2.159,67,2,159,timetype,Financial yetar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,159,timetype
+67.4.159,67,4,159,ethnicitytype,ONSa 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,159,ethnicitytype
+67.6.159,67,6,159,geography,Glucestershire,Gloucestershire,RANDOM_TYPO,UK_CSV0000000000026508,159,geography
+67.8.159,67,8,159,numberofstopandsearches,2,42,RANDOM_TYPO,UK_CSV0000000000026508,159,numberofstopandsearches
+67.10.159,67,10,159,populationbyethnicity,74a7,747,RANDOM_TYPO,UK_CSV0000000000026508,159,populationbyethnicity
+67.3.160,67,3,160,ethnicity,Mixed White And Asina,Mixed White And Asian,RANDOM_TYPO,UK_CSV0000000000026508,160,ethnicity
+67.6.160,67,6,160,geography,Chepshire,Cheshire,RANDOM_TYPO,UK_CSV0000000000026508,160,geography
+67.9.160,67,9,160,totalnumberofstopandsearchcarriedoutinthisyearinth,"18,89","1,889",RANDOM_TYPO,UK_CSV0000000000026508,160,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.161,67,5,161,legislationtype,Section 4447a,Section 44/47a,RANDOM_TYPO,UK_CSV0000000000026508,161,legislationtype
+67.6.161,67,6,161,geography,All - includin BTP,All - including BTP,RANDOM_TYPO,UK_CSV0000000000026508,161,geography
+67.9.161,67,9,161,totalnumberofstopandsearchcarriedoutinthisyearinth,"23,589","243,589",RANDOM_TYPO,UK_CSV0000000000026508,161,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.161,67,10,161,populationbyethnicity,"56,075,921","56,075,912",RANDOM_TYPO,UK_CSV0000000000026508,161,populationbyethnicity
+67.0.162,67,0,162,measure,Number f stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,162,measure
+67.2.162,67,2,162,timetype,Financial yoear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,162,timetype
+67.3.162,67,3,162,ethnicity,Wihte,White,RANDOM_TYPO,UK_CSV0000000000026508,162,ethnicity
+67.9.162,67,9,162,totalnumberofstopandsearchcarriedoutinthisyearinth,7t282,7282,RANDOM_TYPO,UK_CSV0000000000026508,162,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.163,67,2,163,timetype,Financial yuear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,163,timetype
+67.7.163,67,7,163,geographytype,Police Forcep Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,163,geographytype
+67.10.163,67,10,163,populationbyethnicity,"57,45","5,745",RANDOM_TYPO,UK_CSV0000000000026508,163,populationbyethnicity
+67.4.164,67,4,164,ethnicitytype,NS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,164,ethnicitytype
+67.10.164,67,10,164,populationbyethnicity,"1,18","1,718",RANDOM_TYPO,UK_CSV0000000000026508,164,populationbyethnicity
+67.0.165,67,0,165,measure,umber of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,165,measure
+67.2.165,67,2,165,timetype,Financial yerar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,165,timetype
+67.8.165,67,8,165,numberofstopandsearches,16614g7,166147,RANDOM_TYPO,UK_CSV0000000000026508,165,numberofstopandsearches
+67.0.166,67,0,166,measure,Number of stops and searches carried oout (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,166,measure
+67.1.166,67,1,166,timevalue,013/14,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,166,timevalue
+67.2.166,67,2,166,timetype,Financival year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,166,timetype
+67.8.166,67,8,166,numberofstopandsearches,93,39,RANDOM_TYPO,UK_CSV0000000000026508,166,numberofstopandsearches
+67.2.167,67,2,167,timetype,Financoial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,167,timetype
+67.7.167,67,7,167,geographytype,Police oFrce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,167,geographytype
+67.8.167,67,8,167,numberofstopandsearches,"8,j307","8,307",RANDOM_TYPO,UK_CSV0000000000026508,167,numberofstopandsearches
+67.11.167,67,11,167,rateper_one_zero_zero_zeropopulationbyethnicity,16y.88,16.88,RANDOM_TYPO,UK_CSV0000000000026508,167,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.168,67,1,168,timevalue,2100/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,168,timevalue
+67.4.168,67,4,168,ethnicitytype,ONS2 001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,168,ethnicitytype
+67.6.169,67,6,169,geography,All - including BTP and ecxluding Greater Manchester,All - including BTP and excluding Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,169,geography
+67.7.169,67,7,169,geographytype,Police Force Aea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,169,geographytype
+67.4.170,67,4,170,ethnicitytype,ONS 2f001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,170,ethnicitytype
+67.5.170,67,5,170,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,170,legislationtype
+67.7.170,67,7,170,geographytype,Plice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,170,geographytype
+67.8.170,67,8,170,numberofstopandsearches,0,10,RANDOM_TYPO,UK_CSV0000000000026508,170,numberofstopandsearches
+67.10.170,67,10,170,populationbyethnicity,"3,757","3,775",RANDOM_TYPO,UK_CSV0000000000026508,170,populationbyethnicity
+67.7.171,67,7,171,geographytype,olice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,171,geographytype
+67.8.171,67,8,171,numberofstopandsearches,,2,RANDOM_TYPO,UK_CSV0000000000026508,171,numberofstopandsearches
+67.0.172,67,0,172,measure,Number of stops and searches carried out (ecxluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,172,measure
+67.5.172,67,5,172,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,172,legislationtype
+67.6.172,67,6,172,geography,Kenlt,Kent,RANDOM_TYPO,UK_CSV0000000000026508,172,geography
+67.7.172,67,7,172,geographytype,Polie Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,172,geographytype
+67.10.172,67,10,172,populationbyethnicity,",8593","8,593",RANDOM_TYPO,UK_CSV0000000000026508,172,populationbyethnicity
+67.0.173,67,0,173,measure,Number of stopls and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,173,measure
+67.7.173,67,7,173,geographytype,Police Force Ara,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,173,geographytype
+67.7.174,67,7,174,geographytype,Police Forc eArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,174,geographytype
+67.10.174,67,10,174,populationbyethnicity,"53,50n4","53,504",RANDOM_TYPO,UK_CSV0000000000026508,174,populationbyethnicity
+67.4.175,67,4,175,ethnicitytype,ONS 001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,175,ethnicitytype
+67.8.175,67,8,175,numberofstopandsearches,35,53,RANDOM_TYPO,UK_CSV0000000000026508,175,numberofstopandsearches
+67.11.175,67,11,175,rateper_one_zero_zero_zeropopulationbyethnicity,21.1q2,21.12,RANDOM_TYPO,UK_CSV0000000000026508,175,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.176,67,1,176,timevalue,2017/81,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,176,timevalue
+67.2.176,67,2,176,timetype,Financil year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,176,timetype
+67.3.176,67,3,176,ethnicity,Any fOther Black Background,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,176,ethnicity
+67.11.176,67,11,176,rateper_one_zero_zero_zeropopulationbyethnicity,15.3,15.53,RANDOM_TYPO,UK_CSV0000000000026508,176,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.177,67,6,177,geography,uHertfordshire,Hertfordshire,RANDOM_TYPO,UK_CSV0000000000026508,177,geography
+67.7.177,67,7,177,geographytype,Police Force rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,177,geographytype
+67.0.178,67,0,178,measure,Number of stops and searches carried out (excludign vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,178,measure
+67.1.178,67,1,178,timevalue,201011,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,178,timevalue
+67.2.178,67,2,178,timetype,Finnacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,178,timetype
+67.3.178,67,3,178,ethnicity,Any Other Asain Background,Any Other Asian Background,RANDOM_TYPO,UK_CSV0000000000026508,178,ethnicity
+67.4.178,67,4,178,ethnicitytype,ONS 2001 161,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,178,ethnicitytype
+67.5.178,67,5,178,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,178,legislationtype
+67.10.178,67,10,178,populationbyethnicity,"35,19","3,519",RANDOM_TYPO,UK_CSV0000000000026508,178,populationbyethnicity
+67.3.179,67,3,179,ethnicity,Blangladeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,179,ethnicity
+67.4.179,67,4,179,ethnicitytype,ONS 200 116+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,179,ethnicitytype
+67.9.179,67,9,179,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,12,123","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,179,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.179,67,10,179,populationbyethnicity,"447,210","447,201",RANDOM_TYPO,UK_CSV0000000000026508,179,populationbyethnicity
+67.1.180,67,1,180,timevalue,200/10,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,180,timevalue
+67.3.180,67,3,180,ethnicity,Any Other Asian Bcakground,Any Other Asian Background,RANDOM_TYPO,UK_CSV0000000000026508,180,ethnicity
+67.8.180,67,8,180,numberofstopandsearches,41,141,RANDOM_TYPO,UK_CSV0000000000026508,180,numberofstopandsearches
+67.10.180,67,10,180,populationbyethnicity,6023,"6,023",RANDOM_TYPO,UK_CSV0000000000026508,180,populationbyethnicity
+67.2.181,67,2,181,timetype,Financial yetar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,181,timetype
+67.9.181,67,9,181,totalnumberofstopandsearchcarriedoutinthisyearinth,"140,918","140,198",RANDOM_TYPO,UK_CSV0000000000026508,181,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.181,67,10,181,populationbyethnicity,"1x70,063","170,063",RANDOM_TYPO,UK_CSV0000000000026508,181,populationbyethnicity
+67.2.183,67,2,183,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,183,timetype
+67.4.183,67,4,183,ethnicitytype,uONS 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,183,ethnicitytype
+67.5.183,67,5,183,legislationtype,Alwl,All,RANDOM_TYPO,UK_CSV0000000000026508,183,legislationtype
+67.9.183,67,9,183,totalnumberofstopandsearchcarriedoutinthisyearinth,"8,988***","8,988",RANDOM_TYPO,UK_CSV0000000000026508,183,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.184,67,4,184,ethnicitytype,ONS 2010 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,184,ethnicitytype
+67.9.184,67,9,184,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,1m21,123","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,184,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.185,67,2,185,timetype,inancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,185,timetype
+67.11.185,67,11,185,rateper_one_zero_zero_zeropopulationbyethnicity,5.7,5.47,RANDOM_TYPO,UK_CSV0000000000026508,185,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.186,67,0,186,measure,Number of stops and searches caarried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,186,measure
+67.1.186,67,1,186,timevalue,2019/02,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,186,timevalue
+67.6.186,67,6,186,geography,Ntorthamptonshire,Northamptonshire,RANDOM_TYPO,UK_CSV0000000000026508,186,geography
+67.4.187,67,4,187,ethnicitytype,ONS 2001 +51,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,187,ethnicitytype
+67.6.187,67,6,187,geography,Notinghamshire,Nottinghamshire,RANDOM_TYPO,UK_CSV0000000000026508,187,geography
+67.7.187,67,7,187,geographytype,Police Forc Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,187,geographytype
+67.8.187,67,8,187,numberofstopandsearches,22y8,228,RANDOM_TYPO,UK_CSV0000000000026508,187,numberofstopandsearches
+67.5.188,67,5,188,legislationtype,sAll,All,RANDOM_TYPO,UK_CSV0000000000026508,188,legislationtype
+67.8.188,67,8,188,numberofstopandsearches,238,283,RANDOM_TYPO,UK_CSV0000000000026508,188,numberofstopandsearches
+67.10.188,67,10,188,populationbyethnicity,"1,71h8","1,718",RANDOM_TYPO,UK_CSV0000000000026508,188,populationbyethnicity
+67.0.189,67,0,189,measure,Number of stops and searches carried out( excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,189,measure
+67.7.189,67,7,189,geographytype,Police Force Arbea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,189,geographytype
+67.8.189,67,8,189,numberofstopandsearches,"144,448***","144,448",RANDOM_TYPO,UK_CSV0000000000026508,189,numberofstopandsearches
+67.1.190,67,1,190,timevalue,2015/6,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,190,timevalue
+67.9.190,67,9,190,totalnumberofstopandsearchcarriedoutinthisyearinth,"5,082","5,802",RANDOM_TYPO,UK_CSV0000000000026508,190,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.191,67,1,191,timevalue,201k0/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,191,timevalue
+67.5.191,67,5,191,legislationtype,tAll,All,RANDOM_TYPO,UK_CSV0000000000026508,191,legislationtype
+67.7.191,67,7,191,geographytype,Police Froce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,191,geographytype
+67.8.191,67,8,191,numberofstopandsearches,2,12,RANDOM_TYPO,UK_CSV0000000000026508,191,numberofstopandsearches
+67.0.192,67,0,192,measure,Number of tsops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,192,measure
+67.2.192,67,2,192,timetype,Fijnancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,192,timetype
+67.6.192,67,6,192,geography,South Yorkshrie,South Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,192,geography
+67.11.192,67,11,192,rateper_one_zero_zero_zeropopulationbyethnicity,31.1d8,31.18,RANDOM_TYPO,UK_CSV0000000000026508,192,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.193,67,3,193,ethnicity,Any Other Ethnic Grop,Any Other Ethnic Group,RANDOM_TYPO,UK_CSV0000000000026508,193,ethnicity
+67.4.193,67,4,193,ethnicitytype,ONS 201 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,193,ethnicitytype
+67.6.193,67,6,193,geography,Humebrside,Humberside,RANDOM_TYPO,UK_CSV0000000000026508,193,geography
+67.9.193,67,9,193,totalnumberofstopandsearchcarriedoutinthisyearinth,2q548,2548,RANDOM_TYPO,UK_CSV0000000000026508,193,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.194,67,4,194,ethnicitytype,fONS 2011 5+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,194,ethnicitytype
+67.5.194,67,5,194,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,194,legislationtype
+67.5.196,67,5,196,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,196,legislationtype
+67.9.196,67,9,196,totalnumberofstopandsearchcarriedoutinthisyearinth,"13,65","13,685",RANDOM_TYPO,UK_CSV0000000000026508,196,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.196,67,10,196,populationbyethnicity,"99,858","499,858",RANDOM_TYPO,UK_CSV0000000000026508,196,populationbyethnicity
+67.5.197,67,5,197,legislationtype,aAll,All,RANDOM_TYPO,UK_CSV0000000000026508,197,legislationtype
+67.11.197,67,11,197,rateper_one_zero_zero_zeropopulationbyethnicity,97.78,79.78,RANDOM_TYPO,UK_CSV0000000000026508,197,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.198,67,5,198,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,198,legislationtype
+67.7.198,67,7,198,geographytype,Polie Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,198,geographytype
+67.10.198,67,10,198,populationbyethnicity,"2,86","2,486",RANDOM_TYPO,UK_CSV0000000000026508,198,populationbyethnicity
+67.3.199,67,3,199,ethnicity,Mixed White And Black Axfrican,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,199,ethnicity
+67.7.199,67,7,199,geographytype,Police Forsce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,199,geographytype
+67.0.200,67,0,200,measure,Number of stops and searches carried out (exclding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,200,measure
+67.7.200,67,7,200,geographytype,Policee Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,200,geographytype
+67.2.201,67,2,201,timetype,Financial eyar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,201,timetype
+67.7.201,67,7,201,geographytype,oPlice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,201,geographytype
+67.9.201,67,9,201,totalnumberofstopandsearchcarriedoutinthisyearinth,153w7,1537,RANDOM_TYPO,UK_CSV0000000000026508,201,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.201,67,10,201,populationbyethnicity,"q1,718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,201,populationbyethnicity
+67.2.202,67,2,202,timetype,Finnacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,202,timetype
+67.5.202,67,5,202,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,202,legislationtype
+67.1.203,67,1,203,timevalue,207/18,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,203,timevalue
+67.6.203,67,6,203,geography,Leicetershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,203,geography
+67.7.203,67,7,203,geographytype,Polce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,203,geographytype
+67.9.203,67,9,203,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,4u65","1,465",RANDOM_TYPO,UK_CSV0000000000026508,203,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.204,67,4,204,ethnicitytype,OS 2011 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,204,ethnicitytype
+67.9.204,67,9,204,totalnumberofstopandsearchcarriedoutinthisyearinth,230921,239021,RANDOM_TYPO,UK_CSV0000000000026508,204,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.205,67,0,205,measure,Number of sops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,205,measure
+67.1.205,67,1,205,timevalue,201/920,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,205,timevalue
+67.2.205,67,2,205,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,205,timetype
+67.4.205,67,4,205,ethnicitytype,ONS 0211 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,205,ethnicitytype
+67.6.205,67,6,205,geography,North Yorkshirle,North Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,205,geography
+67.1.206,67,1,206,timevalue,200/607,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,206,timevalue
+67.4.206,67,4,206,ethnicitytype,NS 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,206,ethnicitytype
+67.9.206,67,9,206,totalnumberofstopandsearchcarriedoutinthisyearinth,"4,387","4,837",RANDOM_TYPO,UK_CSV0000000000026508,206,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.6.207,67,6,207,geography,ySouth Wales,South Wales,RANDOM_TYPO,UK_CSV0000000000026508,207,geography
+67.7.207,67,7,207,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,207,geographytype
+67.9.207,67,9,207,totalnumberofstopandsearchcarriedoutinthisyearinth,",851","4,851",RANDOM_TYPO,UK_CSV0000000000026508,207,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.208,67,3,208,ethnicity,Any Other Black Backgroudn,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,208,ethnicity
+67.6.208,67,6,208,geography,Northumbrai,Northumbria,RANDOM_TYPO,UK_CSV0000000000026508,208,geography
+67.7.208,67,7,208,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,208,geographytype
+67.11.208,67,11,208,rateper_one_zero_zero_zeropopulationbyethnicity,52.6x3,52.63,RANDOM_TYPO,UK_CSV0000000000026508,208,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.209,67,0,209,measure,Number of stops and searcehs carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,209,measure
+67.1.209,67,1,209,timevalue,201u5/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,209,timevalue
+67.7.209,67,7,209,geographytype,olice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,209,geographytype
+67.1.210,67,1,210,timevalue,201415,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,210,timevalue
+67.2.210,67,2,210,timetype,Financial vyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,210,timetype
+67.5.210,67,5,210,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,210,legislationtype
+67.10.210,67,10,210,populationbyethnicity,"563,669","563,696",RANDOM_TYPO,UK_CSV0000000000026508,210,populationbyethnicity
+67.7.211,67,7,211,geographytype,Police orce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,211,geographytype
+67.10.211,67,10,211,populationbyethnicity,"2,9p13","2,913",RANDOM_TYPO,UK_CSV0000000000026508,211,populationbyethnicity
+67.2.212,67,2,212,timetype,Financiial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,212,timetype
+67.4.212,67,4,212,ethnicitytype,ONS 2001 n5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,212,ethnicitytype
+67.5.212,67,5,212,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,212,legislationtype
+67.1.213,67,1,213,timevalue,200/08,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,213,timevalue
+67.4.213,67,4,213,ethnicitytype,ONS 2001 1+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,213,ethnicitytype
+67.2.214,67,2,214,timetype,Finanial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,214,timetype
+67.7.214,67,7,214,geographytype,Poilce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,214,geographytype
+67.10.214,67,10,214,populationbyethnicity,18870,18807,RANDOM_TYPO,UK_CSV0000000000026508,214,populationbyethnicity
+67.0.215,67,0,215,measure,Number of stops and searches craried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,215,measure
+67.3.215,67,3,215,ethnicity,Mied White And Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,215,ethnicity
+67.9.215,67,9,215,totalnumberofstopandsearchcarriedoutinthisyearinth,"0,029","10,029",RANDOM_TYPO,UK_CSV0000000000026508,215,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.215,67,10,215,populationbyethnicity,",736","2,736",RANDOM_TYPO,UK_CSV0000000000026508,215,populationbyethnicity
+67.5.216,67,5,216,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,216,legislationtype
+67.7.216,67,7,216,geographytype,Police Fofrce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,216,geographytype
+67.0.217,67,0,217,measure,Number of stops and scearches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,217,measure
+67.4.217,67,4,217,ethnicitytype,ONS 201 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,217,ethnicitytype
+67.9.217,67,9,217,totalnumberofstopandsearchcarriedoutinthisyearinth,"4,61q4","4,614",RANDOM_TYPO,UK_CSV0000000000026508,217,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.217,67,11,217,rateper_one_zero_zero_zeropopulationbyethnicity,25o.55,25.55,RANDOM_TYPO,UK_CSV0000000000026508,217,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.218,67,1,218,timevalue,2061/17,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,218,timevalue
+67.2.218,67,2,218,timetype,Financil year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,218,timetype
+67.3.218,67,3,218,ethnicity,Bxlack,Black,RANDOM_TYPO,UK_CSV0000000000026508,218,ethnicity
+67.2.219,67,2,219,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,219,timetype
+67.9.219,67,9,219,totalnumberofstopandsearchcarriedoutinthisyearinth,"a5,835","5,835",RANDOM_TYPO,UK_CSV0000000000026508,219,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.219,67,11,219,rateper_one_zero_zero_zeropopulationbyethnicity,4.39,4.93,RANDOM_TYPO,UK_CSV0000000000026508,219,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.220,67,3,220,ethnicity,Any Other Mixde/Multiple Ethnic Background,Any Other Mixed/Multiple Ethnic Background,RANDOM_TYPO,UK_CSV0000000000026508,220,ethnicity
+67.6.220,67,6,220,geography,Seuffolk,Suffolk,RANDOM_TYPO,UK_CSV0000000000026508,220,geography
+67.1.221,67,1,221,timevalue,208/09,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,221,timevalue
+67.2.221,67,2,221,timetype,Finanlcial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,221,timetype
+67.1.222,67,1,222,timevalue,2080/09,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,222,timevalue
+67.7.222,67,7,222,geographytype,Polic Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,222,geographytype
+67.10.222,67,10,222,populationbyethnicity,"1d,311","1,311",RANDOM_TYPO,UK_CSV0000000000026508,222,populationbyethnicity
+67.0.223,67,0,223,measure,Number of stops and searhces carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,223,measure
+67.6.223,67,6,223,geography,orth Wales,North Wales,RANDOM_TYPO,UK_CSV0000000000026508,223,geography
+67.8.223,67,8,223,numberofstopandsearches,***,8,RANDOM_TYPO,UK_CSV0000000000026508,223,numberofstopandsearches
+67.8.224,67,8,224,numberofstopandsearches,51,151,RANDOM_TYPO,UK_CSV0000000000026508,224,numberofstopandsearches
+67.10.224,67,10,224,populationbyethnicity,"8,952","8,592",RANDOM_TYPO,UK_CSV0000000000026508,224,populationbyethnicity
+67.0.225,67,0,225,measure,Number o fstops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,225,measure
+67.4.225,67,4,225,ethnicitytype,ONS 200 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,225,ethnicitytype
+67.5.225,67,5,225,legislationtype,Alul,All,RANDOM_TYPO,UK_CSV0000000000026508,225,legislationtype
+67.6.225,67,6,225,geography,Norfowlk,Norfolk,RANDOM_TYPO,UK_CSV0000000000026508,225,geography
+67.9.225,67,9,225,totalnumberofstopandsearchcarriedoutinthisyearinth,"3y,682","3,682",RANDOM_TYPO,UK_CSV0000000000026508,225,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.225,67,11,225,rateper_one_zero_zero_zeropopulationbyethnicity,4.b62,4.62,RANDOM_TYPO,UK_CSV0000000000026508,225,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.226,67,1,226,timevalue,2j019/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,226,timevalue
+67.3.226,67,3,226,ethnicity,Mixde,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,226,ethnicity
+67.8.226,67,8,226,numberofstopandsearches,7,47,RANDOM_TYPO,UK_CSV0000000000026508,226,numberofstopandsearches
+67.9.226,67,9,226,totalnumberofstopandsearchcarriedoutinthisyearinth,2220***,2220,RANDOM_TYPO,UK_CSV0000000000026508,226,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.227,67,1,227,timevalue,010/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,227,timevalue
+67.3.227,67,3,227,ethnicity,Wihte,White,RANDOM_TYPO,UK_CSV0000000000026508,227,ethnicity
+67.8.227,67,8,227,numberofstopandsearches,"42w,011","42,011",RANDOM_TYPO,UK_CSV0000000000026508,227,numberofstopandsearches
+67.1.228,67,1,228,timevalue,214/15,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,228,timevalue
+67.4.228,67,4,228,ethnicitytype,ONS 2001 1q6+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,228,ethnicitytype
+67.5.228,67,5,228,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,228,legislationtype
+67.7.228,67,7,228,geographytype,Police ForceA rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,228,geographytype
+67.8.228,67,8,228,numberofstopandsearches,u30,30,RANDOM_TYPO,UK_CSV0000000000026508,228,numberofstopandsearches
+67.3.229,67,3,229,ethnicity,Mixed White nAd Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,229,ethnicity
+67.5.229,67,5,229,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,229,legislationtype
+67.6.229,67,6,229,geography,eicestershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,229,geography
+67.0.230,67,0,230,measure,Number of stops and searches carried out (excluding vehcile only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,230,measure
+67.4.230,67,4,230,ethnicitytype,OgNS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,230,ethnicitytype
+67.6.230,67,6,230,geography,Nottinghamsihre,Nottinghamshire,RANDOM_TYPO,UK_CSV0000000000026508,230,geography
+67.11.230,67,11,230,rateper_one_zero_zero_zeropopulationbyethnicity,d1.87,1.87,RANDOM_TYPO,UK_CSV0000000000026508,230,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.231,67,2,231,timetype,Financial yeaar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,231,timetype
+67.5.231,67,5,231,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,231,legislationtype
+67.6.231,67,6,231,geography,All - excludng BTP,All - excluding BTP,RANDOM_TYPO,UK_CSV0000000000026508,231,geography
+67.7.231,67,7,231,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,231,geographytype
+67.5.232,67,5,232,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,232,legislationtype
+67.2.233,67,2,233,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,233,timetype
+67.4.233,67,4,233,ethnicitytype,NS 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,233,ethnicitytype
+67.7.233,67,7,233,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,233,geographytype
+67.11.233,67,11,233,rateper_one_zero_zero_zeropopulationbyethnicity,w-,-,RANDOM_TYPO,UK_CSV0000000000026508,233,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.235,67,1,235,timevalue,2051/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,235,timevalue
+67.4.235,67,4,235,ethnicitytype,ONS 2001 51,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,235,ethnicitytype
+67.9.235,67,9,235,totalnumberofstopandsearchcarriedoutinthisyearinth,",534","3,534",RANDOM_TYPO,UK_CSV0000000000026508,235,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.9.236,67,9,236,totalnumberofstopandsearchcarriedoutinthisyearinth,"18,c463","18,463",RANDOM_TYPO,UK_CSV0000000000026508,236,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.237,67,0,237,measure,Number of stops and seacrhes carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,237,measure
+67.2.237,67,2,237,timetype,Finanial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,237,timetype
+67.10.237,67,10,237,populationbyethnicity,"4,52b2","4,522",RANDOM_TYPO,UK_CSV0000000000026508,237,populationbyethnicity
+67.6.238,67,6,238,geography,North oYrkshire,North Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,238,geography
+67.7.238,67,7,238,geographytype,Police Force Ara,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,238,geographytype
+67.9.238,67,9,238,totalnumberofstopandsearchcarriedoutinthisyearinth,"4,w214","4,214",RANDOM_TYPO,UK_CSV0000000000026508,238,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.239,67,4,239,ethnicitytype,ON S2011 5+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,239,ethnicitytype
+67.8.239,67,8,239,numberofstopandsearches,150,2150,RANDOM_TYPO,UK_CSV0000000000026508,239,numberofstopandsearches
+67.9.239,67,9,239,totalnumberofstopandsearchcarriedoutinthisyearinth,2529,2592,RANDOM_TYPO,UK_CSV0000000000026508,239,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.240,67,2,240,timetype,Financihal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,240,timetype
+67.0.241,67,0,241,measure,Number of stops and searches carried hout (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,241,measure
+67.3.241,67,3,241,ethnicity,Mied,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,241,ethnicity
+67.2.242,67,2,242,timetype,Finanial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,242,timetype
+67.5.242,67,5,242,legislationtype,Alfl,All,RANDOM_TYPO,UK_CSV0000000000026508,242,legislationtype
+67.0.243,67,0,243,measure,Numbeir of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,243,measure
+67.2.243,67,2,243,timetype,Financzial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,243,timetype
+67.0.244,67,0,244,measure,Number of stops and searches carried out (excluding dvehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,244,measure
+67.2.244,67,2,244,timetype,Financail year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,244,timetype
+67.4.244,67,4,244,ethnicitytype,ONS 2001 161,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,244,ethnicitytype
+67.5.244,67,5,244,legislationtype,bAll,All,RANDOM_TYPO,UK_CSV0000000000026508,244,legislationtype
+67.9.244,67,9,244,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,023","18,023",RANDOM_TYPO,UK_CSV0000000000026508,244,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.245,67,1,245,timevalue,2011/21,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,245,timevalue
+67.5.245,67,5,245,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,245,legislationtype
+67.6.245,67,6,245,geography,Dykfed-Powys,Dyfed-Powys,RANDOM_TYPO,UK_CSV0000000000026508,245,geography
+67.1.246,67,1,246,timevalue,20m11/12,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,246,timevalue
+67.10.246,67,10,246,populationbyethnicity,"164,096","164,069",RANDOM_TYPO,UK_CSV0000000000026508,246,populationbyethnicity
+67.11.246,67,11,246,rateper_one_zero_zero_zeropopulationbyethnicity,33.93,33.39,RANDOM_TYPO,UK_CSV0000000000026508,246,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.247,67,0,247,measure,Number of stops and searches carried out (exclnuding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,247,measure
+67.4.247,67,4,247,ethnicitytype,ONS 201 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,247,ethnicitytype
+67.0.248,67,0,248,measure,Number of stops and searches carried out c(excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,248,measure
+67.9.248,67,9,248,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,12q2","1,122",RANDOM_TYPO,UK_CSV0000000000026508,248,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.248,67,11,248,rateper_one_zero_zero_zeropopulationbyethnicity,p-,-,RANDOM_TYPO,UK_CSV0000000000026508,248,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.249,67,6,249,geography,Notrhumbria,Northumbria,RANDOM_TYPO,UK_CSV0000000000026508,249,geography
+67.1.250,67,1,250,timevalue,017/18,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,250,timevalue
+67.2.250,67,2,250,timetype,Financialq year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,250,timetype
+67.7.250,67,7,250,geographytype,Police Forec Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,250,geographytype
+67.4.251,67,4,251,ethnicitytype,OS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,251,ethnicitytype
+67.5.251,67,5,251,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,251,legislationtype
+67.3.252,67,3,252,ethnicity,Any Other Asian aBckground,Any Other Asian Background,RANDOM_TYPO,UK_CSV0000000000026508,252,ethnicity
+67.4.252,67,4,252,ethnicitytype,NS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,252,ethnicitytype
+67.7.252,67,7,252,geographytype,Ploice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,252,geographytype
+67.1.253,67,1,253,timevalue,20o14/15,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,253,timevalue
+67.2.253,67,2,253,timetype,Financial yeoar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,253,timetype
+67.3.253,67,3,253,ethnicity,ixed White And Asian,Mixed White And Asian,RANDOM_TYPO,UK_CSV0000000000026508,253,ethnicity
+67.10.253,67,10,253,populationbyethnicity,"s341,727","341,727",RANDOM_TYPO,UK_CSV0000000000026508,253,populationbyethnicity
+67.0.254,67,0,254,measure,Number of stops and searches carried out (excluding vehicle only serches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,254,measure
+67.1.255,67,1,255,timevalue,218/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,255,timevalue
+67.3.255,67,3,255,ethnicity,Bangloadeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,255,ethnicity
+67.6.255,67,6,255,geography,sCambridgeshire,Cambridgeshire,RANDOM_TYPO,UK_CSV0000000000026508,255,geography
+67.1.256,67,1,256,timevalue,2007p/08,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,256,timevalue
+67.2.256,67,2,256,timetype,Financail year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,256,timetype
+67.8.256,67,8,256,numberofstopandsearches,84,184,RANDOM_TYPO,UK_CSV0000000000026508,256,numberofstopandsearches
+67.9.256,67,9,256,totalnumberofstopandsearchcarriedoutinthisyearinth,"5,330","25,330",RANDOM_TYPO,UK_CSV0000000000026508,256,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.256,67,11,256,rateper_one_zero_zero_zeropopulationbyethnicity,41.08,14.08,RANDOM_TYPO,UK_CSV0000000000026508,256,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.257,67,5,257,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,257,legislationtype
+67.10.257,67,10,257,populationbyethnicity,"2,877","2,787",RANDOM_TYPO,UK_CSV0000000000026508,257,populationbyethnicity
+67.11.257,67,11,257,rateper_one_zero_zero_zeropopulationbyethnicity,5.y38,5.38,RANDOM_TYPO,UK_CSV0000000000026508,257,rateper_one_zero_zero_zeropopulationbyethnicity
+67.7.258,67,7,258,geographytype,Police Force rAea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,258,geographytype
+67.8.258,67,8,258,numberofstopandsearches,d8,8,RANDOM_TYPO,UK_CSV0000000000026508,258,numberofstopandsearches
+67.2.259,67,2,259,timetype,Financil year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,259,timetype
+67.1.260,67,1,260,timevalue,2013/1h4,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,260,timevalue
+67.2.260,67,2,260,timetype,Financial ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,260,timetype
+67.6.260,67,6,260,geography,WestM ercia,West Mercia,RANDOM_TYPO,UK_CSV0000000000026508,260,geography
+67.7.260,67,7,260,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,260,geographytype
+67.9.260,67,9,260,totalnumberofstopandsearchcarriedoutinthisyearinth,14121,"14,121",RANDOM_TYPO,UK_CSV0000000000026508,260,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.261,67,1,261,timevalue,20060/7,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,261,timevalue
+67.9.261,67,9,261,totalnumberofstopandsearchcarriedoutinthisyearinth,"13,88","13,888",RANDOM_TYPO,UK_CSV0000000000026508,261,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.261,67,11,261,rateper_one_zero_zero_zeropopulationbyethnicity,48e.29,48.29,RANDOM_TYPO,UK_CSV0000000000026508,261,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.263,67,5,263,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,263,legislationtype
+67.3.264,67,3,264,ethnicity,Pakistnai,Pakistani,RANDOM_TYPO,UK_CSV0000000000026508,264,ethnicity
+67.7.264,67,7,264,geographytype,Poice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,264,geographytype
+67.8.264,67,8,264,numberofstopandsearches,2b0,20,RANDOM_TYPO,UK_CSV0000000000026508,264,numberofstopandsearches
+67.0.265,67,0,265,measure,Number of stops and searches carried out e(xcluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,265,measure
+67.5.265,67,5,265,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,265,legislationtype
+67.8.265,67,8,265,numberofstopandsearches,p44,44,RANDOM_TYPO,UK_CSV0000000000026508,265,numberofstopandsearches
+67.10.265,67,10,265,populationbyethnicity,"5,14","5,114",RANDOM_TYPO,UK_CSV0000000000026508,265,populationbyethnicity
+67.6.266,67,6,266,geography,Droset,Dorset,RANDOM_TYPO,UK_CSV0000000000026508,266,geography
+67.11.266,67,11,266,rateper_one_zero_zero_zeropopulationbyethnicity,1z.44,1.44,RANDOM_TYPO,UK_CSV0000000000026508,266,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.267,67,5,267,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,267,legislationtype
+67.10.267,67,10,267,populationbyethnicity,",718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,267,populationbyethnicity
+67.1.268,67,1,268,timevalue,2051/16,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,268,timevalue
+67.6.268,67,6,268,geography,Whest Mercia,West Mercia,RANDOM_TYPO,UK_CSV0000000000026508,268,geography
+67.0.269,67,0,269,measure,Number of stops and searches cadrried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,269,measure
+67.3.269,67,3,269,ethnicity,Blac African,Black African,RANDOM_TYPO,UK_CSV0000000000026508,269,ethnicity
+67.6.270,67,6,270,geography,Staffordshrie,Staffordshire,RANDOM_TYPO,UK_CSV0000000000026508,270,geography
+67.7.270,67,7,270,geographytype,PoliceF orce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,270,geographytype
+67.9.270,67,9,270,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,170","11,170",RANDOM_TYPO,UK_CSV0000000000026508,270,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.271,67,5,271,legislationtype,Afll,All,RANDOM_TYPO,UK_CSV0000000000026508,271,legislationtype
+67.6.271,67,6,271,geography,eLicestershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,271,geography
+67.7.271,67,7,271,geographytype,Poice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,271,geographytype
+67.10.271,67,10,271,populationbyethnicity,868,886,RANDOM_TYPO,UK_CSV0000000000026508,271,populationbyethnicity
+67.6.272,67,6,272,geography,West Yorkshre,West Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,272,geography
+67.10.272,67,10,272,populationbyethnicity,"4,6476","46,476",RANDOM_TYPO,UK_CSV0000000000026508,272,populationbyethnicity
+67.1.273,67,1,273,timevalue,2016a/17,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,273,timevalue
+67.2.273,67,2,273,timetype,Financail year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,273,timetype
+67.9.273,67,9,273,totalnumberofstopandsearchcarriedoutinthisyearinth,",744","4,744",RANDOM_TYPO,UK_CSV0000000000026508,273,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.273,67,11,273,rateper_one_zero_zero_zeropopulationbyethnicity,1.51,15.1,RANDOM_TYPO,UK_CSV0000000000026508,273,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.274,67,0,274,measure,Number of stops and searrches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,274,measure
+67.2.274,67,2,274,timetype,Finacnial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,274,timetype
+67.3.274,67,3,274,ethnicity,Avsian,Asian,RANDOM_TYPO,UK_CSV0000000000026508,274,ethnicity
+67.5.274,67,5,274,legislationtype,Aqll,All,RANDOM_TYPO,UK_CSV0000000000026508,274,legislationtype
+67.5.275,67,5,275,legislationtype,Ajll,All,RANDOM_TYPO,UK_CSV0000000000026508,275,legislationtype
+67.6.275,67,6,275,geography,Camridgeshire,Cambridgeshire,RANDOM_TYPO,UK_CSV0000000000026508,275,geography
+67.8.275,67,8,275,numberofstopandsearches,a488,488,RANDOM_TYPO,UK_CSV0000000000026508,275,numberofstopandsearches
+67.11.275,67,11,275,rateper_one_zero_zero_zeropopulationbyethnicity,3.77,33.77,RANDOM_TYPO,UK_CSV0000000000026508,275,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.276,67,2,276,timetype,Financial eyar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,276,timetype
+67.9.276,67,9,276,totalnumberofstopandsearchcarriedoutinthisyearinth,",310","6,310",RANDOM_TYPO,UK_CSV0000000000026508,276,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.276,67,11,276,rateper_one_zero_zero_zeropopulationbyethnicity,3.65,13.65,RANDOM_TYPO,UK_CSV0000000000026508,276,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.277,67,1,277,timevalue,2012/31,2012/13,RANDOM_TYPO,UK_CSV0000000000026508,277,timevalue
+67.11.277,67,11,277,rateper_one_zero_zero_zeropopulationbyethnicity,77.76,77.67,RANDOM_TYPO,UK_CSV0000000000026508,277,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.278,67,0,278,measure,Number of stops and searches carried out (excluding vehcile only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,278,measure
+67.1.278,67,1,278,timevalue,2020/2k1,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,278,timevalue
+67.2.278,67,2,278,timetype,Financia year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,278,timetype
+67.4.278,67,4,278,ethnicitytype,NS 2011 5+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,278,ethnicitytype
+67.8.278,67,8,278,numberofstopandsearches,c6,6,RANDOM_TYPO,UK_CSV0000000000026508,278,numberofstopandsearches
+67.10.278,67,10,278,populationbyethnicity,425,452,RANDOM_TYPO,UK_CSV0000000000026508,278,populationbyethnicity
+67.6.279,67,6,279,geography,Greater Manchestcer,Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,279,geography
+67.9.279,67,9,279,totalnumberofstopandsearchcarriedoutinthisyearinth,"13,642","13,624",RANDOM_TYPO,UK_CSV0000000000026508,279,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.279,67,11,279,rateper_one_zero_zero_zeropopulationbyethnicity,2.v02,2.02,RANDOM_TYPO,UK_CSV0000000000026508,279,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.280,67,3,280,ethnicity,Black Africna,Black African,RANDOM_TYPO,UK_CSV0000000000026508,280,ethnicity
+67.5.280,67,5,280,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,280,legislationtype
+67.7.280,67,7,280,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,280,geographytype
+67.8.280,67,8,280,numberofstopandsearches,26,126,RANDOM_TYPO,UK_CSV0000000000026508,280,numberofstopandsearches
+67.9.280,67,9,280,totalnumberofstopandsearchcarriedoutinthisyearinth,",200","2,200",RANDOM_TYPO,UK_CSV0000000000026508,280,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.281,67,3,281,ethnicity,hAsian,Asian,RANDOM_TYPO,UK_CSV0000000000026508,281,ethnicity
+67.7.281,67,7,281,geographytype,Police Force Akrea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,281,geographytype
+67.10.281,67,10,281,populationbyethnicity,"192,5n41","192,541",RANDOM_TYPO,UK_CSV0000000000026508,281,populationbyethnicity
+67.0.282,67,0,282,measure,Number of stops and searches carried out (excluding vehicle nly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,282,measure
+67.1.282,67,1,282,timevalue,2x007/08,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,282,timevalue
+67.4.282,67,4,282,ethnicitytype,OSN 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,282,ethnicitytype
+67.0.283,67,0,283,measure,Number of stops and searces carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,283,measure
+67.8.283,67,8,283,numberofstopandsearches,,9,RANDOM_TYPO,UK_CSV0000000000026508,283,numberofstopandsearches
+67.4.284,67,4,284,ethnicitytype,ONS 20011 6+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,284,ethnicitytype
+67.7.284,67,7,284,geographytype,olice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,284,geographytype
+67.8.284,67,8,284,numberofstopandsearches,"18,45","1,845",RANDOM_TYPO,UK_CSV0000000000026508,284,numberofstopandsearches
+67.10.284,67,10,284,populationbyethnicity,"28,936","128,936",RANDOM_TYPO,UK_CSV0000000000026508,284,populationbyethnicity
+67.6.285,67,6,285,geography,Cmabridgeshire,Cambridgeshire,RANDOM_TYPO,UK_CSV0000000000026508,285,geography
+67.7.285,67,7,285,geographytype,Police Fdorce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,285,geographytype
+67.10.285,67,10,285,populationbyethnicity,4052,"4,052",RANDOM_TYPO,UK_CSV0000000000026508,285,populationbyethnicity
+67.11.285,67,11,285,rateper_one_zero_zero_zeropopulationbyethnicity,.16,7.16,RANDOM_TYPO,UK_CSV0000000000026508,285,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.286,67,0,286,measure,Number of stops and searches carried out m(excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,286,measure
+67.3.286,67,3,286,ethnicity,Othezr Inc Chinese,Other Inc Chinese,RANDOM_TYPO,UK_CSV0000000000026508,286,ethnicity
+67.4.286,67,4,286,ethnicitytype,ONS 2001 5n+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,286,ethnicitytype
+67.7.286,67,7,286,geographytype,olice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,286,geographytype
+67.8.286,67,8,286,numberofstopandsearches,6x6,66,RANDOM_TYPO,UK_CSV0000000000026508,286,numberofstopandsearches
+67.1.287,67,1,287,timevalue,202/13,2012/13,RANDOM_TYPO,UK_CSV0000000000026508,287,timevalue
+67.3.287,67,3,287,ethnicity,hite Irish,White Irish,RANDOM_TYPO,UK_CSV0000000000026508,287,ethnicity
+67.8.287,67,8,287,numberofstopandsearches,01,101,RANDOM_TYPO,UK_CSV0000000000026508,287,numberofstopandsearches
+67.11.287,67,11,287,rateper_one_zero_zero_zeropopulationbyethnicity,7t.57,7.57,RANDOM_TYPO,UK_CSV0000000000026508,287,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.288,67,0,288,measure,Number of stops and searches carried out (excluding vehicle noly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,288,measure
+67.1.288,67,1,288,timevalue,20v10/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,288,timevalue
+67.3.288,67,3,288,ethnicity,Unrteported,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,288,ethnicity
+67.9.288,67,9,288,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,1211,23","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,288,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.5.289,67,5,289,legislationtype,Ajll,All,RANDOM_TYPO,UK_CSV0000000000026508,289,legislationtype
+67.11.289,67,11,289,rateper_one_zero_zero_zeropopulationbyethnicity,.58,4.58,RANDOM_TYPO,UK_CSV0000000000026508,289,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.290,67,1,290,timevalue,201/819,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,290,timevalue
+67.6.290,67,6,290,geography,Britihs Transport Police,British Transport Police,RANDOM_TYPO,UK_CSV0000000000026508,290,geography
+67.9.290,67,9,290,totalnumberofstopandsearchcarriedoutinthisyearinth,445,4455,RANDOM_TYPO,UK_CSV0000000000026508,290,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.291,67,2,291,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,291,timetype
+67.9.291,67,9,291,totalnumberofstopandsearchcarriedoutinthisyearinth,5601,5061,RANDOM_TYPO,UK_CSV0000000000026508,291,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.292,67,2,292,timetype,Finncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,292,timetype
+67.7.292,67,7,292,geographytype,Police Force Areza,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,292,geographytype
+67.3.293,67,3,293,ethnicity,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,293,ethnicity
+67.4.293,67,4,293,ethnicitytype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,293,ethnicitytype
+67.9.293,67,9,293,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,186","17,186",RANDOM_TYPO,UK_CSV0000000000026508,293,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.293,67,10,293,populationbyethnicity,"1,097,479","1,097,497",RANDOM_TYPO,UK_CSV0000000000026508,293,populationbyethnicity
+67.11.293,67,11,293,rateper_one_zero_zero_zeropopulationbyethnicity,51.77,15.77,RANDOM_TYPO,UK_CSV0000000000026508,293,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.294,67,5,294,legislationtype,Aill,All,RANDOM_TYPO,UK_CSV0000000000026508,294,legislationtype
+67.11.294,67,11,294,rateper_one_zero_zero_zeropopulationbyethnicity,25u.57,25.57,RANDOM_TYPO,UK_CSV0000000000026508,294,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.295,67,0,295,measure,Number of stops and searches carried out (excluding veihcle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,295,measure
+67.1.295,67,1,295,timevalue,2006i/07,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,295,timevalue
+67.2.295,67,2,295,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,295,timetype
+67.5.295,67,5,295,legislationtype,Alll,All,RANDOM_TYPO,UK_CSV0000000000026508,295,legislationtype
+67.9.295,67,9,295,totalnumberofstopandsearchcarriedoutinthisyearinth,"8,023","18,023",RANDOM_TYPO,UK_CSV0000000000026508,295,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.295,67,10,295,populationbyethnicity,",592","8,592",RANDOM_TYPO,UK_CSV0000000000026508,295,populationbyethnicity
+67.1.296,67,1,296,timevalue,0219/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,296,timevalue
+67.6.296,67,6,296,geography,Devon Cornwall,Devon & Cornwall,RANDOM_TYPO,UK_CSV0000000000026508,296,geography
+67.9.296,67,9,296,totalnumberofstopandsearchcarriedoutinthisyearinth,"1s,121,123","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,296,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.297,67,0,297,measure,Number of stops and searches carried out (excluding vehicle onyl searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,297,measure
+67.2.297,67,2,297,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,297,timetype
+67.1.298,67,1,298,timevalue,201i9/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,298,timevalue
+67.3.298,67,3,298,ethnicity,Mxed White And Asian,Mixed White And Asian,RANDOM_TYPO,UK_CSV0000000000026508,298,ethnicity
+67.8.298,67,8,298,numberofstopandsearches,p10,10,RANDOM_TYPO,UK_CSV0000000000026508,298,numberofstopandsearches
+67.1.299,67,1,299,timevalue,2009/0,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,299,timevalue
+67.5.300,67,5,300,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,300,legislationtype
+67.10.300,67,10,300,populationbyethnicity,"13,76j9","13,769",RANDOM_TYPO,UK_CSV0000000000026508,300,populationbyethnicity
+67.11.300,67,11,300,rateper_one_zero_zero_zeropopulationbyethnicity,4.63,4.36,RANDOM_TYPO,UK_CSV0000000000026508,300,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.301,67,2,301,timetype,Financila year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,301,timetype
+67.8.301,67,8,301,numberofstopandsearches,9,39,RANDOM_TYPO,UK_CSV0000000000026508,301,numberofstopandsearches
+67.5.302,67,5,302,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,302,legislationtype
+67.8.302,67,8,302,numberofstopandsearches,"0,655","10,655",RANDOM_TYPO,UK_CSV0000000000026508,302,numberofstopandsearches
+67.0.303,67,0,303,measure,Number of stops and searches carried out (excluding vehicle only serches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,303,measure
+67.1.303,67,1,303,timevalue,202/13,2012/13,RANDOM_TYPO,UK_CSV0000000000026508,303,timevalue
+67.6.303,67,6,303,geography,Metropolitan fPolice,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,303,geography
+67.7.303,67,7,303,geographytype,Police Focre Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,303,geographytype
+67.9.303,67,9,303,totalnumberofstopandsearchcarriedoutinthisyearinth,"38,973","338,973",RANDOM_TYPO,UK_CSV0000000000026508,303,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.7.304,67,7,304,geographytype,Police Forc Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,304,geographytype
+67.1.305,67,1,305,timevalue,2018/9,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,305,timevalue
+67.8.305,67,8,305,numberofstopandsearches,g26,26,RANDOM_TYPO,UK_CSV0000000000026508,305,numberofstopandsearches
+67.9.305,67,9,305,totalnumberofstopandsearchcarriedoutinthisyearinth,3820,3280,RANDOM_TYPO,UK_CSV0000000000026508,305,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.6.306,67,6,306,geography,Metriopolitan Police,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,306,geography
+67.8.306,67,8,306,numberofstopandsearches,x740,740,RANDOM_TYPO,UK_CSV0000000000026508,306,numberofstopandsearches
+67.9.306,67,9,306,totalnumberofstopandsearchcarriedoutinthisyearinth,149952,149592,RANDOM_TYPO,UK_CSV0000000000026508,306,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.306,67,11,306,rateper_one_zero_zero_zeropopulationbyethnicity,11.1,11.31,RANDOM_TYPO,UK_CSV0000000000026508,306,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.307,67,2,307,timetype,Finacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,307,timetype
+67.5.307,67,5,307,legislationtype,Arll,All,RANDOM_TYPO,UK_CSV0000000000026508,307,legislationtype
+67.7.307,67,7,307,geographytype,Police Force rAea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,307,geographytype
+67.9.307,67,9,307,totalnumberofstopandsearchcarriedoutinthisyearinth,",004","2,004",RANDOM_TYPO,UK_CSV0000000000026508,307,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.308,67,4,308,ethnicitytype,ONS 200 116+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,308,ethnicitytype
+67.0.309,67,0,309,measure,umber of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,309,measure
+67.8.309,67,8,309,numberofstopandsearches,***,7,RANDOM_TYPO,UK_CSV0000000000026508,309,numberofstopandsearches
+67.11.309,67,11,309,rateper_one_zero_zero_zeropopulationbyethnicity,.84,1.84,RANDOM_TYPO,UK_CSV0000000000026508,309,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.310,67,4,310,ethnicitytype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,310,ethnicitytype
+67.6.310,67,6,310,geography,Mtropolitan Police,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,310,geography
+67.11.310,67,11,310,rateper_one_zero_zero_zeropopulationbyethnicity,61.66,16.66,RANDOM_TYPO,UK_CSV0000000000026508,310,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.311,67,5,311,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,311,legislationtype
+67.7.311,67,7,311,geographytype,Police Focre Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,311,geographytype
+67.8.311,67,8,311,numberofstopandsearches,99,599,RANDOM_TYPO,UK_CSV0000000000026508,311,numberofstopandsearches
+67.3.312,67,3,312,ethnicity,Indin,Indian,RANDOM_TYPO,UK_CSV0000000000026508,312,ethnicity
+67.6.313,67,6,313,geography,"Lodon, City of","London, City of",RANDOM_TYPO,UK_CSV0000000000026508,313,geography
+67.11.313,67,11,313,rateper_one_zero_zero_zeropopulationbyethnicity,,-,RANDOM_TYPO,UK_CSV0000000000026508,313,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.314,67,1,314,timevalue,008/09,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,314,timevalue
+67.8.314,67,8,314,numberofstopandsearches,6,16,RANDOM_TYPO,UK_CSV0000000000026508,314,numberofstopandsearches
+67.0.315,67,0,315,measure,Number of stops and searches carried out (excluding vehicle only searchaes),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,315,measure
+67.9.315,67,9,315,totalnumberofstopandsearchcarriedoutinthisyearinth,26h3806,263806,RANDOM_TYPO,UK_CSV0000000000026508,315,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.315,67,11,315,rateper_one_zero_zero_zeropopulationbyethnicity,3.044,30.44,RANDOM_TYPO,UK_CSV0000000000026508,315,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.316,67,0,316,measure,uNmber of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,316,measure
+67.3.316,67,3,316,ethnicity,ixed White And Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,316,ethnicity
+67.5.316,67,5,316,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,316,legislationtype
+67.10.316,67,10,316,populationbyethnicity,",247","1,247",RANDOM_TYPO,UK_CSV0000000000026508,316,populationbyethnicity
+67.3.317,67,3,317,ethnicity,Unrepotred,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,317,ethnicity
+67.6.317,67,6,317,geography,Northaptonshire,Northamptonshire,RANDOM_TYPO,UK_CSV0000000000026508,317,geography
+67.1.318,67,1,318,timevalue,2007/8,2007/08,RANDOM_TYPO,UK_CSV0000000000026508,318,timevalue
+67.5.318,67,5,318,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,318,legislationtype
+67.6.318,67,6,318,geography,Thames Vally,Thames Valley,RANDOM_TYPO,UK_CSV0000000000026508,318,geography
+67.7.318,67,7,318,geographytype,Polic Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,318,geographytype
+67.8.318,67,8,318,numberofstopandsearches,"27,80","27,860",RANDOM_TYPO,UK_CSV0000000000026508,318,numberofstopandsearches
+67.10.318,67,10,318,populationbyethnicity,"2,269,72","2,269,772",RANDOM_TYPO,UK_CSV0000000000026508,318,populationbyethnicity
+67.11.318,67,11,318,rateper_one_zero_zero_zeropopulationbyethnicity,12.2i7,12.27,RANDOM_TYPO,UK_CSV0000000000026508,318,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.319,67,5,319,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,319,legislationtype
+67.8.319,67,8,319,numberofstopandsearches,2x6,26,RANDOM_TYPO,UK_CSV0000000000026508,319,numberofstopandsearches
+67.5.320,67,5,320,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,320,legislationtype
+67.7.320,67,7,320,geographytype,Police Force rea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,320,geographytype
+67.9.320,67,9,320,totalnumberofstopandsearchcarriedoutinthisyearinth,"3,325","3,235",RANDOM_TYPO,UK_CSV0000000000026508,320,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.6.321,67,6,321,geography,Avon & Somerste,Avon & Somerset,RANDOM_TYPO,UK_CSV0000000000026508,321,geography
+67.0.322,67,0,322,measure,Number of stops and searches caried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,322,measure
+67.1.322,67,1,322,timevalue,2w011/12,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,322,timevalue
+67.3.322,67,3,322,ethnicity,Anyw Other Black Background,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,322,ethnicity
+67.3.324,67,3,324,ethnicity,Pakisani,Pakistani,RANDOM_TYPO,UK_CSV0000000000026508,324,ethnicity
+67.6.324,67,6,324,geography,Thames Vlley,Thames Valley,RANDOM_TYPO,UK_CSV0000000000026508,324,geography
+67.8.324,67,8,324,numberofstopandsearches,1604,1640,RANDOM_TYPO,UK_CSV0000000000026508,324,numberofstopandsearches
+67.6.325,67,6,325,geography,Metropolitan Poliec,Metropolitan Police,RANDOM_TYPO,UK_CSV0000000000026508,325,geography
+67.10.325,67,10,325,populationbyethnicity,"4,881,663","4,881,636",RANDOM_TYPO,UK_CSV0000000000026508,325,populationbyethnicity
+67.0.326,67,0,326,measure,Number of stops and searches carried out (excluding vehicle onlysearches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,326,measure
+67.5.326,67,5,326,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,326,legislationtype
+67.8.326,67,8,326,numberofstopandsearches,",224","1,224",RANDOM_TYPO,UK_CSV0000000000026508,326,numberofstopandsearches
+67.9.326,67,9,326,totalnumberofstopandsearchcarriedoutinthisyearinth,"26,861","26,816",RANDOM_TYPO,UK_CSV0000000000026508,326,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.4.327,67,4,327,ethnicitytype,Alnl,All,RANDOM_TYPO,UK_CSV0000000000026508,327,ethnicitytype
+67.5.327,67,5,327,legislationtype,sAll,All,RANDOM_TYPO,UK_CSV0000000000026508,327,legislationtype
+67.7.327,67,7,327,geographytype,Poleice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,327,geographytype
+67.9.327,67,9,327,totalnumberofstopandsearchcarriedoutinthisyearinth,",1573","1,573",RANDOM_TYPO,UK_CSV0000000000026508,327,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.327,67,11,327,rateper_one_zero_zero_zeropopulationbyethnicity,w1.67,1.67,RANDOM_TYPO,UK_CSV0000000000026508,327,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.328,67,3,328,ethnicity,Mixed White And Blcak African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,328,ethnicity
+67.9.328,67,9,328,totalnumberofstopandsearchcarriedoutinthisyearinth,"148,76","14,876",RANDOM_TYPO,UK_CSV0000000000026508,328,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.329,67,0,329,measure,Number o stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,329,measure
+67.3.329,67,3,329,ethnicity,gBangladeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,329,ethnicity
+67.8.329,67,8,329,numberofstopandsearches,11h7,117,RANDOM_TYPO,UK_CSV0000000000026508,329,numberofstopandsearches
+67.10.329,67,10,329,populationbyethnicity,"c7,787","7,787",RANDOM_TYPO,UK_CSV0000000000026508,329,populationbyethnicity
+67.1.330,67,1,330,timevalue,2041/15,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,330,timevalue
+67.10.330,67,10,330,populationbyethnicity,",1718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,330,populationbyethnicity
+67.0.331,67,0,331,measure,Number of stops and searchesz carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,331,measure
+67.1.331,67,1,331,timevalue,2109/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,331,timevalue
+67.4.331,67,4,331,ethnicitytype,OSN 2011 18+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,331,ethnicitytype
+67.6.331,67,6,331,geography,Leiecstershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,331,geography
+67.6.332,67,6,332,geography,Leicetsershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,332,geography
+67.1.333,67,1,333,timevalue,201v4/15,2014/15,RANDOM_TYPO,UK_CSV0000000000026508,333,timevalue
+67.6.333,67,6,333,geography,Linolnshire,Lincolnshire,RANDOM_TYPO,UK_CSV0000000000026508,333,geography
+67.7.333,67,7,333,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,333,geographytype
+67.0.334,67,0,334,measure,Number of stops and searches carried out (excluding vehicle noly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,334,measure
+67.2.334,67,2,334,timetype,Finacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,334,timetype
+67.5.334,67,5,334,legislationtype,Ajll,All,RANDOM_TYPO,UK_CSV0000000000026508,334,legislationtype
+67.9.334,67,9,334,totalnumberofstopandsearchcarriedoutinthisyearinth,",7365","7,365",RANDOM_TYPO,UK_CSV0000000000026508,334,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.6.335,67,6,335,geography,Gwetn,Gwent,RANDOM_TYPO,UK_CSV0000000000026508,335,geography
+67.7.335,67,7,335,geographytype,Police Focre Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,335,geographytype
+67.10.335,67,10,335,populationbyethnicity,"1,083","1,803",RANDOM_TYPO,UK_CSV0000000000026508,335,populationbyethnicity
+67.11.335,67,11,335,rateper_one_zero_zero_zeropopulationbyethnicity,f3.33,3.33,RANDOM_TYPO,UK_CSV0000000000026508,335,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.336,67,3,336,ethnicity,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,336,ethnicity
+67.4.336,67,4,336,ethnicitytype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,336,ethnicitytype
+67.7.336,67,7,336,geographytype,Polce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,336,geographytype
+67.1.337,67,1,337,timevalue,2015/61,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,337,timevalue
+67.2.337,67,2,337,timetype,Finanbcial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,337,timetype
+67.0.338,67,0,338,measure,Njumber of stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,338,measure
+67.5.338,67,5,338,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,338,legislationtype
+67.7.338,67,7,338,geographytype,Police Force Arfea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,338,geographytype
+67.8.338,67,8,338,numberofstopandsearches,33***,33,RANDOM_TYPO,UK_CSV0000000000026508,338,numberofstopandsearches
+67.10.338,67,10,338,populationbyethnicity,34499,"34,499",RANDOM_TYPO,UK_CSV0000000000026508,338,populationbyethnicity
+67.11.338,67,11,338,rateper_one_zero_zero_zeropopulationbyethnicity,0.69,0.96,RANDOM_TYPO,UK_CSV0000000000026508,338,rateper_one_zero_zero_zeropopulationbyethnicity
+67.7.340,67,7,340,geographytype,Polce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,340,geographytype
+67.9.340,67,9,340,totalnumberofstopandsearchcarriedoutinthisyearinth,"7,55","7,055",RANDOM_TYPO,UK_CSV0000000000026508,340,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.340,67,10,340,populationbyethnicity,"2,717","2,771",RANDOM_TYPO,UK_CSV0000000000026508,340,populationbyethnicity
+67.11.340,67,11,340,rateper_one_zero_zero_zeropopulationbyethnicity,9.83,9.38,RANDOM_TYPO,UK_CSV0000000000026508,340,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.341,67,0,341,measure,Number of stops and searches carried ut (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,341,measure
+67.10.341,67,10,341,populationbyethnicity,"34,20m1","34,201",RANDOM_TYPO,UK_CSV0000000000026508,341,populationbyethnicity
+67.11.341,67,11,341,rateper_one_zero_zero_zeropopulationbyethnicity,.24,9.24,RANDOM_TYPO,UK_CSV0000000000026508,341,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.342,67,5,342,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,342,legislationtype
+67.6.342,67,6,342,geography,Domrset,Dorset,RANDOM_TYPO,UK_CSV0000000000026508,342,geography
+67.4.343,67,4,343,ethnicitytype,ONS2 001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,343,ethnicitytype
+67.6.343,67,6,343,geography,Linolnshire,Lincolnshire,RANDOM_TYPO,UK_CSV0000000000026508,343,geography
+67.7.343,67,7,343,geographytype,Policte Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,343,geographytype
+67.6.345,67,6,345,geography,Cambrigdeshire,Cambridgeshire,RANDOM_TYPO,UK_CSV0000000000026508,345,geography
+67.8.345,67,8,345,numberofstopandsearches,***,4,RANDOM_TYPO,UK_CSV0000000000026508,345,numberofstopandsearches
+67.7.346,67,7,346,geographytype,Police ForceArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,346,geographytype
+67.2.347,67,2,347,timetype,Financialy year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,347,timetype
+67.7.347,67,7,347,geographytype,Police Froce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,347,geographytype
+67.9.347,67,9,347,totalnumberofstopandsearchcarriedoutinthisyearinth,"14,37","14,537",RANDOM_TYPO,UK_CSV0000000000026508,347,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.347,67,10,347,populationbyethnicity,"4,40","4,450",RANDOM_TYPO,UK_CSV0000000000026508,347,populationbyethnicity
+67.11.347,67,11,347,rateper_one_zero_zero_zeropopulationbyethnicity,3.e82,3.82,RANDOM_TYPO,UK_CSV0000000000026508,347,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.348,67,3,348,ethnicity,Black Afrian,Black African,RANDOM_TYPO,UK_CSV0000000000026508,348,ethnicity
+67.6.348,67,6,348,geography,"Londonk, City of","London, City of",RANDOM_TYPO,UK_CSV0000000000026508,348,geography
+67.7.348,67,7,348,geographytype,Police Focre Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,348,geographytype
+67.9.348,67,9,348,totalnumberofstopandsearchcarriedoutinthisyearinth,"2,65","2,645",RANDOM_TYPO,UK_CSV0000000000026508,348,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.349,67,0,349,measure,Number of stops and searches carried out (excluding vehicle nly searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,349,measure
+67.2.349,67,2,349,timetype,Financal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,349,timetype
+67.7.349,67,7,349,geographytype,Polic eForce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,349,geographytype
+67.1.350,67,1,350,timevalue,201/11,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,350,timevalue
+67.2.350,67,2,350,timetype,oFinancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,350,timetype
+67.3.350,67,3,350,ethnicity,WhiteBritish,White British,RANDOM_TYPO,UK_CSV0000000000026508,350,ethnicity
+67.6.350,67,6,350,geography,bWest Midlands,West Midlands,RANDOM_TYPO,UK_CSV0000000000026508,350,geography
+67.8.350,67,8,350,numberofstopandsearches,"96,99","9,699",RANDOM_TYPO,UK_CSV0000000000026508,350,numberofstopandsearches
+67.4.351,67,4,351,ethnicitytype,ONS 200k1 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,351,ethnicitytype
+67.8.351,67,8,351,numberofstopandsearches,a8,8,RANDOM_TYPO,UK_CSV0000000000026508,351,numberofstopandsearches
+67.6.352,67,6,352,geography,Greater Mancherster,Greater Manchester,RANDOM_TYPO,UK_CSV0000000000026508,352,geography
+67.9.353,67,9,353,totalnumberofstopandsearchcarriedoutinthisyearinth,1876,1867,RANDOM_TYPO,UK_CSV0000000000026508,353,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.354,67,2,354,timetype,Financial ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,354,timetype
+67.3.354,67,3,354,ethnicity,ny Other Black Background,Any Other Black Background,RANDOM_TYPO,UK_CSV0000000000026508,354,ethnicity
+67.8.354,67,8,354,numberofstopandsearches,9,19,RANDOM_TYPO,UK_CSV0000000000026508,354,numberofstopandsearches
+67.2.355,67,2,355,timetype,Finacnial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,355,timetype
+67.9.355,67,9,355,totalnumberofstopandsearchcarriedoutinthisyearinth,49592,149592,RANDOM_TYPO,UK_CSV0000000000026508,355,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.355,67,10,355,populationbyethnicity,101d389,101389,RANDOM_TYPO,UK_CSV0000000000026508,355,populationbyethnicity
+67.2.356,67,2,356,timetype,Financail year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,356,timetype
+67.5.356,67,5,356,legislationtype,Aell,All,RANDOM_TYPO,UK_CSV0000000000026508,356,legislationtype
+67.8.356,67,8,356,numberofstopandsearches,27,247,RANDOM_TYPO,UK_CSV0000000000026508,356,numberofstopandsearches
+67.9.357,67,9,357,totalnumberofstopandsearchcarriedoutinthisyearinth,"2,64f5","2,645",RANDOM_TYPO,UK_CSV0000000000026508,357,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.357,67,10,357,populationbyethnicity,"1,781","1,718",RANDOM_TYPO,UK_CSV0000000000026508,357,populationbyethnicity
+67.1.358,67,1,358,timevalue,20151/6,2015/16,RANDOM_TYPO,UK_CSV0000000000026508,358,timevalue
+67.3.358,67,3,358,ethnicity,Wihte Irish,White Irish,RANDOM_TYPO,UK_CSV0000000000026508,358,ethnicity
+67.6.358,67,6,358,geography,Durhma,Durham,RANDOM_TYPO,UK_CSV0000000000026508,358,geography
+67.0.359,67,0,359,measure,Number of stops and searches carried out (exluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,359,measure
+67.3.359,67,3,359,ethnicity,Mied,Mixed,RANDOM_TYPO,UK_CSV0000000000026508,359,ethnicity
+67.5.359,67,5,359,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,359,legislationtype
+67.3.360,67,3,360,ethnicity,Mixed Whitef And Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,360,ethnicity
+67.4.360,67,4,360,ethnicitytype,ONS 001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,360,ethnicitytype
+67.5.360,67,5,360,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,360,legislationtype
+67.9.360,67,9,360,totalnumberofstopandsearchcarriedoutinthisyearinth,"3,692","3,629",RANDOM_TYPO,UK_CSV0000000000026508,360,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.361,67,1,361,timevalue,2016/71,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,361,timevalue
+67.7.361,67,7,361,geographytype,Police Force Ara,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,361,geographytype
+67.11.361,67,11,361,rateper_one_zero_zero_zeropopulationbyethnicity,32,3.2,RANDOM_TYPO,UK_CSV0000000000026508,361,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.362,67,0,362,measure,Number of stops and searches carried out (excluding vehicle only seatrches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,362,measure
+67.6.362,67,6,362,geography,erbyshire,Derbyshire,RANDOM_TYPO,UK_CSV0000000000026508,362,geography
+67.9.362,67,9,362,totalnumberofstopandsearchcarriedoutinthisyearinth,"1v,724","1,724",RANDOM_TYPO,UK_CSV0000000000026508,362,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.363,67,1,363,timevalue,2013/4,2013/14,RANDOM_TYPO,UK_CSV0000000000026508,363,timevalue
+67.4.363,67,4,363,ethnicitytype,NS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,363,ethnicitytype
+67.8.363,67,8,363,numberofstopandsearches,z26,26,RANDOM_TYPO,UK_CSV0000000000026508,363,numberofstopandsearches
+67.10.363,67,10,363,populationbyethnicity,",976","8,976",RANDOM_TYPO,UK_CSV0000000000026508,363,populationbyethnicity
+67.11.364,67,11,364,rateper_one_zero_zero_zeropopulationbyethnicity,3.093,30.93,RANDOM_TYPO,UK_CSV0000000000026508,364,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.365,67,2,365,timetype,Financial ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,365,timetype
+67.4.365,67,4,365,ethnicitytype,ONS 201 15+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,365,ethnicitytype
+67.5.365,67,5,365,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,365,legislationtype
+67.7.365,67,7,365,geographytype,Police Foarce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,365,geographytype
+67.4.366,67,4,366,ethnicitytype,iONS 2011 5+1,ONS 2011 5+1,RANDOM_TYPO,UK_CSV0000000000026508,366,ethnicitytype
+67.6.366,67,6,366,geography,Devon & Cornall,Devon & Cornwall,RANDOM_TYPO,UK_CSV0000000000026508,366,geography
+67.9.366,67,9,366,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,121,213","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,366,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.366,67,10,366,populationbyethnicity,"1,781","1,718",RANDOM_TYPO,UK_CSV0000000000026508,366,populationbyethnicity
+67.0.367,67,0,367,measure,Number of stops and searches carried out (excluding vehicle only wsearches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,367,measure
+67.1.367,67,1,367,timevalue,2200/21,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,367,timevalue
+67.2.367,67,2,367,timetype,Financial uyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,367,timetype
+67.4.367,67,4,367,ethnicitytype,ONS 2011 181+,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,367,ethnicitytype
+67.5.367,67,5,367,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,367,legislationtype
+67.6.367,67,6,367,geography,iEssex,Essex,RANDOM_TYPO,UK_CSV0000000000026508,367,geography
+67.8.367,67,8,367,numberofstopandsearches,34,134,RANDOM_TYPO,UK_CSV0000000000026508,367,numberofstopandsearches
+67.10.367,67,10,367,populationbyethnicity,055,5055,RANDOM_TYPO,UK_CSV0000000000026508,367,populationbyethnicity
+67.2.368,67,2,368,timetype,Financialyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,368,timetype
+67.8.368,67,8,368,numberofstopandsearches,***,6,RANDOM_TYPO,UK_CSV0000000000026508,368,numberofstopandsearches
+67.6.369,67,6,369,geography,urham,Durham,RANDOM_TYPO,UK_CSV0000000000026508,369,geography
+67.3.370,67,3,370,ethnicity,Othre Inc Chinese,Other Inc Chinese,RANDOM_TYPO,UK_CSV0000000000026508,370,ethnicity
+67.0.371,67,0,371,measure,Number f stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,371,measure
+67.4.371,67,4,371,ethnicitytype,OuNS 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,371,ethnicitytype
+67.6.371,67,6,371,geography,Merseysjide,Merseyside,RANDOM_TYPO,UK_CSV0000000000026508,371,geography
+67.9.371,67,9,371,totalnumberofstopandsearchcarriedoutinthisyearinth,"35,d855","35,855",RANDOM_TYPO,UK_CSV0000000000026508,371,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.371,67,10,371,populationbyethnicity,"1,529","21,529",RANDOM_TYPO,UK_CSV0000000000026508,371,populationbyethnicity
+67.11.371,67,11,371,rateper_one_zero_zero_zeropopulationbyethnicity,1i5.65,15.65,RANDOM_TYPO,UK_CSV0000000000026508,371,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.372,67,0,372,measure,Number of stops and searches carried out (excluding vehicle only searchesh),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,372,measure
+67.1.372,67,1,372,timevalue,017/18,2017/18,RANDOM_TYPO,UK_CSV0000000000026508,372,timevalue
+67.6.372,67,6,372,geography,Halmpshire,Hampshire,RANDOM_TYPO,UK_CSV0000000000026508,372,geography
+67.10.372,67,10,372,populationbyethnicity,"20,191","20,911",RANDOM_TYPO,UK_CSV0000000000026508,372,populationbyethnicity
+67.0.373,67,0,373,measure,Number of stops and searches carried out (excqluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,373,measure
+67.1.373,67,1,373,timevalue,202/13,2012/13,RANDOM_TYPO,UK_CSV0000000000026508,373,timevalue
+67.2.373,67,2,373,timetype,Financialy ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,373,timetype
+67.4.373,67,4,373,ethnicitytype,NOS 2001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,373,ethnicitytype
+67.5.373,67,5,373,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,373,legislationtype
+67.7.373,67,7,373,geographytype,Polibce Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,373,geographytype
+67.8.373,67,8,373,numberofstopandsearches,",6673","6,673",RANDOM_TYPO,UK_CSV0000000000026508,373,numberofstopandsearches
+67.11.373,67,11,373,rateper_one_zero_zero_zeropopulationbyethnicity,,-,RANDOM_TYPO,UK_CSV0000000000026508,373,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.374,67,2,374,timetype,Finanical year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,374,timetype
+67.6.374,67,6,374,geography,uffolk,Suffolk,RANDOM_TYPO,UK_CSV0000000000026508,374,geography
+67.9.374,67,9,374,totalnumberofstopandsearchcarriedoutinthisyearinth,"3,536","3,356",RANDOM_TYPO,UK_CSV0000000000026508,374,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.374,67,11,374,rateper_one_zero_zero_zeropopulationbyethnicity,4.93,4.39,RANDOM_TYPO,UK_CSV0000000000026508,374,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.375,67,3,375,ethnicity,akistani,Pakistani,RANDOM_TYPO,UK_CSV0000000000026508,375,ethnicity
+67.6.375,67,6,375,geography,Derbysihre,Derbyshire,RANDOM_TYPO,UK_CSV0000000000026508,375,geography
+67.7.375,67,7,375,geographytype,Poice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,375,geographytype
+67.9.375,67,9,375,totalnumberofstopandsearchcarriedoutinthisyearinth,14875,"14,875",RANDOM_TYPO,UK_CSV0000000000026508,375,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.375,67,10,375,populationbyethnicity,15599,"15,599",RANDOM_TYPO,UK_CSV0000000000026508,375,populationbyethnicity
+67.11.375,67,11,375,rateper_one_zero_zero_zeropopulationbyethnicity,314.8,31.48,RANDOM_TYPO,UK_CSV0000000000026508,375,rateper_one_zero_zero_zeropopulationbyethnicity
+67.9.376,67,9,376,totalnumberofstopandsearchcarriedoutinthisyearinth,2546,2564,RANDOM_TYPO,UK_CSV0000000000026508,376,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.377,67,2,377,timetype,Finanial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,377,timetype
+67.7.377,67,7,377,geographytype,Police Forxce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,377,geographytype
+67.2.378,67,2,378,timetype,Finasncial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,378,timetype
+67.4.378,67,4,378,ethnicitytype,ONS2 001 5+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,378,ethnicitytype
+67.8.378,67,8,378,numberofstopandsearches,63,363,RANDOM_TYPO,UK_CSV0000000000026508,378,numberofstopandsearches
+67.2.379,67,2,379,timetype,Financial yyear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,379,timetype
+67.9.379,67,9,379,totalnumberofstopandsearchcarriedoutinthisyearinth,"z1,121,123","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,379,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.8.380,67,8,380,numberofstopandsearches,"9,140","19,140",RANDOM_TYPO,UK_CSV0000000000026508,380,numberofstopandsearches
+67.11.380,67,11,380,rateper_one_zero_zero_zeropopulationbyethnicity,17.44***,17.44,RANDOM_TYPO,UK_CSV0000000000026508,380,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.381,67,6,381,geography,Herqtfordshire,Hertfordshire,RANDOM_TYPO,UK_CSV0000000000026508,381,geography
+67.8.381,67,8,381,numberofstopandsearches,"1l,782","1,782",RANDOM_TYPO,UK_CSV0000000000026508,381,numberofstopandsearches
+67.0.382,67,0,382,measure,Number of stops and searches carried uot (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,382,measure
+67.1.382,67,1,382,timevalue,2060/07,2006/07,RANDOM_TYPO,UK_CSV0000000000026508,382,timevalue
+67.2.382,67,2,382,timetype,Financial yer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,382,timetype
+67.7.382,67,7,382,geographytype,Police Forec Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,382,geographytype
+67.7.383,67,7,383,geographytype,Police Force Ara,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,383,geographytype
+67.9.383,67,9,383,totalnumberofstopandsearchcarriedoutinthisyearinth,b2564,2564,RANDOM_TYPO,UK_CSV0000000000026508,383,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.383,67,11,383,rateper_one_zero_zero_zeropopulationbyethnicity,1.03,10.03,RANDOM_TYPO,UK_CSV0000000000026508,383,rateper_one_zero_zero_zeropopulationbyethnicity
+67.6.384,67,6,384,geography,orthumbria,Northumbria,RANDOM_TYPO,UK_CSV0000000000026508,384,geography
+67.11.384,67,11,384,rateper_one_zero_zero_zeropopulationbyethnicity,.77,3.77,RANDOM_TYPO,UK_CSV0000000000026508,384,rateper_one_zero_zero_zeropopulationbyethnicity
+67.3.385,67,3,385,ethnicity,hite,White,RANDOM_TYPO,UK_CSV0000000000026508,385,ethnicity
+67.5.385,67,5,385,legislationtype,lAl,All,RANDOM_TYPO,UK_CSV0000000000026508,385,legislationtype
+67.6.385,67,6,385,geography,Northumbrai,Northumbria,RANDOM_TYPO,UK_CSV0000000000026508,385,geography
+67.9.385,67,9,385,totalnumberofstopandsearchcarriedoutinthisyearinth,"2,k857","2,857",RANDOM_TYPO,UK_CSV0000000000026508,385,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.386,67,0,386,measure,Number of stops an searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,386,measure
+67.1.386,67,1,386,timevalue,2200/21,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,386,timevalue
+67.2.386,67,2,386,timetype,Fsinancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,386,timetype
+67.8.386,67,8,386,numberofstopandsearches,74,47,RANDOM_TYPO,UK_CSV0000000000026508,386,numberofstopandsearches
+67.4.387,67,4,387,ethnicitytype,ONS 200 15+1,ONS 2001 5+1,RANDOM_TYPO,UK_CSV0000000000026508,387,ethnicitytype
+67.9.387,67,9,387,totalnumberofstopandsearchcarriedoutinthisyearinth,2178,1278,RANDOM_TYPO,UK_CSV0000000000026508,387,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.2.388,67,2,388,timetype,qFinancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,388,timetype
+67.4.388,67,4,388,ethnicitytype,ONS 001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,388,ethnicitytype
+67.7.388,67,7,388,geographytype,Police Force Adrea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,388,geographytype
+67.3.389,67,3,389,ethnicity,sian,Asian,RANDOM_TYPO,UK_CSV0000000000026508,389,ethnicity
+67.5.389,67,5,389,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,389,legislationtype
+67.9.389,67,9,389,totalnumberofstopandsearchcarriedoutinthisyearinth,"5,275","5,725",RANDOM_TYPO,UK_CSV0000000000026508,389,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.7.390,67,7,390,geographytype,Police Foce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,390,geographytype
+67.2.391,67,2,391,timetype,Financialy ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,391,timetype
+67.3.391,67,3,391,ethnicity,White Britsih,White British,RANDOM_TYPO,UK_CSV0000000000026508,391,ethnicity
+67.4.391,67,4,391,ethnicitytype,ONS 2001 r16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,391,ethnicitytype
+67.5.391,67,5,391,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,391,legislationtype
+67.6.391,67,6,391,geography,Cambriudgeshire,Cambridgeshire,RANDOM_TYPO,UK_CSV0000000000026508,391,geography
+67.2.392,67,2,392,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,392,timetype
+67.9.392,67,9,392,totalnumberofstopandsearchcarriedoutinthisyearinth,",8453","8,453",RANDOM_TYPO,UK_CSV0000000000026508,392,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.3.393,67,3,393,ethnicity,Chnese,Chinese,RANDOM_TYPO,UK_CSV0000000000026508,393,ethnicity
+67.6.393,67,6,393,geography,Lfeicestershire,Leicestershire,RANDOM_TYPO,UK_CSV0000000000026508,393,geography
+67.9.393,67,9,393,totalnumberofstopandsearchcarriedoutinthisyearinth,"23,34u9","23,349",RANDOM_TYPO,UK_CSV0000000000026508,393,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.394,67,0,394,measure,Number of stops and searches cargried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,394,measure
+67.6.394,67,6,394,geography,"Londo,n City of","London, City of",RANDOM_TYPO,UK_CSV0000000000026508,394,geography
+67.7.394,67,7,394,geographytype,Police Force sArea,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,394,geographytype
+67.1.395,67,1,395,timevalue,2018/1p9,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,395,timevalue
+67.5.395,67,5,395,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,395,legislationtype
+67.8.396,67,8,396,numberofstopandsearches,2u3,23,RANDOM_TYPO,UK_CSV0000000000026508,396,numberofstopandsearches
+67.10.396,67,10,396,populationbyethnicity,"1,21n9","1,219",RANDOM_TYPO,UK_CSV0000000000026508,396,populationbyethnicity
+67.0.397,67,0,397,measure,Number of stops and searches carriedn out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,397,measure
+67.2.397,67,2,397,timetype,Financiaal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,397,timetype
+67.6.397,67,6,397,geography,Deyfed-Powys,Dyfed-Powys,RANDOM_TYPO,UK_CSV0000000000026508,397,geography
+67.0.398,67,0,398,measure,Number of stops and searches carried out (excludnig vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,398,measure
+67.2.398,67,2,398,timetype,Financwial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,398,timetype
+67.6.398,67,6,398,geography,South Wals,South Wales,RANDOM_TYPO,UK_CSV0000000000026508,398,geography
+67.7.398,67,7,398,geographytype,Poloice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,398,geographytype
+67.9.398,67,9,398,totalnumberofstopandsearchcarriedoutinthisyearinth,"4u,851","4,851",RANDOM_TYPO,UK_CSV0000000000026508,398,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.10.398,67,10,398,populationbyethnicity,"1,198,45s8","1,198,458",RANDOM_TYPO,UK_CSV0000000000026508,398,populationbyethnicity
+67.6.399,67,6,399,geography,tEssex,Essex,RANDOM_TYPO,UK_CSV0000000000026508,399,geography
+67.10.399,67,10,399,populationbyethnicity,"1,54,600","1,543,600",RANDOM_TYPO,UK_CSV0000000000026508,399,populationbyethnicity
+67.11.399,67,11,399,rateper_one_zero_zero_zeropopulationbyethnicity,j2.28,2.28,RANDOM_TYPO,UK_CSV0000000000026508,399,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.400,67,1,400,timevalue,202/13,2012/13,RANDOM_TYPO,UK_CSV0000000000026508,400,timevalue
+67.2.400,67,2,400,timetype,Financialy ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,400,timetype
+67.9.400,67,9,400,totalnumberofstopandsearchcarriedoutinthisyearinth,"13i,107","13,107",RANDOM_TYPO,UK_CSV0000000000026508,400,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.401,67,0,401,measure,Number of stops and searchescarried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,401,measure
+67.1.401,67,1,401,timevalue,20a19/20,2019/20,RANDOM_TYPO,UK_CSV0000000000026508,401,timevalue
+67.2.401,67,2,401,timetype,Financial yar,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,401,timetype
+67.10.401,67,10,401,populationbyethnicity,7371,17371,RANDOM_TYPO,UK_CSV0000000000026508,401,populationbyethnicity
+67.1.402,67,1,402,timevalue,2011/21,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,402,timevalue
+67.8.402,67,8,402,numberofstopandsearches,11k9,119,RANDOM_TYPO,UK_CSV0000000000026508,402,numberofstopandsearches
+67.10.402,67,10,402,populationbyethnicity,"5,364","5,346",RANDOM_TYPO,UK_CSV0000000000026508,402,populationbyethnicity
+67.11.402,67,11,402,rateper_one_zero_zero_zeropopulationbyethnicity,2.26,22.26,RANDOM_TYPO,UK_CSV0000000000026508,402,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.403,67,0,403,measure,Number ovf stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,403,measure
+67.4.403,67,4,403,ethnicitytype,ONS 001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,403,ethnicitytype
+67.6.403,67,6,403,geography,Derbysihre,Derbyshire,RANDOM_TYPO,UK_CSV0000000000026508,403,geography
+67.8.403,67,8,403,numberofstopandsearches,1,31,RANDOM_TYPO,UK_CSV0000000000026508,403,numberofstopandsearches
+67.10.403,67,10,403,populationbyethnicity,",1073","1,073",RANDOM_TYPO,UK_CSV0000000000026508,403,populationbyethnicity
+67.8.404,67,8,404,numberofstopandsearches,913,193,RANDOM_TYPO,UK_CSV0000000000026508,404,numberofstopandsearches
+67.1.405,67,1,405,timevalue,200910,2009/10,RANDOM_TYPO,UK_CSV0000000000026508,405,timevalue
+67.4.405,67,4,405,ethnicitytype,ONS 2001 161,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,405,ethnicitytype
+67.7.405,67,7,405,geographytype,Police Force Arae,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,405,geographytype
+67.0.406,67,0,406,measure,Number of stops andx searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,406,measure
+67.3.406,67,3,406,ethnicity,Pakistnai,Pakistani,RANDOM_TYPO,UK_CSV0000000000026508,406,ethnicity
+67.11.406,67,11,406,rateper_one_zero_zero_zeropopulationbyethnicity,5.08,35.08,RANDOM_TYPO,UK_CSV0000000000026508,406,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.407,67,1,407,timevalue,218/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,407,timevalue
+67.2.407,67,2,407,timetype,Fiancial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,407,timetype
+67.3.407,67,3,407,ethnicity,Banglmadeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,407,ethnicity
+67.5.407,67,5,407,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,407,legislationtype
+67.11.407,67,11,407,rateper_one_zero_zero_zeropopulationbyethnicity,2.26,2.62,RANDOM_TYPO,UK_CSV0000000000026508,407,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.408,67,0,408,measure,Numbe rof stops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,408,measure
+67.2.408,67,2,408,timetype,Financialn year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,408,timetype
+67.3.408,67,3,408,ethnicity,Banlgadeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,408,ethnicity
+67.4.408,67,4,408,ethnicitytype,NS 2001 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,408,ethnicitytype
+67.1.409,67,1,409,timevalue,201112,2011/12,RANDOM_TYPO,UK_CSV0000000000026508,409,timevalue
+67.4.409,67,4,409,ethnicitytype,ONS 200 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,409,ethnicitytype
+67.7.409,67,7,409,geographytype,Police orce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,409,geographytype
+67.0.410,67,0,410,measure,Number of stopsa nd searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,410,measure
+67.3.410,67,3,410,ethnicity,Mixed Wthite And Black African,Mixed White And Black African,RANDOM_TYPO,UK_CSV0000000000026508,410,ethnicity
+67.8.410,67,8,410,numberofstopandsearches,***,3,RANDOM_TYPO,UK_CSV0000000000026508,410,numberofstopandsearches
+67.10.410,67,10,410,populationbyethnicity,"17,05","1,705",RANDOM_TYPO,UK_CSV0000000000026508,410,populationbyethnicity
+67.11.410,67,11,410,rateper_one_zero_zero_zeropopulationbyethnicity,1.67,1.76,RANDOM_TYPO,UK_CSV0000000000026508,410,rateper_one_zero_zero_zeropopulationbyethnicity
+67.5.411,67,5,411,legislationtype,Ahll,All,RANDOM_TYPO,UK_CSV0000000000026508,411,legislationtype
+67.10.411,67,10,411,populationbyethnicity,"192,45","19,245",RANDOM_TYPO,UK_CSV0000000000026508,411,populationbyethnicity
+67.1.412,67,1,412,timevalue,200809,2008/09,RANDOM_TYPO,UK_CSV0000000000026508,412,timevalue
+67.2.412,67,2,412,timetype,Financial ear,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,412,timetype
+67.3.412,67,3,412,ethnicity,An Other White Background,Any Other White Background,RANDOM_TYPO,UK_CSV0000000000026508,412,ethnicity
+67.8.412,67,8,412,numberofstopandsearches,3f1,31,RANDOM_TYPO,UK_CSV0000000000026508,412,numberofstopandsearches
+67.2.413,67,2,413,timetype,Finacial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,413,timetype
+67.6.413,67,6,413,geography,Lalncashire,Lancashire,RANDOM_TYPO,UK_CSV0000000000026508,413,geography
+67.8.413,67,8,413,numberofstopandsearches,88***,88,RANDOM_TYPO,UK_CSV0000000000026508,413,numberofstopandsearches
+67.11.413,67,11,413,rateper_one_zero_zero_zeropopulationbyethnicity,9g.83,9.83,RANDOM_TYPO,UK_CSV0000000000026508,413,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.414,67,1,414,timevalue,2020/1,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,414,timevalue
+67.8.414,67,8,414,numberofstopandsearches,1690,1609,RANDOM_TYPO,UK_CSV0000000000026508,414,numberofstopandsearches
+67.10.414,67,10,414,populationbyethnicity,",1718","1,718",RANDOM_TYPO,UK_CSV0000000000026508,414,populationbyethnicity
+67.1.415,67,1,415,timevalue,2018/1p9,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,415,timevalue
+67.3.415,67,3,415,ethnicity,Baongladeshi,Bangladeshi,RANDOM_TYPO,UK_CSV0000000000026508,415,ethnicity
+67.5.416,67,5,416,legislationtype,ll,All,RANDOM_TYPO,UK_CSV0000000000026508,416,legislationtype
+67.10.416,67,10,416,populationbyethnicity,"69,48","6,948",RANDOM_TYPO,UK_CSV0000000000026508,416,populationbyethnicity
+67.11.416,67,11,416,rateper_one_zero_zero_zeropopulationbyethnicity,2.6,2.16,RANDOM_TYPO,UK_CSV0000000000026508,416,rateper_one_zero_zero_zeropopulationbyethnicity
+67.0.417,67,0,417,measure,Number of stops and searches carried out (excluding vehicle onlyc searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,417,measure
+67.8.417,67,8,417,numberofstopandsearches,36,63,RANDOM_TYPO,UK_CSV0000000000026508,417,numberofstopandsearches
+67.9.417,67,9,417,totalnumberofstopandsearchcarriedoutinthisyearinth,"7,674","17,674",RANDOM_TYPO,UK_CSV0000000000026508,417,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.0.418,67,0,418,measure,Number of stops and searches carried out (excluding vehicle olny searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,418,measure
+67.3.418,67,3,418,ethnicity,Any Othr Ethnic Group,Any Other Ethnic Group,RANDOM_TYPO,UK_CSV0000000000026508,418,ethnicity
+67.5.418,67,5,418,legislationtype,Al,All,RANDOM_TYPO,UK_CSV0000000000026508,418,legislationtype
+67.9.418,67,9,418,totalnumberofstopandsearchcarriedoutinthisyearinth,33v52,3352,RANDOM_TYPO,UK_CSV0000000000026508,418,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.1.419,67,1,419,timevalue,2016/1w7,2016/17,RANDOM_TYPO,UK_CSV0000000000026508,419,timevalue
+67.2.420,67,2,420,timetype,Financial yer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,420,timetype
+67.5.420,67,5,420,legislationtype,Alyl,All,RANDOM_TYPO,UK_CSV0000000000026508,420,legislationtype
+67.8.420,67,8,420,numberofstopandsearches,33***,33,RANDOM_TYPO,UK_CSV0000000000026508,420,numberofstopandsearches
+67.0.421,67,0,421,measure,Number of stops and searches carried out (excludin vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,421,measure
+67.8.421,67,8,421,numberofstopandsearches,233***,233,RANDOM_TYPO,UK_CSV0000000000026508,421,numberofstopandsearches
+67.10.421,67,10,421,populationbyethnicity,"17,316","17,361",RANDOM_TYPO,UK_CSV0000000000026508,421,populationbyethnicity
+67.11.421,67,11,421,rateper_one_zero_zero_zeropopulationbyethnicity,13.4g2,13.42,RANDOM_TYPO,UK_CSV0000000000026508,421,rateper_one_zero_zero_zeropopulationbyethnicity
+67.4.422,67,4,422,ethnicitytype,ONS 2011 1+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,422,ethnicitytype
+67.7.422,67,7,422,geographytype,Police Foroce Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,422,geographytype
+67.0.423,67,0,423,measure,Number of tsops and searches carried out (excluding vehicle only searches),Number of stops and searches carried out (excluding vehicle only searches),RANDOM_TYPO,UK_CSV0000000000026508,423,measure
+67.1.423,67,1,423,timevalue,2010/11***,2010/11,RANDOM_TYPO,UK_CSV0000000000026508,423,timevalue
+67.7.423,67,7,423,geographytype,Police Focre Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,423,geographytype
+67.11.423,67,11,423,rateper_one_zero_zero_zeropopulationbyethnicity,6.908,69.08,RANDOM_TYPO,UK_CSV0000000000026508,423,rateper_one_zero_zero_zeropopulationbyethnicity
+67.1.424,67,1,424,timevalue,018/19,2018/19,RANDOM_TYPO,UK_CSV0000000000026508,424,timevalue
+67.6.424,67,6,424,geography,Glocuestershire,Gloucestershire,RANDOM_TYPO,UK_CSV0000000000026508,424,geography
+67.8.424,67,8,424,numberofstopandsearches,2,62,RANDOM_TYPO,UK_CSV0000000000026508,424,numberofstopandsearches
+67.2.425,67,2,425,timetype,Finanical year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,425,timetype
+67.5.425,67,5,425,legislationtype,All***,All,RANDOM_TYPO,UK_CSV0000000000026508,425,legislationtype
+67.3.426,67,3,426,ethnicity,Uneported,Unreported,RANDOM_TYPO,UK_CSV0000000000026508,426,ethnicity
+67.9.426,67,9,426,totalnumberofstopandsearchcarriedoutinthisyearinth,"1,12,1123","1,121,123",RANDOM_TYPO,UK_CSV0000000000026508,426,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.426,67,11,426,rateper_one_zero_zero_zeropopulationbyethnicity,s-,-,RANDOM_TYPO,UK_CSV0000000000026508,426,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.427,67,2,427,timetype,Financal year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,427,timetype
+67.6.427,67,6,427,geography,Cubria,Cumbria,RANDOM_TYPO,UK_CSV0000000000026508,427,geography
+67.8.427,67,8,427,numberofstopandsearches,,7,RANDOM_TYPO,UK_CSV0000000000026508,427,numberofstopandsearches
+67.1.428,67,1,428,timevalue,020/21,2020/21,RANDOM_TYPO,UK_CSV0000000000026508,428,timevalue
+67.4.428,67,4,428,ethnicitytype,ONS 20111 8+1,ONS 2011 18+1,RANDOM_TYPO,UK_CSV0000000000026508,428,ethnicitytype
+67.7.428,67,7,428,geographytype,Plice Force Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,428,geographytype
+67.9.428,67,9,428,totalnumberofstopandsearchcarriedoutinthisyearinth,763j5,7635,RANDOM_TYPO,UK_CSV0000000000026508,428,totalnumberofstopandsearchcarriedoutinthisyearinth
+67.11.428,67,11,428,rateper_one_zero_zero_zeropopulationbyethnicity,1s6.7,16.7,RANDOM_TYPO,UK_CSV0000000000026508,428,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.429,67,2,429,timetype,Finanial year,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,429,timetype
+67.4.429,67,4,429,ethnicitytype,ONS 200y1 16+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,429,ethnicitytype
+67.5.429,67,5,429,legislationtype,Asll,All,RANDOM_TYPO,UK_CSV0000000000026508,429,legislationtype
+67.8.429,67,8,429,numberofstopandsearches,24,124,RANDOM_TYPO,UK_CSV0000000000026508,429,numberofstopandsearches
+67.11.429,67,11,429,rateper_one_zero_zero_zeropopulationbyethnicity,19.j76,19.76,RANDOM_TYPO,UK_CSV0000000000026508,429,rateper_one_zero_zero_zeropopulationbyethnicity
+67.2.430,67,2,430,timetype,Financial yaer,Financial year,RANDOM_TYPO,UK_CSV0000000000026508,430,timetype
+67.4.431,67,4,431,ethnicitytype,ONS 2001 61+1,ONS 2001 16+1,RANDOM_TYPO,UK_CSV0000000000026508,431,ethnicitytype
+67.6.431,67,6,431,geography,Wes Yorkshire,West Yorkshire,RANDOM_TYPO,UK_CSV0000000000026508,431,geography
+67.7.431,67,7,431,geographytype,Police Forcee Area,Police Force Area,RANDOM_TYPO,UK_CSV0000000000026508,431,geographytype
+67.11.431,67,11,431,rateper_one_zero_zero_zeropopulationbyethnicity,89.,8.9,RANDOM_TYPO,UK_CSV0000000000026508,431,rateper_one_zero_zero_zeropopulationbyethnicity

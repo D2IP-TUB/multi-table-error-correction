@@ -1,0 +1,982 @@
+market_class,upload_two_fourminave,geography,technology,you_tube_hd_two_fourhr,ruralweight,region
+B,0.32,Urban,ADSL2,57.20%,2.66281,London
+B,36.56,Urban,Cable,95.66%,0.96413,London
+B,5.87,Rural,FTTC,95.80%,0.96413,Yorkshire & Humberside
+B,6.16,Rural,FTTC,95.39%,0.96413,Northern Ireland
+B,18.6,Urban,FTTC,96.01%,0.96413,North West
+B,20.89,Urban,Cable,95.31%,1.08753,Northern Ireland
+B,9.2,Urban,FTTC,95.35%,0.96413,East
+B,9.44,Urban,FTTP,95.62%,0.26727,Yorkshire & Humberside
+B,18.63,Urban,FTTC,95.54%,0.96413,North West
+B,8.89,Rural,FTTC,95.06%,0.96413,Wales
+B,46.61,Urban,FTTP,95.39%,0.96413,South West
+B,4.24,Urban,FTTC,95.35%,0.96413,London
+B,12.34,Urban,FTTC,96.33%,0.96413,South East
+A,9.73,Rural,FTTP,94.38%,0.29132,South West
+B,9.24,Urban,FTTC,93.79%,0.50728,South East
+B,18.51,Urban,FTTC,97.21%,0.96413,East Midlands
+B,50.54,Urban,FTTP,95.39%,0.96413,South West
+B,2.06,Urban,FTTC,96.56%,0.50728,South East
+B,8.82,Urban,FTTC,96.76%,0.50728,London
+B,2.48,Urban,FTTC,97.64%,0.96413,West Midlands
+B,18.38,Urban,FTTC,95.81%,0.96413,East
+B,6.42,Urban,FTTC,98.13%,0.50728,South East
+B,10.02,Rural,FTTP,94.32%,0.29132,Wales
+B,23.97,Urban,Cable,96.50%,0.96413,East Midlands
+B,0.83,Urban,ADSL2,95.18%,2.66281,London
+B,18.41,Urban,FTTC,95.02%,0.96413,South West
+B,4.99,Urban,FTTC,95.08%,0.96413,North West
+B,17.88,Urban,FTTC,95.89%,0.96413,Scotland
+B,17.33,Urban,FTTC,95.60%,0.96413,South East
+B,20.19,Urban,FTTP,95.39%,0.96413,Scotland
+B,12.18,Urban,FTTC,95.24%,0.96413,South East
+B,18.58,Urban,FTTC,95.17%,0.96413,South West
+B,13.71,Urban,FTTC,94.87%,0.96413,South East
+B,17.63,Urban,FTTC,96.22%,0.96413,London
+B,20.22,Urban,FTTP,95.39%,0.96413,London
+B,0.94,Urban,ADSL2,100.00%,2.66281,East
+B,8.89,Urban,FTTC,95.14%,0.96413,East Midlands
+B,16.07,Urban,Fixed Wireless,95.39%,0.96413,Scotland
+B,9.1,Urban,FTTC,95.39%,0.96413,Yorkshire & Humberside
+B,8.98,Urban,FTTC,96.55%,0.50728,South West
+B,0.74,Urban,FTTC,95.39%,0.96413,East
+B,8.84,Urban,FTTC,95.87%,0.96413,East Midlands
+B,9.08,Urban,FTTC,95.39%,0.96413,South East
+B,2.15,Urban,FTTC,93.45%,0.50728,North East
+B,17.78,Urban,FTTC,95.39%,0.96413,London
+B,20.68,Urban,Cable,95.41%,1.08753,South West
+B,48.97,Urban,FTTP,95.39%,0.96413,North West
+B,16.94,Urban,FTTC,95.39%,0.96413,East Midlands
+B,4.55,Urban,Cable,95.43%,1.08753,Yorkshire & Humberside
+B,18.1,Urban,FTTC,95.43%,0.96413,East Midlands
+B,29.51,Urban,FTTP,95.39%,0.96413,Scotland
+B,9.02,Urban,FTTC,95.56%,0.96413,Wales
+Hull,4.66,Urban,FTTP,94.32%,0.26727,Yorkshire & Humberside
+B,9.36,Urban,FTTC,95.39%,0.96413,Northern Ireland
+A,18.18,Rural,FTTC,96.14%,0.65219,Scotland
+B,18.47,Urban,FTTC,95.16%,0.96413,East
+B,0.67,Urban,ADSL2,96.54%,2.66281,Scotland
+B,18.1,Urban,FTTC,95.56%,0.96413,West Midlands
+B,9.77,Urban,FTTC,95.87%,0.96413,Wales
+B,15.41,Urban,FTTC,95.52%,0.96413,Yorkshire & Humberside
+B,9.17,Urban,FTTC,95.51%,1.75829,South East
+B,7.23,Rural,FTTC,94.12%,0.96413,South East
+B,9.25,Urban,FTTC,94.50%,0.50728,South East
+B,8.02,Urban,FTTC,95.28%,0.50728,East
+B,13.72,Urban,FTTC,98.95%,0.96413,South East
+Hull,18.96,Urban,FTTP,93.83%,0.26727,Yorkshire & Humberside
+B,0.51,Rural,ADSL2,0.00%,0.52838,Northern Ireland
+B,14.7,Rural,FTTC,95.42%,0.65219,East Midlands
+B,50.52,Urban,FTTP,95.39%,0.26727,West Midlands
+B,28.55,Urban,FTTP,95.39%,0.26727,Northern Ireland
+B,20.86,Urban,Cable,92.61%,1.08753,London
+B,13.09,Rural,FTTC,95.39%,0.65219,Scotland
+B,18.27,Urban,FTTC,92.11%,0.96413,Scotland
+B,29.46,Urban,Cable,95.83%,1.08753,West Midlands
+B,2.14,Urban,FTTP,95.39%,0.96413,North West
+B,18.41,Urban,FTTC,100.00%,0.96413,East
+B,8.71,Urban,FTTC,96.97%,0.50728,Wales
+B,14.79,Rural,FTTC,95.32%,0.96413,Northern Ireland
+B,3.56,Urban,FTTC,93.44%,0.50728,Scotland
+B,36.29,Urban,Cable,94.61%,0.96413,South East
+B,18.41,Urban,FTTC,95.40%,0.96413,Scotland
+B,9.9,Urban,Cable,95.32%,1.08753,East
+B,0.73,Urban,FTTC,95.39%,0.50728,West Midlands
+B,7.84,Urban,FTTC,100.00%,0.96413,South East
+B,20.57,Urban,Cable,95.11%,1.08753,South East
+B,18.35,Urban,FTTC,95.36%,0.96413,South West
+B,30.29,Urban,FTTP,95.39%,0.96413,London
+B,17.81,Urban,FTTC,95.34%,0.96413,West Midlands
+B,18.24,Urban,FTTC,100.00%,0.96413,South East
+B,17.38,Urban,FTTC,95.60%,0.96413,London
+B,16.73,Urban,FTTC,96.31%,0.96413,East
+B,9.3,Rural,FTTC,95.39%,0.86356,North West
+B,30.3,Urban,FTTP,95.39%,0.96413,London
+B,9.2,Rural,FTTC,95.39%,0.96413,South East
+B,9.12,Urban,FTTC,97.88%,0.96413,South East
+B,17.79,Urban,FTTC,90.77%,0.96413,South West
+B,18.34,Rural,FTTC,95.39%,0.65219,East
+B,18.45,Rural,FTTC,95.58%,0.65219,South West
+B,131.96,Rural,FTTP,94.59%,0.29132,South West
+B,18.59,Urban,FTTC,95.25%,0.96413,South East
+B,20.79,Urban,Cable,95.16%,1.08753,Northern Ireland
+B,49.83,Rural,FTTP,95.63%,0.96413,Scotland
+B,16.67,Urban,FTTC,95.77%,0.96413,East
+A,0.26,Rural,ADSL1,0.00%,0.35144,North East
+B,8.87,Urban,FTTC,94.97%,1.75829,East Midlands
+B,5.4,Rural,FTTC,94.22%,0.86356,East
+B,20.18,Urban,FTTP,95.39%,0.96413,Wales
+B,9.24,Urban,Cable,95.58%,1.08753,London
+B,7.83,Urban,FTTC,95.29%,0.96413,Scotland
+B,9.6,Urban,Cable,97.78%,1.08753,Scotland
+B,6.45,Urban,FTTC,95.40%,0.96413,South East
+B,6.55,Urban,FTTC,94.29%,0.50728,North West
+B,3.02,Urban,FTTC,94.05%,0.50728,Scotland
+B,8.22,Urban,FTTC,95.40%,0.96413,South East
+B,5.58,Rural,FTTC,95.71%,0.86356,East
+B,50.28,Urban,FTTP,95.39%,0.26727,Wales
+A,0.7,Rural,ADSL2,93.46%,0.52838,East
+B,17.28,Urban,FTTC,95.89%,0.96413,London
+B,20.81,Urban,Cable,96.20%,1.08753,Scotland
+B,8.93,Urban,Cable,94.90%,1.08753,Yorkshire & Humberside
+B,0.64,Urban,ADSL2,95.17%,2.66281,South West
+B,9.34,Urban,FTTC,95.39%,0.50728,North West
+B,16.37,Urban,FTTC,95.87%,0.96413,East
+B,0.18,Rural,ADSL1,90.46%,0.35144,Scotland
+B,9.52,Urban,FTTP,95.18%,0.96413,London
+B,18.08,Rural,FTTC,94.40%,0.65219,East
+B,17.52,Rural,FTTC,97.59%,0.96413,North East
+B,0.71,Rural,FTTC,95.35%,0.96413,Scotland
+B,36.58,Urban,Cable,95.36%,1.08753,South East
+B,8.45,Urban,FTTC,96.23%,0.96413,North West
+B,17.62,Urban,FTTC,95.87%,0.96413,West Midlands
+B,5.41,Urban,FTTC,93.93%,0.50728,North East
+B,18.57,Rural,FTTC,95.81%,0.65219,South East
+B,18.45,Urban,FTTC,94.51%,0.96413,West Midlands
+A,0.84,Rural,ADSL2,94.38%,0.52838,Scotland
+B,12.15,Rural,Cable,95.31%,0.54408,South West
+B,18.61,Urban,FTTC,95.58%,0.96413,South East
+B,17.91,Urban,FTTC,94.83%,0.96413,Yorkshire & Humberside
+B,8.66,Urban,FTTC,95.37%,0.96413,Yorkshire & Humberside
+B,4.82,Rural,FTTC,95.40%,0.86356,Scotland
+B,16.95,Urban,FTTC,96.62%,0.96413,South West
+B,9.56,Urban,Cable,95.24%,1.08753,Wales
+B,0.51,Rural,FTTC,95.40%,0.96413,North West
+B,9.16,Urban,FTTC,95.97%,0.50728,North West
+B,0.78,Rural,ADSL2,96.43%,0.52838,South East
+B,18.03,Urban,FTTC,95.39%,0.96413,Yorkshire & Humberside
+B,0.38,Urban,ADSL2,97.80%,2.66281,North East
+B,0.6,Urban,ADSL2,74.55%,2.66281,Scotland
+B,18.25,Urban,FTTC,95.39%,0.96413,South West
+B,9.95,Urban,FTTC,95.36%,0.96413,South West
+B,20.44,Urban,Cable,100.00%,1.08753,North East
+B,19.85,Urban,Cable,95.52%,1.08753,South East
+B,6.66,Urban,FTTC,96.25%,0.96413,Scotland
+B,0.96,Rural,ADSL2,95.24%,0.52838,Wales
+A,0.57,Rural,ADSL2,96.68%,0.52838,Scotland
+B,8.62,Urban,FTTC,95.70%,0.50728,Wales
+B,16.88,Urban,FTTC,98.09%,0.96413,North East
+Hull,4.4,Urban,FTTP,96.20%,0.26727,Yorkshire & Humberside
+B,8.09,Urban,Cable,96.13%,1.08753,West Midlands
+B,8.92,Urban,FTTC,93.59%,1.75829,West Midlands
+Hull,33.13,Urban,FTTP,94.59%,0.26727,Yorkshire & Humberside
+B,4.75,Urban,Cable,94.46%,1.08753,London
+B,0.32,Rural,ADSL2,24.68%,0.52838,Northern Ireland
+B,0.7,Rural,FTTC,92.67%,0.96413,South East
+A,13.88,Rural,Fixed Wireless,95.39%,0.96413,South West
+B,0.72,Urban,ADSL2,95.36%,2.66281,Scotland
+B,0.99,Urban,ADSL2,94.19%,2.66281,North West
+B,12.7,Urban,FTTC,95.74%,0.96413,South East
+B,9.69,Rural,FTTP,94.25%,0.29132,Wales
+B,12.18,Urban,FTTC,95.58%,0.96413,Yorkshire & Humberside
+B,16.16,Urban,FTTC,96.24%,0.96413,Yorkshire & Humberside
+B,18.02,Urban,Cable,95.34%,1.08753,West Midlands
+B,9.86,Urban,Cable,94.79%,1.08753,West Midlands
+B,1.77,Urban,FTTC,96.36%,0.96413,South East
+Hull,28.09,Urban,FTTP,95.77%,0.26727,Yorkshire & Humberside
+B,9.07,Urban,FTTC,95.34%,0.50728,Scotland
+B,18.48,Urban,FTTC,95.13%,0.96413,London
+A,18.47,Rural,FTTC,96.60%,0.65219,East
+B,0.24,Urban,ADSL2,94.98%,2.66281,South West
+B,18.07,Urban,FTTC,95.81%,0.96413,South East
+B,0.84,Rural,ADSL2,95.40%,0.52838,South West
+B,5.97,Urban,FTTP,95.39%,0.96413,South East
+B,18.53,Urban,FTTC,94.01%,0.96413,Yorkshire & Humberside
+B,19.14,Urban,Cable,94.32%,1.08753,West Midlands
+B,15.6,Rural,FTTC,96.08%,0.65219,East Midlands
+B,15.21,Rural,FTTC,95.44%,0.96413,East
+B,50.5,Rural,FTTP,95.39%,0.96413,East
+B,9.27,Rural,FTTC,95.24%,0.96413,East Midlands
+B,8.63,Rural,FTTC,93.68%,0.86356,South West
+B,14.54,Urban,FTTC,96.22%,0.96413,Yorkshire & Humberside
+B,0.81,Rural,FTTC,95.68%,0.86356,South East
+B,6.21,Urban,FTTC,94.32%,0.96413,South West
+B,19.57,Urban,Cable,93.27%,1.08753,North West
+B,8.03,Rural,FTTC,95.48%,0.96413,Yorkshire & Humberside
+B,18.45,Urban,FTTC,96.55%,0.96413,London
+B,7.65,Urban,FTTC,95.56%,0.96413,Yorkshire & Humberside
+B,7.97,Urban,FTTC,95.35%,0.96413,Scotland
+B,20.53,Urban,Cable,94.89%,1.08753,North East
+Hull,18.19,Urban,FTTC,94.87%,0.96413,Yorkshire & Humberside
+B,8.76,Rural,FTTC,100.00%,0.96413,South East
+B,30.31,Urban,FTTP,95.39%,0.96413,London
+B,35.04,Urban,Cable,96.00%,1.08753,West Midlands
+B,6.81,Urban,FTTC,93.60%,0.50728,South West
+B,20.38,Urban,Cable,95.40%,1.08753,North East
+B,9.23,Urban,FTTC,95.40%,0.50728,London
+B,20.38,Urban,Cable,94.40%,1.08753,South East
+B,6.76,Rural,FTTC,94.25%,0.86356,Scotland
+B,18.31,Urban,FTTC,96.67%,0.96413,Scotland
+B,7.86,Urban,FTTC,95.00%,0.50728,Wales
+B,16.26,Urban,FTTC,95.86%,0.96413,Northern Ireland
+B,16.24,Urban,FTTC,96.31%,0.96413,Scotland
+B,18.48,Urban,FTTC,95.11%,0.96413,Northern Ireland
+B,19.81,Urban,Cable,96.70%,1.08753,East Midlands
+B,0.42,Rural,FTTC,94.94%,0.96413,North West
+B,15.7,Urban,FTTC,95.99%,0.96413,South West
+B,20.91,Urban,Cable,95.39%,1.08753,London
+B,4.43,Rural,FTTC,96.79%,0.86356,Wales
+B,20.22,Urban,FTTP,95.39%,0.96413,Wales
+B,10.73,Urban,FTTC,94.32%,0.96413,Scotland
+B,16.72,Urban,FTTC,96.45%,0.96413,South East
+B,4.97,Urban,Cable,94.37%,1.08753,South West
+B,15.87,Rural,Fixed Wireless,95.39%,0.96413,Scotland
+B,20.9,Urban,Cable,98.50%,0.96413,London
+B,35.16,Urban,Cable,95.58%,0.96413,East Midlands
+Hull,9.4,Urban,FTTP,95.18%,0.26727,Yorkshire & Humberside
+B,18.48,Urban,FTTC,96.15%,0.96413,West Midlands
+B,20.96,Urban,Cable,95.40%,1.08753,Scotland
+B,0.82,Rural,ADSL2,95.18%,0.52838,South West
+B,17.42,Urban,FTTP,95.39%,0.96413,Scotland
+B,18.17,Urban,Cable,90.12%,1.08753,South West
+B,3.41,Rural,Fixed Wireless,95.39%,0.96413,North West
+B,13.37,Urban,FTTC,95.56%,0.96413,Scotland
+B,0.83,Urban,ADSL2,92.99%,2.66281,North West
+A,19.94,Rural,FTTP,95.40%,0.96413,Scotland
+B,9.12,Rural,FTTC,94.08%,0.86356,East Midlands
+B,5.7,Rural,FTTC,96.24%,0.65219,Scotland
+B,17.24,Urban,FTTC,95.33%,0.96413,London
+B,9.33,Urban,FTTC,95.39%,0.50728,South West
+B,9.93,Urban,FTTC,95.00%,0.96413,Scotland
+B,20.71,Urban,FTTP,95.29%,0.26727,South West
+Hull,0.68,Urban,ADSL2,94.32%,2.66281,Yorkshire & Humberside
+B,30.59,Rural,FTTP,95.67%,0.29132,South East
+B,9.0,Urban,FTTC,94.92%,1.75829,West Midlands
+B,5.65,Rural,FTTC,95.18%,0.86356,South East
+B,8.61,Urban,FTTC,95.65%,0.50728,East
+B,18.46,Urban,FTTC,96.46%,0.96413,South East
+B,18.14,Urban,FTTC,95.86%,0.96413,North West
+B,17.01,Rural,FTTC,95.74%,0.65219,Northern Ireland
+B,0.37,Rural,ADSL1,56.07%,0.35144,South West
+B,20.61,Urban,FTTP,96.23%,0.26727,South West
+B,20.98,Urban,FTTP,95.39%,0.96413,East
+B,29.09,Urban,FTTP,95.39%,0.96413,Scotland
+B,17.64,Rural,FTTC,95.58%,0.65219,Northern Ireland
+B,0.34,Urban,ADSL2,92.01%,2.66281,North West
+A,0.88,Rural,ADSL2,97.56%,0.52838,South West
+B,6.86,Rural,FTTC,96.19%,0.86356,South West
+B,50.55,Urban,FTTP,95.39%,0.96413,London
+B,20.84,Urban,Cable,95.36%,1.08753,West Midlands
+B,8.19,Urban,FTTC,100.00%,0.96413,London
+B,49.9,Urban,FTTP,94.21%,0.96413,East
+A,0.53,Rural,FTTC,93.90%,0.86356,Wales
+B,48.04,Urban,FTTP,95.39%,0.26727,South West
+B,14.3,Urban,FTTC,96.47%,0.96413,South East
+B,18.15,Urban,FTTC,93.29%,0.96413,South East
+B,15.72,Rural,FTTC,95.06%,0.96413,South East
+B,17.98,Urban,FTTC,90.53%,0.96413,North West
+B,50.21,Urban,FTTP,95.39%,0.96413,Scotland
+B,4.76,Urban,Cable,96.15%,1.08753,West Midlands
+B,5.52,Urban,FTTC,94.90%,0.96413,North West
+B,3.85,Urban,FTTC,94.90%,0.50728,South East
+B,18.06,Rural,FTTC,96.03%,0.96413,Wales
+Hull,18.67,Urban,FTTP,95.31%,0.26727,Yorkshire & Humberside
+B,20.12,Urban,FTTP,95.39%,0.96413,East Midlands
+B,7.67,Urban,FTTC,94.25%,0.96413,Scotland
+B,9.17,Rural,FTTC,95.39%,0.86356,South West
+B,7.99,Urban,FTTC,95.00%,0.96413,Yorkshire & Humberside
+B,18.49,Urban,FTTC,96.48%,0.96413,London
+B,9.35,Urban,FTTC,95.39%,0.96413,South East
+B,9.24,Rural,FTTC,93.02%,0.86356,North East
+B,12.39,Urban,FTTC,96.76%,0.96413,South East
+B,15.42,Urban,FTTC,95.43%,0.96413,South West
+B,20.79,Urban,Cable,95.39%,1.08753,Scotland
+B,20.31,Urban,Cable,95.06%,1.08753,South West
+B,17.04,Urban,FTTC,93.29%,0.96413,London
+B,0.55,Rural,ADSL2,94.88%,0.52838,Northern Ireland
+B,10.15,Urban,FTTC,94.96%,0.50728,South East
+B,18.53,Rural,FTTC,95.39%,0.96413,North East
+Hull,9.47,Urban,FTTP,95.40%,0.26727,Yorkshire & Humberside
+B,18.23,Rural,FTTC,97.37%,0.96413,South East
+B,9.28,Urban,FTTC,95.11%,0.50728,South East
+B,13.74,Rural,FTTC,95.39%,0.65219,East
+B,9.23,Urban,FTTC,95.69%,0.50728,Scotland
+B,9.2,Urban,FTTC,96.76%,0.50728,West Midlands
+B,22.32,Urban,FTTP,95.39%,0.96413,Yorkshire & Humberside
+B,4.69,Urban,Cable,96.59%,1.08753,West Midlands
+B,18.61,Urban,FTTC,96.49%,0.96413,West Midlands
+B,6.28,Urban,FTTC,95.27%,0.50728,South East
+B,17.25,Urban,FTTC,96.27%,0.96413,Scotland
+B,18.34,Urban,FTTC,95.01%,0.96413,South West
+B,5.15,Urban,FTTC,92.15%,0.96413,North West
+B,50.53,Urban,FTTP,95.39%,0.96413,South East
+B,7.02,Urban,FTTC,96.49%,0.50728,South East
+B,30.2,Urban,FTTP,95.39%,0.26727,North West
+B,0.97,Urban,ADSL2,95.39%,2.66281,London
+B,0.29,Rural,ADSL2,90.88%,0.52838,Scotland
+B,13.34,Urban,FTTC,95.92%,0.96413,North West
+B,17.05,Urban,Cable,97.89%,1.08753,London
+B,17.98,Urban,FTTC,95.88%,0.96413,Scotland
+B,7.29,Urban,FTTC,95.90%,0.96413,South East
+B,3.34,Rural,FTTC,96.88%,0.96413,Scotland
+B,10.32,Rural,FTTC,95.13%,0.65219,South East
+B,6.78,Urban,FTTC,93.75%,0.96413,South East
+A,0.93,Rural,ADSL2,96.59%,0.52838,West Midlands
+Hull,4.69,Urban,FTTP,95.35%,0.26727,Yorkshire & Humberside
+B,49.41,Urban,FTTP,93.96%,0.96413,South East
+B,0.86,Urban,ADSL2,95.47%,2.66281,Scotland
+B,8.71,Urban,FTTC,95.69%,0.96413,Scotland
+B,6.17,Rural,FTTC,100.00%,0.96413,South East
+B,1.46,Urban,FTTC,100.00%,0.96413,South West
+Hull,20.92,Urban,FTTP,97.62%,0.26727,Yorkshire & Humberside
+Hull,35.84,Urban,FTTP,100.00%,0.26727,Yorkshire & Humberside
+Hull,19.01,Urban,FTTP,95.35%,0.26727,Yorkshire & Humberside
+B,3.12,Urban,FTTC,95.17%,0.50728,Scotland
+Hull,6.84,Rural,FTTC,90.24%,0.96413,Yorkshire & Humberside
+B,32.02,Urban,Cable,95.27%,0.96413,South East
+B,9.87,Urban,Cable,95.61%,1.08753,West Midlands
+B,16.9,Rural,FTTC,95.88%,0.65219,Northern Ireland
+B,0.56,Urban,ADSL2,97.24%,2.66281,West Midlands
+B,8.31,Urban,FTTC,95.39%,0.96413,South West
+B,3.92,Rural,FTTC,95.39%,0.86356,East
+B,15.21,Rural,FTTC,95.97%,0.96413,South East
+B,9.7,Rural,FTTC,98.48%,1.56946,South East
+B,155.06,Rural,FTTP,95.16%,0.29132,Scotland
+B,9.18,Urban,FTTC,97.74%,0.50728,North East
+B,9.73,Urban,FTTC,95.68%,0.96413,North West
+B,7.48,Urban,FTTC,95.21%,0.96413,East
+B,20.81,Urban,Cable,95.38%,1.08753,South East
+B,50.49,Urban,FTTP,95.39%,0.96413,South East
+B,8.42,Urban,FTTC,95.88%,0.50728,Scotland
+Hull,9.23,Rural,FTTP,93.98%,0.29132,Yorkshire & Humberside
+B,20.18,Urban,FTTP,95.39%,0.96413,East
+B,9.93,Urban,Cable,95.11%,1.08753,West Midlands
+B,17.2,Urban,Cable,95.29%,1.08753,South East
+B,0.68,Urban,ADSL2,94.85%,2.66281,South East
+B,9.79,Urban,Cable,95.42%,1.08753,North West
+B,7.3,Urban,FTTC,96.45%,0.96413,South East
+B,9.9,Urban,Cable,93.48%,1.08753,Wales
+B,17.46,Urban,FTTC,95.61%,0.96413,North East
+B,10.94,Urban,FTTC,99.37%,0.96413,Yorkshire & Humberside
+B,36.26,Urban,Cable,94.72%,1.08753,South West
+B,0.73,Rural,ADSL1,90.83%,0.96413,East
+B,14.71,Urban,FTTC,95.95%,0.96413,South East
+B,35.66,Urban,Cable,94.75%,1.08753,South East
+B,0.64,Rural,ADSL2,95.39%,0.52838,Scotland
+B,0.69,Rural,ADSL2,0.00%,0.52838,West Midlands
+B,22.14,Urban,Cable,95.60%,0.96413,South East
+B,6.37,Urban,FTTC,95.39%,0.50728,South West
+B,36.21,Urban,Cable,95.85%,0.96413,London
+B,18.5,Urban,FTTC,95.43%,0.96413,Northern Ireland
+B,30.26,Urban,FTTP,95.39%,0.96413,South West
+B,6.81,Urban,FTTC,95.58%,0.50728,Yorkshire & Humberside
+B,10.56,Rural,FTTC,95.99%,0.65219,Northern Ireland
+B,3.18,Rural,FTTC,93.85%,0.96413,East
+B,12.09,Urban,FTTC,95.63%,0.96413,North West
+B,9.36,Urban,FTTC,95.39%,0.50728,South East
+B,29.51,Rural,FTTP,94.90%,0.96413,Scotland
+B,18.44,Rural,FTTC,96.12%,0.65219,Scotland
+B,16.07,Urban,FTTC,95.71%,0.96413,North West
+B,8.94,Rural,FTTP,96.53%,0.29132,Northern Ireland
+B,17.35,Urban,FTTC,96.21%,0.96413,Scotland
+B,20.75,Urban,Cable,95.38%,1.08753,Scotland
+B,0.79,Urban,ADSL2,95.39%,2.66281,South West
+B,10.75,Urban,FTTC,94.81%,0.96413,West Midlands
+B,32.36,Urban,Cable,94.55%,0.96413,Yorkshire & Humberside
+B,0.35,Rural,FTTC,96.70%,0.96413,Scotland
+B,15.62,Urban,FTTC,94.12%,0.96413,Wales
+B,0.65,Urban,ADSL2,95.00%,2.66281,South East
+B,20.17,Urban,FTTP,95.39%,0.96413,South East
+B,17.56,Rural,FTTC,95.44%,0.65219,South West
+Hull,18.35,Urban,FTTP,98.70%,0.26727,Yorkshire & Humberside
+B,50.54,Urban,FTTP,95.39%,0.96413,East
+Hull,9.07,Urban,FTTP,94.05%,0.26727,Yorkshire & Humberside
+B,15.74,Urban,FTTC,96.48%,0.96413,Wales
+B,10.09,Urban,FTTP,95.39%,0.96413,South West
+B,1.58,Urban,FTTC,95.69%,0.96413,East Midlands
+B,13.71,Urban,FTTC,96.03%,0.96413,Scotland
+B,35.69,Urban,Cable,90.10%,0.96413,Scotland
+B,8.53,Urban,FTTC,100.00%,0.50728,South East
+B,51.26,Rural,FTTP,96.07%,0.96413,South East
+B,13.57,Rural,FTTC,95.81%,0.96413,South East
+B,7.94,Urban,FTTC,94.80%,0.96413,South West
+B,8.99,Urban,FTTC,95.47%,0.96413,East
+B,9.14,Urban,FTTC,95.14%,0.50728,North West
+B,20.92,Urban,Cable,95.39%,1.08753,East
+B,18.27,Urban,FTTC,94.77%,0.96413,Northern Ireland
+B,30.03,Urban,FTTP,95.39%,0.26727,Scotland
+B,18.59,Urban,FTTC,95.11%,0.96413,East
+B,18.26,Urban,FTTC,96.50%,0.96413,Yorkshire & Humberside
+B,18.36,Urban,FTTC,97.10%,0.96413,West Midlands
+B,9.19,Rural,FTTC,95.40%,0.86356,East
+A,2.88,Rural,FTTC,95.61%,0.65219,Scotland
+B,35.4,Urban,Cable,95.56%,0.96413,East
+B,11.85,Rural,FTTC,95.43%,0.96413,West Midlands
+B,8.74,Urban,FTTC,96.36%,0.50728,West Midlands
+B,8.98,Urban,FTTC,95.00%,0.50728,Northern Ireland
+B,11.87,Urban,FTTC,94.75%,0.96413,South East
+B,8.84,Urban,FTTC,96.50%,0.96413,North West
+B,0.68,Urban,ADSL1,0.00%,2.18892,East Midlands
+B,9.23,Urban,FTTC,95.65%,0.50728,North West
+B,20.45,Rural,FTTP,95.01%,0.96413,East
+B,2.59,Rural,FTTC,95.29%,0.96413,East Midlands
+B,0.59,Rural,ADSL1,69.33%,0.35144,North East
+B,7.58,Urban,FTTC,95.86%,0.96413,West Midlands
+B,18.51,Urban,FTTC,97.18%,0.96413,Wales
+B,17.71,Urban,FTTC,94.51%,0.96413,South East
+B,7.82,Urban,FTTC,95.39%,0.50728,North West
+B,6.01,Urban,FTTC,94.90%,0.96413,Scotland
+B,20.19,Urban,FTTP,95.39%,0.96413,Wales
+B,9.06,Urban,FTTC,94.96%,0.50728,Yorkshire & Humberside
+B,11.92,Urban,FTTC,95.11%,0.96413,West Midlands
+B,17.44,Urban,FTTC,93.86%,0.96413,London
+B,1.51,Rural,Fixed Wireless,95.39%,0.96413,Yorkshire & Humberside
+B,4.26,Urban,Cable,96.46%,1.08753,Wales
+B,0.94,Rural,FTTC,95.39%,0.65219,Northern Ireland
+B,18.12,Rural,FTTC,95.94%,0.96413,South West
+B,50.09,Urban,FTTP,95.39%,0.96413,Wales
+B,36.67,Urban,Cable,95.32%,0.96413,East Midlands
+B,18.34,Urban,FTTC,96.12%,0.96413,Yorkshire & Humberside
+B,8.97,Urban,FTTC,95.93%,1.75829,North East
+B,50.37,Urban,FTTP,95.39%,0.26727,North West
+B,16.39,Urban,FTTC,96.66%,0.96413,Yorkshire & Humberside
+B,13.26,Urban,FTTC,94.95%,0.96413,East
+B,13.61,Urban,FTTC,95.69%,0.96413,North West
+B,9.3,Rural,FTTC,95.68%,0.86356,Scotland
+B,30.23,Urban,FTTP,95.39%,0.96413,North West
+B,19.29,Urban,FTTC,95.09%,0.96413,London
+Hull,4.67,Urban,FTTP,96.51%,0.26727,Yorkshire & Humberside
+B,29.95,Rural,FTTP,95.39%,0.96413,Wales
+B,18.03,Urban,FTTC,96.66%,0.96413,North East
+B,9.06,Urban,FTTC,94.74%,0.50728,East
+B,8.63,Urban,FTTC,95.45%,0.96413,North West
+B,2.38,Rural,FTTC,96.34%,0.86356,Northern Ireland
+B,20.93,Urban,Cable,94.17%,1.08753,South West
+B,5.77,Urban,FTTC,95.17%,0.50728,Wales
+B,18.05,Urban,FTTC,95.39%,0.96413,London
+B,5.52,Urban,FTTC,95.83%,0.50728,East
+B,0.44,Rural,ADSL1,0.00%,0.35144,South West
+B,28.25,Rural,FTTP,95.40%,0.96413,East Midlands
+B,11.29,Urban,FTTC,93.94%,0.96413,South East
+B,4.98,Urban,Cable,95.42%,1.08753,Scotland
+B,0.67,Rural,ADSL2,92.05%,0.96413,Wales
+B,18.27,Urban,FTTC,95.25%,0.96413,West Midlands
+B,0.66,Rural,FTTC,90.14%,0.96413,East
+B,20.17,Urban,Cable,95.21%,1.08753,South East
+B,0.78,Urban,ADSL2,95.01%,2.66281,Scotland
+B,18.15,Urban,FTTC,95.22%,0.96413,South East
+B,30.45,Rural,FTTP,93.79%,0.29132,South East
+B,17.92,Urban,FTTC,95.99%,0.96413,South East
+B,17.77,Rural,FTTC,93.79%,0.65219,South West
+B,5.68,Urban,FTTC,95.69%,0.96413,South East
+B,3.51,Urban,FTTC,96.46%,0.96413,Yorkshire & Humberside
+B,9.04,Urban,FTTC,95.92%,0.50728,South East
+B,9.54,Urban,FTTC,94.37%,0.50728,Wales
+B,50.5,Urban,FTTP,95.39%,0.96413,London
+B,50.01,Urban,FTTP,95.39%,0.96413,North West
+B,50.57,Urban,FTTP,95.39%,0.96413,London
+B,18.38,Urban,FTTC,93.57%,0.96413,North West
+B,8.92,Urban,FTTC,95.27%,0.50728,South West
+B,20.77,Urban,Cable,95.39%,1.08753,East Midlands
+B,15.44,Rural,FTTC,95.06%,0.96413,Yorkshire & Humberside
+B,20.86,Urban,Cable,94.95%,1.08753,South West
+B,30.31,Urban,FTTP,95.39%,0.96413,London
+B,3.03,Rural,FTTC,94.25%,0.86356,South West
+B,18.13,Urban,FTTC,95.56%,0.96413,West Midlands
+B,9.72,Urban,Cable,95.24%,1.08753,South West
+B,50.53,Urban,FTTP,95.39%,0.96413,South East
+B,0.32,Rural,ADSL2,0.00%,0.52838,Yorkshire & Humberside
+B,20.18,Urban,FTTP,95.39%,0.96413,North East
+B,9.02,Urban,FTTC,95.39%,0.50728,South East
+B,2.09,Urban,FTTC,86.67%,0.96413,East Midlands
+B,17.91,Rural,FTTC,97.16%,0.65219,East Midlands
+B,16.44,Urban,Cable,95.15%,0.96413,North East
+B,15.28,Urban,FTTC,95.35%,0.96413,East
+B,18.63,Rural,FTTC,96.74%,0.65219,East Midlands
+B,11.09,Urban,FTTC,95.64%,0.96413,Yorkshire & Humberside
+B,0.71,Urban,ADSL2,94.58%,2.66281,Yorkshire & Humberside
+B,16.09,Urban,FTTC,95.44%,0.96413,West Midlands
+B,0.69,Rural,ADSL2,95.62%,0.52838,East
+B,18.47,Urban,FTTC,95.77%,0.96413,North East
+B,17.85,Urban,FTTC,95.08%,0.96413,West Midlands
+B,12.92,Urban,FTTC,93.20%,0.96413,Scotland
+B,0.94,Rural,FTTC,95.39%,0.96413,Yorkshire & Humberside
+B,12.89,Urban,FTTC,98.39%,0.96413,South East
+B,18.41,Urban,FTTC,95.34%,0.96413,Scotland
+B,0.53,Rural,ADSL2,92.74%,0.52838,Northern Ireland
+B,6.13,Urban,FTTC,95.39%,0.50728,East
+B,0.83,Rural,ADSL2,95.00%,0.52838,South East
+B,0.52,Rural,ADSL2,50.78%,0.52838,South East
+B,20.18,Urban,FTTP,95.39%,0.96413,South West
+B,15.5,Urban,FTTC,95.02%,0.96413,South East
+B,5.7,Urban,FTTC,95.14%,0.96413,South East
+B,20.13,Urban,FTTP,95.39%,0.96413,Yorkshire & Humberside
+B,18.43,Rural,FTTC,95.18%,0.96413,Scotland
+B,6.63,Urban,FTTC,95.40%,0.50728,Yorkshire & Humberside
+B,16.67,Urban,FTTC,97.00%,0.96413,West Midlands
+B,9.1,Urban,FTTC,94.32%,0.96413,Wales
+B,36.37,Urban,Cable,100.00%,1.08753,London
+B,5.16,Rural,FTTC,96.40%,1.56946,South West
+B,6.27,Urban,FTTC,95.30%,0.50728,South East
+B,3.89,Urban,FTTC,94.95%,0.96413,South East
+A,12.88,Urban,FTTC,95.60%,0.96413,East
+B,17.85,Urban,FTTC,94.15%,0.96413,Northern Ireland
+B,3.15,Rural,FTTC,95.67%,0.96413,South West
+B,9.69,Rural,Cable,95.38%,0.54408,East
+B,17.85,Urban,FTTC,95.13%,0.96413,Yorkshire & Humberside
+B,7.19,Urban,FTTC,95.54%,0.50728,South East
+B,17.93,Urban,FTTC,95.39%,0.96413,North West
+B,9.53,Urban,FTTC,96.20%,0.50728,East
+B,18.51,Rural,FTTC,96.68%,0.96413,South East
+B,9.9,Urban,Cable,95.36%,1.08753,East
+B,9.26,Rural,FTTC,95.31%,0.86356,Wales
+B,4.44,Rural,FTTC,91.18%,0.86356,Yorkshire & Humberside
+B,4.83,Urban,Cable,96.07%,1.08753,South East
+B,6.08,Rural,FTTC,94.87%,0.96413,Scotland
+B,18.39,Urban,FTTC,94.81%,0.96413,South East
+B,20.19,Urban,FTTP,95.39%,0.96413,South West
+B,0.86,Urban,ADSL2,95.20%,2.66281,Wales
+B,7.83,Urban,FTTC,95.08%,0.50728,East
+B,30.13,Urban,FTTP,95.39%,0.96413,North West
+B,5.44,Urban,FTTC,94.93%,0.50728,South East
+B,15.16,Urban,FTTC,95.38%,0.96413,South East
+B,6.61,Urban,FTTC,95.40%,0.50728,Scotland
+B,4.78,Urban,FTTC,95.40%,0.96413,South East
+B,18.04,Urban,FTTC,96.20%,0.96413,East
+B,9.24,Urban,FTTC,93.24%,0.50728,East
+B,8.31,Urban,FTTC,95.42%,1.75829,Scotland
+B,16.4,Urban,FTTC,96.06%,0.96413,North West
+B,8.98,Rural,FTTC,93.98%,1.56946,South West
+B,0.94,Urban,ADSL2,96.47%,2.66281,South West
+B,17.78,Urban,FTTC,96.23%,0.96413,London
+B,19.05,Urban,FTTC,97.48%,0.96413,Northern Ireland
+B,8.83,Urban,FTTC,96.55%,0.50728,South West
+B,6.0,Urban,FTTC,97.56%,0.96413,East
+B,9.69,Urban,Cable,96.14%,1.08753,West Midlands
+B,6.06,Rural,FTTC,95.39%,0.96413,South West
+B,17.37,Urban,FTTC,95.39%,0.96413,North East
+B,9.1,Urban,FTTC,95.49%,0.50728,South West
+B,0.6,Urban,ADSL2,94.43%,2.66281,Yorkshire & Humberside
+B,16.69,Urban,FTTC,96.75%,0.96413,South East
+B,18.48,Urban,FTTC,95.39%,0.96413,Scotland
+B,9.11,Urban,FTTC,94.80%,0.50728,Scotland
+Hull,31.44,Urban,FTTP,95.12%,0.26727,Yorkshire & Humberside
+B,15.25,Rural,FTTC,96.18%,0.96413,West Midlands
+B,0.34,Rural,ADSL2,94.56%,0.96413,Wales
+B,9.94,Urban,Cable,95.38%,1.08753,East
+B,0.66,Rural,ADSL2,94.24%,0.52838,North West
+B,2.81,Rural,FTTC,90.91%,0.96413,West Midlands
+B,5.76,Urban,FTTC,95.64%,0.96413,East
+B,9.75,Urban,Cable,95.20%,1.08753,North West
+B,19.9,Urban,Cable,95.35%,1.08753,East Midlands
+B,50.54,Urban,FTTP,95.39%,0.96413,North East
+B,10.07,Rural,FTTC,96.86%,0.65219,South East
+B,29.74,Urban,FTTP,95.39%,0.96413,North East
+B,4.03,Urban,FTTC,95.68%,0.96413,Yorkshire & Humberside
+B,3.57,Urban,FTTC,95.18%,0.50728,North West
+B,17.84,Urban,FTTC,94.99%,0.96413,East
+B,17.59,Rural,FTTC,95.93%,0.65219,Wales
+B,9.1,Rural,FTTC,95.51%,0.96413,South East
+B,20.7,Urban,Cable,94.66%,1.08753,Yorkshire & Humberside
+B,15.15,Urban,FTTC,96.49%,0.96413,East
+B,15.71,Urban,FTTC,96.07%,0.96413,North West
+Hull,9.4,Urban,FTTP,95.08%,0.26727,Yorkshire & Humberside
+B,35.37,Urban,Cable,92.90%,0.96413,West Midlands
+B,11.82,Urban,FTTC,95.14%,0.96413,South West
+B,4.49,Urban,FTTC,95.44%,0.50728,East
+B,18.52,Urban,FTTC,95.12%,0.96413,South East
+B,16.36,Urban,FTTC,92.93%,0.96413,East Midlands
+B,20.22,Urban,FTTP,95.39%,0.96413,South East
+B,6.14,Rural,FTTC,96.31%,0.86356,East
+B,9.26,Urban,FTTC,95.39%,0.96413,South East
+B,18.5,Urban,FTTC,95.43%,0.96413,East
+B,18.37,Urban,FTTC,94.37%,0.96413,London
+B,33.99,Urban,Cable,94.95%,1.08753,South East
+B,50.32,Urban,FTTP,95.35%,0.96413,Northern Ireland
+B,17.02,Urban,FTTC,95.58%,0.96413,South East
+B,18.44,Rural,FTTC,95.39%,0.96413,South West
+B,1.54,Urban,FTTC,96.10%,0.96413,East
+B,30.19,Urban,FTTP,95.39%,0.96413,West Midlands
+B,17.19,Rural,FTTC,96.52%,0.96413,East Midlands
+B,20.21,Urban,FTTP,95.39%,0.26727,Scotland
+B,0.32,Rural,ADSL2,0.00%,0.52838,Wales
+B,18.04,Urban,FTTC,95.87%,0.96413,South East
+B,18.38,Urban,FTTC,95.11%,0.96413,North West
+B,17.12,Urban,FTTC,95.58%,0.96413,London
+B,20.92,Urban,Cable,95.27%,1.08753,North East
+B,0.3,Urban,ADSL1,64.77%,2.18892,Yorkshire & Humberside
+B,29.99,Urban,Cable,94.40%,1.08753,South East
+A,0.51,Rural,ADSL2,95.12%,0.52838,South East
+B,6.2,Rural,FTTC,94.19%,0.86356,South East
+B,18.43,Urban,FTTC,96.51%,0.96413,Scotland
+B,0.56,Rural,ADSL1,82.81%,0.35144,South West
+B,18.22,Urban,FTTC,96.15%,0.96413,North East
+B,5.35,Urban,FTTC,95.59%,0.96413,East
+B,0.84,Rural,ADSL2,98.20%,0.52838,South West
+B,17.49,Urban,FTTC,95.37%,0.96413,Wales
+B,20.16,Urban,FTTP,95.39%,0.96413,North West
+B,8.9,Rural,FTTC,95.39%,0.96413,South West
+B,17.34,Urban,FTTC,95.25%,0.96413,South West
+B,0.85,Rural,ADSL2,94.25%,0.52838,South West
+B,17.65,Urban,FTTC,95.92%,0.96413,Scotland
+Hull,0.85,Urban,ADSL2,95.40%,2.66281,Yorkshire & Humberside
+A,2.57,Rural,Fixed Wireless,95.39%,0.96413,Wales
+B,13.36,Urban,FTTC,93.92%,0.96413,London
+B,9.0,Urban,FTTC,95.89%,0.50728,East
+B,9.14,Urban,FTTC,96.22%,0.50728,South East
+B,7.78,Urban,FTTC,94.89%,0.50728,South East
+B,2.71,Rural,FTTC,95.07%,0.96413,South East
+B,17.63,Urban,FTTC,95.11%,0.96413,East
+B,18.54,Urban,FTTC,95.48%,0.96413,Yorkshire & Humberside
+B,0.91,Urban,ADSL2,94.48%,2.66281,South East
+B,18.36,Urban,FTTC,94.72%,0.96413,South East
+B,9.2,Urban,FTTC,95.39%,0.96413,South East
+B,4.47,Urban,Cable,94.68%,1.08753,West Midlands
+B,8.66,Rural,FTTC,95.42%,0.96413,Yorkshire & Humberside
+B,2.86,Rural,FTTC,96.09%,0.86356,Scotland
+B,15.8,Urban,FTTC,95.10%,0.96413,South East
+B,15.51,Rural,FTTC,91.16%,0.96413,North West
+B,35.29,Urban,Cable,95.25%,0.96413,North West
+B,9.35,Urban,Cable,94.34%,1.08753,South East
+B,9.83,Rural,FTTC,96.36%,0.96413,East
+B,14.46,Urban,FTTC,95.21%,0.96413,East
+B,16.79,Urban,FTTC,95.38%,0.96413,North West
+Hull,9.4,Urban,FTTP,95.45%,0.26727,Yorkshire & Humberside
+B,0.86,Rural,ADSL2,95.42%,0.52838,South East
+Hull,33.02,Urban,FTTP,94.29%,0.26727,Yorkshire & Humberside
+B,8.17,Urban,Cable,94.86%,1.08753,South West
+B,20.48,Urban,Cable,95.39%,1.08753,West Midlands
+B,8.4,Urban,FTTC,95.56%,0.50728,North West
+B,36.15,Urban,Cable,95.48%,0.96413,South West
+B,5.82,Urban,FTTC,95.69%,0.50728,North West
+Hull,20.87,Urban,FTTP,95.40%,0.26727,Yorkshire & Humberside
+B,20.21,Urban,FTTP,95.39%,0.96413,Wales
+B,20.82,Urban,Cable,95.50%,1.08753,London
+B,9.48,Urban,FTTC,97.35%,0.96413,East Midlands
+Hull,116.08,Urban,FTTP,92.16%,0.26727,Yorkshire & Humberside
+B,30.57,Urban,FTTP,100.00%,0.26727,London
+A,0.61,Rural,ADSL2,95.28%,0.52838,Scotland
+B,8.72,Urban,FTTC,95.65%,0.96413,East
+B,15.7,Urban,FTTC,95.39%,0.96413,Wales
+B,18.25,Urban,FTTC,95.54%,0.96413,South East
+A,6.79,Rural,Fixed Wireless,95.39%,0.96413,South West
+B,9.3,Urban,FTTC,94.39%,0.50728,North West
+B,18.27,Urban,FTTC,95.34%,0.96413,South West
+B,15.39,Urban,FTTC,95.21%,0.96413,North West
+B,17.72,Urban,FTTC,95.94%,0.96413,Scotland
+B,35.72,Urban,Cable,95.71%,0.96413,Yorkshire & Humberside
+B,20.63,Rural,FTTP,97.93%,0.96413,Wales
+B,20.8,Urban,Cable,95.65%,1.08753,North West
+B,50.54,Urban,FTTP,95.39%,0.96413,West Midlands
+B,6.16,Urban,FTTC,95.59%,0.50728,North West
+B,29.74,Urban,FTTP,95.39%,0.96413,North East
+Hull,18.8,Urban,FTTP,95.12%,0.26727,Yorkshire & Humberside
+B,5.44,Rural,FTTC,95.01%,0.96413,South West
+B,2.46,Urban,FTTC,95.36%,0.96413,North West
+B,20.71,Urban,Cable,95.70%,1.08753,Yorkshire & Humberside
+B,5.82,Urban,FTTC,95.03%,0.96413,South East
+B,20.38,Urban,FTTP,95.36%,0.26727,South East
+B,0.78,Rural,ADSL2,100.00%,0.52838,Northern Ireland
+B,15.42,Urban,FTTC,96.40%,0.96413,West Midlands
+B,9.28,Urban,FTTC,95.29%,0.50728,North East
+A,9.67,Rural,FTTP,94.32%,0.29132,Wales
+B,5.36,Urban,FTTC,98.99%,0.96413,East Midlands
+B,5.24,Urban,FTTC,95.39%,0.96413,South East
+B,18.49,Urban,FTTC,95.31%,0.96413,West Midlands
+B,18.53,Urban,FTTC,95.89%,0.96413,North West
+B,20.75,Urban,Cable,95.39%,1.08753,Scotland
+B,20.18,Urban,FTTP,95.39%,0.96413,South West
+B,6.4,Urban,FTTC,95.43%,0.50728,North East
+B,0.99,Urban,ADSL2,94.96%,2.66281,South East
+B,12.77,Urban,FTTC,95.28%,0.96413,North West
+B,8.25,Urban,FTTC,98.51%,0.96413,Northern Ireland
+B,18.45,Rural,FTTC,94.12%,0.96413,North West
+B,9.11,Urban,FTTC,95.60%,0.50728,North West
+B,18.34,Urban,FTTC,95.47%,0.96413,North West
+B,19.94,Urban,FTTP,95.39%,0.96413,Scotland
+B,19.84,Urban,Cable,95.43%,1.08753,South East
+B,18.21,Rural,FTTC,95.99%,0.96413,South West
+B,17.38,Urban,FTTC,96.10%,0.96413,Yorkshire & Humberside
+B,20.79,Urban,Cable,95.82%,1.08753,East Midlands
+B,16.87,Urban,FTTC,95.96%,0.96413,London
+B,18.13,Urban,FTTC,94.21%,0.96413,North West
+B,32.5,Urban,Cable,94.92%,0.96413,South East
+B,35.0,Urban,Cable,95.40%,0.96413,South East
+B,16.01,Rural,FTTC,93.75%,0.65219,Scotland
+B,7.56,Urban,FTTC,91.18%,0.96413,Yorkshire & Humberside
+B,17.98,Urban,FTTC,94.71%,0.96413,Wales
+B,9.91,Urban,Cable,95.35%,1.08753,East
+B,14.07,Urban,FTTC,95.39%,0.96413,Scotland
+B,9.35,Urban,FTTC,95.39%,0.96413,Scotland
+B,0.66,Rural,ADSL2,95.92%,0.52838,Scotland
+B,0.89,Rural,ADSL2,93.69%,0.52838,Yorkshire & Humberside
+B,0.57,Rural,FTTC,36.84%,0.96413,South West
+B,9.12,Urban,FTTC,95.29%,0.50728,South East
+B,8.84,Urban,FTTC,96.08%,0.50728,South East
+B,18.43,Urban,FTTC,94.40%,0.96413,Yorkshire & Humberside
+B,11.59,Rural,FTTC,94.50%,0.65219,North East
+B,18.14,Urban,FTTP,95.39%,0.26727,North East
+B,9.19,Urban,FTTC,95.22%,0.96413,Yorkshire & Humberside
+B,5.13,Urban,FTTC,96.54%,0.96413,East
+B,17.87,Rural,FTTC,95.39%,0.65219,Scotland
+B,48.55,Urban,FTTP,95.39%,0.96413,East Midlands
+B,3.99,Urban,FTTC,95.39%,0.50728,West Midlands
+B,18.34,Urban,FTTC,95.42%,0.96413,North West
+B,18.43,Urban,FTTC,96.52%,0.96413,South East
+B,8.85,Urban,FTTC,94.12%,0.96413,North West
+B,16.53,Urban,FTTC,95.16%,0.96413,Yorkshire & Humberside
+B,4.6,Urban,Cable,94.84%,1.08753,North East
+A,0.2,Rural,ADSL1,0.00%,0.35144,Scotland
+B,18.1,Urban,FTTC,95.39%,0.96413,Wales
+B,30.29,Urban,FTTP,95.39%,0.96413,South East
+B,16.77,Urban,FTTC,95.97%,0.96413,South East
+B,7.04,Rural,FTTC,95.75%,0.86356,South West
+B,14.56,Urban,FTTC,96.50%,0.96413,East Midlands
+B,28.6,Rural,Fixed Wireless,95.39%,0.96413,East Midlands
+B,15.67,Urban,FTTP,95.39%,0.96413,Northern Ireland
+B,0.9,Rural,ADSL2,95.18%,0.52838,North West
+B,9.25,Urban,FTTC,96.07%,0.50728,Yorkshire & Humberside
+B,9.94,Urban,Cable,94.32%,1.08753,London
+B,6.35,Urban,FTTC,95.28%,0.50728,Wales
+Hull,9.5,Urban,FTTP,93.44%,0.26727,Yorkshire & Humberside
+B,50.26,Urban,FTTP,95.39%,0.96413,East
+B,20.2,Urban,FTTP,95.39%,0.96413,London
+B,9.31,Urban,FTTP,94.16%,0.26727,South West
+B,29.91,Urban,FTTP,95.39%,0.96413,Yorkshire & Humberside
+B,6.62,Urban,FTTC,95.39%,0.96413,East
+B,18.73,Urban,FTTC,95.39%,0.96413,South West
+B,20.19,Urban,FTTP,95.39%,0.96413,South West
+B,6.41,Urban,FTTC,95.39%,0.96413,West Midlands
+B,50.06,Urban,FTTP,95.39%,0.96413,Northern Ireland
+B,4.9,Urban,Cable,96.46%,1.08753,North East
+B,18.42,Urban,FTTC,100.00%,0.96413,Wales
+B,9.14,Urban,FTTC,98.64%,0.50728,South East
+B,8.98,Urban,FTTC,96.51%,0.96413,Scotland
+B,0.52,Rural,ADSL2,94.43%,0.96413,Scotland
+B,0.81,Rural,ADSL2,95.39%,0.52838,South West
+B,7.84,Urban,FTTC,95.08%,0.50728,North West
+B,4.88,Urban,Cable,93.44%,1.08753,North West
+Hull,9.23,Urban,FTTP,96.53%,0.26727,Yorkshire & Humberside
+B,36.48,Urban,Cable,94.70%,0.96413,East
+B,3.6,Urban,FTTC,95.71%,0.96413,South East
+B,18.53,Urban,FTTC,93.94%,0.96413,East
+B,0.81,Urban,ADSL2,96.39%,2.66281,Yorkshire & Humberside
+B,20.72,Urban,Cable,95.12%,1.08753,South West
+B,16.37,Urban,FTTC,95.24%,0.96413,East
+B,32.28,Urban,Cable,95.08%,0.96413,West Midlands
+B,9.08,Urban,FTTC,98.62%,0.96413,South East
+B,9.14,Urban,FTTC,95.35%,0.96413,North East
+B,50.39,Urban,FTTP,95.39%,0.96413,South West
+B,20.0,Urban,Cable,94.40%,1.08753,Wales
+B,0.65,Urban,ADSL2,93.64%,2.66281,Yorkshire & Humberside
+B,15.94,Urban,FTTC,96.51%,0.96413,South West
+B,10.1,Urban,FTTP,95.39%,0.96413,East
+B,8.36,Urban,FTTC,96.13%,0.50728,West Midlands
+B,0.85,Rural,FTTC,94.12%,0.86356,South West
+B,9.13,Urban,FTTC,95.39%,0.50728,South East
+B,8.02,Urban,FTTC,95.54%,0.50728,North East
+B,13.44,Rural,FTTC,95.47%,0.96413,South East
+B,8.9,Urban,FTTC,95.60%,0.50728,East Midlands
+B,9.2,Urban,FTTC,95.39%,1.75829,North East
+B,35.57,Rural,Fixed Wireless,95.39%,0.96413,Northern Ireland
+B,50.56,Urban,FTTP,95.39%,0.96413,London
+B,6.31,Urban,FTTC,96.49%,0.96413,North West
+B,17.49,Urban,FTTC,95.22%,0.96413,Scotland
+B,18.48,Urban,FTTC,95.99%,0.96413,East Midlands
+B,20.17,Urban,FTTP,95.39%,0.96413,West Midlands
+B,47.88,Urban,FTTP,94.36%,0.96413,North West
+B,1.01,Urban,ADSL2,92.20%,2.66281,North East
+B,18.38,Urban,FTTC,95.69%,0.96413,West Midlands
+B,47.48,Rural,FTTP,95.36%,0.96413,Wales
+B,5.22,Urban,FTTC,96.05%,0.50728,South West
+B,9.95,Urban,Cable,95.40%,1.08753,South West
+B,17.96,Rural,FTTC,95.52%,0.96413,East
+B,0.87,Urban,FTTC,95.39%,0.50728,South East
+B,9.43,Urban,Cable,95.40%,1.08753,South East
+B,12.15,Urban,FTTC,94.91%,0.96413,North West
+B,5.45,Rural,Cable,95.77%,0.54408,South East
+B,0.34,Rural,ADSL2,0.00%,0.52838,Scotland
+B,35.71,Urban,Cable,92.68%,1.08753,West Midlands
+B,9.95,Urban,Cable,95.17%,1.08753,South East
+B,9.02,Urban,FTTC,95.00%,0.96413,Yorkshire & Humberside
+B,19.12,Urban,FTTP,95.39%,0.96413,South East
+B,10.83,Urban,FTTC,98.95%,0.96413,North West
+B,5.7,Rural,FTTC,95.30%,0.65219,Wales
+B,4.53,Urban,Cable,95.35%,1.08753,East
+B,0.96,Urban,ADSL2,95.38%,2.66281,South West
+B,9.35,Urban,FTTC,95.39%,0.96413,East
+B,8.05,Rural,FTTC,85.90%,0.96413,East Midlands
+B,7.11,Urban,FTTC,100.00%,0.96413,Northern Ireland
+B,50.56,Urban,FTTP,95.39%,0.96413,East
+B,0.93,Urban,ADSL2,95.32%,2.66281,London
+B,9.6,Urban,FTTC,96.28%,0.96413,South East
+B,6.1,Urban,FTTC,95.65%,0.50728,North West
+B,20.74,Urban,Cable,95.54%,1.08753,Yorkshire & Humberside
+B,18.53,Urban,FTTC,95.21%,0.96413,North East
+B,32.52,Urban,Cable,95.20%,0.96413,Yorkshire & Humberside
+B,18.44,Urban,FTTC,96.44%,0.96413,Scotland
+B,18.39,Urban,FTTC,95.38%,0.96413,Yorkshire & Humberside
+B,20.05,Urban,Cable,96.41%,1.08753,West Midlands
+B,18.45,Urban,FTTC,95.39%,0.96413,Northern Ireland
+B,8.7,Urban,FTTC,95.18%,0.96413,London
+B,50.54,Urban,FTTP,95.39%,0.96413,East Midlands
+B,5.3,Urban,FTTC,95.45%,0.96413,South East
+B,8.65,Rural,FTTC,94.38%,0.96413,South West
+B,34.1,Urban,Cable,94.15%,1.08753,North West
+B,16.18,Urban,Cable,94.14%,1.08753,East
+B,17.76,Urban,FTTC,95.39%,0.96413,North West
+B,18.32,Rural,FTTC,96.24%,0.96413,Wales
+B,4.53,Urban,FTTC,95.33%,0.50728,North East
+B,7.73,Urban,FTTC,94.92%,1.75829,West Midlands
+B,0.91,Rural,ADSL2,94.96%,0.52838,South West
+B,9.11,Rural,FTTC,100.00%,0.96413,East
+B,12.32,Urban,FTTC,95.22%,0.96413,North West
+B,50.44,Urban,FTTP,95.39%,0.26727,Yorkshire & Humberside
+B,18.36,Urban,FTTC,95.45%,0.96413,North East
+B,50.46,Urban,FTTP,95.39%,0.96413,Wales
+B,38.19,Rural,Fixed Wireless,95.39%,0.96413,South East
+B,9.51,Urban,Cable,95.64%,1.08753,South West
+B,27.83,Rural,Fixed Wireless,95.39%,0.96413,East
+B,9.86,Urban,Cable,95.24%,1.08753,South East
+B,18.73,Urban,Cable,95.36%,1.08753,South West
+B,0.77,Urban,ADSL2,95.63%,2.66281,Yorkshire & Humberside
+B,17.82,Urban,FTTC,95.35%,0.96413,South East
+B,0.62,Urban,ADSL2,0.00%,2.66281,South West
+B,7.63,Urban,FTTC,94.25%,0.96413,South East
+B,17.71,Rural,FTTC,96.37%,0.65219,West Midlands
+B,50.54,Urban,FTTP,95.39%,0.96413,East
+B,16.42,Urban,FTTC,95.29%,0.96413,West Midlands
+B,8.97,Urban,FTTC,96.32%,0.50728,West Midlands
+B,0.69,Rural,ADSL2,95.39%,0.52838,South East
+B,7.3,Urban,Cable,95.67%,1.08753,South East
+B,18.49,Urban,FTTC,92.67%,0.96413,East Midlands
+B,29.67,Urban,Cable,95.97%,0.96413,South West
+B,0.78,Rural,ADSL2,96.56%,0.52838,South East
+B,17.19,Rural,FTTC,95.59%,0.65219,South West
+B,7.95,Urban,FTTC,95.39%,0.50728,East Midlands
+B,20.18,Urban,FTTP,95.39%,0.96413,South West
+B,9.12,Urban,FTTC,94.25%,0.96413,South West
+B,50.47,Urban,FTTP,95.39%,0.96413,Scotland
+B,6.87,Urban,FTTC,95.43%,0.96413,South West
+B,6.6,Urban,FTTC,95.35%,0.50728,North West
+B,16.73,Urban,FTTC,96.33%,0.96413,Scotland
+B,28.73,Urban,FTTP,95.38%,0.26727,London
+B,7.36,Rural,FTTC,96.18%,0.96413,West Midlands
+B,8.39,Urban,FTTC,93.66%,0.50728,South West
+B,18.4,Urban,FTTC,95.18%,0.96413,East
+B,9.6,Urban,Cable,95.21%,1.08753,Wales
+B,18.01,Urban,FTTC,95.98%,0.96413,South East
+B,9.17,Rural,FTTC,94.05%,0.86356,West Midlands
+B,0.36,Rural,ADSL1,0.00%,0.35144,Scotland
+B,9.74,Urban,Cable,96.52%,1.08753,North West
+B,9.1,Urban,FTTC,95.24%,1.75829,Northern Ireland
+B,18.35,Urban,FTTC,95.09%,0.96413,South West
+B,4.71,Rural,Cable,95.25%,0.54408,South East
+B,10.32,Urban,FTTC,95.43%,0.96413,South East
+B,18.0,Urban,FTTC,95.36%,0.96413,London
+B,0.76,Urban,ADSL2,96.55%,2.66281,North West
+B,6.51,Urban,FTTC,96.05%,0.50728,London
+B,6.89,Urban,FTTC,95.35%,0.96413,Northern Ireland
+B,0.62,Urban,ADSL2,95.99%,2.66281,East
+B,14.8,Urban,FTTC,95.60%,0.96413,South East
+B,30.23,Urban,FTTP,95.39%,0.96413,South East
+B,10.25,Urban,FTTC,95.47%,0.96413,East Midlands
+B,0.36,Rural,ADSL2,0.00%,0.52838,South West
+B,8.96,Rural,FTTC,96.32%,0.86356,West Midlands
+B,17.2,Rural,FTTC,98.78%,0.65219,South East
+B,18.5,Urban,FTTC,94.46%,0.96413,Scotland
+B,6.85,Urban,FTTC,95.13%,0.96413,South East
+B,6.6,Rural,FTTC,95.00%,0.96413,East
+A,0.63,Rural,ADSL2,90.64%,0.52838,Wales
+B,30.3,Urban,FTTP,95.39%,0.96413,West Midlands
+B,1.13,Rural,Fixed Wireless,95.39%,0.96413,South East
+B,0.27,Rural,ADSL1,0.00%,0.35144,Northern Ireland
+B,8.45,Urban,FTTC,93.64%,0.50728,London
+B,14.07,Rural,FTTC,95.11%,0.65219,South East
+B,9.58,Urban,Cable,95.60%,1.08753,South East
+B,9.25,Rural,FTTC,94.67%,1.56946,Scotland
+B,0.87,Rural,ADSL2,95.66%,0.96413,Scotland
+B,18.4,Urban,FTTC,95.44%,0.96413,South West
+B,4.96,Urban,Cable,95.65%,1.08753,London
+B,1.1,Urban,FTTC,95.39%,0.96413,East
+B,6.67,Rural,FTTC,95.13%,0.86356,Scotland
+B,8.24,Rural,FTTC,94.55%,0.86356,South East
+B,9.75,Urban,FTTC,97.14%,0.96413,East
+B,18.0,Urban,FTTC,95.65%,0.96413,East
+B,18.22,Urban,FTTC,95.82%,0.96413,North East
+B,34.53,Urban,Cable,95.36%,0.96413,East Midlands
+B,924.81,Urban,FTTP,94.94%,0.26727,Yorkshire & Humberside
+B,16.3,Urban,FTTC,95.45%,0.96413,South East
+B,36.62,Urban,Cable,95.39%,1.08753,South East
+B,9.58,Urban,Cable,95.42%,1.08753,East
+B,8.95,Urban,FTTC,96.51%,0.96413,South East
+B,9.28,Urban,FTTC,94.90%,0.50728,North West
+B,8.76,Urban,FTTC,94.87%,0.50728,South West
+B,6.87,Urban,FTTC,96.14%,0.50728,East Midlands
+B,8.75,Rural,FTTC,95.35%,0.86356,Yorkshire & Humberside
+A,8.18,Rural,FTTC,96.55%,0.86356,South West
+B,0.79,Rural,ADSL2,92.55%,0.52838,West Midlands
+B,20.28,Urban,Cable,95.28%,1.08753,South East
+B,9.32,Urban,FTTC,95.68%,0.96413,South East
+B,18.51,Urban,FTTC,95.44%,0.96413,Yorkshire & Humberside
+B,9.88,Urban,Cable,98.39%,1.08753,South East
+B,18.41,Rural,FTTC,95.45%,0.65219,South West
+Hull,0.71,Rural,ADSL2,94.12%,0.52838,Yorkshire & Humberside
+B,0.53,Urban,ADSL2,89.97%,2.66281,North West
+B,17.28,Urban,Cable,97.45%,1.08753,Scotland
+B,0.92,Rural,FTTC,96.51%,0.96413,Scotland
+B,18.35,Urban,FTTC,96.43%,0.96413,Scotland
+B,12.89,Urban,FTTC,97.10%,0.96413,Scotland
+B,18.3,Urban,FTTC,95.15%,0.96413,Yorkshire & Humberside
+B,3.62,Urban,FTTC,95.35%,0.96413,South East
+B,18.37,Urban,FTTC,95.53%,0.96413,Scotland
+B,18.54,Urban,FTTC,95.39%,0.96413,Northern Ireland
+B,18.24,Urban,FTTC,96.13%,0.96413,South East
+B,9.13,Urban,FTTC,96.33%,1.75829,North West
+Hull,28.46,Urban,FTTP,96.47%,0.26727,Yorkshire & Humberside
+B,0.58,Urban,ADSL2,95.39%,2.66281,East Midlands
+B,0.72,Rural,ADSL2,94.29%,0.52838,South West
+B,8.44,Rural,FTTC,95.93%,0.96413,South East
+B,13.58,Urban,FTTC,95.67%,0.96413,Yorkshire & Humberside
+B,9.83,Urban,Cable,93.38%,1.08753,South East
+B,18.27,Urban,FTTC,96.73%,0.96413,East
+B,7.82,Rural,Fixed Wireless,95.39%,0.96413,Yorkshire & Humberside
+B,16.36,Urban,FTTC,95.49%,0.96413,South West
+B,28.31,Urban,FTTP,95.98%,0.96413,West Midlands
+B,0.35,Rural,ADSL1,80.97%,0.35144,Scotland
+B,18.43,Urban,FTTC,95.29%,0.96413,West Midlands
+B,18.35,Rural,FTTC,95.45%,0.96413,South West
+B,8.88,Urban,Cable,95.36%,1.08753,South West
+B,16.32,Urban,FTTC,95.95%,0.96413,Wales
+B,20.18,Urban,FTTP,95.39%,0.26727,Yorkshire & Humberside
+Hull,14.28,Rural,FTTP,95.45%,0.96413,Yorkshire & Humberside
+B,0.81,Urban,ADSL2,95.65%,2.66281,South West
+B,0.92,Rural,ADSL1,83.48%,0.96413,East
+Hull,28.59,Urban,FTTP,90.32%,0.26727,Yorkshire & Humberside
+B,18.26,Urban,FTTC,96.20%,0.96413,North East
+B,18.48,Urban,FTTC,95.68%,0.96413,West Midlands
+B,18.45,Urban,FTTC,95.71%,0.96413,East
+B,1.6,Rural,FTTC,96.14%,0.96413,Yorkshire & Humberside
+B,16.17,Rural,FTTC,96.11%,0.96413,Wales
+B,18.46,Urban,FTTC,96.42%,0.96413,Wales
+B,2.21,Rural,FTTC,95.59%,0.86356,Wales
+B,35.73,Rural,Cable,85.37%,0.54408,South West
+B,0.88,Urban,ADSL2,95.37%,2.66281,East
+B,6.03,Urban,FTTC,95.20%,0.96413,East Midlands
+B,17.13,Urban,FTTC,94.59%,0.96413,London
+B,3.31,Urban,FTTC,96.67%,0.50728,South West
+B,20.75,Urban,Cable,94.16%,1.08753,Yorkshire & Humberside
+B,9.1,Urban,FTTC,93.88%,0.96413,North West
+B,4.3,Rural,FTTC,96.00%,0.65219,South East
+B,8.0,Urban,FTTC,95.32%,1.75829,West Midlands
+B,0.29,Rural,ADSL1,0.00%,0.35144,Wales
+B,18.53,Urban,FTTC,95.64%,0.96413,South East
+B,0.35,Rural,ADSL2,0.00%,0.52838,South East
+Hull,9.47,Urban,FTTP,97.44%,0.26727,Yorkshire & Humberside
+B,17.42,Urban,FTTC,99.00%,0.96413,East Midlands
+Hull,11.8,Rural,FTTC,95.38%,0.96413,Yorkshire & Humberside
+B,0.67,Urban,ADSL2,94.97%,2.66281,Scotland
+B,8.78,Urban,FTTC,95.35%,0.50728,Yorkshire & Humberside
+B,20.34,Urban,FTTP,95.19%,0.96413,East
+B,18.57,Rural,FTTC,93.94%,0.65219,Scotland
+B,18.33,Urban,FTTC,95.11%,0.96413,Yorkshire & Humberside
+B,33.55,Urban,Cable,94.00%,0.96413,East Midlands
+B,3.07,Urban,FTTC,91.24%,0.50728,East Midlands
+B,5.2,Urban,FTTC,95.39%,0.96413,South West
+B,8.78,Urban,FTTC,94.96%,0.50728,Scotland
+B,9.09,Urban,FTTC,96.25%,1.75829,North West
+B,8.64,Urban,FTTC,92.68%,0.50728,Northern Ireland
+B,16.19,Urban,FTTC,94.57%,0.96413,North West
+B,20.2,Urban,FTTP,95.39%,0.96413,London
+B,16.66,Urban,FTTC,95.42%,0.96413,East
+B,826.21,Urban,FTTP,95.05%,0.26727,Scotland

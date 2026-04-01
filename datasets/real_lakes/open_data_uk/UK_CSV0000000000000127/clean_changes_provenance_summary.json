@@ -1,0 +1,237 @@
+{
+  "total_changes": 226,
+  "error_type_counts": {
+    "FD_VIOLATION": 117,
+    "RANDOM_TYPO": 105,
+    "UNKNOWN": 4
+  },
+  "columns_affected": [
+    "package_area",
+    "region_code",
+    "total_cost",
+    "customer_id",
+    "total_cost,\"$3,500",
+    "order_id",
+    "location_code",
+    "package_length",
+    "location_id",
+    "shipping_length",
+    "region_name",
+    "total_cost,\"2$52,894",
+    "total_cost,\"$,1800,719",
+    "total_cost,\"252,894",
+    "total_cost,\"$31,50000\""
+  ],
+  "configuration": {
+    "total_error_percentage": 21,
+    "fd_percentage": 10,
+    "outlier_percentage": 0,
+    "typo_percentage": 10,
+    "fd_violations": [
+      {
+        "determinant": "location_code",
+        "dependant": "shipping_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "package_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "package_area",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "location_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "customer_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "total_cost",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "order_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "region_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "location_code",
+        "dependant": "region_name",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "location_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "package_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "package_area",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "location_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "customer_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "total_cost",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "order_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "region_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "shipping_length",
+        "dependant": "region_name",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "location_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "shipping_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "package_area",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "location_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "customer_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "total_cost",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "order_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "region_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_length",
+        "dependant": "region_name",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "location_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "shipping_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "package_length",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "location_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "customer_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "total_cost",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "order_id",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "region_code",
+        "percentage": 5.32319391634981
+      },
+      {
+        "determinant": "package_area",
+        "dependant": "region_name",
+        "percentage": 4.562737642585551
+      },
+      {
+        "determinant": "region_code",
+        "dependant": "region_name",
+        "percentage": 4.562737642585551
+      },
+      {
+        "determinant": "region_name",
+        "dependant": "region_code",
+        "percentage": 4.562737642585551
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "order_id",
+      "customer_id",
+      "location_code",
+      "location_id",
+      "total_cost",
+      "region_code",
+      "region_name"
+    ],
+    "num_fd_rules": 38,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 7
+  },
+  "used_bart_native_types": true
+}

@@ -1,0 +1,331 @@
+<task>
+    <!-- ****************************************************
+                      DATABASES
+    **************************************************** -->
+    <target> 
+        <type>DBMS</type>
+        <access-configuration>
+            <driver>org.postgresql.Driver</driver>
+            <uri>jdbc:postgresql://localhost:5434/bartdb</uri>
+            <schema>target</schema>
+            <login>postgres</login>
+            <password>postgres</password>
+        </access-configuration>
+    </target>
+
+    <!-- ****************************************************
+                    DEPENDENCIES
+    **************************************************** -->
+    <dependencies><![CDATA[DCs: 
+
+            e1: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $aphia_id1 != $aphia_id2 -> #fail. 
+
+        
+            e2: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $species1 != $species2 -> #fail. 
+
+        
+            e3: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $sample_key1 != $sample_key2 -> #fail. 
+
+        
+            e4: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $location_name1 != $location_name2 -> #fail. 
+
+        
+            e5: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $sample_comment1 != $sample_comment2 -> #fail. 
+
+        
+            e6: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $latitude1 != $latitude2 -> #fail. 
+
+        
+            e7: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $longitude1 != $longitude2 -> #fail. 
+
+        
+            e8: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e9: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e10: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $abundance_sacforn1 != $abundance_sacforn2 -> #fail. 
+
+        
+            e11: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $record_key1 == $record_key2, $uncertain1 != $uncertain2 -> #fail. 
+
+        
+            e12: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $aphia_id1 == $aphia_id2, $species1 != $species2 -> #fail. 
+
+        
+            e13: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $species1 == $species2, $aphia_id1 != $aphia_id2 -> #fail. 
+
+        
+            e14: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $location_name1 != $location_name2 -> #fail. 
+
+        
+            e15: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $sample_comment1 != $sample_comment2 -> #fail. 
+
+        
+            e16: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $latitude1 != $latitude2 -> #fail. 
+
+        
+            e17: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $longitude1 != $longitude2 -> #fail. 
+
+        
+            e18: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e19: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_key1 == $sample_key2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e20: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $sample_key1 != $sample_key2 -> #fail. 
+
+        
+            e21: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $sample_comment1 != $sample_comment2 -> #fail. 
+
+        
+            e22: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $latitude1 != $latitude2 -> #fail. 
+
+        
+            e23: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $longitude1 != $longitude2 -> #fail. 
+
+        
+            e24: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e25: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $location_name1 == $location_name2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e26: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $sample_key1 != $sample_key2 -> #fail. 
+
+        
+            e27: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $location_name1 != $location_name2 -> #fail. 
+
+        
+            e28: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $latitude1 != $latitude2 -> #fail. 
+
+        
+            e29: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $longitude1 != $longitude2 -> #fail. 
+
+        
+            e30: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e31: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $sample_comment1 == $sample_comment2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e32: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $latitude1 == $latitude2, $longitude1 != $longitude2 -> #fail. 
+
+        
+            e33: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $latitude1 == $latitude2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e34: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $latitude1 == $latitude2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e35: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $longitude1 == $longitude2, $latitude1 != $latitude2 -> #fail. 
+
+        
+            e36: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $longitude1 == $longitude2, $start_date1 != $start_date2 -> #fail. 
+
+        
+            e37: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $longitude1 == $longitude2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e38: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $start_date1 == $start_date2, $end_date1 != $end_date2 -> #fail. 
+
+        
+            e39: clean(record_key: $record_key1, survey_key: $survey_key1, survey_name: $survey_name1, sample_key: $sample_key1, start_date: $start_date1, end_date: $end_date1, date_type: $date_type1, location_name: $location_name1, data_type: $data_type1, latitude: $latitude1, longitude: $longitude1, projection: $projection1, aphia_id: $aphia_id1, species: $species1, uncertain: $uncertain1, abundance_sacforn: $abundance_sacforn1, is_dead: $is_dead1, sample_comment: $sample_comment1),
+            clean(record_key: $record_key2, survey_key: $survey_key2, survey_name: $survey_name2, sample_key: $sample_key2, start_date: $start_date2, end_date: $end_date2, date_type: $date_type2, location_name: $location_name2, data_type: $data_type2, latitude: $latitude2, longitude: $longitude2, projection: $projection2, aphia_id: $aphia_id2, species: $species2, uncertain: $uncertain2, abundance_sacforn: $abundance_sacforn2, is_dead: $is_dead2, sample_comment: $sample_comment2),
+                $end_date1 == $end_date2, $start_date1 != $start_date2 -> #fail. 
+
+        ]]></dependencies>
+
+    <!-- ****************************************************
+                      CONFIGURATION
+    **************************************************** -->
+    <configuration>
+        <!-- To print extra information in the ouput (default = false) -->
+        <printLog>true</printLog>
+
+        <!-- To load DB every time on start (default = false) -->
+        <recreateDBOnStart>false</recreateDBOnStart>
+
+        <!-- To apply the changes (default = false) -->
+        <applyCellChanges>true</applyCellChanges>
+
+        <!-- To  apply cell changes on a copy of the original target, with a custom suffix (default = true) -->
+        <cloneTargetSchema>true</cloneTargetSchema>
+        <cloneSuffix>_dirty</cloneSuffix>
+
+        <!-- To export the dirty db -->
+        <exportDirtyDB>true</exportDirtyDB>
+        <exportDirtyDBPath>/home/fatemeh/RealLake-OpenData/Data-Lake-Error-Generator/output_lake_uk_unsuccessful/UK_CSV0000000000002591</exportDirtyDBPath>
+        <exportDirtyDBType>CSV</exportDirtyDBType>
+
+        <!-- To export the changes -->
+        <exportCellChanges full="true">true</exportCellChanges>
+        <exportCellChangesPath>clean_changes.csv</exportCellChangesPath>
+
+        <!-- To compute an estimate of the reparability (default = false) -->
+        <estimateRepairability>true</estimateRepairability>
+
+        <!-- To generate all possible changes (default = false - slow, only for toy examples)-->
+        <generateAllChanges>false</generateAllChanges>
+
+        <!-- To avoid interactions among changes. (default = true) -->
+        <avoidInteractions>true</avoidInteractions>
+
+        <!-- To check, at the end of the process, if changes are detectable. (default = false) -->
+        <checkChanges>true</checkChanges>
+
+        <!-- To compute an estimate of the repairability. Requires checkChanges = true. (default = false) -->
+        <estimateRepairability>true</estimateRepairability>
+
+        <!-- To use an optimized strategy for updates. (default = true) -->
+        <useDeltaDBForChanges>true</useDeltaDBForChanges>
+
+        <!-- Error percentages for dependencies and comparisons 
+        All percentages are wrt table sizes (# tuples) -->
+        <errorPercentages>
+            <defaultPercentage>0.0</defaultPercentage>
+            <vioGenQueries>
+            <vioGenQuery id="e1"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e1"><comparison>(aphia_id1 != aphia_id2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e2"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e2"><comparison>(species1 != species2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e3"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e3"><comparison>(sample_key1 != sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e4"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e4"><comparison>(location_name1 != location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e5"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e5"><comparison>(sample_comment1 != sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e6"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e6"><comparison>(latitude1 != latitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e7"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e7"><comparison>(longitude1 != longitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e8"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e8"><comparison>(start_date1 != start_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e9"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e9"><comparison>(end_date1 != end_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e10"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e10"><comparison>(abundance_sacforn1 != abundance_sacforn2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e11"><comparison>(record_key1 == record_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e11"><comparison>(uncertain1 != uncertain2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e12"><comparison>(aphia_id1 == aphia_id2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e12"><comparison>(species1 != species2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e13"><comparison>(species1 == species2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e13"><comparison>(aphia_id1 != aphia_id2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e14"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e14"><comparison>(location_name1 != location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e15"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e15"><comparison>(sample_comment1 != sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e16"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e16"><comparison>(latitude1 != latitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e17"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e17"><comparison>(longitude1 != longitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e18"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e18"><comparison>(start_date1 != start_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e19"><comparison>(sample_key1 == sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e19"><comparison>(end_date1 != end_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e20"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e20"><comparison>(sample_key1 != sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e21"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e21"><comparison>(sample_comment1 != sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e22"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e22"><comparison>(latitude1 != latitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e23"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e23"><comparison>(longitude1 != longitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e24"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e24"><comparison>(start_date1 != start_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e25"><comparison>(location_name1 == location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e25"><comparison>(end_date1 != end_date2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e26"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e26"><comparison>(sample_key1 != sample_key2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e27"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e27"><comparison>(location_name1 != location_name2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e28"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e28"><comparison>(latitude1 != latitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e29"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e29"><comparison>(longitude1 != longitude2)</comparison><percentage>3.7054409005628592</percentage></vioGenQuery><vioGenQuery id="e30"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e30"><comparison>(start_date1 != start_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e31"><comparison>(sample_comment1 == sample_comment2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e31"><comparison>(end_date1 != end_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e32"><comparison>(latitude1 == latitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e32"><comparison>(longitude1 != longitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e33"><comparison>(latitude1 == latitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e33"><comparison>(start_date1 != start_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e34"><comparison>(latitude1 == latitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e34"><comparison>(end_date1 != end_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e35"><comparison>(longitude1 == longitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e35"><comparison>(latitude1 != latitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e36"><comparison>(longitude1 == longitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e36"><comparison>(start_date1 != start_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e37"><comparison>(longitude1 == longitude2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e37"><comparison>(end_date1 != end_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e38"><comparison>(start_date1 == start_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e38"><comparison>(end_date1 != end_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e39"><comparison>(end_date1 == end_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery><vioGenQuery id="e39"><comparison>(start_date1 != start_date2)</comparison><percentage>3.658536585365861</percentage></vioGenQuery></vioGenQueries>
+        </errorPercentages>
+
+        <!-- To control the way in which changing the value -->
+        <dirtyStrategies>
+            <defaultStrategy>
+                <strategy> TypoRandom </strategy>
+            </defaultStrategy> 
+            <!-- possible strategies
+                <strategy chars="*" charsToAdd="3">TypoAddString</strategy>
+                <strategy chars="*" charsToAdd="3">TypoAppendString</strategy>
+                <strategy charsToRemove="3">TypoRemoveString</strategy>
+                <strategy charsToSwitch="3">TypoSwitchValue</strategy>
+                <strategy>TypoActiveDomain</strategy>
+                <strategy>TypoRandom</strategy>
+            -->
+        </dirtyStrategies>
+
+        <randomErrors>
+            <tables>
+                <table name="clean"> 
+                    <percentage>8</percentage> <!-- Percentage is wrt attributes to dirty in the table -->
+                    <attributes>
+                    <attribute>record_key</attribute><attribute>survey_key</attribute><attribute>survey_name</attribute><attribute>sample_key</attribute><attribute>start_date</attribute><attribute>end_date</attribute><attribute>date_type</attribute><attribute>location_name</attribute><attribute>data_type</attribute><attribute>projection</attribute><attribute>species</attribute><attribute>abundance_sacforn</attribute><attribute>sample_comment</attribute></attributes>
+                </table>
+            </tables>
+        </randomErrors>
+    
+        <outlierErrors>
+            <tables>
+                <table name="clean">
+                    <attributes>
+                    </attributes>
+                </table>
+            </tables>
+        </outlierErrors>
+        
+        <!-- The following parameters are used to control the sampling process.
+            All the fields are optional, but they may be crucial to obtain a good random sample.
+            In order to choose the cells to modify, BART will scan the result of a viogen query
+            using the following sampling algorithm:
+            1) First, a number of tuples are skipped. This is a random number choosed btw 
+                0 and (offsetFactor * tableSize)
+            2) Then BART will scan the result and will pickup tuples 
+            with a probability p = probabilityFactor.
+            
+            BART uses three kinds of queries
+            - Symmetric queries: for symmetric viogen queries (see paper)
+            - Inequality queries: for viogen queries without equalities (i.e. inequalities only)
+            - Standard queries: for all other viogen queries
+        -->
+        <vioGenQueriesConfiguration>
+            <!-- STANDARD QUERIES -->
+            <probabilityFactorForStandardQueries>0.25</probabilityFactorForStandardQueries>
+            <offsetFactorForStandardQueries>0.05</offsetFactorForStandardQueries>
+            <!-- SYMMETRIC QUERIES -->
+            <probabilityFactorForSymmetricQueries>0.25</probabilityFactorForSymmetricQueries>
+            <offsetFactorForSymmetricQueries>0.05</offsetFactorForSymmetricQueries>
+            <!-- INEQUALITY QUERIES -->
+            <probabilityFactorForInequalityQueries>0.05</probabilityFactorForInequalityQueries>
+            <offsetFactorForInequalityQueries>0.05</offsetFactorForInequalityQueries>
+            <windowSizeFactorForInequalityQueries>1.5</windowSizeFactorForInequalityQueries>
+        </vioGenQueriesConfiguration>
+
+    </configuration>
+</task>

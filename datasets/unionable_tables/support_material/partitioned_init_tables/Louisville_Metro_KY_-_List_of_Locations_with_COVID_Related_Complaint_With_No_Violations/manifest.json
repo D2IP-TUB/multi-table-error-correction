@@ -1,0 +1,21 @@
+{
+  "variants": [
+    "FD",
+    "NO",
+    "Typo"
+  ],
+  "num_partitions": 10,
+  "total_rows": 4724,
+  "partition_row_counts": [
+    473,
+    473,
+    473,
+    473,
+    472,
+    472,
+    472,
+    472,
+    472,
+    472
+  ]
+}

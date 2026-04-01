@@ -1,0 +1,259 @@
+region_code,region_name,company_code,company_name,branch_code,branch_name,branch_address,branch_post_code,branch_start_date,branch_end_date,contract_type,inventory_facility,transaction_value,transaction_description
+Q67,Flanders,09C,Pfizer,G82730,Kingsnorth Medical Practice,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,TN233ED,-,-,PMS,No,18042.50,22_Directed_Enhanced_Services_-_Minor_Surgery
+Q44,Catalonia,03R,Pfizer,B87021,Great Sutton Medical Centre,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port,CH663PB,-,-,GMS,No,48276.78,10_PCO_Administered_-_Total_Locum_Allowances
+Q71,Asia,08L,Pfizer,G85004,South Axholme Practice,Jenner Health Centre 201 Stanstead Road London,SE231HU,-,-,PMS,No,326900.45,14_Total_QOF_Payments
+Q71,Asia,03Y,Globex,G82730,Dr L Hommel & Partners,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port,HA8 5AT,-,-,GMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q50,Midlands,03R,Pfizer,B87021,South Axholme Practice,Jenner Health Centre 201 Stanstead Road London,DN9 1EP,-,-,GMS,Yes,4536219.57,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Q52,Bavaria,02V,Centrica,B86625,Wetherby Surgery,Ashton Clinic Queens Road Ashton In Makerfield Wigan,LS226JS,-,-,GMS,Yes,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q52,Bavaria,03R,GlaxoSmithKline,B87021,Dr L A Newland & Partners,Ashton Clinic Queens Road Ashton In Makerfield Wigan,B17 8LG,-,-,PMS,No,547244.77,07_Premises_Payments
+Q54,South East England,05P,Pfizer,G82730,Dr Machin P & Partners,Tile Cross Surgery 144 Tile Cross Road Tile Cross Birmingham,LS226JS,-,-,GMS,No,3178.55,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q69,Pacific Coast,08L,Pfizer,B87021,Banbury Road Medical Centre,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,OX2 7BT,-,-,GMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q55,Northeastern England,03Y,Seacrest,G82730,Clay Cross Medical Centre,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,S45 9DZ,-,-,GMS,Yes,4536219.57,23_Directed_Enhanced_Services_-_Patient_Participation
+Q46,Yorkshire,02H,Pfizer,B86625,Dr Alistair & Partners,Ashton Clinic Queens Road Ashton In Makerfield Wigan,LS226JS,-,-,APMS,No,4536219.57,25_Directed_Enhanced_Services_-_Risk_Profiling_and_Case_Management
+Q68,South East England,05L,Siemens,G82730,Dr Kathuria U C,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,B17 8LG,-,-,PMS,No,745.2,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q50,Midlands,03M,GoldmanSachs,B82037,Kingsnorth Medical Practice,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,SE231HU,-,-,GMS,Yes,4536219.57,31_Balance_of_PMS_Expenditure
+Q47,Yorkshire,00X,Pfizer,G82730,Kingsfold Medical Centre,Ashton Clinic Queens Road Ashton In Makerfield Wigan,S45 9DZ,***,-,GMS,No,436219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q54,South East England,13P,Siemens,G85004,South Axholme Practice,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham,SE231HU,-,-,GMS,No,12499.50,08_PCO_Administered_-_Seniority
+Q68,Wessex,99K,Microsoft,G81086,Wetherby Surgery,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham,NW4 4QR,-,-,PMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q71,Aisa,08W,Pfizer,B82037,Wetherby Surgery,Fernbank Medical Practice 508-516 Alum Rock Road Ward End Birmingham,SE231HU,-,-,PMS,No,34567.8,23_Directed_Enhanced_Services_-_Patient_Participation
+Q58,Scotland,04G,Samsung,G81086,Dr Machin P & Partners,Tile Cross Surgery 144 Tile Cross Road Tile Cross Birmingham,TN233ED,-,***,GMS,Yes,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q71,Asia,07M,Pfizer,B86625,Wetherby Surgery,Jenner Health Centre 201 Stanstead Road London,NW4 4QR,***,-,PMS,No,4827.5,01_Number_of_Registered_Patients_Last_Known_Figure
+Q69,Pacific Coast,11C,Unilever,B86625,Clay Cross Medical Centre,Jenner Health Centre 201 Stanstead Road London,SL6 3NW,-,-,GMS,No,750.89,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation
+Q71,Asia,08G,Pfizegr,G85004,Clay Cross Medical Centre,Great Sutton Medical Centre Old Chester Road Great Sutton Ellesmere Port,UB4 8DD,-,-,PMS,No,5794302.73,31_Balance_of_PMS_Expenditure
+Q49,Yorkshire,00P,Pfizer,G82730,Dr Madathil,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,NE372PU,-,-,PMS,No,589221.47,35_Total_NHS_Payments_to_General_Practice
+Q47,Yorkshire,01A,Unilever,G85004,Yorkshire Street Medical Centre,Kingsnorth Medical Practice Ashford Road Kingsnorth Ashford Kent,BB113BT,-,-,GMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q69,Pacific Coast,10T,Pfizer,B86625,Crosby House Surgery,Crosby House Surgery 91 Stoke Poges Lane Slough,SL1 3NY,-,-,MS,No,450159.8,31_Balance_of_PMS_Expenditure
+47,Yorkshire,01A,Unilever,P81780,Riverside Family Practice,St Peters Centre Church Street Burnley,BB112DL,-,-,GMS,No,8391.47,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q58,Scotland,04G,Samsung,K83021,Rothwell And Desborough Surgeries,Rothwell Medical Centre 109 Desborough Road Rothwell Kettering Northants,NN416JQ,-,-,PMS,No,$150.75,04_Average_Payment_per_Weighted_Patient
+Q56,Midlands,07K,Google,D83005,The Surgery 1 Angel Hill Bury St Edmunds (013),1 Angel Hill Bury St Edmunds Suffolk,IP331LU,-,-,PMS,Yes,18456.7,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q67,Flanders,10A,Pfizer,G82665,Martello Health Centre,Martello Medical Practice 20 Chapel Road Dymchurch Romney Marsh Kent,TN290TD,-,-,GMS,No,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q45,Southeast,00C,Pfizer,A83040,Clfiton Court Practice,Clifton Court Medical Prctice Victoria Road Darlington,DL1 5JN,-,-,PMS,No,879.40,04_Average_Payment_per_Weighted_Patient
+Q52,Bavaria,02W,iCsco,B3604,The Lister Surgery,The Lister Surgery Westbourne Green C H C 50 Heaton Road Bradford,BD8 8RA,-,-,PMS,No,340.985412,03_Average_Payment_per_Registered_Patient
+Q71,Asia,07X,Toyota,F85037,Jaina House Surgery,Jaina House Surgery 66 Arnos Grove Southgate London,N14 7AR,,-,GMS,No,4536219.57,28_Total_National_Enhanced_Services
+Q57,Tuscany,06T,Pfizer,F81633,Ahmad H S,2 Edgefield Avenue Lawford Manningtree Essex,CO112HD,-,-,PMS,Yes,45760.32,29_Total_Local_Enhanced_Services
+cQ58,Scotland,04G,Samsung,K83030,The Cottons,The Cottons Meadow Lane Raunds Northants,NN9 6UA,-,-,PMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q71,Asia,08X,Siemens,H85114,Dr Peach & Partners,88A Thurleigh Road Balham London,SW128TT,-,-,PMS,No,4536219.57,35_Total_NHS_Payments_to_General_Practice
+Q53,Midlands,05R,GoldmanSachs,M84620,Lapworth Surgery,Lapworth Surgery Old Warwick Road Lapworth Solihull,B94 6LH,-,,GMS,cYes,5983.44,34_Other_Payments
+Q45,Southeast,00K,Centrica,A81623,North Shore Medical Practice,Endurance Huse Clarence Street Stockton-On-Tees,TS182EP,-,-,GMS,No,20000.75,35_Total_NHS_Payments_to_General_Practice
+Q46,Yorkshire,01D,Siemens,P86006,Ashworth Street Surgery,Ashworth Street Surgery 85 Spotland Road Rochdale,OL126RT,-,-,GMS,No,51230.45,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q46,Yorkshire,00Y,GoldmanSachs,P85022,Dr N T Mistry & Partner,Lees Medical Practice Athes Way Lees Oldham,OL4 3BP,-,-,GMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q60,Midlands,05Q,Pfizer,M83617,Dr G.B. Huisman & Partners,The Spires Practice St Chad Health Centre Dimbles Lane Lichfield Staffs,WS137HT,-,-,GMS,Yes,547892.10,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q54,South East England,05L,Siemens,M87013,Oram & Partners,14 Horseley Heath Tipton West Midlands,DY4 7QU,-,-,PMS,No,250350.60,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q49,Yorkshire,00P,Pfizer,A89023,Houghton Medical Group,The Health Centre Church Street Houghton Le Spring Tyne And Wear,DH4 4DN,***,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q47,Yorkshire,01A,Unilever,P81620,Dr K B Massey & Partner,The Health Centre Shay Lane Slaidburn Clitheroe,BB7 3EP,-,-,GMS,Yes,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Lcoums
+Q57,Tuscany,99G,Pfizer,F81733,Southbourne Grove Surgery,314 Soudthbourne Grove Westcliff-On-Sea Essex,SS0 0AF,-,-,PMS,No,4a5.89,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation
+Q45,Southeast,00K,GoldmanSachs,A8602,Dr S Rasool,Abbey Health Centre Finchale Avenue Billingham,TS232DG,-,-,GMS,No,8634.i25,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+jQ70,Cornwall,10X,rPfizer,J82128,The Old Fire Station Surgery,The Old Fire Station Surgery 68A Portsmouth Road Woolston Southampton Hampshire,SO199AN,-,-,PMS,No,890324.56,35_Total_NHS_Payments_to_General_Practice
+Q66,Yorkshire,99P,Pfizer,Y02121,Honiton Surgery,The Surgery Marlpits Road Honiton Devon,EX142NY,-,-,GMS,No,9832.50,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q56,Midlands,06H,GoldmanSachs,D8104,Merchford House,Merchford House 28 Elwyn Road March,PE159BY,-,-,PMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q70,Cornwall,10V,Pfizer,J82163,Cowplain Family Practice,26-30 London Road Cowplain Waterlooville Hampshire,PO8 8DL,-,-,GMS,No,653827.42,14_Total_QOF_Payments
+Q69,Pacific Coast,11C,Unilever,K81630,South Meadow Surgery,South Meadow Surgery 3 Church Close High Street Eton Berkshire,SL4 6AP,-,-,GMS,No,$150.75,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation
+Q71,sAia,08F,Pfizer,F82010,Feldman & Partners,70 Petersfield Avenue Harold Hill Romford Essex,MR3 9PD,-,-,GMS,No,436219.57,13_PCO_Administered_-_PCO_Admin_Other
+Q54,South East England,05L,Siemens,M88022,Ghosh & Partner,Jubilee Health Centre 1 Upper Russell Street Wednesbury West Midlands,WS107AR,-,-,PMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q71,Asia,08F,Toyota,F82663,C T C Marks,107 Brentwood Road Romford Essex,RM1 2SB,-,-,GMS,No,8634.25,25_Directed_Enhanced_Services_-_Risk_Profiling_and_Case_Management
+Q54,South East England,05L,Siemens,M88626,Haque,Primary Care Centre 6 High Street West Bromwich West Midlands,B70 6JX,-,-,PMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q60,Midlans,05N,Samsung,M82021,Albrighton Medical Practice,Albrighton Medical Practice Shaw Lane Albrighton Wolverhampton,WV7 3DT,-,-,PMS,Yes,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q53,Midlands,05A,Pfizer,M84065,Beech Tree Medical Practice,Beech Tree Medical Practice Rugby Health And Wellbeing Centre Drover Close Rugby Warwickshire,CV213HX,-,-,PMS,No,4536219.57,30_Information_Management_and_Technology
+Q65,Yorkshire,12A,Pfizer,L81130,The Park Medical Practice,Cadbury Heath Health Centre Parkwall Road Cadbury Heath Bristol,BS308HS,-,-,PMS,No,45760.32,31_Balance_of_PMS_Expenditure
+65,Yorkshire,11H,Samsung,L81128,Avonmouth Medical Centre,Collins Street Avonmouth Bristol,BS119JJ,-,-,PMS,Nho,4827.5,28_Total_National_Enhanced_Services
+Q54,Southeast,00K,Siemens,A81632,The Birchtree Practice,The Health Centre Lawson Street Stockton On Tees,TS181HU,-,-,PMS,No,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q48,Cornwall,99A,Centrica,N82001,Bremner And aPrtners,Margaret Thompson Medical Centre 105 East Millwood Road Speke Liverpool,L24 6TH,-,-,PMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q55,Northeastern England,04K,Siemens,C84664,Welbeck Suragery,Welbeck Surgery 481-491 Mansfield Road Sherwood Nottingham,NG5 2JJ,-,-,GMS,No,4536219x.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q54,South East England,05L,Siemens,M85064,Dr Surdhar H S,Five Ways Health Centre Ladywood Middleway Ladywood Birmingham,B16 8HA,-,-,GMS,No,4536219.57,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q67,Flanders,09J,Microsoft,G82225,The Oaks,The Oaks Partnership Nightingale Way Swanley Kent,BR8 7UP,-,-,GMS,No,4536219.57,31_Balance_of_PMS_Expenditure
+Q46,Yorkshire,01G,Siemens,P87630,Cherry Medical Practice,Little Hulton iDstrict Centre Haysbrook Avenue Little Hulton Manchester,M28 0AY,-,-,PMS,No,4536219.57,30_Information_Management_and_Technology
+Q45,Southeast,s00C,Pfizer,A83070,Marshall And Partners,Felix House Middleton Lane Middleton St George Darlington,DL2 1AA,-,-,PMS,Yes,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q57,Tuscany,99F,Pfizer,F81032,Dr P A Patel,85 Hart Road Thundersley Benfleet Essex,SS7 3PR,-,-,GMS,No,653827.42,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Q59,Yorkshire,04D,Pfizer,C83029,Dr Parkin And Partners,The Surgery Station Road Branston Lincoln,LN4 1LH,-,-,PMS,Yes,653827.42,33_Total_Prescribing_Payments_and_Reimbursement_of_Drugs
+Q57,Tuscany,06T,Pfizer,F81017,Walton Medical Centre,The Surgery Vicarage Lane Walton-On-The-Naze Essex,CO148PA,-,-,PMS,No,4536219.57,23_Directed_Enhanced_Services_-_Patient_Participation
+5Q7,Tuscany,06Q,Toyota,F81721,Brickfields Surgery,Brickfields Road South Woodham Ferrers Chelmsford Essex,CM3 5XB,-,-,PMS,No,589221.47,0_PCO_Administered_-_Seniority
+Q71,Asia,07W,Microsoft,E85105,Allenby Clinic,Grand Union Medical Centre Taywood Road Northolt Middlesex,UB5 6WL,-,-,GMS,No,45.89,29_Total_Loacl_Enhanced_Services
+Q54,South East England,05L,Siemens,M88026,Saini & Partner,Tividale Family Practice 51A New Birmingham Road Tividale West Midlands,B69 2JQ,-,-,GMS,No,4536219.57,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Q60,Midlands,05W,Pfizer,Y00451,The Phoenix Practice,Whittle Court Town Road Hanley Stoke-On-Trent,ST1 2QE,-,-,PMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q60,Midlands,05N,GoldmanSachs,82017,Clive Surgery,Clive Surgery 20 High Street Clive Shrewsbury Shropshire,SY4 5PS,-,-,GMS,Yes,4536219.57,30_Information_Management_and_Technology
+Q48,Conrwall,99A,Pfizer,N82671,Ramamoorthy And Partner,Bigham Road Medical Centre Bigham Road Kensington Liverpool,L6 6DW,-,-,PMS,No,4536219.57,13_PCO_Administered_-_PCO_Admin_Other
+fQ60,Midlands,04Y,Globex,M83063,Dr Nilar & Partner,Norton Canes Health Centre Brownhills Road Norton Canes Cannock Staffs,WS119SE,-,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q71,Asia,08D,Siemens,F85697,The Old Surgery,572 Green Lanes Hornsey London,N8 0RP,-,-,GMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q71,Asai,08M,Pfizer,F84713,East Ham Medical Centre- Mandavilli & Partner,East Ham Medical Centre 1 Clements Road East Ham London,E6 2DS,-,-,GMS,No,34567.8,28_Total_National_Enhanced_Services
+Q71,Asia,07V,Google,H83022,Thornton Heath Health Centre,Thornton Heath Health Centre 61A Gillett Road Thornton Heath Surrey,CR7 8RL,-,-,PMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q69,Pacific Coast,10W,Samysung,K81644,Tilehurst Village Surgery,Tilehurst Village Surgery 92 Westwood Road Tilehurst Reading Berkshire,RG315PP,-,-,PtMS,No,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q52,Bavaria,03G,Google,B8s6037,Radshan Medical Centre,Radshan Medical Centre 33-35 Butt Hill Kippax Leeds,LS257JU,-,-,PMS,No,250350.60,23_Directed_Enhanced_Services_-_Patint_Participation
+Q71,Asia,07M,Pfizer,E83600,Adler And Rosenberg,682 Finchley Road Golders Green London,NW117NP,-,-,GMS,No,4536219.57,04_Average_Payment_per_Weighted_Patient
+Q71,Asa,07Q,Unilever,G84625,Oakfield Surgery,Oakfield Surgery 21 High Street Penge London,SE207HJ,-,-,PMS,No,879.40,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q50,Midlands,03K,Pfizer,B81064,Church Lane Medical Centre,1 Orchid Rise Scunthorpe,DN157AN,-,-,GMS,oN,890324.56,35_Total_NHS_Payments_to_General_Practice
+Q70,Cornwall,99M,Pfizer,J82206,Monteagle Surgery,Monteagle Surgery Tesimond Drive Monteagle Park Yateley,GU466FE,-,-,GMS,oN,4536219.57,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q17,Asia,07Y,Pfizer,E85718,Dr Mh Muzafer,Hatton Medical Practice 186 Hatton Road Feltham Middlesex,TW149PY,-,-,GMS,o,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q53,Midlands,05A,Pfizer,M84031,Barr Lane Surgery,The Surgery Barr Lane Brinklow Rugby Warwickshire,CV230LU,-,-,GMS,Yes,9832.50,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q71,Asa,07R,Samsung,F83006,Ampthill Practice,Crowndale Health Centre 59 Crowndale Road London,NW1c 1TN,-,-,GMS,No,653827.42,02_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q65,Yorkshire,11H,Pfizer,L81133,Student Health Service,Hampton House Health Centre St Michael'S Hill Bristol,BS6 6AU,-,-,GMS,No,4536219.57,13_PCO_Administered_-_PCO_Admin_Other
+Q67,Flanders,09E,Pfizer,G82082,Sturry Surgery,53 Island Road Sturry Canterbury Kent,CT2 0EF,-,-,PMS,Yse,9832.50,29_Total_Local_Enhanced_Services
+Q53,Midlands,05A,Pizer,M86005,Dr G. Sani Gusau,Suite 1 Coventry And Warwickshire Hospital Stoney Stanton Road Coventry,CV1 4FH,-,-,GMS,No,547244.77,04_Average_Payment_per_Weighted_Patient
+Q52,Bavaria,02T,Siemens,B84005,Dr P G Sawczyn & Partners,Rosegarth Surgery Rothwell Mount Halifax West Yorkshire,HX1 2HB,-,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q49,Yorkshire,01H,Pfizer,A8m2015,Warwick Road Surgery,65 Warwick Road Carlisle Cumbria,CA1 1EB,-,-,GMS,No,745.22,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation
+Q69,Pacific Coast,10H,Toyota,K82045,Southmead Surgery,Southmead Surgery Blackpond Lane Farnham Common Slough Berks,SL2 3ER,-,-,GS,No,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q66,Yorkshire,11N,Pfizer,L82040,Woodland Road Surgery,Woodland Road Surgery 20 Woodland Road St Austell Cornwall,L254QY,-,-,GMS,No,745.22,22_Directed_Enhanced_Services_-_Minor_Surgery
+Q0,Midlands,05Q,Samsung,M83072,Dr Pr J Gregory & Partners,Salters Meadow Health Centre Rugeley Road Chase Terrace Burntwood Walsall,WS7 1AU,-,-,PMS,No,745.22,14_Total_QOF_Payments
+Q56,Midlands,06V,Samsung,D82009,Dr D J H Hood & Partners,The Staithe Surgery Lower Staithe Road Stalham Norwich Norfolk,NR129BU,-,-,PMS,Yes,4536219.57,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme
+Q67,Flanders,09E,Unilever,G82063,Market Place Surgery,The Market Place Surgery Cattle Market Sandwich Kent,CT139ET,-,-,GMS,No,12499.50,08_PCO_Administered_-_Seniority
+Q50,Midlands,03Q,Siemens,B82021,Dalton Terrace uSrgery,Glentworth Dalton Terrace York,YO244DB,-,-,GMS,No,51230.45,01_Number_of_Registered_Patients_Last_Known_Figure
+Q70,Cornwall,11A,Pfizer,J82145,Abbey Mead Surgery,The Abbey Romsey Hampshire,SO518EN,-,-,GMS,Yes,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q69,Pacific Coast,10Q,fizer,K84618,Cogges Surgery,Cogges Surgery 12 Cogges Hill Road Witney Oxon,OX283FS,-,-,GMS,No,4536219.57,30_Information_Management_and_Technology
+Q58,Scotland,0P,Pfizer,E81618,Leagrave Rd Med Pract - Hoda,53 Leagrave Road Luton Beds,LU4 8HT,-,-,GMS,No,4536219.57,30_Information_Management_and_Technology
+Q71,Asiia,07N,Pfizer,G83002,The Westwood Surgery,24 Westwood Lane Welling Kent,DA162HE,-,-,PMdS,No,4536219.57,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients
+Q46,Yorkshire,00T,Microsoft,P82609,Dr A Prasad & Partner,Shanti Medical Centre 160 St Helens Road Bolton,BL3 3PH,-,***,GMS,No,5983.44,08_PCO_Administered_-_Seniority
+Q56,Midlands,06L,Microsoft,D83037,Hadleigh Health Centre Market Place Hadleigh (064),Health Centre Market Place Hadleigh Ipswich,IP7 5DN,-,-,PMS,Yes,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q71,Asia,08D,Pfizer,F85641,Dr R Singh,15 High Road Tottenham N15,N15 6LT,-,***,PMS,No,12499.50***,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q56,Midlands,06M,Unilever,D82067,Dr P Noakes & Partners,The Park Surgery 4 Alexandra Road Great Yarmouth Norfolk,NR302sHW,-,-,GMS,No,4536219.57,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients
+Q70,Cornwall,1L0,Pfizer,J84003,Ventnor Medical Centre,3 Albert Street Ventnor Isle Of Wight,PO381EZ,-,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q49,Yorkshire,00G,Pfizer,A86024,Heaton Road Surgery,17-19 Heaton Road Heaton Newcastle Upon Tyne,NE6 1SA,-,,GMS,No,4536219.57,30_Information_Management_and_Technology
+Q51,West Midlands,03N,Cisco,C88627,University Health Service,Health Centre 53 Gell Street heffield,S3 7QP,l-,-,PMS,No,18456.7,03_Average_Payment_per_Registered_Patient
+Q71,Asia,07R,Siemens,F83059,Brondesbury Medical Centre,279 Kilburn High Road London,NW6 7JQ,-,-,PMS,No,4536219.57,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients
+Q45,Southeast,00D,fPizer,A83008,Hallgarth Surgery,Hallgarth Surgery Cheapside Shildon County Durham,DL4 2HP,-,-,PMS,sNo,5983.44,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+50,Midlands,03F,Unilever,B81675,Dr Tak A H And Partners,Newington Health Care Centre 2 Plane Street Kingston Upon Hull,HU3 6BX,-,-,PMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Qf68,Wessex,90G,Siemenas,H82625,Old Shoreham Road Practice,Old Shoreham Road Surgery 38 Old Shoreham Road Lancing West Sussex,BN150QT,i-,31/03/14,GMS,No,4536219.57,23_Directed_Enhanced_Services_-_Patient_Participation
+Q46,Yorkshire,01D,Pfizer,P86003,Edenfield Road Surgery,Edenfield Road Surgery Cutgate Shopping Precinct Rochdale,OL115AQ,-,-,GMS,o,48276.78,10_PCO_Administered_-_Total_Locum_Allowances
+58,Scotland,04G,Samsung,K83012,King Edward Road Surgrey,King Edward Road Surgery Christchurch Medicatl Centre King Edward Road Northampton,NN1 5LY,-,-,GMS,No,$150.75,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q57,Tuuscany,06Q,Pfizer,F81132,Blandford Medical Centre,Blandford Medical Centre Mace Road Braintree Essex,CM7 x2AE,-,-,GMS,Yes,48276.78,08_PCO_Administered_-_Seniority
+Q52,Baaria,03G,Pfizer,B86081,Dr Boonin A S & Partners,Bellbrooke Surgery Bellbrooke Avenue Harehills Leeds,LS9 6AU,***,-,PMS,No,45760.32,10_PCO_Administered_-_Total_Locum_Allowances
+Q47,Yorkshire,00X,Pfizer,P81062,Regent House Surgery,21 Regent Road Chorley Lancashire,PR7 2DH,-,-,GMS,No,5794302.73,07_Premises_Payments
+Q71,Asia,k07W,Siemens,E85121,The Guru aNnak Medical Centre,1 Woodlands Road Southall Middlesex,UB1 1EE,-,-,PMS,No,4536219.57,27_Directed_Enhanced_Services_-_Services_for_Violent_Patietns
+Q58,Scotland,06F,Pfizer,E81012,Greensands Med Pract - Taine,Greensands Medical Practice Brook End Potton Sandy Beds,SG192QS,-,-,GMS,Yes,4536219k.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q71,Asai,07N,Samsung,G83028,Bexley Group Practice,73 Upper Wickham Lane Welling Kent,DA163AF,-,-,PMS,No,536219.57,13_PCO_Administered_-_PCO_Admin_Other
+Q47,Yorkshire,00Q,Pfizer,P81734,The Cornerstone Practice,The Cornerstone Practice Shadsworth Surgery Shadsworth Road Blackburn,BB1 2HR,-,c-,MPS,No,3178.55,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q70,Cornwall,10L,Pfizer,J84015,Cowes Medical Centre,200 Newport Roadz Cowes Isle Of Wight,PO317ER,-,-,MGS,No,$150.75,33_Total_Prescribing_Payments_and_Reimbursement_of_Drugs
+Q46,Yorkshire,00W,Siemens,P84072,Dr A Esmail & Partners,Robert Darbishire Practice Rusholme Health Centre Walmer Street Manchester,M14 5NP,-,-,PMS,No,45.89,31_Balance_of_PMS_Expenditure
+Q50,Midlands,03F,Pfizer,B81634,Dr Venugopal J And Partners,Bransholme South Health Centre Goodhart Road Bransholme Kingston Upon Hull,HU7 4DW,-,-,GMS,No,18456.7,07_PremisesPayments
+Q71,Asia,08P,Pfizer,H84615,Deanhill Surgery,2 Deanhill Road East Sheen London,SW147DF,-,-,GMS,No,890324.56,24_Directed_Enhanced_Services_-_Remote_Care_Monitoring
+Q68,Wessex,09Y,GoldmanSacsh,H81632,The Orchard Surgery,107 Feltham Hill Road Ashford Middlesex,TW151HH,-,-,PMS,No,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q52,Bavaria,03J,Siemens,B85012,r A M Goodwin & Partners,Undercliffe Surgery Heckmondwike Health Centre 16 Union Street Heckmondwike,WF160HH,-,-,GSM,No,18456.7,29_Total_Local_Enhanced_Services
+Ql49,Yorkshre,0z0P,Pfizer,A8010,Dr Stephenson & Partners,The Health Centre Victoria Road Washington Tyne And Wear,NE372PU,-,o-,PSM,oN,48276.78,03_Average_Payment_per_Registered_Patient
+Q71,bAsia,07M,Pfizer,E83631,Cherry Tree Surgery,26 Southern Road East Finchley London,N2 9LG,-,-,GMS,No,8391.47,05_Global_Sum_and_MPIG_-_Global_Sum
+Q67,Flanderas,09J,Pfizer,G82143,Lowfield Medical Centre,Lowfield Medical Centre 65-67 Lowfield Street Dartford Kent,AD1 1HP,-,-,GMS,No,4536219.57,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q68,Wessx,09G,Google,H82006,Petworth Surgery,The Surgery Grove Street Petworth West Sussex,GU280LP,-,-,GMS,Yes,450159.8,29_Total_Local_Enhanced_Services
+Q59,Yorkshire,04C,Pfizer,Y02686,Bowling Green St Surgery,Bowling Green Street Surgery 29-31 Bowling Green Street Leicester,LE1 6AS,-,-,APMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q64,Scotland,99N,Centrica,J83643,The Bourne Valley Practice,The Bourne Valley Practice Beacon House Station Road Tidworth Hampshire,SP9 7NN,-,-,PMS,No,890324.56,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+wQ46,Yorkshire,01D,Pfizer,P86013,Healey Surgery,Healey Surgery Whitworth Road Rochdale,OL120SN,-,-,GMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q58,Scotland,06K,Pfizer,E82007,Hanscombe Hse Surg - Oates,Hanscombe House Surgery 52A St Andrew Street Hertford Herts,SG141JA,-,-,GMS,No,5f47244.77,15_Directed_Enhanced_Services_-_Alcohol
+Q71,Asia,08M,Toyota,F84088,Plashet Road - Dr Umrani,152 Plashet Road Plaistow xLondon,E13 0QT,-,-,GMS,No,547892.10,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme
+Q71,Asia,08K,GlaxoSmithKline,G85102,The Vauxhall Surgery (Dr Shah),The Vauxhall Surgery 8 Jonathan Street London,SE115NH,-,-,PMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q54,South East England,0v4X,Samsung,M85753,Dr Aftab A T & Dr Aftab S G,Vicarage Road Surgery 302 Vicarage Road Kings Heath Birmingham,B14 7NH,-,-,GMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q68,Wessex,09N,Toyota,H81022***,Dr Cameron-Blackie And Partners,The Surgery Ridgley Road Chiddingfold Surrey,GU8 4QP,-,-,GMS,Yes,$150.75,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q76,Flanders,09W,Pfizer,G82635,Pump Lane,13 Pump Lane Rainham Gillingham Kent,ME8 7AA,-,-,GMS,No,12499.05,28_Total_Ntaional_Enhanced_Services
+Q58,Scotland,06F,Pfizer,81017,Pemberley Surgery - Parry Okeden,Pemberley Surgery 32 Pemberley Avenue Bedford,MK402LA,-,-,PMS,No,18042.50,23_Directed_Enhanced_Services_-_Patient_Participation
+Q71,Asai,07Q,Pfizer,G84609,Bank House,Bank House 84 High St Farnborough Kent,BR6 7BA,-,-,GMS,No,4536219.57,22_Directed_Enhanced_Services_-_Minor_Surgery
+Q71,Asia,08Q,Seacrest,Y03308,Hurley Walk-In Clinic,Hurley Walk-In Clinic Lister Gp Walk-In Hc 101 Peckham Road London,SE155LJ,-,-,PMS,No,4536219.57,31_Balance_of_PMS_Expenditure
+7Q1,Asia,07L,Pfizer,F82015,Dr Ahmad & Partners,92 Hedgemans Road Dagenham Essex,RM9 6HT,-,-,GMS,No,48276.78,01_Number_of_Registered_Patients_Last_Known_Figure
+Q57,Tuscany,06T,Pfizer,F81069,Winstree Medical Practice,84 Winstree Road Colchester Essex,CO3 0PZ,-,-,GS,Yes,45b36219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q64,Scotland,99N,Pfizer,J83004,Whiteparish Surgery,Whiteparish Surgery Common Road Whiteparish Salisbury Wiltshire,SP5u 2SU,-,-,GMS,Yes,48275.,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Q57,Tuscany,06T,Pfizer,F81141,O'Regan S M & Partners,Rowhedge Surgery 7 Rectory Road Colchester Essex,CO5 7HP,-,-,GMS,Yes,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q71,Asia,07X,Toyota,F85678,The Town Surgery,The Town Surgery 37 Cecil Road Enfield Middlesex,EN2 6TJ,-,-,PMS,No,5794302.73,22_Directed_Enhanced_Services_-_Minor_Surgery
+67,Flanders,99J,oGldmanSachs,G82118,Woodlands Health Centre,Woodlands Health Centre Allington Road Paddock Wood Kent,TN126AX,-,-,GMS,No,4536219.57,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme
+Q54,South East England,05C,Pfizer,M87010,The Waterfront Surgery,The Waterfront Surgery Brierley Hill Health And Social Care Centre Venutre Way Brierley Hill,DY5 1RU,-,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Qo71,Ausia,07Y,Pfizer,E85713,Dr P Garcha,77 Lampton Road Hounslow Middlesex,TW3 4DH,-,-,GMS,No,5794302.73,04_Average_Payment_per_Weighted_Patient
+Q50,Midlands,02Y,Pfizer,B81121,Dr Clayton G L,Beverley And Molescroft Surgery 30 Lockwood Road Molescroft Beverley,HU179GQ,-,-,PMS,No,4536219.57,30_Information_Management_and_Technology
+Q64,Scotland,11E,Pfizer,L81080,St James Surgery,St James Surgery Northampton Buildings Bath,BA1 2SR,-,-,PMS,No,326900.45,08_PCO_Administered_-_Seniority
+Q54,South Esat England,05Y,Pfizer,M91026,Khan & Merali,Darlaston Health Centre Pinfold Street nDarlaston West Midlands,WS108SY,-,-,GMS,No,4536219.57,13_PCO_Administered_-_PCOAdmin_Other
+Q70,Crnwall,10K,Pfizer,J82023,The Whiteley And Locks Road Surgeries,The Whiteley Surgery Yew Tree Drive Whiteley Fareham Hampshire,PO157LB,-,-,GMS,o,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q50,Midlansd,02Y,Unilever,B81025,South Holderness Medical Practice,St Nicholas Surgery Queen Street Withernsea,HU192PZ,-,-,GMS,Yes,3178.55,07_Premises_Payments
+Qx55,Northeastern England,03Y,Seacrest,C81029,Scott Cooper Parker Gadsden & Partners,Staffa Health 3 Waverley Street Tibshelf Alfreton Derbyshire,DE555PS,-,-,PMS,No,890324.56,02_Number_of_Weighted_Patients_Last_Known_Figure
+Q47,Yorkshire,00Q,Pfizer,P81051,Darwen Health Centre,Darwen Health Centre James Street West Darwen Lancashire,BB3 1PY,-,-,GMS,No,8391.47,08_PCO_Administered_-_Seniority
+Q58,Scotland,06F,Pfizer,E81033,Shefford Health Centre - Cakebread,Shefford Health Centre Robert Lucas Drive Hitchin Road Shefford Beds,SG175FS,-,-,GMS,Yes,745.22,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+50,Midlrands,03F,Siemens,B81049,Dr Rawcliffe V A And Partners,New Hall Surgery Oakfield Court Cottingham Road Kingston Upon Hull,HU6 8QF,-,-,GMS,No,4536219.57,24_Directed_Enhaced_Services_-_Remote_Care_Monitoring
+Q71,Asia,08X,Siemens,Y02423,Grafton Medical Partners,219-221 Upper Tooting Road Tooting London,SW177TG,-,-,PMS,No,589221.47,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q50,Mdlands,03Q,Pfizer,B82003,Petergate Surgery,The Petergate Surgery Tower Court Health Centre Oakdale Road Clifton Moor York,YO304RZ,-,-,GMS,No,890324.56,02_Number_of_Weighted_Patients_Last_Known_Figure
+Q55,Northeastern England,04E,Pfizer,C84074,Dr Siddiqui & Ptrs,Family Medical Centre 56A Lomwoor Road Kirkby In Ashfield Nottinghamshire,NG177DG,-,-,GMS,Yes,890324.56,05_Global_Sum_and_MPIG_-_Global_Sum
+Q54,South East England,05C,Siemens,M87602,Halesowen Medical Practice,St Margaret'S Well Surgery 2 Quarry Lane Halesowen,B63 4WD,-,***,GMS,No,340.985412,34_Other_Payments
+Q55,Northeastern England,04H,Centrica,C84037,Dr Dalton & Partners,The Surgery 59 Mansfield Road Blidworth Mansfield Notts,NG210RB,-,,PMS,No,589221.47,03_Average_Payment_per_Registered_Patient
+Q49,Yorkshire,01H,Pfzer,A82621,Dr P R Jain,The Surgery 2 Parklands Drive Askam In Furness Cumbria,LA167JP,-,-,GMS,Yes,5983.44,29_Total_Local_Enhanced_Services
+Q66,Yorkshire,99Q,Siemens,L83637,Withycombe Lodge Surgery,Withycombe Surgery 123 Torquay Road Paignton Devon,TQ3 2SG,-,-,PMS,No,589221.47,14_Total_QOF_Payments
+Q71,Asia,07Y,Pfizer,E85699,Grove Village Medical Centre,4 Cleeve Court Grove Village Feltham Middlesex,TW148SN,-,-,PMS,No,5983.44,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingles_Immunisation
+Q59,Yorkshire,03T,Pfizer,C83049,Dr Latchem And Partners,The Medical Centre Church End Old Leake Boston Lincs,PE229LE,-,-,GMS,Yes,879.40,05_Global_Sum_and_MPIG_-_Global_Sum
+Q51,West Midlzands,03N,Pfizer,C88077,The Health Care Surgery,63 Palgrave Road Sheffield,S5 8GS,-,,GMS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q71,Adsia,08F,Cisco,Y02973,Kings Park Surgery,Harold Wood Polyclinic St Clements Avenue OffG ubbins Lane Harold Wood Essex,RM3 0EF,-,-,APMS,No,326900.45,28_Total_National_Enhanced_Services
+Q6x5,Yorkshire,11X,Pfizer,L85019,Harley House Surgery. Irnham Road. Minehead,Harley House Surgery 2 Irnham Road Minehead Somerset,TA245DL,-,-,GMS,No,932.50,28_Total_National_Enhanced_Services
+Q55,Northeastern England,04H,Pfizer,C84059,Dr J D Smith & Partners,Clipstone Health Centre First Avenue Clipstone Mansfield Nottinghamshire,NG219DA,-,-,PpMS,No,250350.60,14_Total_QOF_Payments
+Q46,Yorkshire,01G,Pfizer,P87654,Dr I Jeet & Partner,Lower Broughton Health Centre Great Clowes Street Lower Broughton Salford,M7 1RD,-,-,GMS,No,547244.77,33_Total_Prescribing_Payments_and_Reimbursement_of_Drugs
+Q71,Asiba,07W,Pfizer,E85682,Dormers Wells Medical Centre,143 Burns Avenue Southall Middlesex,UB1 2LU,-,-,GMS,No,3178.55,37_Total_NHS_Paymzents_to_General_Practice_Minus_Deductions
+Q52,Bavaria,02T,Microsoft,B84012,Dr S Cleasby & Partners,Spring Hall Group Practice Spring Hall Medical Centre Spring Hall Lane Halifax West Yorkshire,HX1 4JG,-,-,PMS,No,9832.50,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immnisation_Scheme
+Q71,Asia,08R,Pfizer,H85035,K Worthigton,The Rowans Surgery 1 Windermere Road London,SW165F,-,-,PMS,No,9832.50,28_Total_National_Enhanced_Services
+Q68,Wessex,0h9F,Cisco,G81022,Sovereign Practice,Princes Park Health Centre 7 Wartling Road Eastbourne,BN227PG,-,-,PMS,No,4536219.57,30_Information_Management_and_Technology
+Q69,Pacific Coast,10N,Pfizer,K81004,Tilehurst Surgery Partnership,Tilehurst Surgery Partnership Tylers Place Pottery Road Tilehurst,RG306BW,-,-,PMS,No,547892.10,29T_otal_Local_Enhanced_Services
+Q53,Midlands,05R,Toyota,M84043,Trinity Court Surgery,Trinity Court Surgery Stratford Healthcare Arden Street Stratford Upon Avon,CV376NQ,-,-,GMS,Yes,4536219.57,23_Directed_Enhanced_Services_-_Patient_Participation
+Q46,Yorkshire,00V,Microsoft,83609,Thze Birches Medical Centre,The Birches Medical Centre Polefield Road Prestwich,M25 2GN,v-,-,GMS,No,5794302.73,36_Deductions
+Q64,Scotland,11M,Toyota,L84031,Stow Surgery,The Surgery Well Lane Stow On The Wold Glos,GL541EQ,-,q-,GMS,Yes,18456.7,33_Total_Prescribing_Payments_and_Reimbursement_of_Drugs
+Q51,West Midalnds,02X,Pfizer,C86033,Dr Nayar & Partners,The Martinwells Centre Thompson Avenue Edlington Doncaster,DN121DJ,-,-,GMS,No,653827.42,03_Average_Payment_per_Registered_Patient
+Q51,West Midlands,03N,GoldmanSachs,C88072,Woodhouse Health Centre,5 - 7 Skelton Lane Sheffield,S13 7LY,,-,PMS,No,453219.57,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+zQ45,Sutheast,0K0,Pfizer,A81609,A And B Medical Practice,At A And B Medical Practice Clarence Street Stockton-On-Tees,TS182EP,-,***,GsMS,o,34567.8,01_Number_of_Registeed_Patients_Last_Known_Figure
+Q71,Asia,07L,Centrica,Y02583,Child & Family Health Centre,Axe Street Barking Essex,IG117LY,-,-,MPS,No,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costsin_Respect_of_Locums
+58,Scotland,06N,Pfizer,E82652,Gossoms End - Ojo-Aromokudu,Gossoms End Surgery Victory Road Berkhamsted Herts,HP4 1DL,-,-,PMS,No,3178.55,13_PCO_Administered_-_PCO_Admin_Other
+Q69,Pacific Cohast,10G,Pfizer,K81010,Kings Corner Surgery,Kings Corner Surgery Kings Road Sunninghill Ascot,SL5 0AE,-,-,GMS,No,4536219.57,30_Information_Management_and_Technology
+Q56,Midlands,07K,Google,D83075,Siam Surgery Sudbury (019),Siam Surgery Siam Place Sudbury,CO101JH,-,p-,GMS,No,45760.32,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q58,Scotland,06N,Samsung,E82129,Kings Langley Surgery - Patel,Kings Langley Surgry The Nap Kings Langley Herts,WD4 8ET,***,-,GMS,No,589221.47,29_Total_Local_Enhanced_Services
+Q67,Flanders,99J,Pfizer,8G2715,Rowan Tree Surgery,Rowan Tree Surgery Rowan Tree Road Tunbridge Wells Kent,TN2 5PX,-,-,GMS,No,12499.50,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+Q58,Scotland,04G,Samsugn,K83035,Kingsythorpe Medical Centre,Kingsthorpe Medical Centre Eastern Avenue South Kingsthorpe Northampton,NN2 7JN,-,-,GMS,No,4536219.57,13_PCO_Administered_-_PCO_Admin_Other
+Q69,Pacific Coast,10H,Pfizer,K82066,Pound House Surgery,The Pound House Surgery 8 The Green Wooburn Green High Wycombe Bucks,HP100EE,-,-,GMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q46,Yorskhire,00T,Cisco,P82643,Dr S N Liversedge & Partners,Egerton And Dunscar Health Centre Darwen Road Bromley Cross Bolton,BL7 9RG,-,-,PMS,Yes,4536219.57,10_PCO_Administered_-_Total_Locum_Allowances
+Q67,Flanders,10E,Samsung,G82107,Minster Surgery,75 High Street Minster Ramsgate Kent,CT124AB,-,-,GMS,Yes,750.89,03_Average_Payment_per_Registered_Patient
+Q66,Yorkshire,99P,Pfizer,L83074,Stirling Health Group,Stirling Health Group Stirling Road St Budeaux Plymouth Devon,PL5 1PE,-,-,PMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q71,Asia,7P,Pfizer,E84685,Integrated Health Cic-Sudbury Primary Care Centre,Sudbury Surgery Sudbury Primary Care Centre Vale Farm Watford Road Wembley Middx,HA0 3HG,-,***,PMS,No,4536219.57,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+Q66,Yorkshire,11N,Pfizer,L82049,Falmouth Health Centre,Falmouth Health Centre Trevaylor Road Falmouth Cornwall,TR112LH,-,-,GMS,No,5983.44,04_Average_Payment_per_Weighted_Patient
+Q48,Cornwall,99A,iemens,N82037,Alexander-White & Partners,Westmoreland G P Centre Fazakerley Hospital Longmoor Lane Liverpool,L9 7AL,***,-,PMS,No,8634.25,07_Premises_Payments
+Q58,Scotland,06N,Siemens,E82094,Manor St Surg - Walker,The Manor Street Surgery Manor Street Berkhamsted Herts,HP4 2DL,-,-,GMS,No,8391.47,13_PCO_Administered_-_PCO_Admin_Other
+57,Tuscany,07G,Samsung,F81669,Okoi H & Partner,The Derry Court Medical Practice Derry Court Derry Avenue South Ockendon Essex,RMq155GN,-,-,PMS,No,745.22,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q71,Aia,08X,Siehmens,H85011,The Greyswood Practice,66 Eastwood Street Streatham London,SW166PU,-,-,PMS,No,4536219.57,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immuisations
+Q57,Tuscany,07G,Microsoft,F81137,Orsett Surgery,63 Rowley Road Orsett Grays Essex,RM163ET,-,-,GMS,Yes,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q51,West Midlands,02P,Pfizer,C85028,Dr Harban & Partners,The Medical Centre Pontefract Road Lundwood Barnsley,S71 5PN,-,-,PMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q49,Yorkshire,00L,Pfizer,A84021,Infirmary Drive Medical Group,The Consulting Rooms Infirmary Drive Alnwick Northumberland,NE662NR,-,-,PMS,Ymes,5794302.73,14_Tyotal_QOF_Payments
+Q47,Yorkshire,00R,Siemens,P81043,South King Street Medical Centre,The Medical Centre 25 South King Street Blackpool Lancashire,FY1 4NF,n-,-,GMS,o,4536219.57,12_PCO_Administered_-_Appraisal_Appraiser_Costs_in_Respect_of_Locums
+Q69,Pacific Coast,10W,Globex,K81081,Abbey Medical Centre,Abbey Medical Centre 41 Russell Street Reading Berkshire,RG1 7XD,-,-,PMS,No,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q45,Southeast,00M,Pfizer,A81020,Martonside Medical Centre,Martonside Medical Centr e1A Martonside Way Middlesbrough,TS4 3BU,-,-,GMS,No,4536219.57,10_PCO_Administered_-_Total_Locum_Allowances
+Q70,Conrwall,11J,Pfizer,J81056,Orchard Surgery,The Orchard Surgery Christchurch Medical Centre 1 Purewell Cross Road Christchurch,BH233AF,***,-,PMS,No,890324.56,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q47,Yorkshire,01E,Pfizer,P81179,Lostock Hall Medical Centre,410 Leyland Road Lostock Hall Preston Lancashire,PR5 5SA,-,-,GMS,No,4536219.57,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q71,sia,07Y,Pfizer,E85739,Greenbrook Heston,Heston Health Centre Cranford Lane Heston Middlesex,TW5 9ER,***,-,PMS,No,547244.77,07_Premises_Payments
+Q67,Flanders,10A,Pfizer,G82002,St James Surgery,St James' Surgery Harold Street Dover Kent,CT161SF,-,***,GMS,o,750.89,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q71,Asia,07Y,Pfizer,E85115,The Pentelow Practice,26 Pentelow Gardens Bedfont Feltham Middlesex,TW149EF,-,-,GMS,No,326900.45,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+5Q0,Midlands,02Y,Unilever,Y02656,The Wolds View Primary Care Centre,Entrance A Bridlington And District Hospital Bessingby Road Bridlington,YO164QP,-,***,PMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q69,Pacific Coast,s10H,Google,K82010,Tower House Surgery,Tower House Surgery 169 West Wycombe Road High Wycombe Bucks,HP123AF,-,-,GMS,No,4536219.57,25_Directed_Enhanced_Services_-_Risk_Profiling_and_Case_Management
+7Q1,Asia,08A,Pfizer,Y02222,Dr Coutinho M J,The Trinity Medical Centre 213 Burrage Road Plumstead London,SE187JZ,-,-,PMS,No,745.22,35_Total_NHS_Payments_to_General_Practice
+Q54,South aEst England,05C,Pfizre,M87619,Coombswood Srgery,Coombswood Surgery 146-14 Coombs Road Halesowen West Midlands,B62 8AF,-,07/04/13,GMS,No,4536219.57,26_Directed_Enhanced_Services_-_Rotavirus_and_Shingle_Immunisation
+Q50,Midlands,02Y,Pfizer,B81088,Dr Harrison R W,The Medical Centre Pinfold Street Howden,DN147DD,-,-,PMS,No,48276.78,07_Premises_Payments
+Q71,Asia,08T,Pfizer,H85103,Hackbridge Medical Centre,138 London Road Hackbridge Carshatlton Surrey,SM6 7HF,-,-,PMS,No,4536219.57,30_Information_Management_and_Technology
+Qn66,Ysorkshire,9l9P,Siemens,Y02121,Honiton Surgery,The Surgery Marlpits Road Honiton Devon,EX142YN,-,***,MGS,zNo,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q70,Cornwall,11J,Google,J81052,Carlisle House Surgery,Carlisle House 53 Lagland Street Poole Dorset,BH151QD,-,-,GMS,No,9832.50,08_PCO_Administered_-_Seniority
+Q48,Cornwall,99A,Pfizer,N82011,Redmond And Partners,Priory Medical Centre Belmont Grove Anfield Liverpool,L6 4EW***,-,-,GMS,No,51230.45,28_Total_National_Enhanced_Services
+Q71,Asia,07Q,Pfizer,G84010,The Chislehurst Medical Practice,42 High Street Chislehurst Kent,BR7 5AQ,-,-,PMS,No,18042.50,37_Total_NHS_Payments_to_General_Practice_Minus_Deductions
+Q71,Asia,08D,Pfizer,F85059,Dr Kundu,18 St Johns Road Tottenham London,N15 6QP,-,-,sGMS,No,8391.47,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+Q48,Cornwall,9A9,Pfizer,N82084,Caldwell J & Partners,The Surgery 1 Gateacre Brow Gateacre Liverpool,L25 3PA,-,-,GMS,No,$150.5,21_Directed_Enhanced_Services_-_Learning_Disabilities
+Q54,South East England,06A,Pfizer,M92649,Mudigonda,Bilston Health Centre Prouds Lane Bilston,WV146PW,-,-,GSM,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q60,Midlands,05G,Seacrest,Y02570,Midway Medical Walk In Centre,Morston House The Midway Newcastle,ST5 1QG,-,-,PMS,No,456219.57,32_Non_DES_Itwem_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q68,Wessex,99H,Google,H81051,Dr N Mckee & Partners,The Derby Medical Centre 8 The Derby Square Epom Surrey,KT198AG,-,-,PMS,No,4536219.57,22_Directed_Enhanced_Services_-_Minor_Surgery
+Q45,Southeast,00D,Toyota,A83044,The Horden Group Practice,The Surgery Sunderland Road Horden Peterlee Co Durham,SR8 4QP,-,c-,GMS,No,4536219.57,6_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Q71,pAsia,08X,Siemens,H85061,V M Bearn,Heathbridge Practice 125 Upper Richmond Road London,SW152TL,-,-,PMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q48,Cornwall,99A,Pfizer,N82678,Syed Oa,Stopgate Lane Medical Centre 6 Stopgate Lane Fazakerley Liverpool,L9 6AP,-,-,GMS,No,4536219.57,02_Number_of_Weighted_Patients_Last_Known_Figure
+Q64,Scotland,11M,Pfizer,L84043,Campden Surgery,Campden Surgery Back Ends Chipping Campden Glos,GL556AU,-,-,GMS,Yes,18456.7,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+Q49,Yorkshire,00P,Pfizer,A89036,Castletown Medical Centre,Castletown Medical Centre 6 The Broadway Castletown Sunderland,SR5 3EX,-,-,GMS,No,$150.75,17_Directed_Enhanced_Services_-_Extended_Hours_Access
+Q66,Yorkshire,99P,Google,L83020,Axminster Medical Practice,St. Thomas' Court Church Street Axminster,EX135AG,-,-,PMS,Yes,4536219.57,25_Directed_Enhanced_Services_-_Risk_Profiling_and_Case_Management
+Q48,Cornwall,99A,Pifzer,N82036,Netherley Hc - Ssp Health Limited,Netherley Health Centre Middlemass Hey Netherley Liverpool,L27 7AF,-,-,PMS,No,34567.8,18_Directed_Enhanced_Services_-_Facilitating_Timely_Diagnosis_and_Support_for_People_with_Dementia
+49,Yorkshire,00P,Pfizer,A89019,Dr Cloak & Partners,Southwick Health Centre The Green Southwick Sunderland,SR5 2LT,-,-,PMS,No,589221.47,22_Directed_Enhanced_Serviyces_-_Minor_Surgery
+Q50,Midlands,03F,Samsung,B81631,Dr Raut R And Partner,Highlands Health Centre Lothian Way Bransholme Kingston Upon Hull,HU7 5DD,-,,PMS,No,5794302.73,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme
+Q69,Pcific Coast,10Q,Pfizer,K84005,Kennington Health zCentre,Kennington Health Centre 200 Kennington Road Kennington Oxford,OX1 5PY,-,-,GMS,No,4536219.57,13_PCO_Administered_-_PCO_Admin_Other
+Q71,Asia,08W,Pfiezr,F86011,Dr Huddart - The Manor Practice,The Manor Practice 454 Lea Bridge Road Leyton London,E10 7DY,-,-,GMS,No,4536219.57,11_PCO_Administered_-_Prolonged_Study_Leave
+Q49,Yorkshire,00P,Pfizer,A89015,Fulwell Medical Centre,Fulwell Medical Centre Ebdon Lane Fulwell Sunderland,SR6 8DZ,-,-,PMS,No,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q45,Southeast,00M,Unilever,A81630,Fulcrum Medical Practice,Fulcrum Medical Practice Acklam Road Middlesbrough,TS5 5HA,-,-,PMS,No,4536219.57,10_PCO_Administered_-_Total_Locum_Allowances
+Q68,Wessex,09D,Unilever,Y02676,Brighton Station Health Centre,Aspect House 84-87 Queens Road Brighton,NB1 3XE,-,-,APMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q71,Axsia,07T,Pfizer,Y03049,Springfield Health Centre,19-21 Oldhil lStreet London,N16 6LD,-,-,APMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme
+Q57,Tuscany,99F,Unilever,F81699,Ayub M A - Long Road Surgery,409 Long Road Canvey Island Essex,SS8 0JS,-,-,GMS,No,4536219.57,30_Information_Management_and_Technology
+Q71,Asia,07R,Cisco,F83682,Rosslyn Hill Surgery,20 Rosslyn Hill Hampstead London,NW3 1PD,-,-,PMS,No,45760.32,04_Average_Payment_per_Weighted_Patient
+Q53,Midlands,05R,Google,M84044,Harbury Surgery,Harbury Surgery Mill Street Harbury,CV339HR,-,-,PMS,Yes,34567.8,16_Directed_Enhanced_Services_-_Childhood_Vaccination_and_Immunisation_Scheme
+Q70,ornwall,11J,Siemens,J81030,Verwood Pracltice,The Verwood Surgery 15 Station Road Verwood Dorset,BH317PY,-,-,PMS,No,3178.55,28_Total_National_Enhanced_Services
+Q56,Midlands,06W,Pfier,D82026,Dr Phipp & Partners,The Lakenham Surgery 1 Ninham Street Lakenham Norwich Norfolk,NR1 3JJ,-,a-,GMS,No,4827.5,20_Directed_Enhanced_Services_-_Influenza_and_Pneumococcal_Immunisations
+Q56,Midlands,06H,Google,D81619,Dr Lund And Partner,Parkhall Road Somersham Huntingdon Cambs,PE283EU,***,-,PMS,Yes,4536219.57,07_Premises_Payments
+Q53,Midlands,05H,Pfizer,M84007,Long Street Surgery,The Surgery 162 Long Strebet Dordon Tamworth,B78 1QA,k-,-,GMS,Yes,4536219.57,24_Directed_Enhanced_Services_-_Remote_Care_Monitoring
+Q67,Flanders,09W,Pfizer,G82670,Healthy Living Ctr Rochester,The Health Centre Delce Road Rochester Kent,ME1 2EL,-,***,GMS,No,4536219.57,09_PCO_Administered_-_Doctors_Retainer_Scheme_Payments
+Q65,Yorkshire,11T,fPizer,L81004,Portishead Medical Group,Portishead Health Centre Victoria Square Portishead Bristol,BS206AQ,-,f-,PMS,No,4536219.57,22_Directed_Enhanced_Services_-_Minor_Surgery
+Q71,Asai,07V,Siemens,83020,Dr Rodrigues & Partners,Eversley Medical Centre 501 London Road Thornton Heath,CR7 6AR,-,-,PMS,No,4536219.57,06_Global_Sum_and_MPIG_-_MPIG_Correction_Factor
+Qz71,Asia,07W,Pfizer,E85028,Hillcrest Surgery,337 Uxbridge Road Acton London,W3 R9B,-,-,GMS,No,5436219.57,27_Directed_Enhanced_Services_-_Services_for_Violent_Patients
+71,Asia,08Q,Pfizer,G85904,Bermondsey & Lansdowne Medical Mission (Dr Torry),Decima Street London,SE1 4QX,-,-,PMS,o,4536219.57,19_Directed_Enhanced_Services_-_Improving_Patient_Online_Access
+Q55,Northeastern England,04E,Google,C84658,Dr Allen & Ptrs,Meden Medical Services Egmanton Road Meden Vale Mansfield Nottinghamshire,NG209QN,-,-,PMS,No,547892.10,34_Other_Ptayments
+Q45,Southeast,00K,GlaxoSmithKline,Y02597,The Fens Medical Cuentre,434 Catcote Road Fens Estate Hartlepool,TS252LS,-,-,PMS,No,4536219.57,15_Directed_Enhanced_Services_-_Alcohol
+Q67,Flanders,99J,Siemens,G82058,Aylesford Medical Centre,Admiral Moore Drive Royal British Legion Village Maidstone Kent,ME207SE,-,-,GMS,No,4536219.57,32_Non_DES_Item_Pneumococcal_Vaccine_Childhood_Immunisation_Main_Programme

@@ -1,0 +1,347 @@
+{
+  "total_changes": 5067,
+  "error_type_counts": {
+    "FD_VIOLATION": 3915,
+    "RANDOM_TYPO": 1151,
+    "UNKNOWN": 1
+  },
+  "columns_affected": [
+    "end_date",
+    "location_name",
+    "start_date",
+    "aphia_id",
+    "species",
+    "latitude",
+    "sample_comment,\"Area studied was outwith main current, on the south side of the channel connencting Loch Roag ans East Loch Roag",
+    "sample_comment,\"Moderately sheltered inlet which has been modified by an artificial channel leadingu p to a slipway",
+    "record_key",
+    "date_type",
+    "sample_key",
+    "longitude",
+    "sample_comment,\"Shore largely composed of rounded boulders backed by a storm beach which in turn cuts off Loch Arnol from the sea",
+    "survey_key",
+    "data_type",
+    "abundance_sacforn",
+    "location_name,\"Portnagura (Broad Bay, Lewis)\"",
+    "sample_comment,Ridged/stepped rocky shore with rockpools",
+    "projection",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"High cliffs with beach beneath, intersected at its SW end by a patch of rocks",
+    "sample_comment,\"Loch Shader is a chain of almost closed lagoons, upper one almost fresh with causeway and sluice at mouth",
+    "survey_name",
+    "sample_comment,\"North of the stream, which has a very limited influence, the shore consisted of irregular rocks and boulders backed by low steep cliffs with many indentations",
+    "sample_comment,\"Little Loch Roag entrance - in narrowest parts walls are almost vertical with narrow ledges and small corners with loose blocks (muddy underneath) and overhangs, but in wider areas there are patches of gravel and boulders",
+    "sample_comment,\"Irregular cliffs with wide stepped platforms upon which are coralline ools at various levels and also very large blocks with small caverns underneath them containing pools",
+    "sample_comment,\"Current swept rock and boulder area",
+    "sample_comment,\"At the site of investigation the lower shore is somewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment",
+    "sample_comment,\"Irregular cliffs with wide stpped platforms upon which are coralline pools at various levels and also very large blocks with small caverns underneath them containing pools",
+    "sample_comment,\"Boulder/gravel shore",
+    "sample_comment,\"Moderately sheltered inlet which has been modified by an artificial channel leading up to a slipway",
+    "sample_comment,\"Shore largely composed of rounded boudlers backed by a storm beach which in turn cuts off Loch Arnol from the sea",
+    "sample_comment,\"Rocky knob in middle of exposed, small inlet",
+    "sample_comment,\"Irregular cliffs with wide sepped platforms upon which are coralline pools at various levels and also very large blocks with small caverns underneath them containing pools",
+    "sample_comment,\"A rocky area on N side of harbour investigated",
+    "sample_comment,\"The shores are composed of boulders and gravel with a little rock, giving way to mud or muddy sand at LW",
+    "sample_comment,\"Th eshore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Area studied wags outwith main current, on the south side of the channel connencting Loch Roag ans East Loch Roag",
+    "sample_comment,\"At the site of investigation the lower sore is somewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment,\"The E side of Melbost Point is composed of conglomerate cut into an upper shore cliff which at the Pelvetia zone sharply flattens out into a rock platform",
+    "sample_comment,\"Loch Shader is a chain of almost cjlosed lagoons, upper one almost fresh with causeway and sluice at mouth",
+    "sample_comment,\"The shore is exposed and is composed of smooth ocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Irregular cliffs with wide stepped platforms upon which are coralline pools at various levels and also very large blocks with small caverns underneath them containing pools",
+    "sample_comment,\"At the site of investigation the lower shore is smoewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "location_name,\"Portnaguran (fBroad Bay, Lewis)\"",
+    "sample_comment,\"Although there are small outcrops of rocks, most of the shores of the bay are composed of boulders heavily covered with fucoids (F",
+    "sample_comment,\"The E side of Melbost Point is composed of conglomerate cut into an upper shore clfiff which at the Pelvetia zone sharply flattens out into a rock platform",
+    "sample_comment,\"Loch Shader is a chain of almost closed lagoons",
+    "sample_comment,\"Moderately sheltere inlet which has been modified by an artificial channel leading up to a slipway",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulder sand a storm beach",
+    "sample_comment,Area of partly sheltered rocks at the base of cliffs within a small sandy bay",
+    "sample_comment,\"North of the stream, which has a very limited influence, the shore consisted of irregular rocks and boulders backed by low steep cliffs with many indenttions",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wie steps above which are large boulders and a storm beach",
+    "location_name,\"Portnaguran (Broad Beay, Lewis)\"",
+    "sample_comment,\"At the site of investigation the lower shore is somewhat protectedb y Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment,\"High cliffs with each beneath, intersected at its SW end by a patch of rocks",
+    "sample_comment,\"At the site of investigation the lower shore is somewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other agae",
+    "sample_comment,\"Irregular rock platform, beyond breakwater/pier, of angular rocks and boulders",
+    "sample_comment,\"Area studied was outwith main current, on the south side of the channel connencting Loch Roag ans East Loch Rqoag",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocsk cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Actual lagoon sampled was Ob Cheannullagtob, 500 m south of Valasay",
+    "sample_comment,\"North of the stream, whihc has a very limited influence, the shore consisted of irregular rocks and boulders backed by low steep cliffs with many indentations",
+    "sample_comment,\"At the site of investigation the lower shore is somewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover offucoids and other algae",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocsks cut into wide steps above which are large boulders and a storm beach",
+    "location_name,\"Portnaguran (Broad Bay",
+    "sample_comment,\"Irregular cliffs with wide stepped platforms upon which are coralline pools at varioaus levels and also very large blocks with small caverns underneath them containing pools",
+    "location_name,\"ortnaguran (Broad Bay, Lewis)\"",
+    "sample_comment,\"The shore i exposed and is composed of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Area consisted of irregular rocks with small coralline pools and some boulders",
+    "location_name,Tolstachaolais: Ob Shader (East Loch Roag)",
+    "sample_comment,\"Area studied was outwith mainm current, on the south side of the channel connencting Loch Roag ans East Loch Roag",
+    "location_name,\"Portnaguran (Broda Bay, Lewis)\"",
+    "sample_comment,\"Moderately sheltered inlet which hbas been modified by an artificial channel leading up to a slipway",
+    "location_name,\"Melbost Point (Broad Bay",
+    "sample_comment,\"Area studied was oujtwith main current, on the south side of the channel connencting Loch Roag ans East Loch Roag",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large oulders and a storm beach",
+    "location_name,Roag narrows (Little Loch Roag)",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which ar large boulders and a storm beach",
+    "sample_comment,\"On the west side, small rock platform with narrow pools at the level of F",
+    "sample_comment,\"North of the stream, which has a very limited influence, the shore consisted of irregluar rocks and boulders backed by low steep cliffs with many indentations",
+    "sample_comment,\"Moderately sheltered inlet which has been modified by an artificial channel leading up toa slipway",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders apnd a storm beach",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large bouldeqrs and a storm beach",
+    "sample_comment,\"Moderately sheltered inlet which has been modified by an artificial channel leading u to a slipway",
+    "sample_comment,\"The shore is exposed and is composedu of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"At the site of investigation the lower shore is somewhatprotected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders and a stom beach",
+    "sample_comment,Not well worked because of very heavy rain",
+    "location_name,T\u00e2\u0080\u00a2b Valasay & Ob Cheannullag (Tob Valasay)",
+    "sample_comment,\"High cliffs with beacmh beneath, intersected at its SW end by a patch of rocks",
+    "sample_comment,\"At the site of investigation the lower shore is somewhat protected by Eilean aC'haise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders and ae storm beach",
+    "sample_comment,\"Area studied was outwith main current, no the south side of the channel connencting Loch Roag ans East Loch Roag",
+    "sample_comment,\"At the site of rinvestigation the lower shore is somewhat protected by Eilean a'Chaise and a separate smaller knob just to the south, and thus had a thick cover of fucoids and other algae",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cut into wide steps babove which are large boulders and a storm beach",
+    "sample_comment,\"On the west side, small rok platform with narrow pools at the level of F",
+    "sample_comment,\"The shores are composed o boulders and gravel with a little rock, giving way to mud or muddy sand at LW",
+    "sample_comment,\"Loch Shadexr is a chain of almost closed lagoons, upper one almost fresh with causeway and sluice at mouth",
+    "sample_comment,\"North of the stream, which has a very limited influence, the shore consisted of irregular rocks and boulders backed by low step cliffs with many indentations",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cuti nto wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Area studied was outwith main current, on the south side of txhe channel connencting Loch Roag ans East Loch Roag",
+    "sample_comment,\"The shore is exposed and is ocmposed of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"Thee shore is exposed and is composed of smooth rocks cut into wide steps above which are large boulders and a storm beach",
+    "sample_comment,\"The shore is exposed and is composed of smooth rocks cukt into wide steps above which are large boulders and a storm beach",
+    "location_name,Shader: Rubha Bhlanisgaidh (Loch schader)",
+    "sample_comment,\"Moderately sheltered inlet which has been modified by an artificial channel leading up t a slipway",
+    "location_name,Reef (Loch Roag)",
+    "sample_comment,\"Bare and scoured rocky shore with some Balanomytilus patches at base of cliff",
+    "sample_comment,\"Area studied was outwith main current, on the south side of the channel connenting Loch Roag ans East Loch Roag",
+    "location_name,Bernera Bridge (Loch Roag)",
+    "location_name,Callanish Pier (East Loch Roag)",
+    "location_name,\"Portnaguran (Broad Bay, Leweis)\"",
+    "sample_comment,\"High cliffs with beach beneath, indtersected at its SW end by a patch of rocks"
+  ],
+  "configuration": {
+    "total_error_percentage": 16,
+    "fd_percentage": 8,
+    "outlier_percentage": 0,
+    "typo_percentage": 8,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "aphia_id",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "location_name",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_comment",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "abundance_sacforn",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "aphia_id",
+        "dependant": "species",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "species",
+        "dependant": "aphia_id",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "location_name",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "sample_comment",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "sample_key",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "sample_comment",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "latitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "longitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "start_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "location_name",
+        "dependant": "end_date",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "sample_key",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "location_name",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "latitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "longitude",
+        "percentage": 7.4108818011257185
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "start_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "sample_comment",
+        "dependant": "end_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "start_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "end_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "start_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "end_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "start_date",
+        "dependant": "end_date",
+        "percentage": 7.317073170731722
+      },
+      {
+        "determinant": "end_date",
+        "dependant": "start_date",
+        "percentage": 7.317073170731722
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "record_key",
+      "survey_key",
+      "survey_name",
+      "sample_key",
+      "start_date",
+      "end_date",
+      "date_type",
+      "location_name",
+      "data_type",
+      "projection",
+      "species",
+      "abundance_sacforn",
+      "sample_comment"
+    ],
+    "num_fd_rules": 39,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 13
+  },
+  "used_bart_native_types": true
+}

@@ -1,0 +1,14 @@
+defaults:
+- _self_
+- shared
+
+  # Comment
+  # - table_wise
+  # - standard
+- standard
+
+results:
+  path_to_benchmark_dataframe: ""
+  path_to_experiment_results_folder: ""
+  labeling_budget: 
+  variant: "standard" # standard, table_wise (for rt), column_wise (for XLPC)

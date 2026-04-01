@@ -1,0 +1,38 @@
+{
+  "total_changes": 14343,
+  "error_type_counts": {
+    "RANDOM_TYPO": 14343
+  },
+  "columns_affected": [
+    "dischargesfromhospitalnetfollowedupwithin_sevendays",
+    "mindaysinendedclusterepisodes",
+    "maxdaystoinitialclusterassignment",
+    "clusterdays",
+    "oncpa",
+    "maxcontactstoinitialclusterassignment",
+    "clusterepisodesendednetwith_ho_nos",
+    "peoplewithcontactwithinreviewperiod"
+  ],
+  "configuration": {
+    "total_error_percentage": 15,
+    "fd_percentage": 0,
+    "outlier_percentage": 0,
+    "typo_percentage": 15,
+    "fd_violations": [],
+    "outlier_columns": [],
+    "typo_columns": [
+      "peoplewithcontactwithinreviewperiod",
+      "clusterdays",
+      "maxcontactstoinitialclusterassignment",
+      "mindaysinendedclusterepisodes",
+      "maxdaystoinitialclusterassignment",
+      "dischargesfromhospitalnetfollowedupwithin_sevendays",
+      "oncpa",
+      "clusterepisodesendednetwith_ho_nos"
+    ],
+    "num_fd_rules": 0,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 8
+  },
+  "used_bart_native_types": true
+}

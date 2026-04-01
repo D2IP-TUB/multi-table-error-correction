@@ -1,0 +1,80 @@
+{
+  "total_changes": 609,
+  "error_type_counts": {
+    "RANDOM_TYPO": 360,
+    "FD_VIOLATION": 248,
+    "UNKNOWN": 1
+  },
+  "columns_affected": [
+    "complimentary_prescription_allocation",
+    "complimentary_bridge_maintenance",
+    "quarter_reporting_period",
+    "regional_office_code",
+    "geographical_indicator_code",
+    "level_one_procedure",
+    "level_two_procedure",
+    "overall_total_value",
+    "area_code",
+    "complimentary_bleeding_control",
+    "customer_category",
+    "level_three_procedure",
+    "immediate_care_procedures",
+    "fiscal_year",
+    "complimentary_denture_maintenance",
+    "status",
+    "complimentary_suture_removal",
+    "overall_total_value,\"25,99"
+  ],
+  "configuration": {
+    "total_error_percentage": 24,
+    "fd_percentage": 12,
+    "outlier_percentage": 0,
+    "typo_percentage": 12,
+    "fd_violations": [
+      {
+        "determinant": "regional_office_code",
+        "dependant": "geographical_indicator_code",
+        "percentage": 102.88461538461553
+      },
+      {
+        "determinant": "regional_office_code",
+        "dependant": "area_code",
+        "percentage": 101.92307692307706
+      },
+      {
+        "determinant": "geographical_indicator_code",
+        "dependant": "regional_office_code",
+        "percentage": 101.92307692307706
+      },
+      {
+        "determinant": "geographical_indicator_code",
+        "dependant": "area_code",
+        "percentage": 101.92307692307706
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "quarter_reporting_period",
+      "fiscal_year",
+      "status",
+      "regional_office_code",
+      "area_code",
+      "geographical_indicator_code",
+      "customer_category",
+      "level_one_procedure",
+      "level_two_procedure",
+      "level_three_procedure",
+      "immediate_care_procedures",
+      "complimentary_bleeding_control",
+      "complimentary_bridge_maintenance",
+      "complimentary_denture_maintenance",
+      "complimentary_prescription_allocation",
+      "complimentary_suture_removal",
+      "overall_total_value"
+    ],
+    "num_fd_rules": 4,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 17
+  },
+  "used_bart_native_types": true
+}

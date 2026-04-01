@@ -1,0 +1,159 @@
+{
+  "source_dir": "/raid0_ssd2/fatemeh/data/Unionable_Tables/Unified_Union_Exp_isolated",
+  "num_partitions": 10,
+  "tables": {
+    "305b_Assessed_2008_Estuary": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 210
+    },
+    "305b_Assessed_Lake_2020": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 182
+    },
+    "Emergency_Operating_Center_Tools": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 1,
+      "total_rows": 7
+    },
+    "Health_conditions_among_children_under_age_18__by_selected_characteristics__United_States": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 2744
+    },
+    "Impaired_Estuary_2008": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 179
+    },
+    "Impaired_Lake_2020": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 4,
+      "total_rows": 45
+    },
+    "Louisville_KY_Metro_Council_Districts": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 2,
+      "total_rows": 26
+    },
+    "Louisville_KY_Metro_Council_Districts_-_Former_from_2011": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 2,
+      "total_rows": 26
+    },
+    "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Complaint_With_No_Violations": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 4724
+    },
+    "Louisville_Metro_KY_-_List_of_Locations_with_COVID_Related_Random_Survey_With_No_Violations": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 3002
+    },
+    "Louisville_Metro_KY_-_Permitted_Hotels_and_Motels": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 131
+    },
+    "Louisville_Metro_KY_-_Permitted_Swimming_Areas": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 538
+    },
+    "Obesity_among_children_and_adolescents_aged_2_19_years__by_selected_characteristics__United_States": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 840
+    },
+    "Regional_Tier_Graduation_Rate": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 1,
+      "total_rows": 8
+    },
+    "Shared_IT_Support_Services": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 1,
+      "total_rows": 7
+    },
+    "State_of_Oklahoma_Revolving_Funds_-_2011": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 1075
+    },
+    "State_of_Oklahoma_Revolving_Funds_-_2012": {
+      "variants": [
+        "FD",
+        "NO",
+        "Typo"
+      ],
+      "num_partitions": 10,
+      "total_rows": 1094
+    }
+  }
+}

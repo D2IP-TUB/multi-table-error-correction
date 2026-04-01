@@ -1,0 +1,119 @@
+{
+  "total_changes": 549,
+  "error_type_counts": {
+    "FD_VIOLATION": 434,
+    "RANDOM_TYPO": 115
+  },
+  "columns_affected": [
+    "varicose_veinavvq_post_opq_predicted",
+    "datevalue",
+    "pre_opqeq_five_d_index_profile",
+    "pre_opqeq_five_d_index"
+  ],
+  "configuration": {
+    "total_error_percentage": 22,
+    "fd_percentage": 11,
+    "outlier_percentage": 0,
+    "typo_percentage": 11,
+    "fd_violations": [
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_score",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "pre_opqeqvas",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "pre_opqeq_five_d_index_profile",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "pre_opqeq_five_d_index",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_left_front_count",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_post_opq_work",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_swelling",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_post_opq_left_itch",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_clothing",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_right_pain_days",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_post_opq_leisure",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_right_itch",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_post_opq_right_ulcer",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "post_opq_discomfort",
+        "percentage": 23.268698060941826
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "varicose_vein_pre_opq_left_discolour",
+        "percentage": 23.084025854108955
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "post_opq_wound",
+        "percentage": 23.084025854108955
+      },
+      {
+        "determinant": "varicose_veinavvq_post_opq_predicted",
+        "dependant": "post_opq_self_care",
+        "percentage": 23.084025854108955
+      },
+      {
+        "determinant": "pre_opqeq_five_d_index_profile",
+        "dependant": "pre_opqeq_five_d_index",
+        "percentage": 23.084025854108955
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "datevalue"
+    ],
+    "num_fd_rules": 18,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 1
+  },
+  "used_bart_native_types": true
+}

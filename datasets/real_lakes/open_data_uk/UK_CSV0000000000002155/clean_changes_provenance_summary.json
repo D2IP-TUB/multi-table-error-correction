@@ -1,0 +1,52 @@
+{
+  "total_changes": 9019,
+  "error_type_counts": {
+    "FD_VIOLATION": 4950,
+    "RANDOM_TYPO": 4069
+  },
+  "columns_affected": [
+    "locationvalue",
+    "lsoacode",
+    "lsoaname",
+    "crimeid",
+    "monthvalue",
+    "crimetype",
+    "reportedby",
+    "fallswithin",
+    "lastoutcomecategory"
+  ],
+  "configuration": {
+    "total_error_percentage": 21,
+    "fd_percentage": 10,
+    "outlier_percentage": 0,
+    "typo_percentage": 10,
+    "fd_violations": [
+      {
+        "determinant": "lsoacode",
+        "dependant": "lsoaname",
+        "percentage": 110.01057455058184
+      },
+      {
+        "determinant": "lsoaname",
+        "dependant": "lsoacode",
+        "percentage": 110.01057455058184
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "crimeid",
+      "monthvalue",
+      "reportedby",
+      "fallswithin",
+      "locationvalue",
+      "lsoacode",
+      "lsoaname",
+      "crimetype",
+      "lastoutcomecategory"
+    ],
+    "num_fd_rules": 2,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 9
+  },
+  "used_bart_native_types": true
+}

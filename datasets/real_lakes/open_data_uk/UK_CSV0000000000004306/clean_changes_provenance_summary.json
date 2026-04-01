@@ -1,0 +1,117 @@
+{
+  "total_changes": 2924,
+  "error_type_counts": {
+    "FD_VIOLATION": 1998,
+    "RANDOM_TYPO": 926
+  },
+  "columns_affected": [
+    "longitude",
+    "start_date",
+    "sample_key",
+    "record_key",
+    "latitude",
+    "data_type",
+    "species",
+    "survey_name",
+    "end_date",
+    "projection"
+  ],
+  "configuration": {
+    "total_error_percentage": 17,
+    "fd_percentage": 8,
+    "outlier_percentage": 0,
+    "typo_percentage": 8,
+    "fd_violations": [
+      {
+        "determinant": "record_key",
+        "dependant": "species",
+        "percentage": 11.81356714351637
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "sample_key",
+        "percentage": 11.81356714351637
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "latitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "longitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "start_date",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "end_date",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "record_key",
+        "dependant": "uncertain",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "latitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "longitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "start_date",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "sample_key",
+        "dependant": "end_date",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "longitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "latitude",
+        "dependant": "start_date",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "latitude",
+        "percentage": 11.721273650207648
+      },
+      {
+        "determinant": "longitude",
+        "dependant": "start_date",
+        "percentage": 11.721273650207648
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "survey_name",
+      "start_date",
+      "end_date",
+      "species",
+      "sample_key",
+      "record_key",
+      "data_type",
+      "projection"
+    ],
+    "num_fd_rules": 15,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 8
+  },
+  "used_bart_native_types": true
+}

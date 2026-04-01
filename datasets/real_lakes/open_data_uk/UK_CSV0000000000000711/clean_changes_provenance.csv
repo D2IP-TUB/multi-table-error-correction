@@ -1,0 +1,610 @@
+cell_id,row_number,column_name,old_value,new_value,error_type,fd_rule,violated_dependencies
+83.complimentary_prescription_allocation,83,complimentary_prescription_allocation,99.75,99.x75,RANDOM_TYPO,,[]
+31.complimentary_bridge_maintenance,31,complimentary_bridge_maintenance,8.4,y8.4,RANDOM_TYPO,,[]
+138.quarter_reporting_period,138,quarter_reporting_period,Spring,Sprintg,RANDOM_TYPO,,[]
+120.regional_office_code,120,regional_office_code,5K5,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+191.geographical_indicator_code,191,geographical_indicator_code,E16000046,16000046,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+7.regional_office_code,7,regional_office_code,5QJ,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+25.regional_office_code,25,regional_office_code,5NG,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+19.level_one_procedure,19,level_one_procedure,85042,850b42,RANDOM_TYPO,,[]
+208.level_two_procedure,208,level_two_procedure,25500,25050,RANDOM_TYPO,,[]
+204.overall_total_value,204,overall_total_value,45729.5,45729e.5,RANDOM_TYPO,,[]
+146.regional_office_code,146,regional_office_code,5QK,5PW,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+190.area_code,190,area_code,Q34,Qv34,FD_VIOLATION,regional_office_code -> area_code,[e2]
+174.level_two_procedure,174,level_two_procedure,14742,14724,RANDOM_TYPO,,[]
+190.complimentary_bleeding_control,190,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+3.customer_category,3,customer_category,Students,Studnets,RANDOM_TYPO,,[]
+144.complimentary_bleeding_control,144,complimentary_bleeding_control,2.4,n2.4,RANDOM_TYPO,,[]
+66.regional_office_code,66,regional_office_code,5K8,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+45.regional_office_code,45,regional_office_code,5C4,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+125.complimentary_bridge_maintenance,125,complimentary_bridge_maintenance,37.2,7.2,RANDOM_TYPO,,[]
+28.regional_office_code,28,regional_office_code,5AT,5NE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+197.geographical_indicator_code,197,geographical_indicator_code,E16000027,E1600027,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+123.regional_office_code,123,regional_office_code,5EF,5LE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+112.complimentary_bridge_maintenance,112,complimentary_bridge_maintenance,0,,RANDOM_TYPO,,[]
+154.geographical_indicator_code,154,geographical_indicator_code,E16000052,E16000071,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+166.level_three_procedure,166,level_three_procedure,32448,3248,RANDOM_TYPO,,[]
+51.complimentary_bridge_maintenance,51,complimentary_bridge_maintenance,0,a0,RANDOM_TYPO,,[]
+112.immediate_care_procedures,112,immediate_care_procedures,547.2,547.t2,RANDOM_TYPO,,[]
+80.complimentary_prescription_allocation,80,complimentary_prescription_allocation,97.5,975,RANDOM_TYPO,,[]
+107.fiscal_year,107,fiscal_year,2007/2008,007/2008,RANDOM_TYPO,,[]
+153.level_two_procedure,153,level_two_procedure,7956,795d6,RANDOM_TYPO,,[]
+178.complimentary_denture_maintenance,178,complimentary_denture_maintenance,790,7i90,RANDOM_TYPO,,[]
+3.level_three_procedure,3,level_three_procedure,17040,p17040,RANDOM_TYPO,,[]
+102.regional_office_code,102,regional_office_code,5AT,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+89.complimentary_bridge_maintenance,89,complimentary_bridge_maintenance,31.2,312.,RANDOM_TYPO,,[]
+170.complimentary_bridge_maintenance,170,complimentary_bridge_maintenance,1.2,12.,RANDOM_TYPO,,[]
+204.geographical_indicator_code,204,geographical_indicator_code,E16000026,E6000026,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+107.geographical_indicator_code,107,geographical_indicator_code,E16000062,E61000062,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+20.level_one_procedure,20,level_one_procedure,24804,2404,RANDOM_TYPO,,[]
+14.level_two_procedure,14,level_two_procedure,12576,21576,RANDOM_TYPO,,[]
+55.fiscal_year,55,fiscal_year,2009/2010,20m09/2010,RANDOM_TYPO,,[]
+138.regional_office_code,138,regional_office_code,5QQ,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+140.geographical_indicator_code,140,geographical_indicator_code,E16000119,E16000191,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+18.level_three_procedure,18,level_three_procedure,28488,8488,RANDOM_TYPO,,[]
+161.immediate_care_procedures,161,immediate_care_procedures,1464,1644,RANDOM_TYPO,,[]
+104.level_three_procedure,104,level_three_procedure,780,70,RANDOM_TYPO,,[]
+20.fiscal_year,20,fiscal_year,2006/2007,2006/20v07,RANDOM_TYPO,,[]
+24.complimentary_bridge_maintenance,24,complimentary_bridge_maintenance,1.2,1.y2,RANDOM_TYPO,,[]
+190.geographical_indicator_code,190,geographical_indicator_code,E16000066,E10600066,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+130.immediate_care_procedures,130,immediate_care_procedures,1582.8,158.8,RANDOM_TYPO,,[]
+86.regional_office_code,86,regional_office_code,5NW,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+119.customer_category,119,customer_category,Adult,dult,RANDOM_TYPO,,[]
+31.regional_office_code,31,regional_office_code,5PJ,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+53.complimentary_denture_maintenance,53,complimentary_denture_maintenance,2,z2,RANDOM_TYPO,,[]
+52.overall_total_value,52,overall_total_value,43456.7,4345.67,RANDOM_TYPO,,[]
+103.regional_office_code,103,regional_office_code,5PE,5LH,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+202.level_one_procedure,202,level_one_procedure,7182,7i182,RANDOM_TYPO,,[]
+77.area_code,77,area_code,Q31,Qp31,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+47.regional_office_code,47,regional_office_code,5PF,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+187.area_code,187,area_code,Q31,31,FD_VIOLATION,regional_office_code -> area_code,[e4]
+122.status,122,status,Final,Finl,RANDOM_TYPO,,[]
+50.complimentary_bleeding_control,50,complimentary_bleeding_control,0,a0,RANDOM_TYPO,,[]
+144.regional_office_code,144,regional_office_code,5PL,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+154.quarter_reporting_period,154,quarter_reporting_period,Spring,Spirng,RANDOM_TYPO,,[]
+72.regional_office_code,72,regional_office_code,5N1,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+25.level_one_procedure,25,level_one_procedure,6351,6315,RANDOM_TYPO,,[]
+169.geographical_indicator_code,169,geographical_indicator_code,E16000053,E61000053,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+68.complimentary_denture_maintenance,68,complimentary_denture_maintenance,73,t73,RANDOM_TYPO,,[]
+142.regional_office_code,142,regional_office_code,5NW,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+92.complimentary_prescription_allocation,92,complimentary_prescription_allocation,93.75,9j3.75,RANDOM_TYPO,,[]
+104.area_code,104,area_code,Q32,32,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+161.regional_office_code,161,regional_office_code,5J4,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+93.customer_category,93,customer_category,Premium,rPemium,RANDOM_TYPO,,[]
+192.status,192,status,Final,inal,RANDOM_TYPO,,[]
+67.immediate_care_procedures,67,immediate_care_procedures,475.2,745.2,RANDOM_TYPO,,[]
+208.complimentary_suture_removal,208,complimentary_suture_removal,4,j4,RANDOM_TYPO,,[]
+2.complimentary_bleeding_control,2,complimentary_bleeding_control,10.8,108.,RANDOM_TYPO,,[]
+147.complimentary_denture_maintenance,147,complimentary_denture_maintenance,0,v0,RANDOM_TYPO,,[]
+136.level_three_procedure,136,level_three_procedure,7488,74i88,RANDOM_TYPO,,[]
+160.area_code,160,area_code,Q36,3Q6,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+31.immediate_care_procedures,31,immediate_care_procedures,1711.2,1z711.2,RANDOM_TYPO,,[]
+127.level_three_procedure,127,level_three_procedure,624,264,RANDOM_TYPO,,[]
+186.geographical_indicator_code,186,geographical_indicator_code,E16000101,E16000o101,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+109.area_code,109,area_code,Q36,lQ36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+143.level_one_procedure,143,level_one_procedure,4910,4190,RANDOM_TYPO,,[]
+48.complimentary_bleeding_control,48,complimentary_bleeding_control,0,c0,RANDOM_TYPO,,[]
+75.regional_office_code,75,regional_office_code,5NY,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+115.level_two_procedure,115,level_two_procedure,45975,n45975,RANDOM_TYPO,,[]
+166.area_code,166,area_code,Q35,Qv35,FD_VIOLATION,regional_office_code -> area_code,[e2]
+203.level_three_procedure,203,level_three_procedure,696,66,RANDOM_TYPO,,[]
+66.status,66,status,Final,inal,RANDOM_TYPO,,[]
+169.area_code,169,area_code,Q30,Qc30,FD_VIOLATION,regional_office_code -> area_code,[e2]
+41.complimentary_bleeding_control,41,complimentary_bleeding_control,0,***,RANDOM_TYPO,,[]
+80.area_code,80,area_code,Q39,Qj39,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+121.overall_total_value,121,overall_total_value,987654321.,98765432.,RANDOM_TYPO,,[]
+35.complimentary_prescription_allocation,35,complimentary_prescription_allocation,49.5,4h9.5,RANDOM_TYPO,,[]
+197.area_code,197,area_code,Q38,Q3g8,FD_VIOLATION,regional_office_code -> area_code,[e2]
+122.complimentary_bridge_maintenance,122,complimentary_bridge_maintenance,2.4,24,RANDOM_TYPO,,[]
+162.status,162,status,Final,Finl,RANDOM_TYPO,,[]
+121.geographical_indicator_code,121,geographical_indicator_code,E16000054,E16000046,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+57.geographical_indicator_code,57,geographical_indicator_code,E16000136,E16000107,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+135.regional_office_code,135,regional_office_code,5A3,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+162.geographical_indicator_code,162,geographical_indicator_code,E16000046,E16000046***,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+144.area_code,144,area_code,Q34,Q4,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+76.regional_office_code,76,regional_office_code,5J4,5PJ,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+106.complimentary_prescription_allocation,106,complimentary_prescription_allocation,391.5,319.5,RANDOM_TYPO,,[]
+98.regional_office_code,98,regional_office_code,5LG,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+181.complimentary_denture_maintenance,181,complimentary_denture_maintenance,45,54,RANDOM_TYPO,,[]
+127.fiscal_year,127,fiscal_year,2008/2009,2008/009,RANDOM_TYPO,,[]
+5.complimentary_suture_removal,5,complimentary_suture_removal,2,p2,RANDOM_TYPO,,[]
+122.regional_office_code,122,regional_office_code,5CQ,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+136.area_code,136,area_code,Q39,Q3g9,FD_VIOLATION,regional_office_code -> area_code,[e2]
+74.regional_office_code,74,regional_office_code,5K5,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+65.area_code,65,area_code,Q34,Q43,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+87.immediate_care_procedures,87,immediate_care_procedures,4912.8,4921.8,RANDOM_TYPO,,[]
+112.quarter_reporting_period,112,quarter_reporting_period,Q4,4,RANDOM_TYPO,,[]
+77.customer_category,77,customer_category,Students,Studentzs,RANDOM_TYPO,,[]
+193.fiscal_year,193,fiscal_year,2008/2009,2z008/2009,RANDOM_TYPO,,[]
+121.regional_office_code,121,regional_office_code,5L1,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+18.level_two_procedure,18,level_two_procedure,15066,1566,RANDOM_TYPO,,[]
+201.status,201,status,Final,jFinal,RANDOM_TYPO,,[]
+40.level_one_procedure,40,level_one_procedure,5793,7593,RANDOM_TYPO,,[]
+20.overall_total_value,20,overall_total_value,256745.8,25674b5.8,RANDOM_TYPO,,[]
+94.overall_total_value,94,overall_total_value,59218.7,5921y8.7,RANDOM_TYPO,,[]
+109.complimentary_bridge_maintenance,109,complimentary_bridge_maintenance,0,,RANDOM_TYPO,,[]
+97.regional_office_code,97,regional_office_code,5M7,5NE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+112.level_two_procedure,112,level_two_procedure,15198,5198,RANDOM_TYPO,,[]
+112.complimentary_prescription_allocation,112,complimentary_prescription_allocation,69.75,697.5,RANDOM_TYPO,,[]
+61.area_code,61,area_code,Q36,36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+104.customer_category,104,customer_category,Adult,Audlt,RANDOM_TYPO,,[]
+177.complimentary_denture_maintenance,177,complimentary_denture_maintenance,6,,RANDOM_TYPO,,[]
+183.geographical_indicator_code,183,geographical_indicator_code,E16000024,16000024,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+159.customer_category,159,customer_category,Premium,Preium,RANDOM_TYPO,,[]
+81.area_code,81,area_code,Q38,Q83,FD_VIOLATION,regional_office_code -> area_code,[e2]
+34.complimentary_denture_maintenance,34,complimentary_denture_maintenance,416,41r6,RANDOM_TYPO,,[]
+103.complimentary_bridge_maintenance,103,complimentary_bridge_maintenance,0,***,RANDOM_TYPO,,[]
+9.complimentary_suture_removal,9,complimentary_suture_removal,3,,RANDOM_TYPO,,[]
+201.area_code,201,area_code,Q38,3Q8,FD_VIOLATION,regional_office_code -> area_code,[e4]
+39.regional_office_code,39,regional_office_code,5NR,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+162.complimentary_bleeding_control,162,complimentary_bleeding_control,0,u0,RANDOM_TYPO,,[]
+150.status,150,status,Final,Fnial,RANDOM_TYPO,,[]
+200.quarter_reporting_period,200,quarter_reporting_period,Spring,pring,RANDOM_TYPO,,[]
+41.level_one_procedure,41,level_one_procedure,9222,z9222,RANDOM_TYPO,,[]
+23.complimentary_denture_maintenance,23,complimentary_denture_maintenance,1,***,RANDOM_TYPO,,[]
+151.area_code,151,area_code,Q35,35,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+137.geographical_indicator_code,137,geographical_indicator_code,E16000047,E16000074,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+156.area_code,156,area_code,Q34,yQ34,FD_VIOLATION,regional_office_code -> area_code,[e2]
+195.geographical_indicator_code,195,geographical_indicator_code,E16000025,E16000052,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+151.fiscal_year,151,fiscal_year,2012/2013,201/2013,RANDOM_TYPO,,[]
+194.area_code,194,area_code,Q31,Q1,FD_VIOLATION,regional_office_code -> area_code,[e4]
+93.regional_office_code,93,regional_office_code,5J4,5C3,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+30.regional_office_code,30,regional_office_code,5K6,5LE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+118.complimentary_bleeding_control,118,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+102.status,102,status,Final,Fnial,RANDOM_TYPO,,[]
+88.regional_office_code,88,regional_office_code,5PC,5NF,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+94.regional_office_code,94,regional_office_code,5QM,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+10.level_one_procedure,10,level_one_procedure,7134,734,RANDOM_TYPO,,[]
+119.complimentary_denture_maintenance,119,complimentary_denture_maintenance,2,j2,RANDOM_TYPO,,[]
+89.regional_office_code,89,regional_office_code,5PR,5NE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+68.regional_office_code,68,regional_office_code,5PW,5LE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+46.regional_office_code,46,regional_office_code,5N2,5K6,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+43.area_code,43,area_code,Q34,34,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+110.regional_office_code,110,regional_office_code,5C5,5QK,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+91.regional_office_code,91,regional_office_code,5QP,5C3,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+167.overall_total_value,167,overall_total_value,58274.3,582743.,RANDOM_TYPO,,[]
+25.area_code,25,area_code,Q31,Q3t1,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+64.geographical_indicator_code,64,geographical_indicator_code,E16000148,E16000110,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+147.regional_office_code,147,regional_office_code,5HX,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+54.regional_office_code,54,regional_office_code,5NT,5HX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+24.area_code,24,area_code,Q35,Q5,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+70.regional_office_code,70,regional_office_code,5NF,5LD,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+73.regional_office_code,73,regional_office_code,5PL,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+120.overall_total_value,120,overall_total_value,59218.7,n59218.7,RANDOM_TYPO,,[]
+28.complimentary_prescription_allocation,28,complimentary_prescription_allocation,28.5,8.5,RANDOM_TYPO,,[]
+59.immediate_care_procedures,59,immediate_care_procedures,636,663,RANDOM_TYPO,,[]
+174.area_code,174,area_code,Q36,Q63,FD_VIOLATION,regional_office_code -> area_code,[e2]
+88.customer_category,88,customer_category,Premium,remium,RANDOM_TYPO,,[]
+85.complimentary_bleeding_control,85,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+95.regional_office_code,95,regional_office_code,5JE,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+198.area_code,198,area_code,Q34,Q4,FD_VIOLATION,regional_office_code -> area_code,[e2]
+89.status,89,status,Final,Fjinal,RANDOM_TYPO,,[]
+17.level_three_procedure,17,level_three_procedure,.,v.,RANDOM_TYPO,,[]
+58.regional_office_code,58,regional_office_code,5NR,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+183.overall_total_value,183,overall_total_value,59218.7,9218.7,RANDOM_TYPO,,[]
+162.level_one_procedure,162,level_one_procedure,5497,547,RANDOM_TYPO,,[]
+154.regional_office_code,154,regional_office_code,5KL,5C3,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+71.regional_office_code,71,regional_office_code,5LQ,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+129.regional_office_code,129,regional_office_code,5N3,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+16.immediate_care_procedures,16,immediate_care_procedures,1128,1a128,RANDOM_TYPO,,[]
+1.complimentary_prescription_allocation,1,complimentary_prescription_allocation,226.5,226.5***,RANDOM_TYPO,,[]
+9.customer_category,9,customer_category,Premium,Prmeium,RANDOM_TYPO,,[]
+192.complimentary_bleeding_control,192,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+197.fiscal_year,197,fiscal_year,2010/2011,2010/i2011,RANDOM_TYPO,,[]
+141.regional_office_code,141,regional_office_code,5M7,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+126.complimentary_denture_maintenance,126,complimentary_denture_maintenance,200,020,RANDOM_TYPO,,[]
+110.immediate_care_procedures,110,immediate_care_procedures,898.8,98.8,RANDOM_TYPO,,[]
+139.status,139,status,Final,Finla,RANDOM_TYPO,,[]
+3.complimentary_bridge_maintenance,3,complimentary_bridge_maintenance,27.6,o27.6,RANDOM_TYPO,,[]
+164.area_code,164,area_code,Q36,iQ36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+169.level_one_procedure,169,level_one_procedure,5305,z5305,RANDOM_TYPO,,[]
+138.fiscal_year,138,fiscal_year,2011/2012,011/2012,RANDOM_TYPO,,[]
+49.complimentary_prescription_allocation,49,complimentary_prescription_allocation,202.5,202m.5,RANDOM_TYPO,,[]
+134.status,134,status,Final,Finla,RANDOM_TYPO,,[]
+45.complimentary_suture_removal,45,complimentary_suture_removal,0,u0,RANDOM_TYPO,,[]
+187.complimentary_bleeding_control,187,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+60.level_one_procedure,60,level_one_procedure,4404,444,RANDOM_TYPO,,[]
+3.complimentary_bleeding_control,3,complimentary_bleeding_control,0,***,RANDOM_TYPO,,[]
+67.regional_office_code,67,regional_office_code,5PV,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+37.complimentary_suture_removal,37,complimentary_suture_removal,0,q0,RANDOM_TYPO,,[]
+140.immediate_care_procedures,140,immediate_care_procedures,1420.8,o1420.8,RANDOM_TYPO,,[]
+13.level_one_procedure,13,level_one_procedure,20429,20249,RANDOM_TYPO,,[]
+11.regional_office_code,11,regional_office_code,5NR,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+170.area_code,170,area_code,Q31,Q13,RANDOM_TYPO,,[]
+203.area_code,203,area_code,Q32,3Q2,RANDOM_TYPO,,[]
+89.customer_category,89,customer_category,Students,Stcudents,RANDOM_TYPO,,[]
+100.complimentary_bridge_maintenance,100,complimentary_bridge_maintenance,0,,RANDOM_TYPO,,[]
+102.area_code,102,area_code,Q36,36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+50.level_one_procedure,50,level_one_procedure,4445,4445***,RANDOM_TYPO,,[]
+126.regional_office_code,126,regional_office_code,5MD,5LD,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+203.complimentary_bleeding_control,203,complimentary_bleeding_control,0,t0,RANDOM_TYPO,,[]
+94.fiscal_year,94,fiscal_year,2011/2012,011/2012,RANDOM_TYPO,,[]
+183.area_code,183,area_code,Q39,39,FD_VIOLATION,regional_office_code -> area_code,[e2]
+147.complimentary_prescription_allocation,147,complimentary_prescription_allocation,57.75,57.h75,RANDOM_TYPO,,[]
+144.immediate_care_procedures,144,immediate_care_procedures,4808.4,4k808.4,RANDOM_TYPO,,[]
+100.status,100,status,Final,Finla,RANDOM_TYPO,,[]
+33.regional_office_code,33,regional_office_code,5A9,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+145.regional_office_code,145,regional_office_code,5L1,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+101.area_code,101,area_code,Q31,Q13,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+12.overall_total_value,12,overall_total_value,327591.73,32759h1.73,RANDOM_TYPO,,[]
+92.regional_office_code,92,regional_office_code,5N2,5NE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+150.level_three_procedure,150,level_three_procedure,11040,10140,RANDOM_TYPO,,[]
+123.area_code,123,area_code,Q32,Qe32,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+64.immediate_care_procedures,64,immediate_care_procedures,2718,7218,RANDOM_TYPO,,[]
+28.complimentary_bridge_maintenance,28,complimentary_bridge_maintenance,0,***,RANDOM_TYPO,,[]
+84.level_three_procedure,84,level_three_procedure,21864,2864,RANDOM_TYPO,,[]
+79.status,79,status,Final,Finl,RANDOM_TYPO,,[]
+207.level_two_procedure,207,level_two_procedure,15285,15j285,RANDOM_TYPO,,[]
+193.level_two_procedure,193,level_two_procedure,6504,504,RANDOM_TYPO,,[]
+191.complimentary_bleeding_control,191,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+73.complimentary_bleeding_control,73,complimentary_bleeding_control,2.4,24,RANDOM_TYPO,,[]
+50.level_two_procedure,50,level_two_procedure,11058,1058,RANDOM_TYPO,,[]
+84.level_one_procedure,84,level_one_procedure,10026,10206,RANDOM_TYPO,,[]
+82.area_code,82,area_code,Q38,mQ38,FD_VIOLATION,regional_office_code -> area_code,[e2]
+90.regional_office_code,90,regional_office_code,5QR,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+64.quarter_reporting_period,64,quarter_reporting_period,Spring,Sporing,RANDOM_TYPO,,[]
+48.regional_office_code,48,regional_office_code,5LC,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+132.complimentary_denture_maintenance,132,complimentary_denture_maintenance,83,8h3,RANDOM_TYPO,,[]
+26.area_code,26,area_code,Q34,Q4,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+27.regional_office_code,27,regional_office_code,5D9,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+139.quarter_reporting_period,139,quarter_reporting_period,Spring,pSring,RANDOM_TYPO,,[]
+109.status,109,status,Final,Fial,RANDOM_TYPO,,[]
+108.customer_category,108,customer_category,Students,tSudents,RANDOM_TYPO,,[]
+45.complimentary_bleeding_control,45,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+139.area_code,139,area_code,Q36,tQ36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+143.geographical_indicator_code,143,geographical_indicator_code,E16000140,E160001p40,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+199.quarter_reporting_period,199,quarter_reporting_period,Q4,4,RANDOM_TYPO,,[]
+149.customer_category,149,customer_category,Senior,Senioer,RANDOM_TYPO,,[]
+178.level_two_procedure,178,level_two_procedure,65364,a65364,RANDOM_TYPO,,[]
+8.complimentary_prescription_allocation,8,complimentary_prescription_allocation,11.25,1.25,RANDOM_TYPO,,[]
+26.regional_office_code,26,regional_office_code,5M3,5NE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+39.area_code,39,area_code,Q31,Q13,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+86.complimentary_prescription_allocation,86,complimentary_prescription_allocation,45.75,45.5,RANDOM_TYPO,,[]
+52.regional_office_code,52,regional_office_code,5NY,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+166.level_one_procedure,166,level_one_procedure,18238,12838,RANDOM_TYPO,,[]
+207.area_code,207,area_code,Q32,32,FD_VIOLATION,regional_office_code -> area_code,[e2]
+189.area_code,189,area_code,Q36,Q3x6,FD_VIOLATION,regional_office_code -> area_code,[e4]
+58.level_one_procedure,58,level_one_procedure,3656,36c56,RANDOM_TYPO,,[]
+125.customer_category,125,customer_category,Students,Stduents,RANDOM_TYPO,,[]
+207.geographical_indicator_code,207,geographical_indicator_code,E16000042,E10600042,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+90.level_three_procedure,90,level_three_procedure,14124,1424,RANDOM_TYPO,,[]
+185.level_two_procedure,185,level_two_procedure,15906,159f06,RANDOM_TYPO,,[]
+83.status,83,status,Final,Fnial,RANDOM_TYPO,,[]
+89.complimentary_bleeding_control,89,complimentary_bleeding_control,3.6,p3.6,RANDOM_TYPO,,[]
+184.level_one_procedure,184,level_one_procedure,7201,2701,RANDOM_TYPO,,[]
+133.overall_total_value,133,overall_total_value,13579.42,1379.42,RANDOM_TYPO,,[]
+167.customer_category,167,customer_category,Students,Studenst,RANDOM_TYPO,,[]
+63.area_code,63,area_code,Q36,Qb36,FD_VIOLATION,regional_office_code -> area_code,[e2]
+184.overall_total_value,184,overall_total_value,23489.99,2c3489.99,RANDOM_TYPO,,[]
+162.quarter_reporting_period,162,quarter_reporting_period,Spring,Sprng,RANDOM_TYPO,,[]
+161.overall_total_value,161,overall_total_value,50987.1,509c87.1,RANDOM_TYPO,,[]
+106.regional_office_code,106,regional_office_code,5EM,5D7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+21.area_code,21,area_code,Q31,Q13,FD_VIOLATION,regional_office_code -> area_code,[e2]
+86.area_code,86,area_code,Q32,hQ32,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+121.level_one_procedure,121,level_one_procedure,5722,5272,RANDOM_TYPO,,[]
+109.customer_category,109,customer_category,Adult,dAult,RANDOM_TYPO,,[]
+160.regional_office_code,160,regional_office_code,5K5,5PW,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+4.quarter_reporting_period,4,quarter_reporting_period,Q4,4,RANDOM_TYPO,,[]
+53.regional_office_code,53,regional_office_code,5KL,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+160.complimentary_suture_removal,160,complimentary_suture_removal,2,***,RANDOM_TYPO,,[]
+180.level_three_procedure,180,level_three_procedure,9204,e9204,RANDOM_TYPO,,[]
+27.immediate_care_procedures,27,immediate_care_procedures,168,618,RANDOM_TYPO,,[]
+106.level_one_procedure,106,level_one_procedure,6551,65t51,RANDOM_TYPO,,[]
+68.status,68,status,Final,Fial,RANDOM_TYPO,,[]
+51.regional_office_code,51,regional_office_code,TAL,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+49.regional_office_code,49,regional_office_code,5C5,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+164.regional_office_code,164,regional_office_code,5C1,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+105.regional_office_code,105,regional_office_code,5FL,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+104.regional_office_code,104,regional_office_code,5JE,5F7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+197.level_three_procedure,197,level_three_procedure,16800,16800***,RANDOM_TYPO,,[]
+92.immediate_care_procedures,92,immediate_care_procedures,1225.2,1c225.2,RANDOM_TYPO,,[]
+40.complimentary_denture_maintenance,40,complimentary_denture_maintenance,88,8,RANDOM_TYPO,,[]
+206.regional_office_code,206,regional_office_code,5KG,5iKG,RANDOM_TYPO,,[]
+108.geographical_indicator_code,108,geographical_indicator_code,E16000087,16000087,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+32.regional_office_code,32,regional_office_code,5PW,5C9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+57.regional_office_code,57,regional_office_code,5QF,5C9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+176.complimentary_suture_removal,176,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+135.fiscal_year,135,fiscal_year,2012/2013,2012/213,RANDOM_TYPO,,[]
+58.complimentary_suture_removal,58,complimentary_suture_removal,3,,RANDOM_TYPO,,[]
+165.complimentary_suture_removal,165,complimentary_suture_removal,5,***,RANDOM_TYPO,,[]
+196.geographical_indicator_code,196,geographical_indicator_code,E16000068,E1600068,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+26.customer_category,26,customer_category,Premium,Premiium,RANDOM_TYPO,,[]
+178.immediate_care_procedures,178,immediate_care_procedures,8499.6,84a99.6,RANDOM_TYPO,,[]
+150.area_code,150,area_code,Q33,33,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+136.overall_total_value,136,overall_total_value,59218.7,52918.7,RANDOM_TYPO,,[]
+141.area_code,141,area_code,Q36,Q63,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+40.geographical_indicator_code,40,geographical_indicator_code,E16000076,E16000068,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+117.complimentary_bleeding_control,117,complimentary_bleeding_control,1.2,12.,RANDOM_TYPO,,[]
+92.status,92,status,Final,Fnial,RANDOM_TYPO,,[]
+48.immediate_care_procedures,48,immediate_care_procedures,408,08,RANDOM_TYPO,,[]
+55.quarter_reporting_period,55,quarter_reporting_period,Q4,4Q,RANDOM_TYPO,,[]
+203.level_two_procedure,203,level_two_procedure,10185,0185,RANDOM_TYPO,,[]
+114.regional_office_code,114,regional_office_code,5NW,5NF,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+117.area_code,117,area_code,Q36,hQ36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+140.customer_category,140,customer_category,Students,Studenst,RANDOM_TYPO,,[]
+168.status,168,status,Final,inal,RANDOM_TYPO,,[]
+151.regional_office_code,151,regional_office_code,5QV,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+181.area_code,181,area_code,Q36,Qr36,FD_VIOLATION,regional_office_code -> area_code,[e4]
+59.regional_office_code,59,regional_office_code,5C2,5LE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+193.quarter_reporting_period,193,quarter_reporting_period,Q4,wQ4,RANDOM_TYPO,,[]
+187.status,187,status,Final,inal,RANDOM_TYPO,,[]
+89.overall_total_value,89,overall_total_value,24576.50,2576.50,RANDOM_TYPO,,[]
+84.regional_office_code,84,regional_office_code,5K9,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+81.regional_office_code,81,regional_office_code,5QG,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+166.geographical_indicator_code,166,geographical_indicator_code,E16000131,E1600131,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+64.regional_office_code,64,regional_office_code,5HQ,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+61.level_two_procedure,61,level_two_procedure,13635,r13635,RANDOM_TYPO,,[]
+43.regional_office_code,43,regional_office_code,5MK,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+135.level_two_procedure,135,level_two_procedure,8328,328,RANDOM_TYPO,,[]
+156.geographical_indicator_code,156,geographical_indicator_code,E16000015,E1600005,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+152.regional_office_code,152,regional_office_code,5HP,5C9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+104.complimentary_bleeding_control,104,complimentary_bleeding_control,0,***,RANDOM_TYPO,,[]
+163.area_code,163,area_code,Q37,Q73,RANDOM_TYPO,,[]
+136.complimentary_suture_removal,136,complimentary_suture_removal,7,g7,RANDOM_TYPO,,[]
+122.level_three_procedure,122,level_three_procedure,8076,8706,RANDOM_TYPO,,[]
+182.geographical_indicator_code,182,geographical_indicator_code,E16000081,1E6000081,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+49.immediate_care_procedures,49,immediate_care_procedures,2461.2,246c1.2,RANDOM_TYPO,,[]
+19.complimentary_suture_removal,19,complimentary_suture_removal,0,***,RANDOM_TYPO,,[]
+127.regional_office_code,127,regional_office_code,5M2,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+22.regional_office_code,22,regional_office_code,5PV,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+75.geographical_indicator_code,75,geographical_indicator_code,E16000102,E16000097,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+18.fiscal_year,18,fiscal_year,2007/2008,2007/2080,RANDOM_TYPO,,[]
+125.area_code,125,area_code,Q31,Q3g1,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+196.complimentary_suture_removal,196,complimentary_suture_removal,0,,RANDOM_TYPO,,[]
+61.regional_office_code,61,regional_office_code,5C5,5K6,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+76.complimentary_prescription_allocation,76,complimentary_prescription_allocation,209.25,20.925,RANDOM_TYPO,,[]
+83.geographical_indicator_code,83,geographical_indicator_code,E16000020,E16000131,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+173.level_one_procedure,173,level_one_procedure,10227,d10227,RANDOM_TYPO,,[]
+172.immediate_care_procedures,172,immediate_care_procedures,1801.2,t1801.2,RANDOM_TYPO,,[]
+92.area_code,92,area_code,Q32,32,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+125.regional_office_code,125,regional_office_code,5HG,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+45.level_two_procedure,45,level_two_procedure,9336,93g36,RANDOM_TYPO,,[]
+61.customer_category,61,customer_category,Adult,Adfult,RANDOM_TYPO,,[]
+38.level_one_procedure,38,level_one_procedure,24346,24364,RANDOM_TYPO,,[]
+131.regional_office_code,131,regional_office_code,5K8,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+133.regional_office_code,133,regional_office_code,5P1,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+111.level_one_procedure,111,level_one_procedure,3298,328,RANDOM_TYPO,,[]
+199.area_code,199,area_code,Q31,31,FD_VIOLATION,regional_office_code -> area_code,[e4]
+13.regional_office_code,13,regional_office_code,5NY,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+60.regional_office_code,60,regional_office_code,5A5,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+19.area_code,19,area_code,Q31,Q13,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+163.customer_category,163,customer_category,Students,Studnts,RANDOM_TYPO,,[]
+34.regional_office_code,34,regional_office_code,5NG,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+62.status,62,status,Final,Fyinal,RANDOM_TYPO,,[]
+205.customer_category,205,customer_category,Students,Stuents,RANDOM_TYPO,,[]
+167.immediate_care_procedures,167,immediate_care_procedures,11967.6,11x967.6,RANDOM_TYPO,,[]
+188.area_code,188,area_code,Q37,Qg37,FD_VIOLATION,regional_office_code -> area_code,[e4]
+8.area_code,8,area_code,Q30,Qx30,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+197.immediate_care_procedures,197,immediate_care_procedures,1340.4,1430.4,RANDOM_TYPO,,[]
+60.complimentary_suture_removal,60,complimentary_suture_removal,2,***,RANDOM_TYPO,,[]
+71.level_two_procedure,71,level_two_procedure,21330,t21330,RANDOM_TYPO,,[]
+77.level_one_procedure,77,level_one_procedure,10215,10251,RANDOM_TYPO,,[]
+201.level_three_procedure,201,level_three_procedure,9240,920,RANDOM_TYPO,,[]
+63.regional_office_code,63,regional_office_code,5LG,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+141.level_two_procedure,141,level_two_procedure,12495,12459,RANDOM_TYPO,,[]
+100.fiscal_year,100,fiscal_year,2009/2010,2009/010,RANDOM_TYPO,,[]
+161.area_code,161,area_code,Q31,Q13,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+90.fiscal_year,90,fiscal_year,2011/2012,20112/012,RANDOM_TYPO,,[]
+2.level_one_procedure,2,level_one_procedure,56837,5d6837,RANDOM_TYPO,,[]
+137.fiscal_year,137,fiscal_year,2007/2008,2007/20b08,RANDOM_TYPO,,[]
+132.regional_office_code,132,regional_office_code,5J4,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+61.level_one_procedure,61,level_one_procedure,4960,4l960,RANDOM_TYPO,,[]
+10.area_code,10,area_code,Q31,31,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+189.complimentary_bridge_maintenance,189,complimentary_bridge_maintenance,0,,RANDOM_TYPO,,[]
+191.area_code,191,area_code,Q36,Q63,FD_VIOLATION,regional_office_code -> area_code,[e2]
+21.complimentary_bleeding_control,21,complimentary_bleeding_control,0,a0,RANDOM_TYPO,,[]
+149.regional_office_code,149,regional_office_code,5PE,5C3,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+35.immediate_care_procedures,35,immediate_care_procedures,2798.4,27984.,RANDOM_TYPO,,[]
+196.area_code,196,area_code,Q36,Q6,FD_VIOLATION,regional_office_code -> area_code,[e2]
+98.geographical_indicator_code,98,geographical_indicator_code,E16000061,E16000026,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+94.complimentary_suture_removal,94,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+38.regional_office_code,38,regional_office_code,5N3,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+206.complimentary_bridge_maintenance,206,complimentary_bridge_maintenance,0,***,RANDOM_TYPO,,[]
+72.complimentary_bleeding_control,72,complimentary_bleeding_control,0,,RANDOM_TYPO,,[]
+40.quarter_reporting_period,40,quarter_reporting_period,Q4,qQ4,RANDOM_TYPO,,[]
+161.level_two_procedure,161,level_two_procedure,10677,01677,RANDOM_TYPO,,[]
+25.level_three_procedure,25,level_three_procedure,18072,8072,RANDOM_TYPO,,[]
+157.quarter_reporting_period,157,quarter_reporting_period,Q4,kQ4,RANDOM_TYPO,,[]
+42.geographical_indicator_code,42,geographical_indicator_code,E16000142,E16000030,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+"107.overall_total_value,""25,99.5""",107,"overall_total_value,""25,99","999.5""","""25",UNKNOWN,,[]
+159.complimentary_prescription_allocation,159,complimentary_prescription_allocation,116.25,116.25***,RANDOM_TYPO,,[]
+132.area_code,132,area_code,Q31,3Q1,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+175.complimentary_denture_maintenance,175,complimentary_denture_maintenance,25,5,RANDOM_TYPO,,[]
+116.regional_office_code,116,regional_office_code,5C2,5PW,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+153.regional_office_code,153,regional_office_code,5NW,5C3,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+61.complimentary_bridge_maintenance,61,complimentary_bridge_maintenance,0,***,RANDOM_TYPO,,[]
+5.customer_category,5,customer_category,Premium,Premixum,RANDOM_TYPO,,[]
+128.regional_office_code,128,regional_office_code,5PQ,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+68.area_code,68,area_code,Q35,aQ35,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+197.complimentary_suture_removal,197,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+100.regional_office_code,100,regional_office_code,5M6,5PW,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+116.geographical_indicator_code,116,geographical_indicator_code,E16000009,E16000131,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+112.area_code,112,area_code,Q36,Q6,FD_VIOLATION,regional_office_code -> area_code,[e2]
+178.area_code,178,area_code,Q32,Q2,FD_VIOLATION,regional_office_code -> area_code,[e4]
+143.complimentary_denture_maintenance,143,complimentary_denture_maintenance,73,37,RANDOM_TYPO,,[]
+103.geographical_indicator_code,103,geographical_indicator_code,E16000115,E16000150,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+109.regional_office_code,109,regional_office_code,5C4,5K6,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+31.overall_total_value,31,overall_total_value,134667.12,13466.712,RANDOM_TYPO,,[]
+99.regional_office_code,99,regional_office_code,5C1,5NF,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+44.regional_office_code,44,regional_office_code,5P1,5LH,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+74.geographical_indicator_code,74,geographical_indicator_code,E16000045,E16000043,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+131.area_code,131,area_code,Q36,36,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+62.geographical_indicator_code,62,geographical_indicator_code,E17000002,E16000121,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+137.status,137,status,Final,Finla,RANDOM_TYPO,,[]
+99.level_one_procedure,99,level_one_procedure,8720,720,RANDOM_TYPO,,[]
+167.level_one_procedure,167,level_one_procedure,60727,i60727,RANDOM_TYPO,,[]
+162.area_code,162,area_code,Q36,Q3i6,FD_VIOLATION,regional_office_code -> area_code,[e2]
+7.immediate_care_procedures,7,immediate_care_procedures,3483.6,343.6,RANDOM_TYPO,,[]
+169.fiscal_year,169,fiscal_year,2010/2011,2010/201,RANDOM_TYPO,,[]
+65.complimentary_suture_removal,65,complimentary_suture_removal,5,a5,RANDOM_TYPO,,[]
+158.complimentary_suture_removal,158,complimentary_suture_removal,1,n1,RANDOM_TYPO,,[]
+52.area_code,52,area_code,Q32,32,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+110.complimentary_denture_maintenance,110,complimentary_denture_maintenance,1,***,RANDOM_TYPO,,[]
+102.immediate_care_procedures,102,immediate_care_procedures,595.2,5952.,RANDOM_TYPO,,[]
+147.quarter_reporting_period,147,quarter_reporting_period,Spring,pSring,RANDOM_TYPO,,[]
+198.customer_category,198,customer_category,Adult,Adulvt,RANDOM_TYPO,,[]
+40.regional_office_code,40,regional_office_code,5N3,5MK,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+112.regional_office_code,112,regional_office_code,5NA,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+151.level_one_procedure,151,level_one_procedure,12572,12527,RANDOM_TYPO,,[]
+185.area_code,185,area_code,Q30,Q0,FD_VIOLATION,regional_office_code -> area_code,[e4]
+83.regional_office_code,83,regional_office_code,5.00E+01,5PV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+130.regional_office_code,130,regional_office_code,5MK,5D7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+130.level_two_procedure,130,level_two_procedure,9186,91l86,RANDOM_TYPO,,[]
+76.geographical_indicator_code,76,geographical_indicator_code,E16000038,E16000150,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+108.complimentary_bridge_maintenance,108,complimentary_bridge_maintenance,2.4,24,RANDOM_TYPO,,[]
+13.quarter_reporting_period,13,quarter_reporting_period,Q4,Qe4,RANDOM_TYPO,,[]
+156.complimentary_suture_removal,156,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+150.complimentary_bleeding_control,150,complimentary_bleeding_control,1.2,1.l2,RANDOM_TYPO,,[]
+206.immediate_care_procedures,206,immediate_care_procedures,489.6,a489.6,RANDOM_TYPO,,[]
+43.complimentary_bleeding_control,43,complimentary_bleeding_control,0,***,RANDOM_TYPO,,[]
+78.regional_office_code,78,regional_office_code,5P8,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+15.regional_office_code,15,regional_office_code,5H1,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+128.complimentary_bleeding_control,128,complimentary_bleeding_control,0,u0,RANDOM_TYPO,,[]
+18.quarter_reporting_period,18,quarter_reporting_period,Q4,Qk4,RANDOM_TYPO,,[]
+56.regional_office_code,56,regional_office_code,5M6,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+150.regional_office_code,150,regional_office_code,5N7,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+110.geographical_indicator_code,110,geographical_indicator_code,E16000012,E16000128,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+96.level_one_procedure,96,level_one_procedure,10518,0518,RANDOM_TYPO,,[]
+63.level_three_procedure,63,level_three_procedure,720,7x20,RANDOM_TYPO,,[]
+195.complimentary_bridge_maintenance,195,complimentary_bridge_maintenance,18,81,RANDOM_TYPO,,[]
+12.quarter_reporting_period,12,quarter_reporting_period,Spring,Sring,RANDOM_TYPO,,[]
+48.complimentary_prescription_allocation,48,complimentary_prescription_allocation,33,3t3,RANDOM_TYPO,,[]
+142.customer_category,142,customer_category,Adult,vAdult,RANDOM_TYPO,,[]
+115.area_code,115,area_code,Q34,Q43,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+101.regional_office_code,101,regional_office_code,5F5,5PY,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+181.quarter_reporting_period,181,quarter_reporting_period,Q4,4Q,RANDOM_TYPO,,[]
+137.level_one_procedure,137,level_one_procedure,4996,496,RANDOM_TYPO,,[]
+136.regional_office_code,136,regional_office_code,5K3,5K6,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+198.geographical_indicator_code,198,geographical_indicator_code,E16000071,1E6000071,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+58.area_code,58,area_code,Q31,kQ31,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+174.complimentary_bleeding_control,174,complimentary_bleeding_control,1.2,.2,RANDOM_TYPO,,[]
+39.fiscal_year,39,fiscal_year,2008/2009,008/2009,RANDOM_TYPO,,[]
+202.complimentary_prescription_allocation,202,complimentary_prescription_allocation,76.5,765,RANDOM_TYPO,,[]
+186.fiscal_year,186,fiscal_year,2011/2012,2011/2021,RANDOM_TYPO,,[]
+175.area_code,175,area_code,Q36,kQ36,FD_VIOLATION,regional_office_code -> area_code,[e4]
+105.status,105,status,Final,Fixnal,RANDOM_TYPO,,[]
+67.area_code,67,area_code,Q35,Q5,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+50.level_three_procedure,50,level_three_procedure,17544,17544***,RANDOM_TYPO,,[]
+157.geographical_indicator_code,157,geographical_indicator_code,E16000127,E16000026,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+44.geographical_indicator_code,44,geographical_indicator_code,E16000103,E16000011,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+8.complimentary_denture_maintenance,8,complimentary_denture_maintenance,1,,RANDOM_TYPO,,[]
+107.customer_category,107,customer_category,Students,Sstudents,RANDOM_TYPO,,[]
+203.customer_category,203,customer_category,Adult,dult,RANDOM_TYPO,,[]
+155.customer_category,155,customer_category,Premium,remium,RANDOM_TYPO,,[]
+87.regional_office_code,87,regional_office_code,5P7,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+103.customer_category,103,customer_category,Premium,Preymium,RANDOM_TYPO,,[]
+195.area_code,195,area_code,Q31,31,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+37.fiscal_year,37,fiscal_year,2008/2009,20d08/2009,RANDOM_TYPO,,[]
+137.regional_office_code,137,regional_office_code,5K7,5NF,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+158.regional_office_code,158,regional_office_code,5NQ,5ND,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+157.level_one_procedure,157,level_one_procedure,35168,35618,RANDOM_TYPO,,[]
+129.area_code,129,area_code,Q32,Q3k2,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+71.immediate_care_procedures,71,immediate_care_procedures,2467.2,467.2,RANDOM_TYPO,,[]
+119.level_three_procedure,119,level_three_procedure,168,18,RANDOM_TYPO,,[]
+182.area_code,182,area_code,Q33,Q33***,FD_VIOLATION,regional_office_code -> area_code,[e2]
+134.regional_office_code,134,regional_office_code,TAP,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+168.complimentary_bridge_maintenance,168,complimentary_bridge_maintenance,0,,RANDOM_TYPO,,[]
+96.complimentary_denture_maintenance,96,complimentary_denture_maintenance,110,10,RANDOM_TYPO,,[]
+135.customer_category,135,customer_category,Premium,Permium,RANDOM_TYPO,,[]
+164.customer_category,164,customer_category,Adult,dult,RANDOM_TYPO,,[]
+180.area_code,180,area_code,Q36,36,FD_VIOLATION,regional_office_code -> area_code,[e4]
+45.customer_category,45,customer_category,Adult,dAult,RANDOM_TYPO,,[]
+188.regional_office_code,188,regional_office_code,5P5,i5P5,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e3]
+174.complimentary_prescription_allocation,174,complimentary_prescription_allocation,60,06,RANDOM_TYPO,,[]
+82.regional_office_code,82,regional_office_code,5QC,5NF,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+69.regional_office_code,69,regional_office_code,5HG,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+153.area_code,153,area_code,Q32,Q23,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+56.geographical_indicator_code,56,geographical_indicator_code,E16000067,E16000017,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+110.status,110,status,Final,Fnal,RANDOM_TYPO,,[]
+17.complimentary_denture_maintenance,17,complimentary_denture_maintenance,3640,640,RANDOM_TYPO,,[]
+177.geographical_indicator_code,177,geographical_indicator_code,E16000112,E10600112,RANDOM_TYPO,,[]
+121.level_three_procedure,121,level_three_procedure,852,82,RANDOM_TYPO,,[]
+56.fiscal_year,56,fiscal_year,2007/2008,2007p/2008,RANDOM_TYPO,,[]
+208.level_one_procedure,208,level_one_procedure,8253,853,RANDOM_TYPO,,[]
+33.fiscal_year,33,fiscal_year,2009/2010,2009/j2010,RANDOM_TYPO,,[]
+22.customer_category,22,customer_category,Premium,Prmium,RANDOM_TYPO,,[]
+40.complimentary_bridge_maintenance,40,complimentary_bridge_maintenance,2.4,2p.4,RANDOM_TYPO,,[]
+77.regional_office_code,77,regional_office_code,5JX,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+82.level_one_procedure,82,level_one_procedure,59531,5951,RANDOM_TYPO,,[]
+119.status,119,status,Final,hFinal,RANDOM_TYPO,,[]
+12.regional_office_code,12,regional_office_code,5P5,5M7,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+56.immediate_care_procedures,56,immediate_care_procedures,1050,105r0,RANDOM_TYPO,,[]
+96.status,96,status,Final,Finaal,RANDOM_TYPO,,[]
+85.regional_office_code,85,regional_office_code,5PM,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+107.level_two_procedure,107,level_two_procedure,20703,g20703,RANDOM_TYPO,,[]
+100.complimentary_suture_removal,100,complimentary_suture_removal,5,,RANDOM_TYPO,,[]
+62.regional_office_code,62,regional_office_code,TAK,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+171.complimentary_denture_maintenance,171,complimentary_denture_maintenance,2,m2,RANDOM_TYPO,,[]
+24.level_one_procedure,24,level_one_procedure,12087,12u087,RANDOM_TYPO,,[]
+159.regional_office_code,159,regional_office_code,5QF,5JX,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2]"
+142.area_code,142,area_code,Q32,3Q2,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+119.level_two_procedure,119,level_two_procedure,4578,4587,RANDOM_TYPO,,[]
+179.area_code,179,area_code,Q36,Q63,FD_VIOLATION,regional_office_code -> area_code,[e4]
+84.complimentary_denture_maintenance,84,complimentary_denture_maintenance,152,52,RANDOM_TYPO,,[]
+80.level_one_procedure,80,level_one_procedure,3757,375s7,RANDOM_TYPO,,[]
+3.complimentary_prescription_allocation,3,complimentary_prescription_allocation,431.25,341.25,RANDOM_TYPO,,[]
+194.complimentary_suture_removal,194,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+126.level_one_procedure,126,level_one_procedure,13290,31290,RANDOM_TYPO,,[]
+23.complimentary_prescription_allocation,23,complimentary_prescription_allocation,0,***,RANDOM_TYPO,,[]
+147.level_three_procedure,147,level_three_procedure,1668,168,RANDOM_TYPO,,[]
+158.area_code,158,area_code,Q31,Qj31,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+201.customer_category,201,customer_category,Students,Stuednts,RANDOM_TYPO,,[]
+49.status,49,status,Final,Fnial,RANDOM_TYPO,,[]
+186.area_code,186,area_code,Q32,Q3h2,FD_VIOLATION,regional_office_code -> area_code,[e2]
+75.level_two_procedure,75,level_two_procedure,39045,390t45,RANDOM_TYPO,,[]
+83.level_one_procedure,83,level_one_procedure,3575,355,RANDOM_TYPO,,[]
+9.overall_total_value,9,overall_total_value,50987.1,509871,RANDOM_TYPO,,[]
+139.regional_office_code,139,regional_office_code,5C5,5FE,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+147.area_code,147,area_code,Q36,Q63,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+12.fiscal_year,12,fiscal_year,2010/2011,20102011,RANDOM_TYPO,,[]
+31.level_one_procedure,31,level_one_procedure,14960,b14960,RANDOM_TYPO,,[]
+118.regional_office_code,118,regional_office_code,5N7,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+206.level_one_procedure,206,level_one_procedure,5383,53g83,RANDOM_TYPO,,[]
+171.area_code,171,area_code,Q33,Q3l3,FD_VIOLATION,regional_office_code -> area_code,[e4]
+124.geographical_indicator_code,124,geographical_indicator_code,E16000129,E1d6000129,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+6.level_two_procedure,6,level_two_procedure,9978,978,RANDOM_TYPO,,[]
+167.area_code,167,area_code,Q34,Q3q4,FD_VIOLATION,regional_office_code -> area_code,[e4]
+148.overall_total_value,148,overall_total_value,45987.3,45897.3,RANDOM_TYPO,,[]
+119.regional_office_code,119,regional_office_code,5EF,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+134.complimentary_suture_removal,134,complimentary_suture_removal,0,***,RANDOM_TYPO,,[]
+27.area_code,27,area_code,Q30,Q3g0,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+41.geographical_indicator_code,41,geographical_indicator_code,E16000128,E16000046,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e3, e4]"
+204.area_code,204,area_code,Q31,31,FD_VIOLATION,regional_office_code -> area_code,[e2]
+111.regional_office_code,111,regional_office_code,5NQ,5K6,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+208.area_code,208,area_code,Q32,32,FD_VIOLATION,regional_office_code -> area_code,[e4]
+117.regional_office_code,117,regional_office_code,5K8,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+177.level_two_procedure,177,level_two_procedure,30723,307v23,RANDOM_TYPO,,[]
+25.quarter_reporting_period,25,quarter_reporting_period,Q4,4Q,RANDOM_TYPO,,[]
+16.level_three_procedure,16,level_three_procedure,3756,3576,RANDOM_TYPO,,[]
+65.regional_office_code,65,regional_office_code,5CN,5D9,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+48.quarter_reporting_period,48,quarter_reporting_period,Spring,zSpring,RANDOM_TYPO,,[]
+145.quarter_reporting_period,145,quarter_reporting_period,Q4,4,RANDOM_TYPO,,[]
+157.regional_office_code,157,regional_office_code,5PT,5KM,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+116.customer_category,116,customer_category,Students,Studenst,RANDOM_TYPO,,[]
+88.complimentary_prescription_allocation,88,complimentary_prescription_allocation,516,561,RANDOM_TYPO,,[]
+104.complimentary_prescription_allocation,104,complimentary_prescription_allocation,1133.25,1133.25***,RANDOM_TYPO,,[]
+2.complimentary_prescription_allocation,2,complimentary_prescription_allocation,2506.5,25065,RANDOM_TYPO,,[]
+132.complimentary_prescription_allocation,132,complimentary_prescription_allocation,156.75,16.75,RANDOM_TYPO,,[]
+170.level_one_procedure,170,level_one_procedure,3876,3786,RANDOM_TYPO,,[]
+113.regional_office_code,113,regional_office_code,5HY,5GC,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+8.level_three_procedure,8,level_three_procedure,936,93w6,RANDOM_TYPO,,[]
+135.complimentary_suture_removal,135,complimentary_suture_removal,2,,RANDOM_TYPO,,[]
+91.level_one_procedure,91,level_one_procedure,26982,26928,RANDOM_TYPO,,[]
+33.complimentary_prescription_allocation,33,complimentary_prescription_allocation,125.25,12.25,RANDOM_TYPO,,[]
+174.geographical_indicator_code,174,geographical_indicator_code,E16000013,16000013,FD_VIOLATION,regional_office_code -> geographical_indicator_code,[e1]
+183.quarter_reporting_period,183,quarter_reporting_period,Q4,4Q,RANDOM_TYPO,,[]
+92.fiscal_year,92,fiscal_year,2010/2011,2010/0211,RANDOM_TYPO,,[]
+29.customer_category,29,customer_category,Adult,Aduqlt,RANDOM_TYPO,,[]
+48.complimentary_suture_removal,48,complimentary_suture_removal,0,,RANDOM_TYPO,,[]
+4.level_two_procedure,4,level_two_procedure,32145,23145,RANDOM_TYPO,,[]
+195.status,195,status,Final,Fiqnal,RANDOM_TYPO,,[]
+69.customer_category,69,customer_category,Adult,Adut,RANDOM_TYPO,,[]
+37.customer_category,37,customer_category,Adult,aAdult,RANDOM_TYPO,,[]
+130.area_code,130,area_code,Q34,Q3f4,FD_VIOLATION,regional_office_code -> area_code,"[e2, e4]"
+93.level_one_procedure,93,level_one_procedure,9097,097,RANDOM_TYPO,,[]
+29.complimentary_bridge_maintenance,29,complimentary_bridge_maintenance,0,***,RANDOM_TYPO,,[]
+17.complimentary_bridge_maintenance,17,complimentary_bridge_maintenance,230.4,230a.4,RANDOM_TYPO,,[]
+42.regional_office_code,42,regional_office_code,5QM,5CN,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"
+154.level_two_procedure,154,level_two_procedure,14289,14y289,RANDOM_TYPO,,[]
+36.level_two_procedure,36,level_two_procedure,24993,2993,RANDOM_TYPO,,[]
+10.regional_office_code,10,regional_office_code,5JX,5QV,FD_VIOLATION,regional_office_code -> geographical_indicator_code,"[e1, e2, e3]"

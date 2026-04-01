@@ -1,0 +1,171 @@
+{
+  "total_changes": 300,
+  "error_type_counts": {
+    "FD_VIOLATION": 160,
+    "RANDOM_TYPO": 140
+  },
+  "columns_affected": [
+    "unitid",
+    "download_two_zero_two_onepm",
+    "packet_losspeak",
+    "downloadpeakminave",
+    "download_one_two_one_eightpm",
+    "i_player_uhd_two_fourhr",
+    "webloading_two_fourh",
+    "i_player_sd_two_fourhr",
+    "isp",
+    "you_tube_startup_delay_peak",
+    "region",
+    "you_tube_sd_two_fourhr",
+    "dns_failurepeak",
+    "technology"
+  ],
+  "configuration": {
+    "total_error_percentage": 18,
+    "fd_percentage": 9,
+    "outlier_percentage": 0,
+    "typo_percentage": 9,
+    "fd_violations": [
+      {
+        "determinant": "unitid",
+        "dependant": "webloading_two_fourh",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "you_tube_startup_delay_peak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "download_two_zero_two_onepm",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "downloadpeakminave",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "download_one_two_one_eightpm",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "dns_ratepeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "latency_two_fourh",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "upload_two_fourminave",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "upload_two_fourmaxave",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "you_tube_sd_two_fourhr",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "packet_losspeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "i_player_sd_two_fourhr",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "dns_failurepeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "region",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "isp",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "unitid",
+        "dependant": "technology",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "webloading_two_fourh",
+        "dependant": "i_player_sd_two_fourhr",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "webloading_two_fourh",
+        "dependant": "dns_failurepeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "webloading_two_fourh",
+        "dependant": "region",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "you_tube_startup_delay_peak",
+        "dependant": "i_player_sd_two_fourhr",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "you_tube_startup_delay_peak",
+        "dependant": "dns_failurepeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "download_two_zero_two_onepm",
+        "dependant": "technology",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "downloadpeakminave",
+        "dependant": "dns_failurepeak",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "downloadpeakminave",
+        "dependant": "technology",
+        "percentage": 13.008130081300813
+      },
+      {
+        "determinant": "download_one_two_one_eightpm",
+        "dependant": "i_player_sd_two_fourhr",
+        "percentage": 12.195121951219512
+      }
+    ],
+    "outlier_columns": [],
+    "typo_columns": [
+      "isp",
+      "packet_losspeak",
+      "you_tube_sd_two_fourhr",
+      "region",
+      "i_player_uhd_two_fourhr",
+      "technology",
+      "dns_failurepeak",
+      "i_player_sd_two_fourhr"
+    ],
+    "num_fd_rules": 25,
+    "num_outlier_columns": 0,
+    "num_typo_columns": 8
+  },
+  "used_bart_native_types": true
+}

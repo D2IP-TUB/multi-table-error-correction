@@ -1,0 +1,6 @@
+duckdb==1.5.1
+tqdm==4.67.3
+networkx==3.6.1
+polars==1.39.3
+pandas==3.0.1
+pytest==9.0.2
