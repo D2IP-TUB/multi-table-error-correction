@@ -12,6 +12,13 @@ Benchmark data for multi-table error correction.
 | `real_lakes/open_data_uk/` | 93 UK Open Data tables (dirty/clean + FDs) |
 | `real_lakes/open_data_uk_merged_*` | Pre-merged OpenData-UK variants (set / multiset union) |
 
+### Quintet column exclusions
+
+We dropped columns whose purported clean values were inconsistent:
+
+- **Rayyan:** `journal_issn`, `article_jcreated_at`, `article_pagination`
+- **Movies:** columns dropped for the same reason
+
 ## Layout sketch
 
 ```
