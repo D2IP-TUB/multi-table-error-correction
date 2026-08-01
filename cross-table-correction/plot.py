@@ -562,11 +562,11 @@ def main():
     # ======================== CONFIGURATION ========================
     # Modify these paths and settings according to your setup
 
-    INPUT_PATH = "/home/fatemeh/ECS-Dev-Local/EC-at-Scale/exp-0406-brute_force"  # Path to current method results
+    INPUT_PATH = str(Path(__file__).resolve().parents[1] / "results" / "cross-table" / "output")
     DATASET_NAME = "NTR_RS"  # Dataset name (QRM, HOSPITAL, etc.)
-    BASELINE_PATH = "/home/fatemeh/ECS-1iter/EC-at-Scale/exp-0106/results/NTR_RS/baran.csv"  # Path to baseline CSV (or None)
-    OLD_PATH = "/home/fatemeh/ECS-1iter/EC-at-Scale/exp-0306"  # Path to old version results (or None)
-    OUTPUT_PATH = "/home/fatemeh/ECS-Dev-Local/EC-at-Scale/exp-0406-brute_force"  # Output directory
+    BASELINE_PATH = None  # optional baseline CSV
+    OLD_PATH = None
+    OUTPUT_PATH = str(Path(__file__).resolve().parents[1] / "results" / "cross-table" / "plots")
 
     # ================================================================
 

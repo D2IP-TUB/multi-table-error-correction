@@ -1,53 +1,59 @@
 """
-Run main_quintet3.py on every table in the Quintet_3 dataset directory, then
-aggregate cell-level TP/FP/errors for lake-level precision, recall, and F1.
-
-Unlike run_final_lake.py, this script does NOT use holo_constraints.txt.
-Instead, FD rules are hard-coded in main_quintet3.py.
-
-Each table directory is expected to contain:
-    dirty.csv, clean.csv
+Run main_quintet3.py on every Quintet-3 table and aggregate metrics.
 
 Usage:
-    # run cleaning + evaluation
-    python run_quintet3.py
-
-    # point to a custom location
-    python run_quintet3.py --lake_dir /other/path/to/Quintet_3
-
-    # skip cleaning, only re-aggregate existing results
-    python run_quintet3.py --skip_cleaning
+    python run_quintet3.py --mode all
+    python run_quintet3.py --mode fd --lake_dir /path/to/Quintet_3
+    python run_quintet3.py --mode all --skip_cleaning
 """
 
 import argparse
 import csv
 import json
 import os
-import re
 import subprocess
 import sys
-from collections import defaultdict
 
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from evaluate_result import normalize_value, format_empty_data
+sys.path.insert(0, os.path.dirname(__file__))
+from quintet_eval import (
+    aggregate_lake_metrics,
+    count_ground_truth_errors,
+    ensure_index_column,
+    evaluate_quintet_table,
+    format_lake_summary,
+    lake_evaluation_json,
+    metrics_result_row,
+    skipped_table_metrics,
+)
 
 _DEFAULT_LAKE_DIR = os.path.join(
     os.path.dirname(__file__), '..', 'datasets_and_rules', 'Quintet_3'
 )
+VALID_MODES = ('all', 'fd')
 
 
 def parse_args():
     p = argparse.ArgumentParser(
-        description="Run Uniclean on all Quintet-3 tables using paper-defined FD rules."
+        description="Run UniClean on all Quintet-3 tables."
     )
     p.add_argument('--lake_dir', type=str, default=_DEFAULT_LAKE_DIR,
                    help="Root directory of the Quintet_3 dataset. "
                         f"Default: {_DEFAULT_LAKE_DIR}")
+    p.add_argument(
+        '--mode',
+        type=str,
+        default='all',
+        choices=list(VALID_MODES),
+        help=(
+            "Cleaner mode passed to main_quintet3.py: "
+            "'all' = UniClean-ALL, 'fd' = UniClean-FD (AttrRelation only)."
+        ),
+    )
     p.add_argument('--output_dir', type=str, default=None,
                    help="Where to write aggregated evaluation. "
-                        "Defaults to <lake_dir>/uni_clean_results/.")
+                        "Defaults to <lake_dir>/uni_clean_results_<mode>/.")
     p.add_argument('--single_max', type=int, default=10000)
     p.add_argument('--timeout', type=int, default=3600,
                    help="Per-table timeout in seconds (default: 3600).")
@@ -60,10 +66,17 @@ def parse_args():
     return p.parse_args()
 
 
-# ---------------------------------------------------------------------------
-# Known Quintet-3 table names (must match keys in main_quintet3.QUINTET3_CLEANERS)
-# ---------------------------------------------------------------------------
-KNOWN_TABLES = {'hospital', 'flights', 'beers', 'rayyan', 'movies_1'}
+# Known Quintet-3 table names (must match main_quintet3.OFFICIAL_CLEANERS keys).
+KNOWN_TABLES = {'hospital', 'flights', 'beers', 'rayyan', 'movies_1', 'movies'}
+
+TABLE_MISSING_TOKEN = {
+    'hospital': 'empty',
+    'flights': 'empty',
+    'beers': 'empty',
+    'rayyan': 'empty',
+    'movies_1': 'empty',
+    'movies': 'empty',
+}
 
 
 def _table_size_mb(table_dir):
@@ -74,12 +87,7 @@ def _table_size_mb(table_dir):
 
 
 def discover_table_dirs(lake_dir):
-    """Return valid Quintet-3 table directories sorted smallest-to-largest.
-
-    A directory is valid if it contains dirty.csv and clean.csv and its
-    name matches a known Quintet-3 table (holo_constraints.txt is NOT
-    required — rules are hard-coded instead).
-    """
+    """Return Quintet-3 table directories sorted by dirty.csv size."""
     dirs = []
     for name in sorted(os.listdir(lake_dir)):
         full = os.path.join(lake_dir, name)
@@ -91,26 +99,6 @@ def discover_table_dirs(lake_dir):
             dirs.append(full)
     dirs.sort(key=_table_size_mb)
     return dirs
-
-
-def ensure_index_column(csv_path):
-    """Add a 0-based 'index' column if missing. Returns True if added."""
-    with open(csv_path, 'r', newline='') as f:
-        reader = csv.reader(f)
-        header = next(reader)
-        if 'index' in header:
-            return False
-        rows = list(reader)
-
-    header.insert(0, 'index')
-    for i, row in enumerate(rows):
-        row.insert(0, str(i))
-
-    with open(csv_path, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(header)
-        writer.writerows(rows)
-    return True
 
 
 def align_dirty_columns_to_clean(table_dir):
@@ -139,59 +127,36 @@ def align_dirty_columns_to_clean(table_dir):
     return True
 
 
-def read_csv_like_holoclean(path):
-    return pd.read_csv(
-        path, sep=",", header="infer", encoding="latin-1",
-        dtype=str, keep_default_na=False,
-    )
+def _aggregate_lake_metrics(per_table_metrics: list) -> dict:
+    return aggregate_lake_metrics(per_table_metrics)
 
 
-def compute_raw_counts(clean_df, dirty_df, cleaned_df):
-    """Cell-level TP, FP, total errors."""
-    index_col = 'index'
-    for df in [clean_df, dirty_df, cleaned_df]:
-        if index_col not in df.columns:
-            df[index_col] = range(len(df))
-
-    clean_r   = clean_df.set_index(index_col)
-    dirty_r   = dirty_df.set_index(index_col)
-    cleaned_r = cleaned_df.set_index(index_col)
-
-    errors_total = 0
-    for col in clean_r.columns:
-        errors_total += int((dirty_r[col] != clean_r[col]).sum())
-
-    clean_n   = clean_r.copy()
-    dirty_n   = dirty_r.copy()
-    cleaned_n = cleaned_r.copy()
-    for col in clean_n.columns:
-        clean_n[col]   = clean_n[col].apply(normalize_value)
-        dirty_n[col]   = dirty_n[col].apply(normalize_value)
-        cleaned_n[col] = cleaned_n[col].apply(normalize_value)
-
-    tp_total, fp_total = 0, 0
-    for col in clean_n.columns:
-        tp_total += int(((cleaned_n[col] == clean_n[col]) & (dirty_n[col] != cleaned_n[col])).sum())
-        fp_total += int(((cleaned_n[col] != clean_n[col]) & (dirty_n[col] != cleaned_n[col])).sum())
-
-    return tp_total, fp_total, errors_total
+def _metrics_row(tname: str, status: str, metrics: dict) -> dict:
+    return metrics_result_row(tname, status, metrics)
 
 
-def _prf(tp, fp, errors):
-    prec = tp / (tp + fp) if (tp + fp) > 0 else 0.0
-    rec  = tp / errors if errors > 0 else 0.0
-    f1   = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
-    return prec, rec, f1
+def _cleaned_csv_path(tdir, tname, mode):
+    """Prefer result/<mode>/<table>/…; fall back to legacy result/<table>/… for mode=all."""
+    modern = os.path.join(tdir, 'result', mode, tname, f'{tname}Cleaned.csv')
+    if os.path.isfile(modern):
+        return modern
+    if mode == 'all':
+        legacy = os.path.join(tdir, 'result', tname, f'{tname}Cleaned.csv')
+        if os.path.isfile(legacy):
+            return legacy
+    return modern
 
 
 def main():
     args     = parse_args()
     lake_dir = os.path.realpath(args.lake_dir)
-    output_dir = args.output_dir or os.path.join(lake_dir, 'uni_clean_results')
+    mode     = args.mode
+    output_dir = args.output_dir or os.path.join(lake_dir, f'uni_clean_results_{mode}')
     os.makedirs(output_dir, exist_ok=True)
 
     table_dirs = discover_table_dirs(lake_dir)
     print(f"Discovered {len(table_dirs)} table(s) in {lake_dir}")
+    print(f"Mode: {mode} ({'UniClean-ALL' if mode == 'all' else 'UniClean-FD'})")
 
     # ---- Phase 0: Preprocess ----
     print("Aligning dirty.csv columns to clean.csv ...")
@@ -217,12 +182,13 @@ def main():
             size_mb  = _table_size_mb(tdir)
             log_file = os.path.join(output_dir, f'{tname}.log')
             print(f"[{i+1}/{len(table_dirs)}] Cleaning: {tname}  "
-                  f"({size_mb:.2f} MB, timeout={args.timeout}s)")
+                  f"({size_mb:.2f} MB, mode={mode}, timeout={args.timeout}s)")
 
             cmd = [
                 sys.executable, main_py,
                 '--dataset_dir', tdir,
                 '--table_name',  tname,
+                '--mode', mode,
                 '--single_max',  str(args.single_max),
                 '--driver_memory', args.driver_memory,
             ]
@@ -244,104 +210,58 @@ def main():
                 with open(log_file, 'a') as lf:
                     lf.write(f"\n\n=== KILLED: exceeded {args.timeout}s timeout ===\n")
 
-    # ---- Phase 2: Aggregate evaluation ----
+    # Phase 2: aggregate evaluation
     print("\n" + "=" * 70)
-    print("AGGREGATED EVALUATION")
+    print(f"AGGREGATED EVALUATION  (mode={mode})")
     print("=" * 70)
 
-    lake_tp, lake_fp, lake_errors = 0, 0, 0
     lake_rows = 0
     tables_ok, tables_skipped, tables_failed = 0, 0, 0
     per_table_rows = []
 
     for tdir in table_dirs:
-        tname       = os.path.basename(tdir)
-        cleaned_csv = os.path.join(tdir, 'result', tname, f'{tname}Cleaned.csv')
+        tname = os.path.basename(tdir)
+        cleaned_csv = _cleaned_csv_path(tdir, tname, mode)
+        clean_path = os.path.join(tdir, 'clean.csv')
+        dirty_path = os.path.join(tdir, 'dirty.csv')
+        missing_token = TABLE_MISSING_TOKEN.get(tname.lower(), 'empty')
 
         if not os.path.isfile(cleaned_csv):
             try:
-                clean_df = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-                dirty_df = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-                _, _, errors = compute_raw_counts(clean_df, dirty_df, dirty_df)
-
-                lake_errors += errors
-                lake_rows   += len(clean_df)
+                errors = count_ground_truth_errors(clean_path, dirty_path, missing_token)
+                lake_rows += len(pd.read_csv(clean_path, dtype=str, keep_default_na=False))
                 tables_skipped += 1
-
-                per_table_rows.append({
-                    'table': tname, 'status': 'no_result',
-                    'TP': 0, 'FP': 0, 'errors': errors,
-                    'precision': 0.0, 'recall': 0.0, 'f1': 0.0,
-                })
+                row = _metrics_row(tname, 'no_result', skipped_table_metrics(errors))
+                per_table_rows.append(row)
             except Exception as e:
                 tables_failed += 1
-                per_table_rows.append({
-                    'table': tname, 'status': f'load_error: {e}',
-                    'TP': 0, 'FP': 0, 'errors': 0,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                per_table_rows.append(_metrics_row(tname, f'load_error: {e}', {}))
             continue
 
         try:
-            format_empty_data(cleaned_csv, cleaned_csv)
-            clean_df   = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-            dirty_df   = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-            cleaned_df = read_csv_like_holoclean(cleaned_csv)
-
-            tp, fp, errors = compute_raw_counts(clean_df, dirty_df, cleaned_df)
-            prec, rec, f1  = _prf(tp, fp, errors)
-
-            lake_tp     += tp
-            lake_fp     += fp
-            lake_errors += errors
-            lake_rows   += len(clean_df)
-            tables_ok   += 1
-
-            per_table_rows.append({
-                'table': tname, 'status': 'ok',
-                'TP': tp, 'FP': fp, 'errors': errors,
-                'precision': prec, 'recall': rec, 'f1': f1,
-            })
+            metrics = evaluate_quintet_table(
+                clean_path, dirty_path, cleaned_csv,
+                missing_token=missing_token,
+            )
+            lake_rows += len(pd.read_csv(clean_path, dtype=str, keep_default_na=False))
+            tables_ok += 1
+            row = _metrics_row(tname, 'ok', metrics)
+            per_table_rows.append(row)
         except Exception as e:
             try:
-                clean_df = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-                dirty_df = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-                _, _, errors = compute_raw_counts(clean_df, dirty_df, dirty_df)
-
-                lake_errors += errors
-                lake_rows   += len(clean_df)
+                errors = count_ground_truth_errors(clean_path, dirty_path, missing_token)
+                lake_rows += len(pd.read_csv(clean_path, dtype=str, keep_default_na=False))
                 tables_failed += 1
-
-                per_table_rows.append({
-                    'table': tname,
-                    'status': f'eval_error_but_counted: {str(e)[:50]}',
-                    'TP': 0, 'FP': 0, 'errors': errors,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                row = _metrics_row(tname, f'eval_error_but_counted: {str(e)[:50]}', {'errors': errors})
+                per_table_rows.append(row)
             except Exception:
                 tables_failed += 1
-                per_table_rows.append({
-                    'table': tname, 'status': f'eval_error: {e}',
-                    'TP': 0, 'FP': 0, 'errors': 0,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                per_table_rows.append(_metrics_row(tname, f'eval_error: {e}', {}))
 
-    lake_prec, lake_rec, lake_f1 = _prf(lake_tp, lake_fp, lake_errors)
+    lake = _aggregate_lake_metrics(per_table_rows)
 
-    summary = (
-        f"\nLake directory : {lake_dir}\n"
-        f"Tables total   : {len(table_dirs)}\n"
-        f"Tables cleaned : {tables_ok}\n"
-        f"Tables skipped : {tables_skipped}\n"
-        f"Tables failed  : {tables_failed}\n"
-        f"\n--- Lake-Level Aggregated Metrics ---\n"
-        f"Total TP       : {lake_tp}\n"
-        f"Total FP       : {lake_fp}\n"
-        f"Total errors   : {lake_errors}\n"
-        f"Precision      : {lake_prec:.6f}\n"
-        f"Recall         : {lake_rec:.6f}\n"
-        f"F1             : {lake_f1:.6f}\n"
-        f"Total rows     : {lake_rows}\n"
+    summary = format_lake_summary(
+        lake_dir, table_dirs, tables_ok, tables_skipped, tables_failed, lake, lake_rows,
     )
     print(summary)
 
@@ -351,16 +271,13 @@ def main():
     )
 
     with open(os.path.join(output_dir, 'lake_evaluation.txt'), 'w') as f:
+        f.write(f"mode={mode}\n")
         f.write(summary)
 
     with open(os.path.join(output_dir, 'lake_evaluation.json'), 'w') as f:
-        json.dump({
-            'total_tp': lake_tp, 'total_fp': lake_fp,
-            'total_errors': lake_errors,
-            'precision': lake_prec, 'recall': lake_rec, 'f1': lake_f1,
-            'tables_cleaned': tables_ok, 'tables_skipped': tables_skipped,
-            'tables_failed': tables_failed, 'total_rows': lake_rows,
-        }, f, indent=2)
+        payload = lake_evaluation_json(tables_ok, tables_skipped, tables_failed, lake_rows, lake)
+        payload['mode'] = mode
+        json.dump(payload, f, indent=2)
 
     print(f"\nResults saved to: {output_dir}")
 

@@ -1,26 +1,41 @@
-# UniClean: A Unified System for Mixed-Error Data Cleaning
+# UniClean experiment configuration
 
-This repository contains the implementation and evaluation of **UniClean**, a unified and extensible framework designed to clean large-scale datasets with mixed data errors.
+Working directory for runners: `uniclean_cleaners/`.
 
-For **baseline methods and benchmark results**, please refer to our baseline repository:
+## Modes
 
-🔗 **[MDCBaseline GitHub Repository](https://github.com/qzkinhit/MDCBaseline)**
+| Mode | Flag | Cleaners |
+|------|------|----------|
+| **UniClean-ALL** | `--mode all` | Full type-specific cleaners (Pattern, Date, Number, Outlier, …) plus `AttrRelation` FDs where configured |
+| **UniClean-FD** | `--mode fd` | Only `AttrRelation` (functional dependency) cleaners |
 
----
+On **real lakes** and controlled join/union lakes we use FD-only rules derived from `holo_constraints.txt` (same FD sets as HoloClean / Horizon). Pattern/date cleaners are not auto-derived for those lakes.
 
-## Overview
+## Quintet
 
-UniClean is built to address the challenge of diverse and co-occurring data errors by supporting:
-- **Rule-based**, **distribution-based**, and **external knowledge-based** cleaners
-- **Flexible composition** and **scalable execution** of cleaning workflows
-- A novel **record-level quality evaluation** metric (REDR)
+```bash
+cd uniclean_cleaners
+python run_quintet3.py --mode all --lake_dir ../../../datasets/unrelated_tables/Quintet
+python run_quintet3.py --mode fd  --lake_dir ../../../datasets/unrelated_tables/Quintet
+```
 
-If you are looking for how we compare against state-of-the-art systems and reproduce benchmark baselines, visit the MDCBaseline repository linked above.
+Per-table cleaner lists are in `main_quintet3.py` (`OFFICIAL_CLEANERS`, `MOVIES_CLEANERS`).
 
-## Citation
+## Data lakes
 
-If you find this repository helpful, please cite our VLDB paper (citation will be updated upon acceptance).
+```bash
+cd uniclean_cleaners
+python run_lake.py --lake_dir /path/to/lake
+```
 
-## License
+Each table directory must contain `dirty.csv`, `clean.csv`, and `holo_constraints.txt`.
 
-This project is licensed under the MIT License.
+## Environment
+
+```bash
+# from baselines/UniClean/
+./setup_env.sh
+source ./activate_uniclean.sh
+```
+
+Evaluation helpers: `evaluate_result.py`, `evaluate_uniclean_by_error_type.py`, majority-voting scripts in this folder.

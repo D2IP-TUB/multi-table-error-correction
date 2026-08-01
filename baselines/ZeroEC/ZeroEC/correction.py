@@ -8,6 +8,7 @@
 # All Rights Reserved
 ########################################
 
+from pathlib import Path
 import ast
 import concurrent.futures
 import copy
@@ -1194,16 +1195,18 @@ class myEmbeddings_2(Embeddings):
 if __name__ == "__main__":
     import argparse
     total_tokens = 0
-    dotenv.load_dotenv(dotenv_path="/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot/.env", override=True)
+    dotenv.load_dotenv(dotenv_path=str(Path(__file__).resolve().parents[1] / "ZeroEC-0-Shot" / ".env"), override=True)
     google_api_key = os.getenv("GOOGLE_GENAI_API_KEY")
     tokenizer = get_tokenizer('qwen-turbo')
     prompt_dict = {}
 
+    _REPO = Path(__file__).resolve().parents[3]
+    _FLIGHTS = _REPO / 'datasets' / 'joinable_tables' / 'flights_without_key_errors' / 'joined' / 'flights_oerr'
     parser = argparse.ArgumentParser(description='ZeroEC Correction Script')
-    parser.add_argument('--clean_data_path', type=str, default='/home/fatemeh/LakeCorrectionBench/datasets/flights_splitted_without_key_errors/joined/flights_oerr/clean.csv', help='Path to clean.csv')
-    parser.add_argument('--dirty_data_path', type=str, default='/home/fatemeh/LakeCorrectionBench/datasets/flights_splitted_without_key_errors/joined/flights_oerr/dirty.csv', help='Path to dirty.csv')
-    parser.add_argument('--detection_path', type=str, default='/home/fatemeh/LakeCorrectionBench/datasets/flights_splitted_without_key_errors/joined/flights_oerr/perfect_error_detection.csv', help='Path to perfect_error_detection.csv')
-    parser.add_argument('--output_path', type=str, default='/home/fatemeh/LakeCorrectionBench/ZeroEC/results/flights_splitted_without_key_errors/joined/flights_oerr', help='Output directory')
+    parser.add_argument('--clean_data_path', type=str, default=str(_FLIGHTS / 'clean.csv'), help='Path to clean.csv')
+    parser.add_argument('--dirty_data_path', type=str, default=str(_FLIGHTS / 'dirty.csv'), help='Path to dirty.csv')
+    parser.add_argument('--detection_path', type=str, default=str(_FLIGHTS / 'perfect_error_detection.csv'), help='Path to perfect_error_detection.csv')
+    parser.add_argument('--output_path', type=str, default=str(_REPO / 'results' / 'zeroec' / 'flights_oerr'), help='Output directory')
     parser.add_argument('--human_repair_num', type=int, default=10, help='Number of human repairs')
     args = parser.parse_args()
 
@@ -1259,7 +1262,7 @@ if __name__ == "__main__":
     OPENAI_API_KEY_fd_generation = google_api_key
     # param-embedding
     # The path to the embedding model, embedding models such as sentencebert, word2vec, fasttext, etc.
-    EMBEDDING_MODEL_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC/all-MiniLM-L6-v2'
+    EMBEDDING_MODEL_PATH = str(Path(__file__).resolve().parent / 'all-MiniLM-L6-v2')
     #########################################################
     
     

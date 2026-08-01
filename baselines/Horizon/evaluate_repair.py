@@ -166,9 +166,9 @@ def evaluate_repair(dirty_path: str, clean_path: str, repaired_path: str):
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate data repair quality')
-    parser.add_argument('--dirty', '-d', required=True, help='Path to dirty data CSV', default='/Users/fatemehahmadi/Downloads/horizon-code/flights_splitted/joined/flights/dirty.csv')
-    parser.add_argument('--clean', '-c', required=True, help='Path to clean (ground truth) data CSV', default='/Users/fatemehahmadi/Downloads/horizon-code/flights_splitted/joined/flights/clean.csv')
-    parser.add_argument('--repaired', '-r', required=True, help='Path to repaired data CSV', default='/Users/fatemehahmadi/Downloads/horizon-code/flights_splitted/joined/flights/clean.csv.a2.clean')
+    parser.add_argument('--dirty', '-d', required=True, help='Path to dirty data CSV')
+    parser.add_argument('--clean', '-c', required=True, help='Path to clean (ground truth) data CSV')
+    parser.add_argument('--repaired', '-r', required=True, help='Path to repaired data CSV')
     
     args = parser.parse_args()
     

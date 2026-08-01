@@ -4,6 +4,7 @@ Run ZeroEC zero-shot experiments on all datasets in a given folder
 and aggregate the results. Reads metrics from output.txt produced by correction_zero_shot.py.
 """
 
+from pathlib import Path
 import os
 import subprocess
 import sys
@@ -59,9 +60,10 @@ def run_zeroshot_experiment(dataset_name, dataset_path, results_base_path, base_
 
 
 def main():
-    BASE_ZEROEC_ZEROSHOT_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot'
-    DATASETS_PATH = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3_missing'
-    RESULTS_BASE_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot/results/Quintet_3_missing_zeroshot_gemini'
+    _REPO = Path(__file__).resolve().parents[3]
+    BASE_ZEROEC_ZEROSHOT_PATH = str(Path(__file__).resolve().parent)
+    DATASETS_PATH = str(_REPO / 'datasets' / 'unrelated_tables' / 'Quintet')
+    RESULTS_BASE_PATH = str(_REPO / 'results' / 'zeroec_zeroshot' / 'Quintet')
 
     datasets = [d for d in os.listdir(DATASETS_PATH)
                 if os.path.isdir(os.path.join(DATASETS_PATH, d))]
@@ -132,8 +134,9 @@ def main():
 
 def evaluate_existing_results():
     """Evaluate existing results without running experiments."""
-    DATASETS_PATH = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3_missing'
-    RESULTS_BASE_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot/results/Quintet_3_missing_zeroshot_gemini'
+    _REPO = Path(__file__).resolve().parents[3]
+    DATASETS_PATH = str(_REPO / 'datasets' / 'unrelated_tables' / 'Quintet')
+    RESULTS_BASE_PATH = str(_REPO / 'results' / 'zeroec_zeroshot' / 'Quintet')
 
     all_results = collect_existing_results(DATASETS_PATH, RESULTS_BASE_PATH)
     if all_results:

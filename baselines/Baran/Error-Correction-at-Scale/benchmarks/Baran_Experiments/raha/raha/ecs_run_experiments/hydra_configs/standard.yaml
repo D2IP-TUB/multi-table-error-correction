@@ -4,9 +4,10 @@ defaults:
 
 experiment:
   labeling_budgets: [1, 10]                                                  # labeling budgets used in Baran
-  # labeling_budgets_cells_limit:                             # cell-based labeling budgets limits (Baran standard exec)
+  labeling_budgets_cells_limit: [627, 4026]                            # cell-based labeling budgets limits (Baran standard exec)
   sampling: 1
   predefined_samples_path: ""
+  table_timeout_seconds: 3600                                           # 10 hours per table
 
 logs:
   path_to_log_file: "./logs/raha-Standard.log" # path pointing to the location where the logs should be stored

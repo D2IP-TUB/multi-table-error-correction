@@ -8,6 +8,7 @@ then computes precision/recall/F1 aggregated per error type.
 
 Optionally runs Horizon before evaluation (skipped by default with --skip_horizon).
 """
+from pathlib import Path
 import os
 import sys
 import csv
@@ -112,11 +113,16 @@ def run_horizon(table_dir, java_cp, algo=2):
         return None, 0
     import shlex
     # Java from java_env conda environment (needs LD_LIBRARY_PATH for libjli.so)
-    java_home = '/home/fatemeh/.conda/envs/java_env/lib/jvm'
-    java_bin = os.path.join(java_home, 'bin', 'java')
-    java_lib = os.path.join(java_home, 'lib')
+    java_home = os.environ.get('JAVA_HOME') or os.environ.get('HORIZON_JAVA_HOME')
+    if java_home:
+        java_bin = os.path.join(java_home, 'bin', 'java')
+        java_lib = os.path.join(java_home, 'lib')
+        ld_prefix = f"LD_LIBRARY_PATH={shlex.quote(java_lib)} "
+    else:
+        java_bin = 'java'
+        ld_prefix = ''
     cmd_parts = [java_bin, '-cp', java_cp, 'Graph', dirty, clean, fds, str(algo)]
-    shell_cmd = f"LD_LIBRARY_PATH={shlex.quote(java_lib)} {' '.join(shlex.quote(p) for p in cmd_parts)}"
+    shell_cmd = f"{ld_prefix}{' '.join(shlex.quote(p) for p in cmd_parts)}"
     # Run from the project root so relative classpath (src:commons-collections4-4.3.jar) resolves correctly
     project_root = os.path.dirname(os.path.abspath(__file__))
     proc = subprocess.run(shell_cmd, check=True, cwd=project_root, capture_output=True, text=True, shell=True)
@@ -198,7 +204,7 @@ def main():
     parser.add_argument(
         'lake_dir',
         nargs='?',
-        default='/home/fatemeh/data/horizon-code/Final_Datasets/flattened_partitioned_base',
+        default=str(Path(__file__).resolve().parents[2] / 'datasets' / 'unionable_tables' / 'union_datasets_used_in_exp'),
         help='Path to the lake directory containing table folders'
     )
     parser.add_argument('--java_cp', default='src:commons-collections4-4.3.jar',

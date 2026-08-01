@@ -1,0 +1,5 @@
+input:
+  input_data_lake_path: "datasets/unrelated_tables/Quintet" # relative to repository root
+  output_data_lake_path: "results/holoclean/output"
+  algorithm: "HoloClean"
+  logs_dir: "results/holoclean/logs"

@@ -47,9 +47,16 @@ def block_sample(df, models, single_max=30000):
         group_columns = list(sourceSet.union(targetSet))
         # 将 null 值替换为 '__NULL__'，确保它们在 groupBy 中参与计算
         for col in group_columns:
-            # df = df.withColumn(col, F.when(F.col(col).isNull(), F.lit("__NULL__")).otherwise(F.col(col)))
-            df = df.withColumn(col, F.when((F.col(col).isNull()) | (F.col(col) == "empty"), F.lit("__NULL__")).otherwise(
-            F.col(col)))
+            # Normalize grouping values to strings before introducing the string
+            # missing-value marker. This also supports boolean/numeric columns.
+            value_as_string = F.col(col).cast("string")
+            df = df.withColumn(
+                col,
+                F.when(
+                    value_as_string.isNull() | (value_as_string == "empty"),
+                    F.lit("__NULL__"),
+                ).otherwise(value_as_string),
+            )
         # 对每个 source-target 组合进行聚合，计算 count 和 target_count
         rule_grouped = df.groupBy(*group_columns).count()
         window_spec_partition = Window.partitionBy(*sourceSet)

@@ -17,7 +17,7 @@ cleaners = [
     Outlier("author_list", [], '8'),
     Date("journal_issn", "%y-%b", '5', valid_date_pattern=r'^[A-Za-z]{3}-\d{2}$|^\d{2}-[A-Za-z]{3}$'),
     Date("article_pagination", "%b-%y", '9', valid_date_pattern=r'^(?:\d{1}-\d{2}|\d{2}-\d{1})$'),
-    # Date("article_jcreated_at", "%-m/%-d/%y", currenFormat="%y/%m/%d", name='10'),
+    Date("article_jcreated_at", "%-m/%-d/%y", currenFormat="%y/%m/%d", name='10'),
     DisguisedMissHandler("article_jvolumn", "-1", "6"),
     DisguisedMissHandler("article_jissue", "-1", "7"),
     AttrRelation(["journal_abbreviation"], ["journal_title"], '0'),
@@ -26,9 +26,9 @@ cleaners = [
 ]
 
 # 默认参数
-file_load = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/original_datasets/4_rayyan/dirty_index.csv'
-clean_path = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/original_datasets/4_rayyan/clean_index.csv'
-save_path = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/original_datasets/4_rayyan/result/'
+file_load = 'TestDataset/4_rayyan/dirty_index.csv'
+clean_path = 'TestDataset/4_rayyan/clean_index.csv'
+save_path = 'TestDataset/result/'
 table_name = 'rayyan_4'
 attributes = ["journal_title", "journal_issn"]
 single_max = 10000

@@ -4,6 +4,7 @@ import os
 import sys
 import time
 import argparse
+from pathlib import Path
 from collections import defaultdict
 import pandas as pd
 
@@ -520,10 +521,22 @@ def format_empty_data(csv_file, output_file, missing_value_in_ori_data='empty', 
 # Main Script
 def main():
     parser = argparse.ArgumentParser(description="Calculate data cleaning metrics and save results to log file.")
-    parser.add_argument('--dirty_path', type=str, default="/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/flights_splitted/isolated/table_a/dirty.csv", help="Path to the dirty data CSV file.")
-    parser.add_argument('--clean_path', type=str, default="/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/flights_splitted/isolated/table_a/clean.csv", help="Path to the clean data CSV file.")
-    parser.add_argument('--cleaned_path', type=str,default="/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/flights_splitted/isolated/table_a/result/flights/flightsCleaned.csv", help="Path to the cleaned data CSV file.")
-    parser.add_argument('--output_path', type=str, default="/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/flights_splitted/isolated/table_a/result", help="Directory path to save the results (default: ./results).")
+    
+_REPO = Path(__file__).resolve().parents[2]
+_FLIGHTS_A = _REPO / 'datasets' / 'joinable_tables' / 'flights_without_key_errors' / 'isolated'
+# Prefer table_a if present; else first isolated subdir name used historically
+_EVAL_DIR = _FLIGHTS_A / 'table_a' if (_FLIGHTS_A / 'table_a').is_dir() else _FLIGHTS_A
+_EVAL_DEFAULTS = {
+    'dirty_path': str(_EVAL_DIR / 'dirty.csv') if (_EVAL_DIR / 'dirty.csv').exists() else str(_FLIGHTS_A),
+    'clean_path': str(_EVAL_DIR / 'clean.csv') if (_EVAL_DIR / 'clean.csv').exists() else str(_FLIGHTS_A),
+    'cleaned_path': str(_REPO / 'results' / 'uniclean' / 'flights' / 'Cleaned.csv'),
+    'output_path': str(_REPO / 'results' / 'uniclean' / 'flights'),
+}
+
+parser.add_argument('--dirty_path', type=str, default=_EVAL_DEFAULTS['dirty_path'], help="Path to the dirty data CSV file.")
+    parser.add_argument('--clean_path', type=str, default=_EVAL_DEFAULTS['clean_path'], help="Path to the clean data CSV file.")
+    parser.add_argument('--cleaned_path', type=str,default=_EVAL_DEFAULTS['cleaned_path'], help="Path to the cleaned data CSV file.")
+    parser.add_argument('--output_path', type=str, default=_EVAL_DEFAULTS['output_path'], help="Directory path to save the results (default: ./results).")
     parser.add_argument('--task_name', type=str, default="flights_isolated", help="Task name for result files (default: data_cleaning_task).")
     parser.add_argument('--index_attribute', type=str, default='index', help="Attribute to use as index (default: index).")
     parser.add_argument('--mse_attributes', nargs='*', default=[], help="List of attributes to calculate MSE, if any.")

@@ -8,10 +8,11 @@ here UNION is kept fixed while JOIN_THRESHOLD varies.
 """
 
 import sys
+from pathlib import Path
 
 import config
 from merge_tables import merge_tables
-from recreate_as_strings_union import recreate_merged_tables_as_strings_union
+from run_lake_exp import run_recreate_phases
 
 
 JOIN_THRESHOLDS = (0.25, 0.5, 0.75)
@@ -31,7 +32,12 @@ def main():
 
         try:
             merge_tables()
-            recreate_merged_tables_as_strings_union()
+            config.save_experiment_config(
+                result_dir=config.MERGED_PATH,
+                script=Path(__file__).name,
+                recreate="set_union,bag",
+            )
+            run_recreate_phases("both")
         except Exception as e:
             print(f"Run failed for join_threshold={thresh}: {e}", file=sys.stderr)
             raise

@@ -6,6 +6,7 @@ Evaluate Horizon results grouped by error type (FD, NO, Typo).
 
 Outputs separate per-type results for each subdirectory in Final_Datasets.
 """
+from pathlib import Path
 import os
 import sys
 import csv
@@ -173,12 +174,12 @@ def main():
     )
     parser.add_argument(
         '--dataset_root',
-        default='/home/fatemeh/data/horizon-code/Final_Datasets',
+        default=str(Path(__file__).resolve().parents[2] / 'datasets' / 'unionable_tables' / 'union_datasets_used_in_exp'),
         help='Root directory containing datasets'
     )
     parser.add_argument(
         '--output_dir',
-        default='/home/fatemeh/data/horizon-code/err_type_bug_fixed',
+        default=str(Path(__file__).resolve().parents[2] / 'results' / 'horizon' / 'by_error_type'),
         help='Directory to save output files'
     )
     args = parser.parse_args()

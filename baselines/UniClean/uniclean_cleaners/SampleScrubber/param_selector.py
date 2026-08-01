@@ -138,13 +138,14 @@ def find_blocks(df, partition, error_threshold):
 
     def update_block_mapping(df, partition, error_threshold, block_mapping):
         updated = False
+        has_prob = 'p' in df.columns
         for attrs in partition:
             value_to_indexes = df.groupby(attrs).groups
             for indexes in value_to_indexes.values():
                 if len(indexes) > 1:
                     connected_indexes = set()
                     for index in indexes:
-                        if df.loc[index, 'p'] < error_threshold:
+                        if not has_prob or df.loc[index, 'p'] < error_threshold:
                             connected_indexes.update(block_mapping[index])
                     if connected_indexes:
                         for index in connected_indexes:

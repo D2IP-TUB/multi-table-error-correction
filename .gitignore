@@ -1,0 +1,31 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs / local env
+.env
+.venv/
+env/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Experiment outputs (regenerable)
+results/
+*.duckdb
+*.duckdb.wal
+
+# Logs / temp
+*.log
+tmp/
+temp/

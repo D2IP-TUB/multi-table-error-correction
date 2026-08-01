@@ -13,13 +13,12 @@ from __future__ import annotations
 
 import argparse
 import csv
-import html
 import json
-import re
 from pathlib import Path
 
 import pandas as pd
 
+from error_cells import values_equal
 from recreate_as_strings import (
     _infer_error_type_from_clean_changes_codes,
     _resolve_error_type,
@@ -36,16 +35,6 @@ CSV_COLS = [
 CSV_COLS_ALL = ["table_id"] + CSV_COLS
 
 _UNKNOWN_ANNOTATION = {"error_type": "UNKNOWN", "fd_rule": "", "violated_dependencies": ""}
-
-
-def _normalize(value: str) -> str:
-    """
-    Matches count_errors.py::value_normalizer exactly.
-    Two values are considered equal (no error) iff their normalized forms match.
-    """
-    value = html.unescape(value)
-    value = re.sub(r"[\t\n ]+", " ", value)
-    return value.strip("\t\n ")
 
 
 def _parse_cell_id_dirty(cell_id: str, row_fallback: str, col_fallback: str) -> tuple[int, str] | None:
@@ -164,7 +153,7 @@ def _build_records(
         for col_name in dirty_df.columns:
             old_val = dirty_df.iloc[row_idx][col_name]
             new_val = clean_df.iloc[row_idx][col_name]
-            if _normalize(old_val) == _normalize(new_val):
+            if values_equal(old_val, new_val):
                 continue
             annotation = type_map.get((row_idx, col_name), _UNKNOWN_ANNOTATION)
             records.append({
@@ -252,7 +241,7 @@ def main():
     )
     p.add_argument(
         "isolated_dir", type=Path, nargs="?",
-        default=Path("/home/ahmadi/Blend_X/tables/uk_open_data/isolated"),
+        default=Path(__file__).resolve().parent.parent / "datasets" / "real_lakes" / "open_data_uk",
     )
     p.add_argument("--summary", action="store_true", help=f"Write {OUTPUT_SUMMARY} per table")
     args = p.parse_args()

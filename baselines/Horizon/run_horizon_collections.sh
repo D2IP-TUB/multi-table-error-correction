@@ -4,9 +4,11 @@
 set -e
 cd "$(dirname "$0")"
 
-DATASET_ROOT="/home/fatemeh/data/horizon-code/ablations_withFD/mit_dwh_with_validation"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+DATASET_ROOT="${DATASET_ROOT:-$REPO_ROOT/datasets/real_lakes/open_data_uk_merged_set_union}"
 SKIP_DIR_NAME="tables"
-OUTPUT_ROOT="results/horizon_ablation_collections_with_validation"
+OUTPUT_ROOT="${OUTPUT_ROOT:-$REPO_ROOT/results/horizon/ablation_collections}"
 
 mkdir -p "$OUTPUT_ROOT"
 

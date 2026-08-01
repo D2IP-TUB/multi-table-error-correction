@@ -17,7 +17,7 @@ from util import evaluate_cleaning_performance, save_cleaned_data
 
 # 清洗配置
 cleaners = [
-    # AttrRelation(["HospitalName"], ["ProviderNumber"], '1'),
+    AttrRelation(["HospitalName"], ["ProviderNumber"], '1'),
     AttrRelation(["Condition", "MeasureName"], ["HospitalType"], '2'),
     AttrRelation(["HospitalName", "PhoneNumber", "HospitalOwner"], ["State"], '3'),
     AttrRelation(["HospitalName"], ["ZipCode"], '4'),
@@ -50,6 +50,8 @@ def parse_args():
     parser.add_argument('--clean_path', type=str, default=clean_path, help="Path to the clean dataset.")
     parser.add_argument('--save_path', type=str, default=save_path, help="Directory to save cleaned data.")
     parser.add_argument('--table_name', type=str, default=table_name, help="Name of the result table.")
+    parser.add_argument('--missing_token', type=str, default='empty',
+                        help="Missing-value token (default: empty).")
     return parser.parse_args()
 
 def main():
@@ -59,6 +61,7 @@ def main():
     clean_path = args.clean_path
     save_path = args.save_path
     table_name = args.table_name
+    missing_token = args.missing_token
 
     # 初始化 SparkSession
     spark = SparkSession.builder \
@@ -71,10 +74,12 @@ def main():
 
     print("Logs saved in " + logsetting.logfilename)
 
-    # 读取数据并添加索引列
-    data = spark.read.csv(file_load, header=True, inferSchema=True)
+    data = spark.read.csv(file_load, header=True, inferSchema=False)
     if 'index' not in data.columns:
         data = data.withColumn("index", monotonically_increasing_id())
+    fill_cols = [c for c in data.columns if c != 'index']
+    if fill_cols:
+        data = data.fillna(missing_token, subset=fill_cols)
     data.persist()
 
     # 数据清洗及时间记录
@@ -90,7 +95,8 @@ def main():
     mse_attributes = ['Score']
     # 性能评估
     evaluate_cleaning_performance(clean_path, file_load, os.path.join(table_path, f'{table_name}Cleaned.csv'),
-                                  elapsed_time, table_path, table_name, mse_attributes)
+                                  elapsed_time, table_path, table_name, mse_attributes,
+                                  missing_token=missing_token)
 
     spark.stop()
 

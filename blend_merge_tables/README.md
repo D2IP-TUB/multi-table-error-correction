@@ -19,6 +19,7 @@ The pipeline has three phases:
 | File | Description |
 |------|-------------|
 | `config.py` | Central configuration (paths, thresholds, flags) |
+| `error_cells.py` | GT vs detected error-cell logic shared by index and merge |
 | `index_tables.py` | Phase 1 — build the DuckDB BLEND index |
 | `merge_tables.py` | Phase 2 — discover joinable/unionable pairs and merge them |
 | `recreate_as_strings.py` | Phase 3 — write merged tables as flat CSVs with provenance |
@@ -27,7 +28,8 @@ The pipeline has three phases:
 | `run_union_threshold_lakes.py` | Run Phase 2+3 for UNION_THRESHOLD ∈ {0.25, 0.5, 0.75} |
 | `generate_isolated_error_provenance.py` | Generate `error_map.csv` for every isolated table |
 | `count_errors.py` | Count cell-level errors between `clean.csv` and `dirty.csv` |
-| `sum_error_types.py` | Aggregate error-type counts from `isolated_error_map.csv` files |
+| `run_lake_exp.py` | End-to-end lake merge experiments (optional validation flags) |
+| `merge_validation.py` / `merge_distribution_validation.py` | Optional FD / distribution merge gates |
 | `utils.py` | Text tokenization helper (adapted from COCOA) |
 
 ---
@@ -36,6 +38,12 @@ The pipeline has three phases:
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
+| `ERROR_MODE` | `'GT'` | How to decide if a cell is erroneous: `'GT'` (dirty vs clean) or `'DETECTED'` (per-table CSV). Used in **indexing**, **discovery**, and **merging** (join keys, validation, recreate). |
+| `DETECTED_ERRORS_FILENAME` | `'detected_errors.csv'` | Filename inside each table directory when `ERROR_MODE='DETECTED'` |
+| `DETECTED_ERRORS_DIR` | `None` | Optional separate root for detection files (`<dir>/<table>/<filename>`) |
+| `MERGE_VALIDATION` | `False` | Optional FD/distribution merge validation (**off by default**, paper §5.9.3) |
+| `VALIDATION_SCOPE` | `'all'` | When validation is on: `'all'` / `'join'` / `'union'` |
+| `VALIDATION_STRATEGY` | `'fd'` | `'fd'`, `'distribution'`, or `'fd_and_distribution'` |
 | `CORPUS` | `'mit_dwh'` | Target corpus (`'uk_open_data'` or `'mit_dwh'`) |
 | `DIR_PATH` | `.../tables/<corpus>/isolated` | Directory containing isolated corpus tables |
 | `MERGED_PATH` | `.../tables/<corpus>/merged` | Output directory for merged tables |
@@ -49,8 +57,40 @@ The pipeline has three phases:
 | `UNION_THRESHOLD` | `0.5` | Min ratio of matching tuples for union |
 | `UNION_COLS` | `0.5` | Min ratio of matching columns for union |
 | `TOP_UNION` | `10` | Top-k unionable tables per table |
+| `MERGE_PRIORITY` | `'union'` | `'union'` (Algorithm 1) or `'join'` (ablation §5.9.5) |
 
 Edit `DIR_PATH`, `MERGED_PATH`, and `DB_PATH` to match your local setup before running.
+
+### Error detection modes
+
+**GT mode** (`ERROR_MODE = 'GT'`, default): a cell is clean when its normalized `dirty.csv` value equals the normalized value at the same position in `clean.csv`. Normalization applies HTML-unescape, collapses runs of whitespace, and strips leading/trailing whitespace (same rules as `count_errors.py`).
+
+**Detected mode** (`ERROR_MODE = 'DETECTED'`): a cell is erroneous when its `(row, column)` coordinates appear in a per-table detection CSV (default name `detected_errors.csv`, or `detected_errors_run_<n>.csv` via `run_lake_exp.py`). The file must have this format:
+
+```csv
+row,column
+0,0
+0,1
+0,3
+```
+
+Row and column indices are **0-based**, matching the data rows/columns in `dirty.csv` (header excluded). Cells not listed are treated as clean. `clean.csv` is not used for error detection in this mode, but may still be present for evaluation downstream.
+
+Detected / GT labels are shared across the whole pipeline:
+
+1. **Indexing** — stored as `cell_idx.is_clean`
+2. **Discovery** — join/union overlap uses only clean cells
+3. **Merging** — joins match only on clean key values; optional FD/distribution validation scores errors via the same profiles; recreate/union dedup keeps rows that contain detected (or GT) errors
+
+### Merge validation (optional)
+
+Paper default Algorithm 1 uses Blend scores only (`MERGE_VALIDATION = False`). To reproduce §5.9.3 / §5.9.4 ablations:
+
+```bash
+python run_lake_exp.py --corpus mit_dw_lake_exp --merge-validation --validation-strategy fd
+python run_lake_exp.py --corpus mit_dw_lake_exp --merge-validation --validation-scope join
+python run_distribution_threshold_lakes.py --corpus mit_dw_lake_exp
+```
 
 ---
 
@@ -108,7 +148,6 @@ For each isolated table directory (containing `dirty.csv`, `clean.csv`, and opti
 
 ```bash
 python count_errors.py <directory>           # count dirty/clean diffs
-python sum_error_types.py [<dir1> <dir2> ...]  # aggregate error types
 ```
 
 ---

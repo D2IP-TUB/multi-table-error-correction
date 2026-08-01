@@ -6,6 +6,7 @@ Evaluate ZeroEC results grouped by error type (FD, NO, Typo).
 
 Outputs separate per-type results for each subdirectory in Final_Datasets.
 """
+from pathlib import Path
 import html
 import os
 import re
@@ -193,12 +194,12 @@ def main():
     )
     parser.add_argument(
         '--dataset_root',
-        default='/home/fatemeh/LakeCorrectionBench/datasets/Final_Datasets',
+        default=str(Path(__file__).resolve().parents[3] / 'datasets' / 'unionable_tables' / 'union_datasets_used_in_exp'),
         help='Root directory containing datasets (Final_Datasets)'
     )
     parser.add_argument(
         '--results_root',
-        default='/home/fatemeh/LakeCorrectionBench/ZeroEC/results',
+        default=str(Path(__file__).resolve().parents[3] / 'results' / 'zeroec'),
         help='Root directory containing ZeroEC results'
     )
     parser.add_argument(
@@ -209,7 +210,7 @@ def main():
     )
     parser.add_argument(
         '--output_dir',
-        default='/home/fatemeh/LakeCorrectionBench/ZeroEC',
+        default=str(Path(__file__).resolve().parent),
         help='Directory to save output files'
     )
     args = parser.parse_args()

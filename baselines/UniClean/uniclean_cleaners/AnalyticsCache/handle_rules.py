@@ -85,6 +85,14 @@ from pyspark.sql import functions as F
 from functools import reduce
 import numpy as np
 
+
+def _to_python_scalar(value):
+    """Convert numpy scalars to native Python types for PySpark literals."""
+    if isinstance(value, np.generic):
+        return value.item()
+    return value
+
+
 def transformRulesToSpark(EditRuleList, df, batch_size=300, maxhandle=20000):
     """
     转换编辑规则列表并使用 Spark API 修改 DataFrame。
@@ -111,7 +119,7 @@ def transformRulesToSpark(EditRuleList, df, batch_size=300, maxhandle=20000):
                 column = EditRule.domain
                 predicate_attrs = EditRule.predicate[0]
                 value_sets = EditRule.predicate[1]
-                repair_value = EditRule.repairvalue
+                repair_value = _to_python_scalar(EditRule.repairvalue)
 
                 # 初始化该列的条件列表
                 if column not in all_conditions:
@@ -131,7 +139,7 @@ def transformRulesToSpark(EditRuleList, df, batch_size=300, maxhandle=20000):
                     # 构建子条件
                     sub_conditions = [
                         (F.col(attr).isNull() | F.col(attr).isin(disguised_missing_values)) if val == "__NULL__"
-                        else F.col(attr) == val
+                        else F.col(attr) == _to_python_scalar(val)
                         for attr, val in zip(predicate_attrs, value_set)
                     ]
 
@@ -182,9 +190,9 @@ def apply_conditions_to_df(df, all_conditions):
     """
     for column, cond_list in all_conditions.items():
         # 为每个修复条件生成 `when` 条件
-        column_update = F.when(cond_list[0][0], cond_list[0][1])
+        column_update = F.when(cond_list[0][0], F.lit(_to_python_scalar(cond_list[0][1])))
         for cond, repair_value in cond_list[1:]:
-            column_update = column_update.when(cond, repair_value)
+            column_update = column_update.when(cond, F.lit(_to_python_scalar(repair_value)))
         # 默认保留原始值
         df = df.withColumn(column, column_update.otherwise(F.col(column)))
     return df

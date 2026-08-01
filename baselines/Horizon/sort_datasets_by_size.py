@@ -49,7 +49,7 @@ def main():
     parser = argparse.ArgumentParser(description="Sort datasets by size.")
     parser.add_argument(
         "--data-dir",
-        default="/home/fatemeh/data/horizon-code/OpenData/open_data_uk_93",
+        default=str(Path(__file__).resolve().parents[2] / "datasets" / "real_lakes" / "open_data_uk"),
         help="Path to the folder containing dataset directories.",
     )
     parser.add_argument(

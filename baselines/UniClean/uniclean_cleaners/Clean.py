@@ -627,11 +627,15 @@ def CleanonLocalWithnoSmple(spark, cleanners, data, table_path, batch_size=500, 
                     sset = list(sset)
                     tset = list(tset)
 
+                    # Cycle detection may merge nodes (e.g. 'HospitalName,ProviderNumber').
+                    node_cols = node.split(',') if isinstance(node, str) and ',' in node else [node]
+                    select_cols = list(dict.fromkeys(['index'] + sset + node_cols))
+
                     # 将 Spark DataFrame 转换为 Pandas DataFrame
-                    df_pandas = data.select(['index']+sset + [node]).toPandas()
+                    df_pandas = data.select(select_cols).toPandas()
                     print(f"数据块大小: {df_pandas.shape[0]}")
 
-                    preCleaners = [single for single in singles if single.domain in (sset + [node])]
+                    preCleaners = [single for single in singles if single.domain in (sset + node_cols)]
                     _, output, _, _ = customclean(df_pandas, precleaners=preCleaners)
 
                     blockModels = None

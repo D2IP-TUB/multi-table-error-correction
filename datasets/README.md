@@ -1,80 +1,34 @@
-# Quick Reference: Datasets for Multi-Table Error Correction
+# Datasets
 
-## Dataset Descriptions
+Benchmark data for multi-table error correction.
 
-### Unrelated Tables (Quintet)
-- **Characteristics:** 5 independent datasets, different domains
-- **Best For:** Testing systems on non-related tables
+## Contents
 
-### Joinable Tables
-- **Use:** Study impact of joins on correction
-- **Characteristics:** Tables decomposed by functional dependencies
-- **Variants:** 
-  - Address (clean keys)- Proprietary
-  - Flights (clean + noisy keys)
-  - Soccer (non-unique keys)
+| Folder | Role |
+|--------|------|
+| `unrelated_tables/Quintet/` | Flights, Hospital, Beers, Movies, Rayyan (isolated) |
+| `joinable_tables/` | Flights (clean / noisy keys), Soccer (non-unique keys); each has `isolated/` and `joined/` |
+| `unionable_tables/` | DGov-derived union lakes at controlled overlap; see `unionable_tables/README.md` |
+| `real_lakes/open_data_uk/` | 93 UK Open Data tables (dirty/clean + FDs) |
+| `real_lakes/open_data_uk_merged_*` | Pre-merged OpenData-UK variants (set / multiset union) |
 
-### Unionable Tables (DGov)
-- **Use:** Study impact of unions
-- **Characteristics:** 363 tables
-- **Variants:** Disjoint, 25%, 50%, 75%, 100% overlap (w/ & w/o duplicates)
-
-### Real-World Data Lakes
-- **Use:** Evaluate on real-world data lakes
-- **Included:** OpenData-UK (93 tables, 5.6M cells)
-- **Proprietary:** MIT-DW (86 tables, 2.0M cells) 
-- **Characteristics:** Unknown relationships, mixed error types
-
-## File Organization
+## Layout sketch
 
 ```
 datasets/
-├── README.md                           # Main documentation (this file)
-├── unrelated_tables/
-│   ├── README.md                       # Unrelated details
-│   └── Quintet/
-│       ├── flights/
-│       │   ├── clean.csv               # Ground truth
-│       │   ├── dirty.csv               # With errors
-│       │   └── holo_constraints.txt    # Constraints
-│       ├── hospital/
-│       ├── beers/
-│       ├── movies/
-│       └── rayyan/
+├── unrelated_tables/Quintet/{flights,hospital,beers,movies,rayyan}/
+│   ├── clean.csv
+│   └── dirty.csv
 ├── joinable_tables/
-│   ├── README.md                       # Joinable details
-│   ├── flights_without_key_errors/    # Clean keys
-│   │   ├── isolated/
-│   │   └── joined/
-│   ├── flights_with_join_key_error/   # 10% key noise
-│   │   ├── isolated/
-│   │   └── joined/
-│   └── soccer/                         # Non-unique keys
-│       ├── isolated/
-│       └── joined/
+│   ├── flights_without_key_errors/{isolated,joined}/
+│   ├── flights_with_join_key_error/{isolated,joined}/
+│   └── soccer/{isolated,joined}/   # joined CSVs may be .zip
 ├── unionable_tables/
-│   ├── README.md                       # Unionable details
-│   ├── support_material/
-│   │   └── scripts/
-│   │       ├── generate_union_datasets.py
-│   │       ├── create_partitioned_base.py
-│   │       └── ...
-│   └── union_datasets_used_in_exp/
-│       ├── isolated/                   # Baseline
-│       ├── disjoint_with_duplicates/   # 0% overlap, UNION ALL
-│       ├── partial_overlap_25_with_duplicates/
-│       ├── partial_overlap_50_with_duplicates/
-│       ├── partial_overlap_75_with_duplicates/
-│       └── maximal_overlap_with_duplicates/  # 100%
-|       |__ ...
-└── real_lakes/
-    ├── README.md                       # Real lakes details
-    └── open_data_uk/                   # 93 UK government tables
-        ├── UK_CSV0000000000000127/
-        │   ├── clean.csv
-        │   ├── dirty.csv
-        │   ├── clean_changes.csv       # Changes log
-        │   ├── holo_constraints.txt
-        │   └── fds.txt
-        └── ...
+│   ├── support_material/           # sources + generation scripts
+│   └── union_datasets_used_in_exp/ # lakes used in experiments
+└── real_lakes/open_data_uk/<table>/
+    ├── clean.csv
+    ├── dirty.csv
+    ├── holo_constraints.txt
+    └── fds.txt
 ```

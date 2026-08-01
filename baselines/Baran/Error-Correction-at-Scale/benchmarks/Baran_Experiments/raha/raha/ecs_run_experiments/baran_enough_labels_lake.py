@@ -2,18 +2,104 @@ import html
 import json
 import logging
 import math
+import multiprocessing as mp
 import os
 import pickle
 import random
 import re
 import time
 from pathlib import Path
+from typing import Any, Optional
 
 import hydra
 import pandas as pd
 from raha.correction import main
 from raha.correction_predefined_samples import main as main_predefined_samples
 # from raha.send_log import send_log
+
+DEFAULT_TABLE_TIMEOUT_SECONDS = 3600
+
+
+def _table_worker(result_queue: mp.Queue, use_predefined: bool, args: tuple) -> None:
+    try:
+        if use_predefined:
+            cells_labeled = main_predefined_samples(*args)
+        else:
+            cells_labeled = main(*args)
+        result_queue.put(("ok", cells_labeled))
+    except Exception as exc:
+        result_queue.put(("error", repr(exc)))
+
+
+def run_table_with_timeout(
+    use_sampling: bool,
+    results_path: str,
+    dataset_path: str,
+    dataset_name: str,
+    labeling_budget: int,
+    execution_number: int,
+    predefined_samples: Any,
+    timeout_seconds: int,
+    custom_logger: logging.Logger,
+) -> Optional[int]:
+    if use_sampling:
+        args = (
+            results_path,
+            dataset_path,
+            dataset_name,
+            labeling_budget,
+            execution_number,
+            False,
+            0,
+        )
+        use_predefined = False
+    else:
+        predefined_sampled_tuples = predefined_samples[execution_number][labeling_budget]
+        args = (
+            results_path,
+            dataset_path,
+            dataset_name,
+            labeling_budget,
+            execution_number,
+            False,
+            0,
+            list(predefined_sampled_tuples),
+        )
+        use_predefined = True
+
+    result_queue: mp.Queue = mp.Queue()
+    process = mp.Process(
+        target=_table_worker,
+        args=(result_queue, use_predefined, args),
+        name=f"baran-{dataset_name}",
+    )
+    custom_logger.info(
+        f"Starting table {dataset_name} (timeout={timeout_seconds}s = {timeout_seconds / 3600:.1f}h)"
+    )
+    process.start()
+    process.join(timeout=timeout_seconds)
+
+    if process.is_alive():
+        custom_logger.error(
+            f"TIMEOUT after {timeout_seconds}s — killed {dataset_name}, moving to next table"
+        )
+        process.terminate()
+        process.join(timeout=30)
+        if process.is_alive():
+            process.kill()
+            process.join()
+        return None
+
+    if result_queue.empty():
+        custom_logger.error(
+            f"No result from {dataset_name} (exit code {process.exitcode})"
+        )
+        return None
+
+    status, payload = result_queue.get()
+    if status == "error":
+        raise RuntimeError(payload)
+    return payload
 
 
 def value_normalizer(value):
@@ -98,11 +184,16 @@ def start(cfg):
     print("Custom logger test completed")
     
     custom_logger.info(f"Starting experiment: {exp_name}")
-    
 
     repetition = range(1, cfg["shared"]["repetitions"] + 1)
     with_sampling = cfg["experiment"]["sampling"]
     predefined_samples_path = cfg["experiment"]["predefined_samples_path"]
+    table_timeout_seconds = cfg["experiment"].get(
+        "table_timeout_seconds", DEFAULT_TABLE_TIMEOUT_SECONDS
+    )
+    custom_logger.info(
+        f"Per-table timeout: {table_timeout_seconds}s ({table_timeout_seconds / 3600:.1f}h)"
+    )
     sandbox_path = Path(cfg["shared"]["sandbox_path"]).resolve()
     dataset_name = sandbox_path.stem
     sandbox_path_str = str(sandbox_path)
@@ -186,13 +277,20 @@ def start(cfg):
                         break
                     
                     # Execute the table and get the number of labeled cells
-                    if with_sampling:
-                        cells_labeled = main(results_path_for_budget, dataset_path, dataset_name, labeling_budget, execution_number,
-                            column_wise_evaluation=False, column_idx=0)
-                    else:                   
-                        predefined_sampled_tuples = predefined_samples[execution_number][labeling_budget]
-                        cells_labeled = main_predefined_samples(results_path_for_budget, dataset_path, dataset_name, labeling_budget, execution_number,
-                            column_wise_evaluation=False, column_idx=0, sampled_tuples=list(predefined_sampled_tuples))
+                    cells_labeled = run_table_with_timeout(
+                        with_sampling,
+                        results_path_for_budget,
+                        dataset_path,
+                        dataset_name,
+                        labeling_budget,
+                        execution_number,
+                        predefined_samples,
+                        table_timeout_seconds,
+                        custom_logger,
+                    )
+                    if cells_labeled is None:
+                        i_l += 1
+                        continue
                     
                     # Track actual cells labeled after execution
                     if cell_limit is not None:
@@ -272,13 +370,20 @@ def start(cfg):
                                 continue
                             
                             # Execute with reduced budget
-                            if with_sampling:
-                                cells_labeled = main(results_path_for_budget, dataset_path, dataset_name, current_budget, execution_number,
-                                    column_wise_evaluation=False, column_idx=0)
-                            else:
-                                predefined_sampled_tuples = predefined_samples[execution_number][current_budget]
-                                cells_labeled = main_predefined_samples(results_path_for_budget, dataset_path, dataset_name, current_budget, execution_number,
-                                    column_wise_evaluation=False, column_idx=0, sampled_tuples=list(predefined_sampled_tuples))
+                            cells_labeled = run_table_with_timeout(
+                                with_sampling,
+                                results_path_for_budget,
+                                dataset_path,
+                                dataset_name,
+                                current_budget,
+                                execution_number,
+                                predefined_samples,
+                                table_timeout_seconds,
+                                custom_logger,
+                            )
+                            if cells_labeled is None:
+                                remaining_skipped.append(dataset_path)
+                                continue
                             
                             total_cells_labeled += cells_labeled
                             custom_logger.info(
@@ -374,13 +479,19 @@ def start(cfg):
                                 old_cells = old_result.get('number_of_labeled_cells', 0)
                             
                             # Re-run with higher budget
-                            if with_sampling:
-                                new_cells = main(results_path_for_budget, dataset_path, dataset_name, upgrade_budget, execution_number,
-                                    column_wise_evaluation=False, column_idx=0)
-                            else:
-                                predefined_sampled_tuples = predefined_samples[execution_number][upgrade_budget]
-                                new_cells = main_predefined_samples(results_path_for_budget, dataset_path, dataset_name, upgrade_budget, execution_number,
-                                    column_wise_evaluation=False, column_idx=0, sampled_tuples=list(predefined_sampled_tuples))
+                            new_cells = run_table_with_timeout(
+                                with_sampling,
+                                results_path_for_budget,
+                                dataset_path,
+                                dataset_name,
+                                upgrade_budget,
+                                execution_number,
+                                predefined_samples,
+                                table_timeout_seconds,
+                                custom_logger,
+                            )
+                            if new_cells is None:
+                                continue
                             
                             # Check if upgrade fits within cell limit
                             cell_delta = new_cells - old_cells

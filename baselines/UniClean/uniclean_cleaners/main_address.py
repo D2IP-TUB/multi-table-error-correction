@@ -1,4 +1,5 @@
 import argparse
+from pathlib import Path
 import os
 import time
 
@@ -23,9 +24,12 @@ cleaners = [
 ]
 
 # 默认参数
-file_load = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/address_pr_dataset_processed_without_city/joined/address/dirty.csv'
-clean_path = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/address_pr_dataset_processed_without_city/joined/address/clean.csv'
-save_path = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/address_pr_dataset_processed_without_city/joined/address/result_rep_3/'
+# Address is proprietary; override these when data is available under datasets/joinable_tables/address/
+_REPO = Path(__file__).resolve().parents[3]
+_ADDR = _REPO / 'datasets' / 'joinable_tables' / 'address' / 'joined' / 'address'
+file_load = str(_ADDR / 'dirty.csv')
+clean_path = str(_ADDR / 'clean.csv')
+save_path = str(_REPO / 'results' / 'uniclean' / 'address' / 'joined') + '/'
 table_name = 'address'
 attributes = ["first_name", "last_name", "address", "state", "zip"]
 # attributes = ["first_name", "last_name", "zip"]

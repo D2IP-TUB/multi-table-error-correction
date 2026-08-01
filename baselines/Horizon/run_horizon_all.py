@@ -69,11 +69,16 @@ def run_horizon(table_dir, java_cp, algo=2):
     clean = os.path.join(table_dir, 'clean.csv')
     fds = os.path.join(table_dir, 'fds.txt')
     # Java from java_env conda environment (needs LD_LIBRARY_PATH for libjli.so)
-    java_home = '/home/fatemeh/.conda/envs/java_env/lib/jvm'
-    java_bin = os.path.join(java_home, 'bin', 'java')
-    java_lib = os.path.join(java_home, 'lib')
+    java_home = os.environ.get('JAVA_HOME') or os.environ.get('HORIZON_JAVA_HOME')
+    if java_home:
+        java_bin = os.path.join(java_home, 'bin', 'java')
+        java_lib = os.path.join(java_home, 'lib')
+        ld_prefix = f"LD_LIBRARY_PATH={shlex.quote(java_lib)} "
+    else:
+        java_bin = 'java'
+        ld_prefix = ''
     cmd_parts = [java_bin, '-cp', java_cp, 'Graph', dirty, clean, fds, str(algo)]
-    shell_cmd = f"LD_LIBRARY_PATH={shlex.quote(java_lib)} {' '.join(shlex.quote(p) for p in cmd_parts)}"
+    shell_cmd = f"{ld_prefix}{' '.join(shlex.quote(p) for p in cmd_parts)}"
     print(f"Running Horizon: {shell_cmd}")
     # Run from the project root so relative classpath (src:commons-collections4-4.3.jar) resolves correctly
     project_root = os.path.dirname(os.path.abspath(__file__))

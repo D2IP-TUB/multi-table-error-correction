@@ -4,9 +4,20 @@ import networkx as nx
 import polars as pl
 import random
 import shutil
+from typing import Tuple
 from tqdm import tqdm
 
 import config
+from error_cells import get_error_profile, is_gt_mode
+from merge_validation import (
+    CandidateReportRow,
+    append_candidate_report_rows,
+    blend_discovery_metrics,
+    print_validation_summary,
+    score_merge,
+    validation_result_row,
+    write_validation_reports,
+)
 
 
 def find_joinable_tables(db_conn, tab_id, col_id, values, is_numeric, tab_lengths, tab_ids, top_k, min_rows, threshold):
@@ -24,6 +35,9 @@ def find_joinable_tables(db_conn, tab_id, col_id, values, is_numeric, tab_length
     :param threshold: minimum ratio of joined tuples over the length of the joined table
     :return: a list with the top_k overlapping columns in the corpus
     """
+
+    if not values:
+        return []
 
     query = f"""
         SELECT x.tab_id, x.col_id, COUNT(DISTINCT x.value), COUNT(x.value)
@@ -62,6 +76,25 @@ def find_joinable_tables(db_conn, tab_id, col_id, values, is_numeric, tab_length
     return top_joins
 
 
+def _union_matching_edge(node_a: str, node_b: str) -> Tuple[int, int]:
+    """Normalize a bipartite matching edge to (left_col_id, right_col_id)."""
+
+    def parse_node(node: str) -> Tuple[str, int]:
+        if node.startswith('l_'):
+            return 'l', int(node.removeprefix('l_'))
+        if node.startswith('r_'):
+            return 'r', int(node.removeprefix('r_'))
+        raise ValueError(f'unexpected union matching node: {node!r}')
+
+    side_a, col_a = parse_node(node_a)
+    side_b, col_b = parse_node(node_b)
+    if side_a == 'l' and side_b == 'r':
+        return col_a, col_b
+    if side_a == 'r' and side_b == 'l':
+        return col_b, col_a
+    raise ValueError(f'union matching edge has same side twice: {node_a!r}, {node_b!r}')
+
+
 def find_unionable_tables(db_conn, tab_id, clean_values, is_numeric, tab_lengths, tab_ids, top_k, min_cols, threshold):
     """
     Given a table, find unionable tables in the corpus.
@@ -81,7 +114,9 @@ def find_unionable_tables(db_conn, tab_id, clean_values, is_numeric, tab_lengths
     # Column overlap: number of (clean) tuples with common values / total number of tuples
     top_tables = dict()
     for col_id in range(len(clean_values)):
-        values = set(clean_values[col_id])
+        values = set(clean_values[col_id]).difference({''})
+        if not values:
+            continue
         query = f"""
             SELECT x.tab_id, x.col_id, COUNT(x.value), LIST(DISTINCT value)
             FROM cell_idx x JOIN col_idx y ON x.tab_id = y.tab_id AND x.col_id = y.col_id
@@ -109,8 +144,10 @@ def find_unionable_tables(db_conn, tab_id, clean_values, is_numeric, tab_lengths
         num_cols = len(clean_values) + r_tab_cols
         g = nx.Graph()
         g.add_weighted_edges_from([(f'l_{x[0]}', f'r_{x[1]}', x[2]) for x in top_tables[r_tab_id]])
-        mapping = [(x[0], x[1]) if x[0] <= x[1] else (x[1], x[0]) for x in list(nx.max_weight_matching(g))]
-        mapping = {(int(x[0].lstrip('l_')), int(x[1].lstrip('r_'))) for x in mapping}
+        mapping = {
+            _union_matching_edge(node_a, node_b)
+            for node_a, node_b in nx.max_weight_matching(g)
+        }
         if len(mapping) == 1 or 2 * len(mapping) < min_cols * num_cols:
             continue
         coverage = (2 * len(mapping)) / num_cols
@@ -218,11 +255,12 @@ def join_tables(l_tab_name, r_tab_name, l_tab_path, r_tab_path, mapping):
         l_num_cols = len(l_data)
         l_num_rows = len(l_data[0])
 
-    # Load the clean version of the left table
-    with open(l_tab_path / 'clean.csv', encoding='latin1') as file:
-        csv_reader = csv.reader(file)
-        l_clean_header = next(csv_reader)
-        l_clean_data = [list(col) for col in zip(*list(csv_reader))]
+    l_clean_data = None
+    if is_gt_mode():
+        with open(l_tab_path / 'clean.csv', encoding='latin1') as file:
+            csv_reader = csv.reader(file)
+            next(csv_reader)
+            l_clean_data = [list(col) for col in zip(*list(csv_reader))]
 
     # Load the right table
     with open(r_tab_path / 'dirty.csv', encoding='latin1') as file:
@@ -232,11 +270,15 @@ def join_tables(l_tab_name, r_tab_name, l_tab_path, r_tab_path, mapping):
         r_num_cols = len(r_data)
         r_num_rows = len(r_data[0])
 
-    # Load the clean version of the right table
-    with open(r_tab_path / 'clean.csv', encoding='latin1') as file:
-        csv_reader = csv.reader(file)
-        r_clean_header = next(csv_reader)
-        r_clean_data = [list(col) for col in zip(*list(csv_reader))]
+    r_clean_data = None
+    if is_gt_mode():
+        with open(r_tab_path / 'clean.csv', encoding='latin1') as file:
+            csv_reader = csv.reader(file)
+            next(csv_reader)
+            r_clean_data = [list(col) for col in zip(*list(csv_reader))]
+
+    l_profile = get_error_profile(l_tab_path, clean_data=l_clean_data)
+    r_profile = get_error_profile(r_tab_path, clean_data=r_clean_data)
 
     # Generate the cell trackers for the two tables
     # Each cell stores a string 'table_name § column_name § row_idx'
@@ -246,7 +288,11 @@ def join_tables(l_tab_name, r_tab_name, l_tab_path, r_tab_path, mapping):
     # Track the row index of each clean value in the primary key (left table)
     pk_id = list(mapping.keys())[0]
     fk_id = mapping[pk_id]
-    pk_values = {l_data[pk_id][row_id]: row_id for row_id in range(l_num_rows) if l_data[pk_id][row_id] == l_clean_data[pk_id][row_id]}
+    pk_values = {
+        l_data[pk_id][row_id]: row_id
+        for row_id in range(l_num_rows)
+        if l_profile.is_clean(row_id, pk_id, dirty_value=l_data[pk_id][row_id])
+    }
 
     # Initialize the joined table (hence the corresponding cell tracker) as a list of empty lists, one per column
     tot_cols = l_num_cols + r_num_cols
@@ -258,7 +304,7 @@ def join_tables(l_tab_name, r_tab_name, l_tab_path, r_tab_path, mapping):
     for row_id in range(r_num_rows):
         row = [r_data[col_id][row_id] for col_id in range(r_num_cols)]
         t_row = [r_tracker[col_id][row_id] for col_id in range(r_num_cols)]
-        if r_data[fk_id][row_id] == r_clean_data[fk_id][row_id] and r_data[fk_id][row_id] in pk_values:
+        if r_profile.is_clean(row_id, fk_id, dirty_value=r_data[fk_id][row_id]) and r_data[fk_id][row_id] in pk_values:
             l_row_id = pk_values[r_data[fk_id][row_id]]
             row += [l_data[col_id][l_row_id] for col_id in range(l_num_cols)]
             t_row += [l_tracker[col_id][l_row_id] for col_id in range(l_num_cols)]
@@ -282,6 +328,116 @@ def join_tables(l_tab_name, r_tab_name, l_tab_path, r_tab_path, mapping):
     return join_data, join_tracker, join_header
 
 
+MERGE_SUMMARY_FIELDS = [
+    "output_id", "operation", "left_table", "right_table",
+    "blend_score", "blend_coverage", "validation_score",
+    "errors_in_merged", "correctable_before", "correctable_after",
+    "newly_correctable", "correctable_lost",
+    "fds_before", "fds_after", "fds_introduced", "fds_broken", "fds_retained",
+    "mapping", "joined_tuples", "dangling_tuples", "notes",
+]
+
+
+def _tab_pair_key(cand: dict) -> tuple[int, int]:
+    l_tab_id, r_tab_id = cand['l_tab_id'], cand['r_tab_id']
+    return (l_tab_id, r_tab_id) if l_tab_id < r_tab_id else (r_tab_id, l_tab_id)
+
+
+def _first_alternate_for_table(alternates: list, tab_id: int) -> dict | None:
+    for cand in alternates:
+        if cand['l_tab_id'] == tab_id or cand['r_tab_id'] == tab_id:
+            return cand
+    return None
+
+
+def build_candidate_merges(joins: list, unions: list) -> list:
+    """
+    Build the candidate merge group for the next comparison round.
+
+    With union priority, seed the group with the top union and add competing
+    joins for each involved table. With join priority, do the converse.
+
+    When MERGE_VALIDATION is False (paper default / Algorithm 1), only the
+    priority-side top candidate is returned — no competing alternates.
+    """
+    priority = str(config.MERGE_PRIORITY).strip().lower()
+    if priority not in {'union', 'join'}:
+        raise ValueError(f"MERGE_PRIORITY must be 'union' or 'join', got {config.MERGE_PRIORITY!r}")
+
+    if priority == 'union':
+        primary, alternates = unions, joins
+    else:
+        primary, alternates = joins, unions
+
+    cand_merges: list = []
+    if primary:
+        cand_merges.append(primary[0])
+        if config.MERGE_VALIDATION:
+            picked_pairs: set[tuple[int, int]] = set()
+            for tab_id in [primary[0]['l_tab_id'], primary[0]['r_tab_id']]:
+                alternate = _first_alternate_for_table(alternates, tab_id)
+                if alternate is None:
+                    continue
+                tab_ids = _tab_pair_key(alternate)
+                if tab_ids not in picked_pairs:
+                    cand_merges.append(alternate)
+                    picked_pairs.add(tab_ids)
+    elif alternates:
+        cand_merges.append(alternates[0])
+
+    return cand_merges
+
+
+def _merge_summary_notes(cand: dict, vresult, n_candidates: int) -> str:
+    blend = blend_discovery_metrics(cand)
+    if cand["operation"] == "join":
+        blend_desc = (
+            f"BLEND join coverage={blend['blend_coverage']:.4f} "
+            f"(joined_tuples={cand.get('joined_tuples', '')}, "
+            f"dangling={cand.get('dangling_tuples', '')})"
+        )
+    else:
+        blend_desc = (
+            f"BLEND union column-coverage={blend['blend_coverage']:.4f}, "
+            f"overlap-sum={blend['blend_score']:.4f} "
+            f"(sum of per-column overlap ratios; not capped at 1)"
+        )
+    return (
+        f"Selected as best of {n_candidates} compared candidate(s) by validation_score. "
+        f"{blend_desc}. "
+        f"Validation on full merged table: "
+        f"{vresult.newly_correctable}/{vresult.errors_in_merged} erroneous source cells "
+        f"newly FD-correctable after merge "
+        f"(score={vresult.score:.4f}); "
+        f"{vresult.correctable_lost} previously correctable cells lost on merged table."
+    )
+
+
+def _build_merge_summary_row(
+    output_id: int,
+    cand: dict,
+    left_table: str,
+    right_table: str,
+    vresult,
+    n_candidates: int,
+) -> dict:
+    blend = blend_discovery_metrics(cand)
+    row = {
+        "output_id": output_id,
+        "operation": cand["operation"],
+        "left_table": left_table,
+        "right_table": right_table,
+        "blend_score": blend["blend_score"],
+        "blend_coverage": blend["blend_coverage"],
+        "mapping": cand.get("mapping", ""),
+        "joined_tuples": cand.get("joined_tuples", ""),
+        "dangling_tuples": cand.get("dangling_tuples", ""),
+        "notes": _merge_summary_notes(cand, vresult, n_candidates),
+        **validation_result_row(vresult),
+    }
+    return row
+
+
 def save_table(tab_id, header, data, tracker):
 
     with open(config.MERGED_PATH / f'{tab_id}.csv', 'w', encoding='latin1') as file:
@@ -293,152 +449,6 @@ def save_table(tab_id, header, data, tracker):
         csv_writer = csv.writer(file)
         csv_writer.writerow(header)
         csv_writer.writerows(zip(*tracker))
-
-
-def validate_union(data, tracker, header):
-    """
-    Validate the candidate unions and assign them a goodness score (0 for useless unions)
-    :param data: cell values as a list of lists (one list for each column)
-    :param tracker: cell provenance as a list of lists (one list for each column)
-    :param header: header (for both data and tracker)
-    :return: a goodness score between 0 and 1 (0 for useless unions)
-    """
-
-    return 1.0
-
-
-def validate_join(data, tracker, header):
-    """
-    Validate the candidate joins and assign them a goodness score (0 for useless joins).
-
-    The score measures the fraction of errors in fully-joined rows that are
-    correctable via cross-table functional dependencies discovered in the join.
-    Both directions are considered: FK columns can help correct PK errors and
-    vice versa.  An error cell is "correctable" when:
-      - It belongs to a dependent column Y of a new cross-table FD  X -> Y
-      - The determinant X is clean in that row and appears in at least one other
-        row where Y is also clean (i.e., the determinant has duplicates providing
-        redundancy for majority-vote correction).
-
-    :param data: cell values as a list of lists (one list for each column)
-    :param tracker: cell provenance as a list of lists (one list for each column)
-    :param header: header (for both data and tracker)
-    :return: a goodness score between 0 and 1 (0 for useless joins)
-    """
-
-    if not config.JOIN_VALIDATION:
-        return 1.0
-
-    num_cols = len(data)
-    if num_cols == 0:
-        return 0.0
-    num_rows = len(data[0])
-    if num_rows == 0:
-        return 0.0
-
-    # --- 1. Parse header to identify source tables and original column ids ---
-    # Header format: '{tab_name}::{col_id}::{col_name}'
-    col_sources = []
-    table_names_ordered = []
-    table_names_set = set()
-    for h in header:
-        parts = h.split('::')
-        tab_name, orig_col_id = parts[0], int(parts[1])
-        col_sources.append((tab_name, orig_col_id))
-        if tab_name not in table_names_set:
-            table_names_ordered.append(tab_name)
-            table_names_set.add(tab_name)
-
-    if len(table_names_ordered) < 2:
-        return 0.0
-
-    # --- 2. Load clean versions of source tables (only for error detection) ---
-    clean_tables = {}
-    for tab_name in table_names_set:
-        with open(config.DIR_PATH / tab_name / 'clean.csv', encoding='latin1') as f:
-            reader = csv.reader(f)
-            next(reader)
-            clean_tables[tab_name] = [list(col) for col in zip(*list(reader))]
-
-    # --- 3. Single-pass: build per-column present / error row-sets ---
-    present = [set() for _ in range(num_cols)]
-    errors = [set() for _ in range(num_cols)]
-
-    for c in range(num_cols):
-        src_tab, src_col = col_sources[c]
-        clean_col = clean_tables[src_tab][src_col]
-        col_tracker = tracker[c]
-        col_data = data[c]
-        for r in range(num_rows):
-            if col_tracker[r] != '':
-                present[c].add(r)
-                src_row = int(col_tracker[r].rsplit(' § ', 1)[1])
-                if col_data[r] != clean_col[src_row]:
-                    errors[c].add(r)
-
-    del clean_tables
-
-    # Fully-joined rows via set intersection
-    fully_joined = set.intersection(*present) if present else set()
-
-    total_errors = sum(len(errors[c] & fully_joined) for c in range(num_cols))
-    if total_errors == 0:
-        return 0.0
-
-    # Clean rows: fully-joined with no error in any column
-    clean_rows = fully_joined - set().union(*errors)
-    if len(clean_rows) < 2:
-        return 0.0
-
-    # --- 4. Find cross-table 1→1 FDs on clean rows ---
-    # Only consider FDs where determinant and dependent are from different tables.
-    # Same-table FDs are not from the join (they’re in the original table), so we skip them.
-    cross_fds = []
-    for x in range(num_cols):
-        x_tab = col_sources[x][0]
-        x_col = data[x]
-        for y in range(num_cols):
-            if col_sources[y][0] == x_tab:
-                continue
-            val_map = {}
-            holds = True
-            for r in clean_rows:
-                xv = x_col[r]
-                yv = data[y][r]
-                prev = val_map.get(xv)
-                if prev is None:
-                    val_map[xv] = yv
-                elif prev != yv:
-                    holds = False
-                    break
-            if holds:
-                cross_fds.append((x, y))
-
-    if not cross_fds:
-        return 0.0
-
-    # --- 5. Score via set operations ---
-    correctable = set()
-    for x, y in cross_fds:
-        # Candidate rows: y present, x present and clean
-        candidates = (present[y] & present[x]) - errors[x]
-
-        det_groups = {}
-        x_col = data[x]
-        for r in candidates:
-            det_groups.setdefault(x_col[r], []).append(r)
-
-        y_errs = errors[y]
-        for group_rows in det_groups.values():
-            if len(group_rows) < 2:
-                continue
-            errs_in_group = y_errs.intersection(group_rows)
-            if len(errs_in_group) == len(group_rows):
-                continue
-            for r in errs_in_group:
-                correctable.add((y, r))
-
-    return len(correctable) / total_errors
 
 
 def merge_tables():
@@ -495,15 +505,28 @@ def merge_tables():
         # Visualize the table as a Polars dataframe
         # print(pl.DataFrame(data, schema=header))
 
-        # Load the table in its clean version to detect erroneous cells
-        with open(config.DIR_PATH / tab_name / 'clean.csv', encoding='latin1') as file:
-            csv_reader = csv.reader(file)
-            clean_data = [list(col)[1:] for col in zip(*list(csv_reader))]
+        # Determine which cell values are trusted for overlap / join discovery
+        clean_data = None
+        if is_gt_mode():
+            with open(config.DIR_PATH / tab_name / 'clean.csv', encoding='latin1') as file:
+                csv_reader = csv.reader(file)
+                next(csv_reader)
+                clean_data = [list(col) for col in zip(*list(csv_reader))]
 
-        # Determine the clean values and the cardinality for each column
-        clean_values = [[data[col_id][row_id] for row_id in range(num_rows) if data[col_id][row_id] == clean_data[col_id][row_id]]
-                        for col_id in range(num_cols)]
-        cardinalities = [len(set(clean_values[col_id]).difference({''})) / len(clean_values[col_id]) for col_id in range(num_cols)]
+        error_profile = get_error_profile(config.DIR_PATH / tab_name, clean_data=clean_data)
+        clean_values = [
+            [
+                data[col_id][row_id]
+                for row_id in range(num_rows)
+                if error_profile.is_clean(row_id, col_id, dirty_value=data[col_id][row_id])
+            ]
+            for col_id in range(num_cols)
+        ]
+        cardinalities = [
+            len(set(clean_values[col_id]).difference({''})) / len(clean_values[col_id])
+            if clean_values[col_id] else 0.0
+            for col_id in range(num_cols)
+        ]
 
         # Find candidate joins for the table's primary keys
         top_joins = list()
@@ -537,10 +560,15 @@ def merge_tables():
     tab_count = 0
     to_merge = set(tab_names.keys())
     merge_summary = []
+    validation_candidate_rows: list = []
+    validation_fd_rows: list = []
+    validation_distribution_rows: list = []
+    comparison_group_id = 0
 
     print(f'\n{len(unions)} candidate unions.')
     print(f'{len(joins)} candidate joins.')
     print(f'{len(to_merge)} tables to merge.')
+    print(f'MERGE_PRIORITY = {config.MERGE_PRIORITY}')
 
     while to_merge:
 
@@ -562,35 +590,21 @@ def merge_tables():
                     'operation': 'none',
                     'left_table': tab_name,
                     'right_table': '',
-                    'candidate_score': '',
-                    'validation_score': '',
-                    'why': 'Single table (no merge applied).',
-                    'details': ''
+                    'notes': 'Single table (no merge applied).',
                 })
                 tab_count += 1
                 to_merge = to_merge.difference({tab_id})
 
-        cand_merges = list()
-
-        # If there are candidate unions, pick the top union and compare it against the top join for each involved table...
-        if unions:
-            cand_merges.append(unions[0])
-            for tab_id in [unions[0]['l_tab_id'], unions[0]['r_tab_id']]:
-                picked_join = None
-                for x in joins:
-                    if x['l_tab_id'] == tab_id or x['r_tab_id'] == tab_id:
-                        tab_ids = (x['l_tab_id'], x['r_tab_id']) if x['l_tab_id'] < x['r_tab_id'] else (x['r_tab_id'], x['l_tab_id'])
-                        if tab_ids != picked_join:
-                            cand_merges.append(x)
-                            picked_join = tab_ids
-                        break
-        # ...otherwise, pick the top join
-        elif joins:
-            cand_merges.append(joins[0])
+        cand_merges = build_candidate_merges(joins, unions)
 
         print(f'\n{len(cand_merges)} candidates to compare:\n')
         for x in cand_merges:
             print(x)
+
+        if not cand_merges:
+            continue
+
+        comparison_group_id += 1
 
         # Materialize the candidate merges
         merged_tables = list()
@@ -612,46 +626,71 @@ def merge_tables():
 
         # Validate the candidate merges and assign them a goodness score (0 for useless merges)
         scores = list()
+        validation_results = list()
         for x in merged_tables:
-            if x['candidate']['operation'] == 'union':
-                scores.append(validate_union(x['data'].copy(), x['tracker'].copy(), x['header'].copy()))  # remove copy if do not edit
-            elif x['candidate']['operation'] == 'join':
-                scores.append(validate_join(x['data'].copy(), x['tracker'].copy(), x['header'].copy()))  # remove copy if do not edit
+            cand = x['candidate']
+            vresult = score_merge(
+                x['data'].copy(),
+                x['tracker'].copy(),
+                x['header'].copy(),
+                cand['operation'],
+                left_table=tab_names[cand['l_tab_id']],
+                right_table=tab_names[cand['r_tab_id']],
+                mapping=cand['mapping'],
+            )
+            validation_results.append(vresult)
+            scores.append(vresult.score)
 
         print(f'\nCandidate scores: {scores}')
+        for i, vresult in enumerate(validation_results):
+            print(f"  [{i}] {vresult.summary()}")
+
+        win_idx = None
+        if any(x > 0 for x in scores):
+            blend_scores = [
+                blend_discovery_metrics(x['candidate'])['blend_score']
+                for x in merged_tables
+            ]
+            win_idx = max(
+                range(len(scores)),
+                key=lambda i: (scores[i], blend_scores[i]),
+            )
+
+        for i, x in enumerate(merged_tables):
+            cand = x['candidate']
+            blend = blend_discovery_metrics(cand)
+            append_candidate_report_rows(
+                validation_candidate_rows,
+                validation_fd_rows,
+                validation_distribution_rows,
+                CandidateReportRow(
+                    group_id=comparison_group_id,
+                    candidate_idx=i,
+                    operation=cand['operation'],
+                    left_table=tab_names[cand['l_tab_id']],
+                    right_table=tab_names[cand['r_tab_id']],
+                    blend_score=blend['blend_score'],
+                    blend_coverage=blend['blend_coverage'],
+                    validation_score=scores[i],
+                    selected=(i == win_idx),
+                    result=validation_results[i],
+                ),
+            )
 
         # Pick the best merge, save the merged table, remove all candidate unions and joins with those tables
-        if any(x > 0 for x in scores):
-            win_idx = max(enumerate(scores), key=lambda x: x[1])[0]
+        if win_idx is not None:
             cand = merged_tables[win_idx]['candidate']
             save_table(tab_count, merged_tables[win_idx]['header'], merged_tables[win_idx]['data'], merged_tables[win_idx]['tracker'])
 
-            if cand['operation'] == 'join':
-                why = (f"Join coverage (candidate)={cand['score']:.4f}; "
-                       f"validation_score = fraction of errors correctable via cross-table 1→1 FDs.")
-                merge_summary.append({
-                    'output_id': tab_count,
-                    'operation': 'join',
-                    'left_table': tab_names[cand['l_tab_id']],
-                    'right_table': tab_names[cand['r_tab_id']],
-                    'candidate_score': cand['score'],
-                    'validation_score': scores[win_idx],
-                    'why': why,
-                    'details': f"mapping={cand['mapping']} joined_tuples={cand.get('joined_tuples','')} dangling={cand.get('dangling_tuples','')}"
-                })
-            else:
-                why = (f"Union coverage (candidate)={cand['score']:.4f}; "
-                       f"validation_score = goodness of union (0 = useless).")
-                merge_summary.append({
-                    'output_id': tab_count,
-                    'operation': 'union',
-                    'left_table': tab_names[cand['l_tab_id']],
-                    'right_table': tab_names[cand['r_tab_id']],
-                    'candidate_score': cand['score'],
-                    'validation_score': scores[win_idx],
-                    'why': why,
-                    'details': f"mapping={cand['mapping']} coverage={cand.get('coverage','')}"
-                })
+            vresult = validation_results[win_idx]
+            merge_summary.append(_build_merge_summary_row(
+                tab_count,
+                cand,
+                tab_names[cand['l_tab_id']],
+                tab_names[cand['r_tab_id']],
+                vresult,
+                len(cand_merges),
+            ))
 
             tab_count += 1
             merged_ids = {cand['l_tab_id'], cand['r_tab_id']}
@@ -687,11 +726,21 @@ def merge_tables():
     if merge_summary:
         summary_path = config.MERGED_PATH / 'merge_summary.csv'
         with open(summary_path, 'w', encoding='utf-8', newline='') as f:
-            w = csv.DictWriter(f, fieldnames=['output_id', 'operation', 'left_table', 'right_table', 'candidate_score', 'validation_score', 'why', 'details'])
+            w = csv.DictWriter(f, fieldnames=MERGE_SUMMARY_FIELDS, extrasaction='ignore')
             w.writeheader()
             for row in merge_summary:
-                w.writerow({k: str(row.get(k, '')) for k in ['output_id', 'operation', 'left_table', 'right_table', 'candidate_score', 'validation_score', 'why', 'details']})
+                w.writerow({k: str(row.get(k, '')) for k in MERGE_SUMMARY_FIELDS})
         print(f'\nWrote merge summary to {summary_path}')
+
+    if validation_candidate_rows:
+        write_validation_reports(
+            validation_candidate_rows,
+            validation_fd_rows,
+            validation_distribution_rows,
+            config.MERGED_PATH,
+        )
+        print_validation_summary(validation_candidate_rows, validation_fd_rows)
+        print(f'\nWrote validation reports to {config.MERGED_PATH}/validation_*.csv')
 
 
 def main():

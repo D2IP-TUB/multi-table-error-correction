@@ -1,28 +1,15 @@
-# Project Directory Overview
+# UniClean cleaners
 
-## CleanLogs
-**Cleaning Logs**
-- Directory for storing logs generated during the one-click cleaning process.
+Experiment configs (UniClean-ALL / UniClean-FD, lakes, sampling): see [../baseline_code.md](../baseline_code.md).
 
-## SampleScrubber
-**Sample Cleaning Tools**
-- **ModuleTest**: Unit tests for modules.
-- **util**
-    - `distance.py`: Computes distances between values.
-    - `getNum.py`: Evaluates cleaning accuracy.
-- `uniop_model.py`: Rule mining model.
-- `param_builder.py`: Constructs rule parameters.
-- `param_selector.py`: Selects optimal parameters.
-- **cleaners**
-    - `single.py`: Single-attribute operators.
-    - `multiple.py`: Multi-attribute relational operators.
-    - `soft.py`: Experimental or soft operators.
-    - `clean_penalty.py`: Calculates cleaning costs (edit distance, semantic penalties, Jaccard penalties).
+```bash
+# Quintet — UniClean-ALL / UniClean-FD
+python run_quintet3.py --mode all --lake_dir /path/to/Quintet
+python run_quintet3.py --mode fd  --lake_dir /path/to/Quintet
 
+# Data lake (FD-only from holo_constraints.txt)
+python run_lake.py --lake_dir /path/to/lake
+```
 
-## Main Scripts
-- `main.py`: Command-line entry point for one-click data cleaning.
-- `logsetting.py`: Logging configuration for the one-click pipeline.
-- `Clean.py`: Core script for terminal-based cleaning logic.
-- `requirements.txt`: Dependency list for the one-click cleaning system.
-``- `Plantuml.svg`: Flowchart visualizing the cleaning pipeline.
+Main entry points: `main_quintet3.py`, `main.py`, `run_quintet3.py`, `run_lake.py`.  
+Library code: `SampleScrubber/`, `Clean.py`.

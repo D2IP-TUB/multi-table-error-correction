@@ -30,12 +30,26 @@ def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_n
 
     # 计算准确率和召回率
     if calculate_precision_recall:
-        accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute=index_attribute)
-        results['accuracy'] = accuracy
-        results['recall'] = recall
-        f1_score = calF1(accuracy, recall)
-        results['f1_score'] = f1_score
-        print(f"修复准确率: {accuracy}, 修复召回率: {recall}, F1值: {f1_score}")
+        pr = calculate_accuracy_and_recall(
+            clean, dirty, cleaned, attributes, output_path, task_name,
+            index_attribute=index_attribute,
+        )
+        results['accuracy'] = pr['accuracy']
+        results['recall'] = pr['recall']
+        results['cor_precision'] = pr['cor_precision']
+        results['cor_recall'] = pr['cor_recall']
+        results['cor_f1'] = calF1(pr['cor_precision'], pr['cor_recall'])
+        results['det_precision'] = pr['det_precision']
+        results['det_recall'] = pr['det_recall']
+        results['det_f1'] = calF1(pr['det_precision'], pr['det_recall'])
+        results['f1_score'] = results['cor_f1']
+        results.update({
+            k: pr[k] for k in ('cor_tp', 'cor_fp', 'det_tp', 'det_fp', 'det_fn', 'errors')
+        })
+        print(
+            f"Correction P/R/F1: {results['cor_precision']}/{results['cor_recall']}/{results['cor_f1']}; "
+            f"Detection P/R/F1: {results['det_precision']}/{results['det_recall']}/{results['det_f1']}"
+        )
         print("=" * 40)
 
     # 计算EDR
@@ -81,6 +95,14 @@ def normalize_value(value):
             value = re.sub(r"[\t\n ]+", " ", value)
             value = value.strip("\t\n ")
         return value
+
+
+def normalize_for_cmp(value) -> str:
+    """Normalize a cell value for comparison."""
+    v = normalize_value(value)
+    v = html.unescape(v)
+    v = re.sub(r"[\t\n ]+", " ", v)
+    return v.strip()
 
 
 def default_distance_func(value1, value2):
@@ -156,9 +178,12 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     with open(out_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
 
-        total_true_positives = 0
-        total_false_positives = 0
-        total_true_negatives = 0
+        total_det_tp = 0
+        total_det_fp = 0
+        total_det_fn = 0
+        total_cor_tp = 0
+        total_cor_fp = 0
+        total_errors = 0
 
         # 创建差异 DataFrame 来保存不同的数据项
         clean_dirty_diff = pd.DataFrame(columns=['Attribute', 'Index', 'Clean Value', 'Dirty Value'])
@@ -168,10 +193,9 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
         unrepaired = pd.DataFrame(columns=['Attribute', 'Index', 'Dirty Value'])
 
         for attribute in attributes:
-            # 确保所有属性的数据类型为字符串并进行规范化
-            clean_values = clean[attribute].apply(normalize_value)
-            dirty_values = dirty[attribute].apply(normalize_value)
-            cleaned_values = cleaned[attribute].apply(normalize_value)
+            clean_values = clean[attribute].apply(normalize_for_cmp)
+            dirty_values = dirty[attribute].apply(normalize_for_cmp)
+            cleaned_values = cleaned[attribute].apply(normalize_for_cmp)
 
             # 对齐索引
             common_indices = clean_values.index.intersection(cleaned_values.index).intersection(dirty_values.index)
@@ -179,12 +203,17 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
             dirty_values = dirty_values.loc[common_indices]
             cleaned_values = cleaned_values.loc[common_indices]
 
-            # 正确修复的数据
-            true_positives = ((cleaned_values == clean_values) & (dirty_values != cleaned_values)).sum()
-            # 修错的数据
-            false_positives = ((cleaned_values != clean_values) & (dirty_values != cleaned_values)).sum()
-            # 所有应该需要修复的数据
-            true_negatives = (dirty_values != clean_values).sum()
+            actual_error = dirty_values != clean_values
+            changed = dirty_values != cleaned_values
+
+            det_tp = int((actual_error & changed).sum())
+            det_fp = int((~actual_error & changed).sum())
+            det_fn = int((actual_error & ~changed).sum())
+
+            cor_attempted = actual_error & changed
+            cor_tp = int((cor_attempted & (cleaned_values == clean_values)).sum())
+            cor_fp = int((cor_attempted & (cleaned_values != clean_values)).sum())
+            n_errors = int(actual_error.sum())
 
             # 记录干净数据和脏数据之间的差异
             mismatched_indices = dirty_values[dirty_values != clean_values].index
@@ -215,7 +244,8 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
 
             # 修复错误的数据
             repair_error_indices = cleaned_values[
-                (cleaned_values != clean_values) & (dirty_values != cleaned_values)].index
+                actual_error & changed & (cleaned_values != clean_values)
+            ].index
             repair_errors = pd.concat([repair_errors, pd.DataFrame({
                 'Attribute': attribute,
                 'Index': repair_error_indices,
@@ -233,21 +263,30 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
                 'Dirty Value': dirty_values.loc[unrepaired_indices]
             })], sort=False)  # 显式添加 sort=False
 
-            total_true_positives += true_positives
-            total_false_positives += false_positives
-            total_true_negatives += true_negatives
-            print("Attribute:", attribute, "修复正确的数据:", true_positives, "修复错误的数据:", false_positives,
-                  "应该修复的数据:", true_negatives)
+            total_det_tp += det_tp
+            total_det_fp += det_fp
+            total_det_fn += det_fn
+            total_cor_tp += cor_tp
+            total_cor_fp += cor_fp
+            total_errors += n_errors
+            print(
+                "Attribute:", attribute,
+                "cor_tp:", cor_tp, "cor_fp:", cor_fp,
+                "det_tp:", det_tp, "det_fp:", det_fp, "det_fn:", det_fn,
+                "errors:", n_errors,
+            )
             print("=" * 40)
 
-        # 总体修复的准确率
-        accuracy = total_true_positives / (total_true_positives + total_false_positives)
-        # 总体修复的召回率
-        recall = total_true_positives / total_true_negatives
+        cor_precision = total_cor_tp / (total_cor_tp + total_cor_fp) if (total_cor_tp + total_cor_fp) > 0 else 0.0
+        cor_recall = total_cor_tp / total_errors if total_errors > 0 else 0.0
+        det_precision = total_det_tp / (total_det_tp + total_det_fp) if (total_det_tp + total_det_fp) > 0 else 0.0
+        det_recall = total_det_tp / (total_det_tp + total_det_fn) if (total_det_tp + total_det_fn) > 0 else 0.0
 
-        # 输出最终的准确率和召回率
-        print(f"修复准确率: {accuracy}")
-        print(f"修复召回率: {recall}")
+        accuracy = cor_precision
+        recall = cor_recall
+
+        print(f"Correction Precision: {cor_precision}, Recall: {cor_recall}")
+        print(f"Detection  Precision: {det_precision}, Recall: {det_recall}")
 
     # 恢复标准输出
     sys.stdout = original_stdout
@@ -263,7 +302,20 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     print(f"修复错误数据文件已保存到: {repair_errors_path}")
     print(f"未修复但是应该修复数据文件已保存到: {unrepaired_path}")
 
-    return accuracy, recall
+    return {
+        "accuracy": accuracy,
+        "recall": recall,
+        "cor_precision": cor_precision,
+        "cor_recall": cor_recall,
+        "det_precision": det_precision,
+        "det_recall": det_recall,
+        "cor_tp": total_cor_tp,
+        "cor_fp": total_cor_fp,
+        "det_tp": total_det_tp,
+        "det_fp": total_det_fp,
+        "det_fn": total_det_fn,
+        "errors": total_errors,
+    }
 
 
 def get_edr(clean, dirty, cleaned, attributes, output_path, task_name, index_attribute='index', distance_func=default_distance_func):

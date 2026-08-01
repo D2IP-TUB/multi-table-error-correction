@@ -7,36 +7,10 @@ import config
 from recreate_as_strings import (
     _read_provenance_with_exact_headers,
     _disambiguate_headers,
+    find_rows_to_keep,
+    load_source_error_profiles,
     recreate_merged_table_from_provenance,
 )
-
-
-def _find_rows_to_keep(dirty_df, clean_df):
-    """
-    Determine which rows to keep after UNION-style deduplication.
-
-    Deduplication is driven entirely by the dirty table: rows with identical
-    dirty values are candidates for removal. However, any row that contains
-    at least one error (dirty != clean) is always kept, because we cannot
-    safely discard it. Among a group of duplicate *error-free* rows, only
-    the first occurrence is kept.
-
-    Returns:
-        Sorted list of row indices (0-based) to keep.
-    """
-    has_error = (dirty_df != clean_df).any(axis=1)
-
-    seen_clean_tuples = set()
-    keep = []
-    for idx in range(len(dirty_df)):
-        if has_error.iloc[idx]:
-            keep.append(idx)
-        else:
-            row_tuple = tuple(dirty_df.iloc[idx])
-            if row_tuple not in seen_clean_tuples:
-                seen_clean_tuples.add(row_tuple)
-                keep.append(idx)
-    return keep
 
 
 def _format_cell_id(table_id, column_id, row_id):
@@ -90,14 +64,15 @@ def recreate_merged_tables_as_strings_union(disambiguate_columns=True):
     """
     Same as recreate_merged_tables_as_strings but applies UNION semantics:
     exact duplicate rows in the dirty file are removed, except rows that
-    contain at least one error (dirty != clean) are always retained.
+    contain at least one erroneous cell are always retained.
 
     The deduplication is performed on the dirty reconstruction; the clean
     file and provenance are then filtered to match the same kept rows.
     """
 
     # Derive the output leaf name from MERGED_PATH (e.g. "merged_union_0.5")
-    output_dir = Path('merged_strings_default_set_union') / config.CORPUS / config.MERGED_PATH.name
+    output_root = config.RESULTS_ROOT if config.RESULTS_ROOT is not None else Path('.')
+    output_dir = output_root / 'merged_strings_default_set_union' / config.CORPUS / config.MERGED_PATH.name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load merge summary to know which tables are union/join/none
@@ -214,6 +189,8 @@ def recreate_merged_tables_as_strings_union(disambiguate_columns=True):
                 error_provenance_tables[table_name] = error_map
                 print(f"  Loaded {table_name}/clean_changes.csv ({num_errors} errors, with inferred types)")
 
+        error_profiles = load_source_error_profiles(source_tables)
+
         # Reconstruct full dirty and clean tables (UNION ALL)
         merged_dirty_df = recreate_merged_table_from_provenance(df_prov, dirty_tables, 'dirty', debug=True)
         merged_clean_df = recreate_merged_table_from_provenance(df_prov, clean_tables, 'clean', debug=True)
@@ -222,7 +199,7 @@ def recreate_merged_tables_as_strings_union(disambiguate_columns=True):
         operation = operation_by_id.get(merged_id, 'unknown')
         if operation == 'union':
             n_before = len(merged_dirty_df)
-            keep_indices = _find_rows_to_keep(merged_dirty_df, merged_clean_df)
+            keep_indices = find_rows_to_keep(merged_dirty_df, merged_clean_df, df_prov, error_profiles)
             n_after = len(keep_indices)
             n_removed = n_before - n_after
             print(f"  Deduplication: {n_before} rows -> {n_after} rows ({n_removed} exact clean duplicates removed)")

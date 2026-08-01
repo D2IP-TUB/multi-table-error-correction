@@ -261,9 +261,9 @@ def evaluate_cell_analysis(input_dir: str, dataset_dir: str = None, sampled_cell
 
 def main():
     # Default directories
-    default_input_dir = "/home/fatemeh/data/EC-at-Scale/results_clustering_based_mem_optimized_address_isolated/output_isolated_2_32_-1/cell_analysis"
-    default_dataset_dir = "/home/fatemeh/data/EC-at-Scale/datasets/address_pr_dataset_processed_without_city/isolated"
-    default_sampled_cells = "/home/fatemeh/data/EC-at-Scale/results_clustering_based_mem_optimized_address_isolated/output_isolated_2_32_-1/sampled_cells.txt"
+    default_input_dir = str(Path(__file__).resolve().parents[1] / "results" / "cross-table" / "output" / "cell_analysis")
+    default_dataset_dir = str(Path(__file__).resolve().parents[1] / "datasets" / "joinable_tables" / "address" / "isolated")
+    default_sampled_cells = str(Path(__file__).resolve().parents[1] / "results" / "cross-table" / "output" / "sampled_cells.txt")
     
     # Parse command line arguments
     input_dir = sys.argv[1] if len(sys.argv) > 1 else default_input_dir

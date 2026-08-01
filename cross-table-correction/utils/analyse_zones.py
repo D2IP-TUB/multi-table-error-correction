@@ -329,12 +329,12 @@ class LogParser:
 def main():
     # Specify your log directory path
     log_directory = (
-        "/home/fatemeh/ECS-1iter/EC-at-Scale/exp-2207-pipeline"  # Update this path
+        str(Path(__file__).resolve().parents[2] / "results" / "cross-table" / "output")
     )
 
     # Create output directory for saved files
     output_dir = (
-        "/home/fatemeh/ECS-1iter/EC-at-Scale/exp-2207-pipeline/analysis_results"
+        str(Path(__file__).resolve().parents[2] / "results" / "cross-table" / "analysis_results")
     )
     os.makedirs(output_dir, exist_ok=True)
 

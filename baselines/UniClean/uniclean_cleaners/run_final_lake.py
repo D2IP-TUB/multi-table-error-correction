@@ -1,14 +1,16 @@
 """
 Run main.py on every table in a Final_Datasets lake directory, then
-aggregate cell-level TP/FP/errors across all tables for lake-level
-precision, recall, and F1 — with per-partition and per-source-variant
-breakdowns derived from lineage.csv.
+aggregate metrics with optional per-partition and per-source-variant
+breakdowns from lineage.csv.
 
-Each table directory is expected to contain:
-    dirty.csv, clean.csv, holo_constraints.txt, lineage.csv
+Runtime logging (when not --skip_cleaning):
+  - Master log: logs/<lake_name>_runtime_<timestamp>.log
+  - Per-table: === START/END === lines with wall_s, clean_time_s, charged_s
+  - Summary:   <output_dir>/runtime_summary.json
+               <output_dir>/per_table_runtime.csv
 
-The lineage.csv has columns:
-    row_idx, source_table, source_variant, source_row_idx, partition
+Charged seconds: time(s) for OK, timeout for TIMEOUT, wall for FAILED, 0 for
+EMPTY. Idle time between manual restarts is not included.
 
 Usage:
     python run_final_lake.py --lake_dir /path/to/flattened_partial_overlap_50_without_duplicates
@@ -22,17 +24,31 @@ import os
 import re
 import subprocess
 import sys
+import time
 from collections import defaultdict
+from datetime import datetime, timezone
 
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from evaluate_result import normalize_value, format_empty_data
+sys.path.insert(0, os.path.dirname(__file__))
+from AnalyticsCache.getScore import normalize_for_cmp
+from quintet_eval import (
+    INDEX_COL,
+    aggregate_lake_metrics,
+    count_ground_truth_errors,
+    ensure_index_column,
+    evaluate_quintet_table,
+    format_lake_summary,
+    lake_evaluation_json,
+    metrics_result_row,
+    skipped_table_metrics,
+    unify_missing_tokens,
+)
 
 
 def parse_args():
     p = argparse.ArgumentParser(
-        description="Run Uniclean on all tables in a Final_Datasets lake and aggregate results."
+        description="Run UniClean on all tables in a Final_Datasets lake and aggregate results."
     )
     p.add_argument('--lake_dir', type=str, required=True,
                    help="Root directory of the lake (contains one sub-dir per table).")
@@ -46,6 +62,8 @@ def parse_args():
                    help="Spark driver memory (default: 48g).")
     p.add_argument('--spark_master', type=str, default=None,
                    help="Spark master URL, e.g. 'local[16]' to limit cores per table.")
+    p.add_argument('--missing_token', type=str, default='empty',
+                   help="Missing-value token for evaluation (default: empty).")
     p.add_argument('--skip_cleaning', action='store_true',
                    help="Skip cleaning; only aggregate existing results.")
     return p.parse_args()
@@ -59,12 +77,7 @@ def _table_size_mb(table_dir):
 
 
 def discover_table_dirs(lake_dir):
-    """Return valid table directories sorted smallest-to-largest by dirty.csv size.
-
-    lineage.csv is optional — tables without it will still be cleaned and
-    evaluated, but won't contribute to the per-partition / per-variant
-    breakdowns.
-    """
+    """Return valid table directories sorted by dirty.csv size."""
     dirs = []
     for name in sorted(os.listdir(lake_dir)):
         full = os.path.join(lake_dir, name)
@@ -77,28 +90,8 @@ def discover_table_dirs(lake_dir):
     return dirs
 
 
-def ensure_index_column(csv_path):
-    """Add a 0-based 'index' column if missing. Returns True if added."""
-    with open(csv_path, 'r', newline='') as f:
-        reader = csv.reader(f)
-        header = next(reader)
-        if 'index' in header:
-            return False
-        rows = list(reader)
-
-    header.insert(0, 'index')
-    for i, row in enumerate(rows):
-        row.insert(0, str(i))
-
-    with open(csv_path, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(header)
-        writer.writerows(rows)
-    return True
-
-
 def align_dirty_columns_to_clean(table_dir):
-    """Rewrite dirty.csv header to match clean.csv (strip type annotations)."""
+    """Rewrite dirty.csv header to match clean.csv."""
     clean_path = os.path.join(table_dir, 'clean.csv')
     dirty_path = os.path.join(table_dir, 'dirty.csv')
 
@@ -123,23 +116,212 @@ def align_dirty_columns_to_clean(table_dir):
     return True
 
 
-def read_csv_like_holoclean(path):
-    return pd.read_csv(
-        path, sep=",", header="infer", encoding="latin-1",
-        dtype=str, keep_default_na=False,
-    )
-
-
 _DGOV_VARIANT_RE = re.compile(r'^DGov_(FD|NO|Typo)_')
+_TIME_S_RE = re.compile(r'time\(s\):\s*([0-9.]+)')
+_EMPTY_CONSTRAINTS_RE = re.compile(r'No valid constraints found')
+
+
+def _utc_now_iso():
+    return datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def _local_now_stamp():
+    return datetime.now().strftime('%Y%m%d_%H%M%S')
+
+
+def _parse_clean_time_s(log_text):
+    matches = _TIME_S_RE.findall(log_text)
+    return float(matches[-1]) if matches else None
+
+
+def _is_empty_constraints(log_text):
+    return bool(_EMPTY_CONSTRAINTS_RE.search(log_text))
+
+
+class RuntimeLogger:
+    """Master runtime log + structured per-table records for lake charging.
+
+    Charged seconds (idle gaps between manual restarts are not included — only
+    recorded attempts):
+      - OK: last ``time(s):`` from the table log (else wall seconds)
+      - TIMEOUT: configured timeout seconds
+      - EMPTY: 0 (no valid constraints)
+      - FAILED: wall seconds of the attempt
+    """
+
+    def __init__(self, lake_dir, output_dir, timeout_s):
+        self.lake_dir = lake_dir
+        self.output_dir = output_dir
+        self.timeout_s = timeout_s
+        self.records = []
+        self._lake_started = time.time()
+        self._lake_started_iso = _utc_now_iso()
+
+        logs_dir = os.path.join(os.path.dirname(__file__), 'logs')
+        os.makedirs(logs_dir, exist_ok=True)
+        lake_name = os.path.basename(os.path.abspath(lake_dir).rstrip(os.sep)) or 'lake'
+        stamp = _local_now_stamp()
+        self.master_path = os.path.join(logs_dir, f'{lake_name}_runtime_{stamp}.log')
+        self.summary_json_path = os.path.join(output_dir, 'runtime_summary.json')
+        self.per_table_csv_path = os.path.join(output_dir, 'per_table_runtime.csv')
+        self._fh = open(self.master_path, 'w', buffering=1)
+
+    def close(self):
+        if self._fh and not self._fh.closed:
+            self._fh.close()
+
+    def log(self, msg, also_print=True):
+        line = msg if msg.endswith('\n') else msg + '\n'
+        self._fh.write(line)
+        self._fh.flush()
+        if also_print:
+            print(msg)
+
+    def write_header(self, n_tables, args):
+        self.log('=' * 70)
+        self.log(f'RUNTIME LOG  started={self._lake_started_iso}')
+        self.log(f'lake_dir     = {self.lake_dir}')
+        self.log(f'output_dir   = {self.output_dir}')
+        self.log(f'tables       = {n_tables}')
+        self.log(f'timeout_s    = {self.timeout_s}')
+        self.log(f'single_max   = {args.single_max}')
+        self.log(f'driver_memory= {args.driver_memory}')
+        self.log(f'spark_master = {args.spark_master}')
+        self.log(f'master_log   = {self.master_path}')
+        self.log('=' * 70)
+
+    def start_table(self, idx, n_tables, tname, size_mb):
+        started = time.time()
+        started_iso = _utc_now_iso()
+        self.log(
+            f'=== START table={tname} idx={idx}/{n_tables} '
+            f'size_mb={size_mb:.2f} at={started_iso} ==='
+        )
+        return started, started_iso
+
+    def end_table(self, tname, started, started_iso, outcome, exit_code, log_file):
+        wall_s = time.time() - started
+        ended_iso = _utc_now_iso()
+        log_text = ''
+        if log_file and os.path.isfile(log_file):
+            try:
+                with open(log_file, 'r', errors='replace') as f:
+                    log_text = f.read()
+            except OSError:
+                log_text = ''
+
+        clean_time_s = _parse_clean_time_s(log_text)
+        empty = _is_empty_constraints(log_text)
+
+        if outcome == 'timeout':
+            category = 'timeout'
+            charged_s = float(self.timeout_s)
+        elif empty and outcome != 'ok':
+            category = 'empty'
+            charged_s = 0.0
+            outcome = 'empty'
+        elif outcome == 'ok':
+            category = 'ok'
+            charged_s = float(clean_time_s) if clean_time_s is not None else wall_s
+        else:
+            category = 'failed'
+            charged_s = wall_s
+
+        rec = {
+            'table': tname,
+            'outcome': outcome,
+            'category': category,
+            'exit_code': exit_code,
+            'started_at': started_iso,
+            'ended_at': ended_iso,
+            'wall_s': round(wall_s, 3),
+            'clean_time_s': None if clean_time_s is None else round(clean_time_s, 6),
+            'charged_s': round(charged_s, 3),
+            'log_file': log_file,
+        }
+        self.records.append(rec)
+        self.log(
+            f'=== END table={tname} outcome={outcome} category={category} '
+            f'exit={exit_code} wall_s={wall_s:.3f} '
+            f'clean_time_s={clean_time_s if clean_time_s is not None else "NA"} '
+            f'charged_s={charged_s:.3f} at={ended_iso} ==='
+        )
+        return rec
+
+    def write_summary(self):
+        by_cat = defaultdict(lambda: {'n': 0, 'charged_s': 0.0, 'wall_s': 0.0})
+        for rec in self.records:
+            b = by_cat[rec['category']]
+            b['n'] += 1
+            b['charged_s'] += rec['charged_s']
+            b['wall_s'] += rec['wall_s']
+
+        total_charged = sum(r['charged_s'] for r in self.records)
+        total_wall = sum(r['wall_s'] for r in self.records)
+        lake_wall = time.time() - self._lake_started
+        summary = {
+            'lake_dir': self.lake_dir,
+            'output_dir': self.output_dir,
+            'master_log': self.master_path,
+            'started_at': self._lake_started_iso,
+            'ended_at': _utc_now_iso(),
+            'timeout_s': self.timeout_s,
+            'n_tables': len(self.records),
+            'by_category': {
+                k: {
+                    'n': v['n'],
+                    'charged_s': round(v['charged_s'], 3),
+                    'wall_s': round(v['wall_s'], 3),
+                }
+                for k, v in sorted(by_cat.items())
+            },
+            'total_charged_s': round(total_charged, 3),
+            'total_charged_rounded': round(total_charged),
+            'total_attempt_wall_s': round(total_wall, 3),
+            'lake_wall_s': round(lake_wall, 3),
+            'note': (
+                'charged_s = time(s) for ok, timeout_s for TIMEOUT, '
+                'wall_s for FAILED, 0 for EMPTY. Idle gaps between '
+                'manual restarts are not included.'
+            ),
+            'tables': self.records,
+        }
+
+        self.log('')
+        self.log('=' * 70)
+        self.log('RUNTIME SUMMARY')
+        self.log('=' * 70)
+        for cat, v in summary['by_category'].items():
+            self.log(
+                f"  {cat:10s}  n={v['n']:3d}  "
+                f"charged_s={v['charged_s']:10.3f}  wall_s={v['wall_s']:10.3f}"
+            )
+        self.log(
+            f"  TOTAL      n={summary['n_tables']:3d}  "
+            f"charged_s={summary['total_charged_s']:10.3f}  "
+            f"rounded={summary['total_charged_rounded']}  "
+            f"({summary['total_charged_rounded']/3600:.2f} h)"
+        )
+        self.log(
+            f"  attempt_wall_s={summary['total_attempt_wall_s']:.3f}  "
+            f"lake_wall_s={summary['lake_wall_s']:.3f}  "
+            f"(lake_wall includes only this process; not prior manual gaps)"
+        )
+        self.log('=' * 70)
+
+        with open(self.summary_json_path, 'w') as f:
+            json.dump(summary, f, indent=2)
+
+        if self.records:
+            pd.DataFrame(self.records).to_csv(self.per_table_csv_path, index=False)
+
+        self.log(f'Wrote {self.summary_json_path}')
+        self.log(f'Wrote {self.per_table_csv_path}')
+        return summary
 
 
 def load_lineage(table_dir):
-    """Load lineage.csv if it exists; otherwise infer from the directory name.
-
-    For DGov_{FD|NO|Typo}_* tables without lineage.csv, we synthesise a
-    lineage DataFrame with partition='all' and the variant extracted from
-    the name.  For other tables without lineage.csv we return None.
-    """
+    """Load lineage.csv if present; synthesize for DGov_* tables when absent."""
     lineage_path = os.path.join(table_dir, 'lineage.csv')
     if os.path.isfile(lineage_path):
         return pd.read_csv(lineage_path, dtype={'row_idx': int, 'source_row_idx': int})
@@ -150,7 +332,7 @@ def load_lineage(table_dir):
         variant = m.group(1)
         source_table = _DGOV_VARIANT_RE.sub('', tname)
         dirty_path = os.path.join(table_dir, 'dirty.csv')
-        n_rows = sum(1 for _ in open(dirty_path)) - 1  # minus header
+        n_rows = sum(1 for _ in open(dirty_path)) - 1
         return pd.DataFrame({
             'row_idx': range(n_rows),
             'source_table': source_table,
@@ -162,62 +344,22 @@ def load_lineage(table_dir):
     return None
 
 
-def compute_raw_counts(clean_df, dirty_df, cleaned_df):
-    """Cell-level TP, FP, total errors (same logic as run_lake.py)."""
-    index_col = 'index'
+def _read_table_csv(path):
+    return pd.read_csv(path, dtype=str, keep_default_na=False)
+
+
+def compute_lineage_counts(clean_df, dirty_df, cleaned_df, lineage_df, missing_token='empty'):
+    """Correction TP/FP/errors broken down by partition and source_variant."""
+    index_col = INDEX_COL
     for df in [clean_df, dirty_df, cleaned_df]:
         if index_col not in df.columns:
-            df[index_col] = range(len(df))
+            df.insert(0, index_col, range(len(df)))
+        unify_missing_tokens(df, missing_token)
 
     clean_r = clean_df.set_index(index_col)
     dirty_r = dirty_df.set_index(index_col)
     cleaned_r = cleaned_df.set_index(index_col)
-
-    errors_total = 0
-    for col in clean_r.columns:
-        errors_total += int((dirty_r[col] != clean_r[col]).sum())
-
-    clean_n = clean_r.copy()
-    dirty_n = dirty_r.copy()
-    cleaned_n = cleaned_r.copy()
-    for col in clean_n.columns:
-        clean_n[col] = clean_n[col].apply(normalize_value)
-        dirty_n[col] = dirty_n[col].apply(normalize_value)
-        cleaned_n[col] = cleaned_n[col].apply(normalize_value)
-
-    tp_total, fp_total = 0, 0
-    for col in clean_n.columns:
-        tp_total += int(((cleaned_n[col] == clean_n[col]) & (dirty_n[col] != cleaned_n[col])).sum())
-        fp_total += int(((cleaned_n[col] != clean_n[col]) & (dirty_n[col] != cleaned_n[col])).sum())
-
-    return tp_total, fp_total, errors_total
-
-
-def compute_lineage_counts(clean_df, dirty_df, cleaned_df, lineage_df):
-    """Compute TP/FP/errors broken down by partition and source_variant.
-
-    Returns two dicts:
-        by_partition:  {partition: {"tp": int, "fp": int, "errors": int}}
-        by_variant:    {source_variant: {"tp": int, "fp": int, "errors": int}}
-    """
-    index_col = 'index'
-    for df in [clean_df, dirty_df, cleaned_df]:
-        if index_col not in df.columns:
-            df[index_col] = range(len(df))
-
-    clean_r = clean_df.set_index(index_col)
-    dirty_r = dirty_df.set_index(index_col)
-    cleaned_r = cleaned_df.set_index(index_col)
-
-    clean_n = clean_r.copy()
-    dirty_n = dirty_r.copy()
-    cleaned_n = cleaned_r.copy()
-    for col in clean_n.columns:
-        clean_n[col] = clean_n[col].apply(normalize_value)
-        dirty_n[col] = dirty_n[col].apply(normalize_value)
-        cleaned_n[col] = cleaned_n[col].apply(normalize_value)
-
-    data_cols = list(clean_r.columns)
+    data_cols = [c for c in clean_r.columns if c in dirty_r.columns and c in cleaned_r.columns]
 
     def _zero():
         return {"tp": 0, "fp": 0, "errors": 0}
@@ -234,24 +376,20 @@ def compute_lineage_counts(clean_df, dirty_df, cleaned_df, lineage_df):
             continue
 
         for col in data_cols:
-            dirty_raw = dirty_r.at[row_idx, col]
-            clean_raw = clean_r.at[row_idx, col]
-            is_error = (dirty_raw != clean_raw)
+            clean_v = normalize_for_cmp(clean_r.at[row_idx, col])
+            dirty_v = normalize_for_cmp(dirty_r.at[row_idx, col])
+            cleaned_v = normalize_for_cmp(cleaned_r.at[row_idx, col])
 
-            dirty_norm = dirty_n.at[row_idx, col]
-            clean_norm = clean_n.at[row_idx, col]
-            cleaned_norm = cleaned_n.at[row_idx, col]
+            actual_error = dirty_v != clean_v
+            changed = dirty_v != cleaned_v
 
-            changed = (dirty_norm != cleaned_norm)
-            correct = (cleaned_norm == clean_norm)
-
-            if is_error:
+            if actual_error:
                 by_partition[partition]["errors"] += 1
                 by_variant[variant]["errors"] += 1
-            if changed and correct:
+            if actual_error and changed and cleaned_v == clean_v:
                 by_partition[partition]["tp"] += 1
                 by_variant[variant]["tp"] += 1
-            if changed and not correct:
+            if actual_error and changed and cleaned_v != clean_v:
                 by_partition[partition]["fp"] += 1
                 by_variant[variant]["fp"] += 1
 
@@ -275,11 +413,10 @@ def _prf(tp, fp, errors):
 
 
 def _print_breakdown(title, breakdown):
-    """Print a TP/FP/errors breakdown table."""
     print(f"\n{'=' * 85}")
     print(title)
     print('=' * 85)
-    print(f"  {'Category':<30} {'errors':>9} {'TP':>9} {'FP':>9} "
+    print(f"  {'Category':<30} {'errors':>9} {'cor_TP':>9} {'cor_FP':>9} "
           f"{'Precision':>10} {'Recall':>8} {'F1':>8}")
     print(f"  {'-' * 83}")
     for key in sorted(breakdown.keys()):
@@ -299,7 +436,6 @@ def main():
     table_dirs = discover_table_dirs(lake_dir)
     print(f"Discovered {len(table_dirs)} table(s) in {lake_dir}")
 
-    # ---- Phase 0: Preprocess ----
     print("Aligning dirty.csv columns to clean.csv ...")
     renamed = sum(1 for t in table_dirs if align_dirty_columns_to_clean(t))
     print(f"  Renamed headers in {renamed} file(s)." if renamed
@@ -315,56 +451,92 @@ def main():
           else "  All files already have an index column.")
 
     main_py = os.path.join(os.path.dirname(__file__), 'main.py')
+    runtime = None
 
-    # ---- Phase 1: Clean every table ----
     if not args.skip_cleaning:
-        for i, tdir in enumerate(table_dirs):
-            tname = os.path.basename(tdir)
-            size_mb = _table_size_mb(tdir)
-            log_file = os.path.join(output_dir, f'{tname}.log')
-            print(f"[{i+1}/{len(table_dirs)}] Cleaning: {tname}  "
-                  f"({size_mb:.2f} MB, timeout={args.timeout}s)")
+        runtime = RuntimeLogger(lake_dir, output_dir, args.timeout)
+        try:
+            runtime.write_header(len(table_dirs), args)
+            for i, tdir in enumerate(table_dirs):
+                tname = os.path.basename(tdir)
+                size_mb = _table_size_mb(tdir)
+                log_file = os.path.join(output_dir, f'{tname}.log')
+                runtime.log(
+                    f"[{i+1}/{len(table_dirs)}] Cleaning: {tname}  "
+                    f"({size_mb:.2f} MB, timeout={args.timeout}s)"
+                )
+                started, started_iso = runtime.start_table(
+                    i + 1, len(table_dirs), tname, size_mb,
+                )
 
-            cmd = [
-                sys.executable, main_py,
-                '--dataset_dir', tdir,
-                '--table_name', tname,
-                '--single_max', str(args.single_max),
-                '--driver_memory', args.driver_memory,
-            ]
-            if args.spark_master:
-                cmd += ['--spark_master', args.spark_master]
-            try:
-                with open(log_file, 'w') as lf:
-                    ret = subprocess.run(
-                        cmd, stdout=lf, stderr=subprocess.STDOUT,
-                        cwd=os.path.dirname(main_py), timeout=args.timeout,
+                cmd = [
+                    sys.executable, main_py,
+                    '--dataset_dir', tdir,
+                    '--table_name', tname,
+                    '--single_max', str(args.single_max),
+                    '--driver_memory', args.driver_memory,
+                    '--missing_token', args.missing_token,
+                ]
+                if args.spark_master:
+                    cmd += ['--spark_master', args.spark_master]
+                try:
+                    with open(log_file, 'w') as lf:
+                        ret = subprocess.run(
+                            cmd, stdout=lf, stderr=subprocess.STDOUT,
+                            cwd=os.path.dirname(main_py), timeout=args.timeout,
+                        )
+                    if ret.returncode != 0:
+                        runtime.log(
+                            f"  -> FAILED (exit {ret.returncode}), see {log_file}"
+                        )
+                        runtime.end_table(
+                            tname, started, started_iso,
+                            outcome='failed', exit_code=ret.returncode,
+                            log_file=log_file,
+                        )
+                    else:
+                        runtime.log("  -> OK")
+                        runtime.end_table(
+                            tname, started, started_iso,
+                            outcome='ok', exit_code=0, log_file=log_file,
+                        )
+                except subprocess.TimeoutExpired:
+                    runtime.log(
+                        f"  -> TIMEOUT after {args.timeout}s — killed, "
+                        f"moving to next table"
                     )
-                if ret.returncode != 0:
-                    print(f"  -> FAILED (exit {ret.returncode}), see {log_file}")
-                else:
-                    print(f"  -> OK")
-            except subprocess.TimeoutExpired:
-                print(f"  -> TIMEOUT after {args.timeout}s — killed")
-                with open(log_file, 'a') as lf:
-                    lf.write(f"\n\n=== KILLED: exceeded {args.timeout}s timeout ===\n")
+                    with open(log_file, 'a') as lf:
+                        lf.write(
+                            f"\n\n=== KILLED: exceeded {args.timeout}s timeout ===\n"
+                        )
+                    runtime.end_table(
+                        tname, started, started_iso,
+                        outcome='timeout', exit_code=124, log_file=log_file,
+                    )
+        finally:
+            if runtime.records:
+                try:
+                    runtime.write_summary()
+                except Exception as e:
+                    print(f"WARNING: failed to write runtime summary: {e}")
+            runtime.close()
+            print(f"Runtime master log: {runtime.master_path}")
 
-    # ---- Phase 2: Aggregate evaluation ----
     print("\n" + "=" * 70)
     print("AGGREGATED EVALUATION")
     print("=" * 70)
 
-    lake_tp, lake_fp, lake_errors = 0, 0, 0
     lake_rows = 0
     tables_ok, tables_skipped, tables_failed = 0, 0, 0
     per_table_rows = []
-
     lake_by_partition = {}
     lake_by_variant = {}
 
     for tdir in table_dirs:
         tname = os.path.basename(tdir)
         cleaned_csv = os.path.join(tdir, 'result', tname, f'{tname}Cleaned.csv')
+        clean_path = os.path.join(tdir, 'clean.csv')
+        dirty_path = os.path.join(tdir, 'dirty.csv')
 
         try:
             lineage_df = load_lineage(tdir)
@@ -374,117 +546,84 @@ def main():
 
         if not os.path.isfile(cleaned_csv):
             try:
-                clean_df = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-                dirty_df = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-                _, _, errors = compute_raw_counts(clean_df, dirty_df, dirty_df)
-
-                lake_errors += errors
-                lake_rows += len(clean_df)
+                errors = count_ground_truth_errors(clean_path, dirty_path, args.missing_token)
+                lake_rows += len(_read_table_csv(clean_path))
                 tables_skipped += 1
 
                 if lineage_df is not None:
-                    bp, bv = compute_lineage_counts(clean_df, dirty_df, dirty_df, lineage_df)
+                    clean_df = _read_table_csv(clean_path)
+                    dirty_df = _read_table_csv(dirty_path)
+                    bp, bv = compute_lineage_counts(
+                        clean_df, dirty_df, dirty_df, lineage_df, args.missing_token,
+                    )
                     _accumulate(lake_by_partition, bp)
                     _accumulate(lake_by_variant, bv)
 
-                per_table_rows.append({
-                    'table': tname, 'status': 'no_result',
-                    'TP': 0, 'FP': 0, 'errors': errors,
-                    'precision': 0.0, 'recall': 0.0, 'f1': 0.0,
-                })
+                per_table_rows.append(metrics_result_row(tname, 'no_result', skipped_table_metrics(errors)))
             except Exception as e:
                 tables_failed += 1
-                per_table_rows.append({
-                    'table': tname, 'status': f'load_error: {e}',
-                    'TP': 0, 'FP': 0, 'errors': 0,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                per_table_rows.append(metrics_result_row(tname, f'load_error: {e}', {}))
             continue
 
         try:
-            format_empty_data(cleaned_csv, cleaned_csv)
-            clean_df = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-            dirty_df = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-            cleaned_df = read_csv_like_holoclean(cleaned_csv)
-
-            tp, fp, errors = compute_raw_counts(clean_df, dirty_df, cleaned_df)
-            prec, rec, f1 = _prf(tp, fp, errors)
-
-            lake_tp += tp
-            lake_fp += fp
-            lake_errors += errors
-            lake_rows += len(clean_df)
+            metrics = evaluate_quintet_table(
+                clean_path, dirty_path, cleaned_csv,
+                missing_token=args.missing_token,
+            )
+            lake_rows += len(_read_table_csv(clean_path))
             tables_ok += 1
 
             if lineage_df is not None:
-                bp, bv = compute_lineage_counts(clean_df, dirty_df, cleaned_df, lineage_df)
+                clean_df = _read_table_csv(clean_path)
+                dirty_df = _read_table_csv(dirty_path)
+                cleaned_df = _read_table_csv(cleaned_csv)
+                bp, bv = compute_lineage_counts(
+                    clean_df, dirty_df, cleaned_df, lineage_df, args.missing_token,
+                )
                 _accumulate(lake_by_partition, bp)
                 _accumulate(lake_by_variant, bv)
 
-            per_table_rows.append({
-                'table': tname, 'status': 'ok',
-                'TP': tp, 'FP': fp, 'errors': errors,
-                'precision': prec, 'recall': rec, 'f1': f1,
-            })
+            per_table_rows.append(metrics_result_row(tname, 'ok', metrics))
         except Exception as e:
             try:
-                clean_df = read_csv_like_holoclean(os.path.join(tdir, 'clean.csv'))
-                dirty_df = read_csv_like_holoclean(os.path.join(tdir, 'dirty.csv'))
-                _, _, errors = compute_raw_counts(clean_df, dirty_df, dirty_df)
-
-                lake_errors += errors
-                lake_rows += len(clean_df)
+                errors = count_ground_truth_errors(clean_path, dirty_path, args.missing_token)
+                lake_rows += len(_read_table_csv(clean_path))
                 tables_failed += 1
 
                 if lineage_df is not None:
-                    bp, bv = compute_lineage_counts(clean_df, dirty_df, dirty_df, lineage_df)
+                    clean_df = _read_table_csv(clean_path)
+                    dirty_df = _read_table_csv(dirty_path)
+                    bp, bv = compute_lineage_counts(
+                        clean_df, dirty_df, dirty_df, lineage_df, args.missing_token,
+                    )
                     _accumulate(lake_by_partition, bp)
                     _accumulate(lake_by_variant, bv)
 
-                per_table_rows.append({
-                    'table': tname,
-                    'status': f'eval_error_but_counted: {str(e)[:50]}',
-                    'TP': 0, 'FP': 0, 'errors': errors,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                per_table_rows.append(
+                    metrics_result_row(
+                        tname, f'eval_error_but_counted: {str(e)[:50]}', skipped_table_metrics(errors)
+                    )
+                )
             except Exception:
                 tables_failed += 1
-                per_table_rows.append({
-                    'table': tname, 'status': f'eval_error: {e}',
-                    'TP': 0, 'FP': 0, 'errors': 0,
-                    'precision': None, 'recall': None, 'f1': None,
-                })
+                per_table_rows.append(metrics_result_row(tname, f'eval_error: {e}', {}))
 
-    lake_prec, lake_rec, lake_f1 = _prf(lake_tp, lake_fp, lake_errors)
-
-    summary = (
-        f"\nLake directory : {lake_dir}\n"
-        f"Tables total   : {len(table_dirs)}\n"
-        f"Tables cleaned : {tables_ok}\n"
-        f"Tables skipped : {tables_skipped}\n"
-        f"Tables failed  : {tables_failed}\n"
-        f"\n--- Lake-Level Aggregated Metrics ---\n"
-        f"Total TP       : {lake_tp}\n"
-        f"Total FP       : {lake_fp}\n"
-        f"Total errors   : {lake_errors}\n"
-        f"Precision      : {lake_prec:.6f}\n"
-        f"Recall         : {lake_rec:.6f}\n"
-        f"F1             : {lake_f1:.6f}\n"
-        f"Total rows     : {lake_rows}\n"
+    lake = aggregate_lake_metrics(per_table_rows)
+    summary = format_lake_summary(
+        lake_dir, table_dirs, tables_ok, tables_skipped, tables_failed, lake, lake_rows,
     )
     print(summary)
 
     if lake_by_partition:
-        _print_breakdown("PER-PARTITION LAKE-WIDE RESULTS", lake_by_partition)
+        _print_breakdown("PER-PARTITION LAKE-WIDE CORRECTION RESULTS", lake_by_partition)
     else:
         print("\n(No lineage partition data available.)")
 
     if lake_by_variant:
-        _print_breakdown("PER-SOURCE-VARIANT LAKE-WIDE RESULTS", lake_by_variant)
+        _print_breakdown("PER-SOURCE-VARIANT LAKE-WIDE CORRECTION RESULTS", lake_by_variant)
     else:
         print("\n(No lineage source-variant data available.)")
 
-    # ---- Save outputs ----
     pd.DataFrame(per_table_rows).to_csv(
         os.path.join(output_dir, 'per_table_results.csv'), index=False
     )
@@ -499,7 +638,7 @@ def main():
             prec, rec, f1 = _prf(m["tp"], m["fp"], m["errors"])
             rows.append({
                 "category": key, "errors": m["errors"],
-                "tp": m["tp"], "fp": m["fp"],
+                "cor_tp": m["tp"], "cor_fp": m["fp"],
                 "precision": prec, "recall": rec, "f1": f1,
             })
         return rows
@@ -507,16 +646,12 @@ def main():
     partition_rows = _breakdown_to_list(lake_by_partition) if lake_by_partition else []
     variant_rows = _breakdown_to_list(lake_by_variant) if lake_by_variant else []
 
+    lake_json = lake_evaluation_json(tables_ok, tables_skipped, tables_failed, lake_rows, lake)
+    lake_json['per_partition'] = partition_rows
+    lake_json['per_source_variant'] = variant_rows
+
     with open(os.path.join(output_dir, 'lake_evaluation.json'), 'w') as f:
-        json.dump({
-            'total_tp': lake_tp, 'total_fp': lake_fp,
-            'total_errors': lake_errors,
-            'precision': lake_prec, 'recall': lake_rec, 'f1': lake_f1,
-            'tables_cleaned': tables_ok, 'tables_skipped': tables_skipped,
-            'tables_failed': tables_failed, 'total_rows': lake_rows,
-            'per_partition': partition_rows,
-            'per_source_variant': variant_rows,
-        }, f, indent=2)
+        json.dump(lake_json, f, indent=2)
 
     if partition_rows:
         pd.DataFrame(partition_rows).to_csv(

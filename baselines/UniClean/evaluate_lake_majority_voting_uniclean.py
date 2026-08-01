@@ -5,7 +5,7 @@ from __future__ import annotations
 Lake-level evaluation script for Uniclean with MAJORITY VOTING for joined tables.
 
 This mirrors the logic of
-`/home/fatemeh/LakeCorrectionBench/HoloClean/evaluate_lake_majority_voting.py`,
+`baselines/HoloClean/evaluate_lake_majority_voting.py`,
 but is adapted to Uniclean's file layout:
 
 - Input (`--lake-dir`): root directory of the (joined) data lake.

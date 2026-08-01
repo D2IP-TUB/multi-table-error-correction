@@ -4,6 +4,7 @@ import shutil
 from io import StringIO
 from pathlib import Path
 import config
+from error_cells import get_error_profile, is_gt_mode, values_equal
 
 
 # Merged headers are "table::col_id::col_name" (join) or "table::col_id::name | table2::col_id::name" (union).
@@ -167,6 +168,81 @@ def recreate_merged_table_from_provenance(df_prov, source_tables_dict, csv_type=
     return pd.DataFrame(merged_string_data)
 
 
+def load_source_error_profiles(source_tables):
+    """Load per-source-table error profiles for the configured ERROR_MODE."""
+    return {
+        table_name: get_error_profile(config.DIR_PATH / table_name)
+        for table_name in source_tables
+    }
+
+
+def merged_row_has_error(row_idx, df_prov, merged_dirty_df, merged_clean_df, error_profiles):
+    """
+    Return True if any cell in a merged row is erroneous.
+
+    GT mode: normalized dirty vs clean comparison (via provenance when available).
+    DETECTED mode: source (row, column) listed in that table's detected_errors.csv.
+    """
+    for col_name in df_prov.columns:
+        prov_value = df_prov.iloc[row_idx][col_name]
+        dirty_val = merged_dirty_df.iloc[row_idx][col_name]
+        clean_val = merged_clean_df.iloc[row_idx][col_name]
+
+        if not prov_value or prov_value == '':
+            # No provenance (e.g. dangling join side): fall back to GT cell compare only.
+            if is_gt_mode() and not values_equal(dirty_val, clean_val):
+                return True
+            continue
+
+        parts = prov_value.split(' § ')
+        if len(parts) != 3:
+            if is_gt_mode() and not values_equal(dirty_val, clean_val):
+                return True
+            continue
+
+        source_table = parts[0]
+        source_col_idx = int(parts[1])
+        source_row_idx = int(parts[2])
+
+        if source_table not in error_profiles:
+            if is_gt_mode() and not values_equal(dirty_val, clean_val):
+                return True
+            continue
+
+        # GT and DETECTED both go through TableErrorProfile (detection used at merge time).
+        profile = error_profiles[source_table]
+        if profile.is_error(source_row_idx, source_col_idx, dirty_value=dirty_val):
+            return True
+
+    return False
+
+
+def find_rows_to_keep(dirty_df, clean_df, df_prov, error_profiles):
+    """
+    Determine which rows to keep after UNION-style deduplication.
+
+    Deduplication is driven entirely by the dirty table: rows with identical
+    dirty values are candidates for removal. However, any row that contains
+    at least one erroneous cell is always kept, because we cannot safely
+    discard it. Among a group of duplicate *error-free* rows, only the first
+    occurrence is kept.
+
+    Returns:
+        Sorted list of row indices (0-based) to keep.
+    """
+    seen_clean_tuples = set()
+    keep = []
+    for idx in range(len(dirty_df)):
+        if merged_row_has_error(idx, df_prov, dirty_df, clean_df, error_profiles):
+            keep.append(idx)
+        else:
+            row_tuple = tuple(dirty_df.iloc[idx])
+            if row_tuple not in seen_clean_tuples:
+                seen_clean_tuples.add(row_tuple)
+                keep.append(idx)
+    return keep
+
+
 def recreate_merged_tables_as_strings(disambiguate_columns=True):
     """
     Iterate over provenance files and recreate merged CSV files with all columns as strings.
@@ -182,7 +258,8 @@ def recreate_merged_tables_as_strings(disambiguate_columns=True):
             get a _<table> suffix (e.g. id -> id_fk_table, id_pk_table) for clearer output.
     """
     
-    output_dir = Path('merged_strings_default_union_all') / config.CORPUS / config.MERGED_PATH.name
+    output_root = config.RESULTS_ROOT if config.RESULTS_ROOT is not None else Path('.')
+    output_dir = output_root / 'merged_strings_default_union_all' / config.CORPUS / config.MERGED_PATH.name
     output_dir.mkdir(parents=True, exist_ok=True)
     
     provenance_files = list(config.MERGED_PATH.glob('*_provenance.csv'))

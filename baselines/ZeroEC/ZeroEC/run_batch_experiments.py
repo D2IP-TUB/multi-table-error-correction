@@ -14,31 +14,23 @@ from experiment_utils import extract_metrics_from_output, aggregate_results
 
 def create_config_script(template_path, config, output_script_path):
     """
-    Create a configured version of correction.py with specified parameters.
+    Create a configured runner that invokes the correction script with CLI args.
     """
-    with open(template_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Replace the configuration section in __main__
-    replacements = {
-        "clean_data_path = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3/movies_1/clean.csv'":
-            f"clean_data_path = '{config['clean_data_path']}'",
-        "dirty_data_path = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3/movies_1/dirty.csv'":
-            f"dirty_data_path = '{config['dirty_data_path']}'",
-        "detection_path = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3/movies_1/perfect_error_detection.csv'":
-            f"detection_path = '{config['detection_path']}'",
-        "output_path = \"/home/fatemeh/LakeCorrectionBench/ZeroEC/results/Quintet_3/movies_1\"":
-            f"output_path = \"{config['output_path']}\"",
-        "human_repair_num = 20":
-            f"human_repair_num = {config['human_repair_num']}"
-    }
-    
-    for old, new in replacements.items():
-        content = content.replace(old, new)
-    
+    content = f'''#!/usr/bin/env python3
+import runpy
+import sys
+sys.argv = [
+    {template_path!r},
+    "--clean_data_path", {config["clean_data_path"]!r},
+    "--dirty_data_path", {config["dirty_data_path"]!r},
+    "--detection_path", {config["detection_path"]!r},
+    "--output_path", {config["output_path"]!r},
+    "--human_repair_num", {str(config["human_repair_num"])!r},
+]
+runpy.run_path({template_path!r}, run_name="__main__")
+'''
     with open(output_script_path, 'w', encoding='utf-8') as f:
         f.write(content)
-    
     print(f"Created configured script: {output_script_path}")
 
 
@@ -91,10 +83,12 @@ def run_experiment(config, correction_template_path, zeroec_base_path):
 
 def main():
     """Main execution function."""
-    # Configuration
-    ZEROEC_BASE_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot/ZeroEC'
-    DATASETS_PATH = '/home/fatemeh/LakeCorrectionBench/datasets/Quintet_3'
-    RESULTS_BASE_PATH = '/home/fatemeh/LakeCorrectionBench/ZeroEC-0-Shot/results/Quintet_3_0_only'
+    from pathlib import Path
+    _REPO = Path(__file__).resolve().parents[3]
+    # Configuration (repo-relative)
+    ZEROEC_BASE_PATH = str(Path(__file__).resolve().parent)
+    DATASETS_PATH = str(_REPO / 'datasets' / 'unrelated_tables' / 'Quintet')
+    RESULTS_BASE_PATH = str(_REPO / 'results' / 'zeroec' / 'Quintet_batch')
     CORRECTION_TEMPLATE = os.path.join(ZEROEC_BASE_PATH, 'correction_zero_shot.py')
 
     if not os.path.exists(RESULTS_BASE_PATH):

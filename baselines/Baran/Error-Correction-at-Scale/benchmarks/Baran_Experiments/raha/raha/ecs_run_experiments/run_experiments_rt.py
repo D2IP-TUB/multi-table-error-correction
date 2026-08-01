@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import subprocess
 import sys
@@ -111,17 +112,18 @@ class LakeCorrectionExperimentRunner:
 
 if __name__ == "__main__":
     dataset_names =  ["DGov_NT"]
-    datasets_path = "/home/fatemeh/LakeCorrectionBench/datasets"
+    _REPO = Path(__file__).resolve().parents[9]
+    datasets_path = str(_REPO / 'datasets')
     
-    shared_runner = LakeCorrectionExperimentRunner("/home/fatemeh/LakeCorrectionBench/Baran/Error-Correction-at-Scale/benchmarks/Baran_Experiments/raha/raha/ecs_run_experiments/hydra_configs/shared.yaml")
-    results_runner = LakeCorrectionExperimentRunner("/home/fatemeh/LakeCorrectionBench/Baran/Error-Correction-at-Scale/benchmarks/Baran_Experiments/raha/raha/ecs_run_experiments/hydra_configs/results.yaml")
+    shared_runner = LakeCorrectionExperimentRunner(str(Path(__file__).resolve().parent / 'hydra_configs' / 'shared.yaml'))
+    results_runner = LakeCorrectionExperimentRunner(str(Path(__file__).resolve().parent / 'hydra_configs' / 'results.yaml'))
     
     for dataset_name in dataset_names:
         # send_log(f"Running experiment for dataset: {dataset_name}")
         full_shared_config = {
             "shared": {
                 "sandbox_path": f"{datasets_path}/{dataset_name}",
-                "results_path": "/home/fatemeh/LakeCorrectionBench/results_baran_rt_10_2025", 
+                "results_path": str(Path(__file__).resolve().parents[9] / "results" / "baran" / "rt"), 
                 "dirty_file_name": "dirty.csv",
                 "clean_file_name": "clean.csv",
                 "repetitions": 5
@@ -132,8 +134,8 @@ if __name__ == "__main__":
         # full_results_config = {
         #     "defaults": ["*self*", "shared", "standard"],
         #     "results": {
-        #         "path_to_benchmark_dataframe": f"/home/fatemeh/LakeCorrectionBench/Results-10-03/results-no-rs/{dataset_name}/exp_raha-enough-labels/baran_standard_onebyone_results.csv",
-        #         "path_to_experiment_results_folder": f"/home/fatemeh/LakeCorrectionBench/Results-10-03/results-no-rs/{dataset_name}/exp_raha-enough-labels",
+        #         "path_to_benchmark_dataframe": f"{results_root}/{dataset_name}/exp_raha-enough-labels/baran_standard_onebyone_results.csv",
+        #         "path_to_experiment_results_folder": f"{results_root}/{dataset_name}/exp_raha-enough-labels",
         #         "labeling_budget": [1, 2, 3, 5, 8, 10],
         #         "variant": "standard"
         #     }

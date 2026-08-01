@@ -9,6 +9,7 @@
 ########################################
 
 
+from pathlib import Path
 import bz2
 import difflib
 import functools
@@ -56,7 +57,7 @@ class Correction:
         """
         The constructor.
         """
-        self.PRETRAINED_VALUE_BASED_MODELS_PATH = "/home/fatemeh/Error-Correction-at-Scale/downloads/revision-data/pretrained_value_based_models.dictionary"
+        self.PRETRAINED_VALUE_BASED_MODELS_PATH = str(Path(__file__).resolve().parents[2] / 'downloads' / 'revision-data' / 'pretrained_value_based_models.dictionary')
         self.VALUE_ENCODINGS = ["identity", "unicode"]
         self.CLASSIFICATION_MODEL = "ABC"   # ["ABC", "DTC", "GBC", "GNB", "KNC" ,"SGDC", "SVC"]
         self.IGNORE_SIGN = "<<<IGNORE_THIS_VALUE>>>"
@@ -718,8 +719,8 @@ if __name__ == "__main__":
     # p, r, f = data.get_data_cleaning_evaluation(correction_dictionary)[-3:]
     # print("Baran's performance on {}:\nPrecision = {:.2f}\nRecall = {:.2f}\nF1 = {:.2f}".format(data.name, p, r, f))
     # --------------------
-    # app.extract_revisions(wikipedia_dumps_folder="/home/fatemeh/Error-Correction-at-Scale/downloads")
-    # app.pretrain_value_based_models(revision_data_folder="/home/fatemeh/Error-Correction-at-Scale/downloads/revision-data")
+    # app.extract_revisions(wikipedia_dumps_folder="{revision_data_root}")
+    # app.pretrain_value_based_models(revision_data_folder="{revision_data_root}/revision-data")
 ########################################
 
 def main(results_path, dataset_path, dataset_name, labeling_budget, execution_number, column_wise_evaluation, column_idx, sampled_tuples):

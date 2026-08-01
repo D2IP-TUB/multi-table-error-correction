@@ -3,6 +3,7 @@ Compared to the regular ZeroEC version, this version will not use automatic
 chain-of-thought generation or correction rule generation.
 Instead, it solely relies on the retrieved relevant tuples as context and a
 small number of general correction examples as guidance for few-shot prompting and retrieval-augmented generation.'''
+from pathlib import Path
 import ast
 import copy
 import json
@@ -1399,7 +1400,7 @@ if __name__ == "__main__":
     # OPENAI_API_KEY_FD = ''
     # TEMPERATURE_FD = 0
     # param-embedding_model
-    EMBEDDING_MODEL_PATH = "/home/fatemeh/LakeCorrectionBench/ZeroEC/all-MiniLM-L6-v2"
+    EMBEDDING_MODEL_PATH = str(Path(__file__).resolve().parents[2] / 'ZeroEC' / 'all-MiniLM-L6-v2')
     # ------------------------------------------------------------------------------------------------------------------------
     # load data
     clean_data = pd.read_csv(clean_data_path, dtype=str, encoding='utf-8', keep_default_na=False)

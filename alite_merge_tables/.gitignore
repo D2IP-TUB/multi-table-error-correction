@@ -1,0 +1,25 @@
+Align Benchmark
+datasets
+results
+_pycache_
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz
+codes/Join Benchmark
+codes/Real Benchmark
+codes/IMDB Benchmark
+codes/TURL Benchmark
+codes/BICOMNLOJ Benchmark
+codes/ALITE Benchmark
+codes/ALITE Technical Report
+codes/ALITE Technical Report
+codes/bert
+codes/fasttext
+codes/imdb Benchmark samples/
+codes/turl/
+codes/alite_align_benchmark_results.txt

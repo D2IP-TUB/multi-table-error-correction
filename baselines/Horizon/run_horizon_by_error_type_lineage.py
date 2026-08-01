@@ -13,6 +13,7 @@ Outputs:
   - horizon_by_error_type.csv          (summary per error type + overall)
   - horizon_by_error_type_per_table.csv (per-table breakdown)
 """
+from pathlib import Path
 import os
 import sys
 import csv
@@ -144,7 +145,7 @@ def main():
     parser.add_argument(
         'lake_dir',
         nargs='?',
-        default='/home/fatemeh/data/horizon-code/Final_Datasets/maximal_overlap_with_duplicates',
+        default=str(Path(__file__).resolve().parents[2] / 'datasets' / 'unionable_tables' / 'union_datasets_used_in_exp' / 'maximal_overlap_with_duplicates'),
         help='Path to the lake directory containing table folders'
     )
     parser.add_argument('--output', default=None,

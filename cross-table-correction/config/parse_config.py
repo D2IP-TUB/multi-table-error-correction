@@ -1,6 +1,7 @@
 import logging
 import os
 from configparser import ConfigParser
+from pathlib import Path
 
 from config.pipeline_config import (
     CorrectionConfig,
@@ -16,9 +17,19 @@ from config.pipeline_config import (
     ZoningConfig,
 )
 
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+
 
 def str_to_bool(value: str) -> bool:
     return str(value).lower() in {"1", "true", "yes"}
+
+
+def _resolve_path(path: str) -> str:
+    """Resolve relative paths against the repository root."""
+    p = Path(path)
+    if not p.is_absolute():
+        p = _REPO_ROOT / p
+    return str(p.resolve())
 
 
 def read_ecs_config(
@@ -29,12 +40,17 @@ def read_ecs_config(
     config.read(config_path)
 
     # DIRECTORIES
-    sandbox_dir = config["DIRECTORIES"]["sandbox_dir"]
+    sandbox_dir = _resolve_path(config["DIRECTORIES"]["sandbox_dir"])
     tables_dir = os.path.join(sandbox_dir, config["DIRECTORIES"]["tables_dir"])
     dirty_files_name = config["DIRECTORIES"]["dirty_files_name"]
     clean_files_name = config["DIRECTORIES"]["clean_files_name"]
-    output_dir = config["DIRECTORIES"]["output_dir"]
-    logs_dir = os.path.join(sandbox_dir, config["DIRECTORIES"]["logs_dir"])
+    output_dir = _resolve_path(config["DIRECTORIES"]["output_dir"])
+    logs_cfg = config["DIRECTORIES"]["logs_dir"]
+    # Absolute / repo-relative logs stay as-is; bare names stay under sandbox.
+    if os.path.isabs(logs_cfg) or "/" in logs_cfg or "\\" in logs_cfg:
+        logs_dir = _resolve_path(logs_cfg)
+    else:
+        logs_dir = os.path.join(sandbox_dir, logs_cfg)
     exp_name = config["EXPERIMENT"]["exp_name"]
     logs_dir = os.path.join(logs_dir, exp_name)
     experiment_output_dir = os.path.join(output_dir, exp_name)

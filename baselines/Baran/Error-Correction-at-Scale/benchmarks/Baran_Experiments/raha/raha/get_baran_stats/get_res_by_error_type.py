@@ -174,10 +174,10 @@ def get_total_results_by_error_type(labeling_budgets, repition, result_df, error
 def main():
     repition = range(1, 4)
     labeling_budgets = [1, 10]
-    sandbox_path = "/home/fatemeh/data/LakeCorrectionBench/datasets/Final_Datasets/isolated_partitioned_base"
+    sandbox_path = str(Path(__file__).resolve().parents[9] / 'datasets' / 'unionable_tables' / 'union_datasets_used_in_exp' / 'isolated')
     dirty_file_name = "dirty.csv"
     clean_file_name = "clean.csv"
-    results_path = "/home/fatemeh/data/LakeCorrectionBench/results_union/isolated/isolated_partitioned_base/exp_baran-enough-labels"
+    results_path = str(Path(__file__).resolve().parents[9] / 'results' / 'baran' / 'by_error_type')
     algorithm = "raha"
 
     print("Collecting per-table results...")

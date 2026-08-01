@@ -220,12 +220,12 @@ def main(cfg):
     # Adjust these parameters
     repition = range(1, 4)
     # cells_limits = [685, 1259, 1767, 2677, 3951, 4734]   
-    cells_limits = []
+    cells_limits = [627, 4026]
     
-    sandbox_path = "/home/fatemeh/data/cells-limit/LakeCorrectionBench/datasets/Real_Lake_Default_Datasets/merged_strings_default_set_union/mit_dwh/merged"
+    sandbox_path = str(Path(__file__).resolve().parents[9] / 'results' / 'alite' / 'merged_tables')
     dirty_file_name = "dirty.csv"
     clean_file_name = "clean.csv"
-    results_path = "/home/fatemeh/data/LakeCorrectionBench/results_mit_pm_runtime/merged/exp_baran-enough-labels"
+    results_path = str(Path(__file__).resolve().parents[9] / 'results' / 'baran' / 'alite' / 'exp_baran-enough-labels-cells-limit')
     df_path = os.path.join(results_path, "baran_cells_limit_3iter.csv")
     
     tp_fn = get_eds_n_errors(sandbox_path, dirty_file_name, clean_file_name)

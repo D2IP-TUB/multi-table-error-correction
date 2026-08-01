@@ -24,8 +24,8 @@ cleaners = [
 # 默认参数
 file_load = 'TestDataset/3_beers/dirty_index.csv'
 clean_path = 'TestDataset/3_beers/clean_index.csv'
-save_path = '/home/fatemeh/Uniclean-bench-Result/datasets_and_rules/Quintet_3/uni_clean_results'
-table_name = 'beers'
+save_path = 'TestDataset/result/'
+table_name = 'beers_3'
 attributes = ["brewery_name", "city", "state"]
 single_max = 10000
 

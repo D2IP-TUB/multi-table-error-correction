@@ -13,17 +13,17 @@ from SampleScrubber.cleaner.single import Date, Pattern
 from util import evaluate_cleaning_performance, save_cleaned_data
 
 # 正则表达式模式
-# pattern = r"^(0[1-9]|1[0-2]):[0-5][0-9]\s?(AM|PM)$"
+pattern = r"^(0[1-9]|1[0-2]):[0-5][0-9]\s?(AM|PM)$"
 
-# flight 数据清洗规则
+# flight
 cleaners = [
-    # Pattern("sched_dep_time", pattern, '0'),
-    # Pattern("act_dep_time", pattern, '1'),
-    # Pattern("sched_arr_time", pattern, '2'),
-    # Date("sched_dep_time", "%I:%M %p", '5'),
-    # Date("act_dep_time", "%I:%M %p", '6'),
-    # Date("sched_arr_time", "%I:%M %p", '7'),
-    # Date("act_arr_time", "%I:%M %p", '8'),
+    Pattern("sched_dep_time", pattern, '0'),
+    Pattern("act_dep_time", pattern, '1'),
+    Pattern("sched_arr_time", pattern, '2'),
+    Date("sched_dep_time", "%I:%M %p", '5'),
+    Date("act_dep_time", "%I:%M %p", '6'),
+    Date("sched_arr_time", "%I:%M %p", '7'),
+    Date("act_arr_time", "%I:%M %p", '8'),
     AttrRelation(["flight"], ["sched_dep_time"], '3'),
     AttrRelation(["flight"], ["act_dep_time"], '4'),
     AttrRelation(["flight"], ["sched_arr_time"], '9'),
@@ -31,11 +31,11 @@ cleaners = [
 ]
 
 # 默认参数
-file_load = '/home/fatemeh/Uniclean-bench-Result/flights_splitted_without_key_errors/joined/flights_oerr/dirty.csv'
-clean_path = '/home/fatemeh/Uniclean-bench-Result/flights_splitted_without_key_errors/joined/flights_oerr/clean.csv'
-save_path = '/home/fatemeh/Uniclean-bench-Result/flights_splitted_without_key_errors/joined/flights_oerr/result/'
-table_name = 'flights'
-attributes = ["sched_dep_time" ,"sched_arr_time","act_dep_time","act_arr_time"]
+file_load = 'TestDataset/2_flights/dirty_index.csv'
+clean_path = 'TestDataset/2_flights/clean_index.csv'
+save_path = 'TestDataset/result/'
+table_name = 'flight_2test'
+attributes = ["sched_dep_time", "act_dep_time", "sched_arr_time", "act_arr_time"]
 single_max = 10000
 
 # 添加动态参数解析

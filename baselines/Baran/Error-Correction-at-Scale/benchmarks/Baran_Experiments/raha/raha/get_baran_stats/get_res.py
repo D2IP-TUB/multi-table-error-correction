@@ -577,15 +577,15 @@ def main(cfg):
     # labeling_budgets = cfg["results"]["labeling_budget"]
     labeling_budgets =  [1, 10]                          
     # sandbox_path = str(Path(cfg["shared"]["sandbox_path"]).resolve())
-    sandbox_path = "/home/fatemeh/data/cells-limit/LakeCorrectionBench/datasets/Real_Lake_Default_Datasets/merged_strings_default_set_union/mit_dwh/merged"
+    sandbox_path = str(Path(__file__).resolve().parents[9] / 'datasets' / 'real_lakes' / 'open_data_uk_merged_set_union')
     # dirty_file_name = cfg["shared"]["dirty_file_name"]
     dirty_file_name = "dirty.csv"
     # clean_file_name = cfg["shared"]["clean_file_name"]
     clean_file_name = "clean.csv"
     # results_path = str(Path(cfg["results"]["path_to_experiment_results_folder"]).resolve()) # execution not experiment folder
-    results_path = "/home/fatemeh/data/LakeCorrectionBench/results_mit_pm_runtime/merged/exp_baran-enough-labels"
+    results_path = str(Path(__file__).resolve().parents[9] / 'results' / 'baran' / 'pm')
     # df_path = str(Path(cfg["results"]["path_to_benchmark_dataframe"]).resolve())
-    df_path = "/home/fatemeh/data/LakeCorrectionBench/results_mit_pm_runtime/merged/exp_baran-enough-labels/baran_3iter_with_types.csv"
+    df_path = str(Path(__file__).resolve().parents[9] / 'results' / 'baran' / 'pm' / 'baran_3iter_with_types.csv')
     if variant == "standard":
         tp_fn = get_eds_n_errors(sandbox_path, dirty_file_name, clean_file_name)
         total_results = get_raha_res(repition, labeling_budgets, sandbox_path, results_path, df_path, tp_fn, dirty_file_name)

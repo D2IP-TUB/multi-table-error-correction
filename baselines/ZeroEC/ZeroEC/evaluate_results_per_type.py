@@ -14,6 +14,7 @@ Outputs:
   - zeroec_per_type_summary.csv    : aggregated across all tables per (human_repair_num, error_type)
 """
 
+from pathlib import Path
 import html
 import os
 import re
@@ -22,8 +23,9 @@ import numpy as np
 import pandas as pd
 
 
-TABLES_PATH = "/home/fatemeh/LakeCorrectionBench/uk_open_data/merged"
-RESULTS_PATH = "/home/fatemeh/LakeCorrectionBench/ZeroEC/results/open_data_uk_pm_labeling_budget_10"
+_REPO = Path(__file__).resolve().parents[3]
+TABLES_PATH = str(_REPO / 'datasets' / 'real_lakes' / 'open_data_uk_merged_set_union')
+RESULTS_PATH = str(_REPO / 'results' / 'zeroec' / 'open_data_uk_pm_labeling_budget_10')
 # Consolidated error annotations (UK source table_id, row, column_name -> error_type)
 ERROR_MAP_ALL_PATH = os.path.join(TABLES_PATH, "error_map_all_tables.csv")
 DIRTY_FILE = "dirty.csv"

@@ -57,7 +57,7 @@ class Correction:
         """
         The constructor.
         """
-        # self.PRETRAINED_VALUE_BASED_MODELS_PATH = "/home/fatemeh/Error-Correction-at-Scale/downloads/revision-data/pretrained_value_based_models.dictionary"
+        # self.PRETRAINED_VALUE_BASED_MODELS_PATH = "{revision_data_root}/revision-data/pretrained_value_based_models.dictionary"
         self.PRETRAINED_VALUE_BASED_MODELS_PATH = ""
         self.VALUE_ENCODINGS = ["identity", "unicode"]
         self.CLASSIFICATION_MODEL = "ABC"   # ["ABC", "DTC", "GBC", "GNB", "KNC" ,"SGDC", "SVC"]
