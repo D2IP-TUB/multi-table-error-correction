@@ -17,7 +17,7 @@ Benchmark data for multi-table error correction.
 We dropped columns whose purported clean values were inconsistent:
 
 - **Rayyan:** `journal_issn`, `article_jcreated_at`, `article_pagination`
-- **Movies:** columns dropped for the same reason
+- **Movies:** `Release Date`, `Director`, `Creator`, `Genre`, `Description` 
 
 ## Layout sketch
 
