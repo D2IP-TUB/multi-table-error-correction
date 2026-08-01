@@ -162,7 +162,7 @@ Statistics accumulate in `results/alite/<corpus>/fd_statistics.csv`.
 
 ### Runtime notes
 
-- Most clusters finish in minutes; a few large outer-union clusters can take **hours to days** (notably **mit_dwh `cluster_0027`**: ~37 tables, ~94k rows × 245 columns after union).
+- Most clusters finish in minutes; a few large outer-union clusters can take **hours to days** (notably **mit_dwh `cluster_0027`**: ~37 tables, ~94k rows × 437 columns).
 - The script processes clusters sequentially and **skips clusters that already have output CSVs** only if you delete partial outputs before re-running; on failure it prints `ERROR in cluster …` and continues with the next cluster.
 - To re-run a single cluster, delete its three output files in `fd_output/` and run `alite_fd.py` again.
 
